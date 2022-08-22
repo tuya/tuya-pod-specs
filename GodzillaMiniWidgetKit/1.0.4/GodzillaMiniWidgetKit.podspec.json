@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GZLMiniAppCore_iOS": [],
+        "GodzillaMiniBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GodzillaMiniWidgetKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GodzillaMiniWidgetKit-1.0.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GodzillaMiniWidgetKit.",
+    "vendored_frameworks": [
+        "Build/GodzillaMiniWidgetKit.xcframework"
+    ],
+    "version": "1.0.4"
+}

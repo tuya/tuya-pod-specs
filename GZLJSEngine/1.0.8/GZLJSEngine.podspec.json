@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "JavaScriptCore",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLJSEngine",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLJSEngine-1.0.8.zip",
+        "type": "zip"
+    },
+    "summary": "JS引擎封装，桥接多个JS引擎",
+    "vendored_frameworks": [
+        "Build/GZLJSEngine.xcframework"
+    ],
+    "version": "1.0.8"
+}

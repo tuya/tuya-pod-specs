@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYUniP2pFileManager": [
+            "1.0.0"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCBTP2PKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TYCBTP2PKit": [
+            "ios/TYCBTP2PKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCBTP2PKit-1.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TYCBTP2PKit.xcframework"
+    ],
+    "version": "1.0.0"
+}

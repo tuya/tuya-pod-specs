@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYVideoCipper",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYVideoCipper.xcframework/ios-arm64_armv7/TYVideoCipper.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYVideoCipper-1.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYVideoCipper.",
+    "vendored_frameworks": [
+        "Build/TYVideoCipper.xcframework"
+    ],
+    "version": "1.0.2"
+}

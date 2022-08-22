@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "Gaëtan Renaudeau": "renaudeau.gaetan@gmail.com"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "AVFoundation"
+    ],
+    "homepage": "https://github.com/gre/react-native-view-shot",
+    "license": "MIT",
+    "name": "RNViewShot",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "preserve_paths": "**/*.js",
+    "source": {
+        "http": "https://maven.tuya-inc.top/repository/app/ci/ios/release/RNViewShot/2.3.0.5/RNViewShot-2.3.0.5.zip",
+        "type": "zip"
+    },
+    "summary": "Capture a React Native view to an image",
+    "vendored_frameworks": [
+        "RNViewShot.xcframework"
+    ],
+    "version": "2.3.0.5"
+}

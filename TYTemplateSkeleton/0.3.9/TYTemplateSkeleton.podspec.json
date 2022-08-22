@@ -1,0 +1,39 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYOEMConfig": [],
+        "TYUIKit": [],
+        "YYModel": [],
+        "libextobjc": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYTemplateSkeleton",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <TYFoundationKit/TYFoundationKit.h>\n#import <TYUIKit/TYUIKit.h>",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTemplateSkeleton-0.3.9.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYTemplateSkeleton.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYTemplateSkeleton.xcframework"
+    ],
+    "version": "0.3.9"
+}

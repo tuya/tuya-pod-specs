@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYUniDLMapManager": [
+            "1.0.2"
+        ],
+        "TYUniLocationManager": [
+            "1.1.1"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCBTMapKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TYCBTMapKit": [
+            "ios/TYCBTMapKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCBTMapKit-2.3.1.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TYCBTMapKit.xcframework"
+    ],
+    "version": "2.3.1"
+}

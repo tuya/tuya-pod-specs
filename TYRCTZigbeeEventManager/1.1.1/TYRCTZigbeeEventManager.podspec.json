@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYPanelContext": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTZigbeeEventManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTZigbeeEventManager-1.1.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTZigbeeEventManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTZigbeeEventManager.xcframework"
+    ],
+    "version": "1.1.1"
+}
