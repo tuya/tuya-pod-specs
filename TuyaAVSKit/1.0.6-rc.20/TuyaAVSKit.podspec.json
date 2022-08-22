@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYOpusCodec": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaAVSKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TuyaAVSKit/Classes/TuyaAVSKitPrefix.pch",
+    "resource_bundles": {
+        "TuyaAVSKit": [
+            "TuyaAVSKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaAVSKit-1.0.6-rc.20.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaAVSKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TuyaAVSKit.xcframework"
+    ],
+    "version": "1.0.6-rc.20"
+}

@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TuyaAvLoggerSDK": [],
+        "TuyaP2PSDK": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "exclude_files": [
+        "TuyaP2pFileTransSDK/**/Android/*.*",
+        "TuyaP2pFileTransSDK/utils/rapidjson/msinttypes/*.*"
+    ],
+    "frameworks": [
+        "Foundation",
+        "AVFoundation",
+        "Foundation",
+        "CoreAudio",
+        "CoreMedia",
+        "CoreVideo",
+        "VideoToolbox",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "c++",
+        "z",
+        "iconv",
+        "bz2",
+        "resolv"
+    ],
+    "license": "none",
+    "name": "TuyaP2pFileTransSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "NO",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+        "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/Device $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/LogInterface $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/DownloadTask $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/P2PModule $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/PathManager $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/SessionGuard $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/TuyaNetProtocol $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/Platforms/IOS $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/utils",
+        "OTHER_CFLAGS": "-DLINUX"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaP2pFileTransSDK-1.1.0-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TuyaP2pFileTransSDK framework.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "vendored_frameworks": [
+        "Build/TuyaP2pFileTransSDK.xcframework"
+    ],
+    "version": "1.1.0-rc.1"
+}

@@ -1,0 +1,62 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYUniAPIRequestManager": [
+            "1.3.1"
+        ],
+        "TYUniAPMManager": [
+            "1.1.0-rc.7"
+        ],
+        "TYUniAppInfoManager": [
+            "1.2.2"
+        ],
+        "TYUniCountrySelectManager": [
+            "1.0.0"
+        ],
+        "TYUniFontManager": [
+            "1.0.2"
+        ],
+        "TYUniImageNetworkManager": [
+            "1.0.2"
+        ],
+        "TYUniLocalizationManager": [
+            "1.4.1"
+        ],
+        "TYUniOpenPageManager": [
+            "2.1.8"
+        ],
+        "TYUniRouterManager": [
+            "1.3.2"
+        ],
+        "TYUniShareManager": [
+            "1.0.5"
+        ],
+        "TYUniUtilsManager": [
+            "1.0.12"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCBTTYKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TYCBTTYKit": [
+            "ios/TYCBTTYKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCBTTYKit-2.2.8.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TYCBTTYKit.xcframework"
+    ],
+    "version": "2.2.8"
+}

@@ -1,0 +1,47 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "SafariServices"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPrivacyAndServiceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYPrivacyAndServiceModule/Classes/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPrivacyAndServiceModule-0.5.23.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYPrivacyAndServiceModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYPrivacyAndServiceModule.xcframework"
+    ],
+    "version": "0.5.23"
+}

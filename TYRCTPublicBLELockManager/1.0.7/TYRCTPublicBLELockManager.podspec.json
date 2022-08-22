@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYRCTPublicBLELockIOSKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTPublicBLELockManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTPublicBLELockManager-1.0.7.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTPublicBLELockManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTPublicBLELockManager.xcframework"
+    ],
+    "version": "1.0.7"
+}

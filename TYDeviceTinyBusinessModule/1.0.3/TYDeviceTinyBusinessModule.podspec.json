@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYDeviceDetailSktAPI": [],
+        "TYDeviceTinyBusinessPlugAPI": [],
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartShareKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYDeviceTinyBusinessModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYDeviceTinyBusinessModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYDeviceTinyBusinessModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYDeviceTinyBusinessModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYDeviceTinyBusinessModule\", ##__VA_ARGS__)",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceTinyBusinessModule-1.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYDeviceTinyBusinessModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYDeviceTinyBusinessModule.xcframework"
+    ],
+    "version": "1.0.3"
+}

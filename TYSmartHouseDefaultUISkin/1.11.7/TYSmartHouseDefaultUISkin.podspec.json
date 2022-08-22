@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYAnimationKit": [],
+        "TYBlockKit": [],
+        "TYEncryptImage": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartHouseUISkeleton": [],
+        "TYUIConfig": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "frameworks": "AudioToolbox"
+    },
+    "license": "none",
+    "name": "TYSmartHouseDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <TYFoundationKit/TYFoundationKit.h>\n#import \"UIImage+TYSmartHouseBundle.h\"\n#import <TYUIKit/TYUIKit.h>",
+    "resource_bundles": {
+        "TYSmartHouseUISkin": [
+            "TYSmartHouseDefaultUISkin/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHouseDefaultUISkin-1.11.7.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartHouseDefaultUISkin.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYSmartHouseDefaultUISkin.xcframework"
+    ],
+    "version": "1.11.7"
+}
