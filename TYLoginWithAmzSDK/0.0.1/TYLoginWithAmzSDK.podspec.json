@@ -1,0 +1,23 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "Security",
+        "SafariServices"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYLoginWithAmzSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/taojing/TYLoginWithAmzSDK-0.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYLoginWithAmzSDK.",
+    "vendored_frameworks": "TYLoginWithAmzSDK-0.0.3/VendorsFramework/**/*.framework",
+    "version": "0.0.1"
+}

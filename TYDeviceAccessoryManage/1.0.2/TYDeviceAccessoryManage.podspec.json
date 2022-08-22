@@ -1,0 +1,39 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYDeviceAccessoryManagePlugAPI": [],
+        "TYEncryptImage": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYDeviceAccessoryManage",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resource_bundles": {
+        "TYDeviceAccessoryManage": [
+            "TYDeviceAccessoryManage/Assets/*.png"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceAccessoryManage-1.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYDeviceAccessoryManage.",
+    "vendored_frameworks": [
+        "TYDeviceAccessoryManage.xcframework"
+    ],
+    "version": "1.0.2"
+}

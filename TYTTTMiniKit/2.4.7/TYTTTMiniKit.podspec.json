@@ -1,0 +1,53 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYUniDiffLayerManager": [
+            "1.0.11"
+        ],
+        "TYUniGZLTabBarManager": [
+            "1.1.0"
+        ],
+        "TYUniMiniHighwayManager": [
+            "1.0.7"
+        ],
+        "TYUniMiniProgramManager": [
+            "2.4.0-rc.8"
+        ],
+        "TYUniNavigationBarManager": [
+            "2.4.0"
+        ],
+        "TYUniNavigatorManager": [
+            "2.4.4"
+        ],
+        "TYUniOpenExtApiManager": [
+            "1.0.0-rc.5"
+        ],
+        "TYUniScrollManager": [
+            "2.0.0-rc.3"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYTTTMiniKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TYTTTMiniKit": [
+            "ios/TYTTTMiniKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTTTMiniKit-2.4.7.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TYTTTMiniKit.xcframework"
+    ],
+    "version": "2.4.7"
+}

@@ -1,0 +1,78 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "GZLJSEngine": [
+            "1.0.8"
+        ],
+        "GZLMiniAppAPM_iOS": [
+            "2.4.0"
+        ],
+        "GZLMiniAppCore_iOS": [
+            "2.4.11"
+        ],
+        "GZLMiniAppInject": [
+            "2.4.5"
+        ],
+        "GZLMiniAppInterceptor_iOS": [
+            "2.3.3"
+        ],
+        "GZLMiniAppRemoteIDE": [
+            "2.4.0-rc.5"
+        ],
+        "GZLMiniAppTab_iOS": [
+            "2.4.0"
+        ],
+        "GZLMiniAppWebView_iOS": [
+            "2.4.1"
+        ],
+        "GZLMiniApp_iOS": [
+            "2.3.0"
+        ],
+        "GodzillaMiniBaseKit": [
+            "1.0.3"
+        ],
+        "GodzillaMiniIService": [
+            "1.0.0"
+        ],
+        "GodzillaMiniOpenAPI": [
+            "1.0.6"
+        ],
+        "GodzillaMiniOpenImpl": [
+            "1.0.4"
+        ],
+        "GodzillaMiniPluginAPI": [
+            "1.0.6"
+        ],
+        "GodzillaMiniPluginImpl": [
+            "1.0.4"
+        ],
+        "GodzillaMiniWidgetKit": [
+            "1.0.4"
+        ],
+        "QuickJSObjC": [
+            "1.0.17"
+        ],
+        "TYUniDiffSubRegisterManager": [
+            "1.0.0"
+        ]
+    },
+    "description": "iOS 壳组件",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLMiniAppShell_iOS",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniAppShell_iOS-2.4.17.zip",
+        "type": "zip"
+    },
+    "summary": "iOS 壳组件",
+    "vendored_frameworks": [
+        "GZLMiniAppShell_iOS.xcframework"
+    ],
+    "version": "2.4.17"
+}

@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "tuya": "tuya"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": [],
+        "TYAlertView": [],
+        "TYFoundationKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AssetsLibrary",
+        "Photos",
+        "MobileCoreServices"
+    ],
+    "homepage": "https://github.com/marcshilling/react-native-image-picker",
+    "license": "MIT",
+    "name": "react-native-image-picker",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://maven.tuya-inc.top/repository/app/ci/ios/release/react-native-image-picker/0.26.7-feature-range-finder.1/react-native-image-picker-0.26.7-feature-range-finder.1.zip",
+        "type": "zip"
+    },
+    "summary": "A React Native module that allows you to use the native UIImagePickerController UI to select a photo from the device library or directly from the camera",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "react_native_image_picker.xcframework"
+    ],
+    "version": "0.26.7-feature-range-finder.1"
+}

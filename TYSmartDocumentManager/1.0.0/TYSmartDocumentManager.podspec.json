@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "Foundation",
+        "CoreBluetooth",
+        "CoreLocation",
+        "AVFoundation",
+        "MediaPlayer"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartDocumentManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartDocumentManager-1.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartDocumentManager.",
+    "vendored_frameworks": [
+        "Build/TYSmartDocumentManager.xcframework"
+    ],
+    "version": "1.0.0"
+}

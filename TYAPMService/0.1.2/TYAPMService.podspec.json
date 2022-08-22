@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAPMService",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "DEFINES_MODULE": "YES"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAPMService-0.1.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYAPMService.",
+    "vendored_frameworks": [
+        "TYAPMService.xcframework"
+    ],
+    "version": "0.1.2"
+}

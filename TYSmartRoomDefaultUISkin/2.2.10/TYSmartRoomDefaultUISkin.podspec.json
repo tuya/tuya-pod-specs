@@ -1,0 +1,51 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartRoomBizKit": [],
+        "TYSmartUIConfigServices": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYUrlPredefinedExternal": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartRoomDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYSmartRoomDefaultUISkin/Classes/PrefixHeader.pch",
+    "resources": [
+        "TYSmartRoomDefaultUISkin/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartRoomDefaultUISkin-2.2.10.zip",
+        "type": "zip"
+    },
+    "summary": "房间模块默认皮肤",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYSmartRoomDefaultUISkin.xcframework"
+    ],
+    "version": "2.2.10"
+}

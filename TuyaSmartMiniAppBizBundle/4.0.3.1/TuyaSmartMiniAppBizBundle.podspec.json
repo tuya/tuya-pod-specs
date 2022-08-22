@@ -1,0 +1,291 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "GZLJSEngine": [
+            "1.0.8"
+        ],
+        "GZLMiniAppAPM_iOS": [
+            "2.4.0"
+        ],
+        "GZLMiniAppCore_iOS": [
+            "2.4.11"
+        ],
+        "GZLMiniAppInject": [
+            "2.4.5"
+        ],
+        "GZLMiniAppInterceptor_iOS": [
+            "2.3.3"
+        ],
+        "GZLMiniAppRemoteIDE": [
+            "2.4.0-rc.5"
+        ],
+        "GZLMiniAppShell_iOS": [
+            "2.4.17"
+        ],
+        "GZLMiniAppTab_iOS": [
+            "2.4.0"
+        ],
+        "GZLMiniAppWebView_iOS": [
+            "2.4.1"
+        ],
+        "GZLMiniApp_iOS": [
+            "2.3.0"
+        ],
+        "GodzillaMiniBaseKit": [
+            "1.0.3"
+        ],
+        "GodzillaMiniIService": [
+            "1.0.0"
+        ],
+        "GodzillaMiniOpenAPI": [
+            "1.0.6"
+        ],
+        "GodzillaMiniOpenImpl": [
+            "1.0.4"
+        ],
+        "GodzillaMiniPluginAPI": [
+            "1.0.6"
+        ],
+        "GodzillaMiniPluginImpl": [
+            "1.0.4"
+        ],
+        "GodzillaMiniWidgetKit": [
+            "1.0.4"
+        ],
+        "MJRefresh": [],
+        "MMKV": [],
+        "MMKVCore": [],
+        "Masonry": [],
+        "QuickJSObjC": [
+            "1.0.17"
+        ],
+        "Reachability": [],
+        "TYAPMService": [
+            "0.1.2"
+        ],
+        "TYActivatorPlugAPI": [
+            "0.0.10"
+        ],
+        "TYAlertView": [
+            "1.1.12"
+        ],
+        "TYAnnotationFoundation": [
+            "0.1.10"
+        ],
+        "TYAppLifeCycleSktAPI": [
+            "1.0.6"
+        ],
+        "TYAutoTracker": [
+            "1.33.10"
+        ],
+        "TYBlockKit": [
+            "0.1.0"
+        ],
+        "TYConfigHub": [
+            "1.0.11-feature-fix-thread-20220211.1"
+        ],
+        "TYDeviceDetailPlugAPI": [
+            "1.0.3.1"
+        ],
+        "TYDeviceDetailSktAPI": [
+            "1.0.2"
+        ],
+        "TYDeviceDetectionNetworkPlugAPI": [
+            "1.0.1"
+        ],
+        "TYDeviceEditPlugAPI": [
+            "1.0.0"
+        ],
+        "TYDeviceEditSktAPI": [
+            "1.0.0"
+        ],
+        "TYDeviceEvaluationPlugAPI": [
+            "0.0.2"
+        ],
+        "TYDeviceInfoPlugAPI": [
+            "1.0.0"
+        ],
+        "TYDeviceMigratePlugAPI": [
+            "1.0.1"
+        ],
+        "TYDeviceMigrateSktAPI": [
+            "1.0.1"
+        ],
+        "TYDeviceNetworkSettingPlugAPI": [
+            "1.0.0"
+        ],
+        "TYDeviceShareModulePlugAPI": [
+            "0.0.2"
+        ],
+        "TYDeviceSyncPlugAPI": [
+            "1.0.0-feature-420bizbundle.2"
+        ],
+        "TYDeviceTimerPlugAPI": [
+            "0.0.1"
+        ],
+        "TYDeviceTinyBusinessPlugAPI": [
+            "1.0.0"
+        ],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYGroupHandlePlugAPI": [
+            "1.0.0"
+        ],
+        "TYGroupHandleSktAPI": [
+            "1.0.1"
+        ],
+        "TYKVStorageLibrary": [
+            "1.0.0-feature-group.4"
+        ],
+        "TYLogMacro": [
+            "0.1.1"
+        ],
+        "TYMarketingBoothAPI": [
+            "0.0.5"
+        ],
+        "TYMiniAppCore": [
+            "2.4.26"
+        ],
+        "TYModuleManager": [
+            "2.10.16"
+        ],
+        "TYModuleServices": [
+            "4.2.0-v4.2.0-bizbundle.4.3"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.26.27"
+        ],
+        "TYOTAGeneralPlugAPI": [
+            "1.0.2"
+        ],
+        "TYProgressHUD": [
+            "0.2.9"
+        ],
+        "TYRealClass": [
+            "0.1.0"
+        ],
+        "TYSceneEditPlugAPI": [
+            "0.1.0"
+        ],
+        "TYSceneEditSktAPI": [
+            "0.1.1"
+        ],
+        "TYSceneListPlugAPI": [
+            "0.1.0"
+        ],
+        "TYSmartActionDialog": [
+            "0.4.10"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.39.10"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.84"
+        ],
+        "TYSpaceInfoSktAPI": [
+            "1.0.8"
+        ],
+        "TYStorageGroupInterface": [
+            "0.1.7"
+        ],
+        "TYTTTMiniKit": [
+            "2.4.7"
+        ],
+        "TYThemeModule": [
+            "0.7.1"
+        ],
+        "TYUIConfig": [
+            "1.2.4"
+        ],
+        "TYUIKit": [],
+        "TYUniAPIManagerKit": [
+            "1.4.18"
+        ],
+        "TYUniCode": [
+            "0.0.82"
+        ],
+        "TYUniDiffLayerManager": [
+            "1.0.11"
+        ],
+        "TYUniDiffSubRegisterManager": [
+            "1.0.0"
+        ],
+        "TYUniGZLTabBarManager": [
+            "1.1.0"
+        ],
+        "TYUniMiniHighwayManager": [
+            "1.0.7"
+        ],
+        "TYUniMiniProgramManager": [
+            "2.4.0-rc.8"
+        ],
+        "TYUniNavigationBarManager": [
+            "2.4.0"
+        ],
+        "TYUniNavigatorManager": [
+            "2.4.4"
+        ],
+        "TYUniOpenExtApiManager": [
+            "1.0.0-rc.5"
+        ],
+        "TYUniScrollManager": [
+            "2.0.0-rc.3"
+        ],
+        "TuyaBusinessService": [
+            "0.2.1"
+        ],
+        "TuyaMiniAppTabModule": [
+            "1.0.0-rc.8"
+        ],
+        "TuyaNormalUI": [
+            "0.2.10"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "4.0.3"
+        ],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartMQTTChannelKit": [],
+        "TuyaSmartMiniProgram": [
+            "2.4.0"
+        ],
+        "TuyaSmartNetworkKit": [],
+        "TuyaSmartTimerKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": [],
+        "libextobjc": [],
+        "libextobjc/EXTADT": [],
+        "libextobjc/EXTConcreteProtocol": [],
+        "libextobjc/EXTKeyPathCoding": [],
+        "libextobjc/EXTNil": [],
+        "libextobjc/EXTSafeCategory": [],
+        "libextobjc/EXTScope": [],
+        "libextobjc/EXTSelectorChecking": [],
+        "libextobjc/EXTSynthesize": [],
+        "libextobjc/NSInvocation+EXT": [],
+        "libextobjc/NSMethodSignature+EXT": [],
+        "libextobjc/RuntimeExtensions": [],
+        "libextobjc/UmbrellaHeader": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartMiniAppBizBundle",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartMiniAppBizBundle-4.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartMiniAppBizBundle.",
+    "vendored_frameworks": [
+        "TuyaSmartMiniAppBizBundle.xcframework"
+    ],
+    "version": "4.0.3.1"
+}

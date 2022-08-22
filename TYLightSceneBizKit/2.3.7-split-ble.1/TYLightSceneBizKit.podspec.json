@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "EZAudio": [],
+        "Reachability": [],
+        "TYAnnotationFoundation": [],
+        "TYAuthorizationServices": [],
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYLightCommonUI": [],
+        "TYLightLampHomeBizKit": [],
+        "TYLightSceneSktAPI": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYUIKit": [],
+        "TuyaLightSceneKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYLightSceneBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYLightSceneBizKit/Classes/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLightSceneBizKit-2.3.7-split-ble.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYLightSceneBizKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYLightSceneBizKit.xcframework"
+    ],
+    "version": "2.3.7-split-ble.1"
+}
