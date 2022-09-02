@@ -23,7 +23,7 @@
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "source": {
-        "http": "https://maven.tuya-inc.top/repository/app/ci/ios/release/react-native-video/3.2.3/react-native-video-3.2.3.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-video-3.2.3.zip",
         "type": "zip"
     },
     "summary": "A <Video /> element for react-native",
