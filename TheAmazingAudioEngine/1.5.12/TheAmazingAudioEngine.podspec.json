@@ -1,0 +1,59 @@
+{
+    "authors": {
+        "Michael Tyson": "michael@atastypixel.com"
+    },
+    "cocoapods_version": ">= 1.10",
+    "compiler_flags": [
+        "-DTPCircularBuffer=AECB",
+        "-D_TPCircularBufferInit=_AECBInit",
+        "-DTPCircularBufferCleanup=AECBClean",
+        "-DTPCircularBufferClear=AECBClear",
+        "-DTPCircularBufferSetAtomic=AECBSetAtomic",
+        "-DTPCircularBufferTail=AECBTail",
+        "-DTPCircularBufferConsume=AECBConsume",
+        "-DTPCircularBufferHead=AECBHead",
+        "-DTPCircularBufferProduce=AECBProduce",
+        "-DTPCircularBufferProduceBytes=AECBProduceBytes",
+        "-DTPCircularBufferPrepareEmptyAudioBufferList=AECBPrepareEmptyBL",
+        "-DTPCircularBufferPrepareEmptyAudioBufferListWithAudioFormat=AECBPrepareEmptyBLWithAF",
+        "-DTPCircularBufferProduceAudioBufferList=AECBProduceBL",
+        "-DTPCircularBufferCopyAudioBufferList=AECBCopyBL",
+        "-DTPCircularBufferNextBufferList=AECBNextBL",
+        "-DTPCircularBufferNextBufferListAfter=AECBNextBLAfter",
+        "-DTPCircularBufferConsumeNextBufferList=AECBConsumeBL",
+        "-DTPCircularBufferGetAvailableSpace=AECBGetAvailableSpace",
+        "-DTPCircularBufferConsumeNextBufferListPartial=AECBConsumeBLPartial",
+        "-DTPCircularBufferDequeueBufferListFrames=AECBDequeueBLFrames",
+        "-DTPCircularBufferPeek=AECBPeek",
+        "-DTPCircularBufferPeekContiguous=AECBPeekContiguous",
+        "-D_TPCircularBufferPeek=_AECBPeek"
+    ],
+    "deprecated": true,
+    "exclude_files": "TheAmazingAudioEngine/AERealtimeWatchdog*",
+    "frameworks": [
+        "AudioToolbox",
+        "Accelerate",
+        "AVFoundation",
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "http://theamazingaudioengine.com",
+    "license": "zlib",
+    "name": "TheAmazingAudioEngine",
+    "platforms": {
+        "ios": "7.0"
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://maven.tuya-inc.top/repository/app/ci/ios/release/TheAmazingAudioEngine/1.5.12/TheAmazingAudioEngine-1.5.12.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TheAmazingAudioEngine.xcframework/ios-arm64_armv7/TheAmazingAudioEngine.framework/Headers/*"
+    ],
+    "summary": "Core Audio, Cordially: A sophisticated framework for iOS audio applications, built so you don't have to.",
+    "vendored_frameworks": [
+        "Build/TheAmazingAudioEngine.xcframework"
+    ],
+    "version": "1.5.12"
+}
