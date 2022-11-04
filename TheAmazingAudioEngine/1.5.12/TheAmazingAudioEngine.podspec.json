@@ -45,7 +45,7 @@
     },
     "requires_arc": true,
     "source": {
-        "http": "https://maven.tuya-inc.top/repository/app/ci/ios/release/TheAmazingAudioEngine/1.5.12/TheAmazingAudioEngine-1.5.12.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1667556000-TheAmazingAudioEngine-1.5.12.zip",
         "type": "zip"
     },
     "source_files": [
