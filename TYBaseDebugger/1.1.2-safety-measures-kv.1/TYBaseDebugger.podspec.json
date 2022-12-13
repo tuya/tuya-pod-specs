@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYModuleManager": [],
+        "TYOEMConfig": [],
+        "TYStorageGroupInterface": [],
+        "TYUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBaseDebugger",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYBaseDebugger/Classes/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBaseDebugger-1.1.2-safety-measures-kv.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBaseDebugger.",
+    "vendored_frameworks": [
+        "TYBaseDebugger.xcframework"
+    ],
+    "version": "1.1.2-safety-measures-kv.1"
+}
