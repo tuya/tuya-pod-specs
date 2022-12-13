@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYUniBluetoothManager": [
+            "1.2.5"
+        ],
+        "TYUniDeviceActivationManager": [
+            "1.2.2"
+        ],
+        "TYUniDeviceControlManager": [
+            "1.8.3"
+        ],
+        "TYUniDeviceDetailManager": [
+            "1.0.3"
+        ],
+        "TYUniOTAManager": [
+            "1.0.0"
+        ],
+        "TYUniPanelManager": [
+            "1.0.0-rc.6"
+        ],
+        "TYUniThingControlManager": [
+            "1.0.1"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCBTDeviceKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TYCBTDeviceKit": [
+            "ios/TYCBTDeviceKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCBTDeviceKit-2.2.9.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TYCBTDeviceKit.xcframework"
+    ],
+    "version": "2.2.9"
+}

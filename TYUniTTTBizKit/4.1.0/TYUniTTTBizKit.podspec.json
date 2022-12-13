@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYCBTBaseKit": [],
+        "TYCBTDeviceKit": [],
+        "TYCBTMapKit": [],
+        "TYCBTTYKit": [],
+        "TYUniAPIManagerKit": [],
+        "TYUniCode": []
+    },
+    "description": "TODO: Add lon g description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYUniTTTBizKit",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUniTTTBizKit-4.1.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYUniTTTBizKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYUniTTTBizKit.xcframework"
+    ],
+    "version": "4.1.0"
+}
