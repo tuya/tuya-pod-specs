@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "HealthKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYHealthModule",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.healthkit com.apple.developer.healthkit.access ",
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSHealthShareUsageDescription NSHealthUpdateUsageDescription "
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYHealthModule-1.0.4.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦健康数据同步",
+    "vendored_frameworks": [
+        "Build/TYHealthModule.xcframework"
+    ],
+    "version": "1.0.4"
+}
