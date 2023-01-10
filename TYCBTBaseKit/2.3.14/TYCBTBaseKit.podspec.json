@@ -1,0 +1,101 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYUniAccelerometerManager": [
+            "1.0.1"
+        ],
+        "TYUniAudioManager": [
+            "1.0.0"
+        ],
+        "TYUniAuthorizeManager": [
+            "1.1.11"
+        ],
+        "TYUniBaseMiniProgramManager": [
+            "1.0.4"
+        ],
+        "TYUniCompassManager": [
+            "1.0.1"
+        ],
+        "TYUniDeviceMotionManager": [
+            "1.0.1"
+        ],
+        "TYUniDownloadFileManager": [
+            "1.0.0"
+        ],
+        "TYUniFileManager": [
+            "1.1.0"
+        ],
+        "TYUniGyroscopeManager": [
+            "1.0.1"
+        ],
+        "TYUniImagePickerManager": [
+            "1.3.3"
+        ],
+        "TYUniInteractionManager": [
+            "1.3.3"
+        ],
+        "TYUniMemoryWarningManager": [
+            "1.0.1"
+        ],
+        "TYUniNetworkManager": [
+            "1.0.10"
+        ],
+        "TYUniPhoneBluetoothManager": [
+            "0.0.9"
+        ],
+        "TYUniPhoneCallManager": [
+            "1.1.0-rc.6"
+        ],
+        "TYUniPhoneClipboardManager": [
+            "1.1.0-rc.5"
+        ],
+        "TYUniPhoneManager": [
+            "1.2.1"
+        ],
+        "TYUniPhoneNetworkManager": [
+            "1.2.0-rc.6"
+        ],
+        "TYUniPhoneScreenManager": [
+            "1.0.0"
+        ],
+        "TYUniPhoneVibrateManager": [
+            "1.0.1"
+        ],
+        "TYUniRecordingManager": [
+            "1.0.15"
+        ],
+        "TYUniScanCodeManager": [
+            "1.0.5"
+        ],
+        "TYUniStorageManager": [
+            "1.1.2"
+        ],
+        "TYUniUploadFileManager": [
+            "1.1.8"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCBTBaseKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TYCBTBaseKit": [
+            "ios/TYCBTBaseKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCBTBaseKit-2.3.14.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TYCBTBaseKit.xcframework"
+    ],
+    "version": "2.3.14"
+}
