@@ -27,6 +27,8 @@
         "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
-    "vendored_libraries": "TYRCTCameraTimeLineViewManager-1.4.0-rc.2/libTYRCTCameraTimeLineViewManager.a",
+    "vendored_frameworks": [
+        "TYRCTCameraTimeLineViewManager.xcframework"
+    ],
     "version": "1.4.0-rc.2"
 }
