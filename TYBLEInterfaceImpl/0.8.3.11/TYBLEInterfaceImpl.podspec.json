@@ -1,0 +1,124 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAPMService": [
+            "0.1.2"
+        ],
+        "TYActivatorPlugAPI": [
+            "0.0.10"
+        ],
+        "TYAnnotationFoundation": [
+            "0.1.10"
+        ],
+        "TYAppLifeCycleSktAPI": [
+            "1.0.6"
+        ],
+        "TYAuthorizationServices": [
+            "0.1.7"
+        ],
+        "TYBLEHomeManager": [
+            "0.1.3"
+        ],
+        "TYBluetoothInterface": [
+            "1.10.5"
+        ],
+        "TYDeviceDetailPlugAPI": [
+            "1.0.3.2"
+        ],
+        "TYDeviceDetectionNetworkPlugAPI": [
+            "1.0.1"
+        ],
+        "TYDeviceEditPlugAPI": [
+            "1.0.0"
+        ],
+        "TYDeviceEvaluationPlugAPI": [
+            "0.0.2"
+        ],
+        "TYDeviceInfoPlugAPI": [
+            "1.0.0"
+        ],
+        "TYDeviceMigratePlugAPI": [
+            "1.0.1"
+        ],
+        "TYDeviceNetworkSettingPlugAPI": [
+            "1.0.0"
+        ],
+        "TYDeviceShareModulePlugAPI": [
+            "0.0.2"
+        ],
+        "TYDeviceSyncPlugAPI": [
+            "1.0.0-feature-420bizbundle.2"
+        ],
+        "TYDeviceTimerPlugAPI": [
+            "0.0.1"
+        ],
+        "TYDeviceTinyBusinessPlugAPI": [
+            "1.0.0"
+        ],
+        "TYGroupHandlePlugAPI": [
+            "1.0.0"
+        ],
+        "TYLightScenePlugAPI": [
+            "0.0.2"
+        ],
+        "TYLightSceneSktAPI": [
+            "0.0.2"
+        ],
+        "TYModuleManager": [
+            "2.10.16"
+        ],
+        "TYModuleServices": [
+            "4.2.0-v4.2.0-bizbundle.8.4"
+        ],
+        "TYOTAGeneralPlugAPI": [
+            "1.0.2"
+        ],
+        "TYSceneEditPlugAPI": [
+            "0.1.0"
+        ],
+        "TYSceneEditSktAPI": [
+            "0.1.1"
+        ],
+        "TYSceneListPlugAPI": [
+            "0.1.0"
+        ],
+        "TYSpaceInfoSktAPI": [
+            "1.0.8"
+        ],
+        "TuyaSmartBLEKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartTimerKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TYBLEInterfaceImpl",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBLEInterfaceImpl",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBLEInterfaceImpl-0.8.3.11.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBLEInterfaceImpl.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYBLEInterfaceImpl.xcframework"
+    ],
+    "version": "0.8.3.11"
+}
