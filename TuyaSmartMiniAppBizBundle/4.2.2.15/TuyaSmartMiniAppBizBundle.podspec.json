@@ -497,9 +497,7 @@
         "TuyaNormalUI": [
             "0.2.11"
         ],
-        "TuyaP2PSDK": [
-            "3.4.20"
-        ],
+        "TuyaP2PSDK": [],
         "TuyaP2pFileTransSDK": [
             "1.1.5"
         ],
