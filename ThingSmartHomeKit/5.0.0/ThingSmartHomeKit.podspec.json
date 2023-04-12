@@ -19,64 +19,64 @@
 	},
 	"dependencies": {
 		"ThingSmartBaseKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartDeviceKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartSceneKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartTimerKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartMessageKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartFeedbackKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartNetworkKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingBluetooth": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartBLECoreKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartPairingCoreKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartDeviceCoreKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartShareKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartBeaconKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 		"ThingSmartActivatorCoreKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		]
 	},
 	"ios": {
 		"dependencies": {
 			"ThingSmartActivatorKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 			"ThingSmartMQTTChannelKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 			"ThingSmartSocketChannelKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 			"ThingSmartBLEKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		],
 			"ThingSmartBLEMeshKit": [
-			"~> 5.0.0"
+			"~> 5.0"
 		]
 		}
 	},
