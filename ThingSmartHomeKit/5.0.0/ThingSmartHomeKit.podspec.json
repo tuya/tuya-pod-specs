@@ -1,1 +1,85 @@
-{"name": "ThingSmartHomeKit", "version": "5.0.0", "summary": "A short description of ThingSmartHomeKit.", "homepage": "https://thing.com", "license": {"type": "MIT"}, "authors": {"Tuya": "developer@tuya.com"}, "source": {"http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1679394854-ThingSmartHomeKit-5.0.0.zip", "type": "zip"}, "platforms": {"ios": "9.0", "watchos": "2.0"}, "dependencies": {"ThingSmartBaseKit": [], "ThingSmartDeviceKit": [], "ThingSmartSceneKit": [], "ThingSmartTimerKit": [], "ThingSmartMessageKit": [], "ThingSmartFeedbackKit": []}, "ios": {"dependencies": {"ThingSmartActivatorKit": [], "ThingSmartMQTTChannelKit": [], "ThingSmartSocketChannelKit": [], "ThingSmartBLEKit": [], "ThingSmartBLEMeshKit": []}}, "vendored_frameworks": ["ThingSmartHomeKit.xcframework"], "cocoapods_version": ">= 1.10"}
+{
+	"name": "ThingSmartHomeKit",
+	"version": "5.0.0",
+	"summary": "A short description of ThingSmartHomeKit.",
+	"homepage": "https://thing.com",
+	"license": {
+		"type": "MIT"
+	},
+	"authors": {
+		"Tuya": "developer@tuya.com"
+	},
+	"source": {
+		"http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1679394854-ThingSmartHomeKit-5.0.0.zip",
+		"type": "zip"
+	},
+	"platforms": {
+		"ios": "9.0",
+		"watchos": "2.0"
+	},
+	"dependencies": {
+		"ThingSmartBaseKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartDeviceKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartSceneKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartTimerKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartMessageKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartFeedbackKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartNetworkKit": [
+			"~> 5.0.0"
+		],
+		"ThingBluetooth": [
+			"~> 5.0.0"
+		],
+		"ThingSmartBLECoreKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartPairingCoreKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartDeviceCoreKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartShareKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartBeaconKit": [
+			"~> 5.0.0"
+		],
+		"ThingSmartActivatorCoreKit": [
+			"~> 5.0.0"
+		]
+	},
+	"ios": {
+		"dependencies": {
+			"ThingSmartActivatorKit": [
+			"~> 5.0.0"
+		],
+			"ThingSmartMQTTChannelKit": [
+			"~> 5.0.0"
+		],
+			"ThingSmartSocketChannelKit": [
+			"~> 5.0.0"
+		],
+			"ThingSmartBLEKit": [
+			"~> 5.0.0"
+		],
+			"ThingSmartBLEMeshKit": [
+			"~> 5.0.0"
+		]
+		}
+	},
+	"vendored_frameworks": ["ThingSmartHomeKit.xcframework"],
+	"cocoapods_version": ">= 1.10"
+}
