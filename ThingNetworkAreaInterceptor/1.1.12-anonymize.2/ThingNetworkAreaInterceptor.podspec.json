@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ThingConfigHub": [],
+        "ThingFoundationKit": [],
+        "ThingLogMacro": [],
+        "ThingModuleServices": [],
+        "ThingNetdbInterceptor": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSmartNetworkKit": [],
+        "ThingStorageGroupInterface": [],
+        "ThingUIKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingNetworkAreaInterceptor",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingNetworkAreaInterceptor-1.1.12-anonymize.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingNetworkAreaInterceptor.",
+    "vendored_frameworks": [
+        "Build/ThingNetworkAreaInterceptor.xcframework"
+    ],
+    "version": "1.1.12-anonymize.2"
+}

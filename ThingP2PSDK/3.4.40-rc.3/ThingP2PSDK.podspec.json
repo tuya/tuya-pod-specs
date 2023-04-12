@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ThingAvLoggerSDK": [],
+        "ThingMbedtls": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "exclude_files": [
+        "ThingP2PSDK/libs/Android/*",
+        "ThingP2PSDK/Platforms/Android/*"
+    ],
+    "frameworks": [
+        "Foundation",
+        "AVFoundation",
+        "Foundation",
+        "CoreAudio",
+        "CoreMedia",
+        "CoreVideo",
+        "VideoToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "ios": {},
+    "libraries": [
+        "c++",
+        "z",
+        "iconv",
+        "bz2",
+        "resolv"
+    ],
+    "license": "none",
+    "name": "ThingP2PSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "NO",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX HAVE_STRLCPY $(inherited)",
+        "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingP2PSDK $(PODS_TARGET_SRCROOT)/ThingP2PSDK/Platforms/iOS $(PODS_TARGET_SRCROOT)/ThingP2PSDK/Utils $(PODS_TARGET_SRCROOT)/ThingP2PSDK/LogManager $(PODS_TARGET_SRCROOT)/ThingP2PSDK/CAPI $(PODS_TARGET_SRCROOT)/include/libuv/include $(PODS_TARGET_SRCROOT)/include/libsrtp/include $(PODS_TARGET_SRCROOT)/include/mbedtls/include",
+        "OTHER_CFLAGS": "-DLINUX"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingP2PSDK-3.4.40-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "open SDK code for tuya p2p.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "vendored_frameworks": [
+        "Build/ThingP2PSDK.xcframework"
+    ],
+    "version": "3.4.40-rc.3"
+}

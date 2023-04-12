@@ -1,0 +1,59 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TUNIDLWebViewManager": [
+            "3.0.0-rc.2"
+        ],
+        "TUNIDiffLayerManager": [
+            "3.0.0-rc.1"
+        ],
+        "TUNIExtMiniAppInfoManager": [
+            "3.0.0-rc.1"
+        ],
+        "TUNIGZLTabBarManager": [
+            "3.0.0-rc.3"
+        ],
+        "TUNIMiniHighwayManager": [
+            "3.0.0-rc.1"
+        ],
+        "TUNIMiniProgramManager": [
+            "3.1.1"
+        ],
+        "TUNINavigationBarManager": [
+            "3.0.0-rc.2"
+        ],
+        "TUNINavigatorManager": [
+            "3.0.0-rc.2"
+        ],
+        "TUNIOpenExtApiManager": [
+            "3.0.0-rc.2"
+        ],
+        "TUNIScrollManager": [
+            "3.0.0-rc.3"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TUNIMiniKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TUNIMiniKit": [
+            "ios/TUNIMiniKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TUNIMiniKit-3.1.0.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TUNIMiniKit.xcframework"
+    ],
+    "version": "3.1.0"
+}

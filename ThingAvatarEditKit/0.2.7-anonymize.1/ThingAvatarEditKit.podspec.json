@@ -1,0 +1,47 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "ThingFoundationKit": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "Photos",
+        "UIKit",
+        "AVFoundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingAvatarEditKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "ThingCropViewControllerBundle": [
+            "ThingAvatarEditKit/Assets/**/*.{png,lproj}"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.7-anonymize.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingAvatarEditKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingAvatarEditKit.xcframework"
+    ],
+    "version": "0.2.7-anonymize.1"
+}

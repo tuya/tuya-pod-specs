@@ -1,0 +1,39 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingModuleManager": [],
+        "ThingOEMConfig": [],
+        "ThingUIKit": [],
+        "YYModel": [],
+        "libextobjc": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingTemplateSkeleton",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.0-feature-thin.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingTemplateSkeleton.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingTemplateSkeleton.xcframework"
+    ],
+    "version": "1.0.0-feature-thin.1"
+}

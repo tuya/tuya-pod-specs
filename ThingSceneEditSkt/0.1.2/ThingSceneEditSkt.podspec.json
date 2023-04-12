@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingBusinessService": [],
+        "ThingModuleManager": [],
+        "ThingSceneEditSktAPI": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartSceneCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSceneEditSkt",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSceneEditSkt-0.1.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSceneEditSkt.",
+    "vendored_frameworks": [
+        "ThingSceneEditSkt.xcframework"
+    ],
+    "version": "0.1.2"
+}

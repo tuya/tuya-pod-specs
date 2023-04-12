@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "HMSegmentedControl": [],
+        "ThingFoundationKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingUIKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingTabPagingView",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingTabPagingView-1.0.8-anonymize.1.zip",
+        "type": "zip"
+    },
+    "summary": "ThingTabPagingView for thing",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingTabPagingView.xcframework"
+    ],
+    "version": "1.0.8-anonymize.1"
+}

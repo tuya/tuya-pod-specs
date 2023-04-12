@@ -1,0 +1,27 @@
+{
+    "authors": "Horcrux Chen",
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "CoreText"
+    ],
+    "homepage": "https://github.com/magicismight/react-native-svg",
+    "license": "MIT",
+    "name": "RNSVG",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/1681293852-RNSVG-5.5.1.3.zip",
+        "type": "zip"
+    },
+    "summary": "SVG library for react-native",
+    "vendored_frameworks": [
+        "RNSVG.xcframework"
+    ],
+    "version": "5.5.1.3"
+}

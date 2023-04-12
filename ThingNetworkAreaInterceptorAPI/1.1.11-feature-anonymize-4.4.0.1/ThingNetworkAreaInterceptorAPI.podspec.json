@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingNetworkAreaInterceptorAPI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingNetworkAreaInterceptorAPI-1.1.11-feature-anonymize-4.4.0.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingNetworkAreaInterceptorAPI.",
+    "vendored_frameworks": [
+        "ThingNetworkAreaInterceptorAPI.xcframework"
+    ],
+    "version": "1.1.11-feature-anonymize-4.4.0.1"
+}

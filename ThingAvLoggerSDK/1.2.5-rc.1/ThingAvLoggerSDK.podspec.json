@@ -1,0 +1,52 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "exclude_files": [
+        "ThingAvLoggerSDK/**/Android/**/*.*",
+        "ThingAvLoggerSDK/include/**/*.*"
+    ],
+    "frameworks": [
+        "Foundation",
+        "AVFoundation",
+        "Foundation",
+        "CoreAudio",
+        "CoreMedia",
+        "CoreVideo",
+        "VideoToolbox",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "c++",
+        "z",
+        "iconv",
+        "bz2",
+        "resolv"
+    ],
+    "license": "none",
+    "name": "ThingAvLoggerSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "NO",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+        "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAvLoggerSDK/Utils $(PODS_TARGET_SRCROOT)/ThingAvLoggerSDK/CAPI $(PODS_TARGET_SRCROOT)/ThingAvLoggerSDK/av-logger $(PODS_TARGET_SRCROOT)/ThingAvLoggerSDK/include/sdplog",
+        "OTHER_CFLAGS": "-DLINUX"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingAvLoggerSDK-1.2.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "ThingAvLoggerSDK framework.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "vendored_frameworks": [
+        "Build/ThingAvLoggerSDK.xcframework"
+    ],
+    "version": "1.2.5-rc.1"
+}

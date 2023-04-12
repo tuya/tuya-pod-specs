@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GZLMiniProgramAdapterAPI_iOS": [],
+        "GodzillaMiniBaseKit": [],
+        "Masonry": [],
+        "ThingEncryptImage": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLMiniAppCommonUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniAppCommonUI-3.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GZLMiniAppCommonUI.",
+    "vendored_frameworks": [
+        "Build/GZLMiniAppCommonUI.xcframework"
+    ],
+    "version": "3.0.0"
+}

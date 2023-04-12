@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "ThingAppLifeCycleSktAPI": [],
+        "ThingCommonUI": [],
+        "ThingFoundationKit": [],
+        "ThingHybridContainer": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "SafariServices"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingPrivacyAndServiceModule",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingPrivacyAndServiceModule-1.0.0-feature-authOptimize.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingPrivacyAndServiceModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingPrivacyAndServiceModule.xcframework"
+    ],
+    "version": "1.0.0-feature-authOptimize.1"
+}

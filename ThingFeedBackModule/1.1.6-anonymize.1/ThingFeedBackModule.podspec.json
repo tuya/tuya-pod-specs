@@ -1,0 +1,43 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingFoundationKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartFeedbackKit": [],
+        "ThingUIKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingFeedBackModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "ThingFeedBackModule/Classes/PrefixHeader.pch",
+    "resources": [
+        "ThingFeedBackModule/Assets/Resource/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingFeedBackModule-1.1.6-anonymize.1.zip",
+        "type": "zip"
+    },
+    "summary": "反馈模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingFeedBackModule.xcframework"
+    ],
+    "version": "1.1.6-anonymize.1"
+}

@@ -1,0 +1,51 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "ThingBlockKit": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingHybridContainer": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceKit": [],
+        "ThingUIKit": [],
+        "YYModel": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingAIFaceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resources": [
+        "ThingAIFaceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingAIFaceModule-2.11.5-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦科技组件模板组件",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingAIFaceModule.xcframework"
+    ],
+    "version": "2.11.5-rc.2"
+}

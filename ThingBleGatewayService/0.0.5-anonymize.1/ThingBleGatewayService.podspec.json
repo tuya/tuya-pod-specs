@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": []
+    },
+    "description": "对蓝牙网关做mqtt等处理",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingBleGatewayService",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingBleGatewayService-0.0.5-anonymize.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingBleGatewayService.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingBleGatewayService.xcframework"
+    ],
+    "version": "0.0.5-anonymize.1"
+}

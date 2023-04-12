@@ -1,0 +1,102 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "DACircularProgress": [],
+        "FLAnimatedImage": [],
+        "MJRefresh": [],
+        "ThingABTest": [],
+        "ThingAppLifeCycleSktAPI": [],
+        "ThingAuthInterface": [],
+        "ThingBleGatewayService": [],
+        "ThingBlockKit": [],
+        "ThingBluetoothInterface": [],
+        "ThingBusinessDeviceListCore": [],
+        "ThingCommonUI": [],
+        "ThingDPCContainer": [],
+        "ThingDeviceListModule": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingHomeDataManager": [],
+        "ThingKVStorageLibrary": [],
+        "ThingLogMacro": [],
+        "ThingLottie": [],
+        "ThingMainPageLink": [],
+        "ThingModuleManager": [],
+        "ThingOEMConfig": [],
+        "ThingPageMenuView": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCenter": [],
+        "ThingSmartDeviceKit": [],
+        "ThingSmartFeedbackKit": [],
+        "ThingSmartHouseBizKit": [],
+        "ThingSmartHouseUISkeleton": [],
+        "ThingSmartMessageKit": [],
+        "ThingSmartSceneKit": [],
+        "ThingSmartUtil": [],
+        "ThingSpaceInfoSktAPI": [],
+        "ThingSpaceInterface": [],
+        "ThingStatisticsKit": [],
+        "ThingSwipeView": [],
+        "ThingTabPagingView": [],
+        "ThingTemplateSkeleton": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "YYModel": []
+    },
+    "description": "首页内容相关",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AddressBook",
+        "AddressBookUI",
+        "CoreTelephony",
+        "Contacts",
+        "ContactsUI",
+        "Foundation",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "iconv",
+        "z",
+        "c++",
+        "sqlite3"
+    ],
+    "license": "none",
+    "name": "ThingSmartHouse",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#if DEBUG\n\n    #undef ThingLogDebug\n    #define ThingLogDebug(frmt, ...) NSLog(frmt, ##__VA_ARGS__)\n\n    #undef ThingLogInfo\n    #define ThingLogInfo(frmt, ...)  NSLog(frmt, ##__VA_ARGS__)\n\n    #undef ThingLogWarn\n    #define ThingLogWarn(frmt, ...)  NSLog(frmt, ##__VA_ARGS__)\n\n    #undef ThingLogError\n    #define ThingLogError(frmt, ...) NSLog(frmt, ##__VA_ARGS__)\n\n#else\n\n    #undef ThingLogDebug\n    #define ThingLogDebug(frmt, ...) ThingLogger(0, @\"ThingSmartHouse\", frmt, ##__VA_ARGS__)\n\n    #undef ThingLogInfo\n    #define ThingLogInfo(frmt, ...)  ThingLogger(1, @\"ThingSmartHouse\", frmt, ##__VA_ARGS__)\n\n    #undef ThingLogWarn\n    #define ThingLogWarn(frmt, ...)  ThingLogger(2, @\"ThingSmartHouse\", frmt, ##__VA_ARGS__)\n\n    #undef ThingLogError\n    #define ThingLogError(frmt, ...) ThingLogger(3, @\"ThingSmartHouse\", frmt, ##__VA_ARGS__)\n\n#endif",
+    "resource_bundles": {
+        "ThingSmartHouseUISkin": [
+            "ThingSmartHouse/Assets/ThingSmartHouseUISkin/*"
+        ]
+    },
+    "resources": [
+        "ThingSmartHouse/Assets/*.{png,xib,plist,xcassets,bundle,jif}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartHouse-1.12.62-remove-lottie.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSmartHouse.",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartHouse.xcframework"
+    ],
+    "version": "1.12.62-remove-lottie.1"
+}

@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSweeperLZ4",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSweeperLZ4-0.2.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSweeperLZ4.",
+    "vendored_frameworks": [
+        "ThingSweeperLZ4.xcframework"
+    ],
+    "version": "0.2.1"
+}

@@ -1,0 +1,44 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "ThingFoundationKit": [],
+        "ThingImagePickerController": [],
+        "ThingNavigationController": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingUIKit": []
+    },
+    "description": "视频和图片工具",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingMediaKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription NSMicrophoneUsageDescription NSPhotoLibraryUsageDescription"
+    },
+    "resource_bundles": {
+        "ThingMediaKit": [
+            "ThingMediaKit/Assets/**/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingMediaKit-4.9.0-feature-scan-optimize.3.zip",
+        "type": "zip"
+    },
+    "summary": "视频和图片工具",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingMediaKit.xcframework"
+    ],
+    "version": "4.9.0-feature-scan-optimize.3"
+}

@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ThingAvLoggerSDK": [],
+        "ThingP2PSDK": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "exclude_files": [
+        "ThingP2pFileTransSDK/**/Android/*.*",
+        "ThingP2pFileTransSDK/utils/rapidjson/msinttypes/*.*"
+    ],
+    "frameworks": [
+        "Foundation",
+        "AVFoundation",
+        "Foundation",
+        "CoreAudio",
+        "CoreMedia",
+        "CoreVideo",
+        "VideoToolbox",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "c++",
+        "z",
+        "iconv",
+        "bz2",
+        "resolv"
+    ],
+    "license": "none",
+    "name": "ThingP2pFileTransSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "NO",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+        "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/Device $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/LogInterface $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/DownloadTask $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/P2PModule $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/PathManager $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/SessionGuard $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/ThingNetProtocol $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/Platforms/IOS $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/utils",
+        "OTHER_CFLAGS": "-DLINUX"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingP2pFileTransSDK-1.1.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "ThingP2pFileTransSDK framework.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "vendored_frameworks": [
+        "Build/ThingP2pFileTransSDK.xcframework"
+    ],
+    "version": "1.1.5-rc.1"
+}

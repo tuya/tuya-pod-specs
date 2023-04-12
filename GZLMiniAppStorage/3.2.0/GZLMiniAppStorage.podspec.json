@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GodzillaMiniBaseKit": [],
+        "MMKV": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLMiniAppStorage",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/GZLMiniAppStorage.xcframework/ios-arm64_armv7/GZLMiniAppStorage.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniAppStorage-3.2.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GZLMiniAppStorage.",
+    "vendored_frameworks": [
+        "Build/GZLMiniAppStorage.xcframework"
+    ],
+    "version": "3.2.0"
+}

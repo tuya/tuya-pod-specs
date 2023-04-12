@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "ThingAlertView": [],
+        "ThingCameraFoundationKit": [],
+        "ThingCameraSktAPI": [],
+        "ThingEncryptImage": [],
+        "ThingMicrophoneAuthManager": [],
+        "ThingModuleManager": [],
+        "ThingPhotosAuthManager": [],
+        "ThingUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingCameraUtil",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCameraUtil-4.5.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingCameraUtil.",
+    "vendored_frameworks": [
+        "ThingCameraUtil.xcframework"
+    ],
+    "version": "4.5.0"
+}

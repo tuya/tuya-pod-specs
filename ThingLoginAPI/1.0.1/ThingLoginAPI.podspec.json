@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingLoginAPI",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingLoginAPI-1.0.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingLoginAPI.",
+    "vendored_frameworks": [
+        "ThingLoginAPI.xcframework"
+    ],
+    "version": "1.0.1"
+}

@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSceneListPlugAPI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSceneListPlugAPI-0.1.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSceneListPlugAPI.",
+    "vendored_frameworks": [
+        "ThingSceneListPlugAPI.xcframework"
+    ],
+    "version": "0.1.1"
+}

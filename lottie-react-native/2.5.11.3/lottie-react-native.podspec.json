@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "intelligibabble": "leland.m.richardson@gmail.com"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": [],
+        "ThingLottie": []
+    },
+    "homepage": "https://github.com/airbnb/lottie-react-native#readme",
+    "license": "Apache-2.0",
+    "name": "lottie-react-native",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/1681293897-lottie-react-native-2.5.11.3.zip",
+        "type": "zip"
+    },
+    "summary": "Lottie component for React Native (iOS and Android)",
+    "vendored_frameworks": [
+        "lottie_react_native.xcframework"
+    ],
+    "version": "2.5.11.3"
+}

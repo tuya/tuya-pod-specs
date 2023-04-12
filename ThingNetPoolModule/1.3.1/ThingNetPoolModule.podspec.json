@@ -1,0 +1,55 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingAlertView": [],
+        "ThingDeviceNetworkSettingPlugAPI": [],
+        "ThingFoundationKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "ThingUrlPredefinedExternal": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingNetPoolModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "ThingNetPoolModule/Classes/PrefixHeader.pch",
+    "resource_bundles": {
+        "ThingNetPoolModule": [
+            "ThingNetPoolModule/Assets/*.png"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingNetPoolModule-1.3.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingNetPoolModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingNetPoolModule.xcframework"
+    ],
+    "version": "1.3.1"
+}

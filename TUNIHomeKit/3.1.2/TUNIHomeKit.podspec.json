@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TUNIApDirectlyDeviceManager": [
+            "1.1.0-anonymize.1"
+        ],
+        "TUNIHomeDataManager": [
+            "1.1.1-anonymize.2"
+        ],
+        "TUNIHomeDeviceListManager": [
+            "1.0.4"
+        ],
+        "TUNISceneManager": [
+            "1.1.6-anonymize.1"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TUNIHomeKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TUNIHomeKit": [
+            "ios/TUNIHomeKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TUNIHomeKit-3.1.2.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TUNIHomeKit.xcframework"
+    ],
+    "version": "3.1.2"
+}

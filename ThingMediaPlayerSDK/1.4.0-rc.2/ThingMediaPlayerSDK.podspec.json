@@ -1,0 +1,59 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ThingAvLoggerSDK": [],
+        "ThingFFmpegWrapper": [],
+        "ThingVideoCodecSDK": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "exclude_files": [
+        "ThingMediaPlayerSDK/libs/Android/*",
+        "ThingMediaPlayerSDK/Platforms/Android/*"
+    ],
+    "frameworks": [
+        "Foundation",
+        "AVFoundation",
+        "Foundation",
+        "CoreAudio",
+        "CoreMedia",
+        "CoreVideo",
+        "VideoToolbox",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "ios": {},
+    "libraries": [
+        "c++",
+        "z",
+        "iconv",
+        "bz2",
+        "resolv"
+    ],
+    "license": "none",
+    "name": "ThingMediaPlayerSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "NO",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+        "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Platforms/iOS $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/CAPI $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/LogManager $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules/Utils $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules/Encoder $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules/Decoder $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/MediaPlayer $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/ffmpeg $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/openH264 $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/ $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/libyuv $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/concurrentqueue",
+        "OTHER_CFLAGS": "-DLINUX",
+        "OTHER_LDFLAGS": "-read_only_relocs suppress"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingMediaPlayerSDK-1.4.0-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "open SDK code for tuya media player.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "vendored_frameworks": [
+        "Build/ThingMediaPlayerSDK.xcframework"
+    ],
+    "version": "1.4.0-rc.2"
+}

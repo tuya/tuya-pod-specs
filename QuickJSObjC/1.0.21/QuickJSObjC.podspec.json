@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GZLQuickJS": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "QuickJSObjC",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/QuickJSObjC-1.0.21.zip",
+        "type": "zip"
+    },
+    "summary": "quickJS-OC封装",
+    "vendored_frameworks": [
+        "Build/QuickJSObjC.xcframework"
+    ],
+    "version": "1.0.21",
+    "xcconfig": {
+        "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) COCOAPODS=1 IOS=1 CONFIG_VERSION=\\\"2021-03-27\\\""
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartMatterExtensionKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartMatterExtensionKit-0.1.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSmartMatterExtensionKit.",
+    "vendored_frameworks": [
+        "Build/ThingSmartMatterExtensionKit.xcframework"
+    ],
+    "version": "0.1.1"
+}

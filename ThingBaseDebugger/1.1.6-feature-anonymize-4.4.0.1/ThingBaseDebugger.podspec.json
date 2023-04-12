@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "ThingModuleManager": [],
+        "ThingOEMConfig": [],
+        "ThingStorageGroupInterface": [],
+        "ThingUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingBaseDebugger",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "ThingBaseDebugger/Classes/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingBaseDebugger-1.1.6-feature-anonymize-4.4.0.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingBaseDebugger.",
+    "vendored_frameworks": [
+        "ThingBaseDebugger.xcframework"
+    ],
+    "version": "1.1.6-feature-anonymize-4.4.0.1"
+}

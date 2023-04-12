@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingReactNativeAPI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingReactNativeAPI-2.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingReactNativeAPI.",
+    "vendored_frameworks": [
+        "ThingReactNativeAPI.xcframework"
+    ],
+    "version": "2.0.0"
+}

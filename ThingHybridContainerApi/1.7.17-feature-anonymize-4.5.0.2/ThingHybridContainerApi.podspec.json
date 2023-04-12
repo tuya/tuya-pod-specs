@@ -1,0 +1,21 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingHybridContainerApi",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingHybridContainerApi-1.7.17-feature-anonymize-4.5.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "容器",
+    "vendored_frameworks": [
+        "ThingHybridContainerApi.xcframework"
+    ],
+    "version": "1.7.17-feature-anonymize-4.5.0.2"
+}
