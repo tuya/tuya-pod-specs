@@ -78,8 +78,18 @@
 			"ThingSmartBLEMeshKit": [
 			"~> 5.0"
 		]
-		}
+		},
+		"source_files": [
+      "Build/ThingSmartHomeKit.xcframework/ios-arm64_armv7/ThingSmartHomeKit.framework/Headers/*"
+    ]
+
 	},
+	"watchos": {
+    "source_files": [
+      "Build/ThingSmartHomeKit.xcframework/watchos-arm64_32_armv7k/ThingSmartHomeKit.framework/Headers/*"
+    ]
+  },
+
 	"vendored_frameworks": ["ThingSmartHomeKit.xcframework"],
 	"cocoapods_version": ">= 1.10"
 }
