@@ -59,16 +59,21 @@
     },
     "pod_target_xcconfig": {
         "CLANG_CXX_LANGUAGE_STANDARD": "c++14",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
         "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_TARGET_SRCROOT)/ReactCommon/jsiexecutor\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/Folly\""
     },
+    "preserve_paths": [
+        "package.json",
+        "LICENSE",
+        "LICENSE-docs",
+        "Libraries/Blob/*.js"
+    ],
     "requires_arc": true,
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/React-0.59.11.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/1677209363-React-0.59.11.1.zip",
         "type": "zip"
     },
-    "source_files": [
-        "Build/React.xcframework/ios-arm64_armv7/React.framework/Headers/*"
-    ],
     "summary": "A framework for building native apps using React",
     "tvos": {
         "exclude_files": [
@@ -81,8 +86,12 @@
             "React/Views/RCTWebView*"
         ]
     },
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
     "vendored_frameworks": [
-        "Build/React.xcframework"
+        "React.xcframework"
     ],
     "version": "0.59.11"
 }
