@@ -1,0 +1,62 @@
+{
+  "name": "ThingCameraAutomation",
+  "version": "5.0.4",
+  "summary": "A short description of ThingCameraAutomation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://thing.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fulang@thing.com": "fulang@thing.com"
+  },
+  "source": {
+    "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/1681453203-ThingCameraAutomation-5.0.4.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingCameraAutomation.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingCameraAutomation.xcframework/ios-arm64/ThingCameraAutomation.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/ThingCameraAutomation.xcframework/ios-arm64/ThingCameraAutomation.framework/CustomResources/Assets/*"
+  ]
+}
