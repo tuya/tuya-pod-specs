@@ -29,13 +29,19 @@
 
     ],
     "ThingUIKit": [
-
+      "~> 1.19.0-anonymize2.1"
     ],
     "ThingAlertView": [
-
+      "~> 1.1.12-anonymize.1"
     ],
     "ThingProgressHUD": [
-
+      "~> 0.2.10-anonymize.1"
+    ],
+    "ThingRealClass": [
+      "~> 0.1.0-anonymize.2"
+    ],
+    "ThingAnnotationFoundation": [
+      "~> 0.1.10-anonymize.1"
     ],
     "ThingFoundationKit": [
 
