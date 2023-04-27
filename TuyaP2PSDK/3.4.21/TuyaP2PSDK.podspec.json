@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYMbedtls": [],
+        "TuyaAvLoggerSDK": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "exclude_files": [
+        "TuyaP2PSDK/libs/Android/*",
+        "TuyaP2PSDK/Platforms/Android/*"
+    ],
+    "frameworks": [
+        "Foundation",
+        "AVFoundation",
+        "Foundation",
+        "CoreAudio",
+        "CoreMedia",
+        "CoreVideo",
+        "VideoToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "ios": {},
+    "libraries": [
+        "c++",
+        "z",
+        "iconv",
+        "bz2",
+        "resolv"
+    ],
+    "license": "none",
+    "name": "TuyaP2PSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "NO",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+        "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/TuyaP2PSDK $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/Platforms/iOS $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/Utils $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/LogManager $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/CAPI",
+        "OTHER_CFLAGS": "-DLINUX"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaP2PSDK-3.4.21.zip",
+        "type": "zip"
+    },
+    "summary": "open SDK code for tuya p2p.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "vendored_frameworks": [
+        "Build/TuyaP2PSDK.xcframework"
+    ],
+    "version": "3.4.21"
+}
