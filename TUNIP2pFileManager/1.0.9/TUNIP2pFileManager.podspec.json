@@ -1,0 +1,42 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TUNIAPIManagerKit": [],
+        "ThingP2pFileTransSDK": [],
+        "ThingSmartP2pChannelKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TUNIP2pFileManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TUNIP2pFileManager": [
+            "ios/tunip2pfilemanager/Assets/*",
+            "js/dist/index.js"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TUNIP2pFileManager-1.0.9.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TUNIP2pFileManager.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TUNIP2pFileManager.xcframework"
+    ],
+    "version": "1.0.9"
+}
