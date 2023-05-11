@@ -4,16 +4,10 @@
     },
     "cocoapods_version": ">= 1.10",
     "dependencies": {
-        "AFNetworking/Reachability": [],
         "ATGestureLockView": [
             "0.2.3-anonymize.1"
         ],
-        "CocoaLumberjack": [],
-        "CocoaLumberjack/Core": [],
         "DACircularProgress": [],
-        "DingDangSDK": [
-            "0.3.8-anonymize.1"
-        ],
         "DoubleConversion": [],
         "EZAudio": [],
         "EZAudio/Core": [],
@@ -130,19 +124,10 @@
         "RNApi/Core": [
             "5.68.12"
         ],
-        "RNApi/Health": [
-            "5.68.12"
-        ],
-        "RNApi/HealthCenter": [
-            "5.68.12"
-        ],
         "RNApi/OSSensor": [
             "5.68.12"
         ],
         "RNApi/Scene": [
-            "5.68.12"
-        ],
-        "RNApi/Speak": [
             "5.68.12"
         ],
         "RNApi/Sweeper": [
@@ -267,15 +252,6 @@
         "TRCTHapticsManager": [
             "1.0.2-anonymize.2"
         ],
-        "TRCTHealthCenterManager": [
-            "1.1.1-anonymize.1"
-        ],
-        "TRCTHealthManager": [
-            "1.3.1-anonymize.1"
-        ],
-        "TRCTHealthWatchManager": [
-            "1.6.3"
-        ],
         "TRCTHomeDevManager": [
             "1.2.5-anonymize.1"
         ],
@@ -363,9 +339,6 @@
         "TRCTPublicManager": [
             "1.1.17-anon-1.1.16.1"
         ],
-        "TRCTQQWebView": [
-            "1.0.0-anonymize.1"
-        ],
         "TRCTRNStackManager": [
             "1.0.1-anonymize.1"
         ],
@@ -386,9 +359,6 @@
         ],
         "TRCTSlider": [
             "1.1.0-anonymize.1"
-        ],
-        "TRCTSpeakerManager": [
-            "1.1.18-anonymize.2"
         ],
         "TRCTStandardGroupManager": [
             "1.1.11-anonymize.1"
@@ -443,9 +413,6 @@
         ],
         "TUNIAccelerometerManager": [
             "1.0.1-anonymize.1"
-        ],
-        "TUNIApDirectlyDeviceManager": [
-            "1.1.0-anonymize.1"
         ],
         "TUNIAppInfoManager": [
             "1.3.5"
@@ -531,15 +498,6 @@
         "TUNIGyroscopeManager": [
             "1.0.1-anonymize.1"
         ],
-        "TUNIHomeDataManager": [
-            "1.1.1-anonymize.2"
-        ],
-        "TUNIHomeDeviceListManager": [
-            "1.0.4"
-        ],
-        "TUNIHomeKit": [
-            "3.1.2"
-        ],
         "TUNIImageNetworkManager": [
             "1.0.2-anonymize.1"
         ],
@@ -624,9 +582,6 @@
         "TUNIScanCodeManager": [
             "4.8.1"
         ],
-        "TUNISceneManager": [
-            "1.1.6-anonymize.1"
-        ],
         "TUNIScrollManager": [
             "3.0.0-rc.3"
         ],
@@ -650,9 +605,6 @@
         ],
         "TUNIUtilsManager": [
             "1.1.2"
-        ],
-        "TencentOpenApi": [
-            "3.3.7"
         ],
         "TheAmazingAudioEngine": [
             "1.5.12"
@@ -874,15 +826,6 @@
         "ThingGroupHandleSktAPI": [
             "1.2.0"
         ],
-        "ThingHealthDataCenterManager": [
-            "4.1.3-anonymize.12"
-        ],
-        "ThingHealthModule": [
-            "1.0.4-anonymize.2"
-        ],
-        "ThingHealthWatchManager": [
-            "1.3.2"
-        ],
         "ThingHelpCenterAPI": [
             "1.0.0"
         ],
@@ -966,9 +909,6 @@
         ],
         "ThingModuleServices": [
             "3.43.1-v5.0.0-bizbundle.15.1"
-        ],
-        "ThingNCNNLibrary": [
-            "1.0.1-anonymize.2"
         ],
         "ThingNavigationController": [
             "1.15.3"
@@ -1083,7 +1023,6 @@
             "0.4.11-v4.9.0-cifix.1"
         ],
         "ThingSmartActivatorKit": [],
-        "ThingSmartBLEKit": [],
         "ThingSmartBaseKit": [],
         "ThingSmartBaseKitBizBundle": [
             "~> 5.0.0"
@@ -1095,7 +1034,7 @@
             "5.0.11"
         ],
         "ThingSmartBizKitBizBundle": [
-            "~> 5.0.1"
+            "~> 5.0.0"
         ],
         "ThingSmartBusinessLibrary": [
             "3.35.3-remove-lottie.1"
@@ -1284,7 +1223,7 @@
         "ThingSmartPanelBizBundle": "ThingSmartPanelBizBundle/Assets/**/*"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartPanelBizBundle-5.0.1.5.zip",
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartPanelBizBundle-5.0.1.2.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingSmartPanelBizBundle.",
