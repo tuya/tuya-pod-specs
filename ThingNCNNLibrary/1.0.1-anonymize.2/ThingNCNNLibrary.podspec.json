@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "libraries": "c++",
+    "license": "none",
+    "name": "ThingNCNNLibrary",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "DEFINES_MODULE": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingNCNNLibrary-1.0.1-anonymize.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingNCNNLibrary.",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingNCNNLibrary.xcframework",
+        "ThingNCNNLibrary/Vendors/ncnn.framework",
+        "ThingNCNNLibrary/Vendors/openmp.framework"
+    ],
+    "vendored_libraries": "ThingNCNNLibrary/Vendors/libncnn_weight_model_static.a",
+    "version": "1.0.1-anonymize.2"
+}
