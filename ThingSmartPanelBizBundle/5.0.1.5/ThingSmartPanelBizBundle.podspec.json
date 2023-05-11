@@ -1086,7 +1086,7 @@
         "ThingSmartBLEKit": [],
         "ThingSmartBaseKit": [],
         "ThingSmartBaseKitBizBundle": [
-            "5.0.0"
+            "~> 5.0.0"
         ],
         "ThingSmartBeacon": [
             "1.4.3"
@@ -1095,7 +1095,7 @@
             "5.0.11"
         ],
         "ThingSmartBizKitBizBundle": [
-            "5.0.1"
+            "~> 5.0.1"
         ],
         "ThingSmartBusinessLibrary": [
             "3.35.3-remove-lottie.1"
@@ -1109,7 +1109,7 @@
         "ThingSmartDeviceCoreKit": [],
         "ThingSmartDeviceKit": [],
         "ThingSmartDeviceKitBizBundle": [
-            "5.0.3"
+            "~> 5.0.3"
         ],
         "ThingSmartDocumentManager": [
             "1.0.1"
@@ -1125,7 +1125,7 @@
         ],
         "ThingSmartMQTTChannelKit": [],
         "ThingSmartMapKitBizBundle": [
-            "5.0.1"
+            "~> 5.0.1"
         ],
         "ThingSmartMatterInterfaceAPI": [
             "1.2.1"
@@ -1134,7 +1134,7 @@
             "1.0.2-anonymize.1"
         ],
         "ThingSmartMiniAppBizBundle": [
-            "5.0.5"
+            "~> 5.0.5"
         ],
         "ThingSmartNetworkKit": [],
         "ThingSmartOutdoorPlugAPI": [
