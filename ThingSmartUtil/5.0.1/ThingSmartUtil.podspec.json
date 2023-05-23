@@ -24,6 +24,7 @@
       "SystemConfiguration",
       "UIKit"
     ],
+    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle",
     "dependencies": {
       "ThingMbedtls": [
         "~> 3.1.5"
@@ -34,6 +35,7 @@
     }
   },
   "watchos": {
+    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle",
     "frameworks": "WatchKit"
   },
   "vendored_frameworks": [
