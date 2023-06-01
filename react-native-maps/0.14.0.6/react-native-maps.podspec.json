@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "intelligibabble": "leland.m.richardson@gmail.com"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": [],
+        "ThingFoundationKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "MapKit"
+    ],
+    "homepage": "https://github.com/airbnb/react-native-maps#readme",
+    "license": "MIT",
+    "name": "react-native-maps",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/1685597869-react-native-maps-0.14.0.6.zip",
+        "type": "zip"
+    },
+    "summary": "React Native Mapview component for iOS + Android",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "react_native_maps.xcframework"
+    ],
+    "version": "0.14.0.6"
+}
