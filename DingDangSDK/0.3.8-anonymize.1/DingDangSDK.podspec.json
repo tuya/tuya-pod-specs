@@ -1,0 +1,54 @@
+{
+    "authors": {
+        "zhukw": "zhukw@tuya.com"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "AFNetworking/Reachability": [],
+        "CocoaLumberjack": [],
+        "SSZipArchive": [],
+        "TencentOpenApi": [
+            "3.3.7"
+        ]
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "CoreTelephony",
+        "SystemConfiguration",
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/zhukw/DingDangSDK",
+    "libraries": [
+        "sqlite3",
+        "z"
+    ],
+    "license": {
+        "file": "LICENSE",
+        "type": "MIT"
+    },
+    "name": "DingDangSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/1686535035-DingDangSDK-0.3.8-anonymize.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of DingDangSDK.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "DingDangSDK.xcframework",
+        "DingDangSDK/Vendor/TVSCore.framework",
+        "DingDangSDK/Vendor/TVSWeb.framework"
+    ],
+    "vendored_libraries": "DingDangSDK/Vendor/**/*.a",
+    "version": "0.3.8-anonymize.1"
+}
