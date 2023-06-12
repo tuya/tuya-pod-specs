@@ -4,7 +4,7 @@
     },
     "cocoapods_version": ">= 1.10",
     "dependencies": {
-        "AFNetworking/Reachability": [],
+        "AFNetworking/Reachability": ["> 2.0.0"],
         "CocoaLumberjack": [],
         "CocoaLumberjack/Core": [],
         "DingDangSDK": [
