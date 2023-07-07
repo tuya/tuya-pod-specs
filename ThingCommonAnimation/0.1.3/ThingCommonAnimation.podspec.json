@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ThingUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingCommonAnimation",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCommonAnimation-0.1.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingCommonAnimation.",
+    "vendored_frameworks": [
+        "Build/ThingCommonAnimation.xcframework"
+    ],
+    "version": "0.1.3"
+}
