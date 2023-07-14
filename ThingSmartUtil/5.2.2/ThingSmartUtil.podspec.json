@@ -24,7 +24,7 @@
       "SystemConfiguration",
       "UIKit"
     ],
-    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle",
+    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle"
   },
   "watchos": {
     "frameworks": "WatchKit",
