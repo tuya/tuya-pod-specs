@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "EZAudio": [],
+        "ThingPanelContext": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "AVFoundation",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TRCTMusicManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TRCTMusicManager-2.0.0-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TRCTMusicManager.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TRCTMusicManager.xcframework"
+    ],
+    "version": "2.0.0-rc.2"
+}

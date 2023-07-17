@@ -1,0 +1,43 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TUNIAPIManagerKit": [],
+        "ThingFoundationKit": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "ThingStorageGroupInterface": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TUNILocalizationManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TUNILocalizationManager": [
+            "ios/tunilocalizationmanager/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TUNILocalizationManager-1.6.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TUNILocalizationManager.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TUNILocalizationManager.xcframework"
+    ],
+    "version": "1.6.3"
+}

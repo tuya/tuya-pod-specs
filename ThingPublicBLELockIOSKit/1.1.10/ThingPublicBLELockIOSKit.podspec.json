@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingFoundationKit": [],
+        "ThingKVStorageLibrary": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingPanelContext": [],
+        "ThingSmartNetworkKit": [],
+        "ThingSmartPrivateCloudPlugAPI": [],
+        "ThingSmartUtil": [],
+        "ThingUIKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingPublicBLELockIOSKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationTemporaryUsageDescriptionDictionary"
+    },
+    "prefix_header_file": "ThingPublicBLELockIOSKit/Classes/ThingPublicBLELockIOSKitPrefix.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.1.10.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingPublicBLELockIOSKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingPublicBLELockIOSKit.xcframework"
+    ],
+    "version": "1.1.10"
+}

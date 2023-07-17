@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingSmartDeviceCoreKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingOTAGeneralPlugAPI",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingOTAGeneralPlugAPI-1.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingOTAGeneralPlugAPI.",
+    "vendored_frameworks": [
+        "ThingOTAGeneralPlugAPI.xcframework"
+    ],
+    "version": "1.0.3"
+}

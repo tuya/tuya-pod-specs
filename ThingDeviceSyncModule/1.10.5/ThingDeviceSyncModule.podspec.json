@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingCommonUI": [],
+        "ThingDeviceBusinessDataKit": [],
+        "ThingDeviceSyncControlModule": [],
+        "ThingDeviceSyncPlugAPI": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingTabPagingView": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": []
+    },
+    "description": "TODO: 公版 3.7.0 新增需求，在设备详情界面新增入口",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingDeviceSyncModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceSyncModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "ThingDeviceSyncModule/Classes/PrefixHeader.pch",
+    "resources": [
+        "ThingDeviceSyncModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingDeviceSyncModule-1.10.5.zip",
+        "type": "zip"
+    },
+    "summary": "双控设备关联模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingDeviceSyncModule.xcframework"
+    ],
+    "version": "1.10.5"
+}

@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingActivatorSktAPI": [],
+        "ThingModuleManager": [],
+        "ThingSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingActivatorRequestSkt",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingActivatorRequestSkt-0.2.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingActivatorRequestSkt.",
+    "vendored_frameworks": [
+        "ThingActivatorRequestSkt.xcframework"
+    ],
+    "version": "0.2.2"
+}
