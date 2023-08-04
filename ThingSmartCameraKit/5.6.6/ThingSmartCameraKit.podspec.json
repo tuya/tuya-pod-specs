@@ -1,1 +1,61 @@
-{"name": "ThingSmartCameraKit", "version": "5.6.6", "summary": "open SDK code for thing smart camera.", "description": "TODO: Add long description of the pod here.", "homepage": "https://registry.code.thing-inc.top/thingIOS/ThingSmartCameraSDK", "license": {"type": "MIT", "file": "LICENSE"}, "authors": {"Tuya": "developer@tuya.com"}, "source": {"http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1689306928-ThingSmartCameraKit-5.6.6.zip", "type": "zip"}, "platforms": {"ios": "11.0"}, "libraries": ["c++", "z", "iconv"], "frameworks": ["UIKit", "Foundation", "AVFoundation", "Photos"], "dependencies": {"ThingSmartCameraBase": [], "ThingSmartBaseKit": [], "ThingSmartDeviceCoreKit": [], "ThingSmartCameraM": [], "ThingEncryptImage": [], "ThingSmartAVBaseKit": [], "ThingSmartUtil": [], "ThingSmartCameraExtSDK": []}, "vendored_frameworks": ["Build/ThingSmartCameraKit.xcframework"], "source_files": ["Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/Headers/*"]}
+{
+    "name":"ThingSmartCameraKit",
+    "version":"5.6.6",
+    "summary":"open SDK code for thing smart camera.",
+    "description":"TODO: Add long description of the pod here.",
+    "homepage":"https://registry.code.thing-inc.top/thingIOS/ThingSmartCameraSDK",
+    "license":{
+        "type":"MIT",
+        "file":"LICENSE"
+    },
+    "authors":{
+        "Tuya":"developer@tuya.com"
+    },
+    "source":{
+        "http":"https://images.tuyacn.com/smart/app/package/developer/sdk/1689306928-ThingSmartCameraKit-5.6.6.zip",
+        "type":"zip"
+    },
+    "platforms":{
+        "ios":"11.0"
+    },
+    "libraries":[
+        "c++",
+        "z",
+        "iconv"
+    ],
+    "frameworks":[
+        "UIKit",
+        "Foundation",
+        "AVFoundation",
+        "Photos"
+    ],
+    "dependencies":{
+        "ThingSmartCameraBase":[
+            "~> 5.5.3"
+        ],
+        "ThingSmartBaseKit":[
+            "~> 5.1"
+        ],
+        "ThingSmartDeviceCoreKit":[
+            "~> 5.1"
+        ],
+        "ThingSmartCameraM":[
+            "~> 5.6.5"
+        ],
+        "ThingEncryptImage":[
+            "~> 4.31.0"
+        ],
+        "ThingSmartAVBaseKit":[
+            "~> 2.0.1"
+        ],
+        "ThingSmartCameraExtSDK":[
+            "~> 1.0.1"
+        ]
+    },
+    "vendored_frameworks":[
+        "Build/ThingSmartCameraKit.xcframework"
+    ],
+    "source_files":[
+        "Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/Headers/*"
+    ]
+}
