@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TUNIAPIManagerKit": [],
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingFoundationKit": [],
+        "ThingGroupHandlePlugAPI": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TUNIGroupControlManager",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TUNIGroupControlManager": [
+            "ios/tunigroupcontrolmanager/Assets/*",
+            "js/dist/index.js"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TUNIGroupControlManager-2.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TUNIGroupControlManager.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TUNIGroupControlManager.xcframework"
+    ],
+    "version": "2.0.3"
+}

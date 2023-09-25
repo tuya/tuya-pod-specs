@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingSmartCameraBase": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartPiPPlugAPI": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingCameraSktAPI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCameraSktAPI-1.2.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingCameraSktAPI.",
+    "vendored_frameworks": [
+        "ThingCameraSktAPI.xcframework"
+    ],
+    "version": "1.2.3"
+}

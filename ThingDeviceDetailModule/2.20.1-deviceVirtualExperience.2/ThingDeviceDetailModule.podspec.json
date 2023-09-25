@@ -1,0 +1,86 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "GodzillaMiniIService": [],
+        "GodzillaMiniOpenAPI": [],
+        "ThingAlertView": [],
+        "ThingAutoTracker": [],
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingDeviceAccessoryManagePlugAPI": [],
+        "ThingDeviceBusinessDataKit": [],
+        "ThingDeviceDetailPlugAPI": [],
+        "ThingDeviceDetailSktAPI": [],
+        "ThingDeviceDetectionNetworkPlugAPI": [],
+        "ThingDeviceEditPlugAPI": [],
+        "ThingDeviceEvaluationPlugAPI": [],
+        "ThingDeviceInfoPlugAPI": [],
+        "ThingDeviceIotCardPlugAPI": [],
+        "ThingDeviceLocationPlugAPI": [],
+        "ThingDeviceMigratePlugAPI": [],
+        "ThingDeviceNetworkSettingPlugAPI": [],
+        "ThingDeviceShareModulePlugAPI": [],
+        "ThingDeviceSyncPlugAPI": [],
+        "ThingDeviceTinyBusinessPlugAPI": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingGroupHandlePlugAPI": [],
+        "ThingHybridContainer": [],
+        "ThingInterfaceConfig": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingNormalUI": [],
+        "ThingOEMConfig": [],
+        "ThingOTAGeneralPlugAPI": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSmartOutdoorPlugAPI": [],
+        "ThingSmartShareKit": [],
+        "ThingSmartUIConfigServices": [],
+        "ThingStorageGroupInterface": [],
+        "ThingStorageLibrary": [],
+        "ThingTemplateSkeleton": [],
+        "ThingUrlPredefined": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingDeviceDetailModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceDetailModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "ThingDeviceDetailModule/Classes/PrefixHeader.pch",
+    "preserve_paths": "weak_deps.json",
+    "resource_bundles": {
+        "ThingDeviceDetailModule": [
+            "ThingDeviceDetailModule/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingDeviceDetailModule-2.20.1-deviceVirtualExperience.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingDeviceDetailModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingDeviceDetailModule.xcframework"
+    ],
+    "version": "2.20.1-deviceVirtualExperience.2"
+}

@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingModuleManager": [],
+        "ThingSmartActivatorDiscoveryManager": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartActivatorRequest",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartActivatorRequest-0.0.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSmartActivatorRequest.",
+    "vendored_frameworks": [
+        "ThingSmartActivatorRequest.xcframework"
+    ],
+    "version": "0.0.4"
+}

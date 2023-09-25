@@ -1,0 +1,39 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingBluetoothInterface": [],
+        "ThingModuleManager": [],
+        "ThingSmartBLEMeshKit": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartUtil": []
+    },
+    "description": "bluetooth interface implemenatation.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingBLEMeshInterfaceImpl",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingBLEMeshInterfaceImpl-0.2.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingBLEMeshInterface.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingBLEMeshInterfaceImpl.xcframework"
+    ],
+    "version": "0.2.0"
+}

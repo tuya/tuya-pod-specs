@@ -10,7 +10,7 @@
   },
   "homepage": "https://developer.thing.com/",
   "source": {
-    "http": "https://mpaas-api-gateway-cn.tuya-inc.com:7799/store/v1/uss/public/smart/public/persistence/ci/iOS/xcframework/release/ThingSmartUtil/ThingSmartUtil-5.4.0.zip",
+    "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartUtil-5.4.0.zip",
     "type": "zip"
   },
   "platforms": {

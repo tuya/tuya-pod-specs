@@ -1,0 +1,93 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MJRefresh": [],
+        "Masonry": [],
+        "ThingAnimationKit": [],
+        "ThingBusinessService": [],
+        "ThingCameraAbilityCommonModule": [],
+        "ThingCameraFoundationKit": [],
+        "ThingCameraModuleSKYEventModule": [],
+        "ThingCameraSktAPI": [],
+        "ThingCameraUIComponents": [],
+        "ThingCameraUtil": [],
+        "ThingCommonUI": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingPanelModule": [],
+        "ThingPhotoBrowser": [],
+        "ThingPhotoLibraryBizKit": [],
+        "ThingProgressHUD": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartCameraBizKit": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartDoorLockModuleService": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartP2pChannelKit": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "JavaScriptCore",
+        "MapKit",
+        "CoreGraphics",
+        "CoreLocation",
+        "AVFoundation",
+        "QuartzCore",
+        "CFNetwork",
+        "Security",
+        "AddressBook",
+        "CoreTelephony",
+        "ImageIO",
+        "MobileCoreServices",
+        "Accelerate",
+        "AudioToolbox",
+        "UserNotifications",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "Photos",
+        "AssetsLibrary",
+        "MediaPlayer",
+        "CoreMedia"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingCameraPanelModule",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingCameraPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingCameraPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingCameraPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingCameraPanelModule\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "ThingCameraPanelModule": [
+            "ThingCameraPanelModule/Assets/**/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCameraPanelModule-5.1.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingCameraPanelModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingCameraPanelModule.xcframework"
+    ],
+    "version": "5.1.5"
+}

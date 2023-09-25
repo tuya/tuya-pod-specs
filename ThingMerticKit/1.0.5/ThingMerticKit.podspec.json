@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "SSZipArchive": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "MetricKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingMerticKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingMerticKit-1.0.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingMerticKit.",
+    "vendored_frameworks": [
+        "ThingMerticKit.xcframework"
+    ],
+    "version": "1.0.5"
+}

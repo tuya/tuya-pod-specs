@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingBaseDebugger": [],
+        "ThingKVStorageLibrary": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartEventPredefined": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingJailbreakDetectModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "ThingJailbreakDetectModule/Classes/PrefixHeader.pch",
+    "resource_bundles": {
+        "ThingJailbreakDetectModule": [
+            "ThingJailbreakDetectModule/Assets/*.png"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.2-anonymize.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingJailbreakDetectModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingJailbreakDetectModule.xcframework"
+    ],
+    "version": "0.1.2-anonymize.1"
+}

@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "FLAnimatedImage": [],
+        "ThingAlertView": [],
+        "ThingEncryptImage": [],
+        "ThingLottie": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingUIKit": []
+    },
+    "description": "ThingLightCommonUI",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingLightCommonUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "ThingLightCommonUI/Classes/PrefixHeader.pch",
+    "resource_bundles": {
+        "ThingLightCommonUI": [
+            "ThingLightCommonUI/Assets/*.xcassets"
+        ]
+    },
+    "resources": [
+        "ThingLightCommonUI/Assets/*.{png,xib,plist,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.3.zip",
+        "type": "zip"
+    },
+    "summary": "ui only for light project.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingLightCommonUI.xcframework"
+    ],
+    "version": "2.2.3"
+}

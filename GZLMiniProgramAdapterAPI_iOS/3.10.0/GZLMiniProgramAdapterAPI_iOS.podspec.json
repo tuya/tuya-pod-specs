@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GodzillaMiniIService": []
+    },
+    "description": "小程序容器对公版解耦，此仓库包含公版对接的协议",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLMiniProgramAdapterAPI_iOS",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniProgramAdapterAPI_iOS-3.10.0.zip",
+        "type": "zip"
+    },
+    "summary": "小程序公版对接接口",
+    "vendored_frameworks": [
+        "Build/GZLMiniProgramAdapterAPI_iOS.xcframework"
+    ],
+    "version": "3.10.0"
+}

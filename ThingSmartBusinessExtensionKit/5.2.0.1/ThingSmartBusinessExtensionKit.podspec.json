@@ -1,0 +1,83 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingAnnotationFoundation": [
+            "0.2.0"
+        ],
+        "ThingBluetoothInterface": [
+            "1.14.2"
+        ],
+        "ThingBusinessTrackAPI": [
+            "1.0.1"
+        ],
+        "ThingDeviceBusinessDataKit": [
+            "1.1.0"
+        ],
+        "ThingDeviceDetailKit": [
+            "0.0.3"
+        ],
+        "ThingFamilyAPI": [
+            "1.3.2"
+        ],
+        "ThingFoundationKit": [
+            "1.19.6-ci-event.1"
+        ],
+        "ThingGroupHandleSktAPI": [
+            "1.3.0-sdk.2"
+        ],
+        "ThingGroupManagerKit": [
+            "1.1.0-sdk.3"
+        ],
+        "ThingHomeKitAPI": [
+            "1.0.0"
+        ],
+        "ThingKVStorageLibrary": [
+            "1.0.2"
+        ],
+        "ThingModuleManager": [
+            "2.11.2-ci-event.1"
+        ],
+        "ThingSmartActivatorCoreKit": [],
+        "ThingSmartActivatorDiscoveryManager": [
+            "0.5.4-bizBundle-520.3"
+        ],
+        "ThingSmartBaseKit": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartDeviceKit": [],
+        "ThingSmartFamilyBizKit": [
+            "1.8.4"
+        ],
+        "ThingSmartGroupLink": [
+            "1.2.3-sdk.1"
+        ],
+        "ThingSmartMatterInterfaceAPI": [
+            "1.3.0"
+        ],
+        "ThingSmartShareKit": [],
+        "ThingSmartTimerKit": [],
+        "ThingSmartUtil": [],
+        "ThingStorageGroupInterface": [
+            "0.2.1"
+        ],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartBusinessExtensionKit",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartBusinessExtensionKit-5.2.0.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSmartBusinessExtensionKit.",
+    "vendored_frameworks": [
+        "ThingSmartBusinessExtensionKit.xcframework"
+    ],
+    "version": "5.2.0.1"
+}

@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Protobuf": [],
+        "SocketRocket": [],
+        "ThingAudioEngineSDK": [],
+        "ThingFoundationKit": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "icucore",
+        "c++",
+        "z"
+    ],
+    "license": "none",
+    "name": "ThingSpeechKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resources": [
+        "ThingSpeechKit/Assets/**/*.{mp3}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSpeechKit-1.0.11.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSpeechKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSpeechKit.xcframework"
+    ],
+    "version": "1.0.11"
+}
