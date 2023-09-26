@@ -1,0 +1,65 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "IQKeyboardManager": [],
+        "ThingAuthInterface": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingKVStorageLibrary": [],
+        "ThingLocationAuthManager": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingPopupViewController": [],
+        "ThingRoomManagerInterface": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSmartFamilyBizKit": [],
+        "ThingSmartUIConfigServices": [],
+        "ThingSpaceInfoSktAPI": [],
+        "ThingTabPagingView": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "ThingUrlPredefinedExternal": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "MapKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartFamilyDefaultUISkin",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "ThingSmartFamilyDefaultUISkin": [
+            "ThingSmartFamilyDefaultUISkin/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartFamilyDefaultUISkin-2.21.4.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦家庭模块默认皮肤",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartFamilyDefaultUISkin.xcframework"
+    ],
+    "version": "2.21.4"
+}
