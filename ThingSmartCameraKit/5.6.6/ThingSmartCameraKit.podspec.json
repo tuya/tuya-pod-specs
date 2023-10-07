@@ -48,6 +48,15 @@
         "ThingSmartAVBaseKit":[
             "~> 2.0.1"
         ],
+        "ThingCameraSDK":[
+            "~> 4.5.7"
+        ],
+        "ThingP2PSDK":[
+            "~> 3.4.50"
+        ],
+        "ThingSmartMediaUIKit":[
+            "~> 2.1.0"
+        ],
         "ThingSmartCameraExtSDK":[
             "~> 1.0.1"
         ]
