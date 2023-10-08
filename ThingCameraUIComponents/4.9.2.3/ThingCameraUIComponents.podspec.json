@@ -1,0 +1,52 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "DACircularProgress": [],
+        "Masonry": [],
+        "ThingCameraUIKit": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingLottie": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartCameraBase": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingCameraUIComponents",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "ThingCameraUIComponents": [
+            "ThingCameraUIComponents/Assets/**/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCameraUIComponents-4.9.2.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingCameraUIComponents.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingCameraUIComponents.xcframework"
+    ],
+    "version": "4.9.2.3"
+}
