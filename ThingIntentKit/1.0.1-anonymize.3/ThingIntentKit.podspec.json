@@ -17,7 +17,7 @@
         "ThingIntentKit/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingIntentKit-1.0.1-anonymize.3.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingIntentKit-1.0.1-anonymize.3.zip",
         "type": "zip"
     },
     "summary": "涂鸦科技组件模板组件",

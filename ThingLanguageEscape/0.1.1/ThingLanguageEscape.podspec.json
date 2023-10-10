@@ -16,7 +16,7 @@
         "ios": "10.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingLanguageEscape-0.1.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageEscape-0.1.1.zip",
         "type": "zip"
     },
     "summary": "iOS 多语言审核上架多语言敏感词条脱敏库",

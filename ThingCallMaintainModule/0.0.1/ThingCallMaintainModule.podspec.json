@@ -15,7 +15,7 @@
     },
     "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingCallMaintainModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingCallMaintainModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingCallMaintainModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingCallMaintainModule\", ##__VA_ARGS__)",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCallMaintainModule-0.0.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallMaintainModule-0.0.1.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingCallMaintainModule.",

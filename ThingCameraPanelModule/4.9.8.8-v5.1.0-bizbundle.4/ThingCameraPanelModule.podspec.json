@@ -78,7 +78,7 @@
         ]
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCameraPanelModule-4.9.8.8-v5.1.0-bizbundle.4.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelModule-4.9.8.8-v5.1.0-bizbundle.4.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingCameraPanelModule.",

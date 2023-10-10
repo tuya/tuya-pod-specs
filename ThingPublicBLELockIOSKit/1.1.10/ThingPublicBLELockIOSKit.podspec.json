@@ -33,7 +33,7 @@
     },
     "prefix_header_file": "ThingPublicBLELockIOSKit/Classes/ThingPublicBLELockIOSKitPrefix.pch",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.1.10.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.1.10.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingPublicBLELockIOSKit.",

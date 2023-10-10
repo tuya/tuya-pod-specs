@@ -13,7 +13,7 @@
         "ios": "9.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaCommonAnimation-0.1.1-fix-ios17-SDK400.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaCommonAnimation-0.1.1-fix-ios17-SDK400.1.zip",
         "type": "zip"
     },
     "summary": "A short description of TuyaCommonAnimation.",

@@ -31,7 +31,7 @@
         ]
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingAVSKit-1.0.7-avskitCrashProtect.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAVSKit-1.0.7-avskitCrashProtect.2.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingAVSKit.",

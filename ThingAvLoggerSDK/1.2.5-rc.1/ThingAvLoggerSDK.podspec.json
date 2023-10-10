@@ -38,7 +38,7 @@
         "OTHER_CFLAGS": "-DLINUX"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingAvLoggerSDK-1.2.5-rc.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvLoggerSDK-1.2.5-rc.1.zip",
         "type": "zip"
     },
     "summary": "ThingAvLoggerSDK framework.",

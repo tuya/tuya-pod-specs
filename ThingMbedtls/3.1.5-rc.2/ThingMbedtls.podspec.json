@@ -16,7 +16,7 @@
         "OTHER_LDFLAGS": "-all_load"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingMbedtls-3.1.5-rc.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMbedtls-3.1.5-rc.2.zip",
         "type": "zip"
     },
     "summary": "tuya mbedtls framework.",

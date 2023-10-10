@@ -45,7 +45,7 @@
         "OTHER_LDFLAGS": "-read_only_relocs suppress"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingMediaPlayerSDK-1.4.0-rc.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMediaPlayerSDK-1.4.0-rc.2.zip",
         "type": "zip"
     },
     "summary": "open SDK code for tuya media player.",

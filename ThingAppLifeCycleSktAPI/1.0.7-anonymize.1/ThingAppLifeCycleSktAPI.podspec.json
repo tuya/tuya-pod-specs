@@ -15,7 +15,7 @@
         "ios": "9.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingAppLifeCycleSktAPI-1.0.7-anonymize.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAppLifeCycleSktAPI-1.0.7-anonymize.1.zip",
         "type": "zip"
     },
     "summary": "App生命周期监听整理回调",

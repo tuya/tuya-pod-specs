@@ -25,7 +25,7 @@
     },
     "prefix_header_contents": "#ifdef __OBJC__\n  #import \"ThingSmartMatterKit.h\"\n  \n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n\n  #define ThingLog(...)           ThingSDKLog(1, @\"ThingSmartMatterKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogDebug(...)           ThingSDKLog(0, @\"ThingSmartMatterKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)           ThingSDKLog(1, @\"ThingSmartMatterKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)           ThingSDKLog(2, @\"ThingSmartMatterKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)           ThingSDKLog(3, @\"ThingSmartMatterKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartMatterKit-4.5.6.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterKit-4.5.6.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingSmartMatterKit.",

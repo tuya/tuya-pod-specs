@@ -33,7 +33,7 @@
         "ThingLightCommonUI/Assets/*.{png,xib,plist,bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.2.zip",
         "type": "zip"
     },
     "summary": "ui only for light project.",

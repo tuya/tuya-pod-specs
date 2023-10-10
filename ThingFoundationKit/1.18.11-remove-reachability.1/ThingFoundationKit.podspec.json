@@ -23,7 +23,7 @@
     },
     "pod_target_xcconfig": {},
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingFoundationKit-1.18.11-remove-reachability.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFoundationKit-1.18.11-remove-reachability.1.zip",
         "type": "zip"
     },
     "summary": "A FoundationKit Powered By ThingInc",

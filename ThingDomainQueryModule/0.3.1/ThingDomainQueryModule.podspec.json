@@ -25,7 +25,7 @@
     "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDomainQueryModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDomainQueryModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDomainQueryModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDomainQueryModule\", ##__VA_ARGS__)",
     "prefix_header_file": "ThingDomainQueryModule/Classes/PrefixHeader.pch",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingDomainQueryModule-0.3.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDomainQueryModule-0.3.1.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingDomainQueryModule.",

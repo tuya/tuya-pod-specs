@@ -300,7 +300,7 @@
         "THING_PROVIDE_SERVICE": "ThingDeviceSyncProtocol"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartDeviceSyncBizBundle-5.0.0.29.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDeviceSyncBizBundle-5.0.0.29.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingSmartDeviceSyncBizBundle.",

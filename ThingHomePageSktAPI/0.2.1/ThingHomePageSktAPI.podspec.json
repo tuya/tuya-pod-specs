@@ -11,7 +11,7 @@
         "ios": "10.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingHomePageSktAPI-0.2.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHomePageSktAPI-0.2.1.zip",
         "type": "zip"
     },
     "summary": "App主页面加载组件 页面数据装载&控制",

@@ -19,7 +19,7 @@
         "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSHealthShareUsageDescription NSHealthUpdateUsageDescription "
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYHealthModule-1.0.4.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYHealthModule-1.0.4.zip",
         "type": "zip"
     },
     "summary": "涂鸦健康数据同步",

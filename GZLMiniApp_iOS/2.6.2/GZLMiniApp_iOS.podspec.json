@@ -22,7 +22,7 @@
         "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniApp_iOS-2.6.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniApp_iOS-2.6.2.zip",
         "type": "zip"
     },
     "summary": "A short description of GZLMiniApp_iOS.",
