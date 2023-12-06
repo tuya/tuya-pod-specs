@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GZLJSEngine": [],
+        "GZLMiniAppAPM_iOS": [],
+        "GZLMiniAppCommonUI": [],
+        "GZLMiniAppStorage": [],
+        "GZLMiniProgramAdapterAPI_iOS": [],
+        "GZLRNCompatProtocol": [],
+        "GodzillaMiniBaseKit": [],
+        "GodzillaMiniOpenAPI": [],
+        "Masonry": [],
+        "TUNIAPIManagerKit": [],
+        "ThingAlertView": [],
+        "ThingEncryptImage": [],
+        "ThingLottie": [],
+        "ThingModuleManager": [],
+        "ThingNavigationController": [],
+        "ThingRealClass": [],
+        "ThingSmartNetworkKit": [],
+        "ThingStorageGroupInterface": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "UIKit",
+    "homepage": "https://github.com/tuya",
+    "ios": {},
+    "license": "none",
+    "name": "GZLMiniAppCore_iOS",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "DEFINES_MODULE": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "resources": [
+        "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/CustomResources/Assets/*",
+        "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniAppCore_iOS-3.10.15.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GZLMiniAppCore_iOS.",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+    },
+    "vendored_frameworks": [
+        "Build/GZLMiniAppCore_iOS.xcframework"
+    ],
+    "version": "3.10.15"
+}
