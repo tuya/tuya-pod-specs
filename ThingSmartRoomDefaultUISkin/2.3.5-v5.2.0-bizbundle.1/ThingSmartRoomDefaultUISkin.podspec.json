@@ -1,0 +1,53 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingRoomManagerInterface": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSmartFamilyBizKit": [],
+        "ThingSmartUIConfigServices": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "ThingUrlPredefinedExternal": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartRoomDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resources": [
+        "ThingSmartRoomDefaultUISkin/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartRoomDefaultUISkin-2.3.5-v5.2.0-bizbundle.1.zip",
+        "type": "zip"
+    },
+    "summary": "房间模块默认皮肤",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartRoomDefaultUISkin.xcframework"
+    ],
+    "version": "2.3.5-v5.2.0-bizbundle.1"
+}
