@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingFoundationKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingMachRegister",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingMachRegister-0.5.0.zip",
+        "type": "zip"
+    },
+    "static_framework": true,
+    "summary": "Hot registration.",
+    "vendored_frameworks": [
+        "ThingMachRegister.xcframework"
+    ],
+    "version": "0.5.0"
+}

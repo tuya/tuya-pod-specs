@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingAnnotationFoundation": [],
+        "ThingConfigHub": [],
+        "ThingFoundationKit": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceKit": [],
+        "ThingSmartHouseBizKit": [],
+        "ThingSpaceInfoSktAPI": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSpaceInfomationModule",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "prefix_header_contents": "#import \"ThingSpaceInfoHeader.h\"\n\n#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSpaceInfomationModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSpaceInfomationModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSpaceInfomationModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSpaceInfomationModule\", ##__VA_ARGS__)",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSpaceInfomationModule-1.6.2.zip",
+        "type": "zip"
+    },
+    "summary": "全屋数据",
+    "vendored_frameworks": [
+        "ThingSpaceInfomationModule.xcframework"
+    ],
+    "version": "1.6.2"
+}

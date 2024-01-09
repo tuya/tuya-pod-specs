@@ -1,0 +1,93 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "GZLJSEngine": [
+            "1.0.8"
+        ],
+        "GZLMiniAppAPM_iOS": [
+            "3.9.2"
+        ],
+        "GZLMiniAppCommonUI": [
+            "3.0.0"
+        ],
+        "GZLMiniAppCore_iOS": [
+            "3.13.7"
+        ],
+        "GZLMiniAppInject": [
+            "3.9.2"
+        ],
+        "GZLMiniAppInterceptor_iOS": [
+            "3.6.4"
+        ],
+        "GZLMiniAppRemoteIDE": [
+            "3.13.1"
+        ],
+        "GZLMiniAppStorage": [
+            "3.2.0"
+        ],
+        "GZLMiniAppTab_iOS": [
+            "3.10.4"
+        ],
+        "GZLMiniAppWebView_iOS": [
+            "3.13.1"
+        ],
+        "GZLMiniApp_iOS": [
+            "2.6.2"
+        ],
+        "GZLMiniProgramAdapterAPI_iOS": [
+            "3.10.0"
+        ],
+        "GZLQuickJS": [
+            "1.0.2"
+        ],
+        "GZLRNCompatProtocol": [
+            "1.1.0"
+        ],
+        "GodzillaMiniBaseKit": [
+            "3.1.5"
+        ],
+        "GodzillaMiniIService": [
+            "1.0.1"
+        ],
+        "GodzillaMiniOpenAPI": [
+            "3.11.3"
+        ],
+        "GodzillaMiniOpenImpl": [
+            "3.12.2"
+        ],
+        "GodzillaMiniPluginAPI": [
+            "3.11.0"
+        ],
+        "GodzillaMiniPluginImpl": [
+            "3.12.1"
+        ],
+        "GodzillaMiniWidgetKit": [
+            "3.13.3"
+        ],
+        "QuickJSObjC": [
+            "1.0.21"
+        ],
+        "TUNIDiffSubRegisterManager": [
+            "3.0.0"
+        ]
+    },
+    "description": "iOS 壳组件",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLMiniAppShell_iOS",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniAppShell_iOS-3.13.15.zip",
+        "type": "zip"
+    },
+    "summary": "iOS 壳组件",
+    "vendored_frameworks": [
+        "GZLMiniAppShell_iOS.xcframework"
+    ],
+    "version": "3.13.15"
+}

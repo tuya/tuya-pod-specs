@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GZLMiniProgramAdapterAPI_iOS": [],
+        "GodzillaMiniBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLMiniAppAPM_iOS",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "DEFINES_MODULE": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLMiniAppAPM_iOS-3.9.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GZLMiniAppAPM_iOS.",
+    "vendored_frameworks": [
+        "Build/GZLMiniAppAPM_iOS.xcframework"
+    ],
+    "version": "3.9.2"
+}

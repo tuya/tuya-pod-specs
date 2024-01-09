@@ -1,0 +1,59 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MMKV": [],
+        "ThingAlertPickerComponent": [],
+        "ThingBleGatewayService": [],
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingFoundationKit": [],
+        "ThingGroupHandlePlugAPI": [],
+        "ThingKVStorageLibrary": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOTAGeneralPlugAPI": [],
+        "ThingPanelBundleManager": [],
+        "ThingPanelModulePlugAPI": [],
+        "ThingProgressHUD": [],
+        "ThingRNContainerAPI": [],
+        "ThingReactNativeAPI": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartDeviceKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartNetworkKit": [],
+        "ThingSpaceInfoSktAPI": [],
+        "ThingUIKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingPanelModule",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n#import <YYModel/YYModel.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>\n#import <ThingNavigationController/ThingNavigationController.h>\n#import <ThingNavigationController/ThingNavigationNaviBarProtocol.h>\n#import <ThingNavigationController/UIViewController+ThingNavigation.h>\n#import <ThingBluetoothInterface/ThingBluetoothInterface.h>\n#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingPanelModule\", ##__VA_ARGS__)",
+    "resources": [
+        "ThingPanelModule/Assets/**/*.{png,jsbundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingPanelModule-2.23.5.zip",
+        "type": "zip"
+    },
+    "summary": "Thing面板模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingPanelModule.xcframework"
+    ],
+    "version": "2.23.5"
+}

@@ -1,0 +1,53 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingAlertPickerComponent": [],
+        "ThingBluetoothInterface": [],
+        "ThingDeviceBusinessDataKit": [],
+        "ThingDeviceDetailKit": [],
+        "ThingDeviceTimerPlugAPI": [],
+        "ThingFoundationKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartTimerKit": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": []
+    },
+    "description": "涂鸦设备定时模块",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingTimerModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingTimerModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingTimerModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingTimerModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingTimerModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "ThingTimerModule/Classes/PrefixHeader.pch",
+    "resources": [
+        "ThingTimerModule/Assets/**/*.{png,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingTimerModule-2.11.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingTimerModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingTimerModule.xcframework"
+    ],
+    "version": "2.11.1"
+}

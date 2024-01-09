@@ -1,0 +1,61 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "GodzillaMiniIService": [],
+        "GodzillaMiniOpenAPI": [],
+        "ThingBusinessService": [],
+        "ThingDeviceBusinessDataKit": [],
+        "ThingDeviceShareModuleSktAPI": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingHybridContainer": [],
+        "ThingLogMacro": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingPageMenuView": [],
+        "ThingPageView": [],
+        "ThingPopupViewController": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSmartMatterInterfaceAPI": [],
+        "ThingSmartShareKit": [],
+        "ThingSmartUIConfigServices": [],
+        "ThingSmartUtil": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingDeviceShareModule",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceShareModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceShareModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceShareModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceShareModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "ThingDeviceShareModule/Classes/PrefixHeader.pch",
+    "resources": [
+        "ThingDeviceShareModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingDeviceShareModule-2.5.8-uibiz580.1.zip",
+        "type": "zip"
+    },
+    "summary": "设备/群组分享模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingDeviceShareModule.xcframework"
+    ],
+    "version": "2.5.8-uibiz580.1"
+}

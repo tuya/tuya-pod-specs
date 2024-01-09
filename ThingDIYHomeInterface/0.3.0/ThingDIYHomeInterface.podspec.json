@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingDIYHomeInterface",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingDIYHomeInterface-0.3.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingDIYHomeInterface.",
+    "vendored_frameworks": [
+        "ThingDIYHomeInterface.xcframework"
+    ],
+    "version": "0.3.0"
+}

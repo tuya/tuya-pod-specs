@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GZLMiniAppCore_iOS": [],
+        "GZLMiniAppInterceptor_iOS": [],
+        "GZLMiniProgramAdapterAPI_iOS": [],
+        "GodzillaMiniBaseKit": [],
+        "GodzillaMiniOpenAPI": [],
+        "MJRefresh": [],
+        "Masonry": [],
+        "TUNIAPIManagerKit": [],
+        "ThingFoundationKit": [],
+        "ThingSmartNetworkKit": [],
+        "ThingStorageGroupInterface": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GodzillaMiniWidgetKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/GodzillaMiniWidgetKit.xcframework/ios-arm64/GodzillaMiniWidgetKit.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GodzillaMiniWidgetKit-3.13.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GodzillaMiniWidgetKit.",
+    "vendored_frameworks": [
+        "Build/GodzillaMiniWidgetKit.xcframework"
+    ],
+    "version": "3.13.3"
+}

@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingSmartBusinessLibrary": [],
+        "ThingTemplateSkeleton": [],
+        "ThingUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingHomePageSktAPI",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingHomePageSktAPI-0.4.0-feature-event-optimize.1.zip",
+        "type": "zip"
+    },
+    "summary": "App主页面加载组件 页面数据装载&控制",
+    "vendored_frameworks": [
+        "ThingHomePageSktAPI.xcframework"
+    ],
+    "version": "0.4.0-feature-event-optimize.1"
+}

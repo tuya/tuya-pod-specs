@@ -1,0 +1,102 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "DACircularProgress": [],
+        "FLAnimatedImage": [],
+        "MJRefresh": [],
+        "ThingABTest": [],
+        "ThingAnimationKit": [],
+        "ThingAppLifeCycleSktAPI": [],
+        "ThingAuthInterface": [],
+        "ThingBleGatewayService": [],
+        "ThingBlockKit": [],
+        "ThingBluetoothInterface": [],
+        "ThingCommonUI": [],
+        "ThingDIYHomeInterface": [],
+        "ThingDPCContainer": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingKVStorageLibrary": [],
+        "ThingLogMacro": [],
+        "ThingLottie": [],
+        "ThingMachRegister": [],
+        "ThingMainPageLink": [],
+        "ThingMerticKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingPageMenuView": [],
+        "ThingRoomManagerInterface": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceKit": [],
+        "ThingSmartFeedbackKit": [],
+        "ThingSmartHouseBizKit": [],
+        "ThingSmartMessageKit": [],
+        "ThingSmartSceneKit": [],
+        "ThingSmartUtil": [],
+        "ThingSpaceInfoSktAPI": [],
+        "ThingStatisticsKit": [],
+        "ThingSwipeView": [],
+        "ThingTabPagingView": [],
+        "ThingTemplateSkeleton": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "YYModel": []
+    },
+    "description": "首页内容相关",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AddressBook",
+        "AddressBookUI",
+        "CoreTelephony",
+        "Contacts",
+        "ContactsUI",
+        "Foundation",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "iconv",
+        "z",
+        "c++",
+        "sqlite3"
+    ],
+    "license": "none",
+    "name": "ThingSmartHouse",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n#import <ThingSpaceInfoSktAPI/ThingSpaceInfoSktAPI.h>\n#import <ThingModuleManager/ThingModule.h>\n#import <ThingModuleServices/ThingModuleServices.h>\n#import <ThingMachRegister/ThingMachRegister.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartHouse\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartHouse\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartHouse\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartHouse\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "ThingSmartHouseUISkin": [
+            "ThingSmartHouse/Assets/ThingSmartHouseUISkin/*"
+        ]
+    },
+    "resources": [
+        "ThingSmartHouse/Assets/*.{png,xib,plist,xcassets,bundle,jif}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartHouse-2.4.7.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSmartHouse.",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartHouse.xcframework"
+    ],
+    "version": "2.4.7"
+}

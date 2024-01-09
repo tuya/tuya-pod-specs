@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingSmartBaseKit": [],
+        "YYModel": [],
+        "libextobjc": []
+    },
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "dependencies": {
+            "ThingKVStorageLibrary": []
+        }
+    },
+    "license": "none",
+    "name": "ThingOEMConfig",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingOEMConfig-1.32.2.zip",
+        "type": "zip"
+    },
+    "summary": "OEM打包配置项",
+    "vendored_frameworks": [
+        "ThingOEMConfig.xcframework"
+    ],
+    "version": "1.32.2",
+    "watchos": {
+        "pod_target_xcconfig": {
+            "ENABLE_BITCODE": "NO",
+            "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+        }
+    }
+}

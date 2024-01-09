@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with bodymovin and renders the vector animations natively on mobile and through React Native!\n\nFor the first time, designers can create and ship beautiful animations without an enginineer painstakingly recreating it be hand. Since the animation is backed by JSON they are extremely small in size but can be large in complexity! Animations can be played, resized, looped, sped up, slowed down, and even interactively scrubbed.",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "frameworks": "UIKit"
+    },
+    "license": "none",
+    "module_name": "ThingLottie",
+    "name": "ThingLottie",
+    "osx": {
+        "frameworks": [
+            "AppKit",
+            "CoreVideo"
+        ]
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingLottie-2.6.0.zip",
+        "type": "zip"
+    },
+    "summary": "Used to natively render vector animations exported from After Effects.",
+    "vendored_frameworks": [
+        "ThingLottie.xcframework"
+    ],
+    "version": "2.6.0"
+}
