@@ -38,7 +38,7 @@
         "ThingTimerModule/Assets/**/*.{png,bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingTimerModule-2.11.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTimerModule-2.11.1.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingTimerModule.",

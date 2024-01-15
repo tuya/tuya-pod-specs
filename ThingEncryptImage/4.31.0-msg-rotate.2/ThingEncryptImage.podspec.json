@@ -30,7 +30,7 @@
         "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingEncryptImage-4.31.0-msg-rotate.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingEncryptImage-4.31.0-msg-rotate.2.zip",
         "type": "zip"
     },
     "summary": "Asynchronous encrypt (optional) image downloader with cache support with an UIImageView category.",
