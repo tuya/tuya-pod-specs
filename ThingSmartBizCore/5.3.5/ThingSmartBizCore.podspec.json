@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TRCTResourceManager": [],
+        "ThingFoundationKit": [],
+        "ThingKVStorageCoreLibrary": [],
+        "ThingKVStorageService": [],
+        "ThingLanguageDynamicBiz": [],
+        "ThingLanguageEscape": [],
+        "ThingLanguageGroupInterface": [],
+        "ThingLanguageManager": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingThemeModule": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartBizCore",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resources": [
+        "ThingSmartBizCore/Assets/**/*.json",
+        "ThingSmartBizCore/Assets/ThingSmartBizCore.bundle"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartBizCore-5.3.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartBizCore.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartBizCore.xcframework"
+    ],
+    "version": "5.3.5"
+}
