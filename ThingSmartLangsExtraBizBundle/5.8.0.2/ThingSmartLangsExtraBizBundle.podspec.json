@@ -1,0 +1,79 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingAPMService": [
+            "0.1.5-anonymize2.3"
+        ],
+        "ThingAnnotationFoundation": [
+            "0.2.0"
+        ],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [
+            "1.20.1"
+        ],
+        "ThingKVStorageLibrary": [
+            "1.0.2"
+        ],
+        "ThingLogMacro": [
+            "0.2.7"
+        ],
+        "ThingModuleManager": [
+            "2.11.2-ci-event.1"
+        ],
+        "ThingOEMConfig": [
+            "1.32.2"
+        ],
+        "ThingPanelBundleManager": [
+            "3.1.5"
+        ],
+        "ThingSmartBaseKit": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartUtil": [],
+        "ThingStorageGroupInterface": [
+            "0.2.1"
+        ],
+        "ThingTarKit": [
+            "0.2.0"
+        ],
+        "YYModel": [],
+        "libextobjc": [],
+        "libextobjc/EXTADT": [],
+        "libextobjc/EXTConcreteProtocol": [],
+        "libextobjc/EXTKeyPathCoding": [],
+        "libextobjc/EXTNil": [],
+        "libextobjc/EXTSafeCategory": [],
+        "libextobjc/EXTScope": [],
+        "libextobjc/EXTSelectorChecking": [],
+        "libextobjc/EXTSynthesize": [],
+        "libextobjc/NSInvocation+EXT": [],
+        "libextobjc/NSMethodSignature+EXT": [],
+        "libextobjc/RuntimeExtensions": [],
+        "libextobjc/UmbrellaHeader": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartLangsExtraBizBundle",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartLangsExtraBizBundle-5.8.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦组件模板",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartLangsExtraBizBundle.xcframework"
+    ],
+    "version": "5.8.0.2"
+}
