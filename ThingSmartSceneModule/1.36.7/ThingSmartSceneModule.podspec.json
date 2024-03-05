@@ -1,0 +1,75 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "GodzillaMiniIService": [],
+        "GodzillaMiniOpenAPI": [],
+        "IQKeyboardManager": [],
+        "MJRefresh": [],
+        "Masonry": [],
+        "ThingAlertView": [],
+        "ThingAnimationKit": [],
+        "ThingAuthorizationServices": [],
+        "ThingAutoTracker": [],
+        "ThingBusinessDeviceCore": [],
+        "ThingCommonUI": [],
+        "ThingCommonUIToolKit": [],
+        "ThingEncryptImage": [],
+        "ThingFamilyAPI": [],
+        "ThingFoundationKit": [],
+        "ThingHybridContainer": [],
+        "ThingKVStorageLibrary": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingRoomManagerInterface": [],
+        "ThingSceneEditPlugAPI": [],
+        "ThingSceneListPlugAPI": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSmartSceneBizKit": [],
+        "ThingSmartSceneCoreKit": [],
+        "ThingSmartSceneDefaultUISkin": [],
+        "ThingStatisticsKit": [],
+        "ThingTabPagingView": [],
+        "ThingUIKit": [],
+        "YYModel": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartSceneModule",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartSceneModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartSceneModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartSceneModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartSceneModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "ThingSmartSceneModule/Classes/PrefixHeader.pch",
+    "resources": [
+        "ThingSmartSceneModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartSceneModule-1.36.7.zip",
+        "type": "zip"
+    },
+    "summary": "场景模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartSceneModule.xcframework"
+    ],
+    "version": "1.36.7"
+}
