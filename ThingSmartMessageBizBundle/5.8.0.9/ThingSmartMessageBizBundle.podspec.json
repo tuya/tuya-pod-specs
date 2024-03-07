@@ -13,9 +13,15 @@
         "HMSegmentedControl": [
             "1.5.7-v1.5.7.thing.1"
         ],
-        "IQKeyboardManager": [],
         "MJRefresh": [],
+        "MMKV": [
+            "1.2.14"
+        ],
+        "MMKVCore": [],
         "Masonry": [],
+        "TRCTResourceManager": [
+            "5.4.0"
+        ],
         "ThingAPMService": [
             "0.1.5-anonymize2.3"
         ],
@@ -24,9 +30,6 @@
         ],
         "ThingAlertView": [
             "1.2.2-fix-alert-crash.1"
-        ],
-        "ThingAnimationKit": [
-            "1.2.0"
         ],
         "ThingAnnotationFoundation": [
             "0.2.0"
@@ -40,20 +43,11 @@
         "ThingAutoTrackAPI": [
             "1.1.0-ci-event.2"
         ],
-        "ThingAutoTracker": [
-            "2.1.2"
-        ],
         "ThingBaseDebugger": [
             "1.1.6-feature-anonymize-4.4.0.1"
         ],
         "ThingBlockKit": [
             "0.2.0"
-        ],
-        "ThingBluetoothInterface": [
-            "1.14.5"
-        ],
-        "ThingBusinessDeviceCore": [
-            "1.7.0-feature-event-optimize.1"
         ],
         "ThingBusinessService": [
             "0.4.0"
@@ -70,14 +64,8 @@
         "ThingCommonUI": [
             "0.4.1"
         ],
-        "ThingCommonUIToolKit": [
-            "0.1.1-anonymize.1"
-        ],
         "ThingConfigHub": [
             "1.1.3-anonymize2.2"
-        ],
-        "ThingDIYHomeInterface": [
-            "0.3.0"
         ],
         "ThingDeviceDetailPlugAPI": [
             "1.0.9-feature-deviceExt.1"
@@ -155,8 +143,26 @@
         "ThingHybridMediaToolsAPI": [
             "0.0.5-anonymize2.1"
         ],
+        "ThingKVStorageCoreLibrary": [
+            "0.2.6"
+        ],
         "ThingKVStorageLibrary": [
             "1.0.2"
+        ],
+        "ThingKVStorageService": [
+            "0.2.1"
+        ],
+        "ThingLanguageDynamicBiz": [
+            "0.1.7"
+        ],
+        "ThingLanguageEscape": [
+            "0.1.1"
+        ],
+        "ThingLanguageGroupInterface": [
+            "0.1.3"
+        ],
+        "ThingLanguageManager": [
+            "0.1.3"
         ],
         "ThingLightScenePlugAPI": [
             "0.0.4"
@@ -173,6 +179,12 @@
         "ThingLottie": [
             "2.6.0"
         ],
+        "ThingMessageCenterBizKit": [
+            "1.0.1"
+        ],
+        "ThingMessageCenterModule": [
+            "2.8.2"
+        ],
         "ThingModuleManager": [
             "2.11.2-ci-event.2"
         ],
@@ -185,6 +197,9 @@
         "ThingNormalUI": [
             "0.4.0"
         ],
+        "ThingNotificationsAuthManager": [
+            "0.1.3-anonymize.1"
+        ],
         "ThingOEMConfig": [
             "1.32.2"
         ],
@@ -193,6 +208,12 @@
         ],
         "ThingOTAGeneralPlugAPI": [
             "1.0.3"
+        ],
+        "ThingPageMenuView": [
+            "1.5.2-anonymize.1"
+        ],
+        "ThingPageView": [
+            "1.0.0-feature-thin.1"
         ],
         "ThingPandoraPlayerModuleAPI": [
             "1.0.0"
@@ -215,9 +236,6 @@
         "ThingRealClass": [
             "0.1.0-anonymize.2"
         ],
-        "ThingRoomManagerInterface": [
-            "0.1.3"
-        ],
         "ThingSceneEditPlugAPI": [
             "0.1.1"
         ],
@@ -237,10 +255,14 @@
             "0.7.1"
         ],
         "ThingSmartBaseKit": [],
+        "ThingSmartBizCore": [
+            "5.3.5"
+        ],
         "ThingSmartBusinessLibrary": [
             "1.5.2"
         ],
         "ThingSmartDeviceCoreKit": [],
+        "ThingSmartDeviceKit": [],
         "ThingSmartEventPredefined": [
             "1.2.85-anonymize.3"
         ],
@@ -250,22 +272,15 @@
         "ThingSmartLocationService": [
             "1.1.6"
         ],
-        "ThingSmartMQTTChannelKit": [],
+        "ThingSmartMessageKit": [],
         "ThingSmartNetworkKit": [],
-        "ThingSmartSceneBizKit": [
-            "1.30.4"
-        ],
-        "ThingSmartSceneCoreKit": [],
-        "ThingSmartSceneDefaultUISkin": [
-            "1.27.3"
-        ],
-        "ThingSmartSceneModule": [
-            "1.36.8"
-        ],
         "ThingSmartSecurityModuleService": [
             "5.2.1"
         ],
         "ThingSmartTimerKit": [],
+        "ThingSmartUIConfigServices": [
+            "0.1.9"
+        ],
         "ThingSmartUtil": [],
         "ThingSocialAPI": [
             "1.0.2"
@@ -273,17 +288,20 @@
         "ThingSpaceInfoSktAPI": [
             "1.3.0"
         ],
-        "ThingStatisticsKit": [
-            "0.2.0"
-        ],
         "ThingStorageGroupInterface": [
             "0.2.1"
         ],
         "ThingTabPagingView": [
             "1.0.8-anonymize.1"
         ],
+        "ThingTarKit": [
+            "0.2.0"
+        ],
         "ThingTemplateSkeleton": [
             "1.0.0-feature-thin.1"
+        ],
+        "ThingThemeModule": [
+            "1.0.0"
         ],
         "ThingUIKit": [
             "1.23.6"
@@ -293,6 +311,12 @@
         ],
         "ThingUrlPredefinedExternal": [
             "0.4.1"
+        ],
+        "ThingValueAddedServiceModule": [
+            "5.3.3-uibiz580.3"
+        ],
+        "ThingValueAddedServicePlugAPI": [
+            "1.1.0"
         ],
         "ThingVideoPlayer": [
             "2.0.7"
@@ -321,17 +345,32 @@
     "description": "TODO: Add long description of the pod here.",
     "homepage": "https://github.com/tuya",
     "license": "none",
-    "name": "ThingSceneFeatureExtModule",
+    "name": "ThingSmartMessageBizBundle",
     "platforms": {
         "ios": "11.0"
     },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PROVIDE_SERVICE": "ThingMessageCenterProtocol",
+        "TUYA_REQUIRE_SERVICE": "ThingSmartAPMEventProtocol,ThingSmartHomeDataProtocol,ThingSmartSceneBizProtocol,ThingmartSceneProtocol,ThingSplashProtocol"
+    },
+    "resource_bundles": {
+        "ThingSmartMessageBizBundle": [
+            "ThingSmartMessageBizBundle/Assets/*"
+        ]
+    },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSceneFeatureExtModule-0.1.8.1.zip",
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartMessageBizBundle-5.8.0.9.zip",
         "type": "zip"
     },
-    "summary": "A short description of ThingSceneFeatureExtModule.",
+    "summary": "A short description of ThingSmartMessageBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
     "vendored_frameworks": [
-        "ThingSceneFeatureExtModule.xcframework"
+        "ThingSmartMessageBizBundle.xcframework"
     ],
-    "version": "0.1.8.1"
+    "version": "5.8.0.9"
 }

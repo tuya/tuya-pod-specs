@@ -4,18 +4,37 @@
     },
     "cocoapods_version": ">= 1.10",
     "dependencies": {
-        "GodzillaMiniIService": [
-            "1.0.1"
+        "AFNetworking/Reachability": [],
+        "CocoaLumberjack": [],
+        "CocoaLumberjack/Core": [],
+        "DingDangSDK": [
+            "0.3.8-anonymize.1"
         ],
-        "GodzillaMiniOpenAPI": [
-            "3.11.3"
+        "DoubleConversion": [],
+        "Folly": [
+            "2018.10.22.00"
         ],
-        "HMSegmentedControl": [
-            "1.5.7-v1.5.7.thing.1"
-        ],
-        "IQKeyboardManager": [],
         "MJRefresh": [],
         "Masonry": [],
+        "RNApi/Core": [
+            "5.79.1"
+        ],
+        "RNApi/Speak": [
+            "5.79.1"
+        ],
+        "React": [
+            "0.59.13"
+        ],
+        "SSZipArchive": [],
+        "TRCTQQWebView": [
+            "1.0.0-anonymize.1"
+        ],
+        "TRCTSpeakerManager": [
+            "1.1.18-anonymize.2"
+        ],
+        "TencentOpenApi": [
+            "3.3.7"
+        ],
         "ThingAPMService": [
             "0.1.5-anonymize2.3"
         ],
@@ -25,38 +44,17 @@
         "ThingAlertView": [
             "1.2.2-fix-alert-crash.1"
         ],
-        "ThingAnimationKit": [
-            "1.2.0"
-        ],
         "ThingAnnotationFoundation": [
             "0.2.0"
         ],
         "ThingAppLifeCycleSktAPI": [
             "1.0.7-anonymize.1"
         ],
-        "ThingAuthorizationServices": [
-            "0.2.1-feature-authOptimize.1"
-        ],
         "ThingAutoTrackAPI": [
             "1.1.0-ci-event.2"
         ],
-        "ThingAutoTracker": [
-            "2.1.2"
-        ],
-        "ThingBaseDebugger": [
-            "1.1.6-feature-anonymize-4.4.0.1"
-        ],
         "ThingBlockKit": [
             "0.2.0"
-        ],
-        "ThingBluetoothInterface": [
-            "1.14.5"
-        ],
-        "ThingBusinessDeviceCore": [
-            "1.7.0-feature-event-optimize.1"
-        ],
-        "ThingBusinessService": [
-            "0.4.0"
         ],
         "ThingBusinessTrackAPI": [
             "1.0.1"
@@ -67,32 +65,14 @@
         "ThingClientConfigAPI": [
             "1.0.1"
         ],
-        "ThingCommonUI": [
-            "0.4.1"
-        ],
-        "ThingCommonUIToolKit": [
-            "0.1.1-anonymize.1"
-        ],
-        "ThingConfigHub": [
-            "1.1.3-anonymize2.2"
-        ],
-        "ThingDIYHomeInterface": [
-            "0.3.0"
-        ],
         "ThingDeviceDetailPlugAPI": [
             "1.0.9-feature-deviceExt.1"
-        ],
-        "ThingDeviceDetailSktAPI": [
-            "1.1.0"
         ],
         "ThingDeviceDetectionNetworkPlugAPI": [
             "1.0.2-anonymize.1"
         ],
         "ThingDeviceEditPlugAPI": [
             "1.1.1"
-        ],
-        "ThingDeviceEditSktAPI": [
-            "1.1.0"
         ],
         "ThingDeviceEvaluationPlugAPI": [
             "0.0.3-anonymize.2"
@@ -102,9 +82,6 @@
         ],
         "ThingDeviceMigratePlugAPI": [
             "1.0.2-anonymize.1"
-        ],
-        "ThingDeviceMigrateSktAPI": [
-            "1.1.0"
         ],
         "ThingDeviceNetworkSettingPlugAPI": [
             "1.0.1-anonymize.1"
@@ -137,9 +114,6 @@
         "ThingGroupHandlePlugAPI": [
             "1.2.0-sdk.1"
         ],
-        "ThingGroupHandleSktAPI": [
-            "1.3.0"
-        ],
         "ThingHelpCenterAPI": [
             "1.0.0"
         ],
@@ -148,12 +122,6 @@
         ],
         "ThingHomePageSktAPI": [
             "0.4.0-feature-event-optimize.1"
-        ],
-        "ThingHybridContainer": [
-            "1.10.7"
-        ],
-        "ThingHybridMediaToolsAPI": [
-            "0.0.5-anonymize2.1"
         ],
         "ThingKVStorageLibrary": [
             "1.0.2"
@@ -182,6 +150,9 @@
         "ThingNavigationController": [
             "1.16.0"
         ],
+        "ThingNetworkAreaInterceptorAPI": [
+            "1.1.11-feature-anonymize-4.4.0.1"
+        ],
         "ThingNormalUI": [
             "0.4.0"
         ],
@@ -197,14 +168,11 @@
         "ThingPandoraPlayerModuleAPI": [
             "1.0.0"
         ],
+        "ThingPanelContext": [
+            "1.2.0"
+        ],
         "ThingPanelModulePlugAPI": [
             "2.0.0"
-        ],
-        "ThingPhotoBrowser": [
-            "1.3.4-anonymize.1"
-        ],
-        "ThingPopupViewController": [
-            "0.4.2"
         ],
         "ThingProgressHUD": [
             "0.2.10-anonymize.1"
@@ -212,11 +180,11 @@
         "ThingPushNotificationAPI": [
             "1.0.0"
         ],
+        "ThingReactNativeAPI": [
+            "2.0.0"
+        ],
         "ThingRealClass": [
             "0.1.0-anonymize.2"
-        ],
-        "ThingRoomManagerInterface": [
-            "0.1.3"
         ],
         "ThingSceneEditPlugAPI": [
             "0.1.1"
@@ -226,9 +194,6 @@
         ],
         "ThingSceneListPlugAPI": [
             "0.1.1"
-        ],
-        "ThingSecurityArmAbilityModuleServices": [
-            "4.0.1-anonymize.5"
         ],
         "ThingSettingsAPI": [
             "1.0.1"
@@ -241,30 +206,7 @@
             "1.5.2"
         ],
         "ThingSmartDeviceCoreKit": [],
-        "ThingSmartEventPredefined": [
-            "1.2.85-anonymize.3"
-        ],
-        "ThingSmartEventPredefined_Public": [
-            "0.0.60"
-        ],
-        "ThingSmartLocationService": [
-            "1.1.6"
-        ],
-        "ThingSmartMQTTChannelKit": [],
         "ThingSmartNetworkKit": [],
-        "ThingSmartSceneBizKit": [
-            "1.30.4"
-        ],
-        "ThingSmartSceneCoreKit": [],
-        "ThingSmartSceneDefaultUISkin": [
-            "1.27.3"
-        ],
-        "ThingSmartSceneModule": [
-            "1.36.8"
-        ],
-        "ThingSmartSecurityModuleService": [
-            "5.2.1"
-        ],
         "ThingSmartTimerKit": [],
         "ThingSmartUtil": [],
         "ThingSocialAPI": [
@@ -273,14 +215,8 @@
         "ThingSpaceInfoSktAPI": [
             "1.3.0"
         ],
-        "ThingStatisticsKit": [
-            "0.2.0"
-        ],
         "ThingStorageGroupInterface": [
             "0.2.1"
-        ],
-        "ThingTabPagingView": [
-            "1.0.8-anonymize.1"
         ],
         "ThingTemplateSkeleton": [
             "1.0.0-feature-thin.1"
@@ -288,22 +224,12 @@
         "ThingUIKit": [
             "1.23.6"
         ],
-        "ThingUrlPredefined": [
-            "0.2.126-anonymize.4"
-        ],
-        "ThingUrlPredefinedExternal": [
-            "0.4.1"
-        ],
-        "ThingVideoPlayer": [
-            "2.0.7"
-        ],
         "ThingVoIPAPI": [
             "1.0.0"
         ],
         "YYModel": [],
-        "dsBridge": [
-            "3.0.203"
-        ],
+        "boost-for-react-native": [],
+        "glog": [],
         "libextobjc": [],
         "libextobjc/EXTADT": [],
         "libextobjc/EXTConcreteProtocol": [],
@@ -316,22 +242,36 @@
         "libextobjc/NSInvocation+EXT": [],
         "libextobjc/NSMethodSignature+EXT": [],
         "libextobjc/RuntimeExtensions": [],
-        "libextobjc/UmbrellaHeader": []
+        "libextobjc/UmbrellaHeader": [],
+        "yoga": [
+            "0.59.10"
+        ]
     },
     "description": "TODO: Add long description of the pod here.",
     "homepage": "https://github.com/tuya",
     "license": "none",
-    "name": "ThingSceneFeatureExtModule",
+    "name": "ThingSmartSpeakExtendBizBundle",
     "platforms": {
         "ios": "11.0"
     },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "ThingSmartSpeakExtendBizBundle": "ThingSmartSpeakExtendBizBundle/Assets/**/*"
+    },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSceneFeatureExtModule-0.1.8.1.zip",
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartSpeakExtendBizBundle-5.8.0.7.zip",
         "type": "zip"
     },
-    "summary": "A short description of ThingSceneFeatureExtModule.",
+    "summary": "A short description of ThingSmartSpeakExtendBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
     "vendored_frameworks": [
-        "ThingSceneFeatureExtModule.xcframework"
+        "ThingSmartSpeakExtendBizBundle.xcframework"
     ],
-    "version": "0.1.8.1"
+    "version": "5.8.0.7"
 }
