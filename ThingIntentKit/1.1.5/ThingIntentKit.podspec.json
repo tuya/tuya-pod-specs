@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingIntentKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resources": [
+        "ThingIntentKit/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition,lproj}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingIntentKit-1.1.5.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦科技组件模板组件",
+    "vendored_frameworks": [
+        "ThingIntentKit.xcframework"
+    ],
+    "version": "1.1.5",
+    "weak_frameworks": [
+        "Intents",
+        "IntentsUI"
+    ]
+}
