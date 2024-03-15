@@ -1,0 +1,45 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "dependencies": {
+            "ThingSmartUtil": []
+        },
+        "frameworks": [
+            "UIKit",
+            "Foundation",
+            "CoreGraphics",
+            "CoreTelephony"
+        ]
+    },
+    "license": "none",
+    "name": "ThingFoundationKit",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "pod_target_xcconfig": {},
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingFoundationKit-1.21.6.zip",
+        "type": "zip"
+    },
+    "summary": "A FoundationKit Powered By ThingInc",
+    "vendored_frameworks": [
+        "ThingFoundationKit.xcframework"
+    ],
+    "version": "1.21.6",
+    "watchos": {
+        "frameworks": [
+            "UIKit",
+            "Foundation",
+            "CoreGraphics"
+        ],
+        "pod_target_xcconfig": {
+            "ENABLE_BITCODE": "NO",
+            "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+        }
+    }
+}
