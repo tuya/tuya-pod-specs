@@ -1,0 +1,359 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "default_subspecs": "Core",
+    "description": "Thing面板 React-Native API",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "RNApi",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/RNApi-5.66.6-lamp-v2.4.0.4.zip",
+        "type": "zip"
+    },
+    "subspecs": [
+        {
+            "name": "Core",
+            "source_files": "RNApi-5.66.6-lamp-v2.4.0.4/ios/RNApi.framework/Versions/A/Headers/*.{h}",
+            "vendored_frameworks": "RNApi-5.66.6-lamp-v2.4.0.4/ios/*.framework"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTAESImageView": [
+                    "1.1.3-anonymize.2"
+                ],
+                "TRCTAPMEventManager": [
+                    "1.0.9-anonymize.1"
+                ],
+                "TRCTAPMTrackManager": [
+                    "1.1.3-anonymize.1"
+                ],
+                "TRCTActivatorManager": [
+                    "1.1.4-anonymize.1"
+                ],
+                "TRCTAnimatedImageManager": [
+                    "1.0.5-anonymize.2"
+                ],
+                "TRCTAudioPlayerManager": [
+                    "1.0.8-anonymize.2"
+                ],
+                "TRCTAudioSpectruManager": [
+                    "1.2.0-anonymize.2"
+                ],
+                "TRCTBLEManager": [
+                    "1.6.1"
+                ],
+                "TRCTBTManager": [
+                    "1.0.3-anonymize.1"
+                ],
+                "TRCTBeaconScanAdvManager": [
+                    "1.0.7-anonymize.1"
+                ],
+                "TRCTBleExtDeviceManager": [
+                    "1.0.3-anonymize.1"
+                ],
+                "TRCTBleFilePushManager": [
+                    "1.0.4-anonymize.1"
+                ],
+                "TRCTBleTimerManager": [
+                    "1.2.1-anonymize.1"
+                ],
+                "TRCTBluetoothUtilManager": [
+                    "1.1.10-anonymize.1"
+                ],
+                "TRCTCameraViewManager": [
+                    "1.0.5-anonymize.2"
+                ],
+                "TRCTCameraViewMotionManager": [
+                    "1.0.3-anonymize.3"
+                ],
+                "TRCTConicGradientViewManager": [
+                    "1.0.4-anonymize.3"
+                ],
+                "TRCTCountrySelectManager": [
+                    "1.0.9-anonymize.1"
+                ],
+                "TRCTCurveChartView": [
+                    "1.0.12-anonymize.1"
+                ],
+                "TRCTDeviceMultiManager": [
+                    "1.1.8-anonymize.1"
+                ],
+                "TRCTDigitalFunBitmapView": [
+                    "1.0.3-anonymize.1"
+                ],
+                "TRCTEncryptImageDownloadManager": [
+                    "1.1.6-anonymize.1"
+                ],
+                "TRCTFaceAliveDetectManager": [
+                    "1.0.5-anonymize.2"
+                ],
+                "TRCTFileDownloadManager": [
+                    "1.0.3-anonymize.1"
+                ],
+                "TRCTFileManager": [
+                    "1.1.4-anonymize.1"
+                ],
+                "TRCTGIDManager": [
+                    "1.0.2-anonymize.1"
+                ],
+                "TRCTGestureLockViewManager": [
+                    "1.0.16-anonymize.1"
+                ],
+                "TRCTHapticsManager": [
+                    "1.0.2-anonymize.2"
+                ],
+                "TRCTHomeDevManager": [
+                    "1.2.5-anonymize.1"
+                ],
+                "TRCTHomeManager": [
+                    "1.2.6-anonymize.1"
+                ],
+                "TRCTHueCircleView": [
+                    "1.0.10-anonymize.1"
+                ],
+                "TRCTIoTCardManager": [
+                    "2.0.0"
+                ],
+                "TRCTJSBundleLoaderManager": [
+                    "1.0.0-anonymize.1"
+                ],
+                "TRCTLifecycleManager": [
+                    "1.1.5-anonymize.1"
+                ],
+                "TRCTLineChartView": [
+                    "1.0.9-anonymize.1"
+                ],
+                "TRCTLocalAlarmManager": [
+                    "1.0.7-anonymize.1"
+                ],
+                "TRCTMeshPanelManager": [
+                    "1.2.4-anonymize.1"
+                ],
+                "TRCTMqttManager": [
+                    "1.1.0-anonymize.3"
+                ],
+                "TRCTMultiImagePickerManager": [
+                    "1.3.15-anonymize.1"
+                ],
+                "TRCTMultiLineChartView": [
+                    "1.0.9-anonymize.1"
+                ],
+                "TRCTMusicManager": [
+                    "1.1.44-anonymize.1"
+                ],
+                "TRCTNavManager": [
+                    "1.3.1-anonymize.1"
+                ],
+                "TRCTNewTopBar": [
+                    "1.1.4"
+                ],
+                "TRCTOfficialGeofenceManager": [
+                    "1.0.2-anonymize.1"
+                ],
+                "TRCTOrientationManager": [
+                    "1.1.3-anonymize.1"
+                ],
+                "TRCTOutdoorManager": [
+                    "1.0.6-anonymize.1"
+                ],
+                "TRCTPBTBridgeManager": [
+                    "1.1.10-anonymize.1"
+                ],
+                "TRCTPanelDeviceManager": [
+                    "1.2.2-anonymize.1"
+                ],
+                "TRCTPanelManager": [
+                    "2.4.0-custom-lamp-2.1.1-2.4.0.3"
+                ],
+                "TRCTPicker": [
+                    "2.0.6-anonymize.1"
+                ],
+                "TRCTPublicBLEBeaconManager": [
+                    "1.2.0"
+                ],
+                "TRCTPublicBLELockManager": [
+                    "1.0.7-anonymize.1"
+                ],
+                "TRCTPublicManager": [
+                    "1.1.16-anonymize.16"
+                ],
+                "TRCTRNStackManager": [
+                    "1.0.1-anonymize.1"
+                ],
+                "TRCTRouteGatewayManager": [
+                    "1.0.44-anonymize.1"
+                ],
+                "TRCTSensorsDBManager": [
+                    "1.1.15-anonymize.1"
+                ],
+                "TRCTSensorsManager": [
+                    "1.0.6-anonymize.1"
+                ],
+                "TRCTShareManager": [
+                    "1.2.3-anonymize.2"
+                ],
+                "TRCTSlider": [
+                    "1.1.0-anonymize.1"
+                ],
+                "TRCTStandardGroupManager": [
+                    "1.1.11-anonymize.1"
+                ],
+                "TRCTSwitch": [
+                    "1.1.0-anonymize.1"
+                ],
+                "TRCTSysUtilsManager": [
+                    "1.0.3-anonymize.5"
+                ],
+                "TRCTThemeManager": [
+                    "1.0.1-anonymize.1"
+                ],
+                "TRCTThirdMusicControl": [
+                    "1.0.1-anonymize.1"
+                ],
+                "TRCTTopBar": [
+                    "1.1.0"
+                ],
+                "TRCTUserManager": [
+                    "1.0.4-anonymize.2"
+                ],
+                "TRCTVolumeManager": [
+                    "1.0.3-anonymize.1"
+                ],
+                "TRCTZigbeeEventManager": [
+                    "1.1.1-anonymize.1"
+                ]
+            },
+            "name": "Basic"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTCameraAudioManager": [
+                    "1.1.0-anonymize.5"
+                ],
+                "TRCTCameraManager": [
+                    "2.0.0"
+                ],
+                "TRCTCameraMessageManager": [
+                    "1.9.0-anonymize.1"
+                ],
+                "TRCTCameraMessageMediaPlayerManager": [
+                    "1.0.1-anonymize.1"
+                ],
+                "TRCTCameraPlayer": [
+                    "1.7.0-anonymize.1"
+                ],
+                "TRCTCameraTimeLineViewManager": [
+                    "1.4.0-anonymize.2"
+                ],
+                "TRCTDoorBellManager": [
+                    "1.0.1-anonymize.1"
+                ],
+                "TRCTImageEncryptUploadManager": [
+                    "2.0.0"
+                ],
+                "TRCTMultiCameraManager": [
+                    "1.2.0-anonymize.1"
+                ],
+                "TRCTRTSPMediaManager": [
+                    "1.6.11"
+                ],
+                "TRCTRTSPMediaPlayerManager": [
+                    "1.6.2"
+                ],
+                "TRCTThingCameraPlayer": [
+                    "1.2.3-anonymize.3"
+                ]
+            },
+            "name": "IPC"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTLaserManager": [
+                    "4.6.0-rc.4"
+                ],
+                "TRCTLaserMap": [
+                    "1.9.5-anonymize.1"
+                ],
+                "TRCTPointMap": [
+                    "4.6.0-rc.1"
+                ],
+                "TRCTTransferManager": [
+                    "1.3.3-anonymize.1"
+                ],
+                "TRCTTypeMapManager": [
+                    "1.3.9-anonymize.1"
+                ],
+                "TRCTVisionManager": [
+                    "1.1.1-anonymize.1"
+                ],
+                "TRCTVisionMap": [
+                    "1.1.2-anonymize.1"
+                ]
+            },
+            "name": "Sweeper"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTQQWebView": [
+                    "1.0.0-anonymize.1"
+                ],
+                "TRCTSpeakerManager": [
+                    "1.1.18-anonymize.2"
+                ]
+            },
+            "name": "Speak"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTAVSManager": [
+                    "1.0.16-anonymize.1"
+                ],
+                "TRCTAlexaWebAuthManager": [
+                    "1.0.4-anonymize.1"
+                ]
+            },
+            "name": "AVS"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTHealthManager": [
+                    "1.3.1-anonymize.1"
+                ]
+            },
+            "name": "Health"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTHealthCenterManager": [
+                    "1.1.1-anonymize.1"
+                ],
+                "TRCTHealthWatchManager": [
+                    "1.6.1"
+                ]
+            },
+            "name": "HealthCenter"
+        },
+        {
+            "dependencies": {
+                "RNApi/Core": [],
+                "TRCTChartsManager": [
+                    "2.0.10-anonymize.6"
+                ]
+            },
+            "name": "OSSensor"
+        }
+    ],
+    "summary": "Thing面板 React-Native API",
+    "version": "5.66.6-lamp-v2.4.0.4"
+}

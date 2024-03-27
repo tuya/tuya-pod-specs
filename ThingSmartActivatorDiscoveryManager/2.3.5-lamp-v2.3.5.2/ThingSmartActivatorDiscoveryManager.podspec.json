@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingActivatorSktAPI": [],
+        "ThingBluetoothInterface": [],
+        "ThingModuleManager": [],
+        "ThingSmartActivatorCoreKit": [],
+        "ThingSmartMatterInterfaceAPI": [],
+        "ThingSmartUtil": []
+    },
+    "description": "配网自发现",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartActivatorDiscoveryManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "DEFINES_MODULE": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #undef ThingLog\n  #undef ThingLogDebug\n  #undef ThingLogInfo\n  #undef ThingLogWarn\n  #undef ThingLogError\n  #define ThingLogDebug(...)         ThingSDKLog(0, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogInfo(...)         ThingSDKLog(1, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogWarn(...)         ThingSDKLog(2, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogError(...)         ThingSDKLog(3, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartActivatorDiscoveryManager-2.3.5-lamp-v2.3.5.2.zip",
+        "type": "zip"
+    },
+    "summary": "配网自发现",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartActivatorDiscoveryManager.xcframework"
+    ],
+    "version": "2.3.5-lamp-v2.3.5.2"
+}

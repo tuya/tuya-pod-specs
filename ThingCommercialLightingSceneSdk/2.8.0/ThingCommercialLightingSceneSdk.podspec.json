@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ThingCommercialLightingKit": [],
+        "ThingSmartBLEMeshKit": [],
+        "ThingSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingCommercialLightingSceneSdk",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "DEFINES_MODULE": "YES"
+    },
+    "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #import <YYModel/YYModel.h>\n#endif",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCommercialLightingSceneSdk-2.8.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingCommercialLightingSceneSdk.",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+    },
+    "vendored_frameworks": [
+        "Build/ThingCommercialLightingSceneSdk.xcframework"
+    ],
+    "version": "2.8.0"
+}

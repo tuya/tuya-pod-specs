@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MJRefresh": [],
+        "ThingFoundationKit": [],
+        "ThingLogMacro": [],
+        "ThingMachRegister": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingUIKit": [],
+        "lottie-ios": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingDPCContainer",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingDPCContainer-0.7.6.zip",
+        "type": "zip"
+    },
+    "summary": "DPC: DataSource + Provider + Container",
+    "vendored_frameworks": [
+        "ThingDPCContainer.xcframework"
+    ],
+    "version": "0.7.6"
+}

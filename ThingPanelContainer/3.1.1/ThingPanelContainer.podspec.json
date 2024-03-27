@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "RNApi/Core": [],
+        "React": [
+            "~> 0.59.10"
+        ],
+        "TRCTKit": [],
+        "ThingAPMService": [],
+        "ThingAlertPickerComponent": [],
+        "ThingBleGatewayService": [],
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingFoundationKit": [],
+        "ThingKVStorageLibrary": [],
+        "ThingLogMacro": [],
+        "ThingMarketingBoothAPI": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingOEMConfig": [],
+        "ThingOTAGeneralPlugAPI": [],
+        "ThingPanelBundleManager": [],
+        "ThingPanelContext": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartUtil": [],
+        "ThingUIKit": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingPanelContainer",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "ThingPanelContainer": [
+            "ThingPanelContainer/Assets/**/*.png",
+            "ThingPanelContainer/Assets/*.json"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingPanelContainer-3.1.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingPanelContainer.",
+    "vendored_frameworks": [
+        "ThingPanelContainer.xcframework"
+    ],
+    "version": "3.1.1"
+}

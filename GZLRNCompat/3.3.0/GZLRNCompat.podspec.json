@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "GodzillaMiniBaseKit": [],
+        "React": [],
+        "ThingAutoTracker": [],
+        "ThingPanelContext": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GZLRNCompat",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": "GZLRNCompat/Assets/**/*",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GZLRNCompat-3.3.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GZLRNCompat.",
+    "vendored_frameworks": [
+        "GZLRNCompat.xcframework"
+    ],
+    "version": "3.3.0"
+}
