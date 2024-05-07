@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "IQKeyboardManager": [],
+        "Masonry": [],
+        "ThingBlockKit": [],
+        "ThingFoundationKit": [],
+        "ThingLocationAuthManager": [],
+        "ThingMapKit": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNavigationController": [],
+        "ThingOEMConfig": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingUIKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartGeofenceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription"
+    },
+    "prefix_header_file": "ThingSmartGeofenceModule/ThingSmartGeofenceModule.pch",
+    "resources": [
+        "ThingSmartGeofenceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartGeofenceModule-0.3.2-feature-window.1.zip",
+        "type": "zip"
+    },
+    "summary": "处理场景地理围栏相关的业务，为了做裁剪所以独立成组件",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartGeofenceModule.xcframework"
+    ],
+    "version": "0.3.2-feature-window.1"
+}

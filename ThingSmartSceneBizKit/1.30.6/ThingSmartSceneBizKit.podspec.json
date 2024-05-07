@@ -1,0 +1,62 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingFamilyAPI": [],
+        "ThingFoundationKit": [],
+        "ThingKVStorageLibrary": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartDeviceCoreKit": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSmartLocationService": [],
+        "ThingSmartMQTTChannelKit": [],
+        "ThingSmartSceneCoreKit": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AddressBook",
+        "AddressBookUI",
+        "CoreTelephony",
+        "Contacts",
+        "ContactsUI",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingSmartSceneBizKit",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)",
+    "prefix_header_file": "ThingSmartSceneBizKit/Classes/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingSmartSceneBizKit-1.30.6.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of ThingSmartSceneBizKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingSmartSceneBizKit.xcframework"
+    ],
+    "version": "1.30.6"
+}

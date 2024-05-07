@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TUNIDLCameraManager": [
+            "3.0.5"
+        ],
+        "TUNIDLVideoManager": [
+            "3.3.2"
+        ],
+        "TUNIMusicManager": [
+            "1.1.0-rc.9"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TUNIMediaKit",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "resource_bundles": {
+        "TUNIMediaKit": [
+            "ios/TUNIMediaKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TUNIMediaKit-3.2.2.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TUNIMediaKit.xcframework"
+    ],
+    "version": "3.2.2"
+}
