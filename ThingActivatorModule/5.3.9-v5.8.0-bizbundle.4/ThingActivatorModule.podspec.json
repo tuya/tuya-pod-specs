@@ -1,0 +1,81 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "DACircularProgress": [],
+        "IQKeyboardManager": [],
+        "Masonry": [],
+        "TRCTResourceManager": [],
+        "ThingActivatorPlugAPI": [],
+        "ThingAlertView": [],
+        "ThingAuthInterface": [],
+        "ThingBluetoothInterface": [],
+        "ThingBusinessService": [],
+        "ThingCameraAuthManager": [],
+        "ThingCommonUI": [],
+        "ThingDIYHomeInterface": [],
+        "ThingEncryptImage": [],
+        "ThingFoundationKit": [],
+        "ThingHybridContainer": [],
+        "ThingKVStorageLibrary": [],
+        "ThingLocalNetWorkAuthManager": [],
+        "ThingLocationAuthManager": [],
+        "ThingLottie": [],
+        "ThingModuleManager": [],
+        "ThingModuleServices": [],
+        "ThingNormalUI": [],
+        "ThingOEMConfig": [],
+        "ThingPopupViewController": [],
+        "ThingRealClass": [],
+        "ThingSmartActivatorBizKit": [],
+        "ThingSmartActivatorDiscoveryManager": [],
+        "ThingSmartActivatorKit": [],
+        "ThingSmartBaseKit": [],
+        "ThingSmartBusinessLibrary": [],
+        "ThingSmartEventPredefined": [],
+        "ThingSmartEventPredefined_Public": [],
+        "ThingSocketPing": [],
+        "ThingTabPagingView": [],
+        "ThingUIKit": [],
+        "ThingUrlPredefined": [],
+        "ThingVideoPlayer": [],
+        "YYModel": []
+    },
+    "frameworks": [
+        "CoreImage",
+        "AVKit",
+        "CoreLocation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "ThingActivatorModule",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "THING_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.networking.multicast",
+        "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription"
+    },
+    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingActivatorModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingActivatorModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingActivatorModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingActivatorModule\", ##__VA_ARGS__)",
+    "resources": [
+        "ThingActivatorModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingActivatorModule-5.3.9-v5.8.0-bizbundle.4.zip",
+        "type": "zip"
+    },
+    "static_framework": true,
+    "summary": "涂鸦配网模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "ThingActivatorModule.xcframework"
+    ],
+    "version": "5.3.9-v5.8.0-bizbundle.4"
+}
