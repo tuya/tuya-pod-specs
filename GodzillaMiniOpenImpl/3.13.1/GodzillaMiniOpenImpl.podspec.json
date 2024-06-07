@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "GZLMiniAppCore_iOS": [],
+        "GodzillaMiniIService": [],
+        "GodzillaMiniOpenAPI": [],
+        "GodzillaMiniWidgetKit": [],
+        "ThingAPMService": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "GodzillaMiniOpenImpl",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/GodzillaMiniOpenImpl-3.13.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of GodzillaMiniOpenImpl.",
+    "vendored_frameworks": [
+        "Build/GodzillaMiniOpenImpl.xcframework"
+    ],
+    "version": "3.13.1"
+}
