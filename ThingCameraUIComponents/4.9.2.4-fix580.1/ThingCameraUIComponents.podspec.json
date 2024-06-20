@@ -37,7 +37,7 @@
         ]
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/ThingCameraUIComponents-4.9.2.4-fix580.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUIComponents-4.9.2.4-fix580.1.zip",
         "type": "zip"
     },
     "summary": "A short description of ThingCameraUIComponents.",

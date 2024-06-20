@@ -25,7 +25,7 @@
     "requires_arc": true,
     "resources": "TZImagePickerController/TZImagePickerController/*.{png,bundle}",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TZImagePickerController-3.5.3-anonymize.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TZImagePickerController-3.5.3-anonymize.1.zip",
         "type": "zip"
     },
     "summary": "A clone of UIImagePickerController, support picking multiple photos、original photo and video",
