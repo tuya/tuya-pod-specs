@@ -1,0 +1,29 @@
+{
+  "name": "ThingSmartMatterInterfaceAPI",
+  "version": "1.6.0",
+  "summary": "A short description of ThingSmartMatterInterfaceAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterInterfaceAPI-1.6.0.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartMatterInterfaceAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

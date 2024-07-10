@@ -1,0 +1,29 @@
+{
+  "name": "ThingDeviceEditPlugAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingDeviceEditPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceEditPlugAPI-1.2.1.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingDeviceEditPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

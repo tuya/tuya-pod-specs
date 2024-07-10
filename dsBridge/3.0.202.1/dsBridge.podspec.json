@@ -1,0 +1,33 @@
+{
+  "name": "dsBridge",
+  "version": "3.0.202.1",
+  "summary": "An ios bridge for calling functions synchronously and asynchronously between JavaScript and Object-C in WKWebView/UIWebView",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/dsBridge-3.0.202.1.1.zip",
+    "type": "zip"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "dsBridge.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

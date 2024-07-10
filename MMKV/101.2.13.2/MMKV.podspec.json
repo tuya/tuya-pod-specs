@@ -1,0 +1,41 @@
+{
+  "name": "MMKV",
+  "version": "101.2.13.2",
+  "summary": "MMKV is a cross-platform key-value storage framework developed by WeChat.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.9"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/MMKV-101.2.13.2.1.zip",
+    "type": "zip"
+  },
+  "frameworks": "CoreFoundation",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "requires_arc": false,
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "gnu++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF": "NO"
+  },
+  "dependencies": {
+    "MMKVCore": [
+      "~> 101.2.14"
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "MMKV.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

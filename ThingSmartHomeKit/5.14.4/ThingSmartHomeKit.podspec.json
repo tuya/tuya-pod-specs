@@ -1,0 +1,68 @@
+{
+  "name": "ThingSmartHomeKit",
+  "version": "5.14.4",
+  "summary": "A short description of ThingSmartHomeKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeKit-5.14.4.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0",
+    "watchos": "2.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartDeviceKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartSceneKit": [
+      "~> 4.0"
+    ],
+    "ThingSmartTimerKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartMessageKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartFeedbackKit": [
+      "~> 5.0"
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "ThingSmartActivatorKit": [
+        "~> 5.0"
+      ],
+      "ThingSmartMQTTChannelKit": [
+        "~> 5.0"
+      ],
+      "ThingSmartSocketChannelKit": [
+        "~> 5.0"
+      ],
+      "ThingSmartBLEKit": [
+        "~> 5.0"
+      ],
+      "ThingSmartBLEMeshKit": [
+        "~> 5.0"
+      ]
+    },
+    "source_files": [
+      "Build/ThingSmartHomeKit.xcframework/ios-arm64/ThingSmartHomeKit.framework/Headers/*"
+    ]
+  },
+  "watchos": {
+    "source_files": [
+      "Build/ThingSmartHomeKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartHomeKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartHomeKit.xcframework"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "ThingDeviceEvaluation",
+  "version": "1.2.0",
+  "summary": "A short description of ThingDeviceEvaluation.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceEvaluation-1.2.0.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "ThingDeviceEvaluation": [
+      "ThingDeviceEvaluation/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingAutoTrackAPI": [
+
+    ],
+    "ThingDeviceEvaluationPlugAPI": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceEvaluation\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceEvaluation\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceEvaluation\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceEvaluation\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingDeviceEvaluation.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

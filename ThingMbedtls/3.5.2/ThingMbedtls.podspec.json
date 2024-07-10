@@ -1,0 +1,34 @@
+{
+  "name": "ThingMbedtls",
+  "version": "3.5.2",
+  "summary": "tuya mbedtls framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMbedtls-3.5.2.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "OTHER_LDFLAGS": "-all_load",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/mbedtls/include/mbedtls/"
+  },
+  "vendored_frameworks": [
+    "Build/ThingMbedtls.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingMbedtls.xcframework/ios-arm64/ThingMbedtls.framework/Headers/*"
+  ]
+}

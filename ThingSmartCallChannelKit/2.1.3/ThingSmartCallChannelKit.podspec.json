@@ -1,0 +1,43 @@
+{
+  "name": "ThingSmartCallChannelKit",
+  "version": "2.1.3",
+  "summary": "A short description of ThingSmartCallChannelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCallChannelKit-2.1.3.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartAVBaseKit": [
+
+    ],
+    "ThingSmartCallCounterKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCallChannelKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCallChannelKit.xcframework/ios-arm64/ThingSmartCallChannelKit.framework/Headers/*"
+  ]
+}

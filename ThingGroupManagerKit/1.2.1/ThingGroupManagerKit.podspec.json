@@ -1,0 +1,57 @@
+{
+  "name": "ThingGroupManagerKit",
+  "version": "1.2.1",
+  "summary": "A short description of ThingGroupManagerKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupManagerKit-1.2.1.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #undef ThingLog\n  #undef ThingLogDebug\n  #undef ThingLogInfo\n  #undef ThingLogWarn\n  #undef ThingLogError\n  #define ThingLogDebug(...)         ThingSDKLog(0, @\"ThingGroupManagerKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogInfo(...)         ThingSDKLog(1, @\"ThingGroupManagerKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogWarn(...)         ThingSDKLog(2, @\"ThingGroupManagerKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogError(...)         ThingSDKLog(3, @\"ThingGroupManagerKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingGroupHandleSktAPI": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "ThingGroupManagerKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

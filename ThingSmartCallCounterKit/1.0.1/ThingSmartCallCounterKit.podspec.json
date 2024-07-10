@@ -1,0 +1,23 @@
+{
+  "name": "ThingSmartCallCounterKit",
+  "version": "1.0.1",
+  "summary": "A short description of ThingSmartCallCounterKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCallCounterKit-1.0.1.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCallCounterKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCallCounterKit.xcframework/ios-arm64/ThingSmartCallCounterKit.framework/Headers/*"
+  ]
+}

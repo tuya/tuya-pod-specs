@@ -1,0 +1,35 @@
+{
+  "name": "ThingBusinessDeviceDetailEditLink",
+  "version": "1.2.1",
+  "summary": "A short description of ThingBusinessDeviceDetailEditLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceDetailEditLink-1.2.1.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingDeviceEditSktAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingBusinessDeviceDetailEditLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

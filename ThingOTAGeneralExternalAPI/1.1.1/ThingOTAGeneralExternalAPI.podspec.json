@@ -1,0 +1,21 @@
+{
+  "name": "ThingOTAGeneralExternalAPI",
+  "version": "1.1.1",
+  "summary": "A short description of ThingOTAGeneralExternalAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOTAGeneralExternalAPI-1.1.1.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingOTAGeneralExternalAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

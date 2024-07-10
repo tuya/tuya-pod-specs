@@ -1,0 +1,62 @@
+{
+  "name": "ThingP2pFileTransSDK",
+  "version": "1.3.0",
+  "summary": "ThingP2pFileTransSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2pFileTransSDK-1.3.0.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingP2pFileTransSDK/**/Android/*.*",
+    "ThingP2pFileTransSDK/utils/rapidjson/msinttypes/*.*"
+  ],
+  "dependencies": {
+    "ThingP2PSDK": [
+
+    ],
+    "ThingAvLoggerSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/Device $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/LogInterface $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/DownloadTask $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/P2PModule $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/PathManager $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/SessionGuard $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/ThingNetProtocol $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/Platforms/IOS $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/utils",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingP2pFileTransSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingP2pFileTransSDK.xcframework/ios-arm64/ThingP2pFileTransSDK.framework/Headers/*"
+  ]
+}

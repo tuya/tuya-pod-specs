@@ -1,0 +1,43 @@
+{
+  "name": "TUNIIPCKit",
+  "version": "2.1.6",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCKit-2.1.6.1.zip",
+    "type": "zip"
+  },
+  "resource_bundles": {
+    "TUNIIPCKit": [
+      "ios/TUNIIPCKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNICloudStorageSignatureManager": [
+      "1.0.0-anonymize.1"
+    ],
+    "TUNIDLIPCManager": [
+      "3.1.6"
+    ],
+    "TUNIIPCCameraManager": [
+      "5.5.0"
+    ],
+    "TUNIIPCCameraSettingsManager": [
+      "1.1.1-anonymize.1"
+    ],
+    "TUNIIPCDoorbellManager": [
+      "1.0.1-anonymize.1"
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIIPCKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

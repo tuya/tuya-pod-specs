@@ -1,0 +1,22 @@
+{
+  "name": "ThingCameraBizConfig",
+  "version": "1.0.0",
+  "summary": "A short description of ThingCameraBizConfig.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraBizConfig-1.0.0.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingCameraBizConfig.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

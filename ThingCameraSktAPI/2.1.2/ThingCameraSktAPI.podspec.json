@@ -1,0 +1,32 @@
+{
+  "name": "ThingCameraSktAPI",
+  "version": "2.1.2",
+  "summary": "A short description of ThingCameraSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraSktAPI-2.1.2.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartCameraBase": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartPiPPlugAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCameraSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "TUNIBizKit",
+  "version": "4.7.5",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBizKit-4.7.5.1.zip",
+    "type": "zip"
+  },
+  "resource_bundles": {
+    "TUNIBizKit": [
+      "ios/TUNIBizKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAIAssistantManager": [
+      "1.2.2"
+    ],
+    "TUNIAPIRequestManager": [
+      "1.6.1"
+    ],
+    "TUNIAPMManager": [
+      "5.4.5"
+    ],
+    "TUNIAppInfoManager": [
+      "1.6.0"
+    ],
+    "TUNIASRManager": [
+      "1.0.0-rc.40"
+    ],
+    "TUniCallManager": [
+      "5.8.0-rc.2"
+    ],
+    "TUNICountrySelectManager": [
+      "1.0.0-anonymize.1"
+    ],
+    "TUNIFontManager": [
+      "1.0.2-anonymize.1"
+    ],
+    "TUNIIAPManager": [
+      "1.0.0"
+    ],
+    "TUNIImageNetworkManager": [
+      "1.1.2"
+    ],
+    "TUNILocalizationManager": [
+      "1.6.3"
+    ],
+    "TUNILogManager": [
+      "1.0.0-rc.5"
+    ],
+    "TUNIMiniPageRefreshManager": [
+      "0.0.3"
+    ],
+    "TUNINGManager": [
+      "1.0.11"
+    ],
+    "TUNIOnlineServiceManager": [
+      "1.0.1"
+    ],
+    "TUNIOpenPageManager": [
+      "2.4.7"
+    ],
+    "TUNIPayManager": [
+      "2.0.9"
+    ],
+    "TUNIRouterManager": [
+      "2.0.4"
+    ],
+    "TUNIShareManager": [
+      "1.2.1"
+    ],
+    "TUNISiriManager": [
+      "1.0.4"
+    ],
+    "TUNIUserInfoManager": [
+      "2.0.0-rc.1"
+    ],
+    "TUNIUtilsManager": [
+      "1.2.1"
+    ],
+    "TUNIWebSocketManager": [
+      "1.0.0-rc.10"
+    ],
+    "TUNIWechatManager": [
+      "1.1.6"
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

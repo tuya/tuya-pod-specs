@@ -1,0 +1,29 @@
+{
+  "name": "ThingSmartOutdoorPlugAPI",
+  "version": "0.6.1",
+  "summary": "A short description of ThingSmartOutdoorPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartOutdoorPlugAPI-0.6.1.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartOutdoorKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartOutdoorPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
