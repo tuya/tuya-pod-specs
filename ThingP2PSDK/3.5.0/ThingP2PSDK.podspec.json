@@ -21,9 +21,7 @@
   "ios": {
   },
   "dependencies": {
-    "ThingMbedtls": [
-
-    ],
+    "ThingMbedtls": "3.5.2",
     "ThingAvLoggerSDK": [
 
     ]
