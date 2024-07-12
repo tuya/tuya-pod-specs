@@ -40,7 +40,7 @@
             "~> 5.0"
         ],
         "ThingSmartCameraM":[
-            "~> 5.6.0"
+            "5.6.0"
         ],
         "ThingEncryptImage":[
             "~> 4.31.0"
@@ -49,17 +49,30 @@
             "~> 2.0.1"
         ],
         "ThingCameraSDK":[
-            "~> 4.4.2"
+            "4.4.2"
         ],
         "ThingP2PSDK":[
-            "~> 3.4.40"
+            "3.4.40"
         ],
         "ThingSmartMediaUIKit":[
             "~> 2.0.0"
         ],
         "ThingSmartCameraExtSDK":[
             "~> 1.0.1"
+        ],
+        "ThingVideoCodecSDK":[
+            "1.3.5"
+        ],
+        "ThingAvLoggerSDK":[
+            "1.2.5"
+        ],
+        "ThingFFmpegWrapper":[
+            "4.4.2"
+        ],
+        "ThingAudioEngineSDK":[
+            "1.2.5"
         ]
+        
     },
     "vendored_frameworks":[
         "Build/ThingSmartCameraKit.xcframework"
