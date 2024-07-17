@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSplashModule-1.6.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSplashModule-1.6.0.1-67b1a4.zip",
     "type": "zip",
-    "sha1": "e5852666015c10ebe08a0c08f50c9a3d5de01879"
+    "sha1": "86346f149ba61ee9db1d7d160ca9de879bc5042c"
   },
   "platforms": {
     "ios": "9.0"

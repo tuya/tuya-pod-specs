@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAlexaWebAuthManager-1.0.4-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAlexaWebAuthManager-1.0.4-anonymize.1.1-5a0cb5.zip",
     "type": "zip",
-    "sha1": "df228ebed36b0d62d15fdac98927f588da46becf"
+    "sha1": "5fddbc6a43e84b19c1b8ad4f37294bc8754850cf"
   },
   "platforms": {
     "ios": "9.0"

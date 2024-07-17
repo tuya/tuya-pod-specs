@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupHandleModule-2.9.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupHandleModule-2.9.1.1-24a779.zip",
     "type": "zip",
-    "sha1": "718d958bc24c28a136275291f53a0468f9fce8e8"
+    "sha1": "ff974f21bb28e7b9989ea166428aa2b4ce2101b3"
   },
   "platforms": {
     "ios": "9.0"

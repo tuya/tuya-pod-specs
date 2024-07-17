@@ -13,9 +13,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocationManager-2.4.0-rc.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocationManager-2.4.0-rc.1.1-b1dd35.zip",
     "type": "zip",
-    "sha1": "557599d1148c4f881f1bbb152598e0b21eff79c9"
+    "sha1": "355dc75e44665609632632ba10ac459ae24df149"
   },
   "platforms": {
     "ios": "9.0"

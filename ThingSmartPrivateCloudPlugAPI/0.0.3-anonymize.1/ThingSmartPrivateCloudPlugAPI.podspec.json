@@ -7,9 +7,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPrivateCloudPlugAPI-0.0.3-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPrivateCloudPlugAPI-0.0.3-anonymize.1.1-1f21dd.zip",
     "type": "zip",
-    "sha1": "8745976c9d96626d7fe71acd95beeee3706a4aab"
+    "sha1": "abcdec8658125adac81deac65ad121b3b989e496"
   },
   "platforms": {
     "ios": "9.0"

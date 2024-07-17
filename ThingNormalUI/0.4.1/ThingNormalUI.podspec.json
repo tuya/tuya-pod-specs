@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNormalUI-0.4.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNormalUI-0.4.1.1-fe0b06.zip",
     "type": "zip",
-    "sha1": "29708eae8185aeebb86d34b6c4be4a93f5362644"
+    "sha1": "01e78fc5b9346ab406a484618a40d05e8e20f488"
   },
   "platforms": {
     "ios": "9.0"

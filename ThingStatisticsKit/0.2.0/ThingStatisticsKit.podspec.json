@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStatisticsKit-0.2.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStatisticsKit-0.2.0.1-ab7b51.zip",
     "type": "zip",
-    "sha1": "66d45dc2e428c3d78bfe6aeb8e43346da6b776a4"
+    "sha1": "150ab5be24751dbf2a0b856b42af9272296f9f75"
   },
   "platforms": {
     "ios": "10.0"

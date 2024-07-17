@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessHomeKitLink-1.1.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessHomeKitLink-1.1.0.1-a3dd95.zip",
     "type": "zip",
-    "sha1": "b8a7bbc3138389c240e6c794f7d73ae53f363fa3"
+    "sha1": "9d4cf207e6d00c85849fed872e8f424e86f2b5a4"
   },
   "platforms": {
     "ios": "9.0"

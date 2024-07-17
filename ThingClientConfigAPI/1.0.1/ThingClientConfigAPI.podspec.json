@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingClientConfigAPI-1.0.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingClientConfigAPI-1.0.1.1-c7087c.zip",
     "type": "zip",
-    "sha1": "cb2bf23e3b4bfd73415a30276b38686b96523c53"
+    "sha1": "7ea6d1e512d18b4442dea87cd6bd3b8f68c7fad8"
   },
   "platforms": {
     "ios": "9.0"

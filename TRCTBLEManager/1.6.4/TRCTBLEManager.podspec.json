@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBLEManager-1.6.4.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBLEManager-1.6.4.1-134374.zip",
     "type": "zip",
-    "sha1": "1838244eec988a760b327ba7fc1087cc7d2c8502"
+    "sha1": "dda3c25bc7c2128d50c07f264f4b7e965529c622"
   },
   "platforms": {
     "ios": "9.0"

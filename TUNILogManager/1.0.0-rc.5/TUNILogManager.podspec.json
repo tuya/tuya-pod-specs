@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILogManager-1.0.0-rc.5.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILogManager-1.0.0-rc.5.1-e00aa5.zip",
     "type": "zip",
-    "sha1": "df22bdd49142c5ce3682010f9d1634578c0f2d02"
+    "sha1": "4251c867cb39f0fc5d0d3dec9aa2a92f4f7684a5"
   },
   "platforms": {
     "ios": "10.0"

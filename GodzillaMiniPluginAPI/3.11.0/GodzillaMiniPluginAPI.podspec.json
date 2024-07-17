@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniPluginAPI-3.11.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniPluginAPI-3.11.0.1-ff34fe.zip",
     "type": "zip",
-    "sha1": "f72349a53b6472e71b4d2e30a048ac956eb44f25"
+    "sha1": "e8ea42d736b656dcd27e050803283ed59c4e0642"
   },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",

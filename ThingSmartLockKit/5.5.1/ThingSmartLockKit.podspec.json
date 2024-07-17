@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLockKit-5.5.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLockKit-5.5.1.1-06006e.zip",
     "type": "zip",
-    "sha1": "ff8db9ff30b2094d512c2311f9a26775b6a4b1c5"
+    "sha1": "cd97df7c7db73f7d722ef4ced34ce5a6ce6b8673"
   },
   "platforms": {
     "ios": "11.0"

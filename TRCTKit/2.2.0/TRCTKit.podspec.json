@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTKit-2.2.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTKit-2.2.0.1-d66d7d.zip",
     "type": "zip",
-    "sha1": "5325f8c5f3eaf82775e171d20a757498c0596b67"
+    "sha1": "d6b434ffab127eae91dbb452e72c2844c9acabc2"
   },
   "platforms": {
     "ios": "10.0"

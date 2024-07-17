@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceKit-4.6.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceKit-4.6.1.1-ebef9c.zip",
     "type": "zip",
-    "sha1": "b5d48dd2174786ccbd879f32e549b9dc32ecfb79"
+    "sha1": "fa9bab098556f84e30aecd39c3f102b9d7278bc1"
   },
   "resource_bundles": {
     "TUNIDeviceKit": [

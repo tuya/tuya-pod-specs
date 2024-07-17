@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginWithAmzSDK-1.0.0-fix-redeirct.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginWithAmzSDK-1.0.0-fix-redeirct.1.1-da1b07.zip",
     "type": "zip",
-    "sha1": "eb81db679fd729d37a1ca18fd7a556d2e6405103"
+    "sha1": "602e9d72f99a7bb288b8f7ce5ba8d070c3af87f5"
   },
   "platforms": {
     "ios": "9.0"

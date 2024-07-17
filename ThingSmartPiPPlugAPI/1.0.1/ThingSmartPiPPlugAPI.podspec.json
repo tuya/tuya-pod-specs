@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPiPPlugAPI-1.0.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPiPPlugAPI-1.0.1.1-221392.zip",
     "type": "zip",
-    "sha1": "c6faac4d964ac33205f4fb88ddc27e8f8bf94fae"
+    "sha1": "e2a0d5b9e369350bcb6930ca300847437619f1b2"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMessageCenterBizKit-1.0.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMessageCenterBizKit-1.0.1.1-a9a16d.zip",
     "type": "zip",
-    "sha1": "f5ed13918590e3bff54a19f583a6fa1caef5fb1c"
+    "sha1": "3c705b9145436f446075acc761f1d814cfa81415"
   },
   "platforms": {
     "ios": "10.0"

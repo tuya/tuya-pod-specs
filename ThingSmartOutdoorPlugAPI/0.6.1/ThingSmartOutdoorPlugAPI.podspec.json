@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartOutdoorPlugAPI-0.6.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartOutdoorPlugAPI-0.6.1.1-b56a92.zip",
     "type": "zip",
-    "sha1": "62dc85e465b132bb9c12d09320f3ce8313822040"
+    "sha1": "6fe387c59c5ac9bdbf15c400fc89e0867e478bb6"
   },
   "platforms": {
     "ios": "9.0"

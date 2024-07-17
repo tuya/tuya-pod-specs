@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageManager-0.1.4.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageManager-0.1.4.1-5c745b.zip",
     "type": "zip",
-    "sha1": "489e67d14e791dfb83d4a8c0d038fba61c269653"
+    "sha1": "88cc5f858538d6fb139664fa97780fe0a4e70d88"
   },
   "platforms": {
     "ios": "9.0"

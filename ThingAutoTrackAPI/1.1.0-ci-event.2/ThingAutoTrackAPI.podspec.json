@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAutoTrackAPI-1.1.0-ci-event.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAutoTrackAPI-1.1.0-ci-event.2.1-753bab.zip",
     "type": "zip",
-    "sha1": "751dbfb027f8e1b24230fb79c829bff42ed9de95"
+    "sha1": "42c49d50943b5e27a76bdfa2af7679fa982a868e"
   },
   "platforms": {
     "ios": "10.0"

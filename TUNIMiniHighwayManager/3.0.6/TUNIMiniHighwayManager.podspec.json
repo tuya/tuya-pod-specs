@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniHighwayManager-3.0.6.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniHighwayManager-3.0.6.1-bbb98d.zip",
     "type": "zip",
-    "sha1": "b398a6a02858ff167fa195ad6be3455395e0c5be"
+    "sha1": "5966b9ac735b45975cabb70cf5e36dcf378d1ab7"
   },
   "platforms": {
     "ios": "9.0"

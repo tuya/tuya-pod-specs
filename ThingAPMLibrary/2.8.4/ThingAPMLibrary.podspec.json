@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMLibrary-2.8.4.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMLibrary-2.8.4.1-43d2df.zip",
     "type": "zip",
-    "sha1": "a859b930ce6e822a9e9930a19c023e2e8d0ab72b"
+    "sha1": "3321ac6c4348ebf07bf962343cfb3f52169cf737"
   },
   "platforms": {
     "ios": "11.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneEditSkt-0.1.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneEditSkt-0.1.2.1-5f8920.zip",
     "type": "zip",
-    "sha1": "3522b7f72d480fd9ac3c0f9d495cf1921fd2b4f1"
+    "sha1": "df1c3126f0ed9dd604d271f5fe270d7a2fd9e379"
   },
   "platforms": {
     "ios": "9.0"

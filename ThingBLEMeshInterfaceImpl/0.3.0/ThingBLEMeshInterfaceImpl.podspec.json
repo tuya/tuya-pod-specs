@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEMeshInterfaceImpl-0.3.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEMeshInterfaceImpl-0.3.0.1-4c3ef5.zip",
     "type": "zip",
-    "sha1": "30d999361f4cff5898a709185551e10a10154dee"
+    "sha1": "8e363afc02b804c31aad1a90ee32731b89c89136"
   },
   "platforms": {
     "ios": "10.0"

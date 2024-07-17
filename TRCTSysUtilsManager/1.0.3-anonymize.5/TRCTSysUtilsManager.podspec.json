@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSysUtilsManager-1.0.3-anonymize.5.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSysUtilsManager-1.0.3-anonymize.5.1-fd2030.zip",
     "type": "zip",
-    "sha1": "0bf49b3a47735799bc234f7dadfbf64b291f78d6"
+    "sha1": "4672783fdc9da9b8d2817dbaa30efd8cb78370ef"
   },
   "platforms": {
     "ios": "9.0"

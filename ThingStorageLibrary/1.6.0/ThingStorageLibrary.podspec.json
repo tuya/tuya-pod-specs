@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageLibrary-1.6.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageLibrary-1.6.0.1-028b84.zip",
     "type": "zip",
-    "sha1": "f9e21ae6de34a9729e245cbc8b5a32aa48ce49e6"
+    "sha1": "94f6570cc5da1dac4baa104b70c10c4d41b8f972"
   },
   "platforms": {
     "ios": "9.0"

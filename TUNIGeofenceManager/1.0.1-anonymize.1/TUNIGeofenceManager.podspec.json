@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGeofenceManager-1.0.1-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGeofenceManager-1.0.1-anonymize.1.1-fa873a.zip",
     "type": "zip",
-    "sha1": "6bcfc442a6d3774a6d6e12003af484e3089d4973"
+    "sha1": "fabae07990d83f9d1e7f51eb591a0d19332a3336"
   },
   "platforms": {
     "ios": "10.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneCallManager-1.1.0-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneCallManager-1.1.0-anonymize.1.1-6f183b.zip",
     "type": "zip",
-    "sha1": "cead174bc615565d10f29a714c95c54460405988"
+    "sha1": "246ecc1a9f5b0043241c488d194f155cd94a5b44"
   },
   "platforms": {
     "ios": "9.0"

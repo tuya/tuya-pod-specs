@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonUIToolKit-0.1.1-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonUIToolKit-0.1.1-anonymize.1.1-dd0cb9.zip",
     "type": "zip",
-    "sha1": "0107d7a04baeaabf9844151a3849963253cb0e55"
+    "sha1": "2cced4646592111869484e67164393ee81dcf233"
   },
   "platforms": {
     "ios": "9.0"

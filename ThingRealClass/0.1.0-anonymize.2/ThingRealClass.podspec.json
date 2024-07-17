@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRealClass-0.1.0-anonymize.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRealClass-0.1.0-anonymize.2.1-93f762.zip",
     "type": "zip",
-    "sha1": "f25646f94a19401d0b7231ff8bde0f83d6ee7599"
+    "sha1": "e3e3acdce2f7b15bb49be5f9ef05d13a56688e78"
   },
   "platforms": {
     "ios": "8.0",

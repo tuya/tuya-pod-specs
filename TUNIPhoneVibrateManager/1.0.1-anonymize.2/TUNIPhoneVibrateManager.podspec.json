@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneVibrateManager-1.0.1-anonymize.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneVibrateManager-1.0.1-anonymize.2.1-5403ec.zip",
     "type": "zip",
-    "sha1": "3f8e4604e71a9b58be11ac3b0745f24b1099a10d"
+    "sha1": "4e0ce036e55f8d5041c71cd34b1dc50fb3afd3e4"
   },
   "platforms": {
     "ios": "9.0"

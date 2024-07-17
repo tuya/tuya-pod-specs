@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneListPlugAPI-0.1.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneListPlugAPI-0.1.2.1-5cde60.zip",
     "type": "zip",
-    "sha1": "6ab700eece793ee38c3b118930cea163d28e4d4a"
+    "sha1": "2e50a0ccd5f00bc770f6f8315b6a5f216c2f6b6d"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTShareManager-1.2.3-anonymize.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTShareManager-1.2.3-anonymize.2.1-32413e.zip",
     "type": "zip",
-    "sha1": "bc8521b86875ce87839e7bb29d3ed56911e96d22"
+    "sha1": "31757dbb349b89f22298ff140bbb667699d858e4"
   },
   "platforms": {
     "ios": "9.0"

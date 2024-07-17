@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFaceAliveDetectManager-1.0.5-anonymize.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFaceAliveDetectManager-1.0.5-anonymize.2.1-95c90f.zip",
     "type": "zip",
-    "sha1": "c0bab7cccd4254d2c3a448d61bd092328cf3a23a"
+    "sha1": "a756fe65db03eb2e90f485678805c7c9c484c3f6"
   },
   "platforms": {
     "ios": "9.0"

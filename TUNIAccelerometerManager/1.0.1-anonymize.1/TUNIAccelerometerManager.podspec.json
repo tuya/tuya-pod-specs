@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAccelerometerManager-1.0.1-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAccelerometerManager-1.0.1-anonymize.1.1-912466.zip",
     "type": "zip",
-    "sha1": "12604557e8df268a8017a9a3b991232179db757d"
+    "sha1": "906d4ec6628c66b8d70380519faa341f3a5705c7"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUIComponents-4.9.6.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUIComponents-4.9.6.1-2a3311.zip",
     "type": "zip",
-    "sha1": "23ada2bd4424bc2d1f77372b184b54a7857ede34"
+    "sha1": "3e51c457bb9cbb3aedc468b847832eb075dd6bbd"
   },
   "platforms": {
     "ios": "9.0"

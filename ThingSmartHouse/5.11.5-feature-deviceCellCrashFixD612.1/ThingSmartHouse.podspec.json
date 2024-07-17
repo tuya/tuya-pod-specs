@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHouse-5.11.5-feature-deviceCellCrashFixD612.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHouse-5.11.5-feature-deviceCellCrashFixD612.1.1-d2ebad.zip",
     "type": "zip",
-    "sha1": "0c9c7937fb503361ef3546b9dedd0b5313bfeb72"
+    "sha1": "99e33e91139dc8cb78610b77a1614c40f56f9b72"
   },
   "platforms": {
     "ios": "11.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLocationService-1.1.6.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLocationService-1.1.6.1-a6a368.zip",
     "type": "zip",
-    "sha1": "0f2f63ecb0f92304c9ebed5d8f1de65fbb8f7955"
+    "sha1": "6022d8b29f544a8bcdd1f96775a032db6d72883e"
   },
   "pod_target_xcconfig": {
     "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription",

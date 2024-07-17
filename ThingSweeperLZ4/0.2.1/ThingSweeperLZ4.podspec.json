@@ -7,9 +7,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSweeperLZ4-0.2.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSweeperLZ4-0.2.1.1-0047cc.zip",
     "type": "zip",
-    "sha1": "b18359f769a8845b2edba340a407044d39c6e494"
+    "sha1": "1fdbb5f2c668b8ea0d7b4af8fa37c3e848aea1d3"
   },
   "platforms": {
     "ios": "8.0"

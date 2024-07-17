@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAppLifeCycleSktAPI-1.0.7-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAppLifeCycleSktAPI-1.0.7-anonymize.1.1-5d0400.zip",
     "type": "zip",
-    "sha1": "e86d112cd1639c7f356b870c3cdac2080bdfa210"
+    "sha1": "1078b96919a78b465ac34fd56e593253215194ef"
   },
   "platforms": {
     "ios": "9.0"

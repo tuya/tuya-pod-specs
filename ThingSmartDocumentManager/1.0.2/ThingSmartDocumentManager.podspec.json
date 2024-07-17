@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDocumentManager-1.0.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDocumentManager-1.0.2.1-348e4b.zip",
     "type": "zip",
-    "sha1": "4c14ff6cc77ae541450d96ad3d7d53e128c433ff"
+    "sha1": "8857fa6464b62e6b1fc460ecdd2591cd87145514"
   },
   "platforms": {
     "ios": "9.0"

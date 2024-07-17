@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSpeakerManager-1.1.18-anonymize.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSpeakerManager-1.1.18-anonymize.2.1-4886ad.zip",
     "type": "zip",
-    "sha1": "0ad90c62cc50d7ac2317e9c5f4baf592927dc4fa"
+    "sha1": "c44a35a96218c4a1cd6db929edb302ba2ead10ec"
   },
   "platforms": {
     "ios": "9.0"

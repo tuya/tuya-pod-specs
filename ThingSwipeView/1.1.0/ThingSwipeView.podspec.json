@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSwipeView-1.1.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSwipeView-1.1.0.1-0e702b.zip",
     "type": "zip",
-    "sha1": "6c796ced026db76c65f99cb0da59c50513487001"
+    "sha1": "80e188b7e65ba513647d1503ae522ee8dbbfb07d"
   },
   "platforms": {
     "ios": "9.0"

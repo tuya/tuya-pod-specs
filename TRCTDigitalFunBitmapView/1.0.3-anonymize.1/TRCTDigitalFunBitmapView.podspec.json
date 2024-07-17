@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDigitalFunBitmapView-1.0.3-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDigitalFunBitmapView-1.0.3-anonymize.1.1-a597b2.zip",
     "type": "zip",
-    "sha1": "a5867cfa827f6d34dabbe6370f39a2ee12a04e81"
+    "sha1": "3bd1e1e1d2be6231c79aa67356e1af31576784e1"
   },
   "platforms": {
     "ios": "9.0"

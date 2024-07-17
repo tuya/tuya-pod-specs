@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThingCameraPlayer-1.2.3-anonymize.3.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThingCameraPlayer-1.2.3-anonymize.3.1-78854d.zip",
     "type": "zip",
-    "sha1": "a517377e0e3a9d84cdccf30a8aad566101bd576c"
+    "sha1": "d6d3ea0f5181dbafa78fbae7514a4ff2cfd77722"
   },
   "platforms": {
     "ios": "9.0"

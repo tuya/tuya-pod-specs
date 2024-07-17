@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThemeManager-1.1.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThemeManager-1.1.1.1-30a77e.zip",
     "type": "zip",
-    "sha1": "8813955d753a55f1932a7f8e02f1558eb844ae09"
+    "sha1": "59622f592d449a40a5f3dd848f0704e5f537174b"
   },
   "platforms": {
     "ios": "9.0"

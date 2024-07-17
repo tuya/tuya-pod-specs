@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOTAGeneralExternalAPI-1.1.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOTAGeneralExternalAPI-1.1.1.1-e82c6b.zip",
     "type": "zip",
-    "sha1": "fd2bca7b17c944fe4e5b3d97ee9fb2c8d54c4770"
+    "sha1": "5705b69bc9786b3e4841b76388f4b91e69fa9bc7"
   },
   "platforms": {
     "ios": "10.0"

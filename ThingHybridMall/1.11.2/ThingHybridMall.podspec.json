@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMall-1.11.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMall-1.11.2.1-c8219d.zip",
     "type": "zip",
-    "sha1": "caaa8ed80b405f6906b3cb920b5be78995743801"
+    "sha1": "84ca21fd6a53752a0fdef848b078b9fb392c1ae2"
   },
   "platforms": {
     "ios": "11.0"

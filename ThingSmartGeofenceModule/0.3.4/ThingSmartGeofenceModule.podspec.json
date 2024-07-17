@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGeofenceModule-0.3.4.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGeofenceModule-0.3.4.1-d927c8.zip",
     "type": "zip",
-    "sha1": "3fc520d26ed2f811b416b1cd675c76d700f5fc3e"
+    "sha1": "f46d73aa43f136222f351cd45d0f43be758b5855"
   },
   "pod_target_xcconfig": {
     "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription",

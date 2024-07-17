@@ -7,9 +7,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingValueAddedServicePlugAPI-1.2.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingValueAddedServicePlugAPI-1.2.0.1-417b2f.zip",
     "type": "zip",
-    "sha1": "8f10de6a8f7065404c25def3e837c26da7b0d5ac"
+    "sha1": "a71640e4dfb52d6b57aa1d0b4af4d6a771244880"
   },
   "platforms": {
     "ios": "9.0"

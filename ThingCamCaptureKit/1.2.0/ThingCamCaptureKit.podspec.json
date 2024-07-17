@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCamCaptureKit-1.2.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCamCaptureKit-1.2.0.1-47a98c.zip",
     "type": "zip",
-    "sha1": "a840086ac25ba14ac8eaff642e7ab150576e8844"
+    "sha1": "f171e51ddf610522bfbdbbee856047650e4cbcd0"
   },
   "platforms": {
     "ios": "10.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMeshPanelManager-1.2.4-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMeshPanelManager-1.2.4-anonymize.1.1-cd9389.zip",
     "type": "zip",
-    "sha1": "47bc9893b3e20a6f76ed264288aa63f66b5752f6"
+    "sha1": "2df6f95dda3fbca0428f31effcc7bdc801b27820"
   },
   "platforms": {
     "ios": "9.0"

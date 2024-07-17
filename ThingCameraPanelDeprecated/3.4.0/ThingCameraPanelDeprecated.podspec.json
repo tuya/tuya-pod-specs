@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelDeprecated-3.4.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelDeprecated-3.4.0.1-b95acb.zip",
     "type": "zip",
-    "sha1": "3869d634177ed715c4b23a8e988bf3852d3de453"
+    "sha1": "1fc4a4cb3c81a6ac16d5b75e45e2af1a757ee73b"
   },
   "platforms": {
     "ios": "9.0"

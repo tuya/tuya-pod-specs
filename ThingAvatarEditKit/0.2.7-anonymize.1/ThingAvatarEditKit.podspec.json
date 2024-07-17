@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.7-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.7-anonymize.1.1-38ff61.zip",
     "type": "zip",
-    "sha1": "b2dda6919af74fcdfeeffc0f2ae3ac2264e4079a"
+    "sha1": "0cf0d30bd631ff8973a99bd6c1d73d4932368909"
   },
   "platforms": {
     "ios": "9.0"

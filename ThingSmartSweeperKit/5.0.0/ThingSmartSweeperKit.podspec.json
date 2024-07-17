@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSweeperKit-5.0.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSweeperKit-5.0.0.1-c326bf.zip",
     "type": "zip",
-    "sha1": "20504f449f31d43264cbcbb72a285e9a19744c02"
+    "sha1": "19086974a35b73a14ab1c49af4962d757368fe84"
   },
   "platforms": {
     "ios": "9.0"

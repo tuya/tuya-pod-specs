@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelSweeperUtil-1.0.4-feature-develop.2.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelSweeperUtil-1.0.4-feature-develop.2.1-45c1c6.zip",
     "type": "zip",
-    "sha1": "2644b0b599152095d86fc70188c9d9350bdad41a"
+    "sha1": "eff259a028732c70880946bb5483eaaec7fec94d"
   },
   "platforms": {
     "ios": "9.0"

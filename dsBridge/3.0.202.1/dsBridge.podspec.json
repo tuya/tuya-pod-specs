@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/dsBridge-3.0.202.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/dsBridge-3.0.202.1.1-630890.zip",
     "type": "zip",
-    "sha1": "f77a79af1b0e4a1a831418dfa847149aeb3e2c85"
+    "sha1": "16611950ce13f8bc2dec3ecc927d4f3ae884f55c"
   },
   "frameworks": "UIKit",
   "dependencies": {

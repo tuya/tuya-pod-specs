@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPanelDeviceManager-1.2.2-anonymize.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPanelDeviceManager-1.2.2-anonymize.1.1-1485fa.zip",
     "type": "zip",
-    "sha1": "6b9b1ca0e8a93e62a357bb947e3cdbd77c2cdb01"
+    "sha1": "eca476d8f04e5cd991897d914288685abeff9908"
   },
   "platforms": {
     "ios": "9.0"

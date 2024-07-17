@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPBTBridgeManager-1.1.10-anonymize.4.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPBTBridgeManager-1.1.10-anonymize.4.1-54e6b2.zip",
     "type": "zip",
-    "sha1": "7f3dbecf13212132852a973cf9e50512502593ad"
+    "sha1": "95cf8f6a6e396687e8df1bc2884a2170bff7503a"
   },
   "platforms": {
     "ios": "9.0"

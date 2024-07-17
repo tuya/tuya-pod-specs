@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppInterceptor_iOS-3.6.4.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppInterceptor_iOS-3.6.4.1-69faf2.zip",
     "type": "zip",
-    "sha1": "5f915787b4e1f72faa3f86321e8c907e200459f4"
+    "sha1": "777d5369135c33df5c2675c4bd4b37a341726674"
   },
   "platforms": {
     "ios": "9.0"

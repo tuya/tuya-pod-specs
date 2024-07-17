@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppStorage-3.2.0.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppStorage-3.2.0.1-ffb775.zip",
     "type": "zip",
-    "sha1": "6c0f192d760d6d2fd8b8795908c9827249b0c3ef"
+    "sha1": "9f8887f8b337abd1953e6e2f30c4a7884d08d4a5"
   },
   "platforms": {
     "ios": "9.0"

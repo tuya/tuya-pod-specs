@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNReanimated-1.19.0.1.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNReanimated-1.19.0.1.1-95f30d.zip",
     "type": "zip",
-    "sha1": "4cb28e3f56b4968f9cccbcdfad7a9d65f94e01ca"
+    "sha1": "f1120cf2cc3eda4433d3ed3597d22e40f357095d"
   },
   "requires_arc": true,
   "dependencies": {

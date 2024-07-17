@@ -7,9 +7,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessLibrary-1.9.6.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessLibrary-1.9.6.1-3485d0.zip",
     "type": "zip",
-    "sha1": "8d72e24a1abdfee188bf6a5910e6ccda368b3be1"
+    "sha1": "5fc798ee93ac3ad6e288bb78e78cdca17730cd1e"
   },
   "platforms": {
     "ios": "9.0"
