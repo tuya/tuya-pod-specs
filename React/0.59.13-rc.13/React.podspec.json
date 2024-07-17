@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/React-0.59.13-rc.13.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "ec458f88f6dbecc1d41f4ca4bc8da9d0f99fd633"
   },
   "requires_arc": true,
   "platforms": {

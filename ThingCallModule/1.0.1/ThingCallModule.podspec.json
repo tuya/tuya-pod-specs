@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallModule-1.0.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "38b635d14eeac2d878a0be2ca06bbc1f61d27546"
   },
   "platforms": {
     "ios": "10.0"

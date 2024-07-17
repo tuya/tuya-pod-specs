@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraBizKit-5.7.8.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "a19060045abc004aceed1c521ce0c7d7fbde5287"
   },
   "platforms": {
     "ios": "9.0"

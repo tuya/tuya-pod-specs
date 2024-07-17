@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceInfoPlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "a82c2465b1568cb17c9b615a849d1e78c4fb4f1c"
   },
   "platforms": {
     "ios": "9.0"

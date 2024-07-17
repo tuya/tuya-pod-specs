@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartIntelligenceApi-0.0.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "1c60eea3e5e2c61ee4d5a2c0c3e97ec423ae0531"
   },
   "platforms": {
     "ios": "11.0"

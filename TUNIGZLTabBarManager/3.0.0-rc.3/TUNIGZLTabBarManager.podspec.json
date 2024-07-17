@@ -1,36 +1,44 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "GodzillaMiniIService": [],
-        "GodzillaMiniPluginAPI": [],
-        "TUNIAPIManagerKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIGZLTabBarManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGZLTabBarManager-3.0.0-rc.3.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIGZLTabBarManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIGZLTabBarManager.xcframework"
+  "name": "TUNIGZLTabBarManager",
+  "version": "3.0.0-rc.3",
+  "summary": "A short description of TUNIGZLTabBarManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGZLTabBarManager-3.0.0-rc.3.1.zip",
+    "type": "zip",
+    "sha1": "a33fd7bfd9c7a178c5b10fe95af64cf067202b43"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
     ],
-    "version": "3.0.0-rc.3"
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIGZLTabBarManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

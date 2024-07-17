@@ -1,35 +1,45 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBluetoothInterface": [],
-        "ThingFamilyAPI": [],
-        "ThingModuleManager": [],
-        "ThingSmartDeviceKit": []
-    },
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingBLEHomeManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEHomeManager-1.14.1.zip",
-        "type": "zip"
-    },
-    "summary": "Bluetooth Home ID Manager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingBLEHomeManager.xcframework"
+  "name": "ThingBLEHomeManager",
+  "version": "1.14.1",
+  "summary": "Bluetooth Home ID Manager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEHomeManager-1.14.1.1.zip",
+    "type": "zip",
+    "sha1": "92b1221c2c94a516dd2c5de4260a55398d2916f9"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceKit": [
+
     ],
-    "version": "1.14.1"
+    "ThingModuleManager": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingBLEHomeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

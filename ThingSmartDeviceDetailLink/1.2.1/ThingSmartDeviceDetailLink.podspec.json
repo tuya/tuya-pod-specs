@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDeviceDetailLink-1.2.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "5d3920a97e5061e1f327e567d59669b4e32cc354"
   },
   "platforms": {
     "ios": "9.0"

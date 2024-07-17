@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHelpCenterModule-1.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8c43af2e77aead15b23bda60356d4dbec4e22174"
   },
   "platforms": {
     "ios": "9.0"

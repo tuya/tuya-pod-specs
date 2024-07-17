@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraManager-5.15.7.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3cdb2bfedacb07db0a7e51272ff9b9bf225f3333"
   },
   "platforms": {
     "ios": "10.0"

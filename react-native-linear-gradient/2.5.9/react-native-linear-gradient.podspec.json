@@ -1,37 +1,41 @@
 {
-    "authors": {
-        "Brent Vatne": "brentvatne@gmail.com"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "React": []
-    },
-    "frameworks": [
-        "UIKit",
-        "QuartzCore",
-        "Foundation"
-    ],
-    "homepage": "https://www.tuya.com",
-    "license": "MIT",
-    "name": "react-native-linear-gradient",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-linear-gradient-2.5.9.zip",
-        "type": "zip"
-    },
-    "summary": "A <LinearGradient /> component for react-native",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "react_native_linear_gradient.xcframework"
-    ],
-    "version": "2.5.9"
+  "name": "react-native-linear-gradient",
+  "version": "2.5.9",
+  "homepage": "https://github.com/tuya",
+  "summary": "A <LinearGradient /> component for react-native",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-linear-gradient-2.5.9.1.zip",
+    "type": "zip",
+    "sha1": "bb447e123861e855e593a27484a335162693813c"
+  },
+  "frameworks": [
+    "UIKit",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "react_native_linear_gradient.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

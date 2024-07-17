@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingFamilyAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFamilyAPI-1.4.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingFamilyAPI.",
-    "vendored_frameworks": [
-        "ThingFamilyAPI.xcframework"
-    ],
-    "version": "1.4.0"
+  "name": "ThingFamilyAPI",
+  "version": "1.4.0",
+  "summary": "A short description of ThingFamilyAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFamilyAPI-1.4.0.1.zip",
+    "type": "zip",
+    "sha1": "896e243c8eb29c05535feac559ae1527064c8cb5"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingFamilyAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

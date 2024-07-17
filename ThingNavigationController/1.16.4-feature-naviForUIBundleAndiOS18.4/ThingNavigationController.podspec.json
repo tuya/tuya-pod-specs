@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNavigationController-1.16.4-feature-naviForUIBundleAndiOS18.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b615de988ee3082f54ebbe88408b64328a1bd6f0"
   },
   "platforms": {
     "ios": "9.0"

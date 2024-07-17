@@ -12,7 +12,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMiniAppCore-3.18.13.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "197c7b56876080c3b18050082305202d8772f23b"
   },
   "resource_bundles": {
     "ThingMiniAppCore": [

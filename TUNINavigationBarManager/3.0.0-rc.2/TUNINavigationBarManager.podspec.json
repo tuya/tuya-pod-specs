@@ -1,40 +1,48 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "GodzillaMiniIService": [],
-        "GodzillaMiniPluginAPI": [],
-        "TUNIAPIManagerKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "WebKit",
-        "JavaScriptCore"
+  "name": "TUNINavigationBarManager",
+  "version": "3.0.0-rc.2",
+  "summary": "A short description of TUNINavigationBarManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINavigationBarManager-3.0.0-rc.2.1.zip",
+    "type": "zip",
+    "sha1": "4774d8ad4828df397abe07359d9511eaff0cba23"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "WebKit",
+    "JavaScriptCore"
+  ],
+  "dependencies": {
+    "YYModel": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNINavigationBarManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINavigationBarManager-3.0.0-rc.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNINavigationBarManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNINavigationBarManager.xcframework"
+    "TUNIAPIManagerKit": [
+
     ],
-    "version": "3.0.0-rc.2"
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNINavigationBarManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

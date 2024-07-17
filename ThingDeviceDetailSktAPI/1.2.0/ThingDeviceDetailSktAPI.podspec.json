@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailSktAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8f7608021b361fef78c6e2db6330beeaae4c076f"
   },
   "platforms": {
     "ios": "9.0"

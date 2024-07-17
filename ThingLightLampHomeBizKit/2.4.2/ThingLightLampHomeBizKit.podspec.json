@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightLampHomeBizKit-2.4.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e10cc983f70826bcec39c1d2425abc50c03bdbe4"
   },
   "platforms": {
     "ios": "9.0"

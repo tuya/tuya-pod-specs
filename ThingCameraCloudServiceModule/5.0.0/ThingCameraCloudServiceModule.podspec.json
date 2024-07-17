@@ -1,36 +1,44 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingHybridContainer": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingSmartDeviceKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingCameraCloudServiceModule",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCloudServiceModule-5.0.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingCameraCloudServiceModule.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingCameraCloudServiceModule.xcframework"
+  "name": "ThingCameraCloudServiceModule",
+  "version": "5.0.0",
+  "summary": "A short description of ThingCameraCloudServiceModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCloudServiceModule-5.0.0.1.zip",
+    "type": "zip",
+    "sha1": "f6dcd7284bbde0d5c1d618a34aae9a1c9922a272"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
     ],
-    "version": "5.0.0"
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingCameraCloudServiceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

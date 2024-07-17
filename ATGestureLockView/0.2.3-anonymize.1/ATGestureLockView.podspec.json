@@ -1,40 +1,47 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBlockKit": [],
-        "ThingFoundationKit": [],
-        "ThingUIKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ATGestureLockView",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resource_bundles": {
-        "ATGestureLockView": [
-            "ATGestureLockView/Assets/*.png"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ATGestureLockView-0.2.3-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ATGestureLockView.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ATGestureLockView.xcframework"
+  "name": "ATGestureLockView",
+  "version": "0.2.3-anonymize.1",
+  "summary": "A short description of ATGestureLockView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ATGestureLockView-0.2.3-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "33a3e97b6c4c97d30906d223cb34afe134fbf98e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "ATGestureLockView": [
+      "ATGestureLockView/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingBlockKit": [
+
     ],
-    "version": "0.2.3-anonymize.1"
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ATGestureLockView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

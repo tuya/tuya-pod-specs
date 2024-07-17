@@ -8,7 +8,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingValueAddedServicePlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8f10de6a8f7065404c25def3e837c26da7b0d5ac"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelModulePlugAPI-2.24.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "de682afc4e00788fb92fcc0ffa7d3458983d375f"
   },
   "platforms": {
     "ios": "10.0"

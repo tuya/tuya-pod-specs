@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceEvaluationPlugAPI-1.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "6774ef6a51b479f640ab44bd6e4479adde034779"
   },
   "platforms": {
     "ios": "9.0"

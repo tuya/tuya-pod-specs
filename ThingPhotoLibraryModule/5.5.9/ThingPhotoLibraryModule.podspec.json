@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotoLibraryModule-5.5.9.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "a3e408ec257d5c99a638dcd934e45e67b8bbdb9d"
   },
   "platforms": {
     "ios": "9.0"

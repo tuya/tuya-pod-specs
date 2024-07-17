@@ -1,34 +1,38 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ATGestureLockView": [],
-        "ThingPanelContext": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TRCTGestureLockViewManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGestureLockViewManager-1.0.16-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TRCTGestureLockViewManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TRCTGestureLockViewManager.xcframework"
+  "name": "TRCTGestureLockViewManager",
+  "version": "1.0.16-anonymize.1",
+  "summary": "A short description of TRCTGestureLockViewManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGestureLockViewManager-1.0.16-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "7562cc78bb023aceeb81e150beca003b0c3c9a77"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
     ],
-    "version": "1.0.16-anonymize.1"
+    "ATGestureLockView": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTGestureLockViewManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

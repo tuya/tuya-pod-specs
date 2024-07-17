@@ -1,36 +1,46 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "HMSegmentedControl": [],
-        "ThingFoundationKit": [],
-        "ThingSmartBusinessLibrary": [],
-        "ThingUIKit": []
-    },
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingTabPagingView",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "prefix_header_contents": "#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTabPagingView-1.0.8-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "ThingTabPagingView for thing",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingTabPagingView.xcframework"
+  "name": "ThingTabPagingView",
+  "version": "1.0.8-anonymize.1",
+  "summary": "ThingTabPagingView for thing",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTabPagingView-1.0.8-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "dc94a25f57d74c080249477c686c497df4894c2f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "HMSegmentedControl": [
+
     ],
-    "version": "1.0.8-anonymize.1"
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingTabPagingView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

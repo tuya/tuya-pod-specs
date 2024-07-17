@@ -1,41 +1,49 @@
 {
-    "authors": {
-        "Marc Shilling": "marcshilling@gmail.com"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "React": [],
-        "ThingAlertView": [],
-        "ThingFoundationKit": []
-    },
-    "frameworks": [
-        "UIKit",
-        "AVFoundation",
-        "AssetsLibrary",
-        "Photos",
-        "MobileCoreServices"
+  "name": "react-native-image-picker",
+  "version": "0.26.8-rc.1",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "summary": "A React Native module that allows you to use the native UIImagePickerController UI to select a photo from the device library or directly from the camera",
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-image-picker-0.26.8-rc.1.1.zip",
+    "type": "zip",
+    "sha1": "c2a55bac431c9f1665460adce5108902890d8cc6"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AssetsLibrary",
+    "Photos",
+    "MobileCoreServices"
+  ],
+  "dependencies": {
+    "React": [
+
     ],
-    "homepage": "https://github.com/marcshilling/react-native-image-picker",
-    "license": "MIT",
-    "name": "react-native-image-picker",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/1693464223-react-native-image-picker-0.26.8-rc.1.zip",
-        "type": "zip"
-    },
-    "summary": "A React Native module that allows you to use the native UIImagePickerController UI to select a photo from the device library or directly from the camera",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "react_native_image_picker.xcframework"
+    "ThingAlertView": [
+
     ],
-    "version": "0.26.8-rc.1"
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "react_native_image_picker.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

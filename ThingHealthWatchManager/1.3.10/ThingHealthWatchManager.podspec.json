@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthWatchManager-1.3.10.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "0e698ae2782ae32d2fb0750d583c17cc68325f46"
   },
   "platforms": {
     "ios": "9.0"

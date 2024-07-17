@@ -1,40 +1,44 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "TUNIAPIManagerKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIKeyboardManager",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resource_bundles": {
-        "TUNIKeyboardManager": [
-            "ios/TUNIKeyboardManager/Assets/*",
-            "js/dist/index.js"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIKeyboardManager-2.0.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIKeyboardManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIKeyboardManager.xcframework"
+  "name": "TUNIKeyboardManager",
+  "version": "2.0.1",
+  "summary": "A short description of TUNIKeyboardManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIKeyboardManager-2.0.1.1.zip",
+    "type": "zip",
+    "sha1": "1b57710883ed5070575844646f4b31a77d529d0a"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIKeyboardManager": [
+      "ios/TUNIKeyboardManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
     ],
-    "version": "2.0.1"
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIKeyboardManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeaconKit-5.0.10.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "589518cb75c02845c073e32e8689f0d8478e9631"
   },
   "static_framework": true,
   "platforms": {

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMLibrary-2.8.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "a859b930ce6e822a9e9930a19c023e2e8d0ab72b"
   },
   "platforms": {
     "ios": "11.0"

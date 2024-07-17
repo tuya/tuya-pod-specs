@@ -1,29 +1,32 @@
 {
-    "authors": {
-        "tuya": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "React": []
-    },
-    "frameworks": [
-        "UIKit",
-        "AVFoundation"
-    ],
-    "homepage": "https://github.com/gre/react-native-view-shot",
-    "license": "MIT",
-    "name": "RNViewShot",
-    "platforms": {
-        "ios": "8.0"
-    },
-    "preserve_paths": "**/*.js",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNViewShot-2.3.0.5.zip",
-        "type": "zip"
-    },
-    "summary": "Capture a React Native view to an image",
-    "vendored_frameworks": [
-        "RNViewShot.xcframework"
-    ],
-    "version": "2.3.0.5"
+  "name": "RNViewShot",
+  "version": "2.3.0.5",
+  "summary": "Capture a React Native view to an image",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNViewShot-2.3.0.5.1.zip",
+    "type": "zip",
+    "sha1": "5a934ce06a912700c51c88d5166a50945ef01642"
+  },
+  "preserve_paths": "**/*.js",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "RNViewShot.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

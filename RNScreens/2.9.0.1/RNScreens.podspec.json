@@ -1,23 +1,27 @@
 {
-    "authors": {
-        "tuya": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "React": []
-    },
-    "description": "RNScreens - first incomplete navigation solution for your React Native app",
-    "homepage": "https://github.com/kmagiera/react-native-screens",
-    "license": "MIT",
-    "name": "RNScreens",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNScreens-2.9.0.1-rc.2.zip",
-        "type": "zip"
-    },
-    "source_files": "RNScreens-2.9.0.1-rc.2/Headers/Public/**/*",
-    "summary": "summary",
-    "vendored_libraries": "RNScreens-2.9.0.1-rc.2/libRNScreens.a",
-    "version": "2.9.0.1"
+  "name": "RNScreens",
+  "version": "2.9.0.1",
+  "summary": "summary",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNScreens-2.9.0.1.1.zip",
+    "type": "zip",
+    "sha1": "1946ce4fe0e8911aa757d796532b22eceaccc82b"
+  },
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "RNScreens.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

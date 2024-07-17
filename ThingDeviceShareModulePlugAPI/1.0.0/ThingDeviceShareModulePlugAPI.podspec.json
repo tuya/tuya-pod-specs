@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceShareModulePlugAPI-1.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e8d8b580258c701a785090d24349540011905c44"
   },
   "platforms": {
     "ios": "9.0"

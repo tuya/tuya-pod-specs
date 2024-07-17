@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppCore_iOS-3.18.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "fbf5006307884248b652bf944d03b4ee4b36f466"
   },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",

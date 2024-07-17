@@ -1,34 +1,38 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "TUNIAPIManagerKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIPhoneClipboardManager",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneClipboardManager-2.0.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIPhoneClipboardManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIPhoneClipboardManager.xcframework"
+  "name": "TUNIPhoneClipboardManager",
+  "version": "2.0.2",
+  "summary": "A short description of TUNIPhoneClipboardManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneClipboardManager-2.0.2.1.zip",
+    "type": "zip",
+    "sha1": "eaeccd4a0a16c369a6f5303e6d6f03479f079bdb"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
     ],
-    "version": "2.0.2"
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneClipboardManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

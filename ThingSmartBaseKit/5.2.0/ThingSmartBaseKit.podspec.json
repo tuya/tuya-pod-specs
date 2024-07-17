@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBaseKit-5.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "105552bc70dc84abc03f83f3f6211235dd2aa059"
   },
   "platforms": {
     "ios": "9.0",

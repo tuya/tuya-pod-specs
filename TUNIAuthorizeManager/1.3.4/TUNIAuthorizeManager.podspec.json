@@ -1,46 +1,52 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "TUNIAPIManagerKit": [],
-        "ThingAuthorizationServices": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "AVFoundation",
-        "Photos",
-        "CoreLocation"
+  "name": "TUNIAuthorizeManager",
+  "version": "1.3.4",
+  "summary": "A short description of TUNIAuthorizeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAuthorizeManager-1.3.4.1.zip",
+    "type": "zip",
+    "sha1": "4e2198a35e0980c2b5b7285709bb5b8ee62191d1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "AVFoundation",
+    "Photos",
+    "CoreLocation"
+  ],
+  "resource_bundles": {
+    "TUNIAuthorizeManager": [
+      "ios/tuniauthorizemanager/Assets/*",
+      "commonAssets/TTTScopeInfo.json"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIAuthorizeManager",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resource_bundles": {
-        "TUNIAuthorizeManager": [
-            "ios/tuniauthorizemanager/Assets/*",
-            "commonAssets/TTTScopeInfo.json"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAuthorizeManager-1.3.4.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIAuthorizeManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIAuthorizeManager.xcframework"
+    "YYModel": [
+
     ],
-    "version": "1.3.4"
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAuthorizeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

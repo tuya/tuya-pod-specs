@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraExtSDK-1.0.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "4b6806e80018171b596b67847bd516bf50ff157c"
   },
   "platforms": {
     "ios": "9.0"

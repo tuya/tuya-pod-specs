@@ -1,35 +1,41 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingFoundationKit": [],
-        "ThingPanelContext": [],
-        "ThingSmartCameraKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TRCTDoorBellManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDoorBellManager-1.0.1-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TRCTDoorBellManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TRCTDoorBellManager.xcframework"
+  "name": "TRCTDoorBellManager",
+  "version": "1.0.1-anonymize.1",
+  "summary": "A short description of TRCTDoorBellManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDoorBellManager-1.0.1-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "d8db4ecada5d1cd214c3931c4a6771d3e59fc849"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
     ],
-    "version": "1.0.1-anonymize.1"
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTDoorBellManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

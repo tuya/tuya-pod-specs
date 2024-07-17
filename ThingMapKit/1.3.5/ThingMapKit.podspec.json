@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMapKit-1.3.5.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b579fee5e7cb3ebcf584042ee02fd05c103aa379"
   },
   "platforms": {
     "ios": "11.0"

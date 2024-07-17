@@ -1,44 +1,56 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "TUNIAPIManagerKit": [],
-        "ThingBluetoothInterface": [],
-        "ThingBusinessService": [],
-        "ThingModuleManager": [],
-        "ThingSmartDeviceCoreKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIMeshManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resource_bundles": {
-        "TUNIMeshManager": [
-            "ios/tunimeshmanager/Assets/*",
-            "js/dist/index.js"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMeshManager-1.0.4-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIMeshManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIMeshManager.xcframework"
+  "name": "TUNIMeshManager",
+  "version": "1.0.4-anonymize.1",
+  "summary": "A short description of TUNIMeshManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMeshManager-1.0.4-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "9ca8f4cfbb5997ef161d50c8e5083b41dcb19dbb"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "TUNIMeshManager": [
+      "ios/tunimeshmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
     ],
-    "version": "1.0.4-anonymize.1"
+    "YYModel": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMeshManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

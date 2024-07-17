@@ -1,35 +1,42 @@
 {
-    "authors": {
-        "xxx": "xxx@tuya.com"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "React": [],
-        "ThingModuleManager": [],
-        "ThingNetworkAreaInterceptorAPI": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://www.tuya.com",
-    "license": "MIT",
-    "name": "react-native-webview",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/1681293968-react-native-webview-11.6.2.2.zip",
-        "type": "zip"
-    },
-    "summary": "React Native WebView component for iOS, Android, macOS, and Windows",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "react_native_webview.xcframework"
+  "name": "react-native-webview",
+  "version": "11.6.2.2",
+  "summary": "React Native WebView component for iOS, Android, macOS, and Windows",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-webview-11.6.2.2.1.zip",
+    "type": "zip",
+    "sha1": "6a6c99a74fb425f2a66cd03bae39915e7adbccb4"
+  },
+  "dependencies": {
+    "React": [
+
     ],
-    "version": "11.6.2.2"
+    "ThingNetworkAreaInterceptorAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "react_native_webview.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

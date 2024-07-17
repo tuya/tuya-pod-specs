@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRTSPMediaPlayerManager-1.8.17.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "0c1723bcf7170bbfdd9d7a613d7bd376d1f7eec9"
   },
   "platforms": {
     "ios": "9.0"

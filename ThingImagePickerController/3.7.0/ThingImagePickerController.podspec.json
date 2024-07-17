@@ -1,30 +1,34 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingFoundationKit": []
-    },
-    "frameworks": [
-        "Photos",
-        "PhotosUI"
-    ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingImagePickerController",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "requires_arc": true,
-    "resources": "ThingImagePickerController/*.{png,bundle}",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingImagePickerController-3.7.0.zip",
-        "type": "zip"
-    },
-    "summary": "A clone of TZImagePickerController",
-    "vendored_frameworks": [
-        "ThingImagePickerController.xcframework"
-    ],
-    "version": "3.7.0"
+  "name": "ThingImagePickerController",
+  "version": "3.7.0",
+  "summary": "A clone of TZImagePickerController",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingImagePickerController-3.7.0.1.zip",
+    "type": "zip",
+    "sha1": "228a56fc342c05abc50e2a95bb0a82294d9531a7"
+  },
+  "requires_arc": true,
+  "resources": "ThingImagePickerController/*.{png,bundle}",
+  "frameworks": [
+    "Photos",
+    "PhotosUI"
+  ],
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingImagePickerController.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

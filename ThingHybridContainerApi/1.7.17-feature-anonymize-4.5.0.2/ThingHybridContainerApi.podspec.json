@@ -1,21 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingHybridContainerApi",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainerApi-1.7.17-feature-anonymize-4.5.0.2.zip",
-        "type": "zip"
-    },
-    "summary": "容器",
-    "vendored_frameworks": [
-        "ThingHybridContainerApi.xcframework"
-    ],
-    "version": "1.7.17-feature-anonymize-4.5.0.2"
+  "name": "ThingHybridContainerApi",
+  "version": "1.7.17-feature-anonymize-4.5.0.2",
+  "summary": "容器",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainerApi-1.7.17-feature-anonymize-4.5.0.2.1.zip",
+    "type": "zip",
+    "sha1": "810c265d21c0ec9a1af6abecaa94ec0873a5522a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingHybridContainerApi.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

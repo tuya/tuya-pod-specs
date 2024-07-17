@@ -1,36 +1,37 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingRealClass",
-    "platforms": {
-        "ios": "8.0",
-        "watchos": "2.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resource_bundles": {
-        "ThingOBC": [
-            "ThingRealClass/Assets/OBCL"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRealClass-0.1.0-anonymize.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingRealClass.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingRealClass.xcframework"
-    ],
-    "version": "0.1.0-anonymize.2"
+  "name": "ThingRealClass",
+  "version": "0.1.0-anonymize.2",
+  "summary": "A short description of ThingRealClass.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRealClass-0.1.0-anonymize.2.1.zip",
+    "type": "zip",
+    "sha1": "f25646f94a19401d0b7231ff8bde0f83d6ee7599"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "watchos": "2.0"
+  },
+  "resource_bundles": {
+    "ThingOBC": [
+      "ThingRealClass/Assets/OBCL"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingRealClass.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

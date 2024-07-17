@@ -1,22 +1,22 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "GZLRNCompatProtocol",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLRNCompatProtocol-1.1.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of GZLRNCompatProtocol.",
-    "vendored_frameworks": [
-        "GZLRNCompatProtocol.xcframework"
-    ],
-    "version": "1.1.0"
+  "name": "GZLRNCompatProtocol",
+  "version": "1.1.0",
+  "summary": "A short description of GZLRNCompatProtocol.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLRNCompatProtocol-1.1.0.1.zip",
+    "type": "zip",
+    "sha1": "6830abe4728db7df5e06cfdb55d2a08a046454ef"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "GZLRNCompatProtocol.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

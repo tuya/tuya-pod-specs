@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpaceInfoSktAPI-1.5.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "2bc4d72d2823085b272ae837025f21a871d618d7"
   },
   "platforms": {
     "ios": "9.0"

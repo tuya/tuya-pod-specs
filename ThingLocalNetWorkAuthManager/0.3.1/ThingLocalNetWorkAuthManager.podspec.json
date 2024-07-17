@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocalNetWorkAuthManager-0.3.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "9833e181272a797dc9453cbacce3d02f7211bfe8"
   },
   "platforms": {
     "ios": "9.0"

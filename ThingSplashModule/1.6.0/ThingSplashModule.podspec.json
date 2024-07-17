@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSplashModule-1.6.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e5852666015c10ebe08a0c08f50c9a3d5de01879"
   },
   "platforms": {
     "ios": "9.0"

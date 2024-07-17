@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiCameraManager-5.14.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3253dc324ce9138cb9c657789324ee58315417bb"
   },
   "platforms": {
     "ios": "9.0"

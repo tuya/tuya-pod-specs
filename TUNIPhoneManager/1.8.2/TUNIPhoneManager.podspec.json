@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneManager-1.8.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "db103e4b152c22a5cc0255e7ee871a3f6eb1004c"
   },
   "platforms": {
     "ios": "9.0"

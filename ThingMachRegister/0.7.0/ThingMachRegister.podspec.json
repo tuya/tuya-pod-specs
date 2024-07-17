@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMachRegister-0.7.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "43d808452ba45536a3fd0a8ba8f95c9c9937e4bc"
   },
   "platforms": {
     "ios": "9.0",

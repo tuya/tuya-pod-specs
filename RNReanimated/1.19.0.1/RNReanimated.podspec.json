@@ -1,24 +1,28 @@
 {
-    "authors": {
-        "tuya": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "React": []
-    },
-    "description": "RNReanimated",
-    "homepage": "https://github.com/software-mansion/react-native-reanimated",
-    "license": "MIT",
-    "name": "RNReanimated",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "requires_arc": true,
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNReanimated-1.19.0.1-rc.1.zip",
-        "type": "zip"
-    },
-    "source_files": "RNReanimated-1.19.0.1-rc.1/Headers/Public/**/*",
-    "summary": "More powerful alternative to Animated library for React Native.",
-    "vendored_libraries": "RNReanimated-1.19.0.1-rc.1/libRNReanimated.a",
-    "version": "1.19.0.1"
+  "name": "RNReanimated",
+  "version": "1.19.0.1",
+  "summary": "More powerful alternative to Animated library for React Native.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNReanimated-1.19.0.1.1.zip",
+    "type": "zip",
+    "sha1": "4cb28e3f56b4968f9cccbcdfad7a9d65f94e01ca"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "RNReanimated.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

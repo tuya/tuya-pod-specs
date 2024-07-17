@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingWebsocketChannelService-1.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "06439523727919f58e6bf80df15edfb75ee4dbe2"
   },
   "platforms": {
     "ios": "10.0"

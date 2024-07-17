@@ -1,39 +1,41 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingPanelContext": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "UIKit",
-        "AudioToolbox",
-        "Foundation"
-    ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TRCTHapticsManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
-        "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHapticsManager-1.0.2-anonymize.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TRCTHapticsManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TRCTHapticsManager.xcframework"
-    ],
-    "version": "1.0.2-anonymize.2"
+  "name": "TRCTHapticsManager",
+  "version": "1.0.2-anonymize.2",
+  "summary": "A short description of TRCTHapticsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHapticsManager-1.0.2-anonymize.2.1.zip",
+    "type": "zip",
+    "sha1": "3ef013a5b3a8f11713e495a5f8bc4a6477e92c28"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTHapticsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

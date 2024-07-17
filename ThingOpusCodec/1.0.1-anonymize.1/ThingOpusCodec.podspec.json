@@ -1,31 +1,32 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingOpusCodec",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpusCodec-1.0.1-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingOpusCodec.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingOpusCodec.xcframework"
-    ],
-    "vendored_libraries": "ThingOpusCodec/Classes/opus/*.a",
-    "version": "1.0.1-anonymize.1"
+  "name": "ThingOpusCodec",
+  "version": "1.0.1-anonymize.1",
+  "summary": "A short description of ThingOpusCodec.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpusCodec-1.0.1-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "8e08c5f9cbe77dbe35297e8b2b648e3d236e01aa"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_libraries": "ThingOpusCodec/Classes/opus/*.a",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingOpusCodec.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

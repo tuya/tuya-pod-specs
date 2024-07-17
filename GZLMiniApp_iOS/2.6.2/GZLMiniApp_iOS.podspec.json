@@ -1,33 +1,38 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "GZLMiniAppCore_iOS": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "UIKit",
-        "JavaScriptCore"
-    ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "GZLMiniApp_iOS",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
-        "DEFINES_MODULE": "YES",
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniApp_iOS-2.6.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of GZLMiniApp_iOS.",
-    "vendored_frameworks": [
-        "Build/GZLMiniApp_iOS.xcframework"
-    ],
-    "version": "2.6.2"
+  "name": "GZLMiniApp_iOS",
+  "version": "2.6.2",
+  "summary": "A short description of GZLMiniApp_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniApp_iOS-2.6.2.1.zip",
+    "type": "zip",
+    "sha1": "d0c284e03045309368c405b350f890326128f7e3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "frameworks": [
+    "UIKit",
+    "JavaScriptCore"
+  ],
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniApp_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniApp_iOS.xcframework/ios-arm64_armv7/GZLMiniApp_iOS.framework/Headers/*"
+  ]
 }

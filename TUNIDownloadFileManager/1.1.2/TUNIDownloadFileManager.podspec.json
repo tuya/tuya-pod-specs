@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDownloadFileManager-1.1.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "7d3ae2dfca19478d6677764cb61d3b43bcff0e26"
   },
   "platforms": {
     "ios": "9.0"

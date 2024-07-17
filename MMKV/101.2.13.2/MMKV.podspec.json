@@ -13,7 +13,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/MMKV-101.2.13.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "0cef7beca8f3e7cbd992137e3fdbd57347a7801a"
   },
   "frameworks": "CoreFoundation",
   "libraries": [

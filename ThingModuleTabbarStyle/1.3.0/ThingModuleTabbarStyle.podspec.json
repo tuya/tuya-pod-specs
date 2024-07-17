@@ -1,40 +1,52 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingEncryptImage": [],
-        "ThingFoundationKit": [],
-        "ThingModuleManager": [],
-        "ThingRealClass": [],
-        "ThingUIKit": []
-    },
-    "frameworks": [
-        "UIKit",
-        "Foundation"
+  "name": "ThingModuleTabbarStyle",
+  "version": "1.3.0",
+  "summary": "ThingModuleTabbar自定义样式",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleTabbarStyle-1.3.0.1.zip",
+    "type": "zip",
+    "sha1": "9091b1f3400ccefb3d211f0b9cfe7ad1a9090d6d"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingModuleTabbarStyle",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleTabbarStyle-1.3.0.zip",
-        "type": "zip"
-    },
-    "summary": "ThingModuleTabbar自定义样式",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingModuleTabbarStyle.xcframework"
+    "ThingUIKit": [
+
     ],
-    "version": "1.3.0"
+    "ThingRealClass": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingModuleTabbarStyle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

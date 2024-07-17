@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPanelManager-2.5.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d9ca991321581984eeaf64f6ef93e37b7132b729"
   },
   "platforms": {
     "ios": "9.0"

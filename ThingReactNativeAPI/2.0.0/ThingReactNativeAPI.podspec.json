@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingReactNativeAPI",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReactNativeAPI-2.0.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingReactNativeAPI.",
-    "vendored_frameworks": [
-        "ThingReactNativeAPI.xcframework"
-    ],
-    "version": "2.0.0"
+  "name": "ThingReactNativeAPI",
+  "version": "2.0.0",
+  "summary": "A short description of ThingReactNativeAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReactNativeAPI-2.0.0.1.zip",
+    "type": "zip",
+    "sha1": "755446c006dc72ffcc315a1d7e8511f65ab44294"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingReactNativeAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

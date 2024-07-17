@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniOpenImpl-3.16.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "2f761f6fc642ec314a06406eede829badc495a60"
   },
   "platforms": {
     "ios": "9.0"

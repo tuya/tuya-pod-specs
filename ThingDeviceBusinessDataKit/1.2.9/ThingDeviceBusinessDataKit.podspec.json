@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceBusinessDataKit-1.2.9.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "6c834e598d065b3a160b82347d85efb0d36c0298"
   },
   "platforms": {
     "ios": "10.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2pFileTransSDK-1.3.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e9b97b2f3ffc1623414df25a517b229c6c7462de"
   },
   "platforms": {
     "ios": "9.0"

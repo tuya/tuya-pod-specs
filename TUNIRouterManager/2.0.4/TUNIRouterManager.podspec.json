@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRouterManager-2.0.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8a2439d6a0a98d1f66c58545fde8c3003485ff13"
   },
   "platforms": {
     "ios": "9.0"

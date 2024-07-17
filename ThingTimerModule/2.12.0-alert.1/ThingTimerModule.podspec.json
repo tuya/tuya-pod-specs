@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTimerModule-2.12.0-alert.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "480742a6bf7ec7db45a53ba43bb5c1af70f6eb0c"
   },
   "platforms": {
     "ios": "9.0"

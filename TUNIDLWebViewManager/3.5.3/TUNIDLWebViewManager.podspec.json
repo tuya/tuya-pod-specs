@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLWebViewManager-3.5.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "2b05addd967453e6bb12e776a5faad29e0b8b8a8"
   },
   "platforms": {
     "ios": "9.0"

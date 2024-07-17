@@ -1,25 +1,28 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingMarketingBoothAPI",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMarketingBoothAPI-2.1.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingMarketingBoothAPI.",
-    "vendored_frameworks": [
-        "ThingMarketingBoothAPI.xcframework"
-    ],
-    "version": "2.1.0"
+  "name": "ThingMarketingBoothAPI",
+  "version": "2.1.0",
+  "summary": "A short description of ThingMarketingBoothAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMarketingBoothAPI-2.1.0.1.zip",
+    "type": "zip",
+    "sha1": "bff1537c61ac8b3d8a88ea833e1215a13bfdc520"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingMarketingBoothAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

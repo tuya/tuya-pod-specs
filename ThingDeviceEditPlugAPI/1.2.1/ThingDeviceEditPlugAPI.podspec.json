@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceEditPlugAPI-1.2.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "7b59529ce4b1ad9b0112fc256c24ad6b7758e08b"
   },
   "platforms": {
     "ios": "9.0"

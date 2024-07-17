@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUIComponents-4.9.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "23ada2bd4424bc2d1f77372b184b54a7857ede34"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceEditSktAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "de19f34612f0bd2650fc67545b07bbd565127a1d"
   },
   "platforms": {
     "ios": "9.0"

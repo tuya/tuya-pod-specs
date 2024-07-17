@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelModule-5.3.11-bizbundle5140.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "42248cd919ea1a7be73dff715861bd6f8939010a"
   },
   "platforms": {
     "ios": "11.0"

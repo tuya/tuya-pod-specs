@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupHandleModule-2.9.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "718d958bc24c28a136275291f53a0468f9fce8e8"
   },
   "platforms": {
     "ios": "9.0"

@@ -1,29 +1,40 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingFoundationKit": [],
-        "ThingKVStorageLibrary": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingSmartBaseKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSmartClientConfigModule",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartClientConfigModule-0.2.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSmartClientConfigModule.",
-    "vendored_frameworks": [
-        "ThingSmartClientConfigModule.xcframework"
+  "name": "ThingSmartClientConfigModule",
+  "version": "0.2.0",
+  "summary": "A short description of ThingSmartClientConfigModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartClientConfigModule-0.2.0.1.zip",
+    "type": "zip",
+    "sha1": "bb4da07647c59e8e769e35c67c87ee1b5d254d97"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
     ],
-    "version": "0.2.0"
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartClientConfigModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

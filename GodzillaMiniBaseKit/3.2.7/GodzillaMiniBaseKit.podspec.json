@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniBaseKit-3.2.7.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "4d060d8a18f5957fa3d9aedcaea2627ed2e057cc"
   },
   "platforms": {
     "ios": "9.0"

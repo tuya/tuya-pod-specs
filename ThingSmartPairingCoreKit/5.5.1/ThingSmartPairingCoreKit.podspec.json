@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPairingCoreKit-5.5.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "ef58acd84f0073a432a4e1582fb42cdbdbff9f77"
   },
   "platforms": {
     "ios": "9.0"

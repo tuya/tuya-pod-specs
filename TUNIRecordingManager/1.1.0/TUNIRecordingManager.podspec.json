@@ -1,43 +1,49 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "EZAudio": [],
-        "TUNIAPIManagerKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": "AVFoundation",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIRecordingManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
-        "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription"
-    },
-    "resource_bundles": {
-        "TUNIRecordingManager": [
-            "ios/TUNIRecordingManager/Assets/*",
-            "js/dist/index.js"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRecordingManager-1.1.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIRecordingManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIRecordingManager.xcframework"
+  "name": "TUNIRecordingManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIRecordingManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRecordingManager-1.1.0.1.zip",
+    "type": "zip",
+    "sha1": "e52b71677e52826918ac8af7eaecb7555ccfa8db"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "TUNIRecordingManager": [
+      "ios/TUNIRecordingManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "AVFoundation",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
     ],
-    "version": "1.1.0"
+    "YYModel": [
+
+    ],
+    "EZAudio": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIRecordingManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

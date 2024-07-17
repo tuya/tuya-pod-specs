@@ -1,50 +1,69 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBluetoothInterface": [],
-        "ThingFoundationKit": [],
-        "ThingKVStorageLibrary": [],
-        "ThingLogMacro": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingSmartBusinessLibrary": [],
-        "ThingSmartDeviceCoreKit": [],
-        "ThingSmartUtil": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "Foundation",
-        "CoreLocation",
-        "AVFoundation",
-        "MediaPlayer"
+  "name": "ThingSmartBeacon",
+  "version": "1.4.7",
+  "summary": "A short description of ThingSmartBeacon.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeacon-1.4.7.1.zip",
+    "type": "zip",
+    "sha1": "7ec945895d67f98a37793a53eb38a58bc34893cb"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreLocation",
+    "AVFoundation",
+    "MediaPlayer"
+  ],
+  "resources": [
+    "ThingSmartBeacon/Assets/*"
+  ],
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSmartBeacon",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resources": [
-        "ThingSmartBeacon/Assets/*"
+    "ThingFoundationKit": [
+
     ],
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeacon-1.4.7.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSmartBeacon.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingSmartBeacon.xcframework"
+    "ThingBluetoothInterface": [
+
     ],
-    "version": "1.4.7"
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartBeacon.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

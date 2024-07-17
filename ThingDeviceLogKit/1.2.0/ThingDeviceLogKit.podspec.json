@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceLogKit-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e374a0a782d18bc241f81cda99421947393f196f"
   },
   "platforms": {
     "ios": "11.0"

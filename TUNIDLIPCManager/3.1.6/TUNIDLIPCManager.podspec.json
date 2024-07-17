@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLIPCManager-3.1.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "187ca1f1cd502e026c0398c37f44506d0e7d0a38"
   },
   "platforms": {
     "ios": "9.0"

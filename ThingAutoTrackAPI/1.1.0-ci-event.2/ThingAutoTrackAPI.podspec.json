@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingAutoTrackAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAutoTrackAPI-1.1.0-ci-event.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingAutoTrackAPI.",
-    "vendored_frameworks": [
-        "ThingAutoTrackAPI.xcframework"
-    ],
-    "version": "1.1.0-ci-event.2"
+  "name": "ThingAutoTrackAPI",
+  "version": "1.1.0-ci-event.2",
+  "summary": "A short description of ThingAutoTrackAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAutoTrackAPI-1.1.0-ci-event.2.1.zip",
+    "type": "zip",
+    "sha1": "751dbfb027f8e1b24230fb79c829bff42ed9de95"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingAutoTrackAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

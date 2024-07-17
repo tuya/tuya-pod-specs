@@ -1,35 +1,39 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingModuleManager": [],
-        "ThingStorageGroupInterface": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingKVStorageLibrary",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "preserve_paths": "weak_deps.json",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageLibrary-1.0.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingKVStorageLibrary.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingKVStorageLibrary.xcframework"
+  "name": "ThingKVStorageLibrary",
+  "version": "1.0.2",
+  "summary": "A short description of ThingKVStorageLibrary.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageLibrary-1.0.2.1.zip",
+    "type": "zip",
+    "sha1": "841f89220692afa006afae97ef46b64b6bc29a7d"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
     ],
-    "version": "1.0.2"
+    "ThingStorageGroupInterface": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingKVStorageLibrary.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

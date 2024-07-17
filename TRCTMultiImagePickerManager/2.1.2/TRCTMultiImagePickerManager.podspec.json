@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiImagePickerManager-2.1.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "577f06702031c8d8b12e3a5c9f3f5a951b197499"
   },
   "platforms": {
     "ios": "9.0"

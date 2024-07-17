@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOnlineServiceManager-1.0.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "bf91db5a4524b81ee86f09d1ac641076d10ed582"
   },
   "platforms": {
     "ios": "10.0"

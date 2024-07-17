@@ -1,1 +1,24 @@
-{"name": "ThingSmartMediaServices", "version": "2.0.0", "summary": "A short description of ThingSmartMediaServices.", "description": "TODO: Add long description of the pod here.", "homepage": "https://registry.code.thing-inc.top/thingIOS/Modules/IPC/ThingSmartMediaServices", "license": {"type": "MIT", "file": "LICENSE"}, "authors": {"Tuya": "developer@tuya.com"}, "source": {"http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1679998595-ThingSmartMediaServices-2.0.0.zip", "type": "zip"}, "platforms": {"ios": "9.0"}, "vendored_frameworks": ["Build/ThingSmartMediaServices.xcframework"], "source_files": ["Build/ThingSmartMediaServices.xcframework/ios-arm64/ThingSmartMediaServices.framework/Headers/*"]}
+{
+  "name": "ThingSmartMediaServices",
+  "version": "2.0.0",
+  "summary": "A short description of ThingSmartMediaServices.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMediaServices-2.0.0.1.zip",
+    "type": "zip",
+    "sha1": "e61b6c60e4e5c86ab8f42711b3f34730d920f68c"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartMediaServices.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartMediaServices.xcframework/ios-arm64/ThingSmartMediaServices.framework/Headers/*"
+  ]
+}

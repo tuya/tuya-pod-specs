@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTinyBusinessPlugAPI-1.3.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "24667885c8831a4485f0f47486923a7c1ba203a2"
   },
   "platforms": {
     "ios": "9.0"

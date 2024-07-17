@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAudioManager-1.1.7.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "7e909e83a8081de35d4d7014b5abaf0e5b4db22f"
   },
   "platforms": {
     "ios": "10.0"

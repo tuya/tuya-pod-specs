@@ -1,26 +1,30 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "GodzillaMiniBaseKit": [],
-        "TUNIAPIManagerKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIDiffSubRegisterManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffSubRegisterManager-3.0.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIDiffSubRegisterManager.",
-    "vendored_frameworks": [
-        "TUNIDiffSubRegisterManager.xcframework"
+  "name": "TUNIDiffSubRegisterManager",
+  "version": "3.0.0",
+  "summary": "A short description of TUNIDiffSubRegisterManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffSubRegisterManager-3.0.0.1.zip",
+    "type": "zip",
+    "sha1": "d436321cb186bc23aa0b0cfc011344e2908db882"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
     ],
-    "version": "3.0.0"
+    "GodzillaMiniBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDiffSubRegisterManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

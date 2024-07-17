@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelContainer-3.9.0-rc.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "79c05970909b09849a8272bf2754820c6676ce58"
   },
   "platforms": {
     "ios": "11.0"

@@ -1,51 +1,79 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "Masonry": [],
-        "ThingBlockKit": [],
-        "ThingEncryptImage": [],
-        "ThingFoundationKit": [],
-        "ThingHybridContainer": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingNavigationController": [],
-        "ThingSmartBaseKit": [],
-        "ThingSmartBusinessLibrary": [],
-        "ThingSmartDeviceKit": [],
-        "ThingUIKit": [],
-        "YYModel": []
-    },
-    "frameworks": [
-        "UIKit",
-        "Foundation"
+  "name": "ThingAIFaceModule",
+  "version": "2.11.5-rc.2",
+  "summary": "涂鸦科技组件模板组件",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIFaceModule-2.11.5-rc.2.1.zip",
+    "type": "zip",
+    "sha1": "ac876c91c5a1de398e09ebb6d0f765cbb0ca8e2b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resources": [
+    "ThingAIFaceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingAIFaceModule",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resources": [
-        "ThingAIFaceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+    "ThingSmartDeviceKit": [
+
     ],
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIFaceModule-2.11.5-rc.2.zip",
-        "type": "zip"
-    },
-    "summary": "涂鸦科技组件模板组件",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingAIFaceModule.xcframework"
+    "YYModel": [
+
     ],
-    "version": "2.11.5-rc.2"
+    "ThingBlockKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingAIFaceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

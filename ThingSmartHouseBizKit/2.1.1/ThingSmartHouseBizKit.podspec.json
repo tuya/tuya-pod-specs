@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHouseBizKit-2.1.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "40cacecc9ec593090464db0ed60f179634fba73e"
   },
   "platforms": {
     "ios": "11.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTScenePanelManager-1.8.8.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "712f3ff4e190d4a11cc6641d3721852a8f4780b4"
   },
   "platforms": {
     "ios": "10.0"

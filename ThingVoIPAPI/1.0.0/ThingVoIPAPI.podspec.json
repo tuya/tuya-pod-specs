@@ -1,22 +1,22 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingVoIPAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVoIPAPI-1.0.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingVoIPAPI.",
-    "vendored_frameworks": [
-        "ThingVoIPAPI.xcframework"
-    ],
-    "version": "1.0.0"
+  "name": "ThingVoIPAPI",
+  "version": "1.0.0",
+  "summary": "A short description of ThingVoIPAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVoIPAPI-1.0.0.1.zip",
+    "type": "zip",
+    "sha1": "691302a0601faff43d360f5e99274ed2075f7dd4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingVoIPAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

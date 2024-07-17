@@ -12,7 +12,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBizKit-4.7.5.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b0dfe604b78a6885e75da1c4b3b11c7e1617d43f"
   },
   "resource_bundles": {
     "TUNIBizKit": [

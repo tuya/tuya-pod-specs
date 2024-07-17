@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINetworkManager-1.1.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "be61d024fa575e56972137ebd90f55da72b95f74"
   },
   "platforms": {
     "ios": "9.0"

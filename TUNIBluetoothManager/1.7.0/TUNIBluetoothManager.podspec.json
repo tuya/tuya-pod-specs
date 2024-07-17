@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBluetoothManager-1.7.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "ad916b39ba02fc48cea3007ac3dcbbd0ff7fd8cf"
   },
   "platforms": {
     "ios": "10.0"

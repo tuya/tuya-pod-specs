@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDeviceKit-5.8.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "bdc91154a6d0c38179dad2ad6f3abd2e81f31fb6"
   },
   "platforms": {
     "ios": "11.0",

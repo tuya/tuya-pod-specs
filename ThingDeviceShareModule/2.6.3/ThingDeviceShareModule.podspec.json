@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceShareModule-2.6.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b5460b59793d16c42ef4bac1ec8cc547dd84522f"
   },
   "platforms": {
     "ios": "10.0"

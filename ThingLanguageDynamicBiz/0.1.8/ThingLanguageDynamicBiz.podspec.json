@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageDynamicBiz-0.1.8.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e2a50c8d50fab45ec7db28824dee9dbe6e372434"
   },
   "platforms": {
     "ios": "9.0"

@@ -1,29 +1,40 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBusinessService": [],
-        "ThingModuleManager": [],
-        "ThingSceneEditSktAPI": [],
-        "ThingSmartDeviceCoreKit": [],
-        "ThingSmartSceneCoreKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSceneEditSkt",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneEditSkt-0.1.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSceneEditSkt.",
-    "vendored_frameworks": [
-        "ThingSceneEditSkt.xcframework"
+  "name": "ThingSceneEditSkt",
+  "version": "0.1.2",
+  "summary": "A short description of ThingSceneEditSkt.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneEditSkt-0.1.2.1.zip",
+    "type": "zip",
+    "sha1": "3522b7f72d480fd9ac3c0f9d495cf1921fd2b4f1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
     ],
-    "version": "0.1.2"
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSceneEditSktAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSceneEditSkt.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

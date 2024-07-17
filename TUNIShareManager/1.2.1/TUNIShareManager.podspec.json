@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIShareManager-1.2.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "1ebb1f438e9c7be31c21ed1895ba297f00d0d68c"
   },
   "platforms": {
     "ios": "10.0"

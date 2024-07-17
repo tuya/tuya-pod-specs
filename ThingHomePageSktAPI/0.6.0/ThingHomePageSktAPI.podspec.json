@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHomePageSktAPI-0.6.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b43ebdd95d0b847f327f8e6a0a508db8421665c0"
   },
   "platforms": {
     "ios": "10.0"

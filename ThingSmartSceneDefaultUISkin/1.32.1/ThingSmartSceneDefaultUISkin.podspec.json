@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneDefaultUISkin-1.32.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d6e32bfe5e78c79960f7a69d699c455951217699"
   },
   "platforms": {
     "ios": "9.0"

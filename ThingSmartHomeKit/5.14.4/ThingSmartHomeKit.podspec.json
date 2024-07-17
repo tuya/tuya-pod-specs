@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeKit-5.14.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b8d1cc82352c8dd6b76d0486ebc33945d62fc099"
   },
   "platforms": {
     "ios": "11.0",

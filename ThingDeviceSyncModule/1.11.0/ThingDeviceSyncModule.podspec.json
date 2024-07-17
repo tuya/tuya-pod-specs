@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncModule-1.11.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8db562571b0914c86b904fb39b4443a02fdd1f22"
   },
   "platforms": {
     "ios": "9.0"

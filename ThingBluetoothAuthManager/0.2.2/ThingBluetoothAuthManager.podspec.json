@@ -1,42 +1,51 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingAuthorizationServices": [],
-        "ThingBluetoothInterface": [],
-        "ThingKVStorageLibrary": [],
-        "ThingModuleManager": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingBluetoothAuthManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothAuthManager-0.2.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingBluetoothAuthManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingBluetoothAuthManager.xcframework"
+  "name": "ThingBluetoothAuthManager",
+  "version": "0.2.2",
+  "summary": "A short description of ThingBluetoothAuthManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothAuthManager-0.2.2.1.zip",
+    "type": "zip",
+    "sha1": "14f105d0858dc0050c0e9b090de4e0f6671fa611"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
     ],
-    "version": "0.2.2",
-    "watchos": {
-        "pod_target_xcconfig": {
-            "ENABLE_BITCODE": "YES",
-            "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
-        }
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "YES",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
     }
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingBluetoothAuthManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceShareModuleSktAPI-1.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "bde358ddfb2c5d42c1029e9a9144c45433d6ef47"
   },
   "platforms": {
     "ios": "9.0"

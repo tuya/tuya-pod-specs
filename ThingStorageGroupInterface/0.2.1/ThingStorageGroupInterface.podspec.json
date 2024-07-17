@@ -1,23 +1,24 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingStorageGroupInterface",
-    "platforms": {
-        "ios": "9.0",
-        "watchos": "2.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageGroupInterface-0.2.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingStorageGroupInterface.",
-    "vendored_frameworks": [
-        "ThingStorageGroupInterface.xcframework"
-    ],
-    "version": "0.2.1"
+  "name": "ThingStorageGroupInterface",
+  "version": "0.2.1",
+  "summary": "A short description of ThingStorageGroupInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageGroupInterface-0.2.1.1.zip",
+    "type": "zip",
+    "sha1": "5d4fec548af27364697f52504d926470da944e24"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "vendored_frameworks": [
+    "ThingStorageGroupInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

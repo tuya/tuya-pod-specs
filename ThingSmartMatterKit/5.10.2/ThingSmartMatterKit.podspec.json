@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterKit-5.10.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b2fcdca52a6348fca3e45634383765e8d3c6daad"
   },
   "platforms": {
     "ios": "9.0"

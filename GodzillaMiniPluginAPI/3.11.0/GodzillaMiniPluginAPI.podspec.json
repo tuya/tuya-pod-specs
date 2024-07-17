@@ -1,32 +1,37 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "TUNIAPIManagerKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "GodzillaMiniPluginAPI",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
-        "DEFINES_MODULE": "YES",
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniPluginAPI-3.11.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of GodzillaMiniPluginAPI.",
-    "user_target_xcconfig": {
-        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
-    },
-    "vendored_frameworks": [
-        "Build/GodzillaMiniPluginAPI.xcframework"
-    ],
-    "version": "3.11.0"
+  "name": "GodzillaMiniPluginAPI",
+  "version": "3.11.0",
+  "summary": "A short description of GodzillaMiniPluginAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniPluginAPI-3.11.0.1.zip",
+    "type": "zip",
+    "sha1": "f72349a53b6472e71b4d2e30a048ac956eb44f25"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GodzillaMiniPluginAPI.xcframework"
+  ],
+  "source_files": [
+    "Build/GodzillaMiniPluginAPI.xcframework/ios-arm64/GodzillaMiniPluginAPI.framework/Headers/*"
+  ]
 }

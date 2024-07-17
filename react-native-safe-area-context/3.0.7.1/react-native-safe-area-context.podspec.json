@@ -1,20 +1,27 @@
 {
-    "tuya": "https://developer.tuya.com/",
-    "dependencies": {
-        "React": []
-    },
-    "homepage": "https://github.com/th3rdwave/react-native-safe-area-context#readme",
-    "license": "MIT",
-    "name": "react-native-safe-area-context",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-safe-area-context-3.0.7.1-rc.1.zip",
-        "type": "zip"
-    },
-    "source_files": "react-native-safe-area-context-3.0.7.1-rc.1/Headers/Public/**/*",
-    "summary": "package['description']",
-    "vendored_libraries": "react-native-safe-area-context-3.0.7.1-rc.1/libreact-native-safe-area-context.a",
-    "version": "3.0.7.1"
+  "name": "react-native-safe-area-context",
+  "version": "3.0.7.1",
+  "summary": "package['description']",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-safe-area-context-3.0.7.1.1.zip",
+    "type": "zip",
+    "sha1": "b107d509600727ebc591bf7049e56122af4c7808"
+  },
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "react_native_safe_area_context.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

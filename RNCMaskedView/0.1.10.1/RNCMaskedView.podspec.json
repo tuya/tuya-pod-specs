@@ -1,20 +1,27 @@
 {
-    "authors": "tuya",
-    "dependencies": {
-        "React": []
-    },
-    "homepage": "https://github.com/react-native-community/react-native-masked-view#readme",
-    "license": "MIT",
-    "name": "RNCMaskedView",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNCMaskedView-0.1.10.1-rc.1.zip",
-        "type": "zip"
-    },
-    "source_files": "RNCMaskedView-0.1.10.1-rc.1/Headers/Public/**/*",
-    "summary": "React Native MaskedView component",
-    "vendored_libraries": "RNCMaskedView-0.1.10.1-rc.1/libRNCMaskedView.a",
-    "version": "0.1.10.1"
+  "name": "RNCMaskedView",
+  "version": "0.1.10.1",
+  "summary": "React Native MaskedView component",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNCMaskedView-0.1.10.1.1.zip",
+    "type": "zip",
+    "sha1": "0649457e471771df76f264d050e00be0b697802e"
+  },
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "RNCMaskedView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

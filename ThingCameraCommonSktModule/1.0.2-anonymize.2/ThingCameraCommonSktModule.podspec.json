@@ -1,30 +1,43 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingAlertView": [],
-        "ThingCameraSktAPI": [],
-        "ThingKVStorageLibrary": [],
-        "ThingModuleManager": [],
-        "ThingProgressHUD": [],
-        "ThingUIKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingCameraCommonSktModule",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCommonSktModule-1.0.2-anonymize.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingCameraCommonSktModule.",
-    "vendored_frameworks": [
-        "ThingCameraCommonSktModule.xcframework"
+  "name": "ThingCameraCommonSktModule",
+  "version": "1.0.2-anonymize.2",
+  "summary": "A short description of ThingCameraCommonSktModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCommonSktModule-1.0.2-anonymize.2.1.zip",
+    "type": "zip",
+    "sha1": "69f08d85f178810e59a644fa39c3475a294016cf"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingCameraSktAPI": [
+
     ],
-    "version": "1.0.2-anonymize.2"
+    "ThingModuleManager": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCameraCommonSktModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReleaseDebugger-0.11.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "84bb02983d8b096a8095756cdfb85e8ea10d8168"
   },
   "platforms": {
     "ios": "9.0"

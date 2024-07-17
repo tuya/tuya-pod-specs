@@ -14,7 +14,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/MMKVCore-101.2.14.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3b63683c1616ad9208bf1be47b40581267e8c577"
   },
   "compiler_flags": "-x objective-c++",
   "requires_arc": [

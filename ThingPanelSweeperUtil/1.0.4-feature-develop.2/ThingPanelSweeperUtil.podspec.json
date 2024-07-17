@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelSweeperUtil-1.0.4-feature-develop.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "2644b0b599152095d86fc70188c9d9350bdad41a"
   },
   "platforms": {
     "ios": "9.0"

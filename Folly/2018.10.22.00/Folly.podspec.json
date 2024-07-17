@@ -1,15 +1,16 @@
 {
   "name": "Folly",
   "version": "2018.10.22.00",
-  "license": {
-    "type": "Apache License, Version 2.0"
-  },
-  "homepage": "https://github.com/facebook/folly",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
   "summary": "An open-source C++ library developed and used at Facebook.",
-  "authors": "Facebook",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
   "source": {
-    "git": "https://github.com/facebook/folly.git",
-    "tag": "v2018.10.22.00"
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/Folly-2018.10.22.00.1.zip",
+    "type": "zip",
+    "sha1": "8a3c6dab759f373660219072fff600db9b7ce6e3"
   },
   "module_name": "folly",
   "dependencies": {
@@ -24,23 +25,6 @@
     ]
   },
   "compiler_flags": "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1",
-  "source_files": [
-    "folly/String.cpp",
-    "folly/Conv.cpp",
-    "folly/Demangle.cpp",
-    "folly/Format.cpp",
-    "folly/ScopeGuard.cpp",
-    "folly/Unicode.cpp",
-    "folly/dynamic.cpp",
-    "folly/json.cpp",
-    "folly/json_pointer.cpp",
-    "folly/container/detail/F14Table.cpp",
-    "folly/detail/Demangle.cpp",
-    "folly/hash/SpookyHashV2.cpp",
-    "folly/lang/Assume.cpp",
-    "folly/lang/ColdClass.cpp",
-    "folly/memory/detail/MallocImpl.cpp"
-  ],
   "preserve_paths": [
     "folly/*.h",
     "folly/container/*.h",
@@ -60,7 +44,10 @@
     "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\""
   },
   "platforms": {
-    "ios": "9.0",
-    "tvos": "9.2"
-  }
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "folly.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

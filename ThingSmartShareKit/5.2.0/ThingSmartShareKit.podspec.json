@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartShareKit-5.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3c7f5dcef19cc79758e11375108c12a5c0cad6b4"
   },
   "static_framework": true,
   "platforms": {

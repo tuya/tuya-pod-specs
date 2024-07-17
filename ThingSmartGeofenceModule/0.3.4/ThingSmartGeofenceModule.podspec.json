@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGeofenceModule-0.3.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3fc520d26ed2f811b416b1cd675c76d700f5fc3e"
   },
   "pod_target_xcconfig": {
     "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription",

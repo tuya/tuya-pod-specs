@@ -1,36 +1,45 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBluetoothInterface": [],
-        "ThingBusinessService": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": []
-    },
-    "description": "对蓝牙网关做mqtt等处理",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingBleGatewayService",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBleGatewayService-0.0.5-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingBleGatewayService.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingBleGatewayService.xcframework"
+  "name": "ThingBleGatewayService",
+  "version": "0.0.5-anonymize.1",
+  "summary": "A short description of ThingBleGatewayService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBleGatewayService-0.0.5-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "04245069b7a2067316e91d7796fa5def3da21d5e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingBusinessService": [
+
     ],
-    "version": "0.0.5-anonymize.1"
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingBleGatewayService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

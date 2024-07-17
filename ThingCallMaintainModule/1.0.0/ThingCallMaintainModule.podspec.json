@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallMaintainModule-1.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "cfe7bf6aa788258b4833f4a02601fec4a9bf144e"
   },
   "platforms": {
     "ios": "10.0"

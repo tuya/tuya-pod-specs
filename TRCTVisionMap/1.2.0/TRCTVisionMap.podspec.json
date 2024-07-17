@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTVisionMap-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "46b984df6f24a3fdd552e26431d83d7ac94189ac"
   },
   "platforms": {
     "ios": "9.0"

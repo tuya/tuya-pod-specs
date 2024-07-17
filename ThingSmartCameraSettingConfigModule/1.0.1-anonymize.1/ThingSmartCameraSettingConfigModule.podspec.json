@@ -1,25 +1,28 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingModuleServices": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSmartCameraSettingConfigModule",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraSettingConfigModule-1.0.1-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSmartCameraSettingConfigModule.",
-    "vendored_frameworks": [
-        "ThingSmartCameraSettingConfigModule.xcframework"
-    ],
-    "version": "1.0.1-anonymize.1"
+  "name": "ThingSmartCameraSettingConfigModule",
+  "version": "1.0.1-anonymize.1",
+  "summary": "A short description of ThingSmartCameraSettingConfigModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraSettingConfigModule-1.0.1-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "bea00f3baf77dd8146d011aef8449796bbb0c9c8"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartCameraSettingConfigModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

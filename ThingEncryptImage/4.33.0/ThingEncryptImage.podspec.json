@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingEncryptImage-4.33.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "4839179a5eb7219dfdde66957ee426985888c173"
   },
   "platforms": {
     "ios": "9.0",

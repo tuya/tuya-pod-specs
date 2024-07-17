@@ -1,36 +1,38 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "frameworks": [
-        "UIKit",
-        "Foundation",
-        "HealthKit"
-    ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingHealthModule",
-    "platforms": {
-        "ios": "8.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
-        "THING_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.healthkit",
-        "THING_PRIVACY_USAGE_DESCRIPTION": "NSHealthShareUsageDescription NSHealthUpdateUsageDescription "
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthModule-1.0.5.zip",
-        "type": "zip"
-    },
-    "summary": "健康数据同步",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingHealthModule.xcframework"
-    ],
-    "version": "1.0.5"
+  "name": "ThingHealthModule",
+  "version": "1.0.5",
+  "summary": "健康数据同步",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthModule-1.0.5.1.zip",
+    "type": "zip",
+    "sha1": "12b37fe285e4a42f0ece031e64bbb779c5fa9656"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "HealthKit"
+  ],
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSHealthShareUsageDescription NSHealthUpdateUsageDescription ",
+    "THING_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.healthkit",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingHealthModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

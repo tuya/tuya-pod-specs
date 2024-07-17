@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneKit-1.0.23.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "abe62426823695ecb9497a867d24c8ac9429b90c"
   },
   "platforms": {
     "ios": "9.0"

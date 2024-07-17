@@ -1,38 +1,46 @@
 {
-    "authors": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "React": [],
-        "ThingAudioSpectrum": []
-    },
-    "frameworks": [
-        "UIKit",
-        "AVFoundation",
-        "AVKit",
-        "MediaAccessibility",
-        "CoreMedia"
+  "name": "react-native-video",
+  "version": "3.2.5",
+  "summary": "A <Video /> element for react-native",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-video-3.2.5.1.zip",
+    "type": "zip",
+    "sha1": "e765ad39738561227e57d95c6ad351ad94bbbed7"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AVKit",
+    "MediaAccessibility",
+    "CoreMedia"
+  ],
+  "dependencies": {
+    "React": [
+
     ],
-    "homepage": "https://github.com/brentvatne/react-native-video",
-    "license": "MIT",
-    "name": "react-native-video",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/1693464224-react-native-video-3.2.5.zip",
-        "type": "zip"
-    },
-    "summary": "A <Video /> element for react-native",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "react_native_video.xcframework"
-    ],
-    "version": "3.2.5"
+    "ThingAudioSpectrum": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "react_native_video.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

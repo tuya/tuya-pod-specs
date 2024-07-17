@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUtil-4.6.5.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "51c2a69d0c36988e035e7f56ac1aac99deed858f"
   },
   "platforms": {
     "ios": "9.0"

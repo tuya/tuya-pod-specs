@@ -1,38 +1,38 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "TUNIDLCameraManager": [
-            "3.0.5"
-        ],
-        "TUNIDLVideoManager": [
-            "3.3.2"
-        ],
-        "TUNIMusicManager": [
-            "1.1.0-rc.9"
-        ]
-    },
-    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIMediaKit",
-    "platforms": {
-        "ios": "11.0"
-    },
-    "resource_bundles": {
-        "TUNIMediaKit": [
-            "ios/TUNIMediaKit/Assets/*"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMediaKit-3.2.2.zip",
-        "type": "zip"
-    },
-    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
-    "vendored_frameworks": [
-        "TUNIMediaKit.xcframework"
+  "name": "TUNIMediaKit",
+  "version": "3.2.2",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMediaKit-3.2.2.1.zip",
+    "type": "zip",
+    "sha1": "8aa4b4b2d54218e2035b010da642ba5d8da635e1"
+  },
+  "resource_bundles": {
+    "TUNIMediaKit": [
+      "ios/TUNIMediaKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIDLCameraManager": [
+      "3.0.5"
     ],
-    "version": "3.2.2"
+    "TUNIDLVideoManager": [
+      "3.3.2"
+    ],
+    "TUNIMusicManager": [
+      "1.1.0-rc.9"
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIMediaKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

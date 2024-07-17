@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPageMenuView-1.6.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "bdeb27943012f4b06fb310b5da4100a235727d72"
   },
   "platforms": {
     "ios": "9.0"

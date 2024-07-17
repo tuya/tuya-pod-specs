@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncPlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "c373e0fdb7673a743461109e685730ec060413df"
   },
   "platforms": {
     "ios": "9.0"

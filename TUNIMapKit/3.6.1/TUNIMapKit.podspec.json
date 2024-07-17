@@ -12,7 +12,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMapKit-3.6.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "a5bd0f2d237911ac45558471197d7acc29ad699f"
   },
   "resource_bundles": {
     "TUNIMapKit": [

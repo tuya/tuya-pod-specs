@@ -1,37 +1,64 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingConfigHub": [],
-        "ThingEncryptImage": [],
-        "ThingKVStorageLibrary": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingOEMConfig": [],
-        "ThingSettingsPlugAPI": [],
-        "ThingSmartBaseKit": [],
-        "ThingSmartBusinessLibrary": [],
-        "ThingSmartNetworkKit": [],
-        "ThingSmartPrivateCloudPlugAPI": [],
-        "ThingSmartUIConfigServices": [],
-        "ThingSmartUtil": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSmartSettingsBizKit",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSettingsBizKit-0.2.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSmartSettingsBizKit.",
-    "vendored_frameworks": [
-        "ThingSmartSettingsBizKit.xcframework"
+  "name": "ThingSmartSettingsBizKit",
+  "version": "0.2.0",
+  "summary": "A short description of ThingSmartSettingsBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSettingsBizKit-0.2.0.1.zip",
+    "type": "zip",
+    "sha1": "b3b5d87c2ce966da119544a18226b8ed05e163e7"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartUIConfigServices": [
+
     ],
-    "version": "0.2.0"
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSettingsPlugAPI": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartPrivateCloudPlugAPI": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ]
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingSmartSettingsBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainer-1.12.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "31d80b885871e143a85b03cdd872e347c41b4ecd"
   },
   "platforms": {
     "ios": "11.0"

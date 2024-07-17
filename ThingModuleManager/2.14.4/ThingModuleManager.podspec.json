@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleManager-2.14.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "f1860ed9f96823bf00519e88b779efc2707f762a"
   },
   "platforms": {
     "ios": "9.0"

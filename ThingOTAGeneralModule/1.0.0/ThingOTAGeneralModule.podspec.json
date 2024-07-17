@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOTAGeneralModule-1.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "ffaa19271434685c4c64e712441952e79b2b109b"
   },
   "platforms": {
     "ios": "10.0"

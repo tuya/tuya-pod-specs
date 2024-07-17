@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraKit-5.14.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d5caef89763118863aff341d303b09973183f9cc"
   },
   "platforms": {
     "ios": "9.0"
@@ -39,28 +40,28 @@
 
     ],
     "ThingCameraSDK": [
-      "4.10.6"
+      "~> 4.10.6"
     ],
     "ThingP2PSDK": [
-      "3.5.0"
+      "~> 3.5.0"
     ],
     "ThingAudioEngineSDK": [
-      "1.4.1"
+      "~> 1.4.1"
     ],
     "ThingAvLoggerSDK": [
-      "1.2.6"
+      "~> 1.2.6"
     ],
     "ThingFFmpegWrapper": [
-      "4.4.2"
+      "~> 4.4.2"
     ],
     "ThingVideoCodecSDK": [
-      "1.4.0"
+      "~> 1.4.0"
     ],
     "ThingSmartCameraBase": [
       "~> 5.12.1"
     ],
     "ThingSmartCameraM": [
-      "5.10.12"
+      "~> 5.10.12"
     ],
     "ThingSmartP2pChannelKit": [
       "~> 5.14.1"

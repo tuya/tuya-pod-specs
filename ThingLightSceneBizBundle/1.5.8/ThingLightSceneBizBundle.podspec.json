@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneBizBundle-1.5.8.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "49f3cde47d536e00605a13511ef090895446a5ac"
   },
   "platforms": {
     "ios": "9.0"

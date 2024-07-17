@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraInnerPiPModule-1.0.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "a0899c7486d3a43cbe77eb08fb329b4798b241aa"
   },
   "platforms": {
     "ios": "10.0"

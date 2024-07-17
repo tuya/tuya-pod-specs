@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightScenePlugAPI-0.0.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "402868d891b5c5a61ae590fdaa410a3b5cdc337e"
   },
   "platforms": {
     "ios": "9.0"

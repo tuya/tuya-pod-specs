@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPiPModule-2.0.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "eac2af116544f5ab20d8e8119a89c9faf01f2487"
   },
   "platforms": {
     "ios": "9.0"

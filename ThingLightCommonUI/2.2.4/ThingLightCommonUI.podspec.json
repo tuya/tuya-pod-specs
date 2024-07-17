@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "aa04ca873d1ac9de2d2851392d58ecdb3c6af94d"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppRemoteIDE-3.14.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "bdbebc960cf374fdec4a021781d29cf54ddb2598"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraBase-5.12.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "f72f9b4f6881a16a8d9afb9b21815e335bfcc804"
   },
   "platforms": {
     "ios": "9.0"

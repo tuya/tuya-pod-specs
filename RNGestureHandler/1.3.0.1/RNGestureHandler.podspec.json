@@ -1,22 +1,27 @@
 {
-    "authors": {
-        "tuya": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "React": []
-    },
-    "homepage": "https://github.com/kmagiera/react-native-gesture-handler",
-    "license": "MIT",
-    "name": "RNGestureHandler",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNGestureHandler-1.3.0.1-rc.1.zip",
-        "type": "zip"
-    },
-    "source_files": "RNGestureHandler-1.3.0.1-rc.1/Headers/Public/**/*",
-    "summary": "package",
-    "vendored_libraries": "RNGestureHandler-1.3.0.1-rc.1/libRNGestureHandler.a",
-    "version": "1.3.0.1"
+  "name": "RNGestureHandler",
+  "version": "1.3.0.1",
+  "summary": "package",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNGestureHandler-1.3.0.1.1.zip",
+    "type": "zip",
+    "sha1": "998b9322e49b15ce9cb69240a75e22c6e36ce725"
+  },
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "RNGestureHandler.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

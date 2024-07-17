@@ -1,37 +1,43 @@
 {
-    "authors": {
-        "intelligibabble": "leland.m.richardson@gmail.com"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "React": [],
-        "ThingFoundationKit": []
-    },
-    "frameworks": [
-        "UIKit",
-        "MapKit"
+  "name": "react-native-maps",
+  "version": "0.14.0.7",
+  "summary": "React Native Mapview component for iOS + Android",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-maps-0.14.0.7.1.zip",
+    "type": "zip",
+    "sha1": "44fcbd48517bd223f220de94774522e3d7134826"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "React": [
+
     ],
-    "homepage": "https://github.com/airbnb/react-native-maps#readme",
-    "license": "MIT",
-    "name": "react-native-maps",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-maps-0.14.0.7.zip",
-        "type": "zip"
-    },
-    "summary": "React Native Mapview component for iOS + Android",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "react_native_maps.xcframework"
-    ],
-    "version": "0.14.0.7"
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "react_native_maps.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

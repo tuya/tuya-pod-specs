@@ -1,24 +1,29 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "ThingUIKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingCommonAnimation",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonAnimation-0.1.4.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingCommonAnimation.",
-    "vendored_frameworks": [
-        "Build/ThingCommonAnimation.xcframework"
-    ],
-    "version": "0.1.4"
+  "name": "ThingCommonAnimation",
+  "version": "0.1.4",
+  "summary": "A short description of ThingCommonAnimation.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonAnimation-0.1.4.1.zip",
+    "type": "zip",
+    "sha1": "2ad6c748466690056cf6634037e200aa49192cef"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingUIKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingCommonAnimation.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingCommonAnimation.xcframework/ios-arm64/ThingCommonAnimation.framework/Headers/*"
+  ]
 }

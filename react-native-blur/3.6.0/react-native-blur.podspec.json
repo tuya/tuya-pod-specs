@@ -1,22 +1,27 @@
 {
-    "authors": {
-        "tuya": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "React": []
-    },
-    "homepage": "https://github.com/react-native-community/react-native-blur",
-    "license": "MIT",
-    "name": "react-native-blur",
-    "platforms": {
-        "ios": "8.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-blur-3.6.0-rc.1.zip",
-        "type": "zip"
-    },
-    "source_files": "react-native-blur-3.6.0-rc.1/Headers/Public/**/*",
-    "summary": "Component implementation for UIVisualEffectView's blur and vibrancy effect.",
-    "vendored_libraries": "react-native-blur-3.6.0-rc.1/libreact-native-blur.a",
-    "version": "3.6.0"
+  "name": "react-native-blur",
+  "version": "3.6.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "license": "none",
+  "summary": "Component implementation for UIVisualEffectView's blur and vibrancy effect.",
+  "homepage": "https://github.com/tuya",
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-blur-3.6.0.1.zip",
+    "type": "zip",
+    "sha1": "9a86c34dec1fd2e4160382616cc316a9b383c7e6"
+  },
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "react_native_blur.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDeviceCoreKit-5.10.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "0590dc5ce74d0a779c468a43a6bdc14437bbffe2"
   },
   "platforms": {
     "ios": "9.0",

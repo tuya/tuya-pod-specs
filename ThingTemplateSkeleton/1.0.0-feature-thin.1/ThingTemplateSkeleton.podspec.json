@@ -1,39 +1,55 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingEncryptImage": [],
-        "ThingFoundationKit": [],
-        "ThingModuleManager": [],
-        "ThingOEMConfig": [],
-        "ThingUIKit": [],
-        "YYModel": [],
-        "libextobjc": []
-    },
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingTemplateSkeleton",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.0-feature-thin.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingTemplateSkeleton.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingTemplateSkeleton.xcframework"
+  "name": "ThingTemplateSkeleton",
+  "version": "1.0.0-feature-thin.1",
+  "summary": "A short description of ThingTemplateSkeleton.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.0-feature-thin.1.1.zip",
+    "type": "zip",
+    "sha1": "9eccf2a41dde859f420eaf6fc8cb6d555a4fa7c8"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "libextobjc": [
+
     ],
-    "version": "1.0.0-feature-thin.1"
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingTemplateSkeleton.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

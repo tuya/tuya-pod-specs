@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraSDK-4.10.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "158e28aa3a4aa24b70f6b5c72b4bd1f35f2a2f57"
   },
   "platforms": {
     "ios": "9.0"

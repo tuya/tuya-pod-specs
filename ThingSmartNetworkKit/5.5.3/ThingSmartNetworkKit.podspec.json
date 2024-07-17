@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartNetworkKit-5.5.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "2e175aca068cd0d2cc30a655a091f5cffbe9171f"
   },
   "platforms": {
     "ios": "9.0",

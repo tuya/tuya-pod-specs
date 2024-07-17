@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppTab_iOS-3.14.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "ed94246132264ac1849298a5f8681e6078ca4632"
   },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",

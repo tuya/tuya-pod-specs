@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOTAGeneralPlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "ad1a83afa3608741fe040c96bbf30d3aa6649d66"
   },
   "platforms": {
     "ios": "10.0"

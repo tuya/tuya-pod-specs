@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPayManager-2.0.9.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d9a6f4b0eea0d7642cf8984d900cae8eb1277916"
   },
   "platforms": {
     "ios": "10.0"

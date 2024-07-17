@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceDetailEditLink-1.2.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "a29bde4fbfc51dfc894eab9caa1345b19ebf2cee"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAVBaseKit-2.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d25c4a3732ff943938de564edc40bf3e435193ca"
   },
   "platforms": {
     "ios": "9.0"

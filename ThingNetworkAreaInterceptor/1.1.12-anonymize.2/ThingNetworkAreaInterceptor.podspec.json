@@ -1,35 +1,62 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "ThingConfigHub": [],
-        "ThingFoundationKit": [],
-        "ThingLogMacro": [],
-        "ThingModuleServices": [],
-        "ThingNetdbInterceptor": [],
-        "ThingOEMConfig": [],
-        "ThingSmartBaseKit": [],
-        "ThingSmartEventPredefined_Public": [],
-        "ThingSmartNetworkKit": [],
-        "ThingStorageGroupInterface": [],
-        "ThingUIKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingNetworkAreaInterceptor",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetworkAreaInterceptor-1.1.12-anonymize.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingNetworkAreaInterceptor.",
-    "vendored_frameworks": [
-        "Build/ThingNetworkAreaInterceptor.xcframework"
+  "name": "ThingNetworkAreaInterceptor",
+  "version": "1.1.12-anonymize.2",
+  "summary": "A short description of ThingNetworkAreaInterceptor.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetworkAreaInterceptor-1.1.12-anonymize.2.1.zip",
+    "type": "zip",
+    "sha1": "9766050e2cef814ff8627074a0c4417c605d18dc"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleServices": [
+
     ],
-    "version": "1.1.12-anonymize.2"
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingNetdbInterceptor": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingNetworkAreaInterceptor.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingNetworkAreaInterceptor.xcframework/ios-arm64_armv7/ThingNetworkAreaInterceptor.framework/Headers/*"
+  ]
 }

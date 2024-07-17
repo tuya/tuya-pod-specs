@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSweeperLZ4",
-    "platforms": {
-        "ios": "8.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSweeperLZ4-0.2.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSweeperLZ4.",
-    "vendored_frameworks": [
-        "ThingSweeperLZ4.xcframework"
-    ],
-    "version": "0.2.1"
+  "name": "ThingSweeperLZ4",
+  "version": "0.2.1",
+  "summary": "A short description of ThingSweeperLZ4.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSweeperLZ4-0.2.1.1.zip",
+    "type": "zip",
+    "sha1": "b18359f769a8845b2edba340a407044d39c6e494"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": [
+    "ThingSweeperLZ4.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json",
+  "license": "none"
 }

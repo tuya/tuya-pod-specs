@@ -10,7 +10,7 @@
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleServices-4.54.5-feature-uiTheme515.1.1.zip",
     "type": "zip",
-    "sha1": "d782437f0286d92aca1d7acff6cfa6cbf72b101c"
+    "sha1": "2f6c0827c514e5d0328cec24fd71efe5a81f9c20"
   },
   "platforms": {
     "ios": "10.0"

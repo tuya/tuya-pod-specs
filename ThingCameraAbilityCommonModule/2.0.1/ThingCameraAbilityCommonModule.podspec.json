@@ -1,33 +1,52 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "GodzillaMiniIService": [],
-        "GodzillaMiniOpenAPI": [],
-        "ThingCameraAdvancedAbilityKit": [],
-        "ThingEncryptImage": [],
-        "ThingFoundationKit": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingSmartDeviceCoreKit": [],
-        "ThingSmartNetworkKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingCameraAbilityCommonModule",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraAbilityCommonModule-2.0.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingCameraAbilityCommonModule.",
-    "vendored_frameworks": [
-        "ThingCameraAbilityCommonModule.xcframework"
+  "name": "ThingCameraAbilityCommonModule",
+  "version": "2.0.1",
+  "summary": "A short description of ThingCameraAbilityCommonModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraAbilityCommonModule-2.0.1.1.zip",
+    "type": "zip",
+    "sha1": "fe08e62dbc55744f4f8c50ef58f136a8430041c2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
     ],
-    "version": "2.0.1"
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingCameraAdvancedAbilityKit": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCameraAbilityCommonModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

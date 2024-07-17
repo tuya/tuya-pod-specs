@@ -1,27 +1,28 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "Security",
-        "SafariServices"
-    ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingLoginWithAmzSDK",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginWithAmzSDK-1.0.0-fix-redeirct.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingLoginWithAmzSDK.",
-    "vendored_frameworks": [
-        "ThingLoginWithAmzSDK.xcframework",
-        "ThingLoginWithAmzSDK/Vendor/LoginWithAmazon.framework"
-    ],
-    "version": "1.0.0-fix-redeirct.1"
+  "name": "ThingLoginWithAmzSDK",
+  "version": "1.0.0-fix-redeirct.1",
+  "summary": "A short description of ThingLoginWithAmzSDK.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginWithAmzSDK-1.0.0-fix-redeirct.1.1.zip",
+    "type": "zip",
+    "sha1": "eb81db679fd729d37a1ca18fd7a556d2e6405103"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "Security",
+    "SafariServices"
+  ],
+  "vendored_frameworks": [
+    "ThingLoginWithAmzSDK.xcframework",
+    "ThingLoginWithAmzSDK/Vendor/LoginWithAmazon.framework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

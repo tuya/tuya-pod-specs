@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMService-0.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "7a07b5f10cb98e9fed9d6f9a856c52fe6586547d"
   },
   "platforms": {
     "ios": "10.0"

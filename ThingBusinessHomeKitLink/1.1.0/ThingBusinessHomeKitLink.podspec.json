@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessHomeKitLink-1.1.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b8a7bbc3138389c240e6c794f7d73ae53f363fa3"
   },
   "platforms": {
     "ios": "9.0"

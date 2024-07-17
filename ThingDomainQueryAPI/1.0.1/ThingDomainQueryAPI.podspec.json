@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingDomainQueryAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDomainQueryAPI-1.0.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingDomainQueryAPI.",
-    "vendored_frameworks": [
-        "ThingDomainQueryAPI.xcframework"
-    ],
-    "version": "1.0.1"
+  "name": "ThingDomainQueryAPI",
+  "version": "1.0.1",
+  "summary": "A short description of ThingDomainQueryAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDomainQueryAPI-1.0.1.1.zip",
+    "type": "zip",
+    "sha1": "996e4aebb9097840fbe2060429a9172f1140d609"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingDomainQueryAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

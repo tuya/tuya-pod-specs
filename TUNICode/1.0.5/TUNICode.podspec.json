@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICode-1.0.5.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e34fbcbe48c970fd8fd2930a60807414dc40a5ad"
   },
   "platforms": {
     "ios": "9.0"

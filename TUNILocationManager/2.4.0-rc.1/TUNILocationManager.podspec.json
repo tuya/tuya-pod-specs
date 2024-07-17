@@ -14,7 +14,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocationManager-2.4.0-rc.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "557599d1148c4f881f1bbb152598e0b21eff79c9"
   },
   "platforms": {
     "ios": "9.0"

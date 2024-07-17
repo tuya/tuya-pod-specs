@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTinyBusinessModule-1.2.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "492bc6a5917a5a12033c1420af4efd1e2800a6d2"
   },
   "platforms": {
     "ios": "9.0"

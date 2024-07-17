@@ -1,43 +1,53 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "GodzillaMiniBaseKit": [],
-        "TUNIAPIManagerKit": [],
-        "ThingFoundationKit": [],
-        "ThingSmartNetworkKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIMiniHighwayManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resource_bundles": {
-        "TUNIMiniHighwayManager": [
-            "ios/tuniminihighwaymanager/Assets/*",
-            "js/dist/index.js"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniHighwayManager-3.0.6.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIMiniHighwayManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIMiniHighwayManager.xcframework"
+  "name": "TUNIMiniHighwayManager",
+  "version": "3.0.6",
+  "summary": "A short description of TUNIMiniHighwayManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniHighwayManager-3.0.6.1.zip",
+    "type": "zip",
+    "sha1": "b398a6a02858ff167fa195ad6be3455395e0c5be"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "TUNIMiniHighwayManager": [
+      "ios/tuniminihighwaymanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+
     ],
-    "version": "3.0.6"
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMiniHighwayManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

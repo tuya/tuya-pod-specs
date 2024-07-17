@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppWebView_iOS-3.17.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "eff3d1ae8501b6b95a1d42f17b172e0b1c88206d"
   },
   "platforms": {
     "ios": "9.0"

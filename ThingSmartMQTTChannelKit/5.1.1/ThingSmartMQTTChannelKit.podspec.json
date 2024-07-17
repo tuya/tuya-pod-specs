@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMQTTChannelKit-5.1.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "08b0dd2745b0ff2f0cec5a362fbf3892b8581ee9"
   },
   "platforms": {
     "ios": "9.0"

@@ -12,7 +12,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCKit-2.1.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "27b8946c90d0606c1a6b3e85cefeae5764d37828"
   },
   "resource_bundles": {
     "TUNIIPCKit": [

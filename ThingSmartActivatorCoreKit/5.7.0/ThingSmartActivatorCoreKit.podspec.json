@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorCoreKit-5.7.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "397880b0f60dab931daad5d89e9074fd566faab9"
   },
   "static_framework": true,
   "platforms": {

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartIntelligenceModule-1.7.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "32c4e7c6f24148dfdbba3c38c92e507f2f92a395"
   },
   "platforms": {
     "ios": "11.0"

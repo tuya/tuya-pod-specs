@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallCenterControlTactic-1.0.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "31ff68eb16a7a9d91c5fb82dd973f43fe0dbca1c"
   },
   "platforms": {
     "ios": "10.0"

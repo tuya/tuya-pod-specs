@@ -1,28 +1,37 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingAnnotationFoundation": [],
-        "ThingHybridMediaToolsAPI": [],
-        "ThingMediaKit": [],
-        "ThingUIKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingHybridMediaTools",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMediaTools-0.1.0-anonymize2.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingHybridMediaTools.",
-    "vendored_frameworks": [
-        "ThingHybridMediaTools.xcframework"
+  "name": "ThingHybridMediaTools",
+  "version": "0.1.0-anonymize2.1",
+  "summary": "A short description of ThingHybridMediaTools.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMediaTools-0.1.0-anonymize2.1.1.zip",
+    "type": "zip",
+    "sha1": "6110f1fd0cd70e7df66980afacca9e5089de6e7a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingUIKit": [
+
     ],
-    "version": "0.1.0-anonymize2.1"
+    "ThingMediaKit": [
+
+    ],
+    "ThingHybridMediaToolsAPI": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingHybridMediaTools.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorLink-0.4.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e2a0c7dc7fb4d818a2660f7f90e2183af49d8008"
   },
   "platforms": {
     "ios": "11.0"

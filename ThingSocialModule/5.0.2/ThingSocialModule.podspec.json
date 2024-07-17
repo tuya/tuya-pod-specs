@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocialModule-5.0.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b2a092900189016f97113b549c515d674753f62b"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailEdit-1.5.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3ce5f0d2184bc8aa863152b017012f8da58ad0b7"
   },
   "platforms": {
     "ios": "11.0"

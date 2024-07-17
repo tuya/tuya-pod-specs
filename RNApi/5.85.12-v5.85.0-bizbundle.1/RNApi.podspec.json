@@ -12,7 +12,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNApi-5.85.12-v5.85.0-bizbundle.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "722ba112de28a4bf414e27ed24121513bd073c61"
   },
   "default_subspecs": "Core",
   "subspecs": [

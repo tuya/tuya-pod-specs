@@ -12,7 +12,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBaseKit-3.11.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "1e3d91f4c3481da231d9f5564aa11eecc15c8d13"
   },
   "resource_bundles": {
     "TUNIBaseKit": [

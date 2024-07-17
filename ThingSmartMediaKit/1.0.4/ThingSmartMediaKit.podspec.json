@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMediaKit-1.0.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "150763cd10a8b86bbe17da80bdf2397d13576145"
   },
   "platforms": {
     "ios": "10.0"

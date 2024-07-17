@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniProgramManager-3.6.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "223ec817f7e905eac85c190c6702a0b748d20ff1"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINGManager-1.0.11.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "491bd8111e388170eaeee14a99b2a753a6e7bbb8"
   },
   "platforms": {
     "ios": "10.0"

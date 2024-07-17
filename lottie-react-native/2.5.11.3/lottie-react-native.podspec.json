@@ -1,25 +1,31 @@
 {
-    "authors": {
-        "intelligibabble": "leland.m.richardson@gmail.com"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "React": [],
-        "ThingLottie": []
-    },
-    "homepage": "https://github.com/airbnb/lottie-react-native#readme",
-    "license": "Apache-2.0",
-    "name": "lottie-react-native",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/1681293897-lottie-react-native-2.5.11.3.zip",
-        "type": "zip"
-    },
-    "summary": "Lottie component for React Native (iOS and Android)",
-    "vendored_frameworks": [
-        "lottie_react_native.xcframework"
+  "name": "lottie-react-native",
+  "version": "2.5.11.3",
+  "summary": "Lottie component for React Native (iOS and Android)",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/lottie-react-native-2.5.11.3.1.zip",
+    "type": "zip",
+    "sha1": "f10a9d3dd7150a475f7216b28f0e1fa6fb792763"
+  },
+  "dependencies": {
+    "React": [
+
     ],
-    "version": "2.5.11.3"
+    "ThingLottie": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "lottie_react_native.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

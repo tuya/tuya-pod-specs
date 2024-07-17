@@ -1,22 +1,22 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingHelpCenterAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHelpCenterAPI-1.0.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingHelpCenterAPI.",
-    "vendored_frameworks": [
-        "ThingHelpCenterAPI.xcframework"
-    ],
-    "version": "1.0.0"
+  "name": "ThingHelpCenterAPI",
+  "version": "1.0.0",
+  "summary": "A short description of ThingHelpCenterAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHelpCenterAPI-1.0.0.1.zip",
+    "type": "zip",
+    "sha1": "08b137eb123f1bf6fbda874a69cdef53db222259"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingHelpCenterAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

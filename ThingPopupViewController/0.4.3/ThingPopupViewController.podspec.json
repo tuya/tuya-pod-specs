@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPopupViewController-0.4.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "1080c516149c9c69540cb0fad17b045c23ad8f6d"
   },
   "platforms": {
     "ios": "9.0"

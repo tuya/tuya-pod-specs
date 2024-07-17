@@ -1,40 +1,59 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "CocoaAsyncSocket": [],
-        "ThingBaseDebugger": [],
-        "ThingFoundationKit": [],
-        "ThingLogMacro": [],
-        "ThingModuleManager": [],
-        "ThingOEMConfig": [],
-        "ThingSmartBaseKit": [],
-        "ThingSmartNetworkKit": [],
-        "ThingSocketPing": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "UIKit",
-        "Foundation",
-        "CoreTelephony"
+  "name": "ThingCommonDebugger",
+  "version": "0.4.2-anonymize.3",
+  "summary": "A short description of ThingCommonDebugger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonDebugger-0.4.2-anonymize.3.1.zip",
+    "type": "zip",
+    "sha1": "f8f0766f02c303fc15cc3c3f88ec72de0ba1f404"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_file": "ThingCommonDebugger/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreTelephony"
+  ],
+  "libraries": "resolv",
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "libraries": "resolv",
-    "license": "none",
-    "name": "ThingCommonDebugger",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "prefix_header_file": "ThingCommonDebugger/Classes/PrefixHeader.pch",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonDebugger-0.4.2-anonymize.3.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingCommonDebugger.",
-    "vendored_frameworks": [
-        "ThingCommonDebugger.xcframework"
+    "ThingSmartNetworkKit": [
+
     ],
-    "version": "0.4.2-anonymize.3"
+    "ThingFoundationKit": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ],
+    "ThingBaseDebugger": [
+
+    ],
+    "ThingSocketPing": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCommonDebugger.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

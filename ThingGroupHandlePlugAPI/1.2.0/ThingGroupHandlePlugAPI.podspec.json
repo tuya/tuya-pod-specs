@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupHandlePlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "c9d8c27cd58a448dbd1da3a72041768c99b3f2b3"
   },
   "platforms": {
     "ios": "9.0"

@@ -1,47 +1,58 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "Masonry": [],
-        "ThingFoundationKit": [],
-        "ThingOEMConfig": [],
-        "ThingSmartBusinessLibrary": [],
-        "ThingUIKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "Photos",
-        "UIKit",
-        "AVFoundation"
+  "name": "ThingAvatarEditKit",
+  "version": "0.2.7-anonymize.1",
+  "summary": "A short description of ThingAvatarEditKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.7-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "b2dda6919af74fcdfeeffc0f2ae3ac2264e4079a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "ThingCropViewControllerBundle": [
+      "ThingAvatarEditKit/Assets/**/*.{png,lproj}"
+    ]
+  },
+  "frameworks": [
+    "Photos",
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "Masonry": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingAvatarEditKit",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "resource_bundles": {
-        "ThingCropViewControllerBundle": [
-            "ThingAvatarEditKit/Assets/**/*.{png,lproj}"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.7-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingAvatarEditKit.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingAvatarEditKit.xcframework"
+    "ThingUIKit": [
+
     ],
-    "version": "0.2.7-anonymize.1"
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingAvatarEditKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

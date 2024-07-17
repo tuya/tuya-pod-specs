@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetdbInterceptor-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "2483d8b5133b48eee5f87d1a1b2020428bdd26d6"
   },
   "platforms": {
     "ios": "9.0"

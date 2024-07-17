@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTimerPlugAPI-0.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "787841b12b8ae71bf25864f1e6d91bbf731ea712"
   },
   "platforms": {
     "ios": "9.0"

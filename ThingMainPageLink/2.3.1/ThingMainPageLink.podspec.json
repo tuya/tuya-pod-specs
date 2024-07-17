@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMainPageLink-2.3.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "99ece039f8e49f31837de5e9b157c12c77e9e8f7"
   },
   "platforms": {
     "ios": "11.0"

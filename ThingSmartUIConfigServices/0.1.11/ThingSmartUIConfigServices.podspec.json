@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUIConfigServices-0.1.11.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "f9247fae51a7c83ba128b785415819db753c8fe1"
   },
   "platforms": {
     "ios": "8.0"

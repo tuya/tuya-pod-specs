@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniProgramAdapterImpl_iOS-3.18.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "cd514e5aeed9b69e8854e36b728dae46e470263a"
   },
   "platforms": {
     "ios": "10.0"

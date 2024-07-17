@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartFamilyBizKit-1.10.0.3.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "aa862b5df3af444b51f2914eade79a833a07b50f"
   },
   "platforms": {
     "ios": "11.0"

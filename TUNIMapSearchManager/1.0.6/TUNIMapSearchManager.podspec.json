@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMapSearchManager-1.0.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8bd90fe9b261904df57fdc4b0dfe8cf28ec82f89"
   },
   "platforms": {
     "ios": "10.0"

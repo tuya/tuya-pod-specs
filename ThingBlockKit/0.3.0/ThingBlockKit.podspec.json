@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBlockKit-0.3.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "09402aeec2756a8e399d02559b89caeff155f0a1"
   },
   "platforms": {
     "ios": "8.0"

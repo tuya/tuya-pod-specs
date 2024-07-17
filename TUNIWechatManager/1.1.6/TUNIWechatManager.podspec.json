@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWechatManager-1.1.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d73a9ce041450d96a194f1d52727585efb427b39"
   },
   "platforms": {
     "ios": "10.0"

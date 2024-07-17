@@ -1,22 +1,22 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingPandoraPlayerModuleAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPandoraPlayerModuleAPI-1.0.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingPandoraPlayerModuleAPI.",
-    "vendored_frameworks": [
-        "ThingPandoraPlayerModuleAPI.xcframework"
-    ],
-    "version": "1.0.0"
+  "name": "ThingPandoraPlayerModuleAPI",
+  "version": "1.0.0",
+  "summary": "A short description of ThingPandoraPlayerModuleAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPandoraPlayerModuleAPI-1.0.0.1.zip",
+    "type": "zip",
+    "sha1": "0686b511f1eb59f741caa04ea1d8f939e7d1d8f4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingPandoraPlayerModuleAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

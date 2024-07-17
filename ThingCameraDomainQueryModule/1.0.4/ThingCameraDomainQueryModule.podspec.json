@@ -1,30 +1,40 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingFoundationKit": [],
-        "ThingLogMacro": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingCameraDomainQueryModule",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "preserve_paths": "weak_deps.json",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraDomainQueryModule-1.0.4.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingCameraDomainQueryModule.",
-    "vendored_frameworks": [
-        "ThingCameraDomainQueryModule.xcframework"
+  "name": "ThingCameraDomainQueryModule",
+  "version": "1.0.4",
+  "summary": "A short description of ThingCameraDomainQueryModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraDomainQueryModule-1.0.4.1.zip",
+    "type": "zip",
+    "sha1": "18998fc1cb166a4e8273a06b0f9d5af2afcfaa8f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
     ],
-    "version": "1.0.4"
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingCameraDomainQueryModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

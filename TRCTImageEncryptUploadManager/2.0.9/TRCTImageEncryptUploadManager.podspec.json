@@ -1,40 +1,54 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingEncryptImage": [],
-        "ThingFoundationKit": [],
-        "ThingKVStorageLibrary": [],
-        "ThingP2PAlbumBizKit": [],
-        "ThingPanelContext": [],
-        "ThingSmartBaseKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TRCTImageEncryptUploadManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
-        "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTImageEncryptUploadManager-2.0.9.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TRCTImageEncryptUploadManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TRCTImageEncryptUploadManager.xcframework"
+  "name": "TRCTImageEncryptUploadManager",
+  "version": "2.0.9",
+  "summary": "A short description of TRCTImageEncryptUploadManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTImageEncryptUploadManager-2.0.9.1.zip",
+    "type": "zip",
+    "sha1": "ddd8cbf3b9e3155fdc71e9cd7dabb1a678d60f0b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
     ],
-    "version": "2.0.9"
+    "ThingPanelContext": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingP2PAlbumBizKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTImageEncryptUploadManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

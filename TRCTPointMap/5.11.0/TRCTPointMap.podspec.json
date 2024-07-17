@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPointMap-5.11.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "37341607c24072fb12c5a357a71a2a00a1bc3ac1"
   },
   "platforms": {
     "ios": "9.0"

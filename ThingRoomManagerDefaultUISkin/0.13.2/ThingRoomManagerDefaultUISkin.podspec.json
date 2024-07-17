@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRoomManagerDefaultUISkin-0.13.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e3f10f686fb199a77e45da30e8660749963b6837"
   },
   "platforms": {
     "ios": "11.0"

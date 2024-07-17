@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorBizKit-0.9.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "68c28dd53a9f9670d7e548ac50410921c1948bce"
   },
   "platforms": {
     "ios": "11.0"

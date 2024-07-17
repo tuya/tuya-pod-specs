@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartOutdoorPlugAPI-0.6.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "62dc85e465b132bb9c12d09320f3ce8313822040"
   },
   "platforms": {
     "ios": "9.0"

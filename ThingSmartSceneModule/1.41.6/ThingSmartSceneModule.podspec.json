@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneModule-1.41.6.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "483bb16f9e38f85f803ea654dc38825682bd1005"
   },
   "platforms": {
     "ios": "11.0"

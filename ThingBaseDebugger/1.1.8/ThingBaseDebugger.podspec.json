@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBaseDebugger-1.1.8.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3ea0663f2ef14204f0ef82938ea525b5200ec480"
   },
   "platforms": {
     "ios": "9.0"

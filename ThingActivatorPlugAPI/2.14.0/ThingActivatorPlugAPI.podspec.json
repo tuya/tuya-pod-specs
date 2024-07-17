@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingActivatorPlugAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingActivatorPlugAPI-2.14.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingActivatorPlugAPI.",
-    "vendored_frameworks": [
-        "ThingActivatorPlugAPI.xcframework"
-    ],
-    "version": "2.14.0"
+  "name": "ThingActivatorPlugAPI",
+  "version": "2.14.0",
+  "summary": "A short description of ThingActivatorPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingActivatorPlugAPI-2.14.0.1.zip",
+    "type": "zip",
+    "sha1": "c1427fc033e47103dccca8243b8419b9e05eb54f"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingActivatorPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

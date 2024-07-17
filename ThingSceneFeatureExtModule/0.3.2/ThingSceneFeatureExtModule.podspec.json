@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneFeatureExtModule-0.3.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e4287dd4b46551543e02235c57e5182dcbd7040d"
   },
   "platforms": {
     "ios": "11.0"

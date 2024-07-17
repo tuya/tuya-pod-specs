@@ -1,26 +1,27 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "UIKit",
-        "Foundation"
-    ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingAppLifeCycleSktAPI",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAppLifeCycleSktAPI-1.0.7-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "App生命周期监听整理回调",
-    "vendored_frameworks": [
-        "ThingAppLifeCycleSktAPI.xcframework"
-    ],
-    "version": "1.0.7-anonymize.1"
+  "name": "ThingAppLifeCycleSktAPI",
+  "version": "1.0.7-anonymize.1",
+  "summary": "App生命周期监听整理回调",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAppLifeCycleSktAPI-1.0.7-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "e86d112cd1639c7f356b870c3cdac2080bdfa210"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "vendored_frameworks": [
+    "ThingAppLifeCycleSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

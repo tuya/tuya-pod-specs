@@ -1,40 +1,55 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "TUNICode": [],
-        "ThingFoundationKit": [],
-        "ThingLogMacro": [],
-        "ThingModuleManager": [],
-        "ThingReactNativeAPI": [],
-        "ThingRealClass": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": "UIKit",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIAPIManagerKit",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPIManagerKit-1.9.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIAPIManagerKit.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIAPIManagerKit.xcframework"
+  "name": "TUNIAPIManagerKit",
+  "version": "1.9.0",
+  "summary": "A short description of TUNIAPIManagerKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPIManagerKit-1.9.0.1.zip",
+    "type": "zip",
+    "sha1": "995df8c639e7b81185d2d6c64de69fdaaef1903d"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYModel": [
+
     ],
-    "version": "1.9.0"
+    "ThingRealClass": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "TUNICode": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingReactNativeAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "TUNIAPIManagerKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

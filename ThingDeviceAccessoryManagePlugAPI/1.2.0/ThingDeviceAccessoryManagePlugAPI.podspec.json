@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceAccessoryManagePlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "1b3ce38dd909cebdf44c7747d91ffab970ce2b77"
   },
   "platforms": {
     "ios": "9.0"

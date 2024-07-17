@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingConfigHub-1.2.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3ed8c96c71444e931b795f1b88e815b5787bbd30"
   },
   "platforms": {
     "ios": "11.0"

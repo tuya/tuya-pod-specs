@@ -1,39 +1,64 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBusinessService": [],
-        "ThingFoundationKit": [],
-        "ThingHybridContainer": [],
-        "ThingLogMacro": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingOEMConfig": [],
-        "ThingSmartBaseKit": [],
-        "ThingSmartBusinessLibrary": [],
-        "ThingSmartUtil": [],
-        "ThingUIKit": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "UIKit",
-        "Foundation"
+  "name": "ThingPersonalServiceModule",
+  "version": "0.0.2",
+  "summary": "A short description of ThingPersonalServiceModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPersonalServiceModule-0.0.2.1.zip",
+    "type": "zip",
+    "sha1": "1db9adea776ee88a854be8fcd4e17802cc60cc28"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingPersonalServiceModule",
-    "platforms": {
-        "ios": "11.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPersonalServiceModule-0.0.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingPersonalServiceModule.",
-    "vendored_frameworks": [
-        "ThingPersonalServiceModule.xcframework"
+    "ThingModuleServices": [
+
     ],
-    "version": "0.0.2"
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPersonalServiceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceControlManager-2.7.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d0be5c2d02b5bc7d173bebc83202a8f440658abb"
   },
   "platforms": {
     "ios": "10.0"

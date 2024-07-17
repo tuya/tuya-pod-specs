@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffLayerManager-3.1.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "33bc7ab90c3fa400a9a78c05ab914b370672d14f"
   },
   "platforms": {
     "ios": "9.0"

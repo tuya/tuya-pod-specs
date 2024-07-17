@@ -1,25 +1,28 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingLogMacro": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingCameraView",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraView-1.1.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingCameraView.",
-    "vendored_frameworks": [
-        "ThingCameraView.xcframework"
-    ],
-    "version": "1.1.0"
+  "name": "ThingCameraView",
+  "version": "1.1.0",
+  "summary": "A short description of ThingCameraView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraView-1.1.0.1.zip",
+    "type": "zip",
+    "sha1": "f27d049a837dcfde4f639a8f38c90a07ec476257"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCameraView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

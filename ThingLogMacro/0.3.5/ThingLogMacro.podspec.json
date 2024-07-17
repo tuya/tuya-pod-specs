@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLogMacro-0.3.5.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "eca0004e09c88eb6413fae99059dd6bb0b21d1ba"
   },
   "swift_versions": "5.0",
   "platforms": {

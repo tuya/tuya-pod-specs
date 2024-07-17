@@ -1,37 +1,51 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBusinessService": [],
-        "ThingFoundationKit": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingSmartDeviceKit": [],
-        "ThingSmartSceneKit": []
-    },
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSmartSceneLink",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneLink-1.1.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSmartSceneLink.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingSmartSceneLink.xcframework"
+  "name": "ThingSmartSceneLink",
+  "version": "1.1.1",
+  "summary": "A short description of ThingSmartSceneLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneLink-1.1.1.1.zip",
+    "type": "zip",
+    "sha1": "878c6be6c54977b51fbfeaa09dc9561f83c3ddff"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingBusinessService": [
+
     ],
-    "version": "1.1.1"
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartSceneKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartSceneLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

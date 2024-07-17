@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupManagerKit-1.2.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "cb51613ec9407c076cfde8b0706b2db08068c5f3"
   },
   "platforms": {
     "ios": "10.0"

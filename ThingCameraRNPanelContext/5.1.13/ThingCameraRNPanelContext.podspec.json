@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraRNPanelContext-5.1.13.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "7b43cbd6e611deeb5c87af88e6069e3c1d35137e"
   },
   "platforms": {
     "ios": "9.0"

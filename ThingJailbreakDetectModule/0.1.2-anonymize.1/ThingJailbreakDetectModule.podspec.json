@@ -1,46 +1,61 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingBaseDebugger": [],
-        "ThingKVStorageLibrary": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingOEMConfig": [],
-        "ThingSmartBusinessLibrary": [],
-        "ThingSmartEventPredefined": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingJailbreakDetectModule",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)",
-    "prefix_header_file": "ThingJailbreakDetectModule/Classes/PrefixHeader.pch",
-    "resource_bundles": {
-        "ThingJailbreakDetectModule": [
-            "ThingJailbreakDetectModule/Assets/*.png"
-        ]
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.2-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingJailbreakDetectModule.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "ThingJailbreakDetectModule.xcframework"
+  "name": "ThingJailbreakDetectModule",
+  "version": "0.1.2-anonymize.1",
+  "summary": "A short description of ThingJailbreakDetectModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.2-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "d988301a06f38feb23b77e9218bb63941396c127"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_file": "ThingJailbreakDetectModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingJailbreakDetectModule": [
+      "ThingJailbreakDetectModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingOEMConfig": [
+
     ],
-    "version": "0.1.2-anonymize.1"
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBaseDebugger": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingJailbreakDetectModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

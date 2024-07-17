@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHouse-5.11.5-feature-deviceCellCrashFixD612.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "0c9c7937fb503361ef3546b9dedd0b5313bfeb72"
   },
   "platforms": {
     "ios": "11.0"

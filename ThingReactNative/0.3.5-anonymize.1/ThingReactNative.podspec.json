@@ -1,34 +1,49 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "RNSVG": [],
-        "RNViewShot": [],
-        "React": [],
-        "react-native-image-picker": [],
-        "react-native-maps": [],
-        "react-native-video": [],
-        "rn-fetch-blob": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingReactNative",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "pod_target_xcconfig": {
-        "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReactNative-0.3.5-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingReactNative.",
-    "vendored_frameworks": [
-        "ThingReactNative.xcframework"
+  "name": "ThingReactNative",
+  "version": "0.3.5-anonymize.1",
+  "summary": "A short description of ThingReactNative.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReactNative-0.3.5-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "e7626861d26fba0309011884168ef2924338aa4c"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "React": [
+
     ],
-    "version": "0.3.5-anonymize.1"
+    "react-native-maps": [
+
+    ],
+    "rn-fetch-blob": [
+
+    ],
+    "RNSVG": [
+
+    ],
+    "react-native-image-picker": [
+
+    ],
+    "react-native-video": [
+
+    ],
+    "RNViewShot": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription"
+  },
+  "vendored_frameworks": [
+    "ThingReactNative.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

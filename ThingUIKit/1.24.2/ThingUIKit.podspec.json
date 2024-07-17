@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUIKit-1.24.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "37bf84a82633bbfb2fdc251c889df89ae53ba576"
   },
   "platforms": {
     "ios": "9.0"

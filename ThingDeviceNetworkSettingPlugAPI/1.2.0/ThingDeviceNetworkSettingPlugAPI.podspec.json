@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceNetworkSettingPlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "d76ef716820e3b8311419fc5c254b298cd41fcbb"
   },
   "platforms": {
     "ios": "9.0"

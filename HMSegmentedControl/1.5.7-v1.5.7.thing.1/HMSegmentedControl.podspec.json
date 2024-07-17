@@ -1,26 +1,25 @@
 {
-    "authors": {
-        "Hesham Abd-Elmegid": "hesham.abdelmegid@gmail.com"
-    },
-    "cocoapods_version": ">= 1.10",
-    "frameworks": "QuartzCore",
-    "homepage": "https://github.com/HeshamMegid/HMSegmentedControl",
-    "license": {
-        "file": "LICENSE.md",
-        "type": "MIT"
-    },
-    "name": "HMSegmentedControl",
-    "platforms": {
-        "ios": "7.0"
-    },
-    "requires_arc": true,
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/1681293827-HMSegmentedControl-1.5.7-v1.5.7.thing.1.zip",
-        "type": "zip"
-    },
-    "summary": "A drop-in replacement for UISegmentedControl mimicking the style of the one in Google Currents and various other Google products.",
-    "vendored_frameworks": [
-        "HMSegmentedControl.xcframework"
-    ],
-    "version": "1.5.7-v1.5.7.thing.1"
+  "name": "HMSegmentedControl",
+  "version": "1.5.7-v1.5.7.thing.1",
+  "summary": "A drop-in replacement for UISegmentedControl mimicking the style of the one in Google Currents and various other Google products.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/HMSegmentedControl-1.5.7-v1.5.7.thing.1.1.zip",
+    "type": "zip",
+    "sha1": "2714af67b74284ec5d1519a062921c9ec7f7aa76"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "frameworks": "QuartzCore",
+  "vendored_frameworks": [
+    "HMSegmentedControl.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

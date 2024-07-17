@@ -1,35 +1,39 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingHealthDataCenterManager": [],
-        "ThingPanelContext": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "libraries": "c++",
-    "license": "none",
-    "name": "TRCTHealthCenterManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthCenterManager-1.1.1-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TRCTHealthCenterManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TRCTHealthCenterManager.xcframework"
+  "name": "TRCTHealthCenterManager",
+  "version": "1.1.1-anonymize.1",
+  "summary": "A short description of TRCTHealthCenterManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthCenterManager-1.1.1-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "939bdda9906c4d902c15f8a481f45688a35b3e45"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "libraries": "c++",
+  "dependencies": {
+    "ThingPanelContext": [
+
     ],
-    "version": "1.1.1-anonymize.1"
+    "ThingHealthDataCenterManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTHealthCenterManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

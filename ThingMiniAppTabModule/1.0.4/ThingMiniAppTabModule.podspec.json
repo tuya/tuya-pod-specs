@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMiniAppTabModule-1.0.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "16f313fdd7df0062faf56529a0303277ffd6516f"
   },
   "platforms": {
     "ios": "9.0"

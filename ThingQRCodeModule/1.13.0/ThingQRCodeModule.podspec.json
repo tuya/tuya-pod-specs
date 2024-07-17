@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingQRCodeModule-1.13.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "66f81d9dc5d55f10c6ab317deb28c2ce80e844b1"
   },
   "platforms": {
     "ios": "11.0"

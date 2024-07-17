@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAIAssistantManager-1.2.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "c662485ef3bc72ca84e99cb581f46acb68899e56"
   },
   "platforms": {
     "ios": "10.0"

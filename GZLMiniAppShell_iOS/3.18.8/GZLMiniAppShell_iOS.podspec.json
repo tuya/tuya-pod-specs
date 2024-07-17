@@ -12,7 +12,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppShell_iOS-3.18.8.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "43dd032beb43e97a1335013401a720c739c12180"
   },
   "dependencies": {
     "GodzillaMiniBaseKit": [

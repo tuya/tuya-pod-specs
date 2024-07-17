@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImagePickerManager-2.2.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "46c841ccf3a74a73c01002ff26c47a5140cbfb8f"
   },
   "platforms": {
     "ios": "10.0"

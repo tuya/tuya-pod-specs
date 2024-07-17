@@ -1,26 +1,29 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "SSZipArchive": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": "MetricKit",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingMerticKit",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMerticKit-1.0.5.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingMerticKit.",
-    "vendored_frameworks": [
-        "ThingMerticKit.xcframework"
-    ],
-    "version": "1.0.5"
+  "name": "ThingMerticKit",
+  "version": "1.0.5",
+  "summary": "A short description of ThingMerticKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMerticKit-1.0.5.1.zip",
+    "type": "zip",
+    "sha1": "43bef7ff1163fc8ca1dae33872b55ae44f6c81af"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "MetricKit",
+  "dependencies": {
+    "SSZipArchive": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingMerticKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
 }

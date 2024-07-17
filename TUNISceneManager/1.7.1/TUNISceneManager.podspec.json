@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNISceneManager-1.7.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "f45705cffeeccd4d895bef5d5ec9ce82056004d2"
   },
   "platforms": {
     "ios": "9.0"

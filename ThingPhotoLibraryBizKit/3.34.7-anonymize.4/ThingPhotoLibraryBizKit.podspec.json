@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotoLibraryBizKit-3.34.7-anonymize.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "f46ec6e224c36269695277a68c5ad7c074016422"
   },
   "platforms": {
     "ios": "9.0"

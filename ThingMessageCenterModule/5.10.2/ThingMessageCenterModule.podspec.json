@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMessageCenterModule-5.10.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "366aa2274c7742a87b99a79b5cf6acff14125fb9"
   },
   "platforms": {
     "ios": "9.0"

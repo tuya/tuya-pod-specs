@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterInterface-1.6.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "e9e5f385921d9d28be73bb7fb6d41c0551d8bb1e"
   },
   "platforms": {
     "ios": "10.0"

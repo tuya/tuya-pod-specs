@@ -1,32 +1,47 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "ThingAPMService": [],
-        "ThingFoundationKit": [],
-        "ThingLogMacro": [],
-        "ThingModuleManager": [],
-        "ThingModuleServices": [],
-        "ThingSmartEventPredefined": [],
-        "ThingSmartEventPredefined_Public": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingStatisticsKit",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingStatisticsKit\", ##__VA_ARGS__)",
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStatisticsKit-0.2.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingStatisticsKit.",
-    "vendored_frameworks": [
-        "ThingStatisticsKit.xcframework"
+  "name": "ThingStatisticsKit",
+  "version": "0.2.0",
+  "summary": "A short description of ThingStatisticsKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStatisticsKit-0.2.0.1.zip",
+    "type": "zip",
+    "sha1": "66d45dc2e428c3d78bfe6aeb8e43346da6b776a4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingLogMacro": [
+
     ],
-    "version": "0.2.0"
+    "ThingAPMService": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingStatisticsKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingStatisticsKit\", ##__VA_ARGS__)",
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingStatisticsKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

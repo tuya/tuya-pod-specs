@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpeechKit-1.0.12.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8fc2e296569680cedf997b3ed0876e99a6f42ab5"
   },
   "platforms": {
     "ios": "9.0"

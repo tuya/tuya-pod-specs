@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEInterfaceImpl-0.16.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "cabc24003673de7e7f1b72aff444fc6526238593"
   },
   "platforms": {
     "ios": "10.0"

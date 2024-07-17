@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniWidgetKit-3.17.2.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "75e351c92b2fe45b90668e65a73c3b5214ad5917"
   },
   "platforms": {
     "ios": "9.0"

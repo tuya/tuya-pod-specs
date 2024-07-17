@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartEventPredefined-1.3.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "5983db608544de68a83bd664f394f9c18cff96f4"
   },
   "platforms": {
     "ios": "9.0",

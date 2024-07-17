@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNotificationsAuthManager-0.1.4.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "7a7f43bb50b598ab6683fd275114a39c471e2c23"
   },
   "platforms": {
     "ios": "9.0"

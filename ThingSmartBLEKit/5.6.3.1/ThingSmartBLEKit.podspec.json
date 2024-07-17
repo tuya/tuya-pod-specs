@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBLEKit-5.6.3.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "8626677e94ebba583f06752493f1b47e8970d2bd"
   },
   "static_framework": true,
   "platforms": {

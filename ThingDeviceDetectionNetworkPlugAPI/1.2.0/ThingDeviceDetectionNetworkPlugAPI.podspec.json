@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetectionNetworkPlugAPI-1.2.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "dbdce1226c73d90198aca928f112c6b0da3ea0ce"
   },
   "platforms": {
     "ios": "9.0"

@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingSmartPrivateCloudPlugAPI",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPrivateCloudPlugAPI-0.0.3-anonymize.1.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingSmartPrivateCloudPlugAPI.",
-    "vendored_frameworks": [
-        "ThingSmartPrivateCloudPlugAPI.xcframework"
-    ],
-    "version": "0.0.3-anonymize.1"
+  "name": "ThingSmartPrivateCloudPlugAPI",
+  "version": "0.0.3-anonymize.1",
+  "summary": "A short description of ThingSmartPrivateCloudPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPrivateCloudPlugAPI-0.0.3-anonymize.1.1.zip",
+    "type": "zip",
+    "sha1": "8745976c9d96626d7fe71acd95beeee3706a4aab"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingSmartPrivateCloudPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json",
+  "license": "none"
 }

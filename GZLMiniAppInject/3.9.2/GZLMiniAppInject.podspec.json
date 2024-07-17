@@ -1,37 +1,52 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "dependencies": {
-        "GZLMiniAppCore_iOS": [],
-        "GZLMiniAppWebView_iOS": [],
-        "GZLMiniApp_iOS": [],
-        "ThingModuleManager": [],
-        "ThingSmartNetworkKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "GZLMiniAppInject",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
-        "DEFINES_MODULE": "YES",
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-    },
-    "resources": [
-        "Build/GZLMiniAppInject.xcframework/ios-arm64/GZLMiniAppInject.framework/CustomResources/Assets/*"
+  "name": "GZLMiniAppInject",
+  "version": "3.9.2",
+  "summary": "A short description of GZLMiniAppInject.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppInject-3.9.2.1.zip",
+    "type": "zip",
+    "sha1": "e66e94e3ab6c2ae0f3a7a0bd354ee08719a941f7"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
     ],
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppInject-3.9.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of GZLMiniAppInject.",
-    "vendored_frameworks": [
-        "Build/GZLMiniAppInject.xcframework"
+    "GZLMiniAppCore_iOS": [
+
     ],
-    "version": "3.9.2"
+    "GZLMiniApp_iOS": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GZLMiniAppWebView_iOS": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppInject.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppInject.xcframework/ios-arm64/GZLMiniAppInject.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniAppInject.xcframework/ios-arm64/GZLMiniAppInject.framework/CustomResources/Assets/*"
+  ]
 }

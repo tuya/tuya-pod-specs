@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallIPCTactic-1.2.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "f20eed365c32e3aa9625779910238dcdb31f86dc"
   },
   "platforms": {
     "ios": "10.0"

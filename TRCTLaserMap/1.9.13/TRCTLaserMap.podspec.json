@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLaserMap-1.9.13.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "7cc384fa94c4ef092ae0160b6bd0eab357227088"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraDoorBellModule-4.10.13.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "f46a922601c92e2553738b4f903feee32c7200f8"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelBundleManager-3.1.7.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "12c95e6a405623c8a85e6fefa5ad0b8d77352a03"
   },
   "platforms": {
     "ios": "9.0"

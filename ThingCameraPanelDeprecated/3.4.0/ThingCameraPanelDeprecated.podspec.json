@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelDeprecated-3.4.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3869d634177ed715c4b23a8e988bf3852d3de453"
   },
   "platforms": {
     "ios": "9.0"

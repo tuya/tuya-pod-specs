@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOEMConfig-1.38.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "23e8ae74ae62751264318c8edbfbe91e7ede5b66"
   },
   "platforms": {
     "ios": "9.0",

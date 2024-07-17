@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginModuleBizKit-1.3.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "2bc590d676e441dc410ba2bf1bc35551a9cb475b"
   },
   "platforms": {
     "ios": "9.0"

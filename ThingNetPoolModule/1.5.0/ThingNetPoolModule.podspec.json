@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetPoolModule-1.5.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "95ce9042b87384be279fd470387a3bd2a2285a64"
   },
   "platforms": {
     "ios": "9.0"

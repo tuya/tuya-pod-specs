@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2PSDK-3.5.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "b9ae720bae96b31219786c44c400c54eb7cb2286"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,7 +23,7 @@
   },
   "dependencies": {
     "ThingMbedtls": [
-      "3.5.2"
+
     ],
     "ThingAvLoggerSDK": [
 

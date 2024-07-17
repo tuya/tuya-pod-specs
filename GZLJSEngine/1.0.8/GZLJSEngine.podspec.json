@@ -1,22 +1,25 @@
 {
-    "authors": {
-        "tuya": "https://developer.tuya.com/"
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": "JavaScriptCore",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "GZLJSEngine",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLJSEngine-1.0.8.zip",
-        "type": "zip"
-    },
-    "summary": "JS引擎封装，桥接多个JS引擎",
-    "vendored_frameworks": [
-        "Build/GZLJSEngine.xcframework"
-    ],
-    "version": "1.0.8"
+  "name": "GZLJSEngine",
+  "version": "1.0.8",
+  "summary": "JS引擎封装，桥接多个JS引擎",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLJSEngine-1.0.8.1.zip",
+    "type": "zip",
+    "sha1": "c35c31d7ac8f0f1261873968a21231230884dd7f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "JavaScriptCore",
+  "vendored_frameworks": [
+    "Build/GZLJSEngine.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLJSEngine.xcframework/ios-arm64_armv7/GZLJSEngine.framework/Headers/*"
+  ]
 }

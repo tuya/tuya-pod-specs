@@ -1,38 +1,42 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "dependencies": {
-        "TUNIAPIManagerKit": [],
-        "YYModel": []
-    },
-    "description": "TODO: Add long description of the pod here.",
-    "frameworks": [
-        "AudioToolbox",
-        "UIKit"
+  "name": "TUNIPhoneVibrateManager",
+  "version": "1.0.1-anonymize.2",
+  "summary": "A short description of TUNIPhoneVibrateManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneVibrateManager-1.0.1-anonymize.2.1.zip",
+    "type": "zip",
+    "sha1": "3f8e4604e71a9b58be11ac3b0745f24b1099a10d"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "AudioToolbox",
+    "UIKit"
+  ],
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
     ],
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "TUNIPhoneVibrateManager",
-    "platforms": {
-        "ios": "9.0"
-    },
-    "pod_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneVibrateManager-1.0.1-anonymize.2.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of TUNIPhoneVibrateManager.",
-    "user_target_xcconfig": {
-        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-    },
-    "vendored_frameworks": [
-        "TUNIPhoneVibrateManager.xcframework"
-    ],
-    "version": "1.0.1-anonymize.2"
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneVibrateManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

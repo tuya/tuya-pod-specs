@@ -1,22 +1,23 @@
 {
-    "authors": {
-        "TuyaInc": "https://developer.tuya.com/"
-    },
-    "cocoapods_version": ">= 1.10",
-    "description": "TODO: Add long description of the pod here.",
-    "homepage": "https://github.com/tuya",
-    "license": "none",
-    "name": "ThingGeofenceServiceAPI",
-    "platforms": {
-        "ios": "10.0"
-    },
-    "source": {
-        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGeofenceServiceAPI-1.1.0.zip",
-        "type": "zip"
-    },
-    "summary": "A short description of ThingGeofenceServiceAPI.",
-    "vendored_frameworks": [
-        "ThingGeofenceServiceAPI.xcframework"
-    ],
-    "version": "1.1.0"
+  "name": "ThingGeofenceServiceAPI",
+  "version": "1.1.0",
+  "summary": "A short description of ThingGeofenceServiceAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGeofenceServiceAPI-1.1.0.1.zip",
+    "type": "zip",
+    "sha1": "01b00e0b66d5d71491023020d76383eaa98cb5a4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingGeofenceServiceAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
 }

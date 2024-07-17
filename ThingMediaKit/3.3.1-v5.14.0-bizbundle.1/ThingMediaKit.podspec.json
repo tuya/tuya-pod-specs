@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMediaKit-3.3.1-v5.14.0-bizbundle.1.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "3ae6b936c24abb4d8ac6e05e3d4eeef857c8b5b7"
   },
   "platforms": {
     "ios": "9.0"

@@ -9,7 +9,8 @@
   },
   "source": {
     "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailModule-2.25.0.1.zip",
-    "type": "zip"
+    "type": "zip",
+    "sha1": "6c07698266fe64a4304108bee51250d72219e545"
   },
   "platforms": {
     "ios": "9.0"
