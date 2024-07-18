@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotoLibraryBizKit-3.34.7-anonymize.4.1-c6fba0.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotoLibraryBizKit-3.34.7-anonymize.4.1-4758fc.zip",
     "type": "zip",
-    "sha1": "f5f5be4804f0608f1413d2fa9dccdbf9b9ff0d28"
+    "sha1": "03f404c8c72abbd541f538b7b9b5d6bccf5f9618"
   },
   "platforms": {
     "ios": "9.0"

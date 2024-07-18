@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEInterfaceImpl-0.16.1.1-7ea0c5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEInterfaceImpl-0.16.1.1-239b06.zip",
     "type": "zip",
-    "sha1": "46925622c5b4cba43ac94651bc494a655d0c8762"
+    "sha1": "26202c0530a70320e22f6b6ae41a874b8173771b"
   },
   "platforms": {
     "ios": "10.0"

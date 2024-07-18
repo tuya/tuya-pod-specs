@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeDataManager-1.3.1.1-d7711f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeDataManager-1.3.1.1-e7e567.zip",
     "type": "zip",
-    "sha1": "4c248567e566afcca771eaea713b61777d3ec68b"
+    "sha1": "1cc99497759c0f1f80c31d0f28ff33ed5c95c1f4"
   },
   "platforms": {
     "ios": "9.0"

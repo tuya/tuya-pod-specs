@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIFontManager-1.0.2-anonymize.1.1-a155fc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIFontManager-1.0.2-anonymize.1.1-f93a27.zip",
     "type": "zip",
-    "sha1": "9a9b2b57ee61d84fa4982b1e52730687a3ff6668"
+    "sha1": "9eb2fbf3ed12d186f10eb1be36ac8f54a2e7cba7"
   },
   "platforms": {
     "ios": "9.0"

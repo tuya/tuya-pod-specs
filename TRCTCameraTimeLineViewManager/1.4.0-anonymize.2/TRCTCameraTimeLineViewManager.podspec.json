@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraTimeLineViewManager-1.4.0-anonymize.2.1-7511cb.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraTimeLineViewManager-1.4.0-anonymize.2.1-52f9f3.zip",
     "type": "zip",
-    "sha1": "0a54b197ce518999027cbf9a7690a6896607e13e"
+    "sha1": "7088104430bd451c216d9b8d3a2604c7295dcff9"
   },
   "platforms": {
     "ios": "9.0"

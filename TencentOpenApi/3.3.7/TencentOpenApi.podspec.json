@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TencentOpenApi-3.3.7.1-64a04d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TencentOpenApi-3.3.7.1-0ac1b3.zip",
     "type": "zip",
-    "sha1": "497174ffd345d0d942bbc274551a6462c78c2727"
+    "sha1": "12bde8da43b988e9514565eee45531cb8f493f99"
   },
   "platforms": {
     "ios": "9.0"

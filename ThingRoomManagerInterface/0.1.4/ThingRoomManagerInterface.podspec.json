@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRoomManagerInterface-0.1.4.1-ff968f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRoomManagerInterface-0.1.4.1-397384.zip",
     "type": "zip",
-    "sha1": "4919d0032fd0f562646d5d98b90a7ae2b2bf251f"
+    "sha1": "399a2e8f952f9282c74af27e19033296dba65f87"
   },
   "platforms": {
     "ios": "10.0"

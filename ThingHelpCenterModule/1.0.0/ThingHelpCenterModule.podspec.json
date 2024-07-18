@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHelpCenterModule-1.0.0.1-4d247d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHelpCenterModule-1.0.0.1-1ef225.zip",
     "type": "zip",
-    "sha1": "e0684d30745c84d1929b90c61fccc26de2b07260"
+    "sha1": "2782aed311794010a9558c2ab782a43d91124405"
   },
   "platforms": {
     "ios": "9.0"

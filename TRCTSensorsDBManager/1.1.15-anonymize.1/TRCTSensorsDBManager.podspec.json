@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSensorsDBManager-1.1.15-anonymize.1.1-344ec5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSensorsDBManager-1.1.15-anonymize.1.1-6bebdf.zip",
     "type": "zip",
-    "sha1": "5f4b8a1f5ab73c02cce8ce762dbd94bf3aaa40fc"
+    "sha1": "f00627f20c0ecead5d7b91f20ba6d7313e16e57a"
   },
   "platforms": {
     "ios": "9.0"

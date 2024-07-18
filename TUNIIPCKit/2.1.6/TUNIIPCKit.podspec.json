@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCKit-2.1.6.1-91685e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCKit-2.1.6.1-a16105.zip",
     "type": "zip",
-    "sha1": "06e7f8a73b40098426a01e9a9c8a7eb7e220300f"
+    "sha1": "8aa5a08d8b79d1571b47704a31503bf7d08b3684"
   },
   "resource_bundles": {
     "TUNIIPCKit": [

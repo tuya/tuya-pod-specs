@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIP2PKit-2.1.1.1-d4db0e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIP2PKit-2.1.1.1-02a898.zip",
     "type": "zip",
-    "sha1": "1510644b360fc87bfaabe504cb33538ff2258e50"
+    "sha1": "d0145473ac696fd387e00be3dde9b10e63a9073d"
   },
   "resource_bundles": {
     "TUNIP2PKit": [

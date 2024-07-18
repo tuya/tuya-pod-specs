@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpaceInfoSktAPI-1.5.0.1-5aa73b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpaceInfoSktAPI-1.5.0.1-c4ce16.zip",
     "type": "zip",
-    "sha1": "4add0543b3148fd6cffd12b988bdca8c3bd76c9f"
+    "sha1": "03b2e0981be1dd86a691479fac02c4b235d7ca08"
   },
   "platforms": {
     "ios": "9.0"

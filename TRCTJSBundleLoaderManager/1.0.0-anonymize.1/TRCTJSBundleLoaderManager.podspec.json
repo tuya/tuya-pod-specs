@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTJSBundleLoaderManager-1.0.0-anonymize.1.1-28e1c3.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTJSBundleLoaderManager-1.0.0-anonymize.1.1-8dc224.zip",
     "type": "zip",
-    "sha1": "12df1fce63b6171ff1bec69243937c6d58dec7f3"
+    "sha1": "bc481ffe24471e67a2d419b349b202680ce2e3de"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetPoolModule-1.5.0.1-b55bdb.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetPoolModule-1.5.0.1-5e9c12.zip",
     "type": "zip",
-    "sha1": "88d035e9de0c4744c97a25654c992ff70770b654"
+    "sha1": "b89411b4543cb40d1957d8058e4a2b1ca2432267"
   },
   "platforms": {
     "ios": "9.0"

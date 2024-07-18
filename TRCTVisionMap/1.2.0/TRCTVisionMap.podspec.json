@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTVisionMap-1.2.0.1-d24b1e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTVisionMap-1.2.0.1-d14c08.zip",
     "type": "zip",
-    "sha1": "dc55633122af38edf17bacac5b0882eb0075d714"
+    "sha1": "bb0eee1e2b1a880b8b4cbfda452b61048d2affd9"
   },
   "platforms": {
     "ios": "9.0"

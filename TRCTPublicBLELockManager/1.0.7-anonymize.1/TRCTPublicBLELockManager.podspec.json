@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLELockManager-1.0.7-anonymize.1.1-b1d6ad.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLELockManager-1.0.7-anonymize.1.1-068a52.zip",
     "type": "zip",
-    "sha1": "bf4d12ddb56c4cb26daef3d71a916c611bad6dcf"
+    "sha1": "582e8c12c44fe0bd80f6b127e39861bf08e53eda"
   },
   "platforms": {
     "ios": "9.0"

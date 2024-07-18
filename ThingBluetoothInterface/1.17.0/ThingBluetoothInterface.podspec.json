@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothInterface-1.17.0.1-d8cb11.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothInterface-1.17.0.1-b7164b.zip",
     "type": "zip",
-    "sha1": "b9e495d87996534093deca0e0f5cfdf4ed40dbac"
+    "sha1": "9937e5f5085ffa8f9226ee7cb190f433277e49a9"
   },
   "platforms": {
     "ios": "9.0"

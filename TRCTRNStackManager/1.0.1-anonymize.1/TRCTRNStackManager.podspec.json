@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRNStackManager-1.0.1-anonymize.1.1-d4706f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRNStackManager-1.0.1-anonymize.1.1-ffb310.zip",
     "type": "zip",
-    "sha1": "9beaae8bb9fe08fd41325c8221d4e53b26cead51"
+    "sha1": "2ac1f7eb906304efe4ea07c844d27f4e54870527"
   },
   "platforms": {
     "ios": "9.0"

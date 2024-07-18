@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTopBar-1.2.0.1-60e98d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTopBar-1.2.0.1-e1e083.zip",
     "type": "zip",
-    "sha1": "868eaf0d0f90567e34158cea159804e52c84e1c5"
+    "sha1": "bff2561c4dc45fb3db3da9d4f0d2acc29c369a8b"
   },
   "platforms": {
     "ios": "9.0"

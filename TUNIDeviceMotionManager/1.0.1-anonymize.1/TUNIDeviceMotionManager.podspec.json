@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceMotionManager-1.0.1-anonymize.1.1-08333e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceMotionManager-1.0.1-anonymize.1.1-f09472.zip",
     "type": "zip",
-    "sha1": "5e397005288ca4132378ede25c110e31b5e30402"
+    "sha1": "a0ca5d226b9f673ba5776857ffce869a789a11bd"
   },
   "platforms": {
     "ios": "9.0"

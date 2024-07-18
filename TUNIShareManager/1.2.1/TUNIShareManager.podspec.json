@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIShareManager-1.2.1.1-5559a8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIShareManager-1.2.1.1-fe3242.zip",
     "type": "zip",
-    "sha1": "f638a31385742e5ed229157d28d759cf4abbbc2c"
+    "sha1": "6900a2d98caf5f57387cebb11376f9620f24da60"
   },
   "platforms": {
     "ios": "10.0"

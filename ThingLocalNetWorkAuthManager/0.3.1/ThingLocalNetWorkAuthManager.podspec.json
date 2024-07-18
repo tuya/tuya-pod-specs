@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocalNetWorkAuthManager-0.3.1.1-2c8948.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocalNetWorkAuthManager-0.3.1.1-961af5.zip",
     "type": "zip",
-    "sha1": "20ff5091fb8f93dcb27baba90194759df4688a5e"
+    "sha1": "8a582dae706086a7e148633086fe385c60ed90b7"
   },
   "platforms": {
     "ios": "9.0"

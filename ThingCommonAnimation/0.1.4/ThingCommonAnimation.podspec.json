@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonAnimation-0.1.4.1-9d1c00.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonAnimation-0.1.4.1-90191c.zip",
     "type": "zip",
-    "sha1": "a5a3ccfe4436fdfc0b4a5206117eb3da93e0e2c0"
+    "sha1": "8fb27328de456b4bc99281feb8caadc65a4f7467"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImageNetworkManager-1.1.2.1-8746cf.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImageNetworkManager-1.1.2.1-da2b03.zip",
     "type": "zip",
-    "sha1": "558c1e81832de3dd0e3f84ea3a4b8e0ae4fa934c"
+    "sha1": "48a9aace77ec66ed5ad6e5287a9918287567e602"
   },
   "platforms": {
     "ios": "10.0"

@@ -11,9 +11,9 @@
     "ios": "8.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNViewShot-2.3.0.5.1-a0f936.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNViewShot-2.3.0.5.1-42f3ea.zip",
     "type": "zip",
-    "sha1": "c69f7dd767d757686524dc22963cc9977812001d"
+    "sha1": "f9b31c0d6083f665dae957ed48c497d0cf9fa361"
   },
   "preserve_paths": "**/*.js",
   "frameworks": [

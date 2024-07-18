@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCloudStorageSignatureTools-1.2.1.1-e4efca.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCloudStorageSignatureTools-1.2.1.1-8120d9.zip",
     "type": "zip",
-    "sha1": "69ed6107bd73f0e42549226a8e5ecc7b573e6c43"
+    "sha1": "ac7525a10f3bb2f4aea4a1ccfdd63caf4af56b56"
   },
   "platforms": {
     "ios": "9.0"

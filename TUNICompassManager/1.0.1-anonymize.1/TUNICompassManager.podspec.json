@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICompassManager-1.0.1-anonymize.1.1-9be9db.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICompassManager-1.0.1-anonymize.1.1-b4fb79.zip",
     "type": "zip",
-    "sha1": "db76b846822cd8db264f200f3da4e6c65e29b442"
+    "sha1": "9daca6aaf9ce5693987899b1b63233bebc09065e"
   },
   "platforms": {
     "ios": "9.0"

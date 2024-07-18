@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLogMacro-0.3.5.1-54ea51.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLogMacro-0.3.5.1-df0722.zip",
     "type": "zip",
-    "sha1": "1ea53afa5cfa975a47a6dfe5e2c521f4b3b56c1e"
+    "sha1": "a880cdd01bfb61778260c5c8b26c1f920e0f35f9"
   },
   "swift_versions": "5.0",
   "platforms": {

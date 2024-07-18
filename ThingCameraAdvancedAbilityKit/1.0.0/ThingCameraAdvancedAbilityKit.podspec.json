@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraAdvancedAbilityKit-1.0.0.1-2a95ae.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraAdvancedAbilityKit-1.0.0.1-80a715.zip",
     "type": "zip",
-    "sha1": "60612098a4a5956bedfd7d138de63b24aab482ba"
+    "sha1": "764b8bcfd9ecc43e3d976140bdc1f09e6a38f53e"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHapticsManager-1.0.2-anonymize.2.1-14cc95.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHapticsManager-1.0.2-anonymize.2.1-82f138.zip",
     "type": "zip",
-    "sha1": "be65c88c40b5ea2c8df4b2e9137a863a3a511a90"
+    "sha1": "78497d69d2bb64ab0087cf4d28eb11cd6075fe81"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2PAlbumBizKit-2.1.12.1-d8cb84.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2PAlbumBizKit-2.1.12.1-5ebb5d.zip",
     "type": "zip",
-    "sha1": "3d223a8fd3af5c4efa915280b00a16cbee8cef1a"
+    "sha1": "90b4c52bb3b712e8da065a9725dde0747e17fc0f"
   },
   "platforms": {
     "ios": "9.0"

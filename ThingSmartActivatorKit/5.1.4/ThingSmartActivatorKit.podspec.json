@@ -8,7 +8,7 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorKit-5.1.4.1-5754ca.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorKit-5.1.4.1-ffefcd.zip",
     "type": "zip",
     "sha1": "999ae96857ab31f072f35ed4c18aafc3aedcf801"
   },

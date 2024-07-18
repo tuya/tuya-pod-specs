@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocialAPI-1.0.3.1-745da4.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocialAPI-1.0.3.1-f59df9.zip",
     "type": "zip",
-    "sha1": "ca01b78dbcac6506816583b754960cccf2b30128"
+    "sha1": "eb54ff0cf8333a7f175c3a92e05cc067cfe06193"
   },
   "platforms": {
     "ios": "10.0"

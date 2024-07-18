@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTResourceManager-5.6.0.1-b37821.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTResourceManager-5.6.0.1-83640d.zip",
     "type": "zip",
-    "sha1": "22ede93b8f9404faf7ef2e324e067ec4433800d0"
+    "sha1": "239c06b59f336b33b9af79f987c68e8939662d3a"
   },
   "platforms": {
     "ios": "9.0"

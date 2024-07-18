@@ -11,9 +11,9 @@
     "ios": "11.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniKit-3.11.0.1-b3d92d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniKit-3.11.0.1-23bb81.zip",
     "type": "zip",
-    "sha1": "69479d0d8c660997e48e7a927f595b40bbdfb2f2"
+    "sha1": "8999cb5f562714346cd3ea966dcc4f2d943f38d4"
   },
   "resource_bundles": {
     "TUNIMiniKit": [

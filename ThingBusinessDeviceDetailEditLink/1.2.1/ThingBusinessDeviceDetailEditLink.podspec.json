@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceDetailEditLink-1.2.1.1-f591ce.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceDetailEditLink-1.2.1.1-bfa6c8.zip",
     "type": "zip",
-    "sha1": "7a0b167e5ba08025a01b5ce48eebe56c1f6037fc"
+    "sha1": "0ec81cf368de0053bcaef21697fdcb0818c41dc5"
   },
   "platforms": {
     "ios": "9.0"

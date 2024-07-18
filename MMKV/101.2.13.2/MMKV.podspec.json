@@ -12,9 +12,9 @@
     "osx": "10.9"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/MMKV-101.2.13.2.1-e3ef94.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/MMKV-101.2.13.2.1-55c198.zip",
     "type": "zip",
-    "sha1": "bf7852044448c12cf62391d6ee9fdb7742fab343"
+    "sha1": "d0ab988822eb76d208e331a2ae881a1c194ca451"
   },
   "frameworks": "CoreFoundation",
   "libraries": [

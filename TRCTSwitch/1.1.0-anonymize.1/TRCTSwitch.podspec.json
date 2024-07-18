@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSwitch-1.1.0-anonymize.1.1-9760ad.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSwitch-1.1.0-anonymize.1.1-b59d74.zip",
     "type": "zip",
-    "sha1": "b9f09c2c17e6ebe53ef57ae59ce7ded13f26fd27"
+    "sha1": "49267070d1531ebaa88e6dee7a6ff8b4baf300a6"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioSpectruManager-5.4.0.1-f8c22b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioSpectruManager-5.4.0.1-13a9cd.zip",
     "type": "zip",
-    "sha1": "793d74ed045090cec46b90b158f1eae5ed5a73e3"
+    "sha1": "2b792dd056aec68e512d025e5acc561c0a4fac81"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageMediaPlayerManager-1.0.1-anonymize.1.1-fe3125.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageMediaPlayerManager-1.0.1-anonymize.1.1-e24d3a.zip",
     "type": "zip",
-    "sha1": "f6342767bc39c16c20748527280c24cd4fe7c3fc"
+    "sha1": "5027b3030ede33d9c8566f27f871ab683fe1a3d7"
   },
   "platforms": {
     "ios": "9.0"

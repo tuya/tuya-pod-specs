@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetdbInterceptor-1.2.0.1-0bfe1d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetdbInterceptor-1.2.0.1-f13776.zip",
     "type": "zip",
-    "sha1": "c57a7f29d658a298fa404ae2a58e3d194cefbda1"
+    "sha1": "7d151a64500607ba02ae495025fa39603ede8992"
   },
   "platforms": {
     "ios": "9.0"

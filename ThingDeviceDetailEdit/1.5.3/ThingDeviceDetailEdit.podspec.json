@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailEdit-1.5.3.1-77a9ef.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailEdit-1.5.3.1-6fdc12.zip",
     "type": "zip",
-    "sha1": "ede497b46efe88b112720f7a5207faff4fc8eb6e"
+    "sha1": "7011b615749ec90661cd8166b0512e97bbc8a316"
   },
   "platforms": {
     "ios": "11.0"

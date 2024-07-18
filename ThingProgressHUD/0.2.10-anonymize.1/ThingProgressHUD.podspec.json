@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingProgressHUD-0.2.10-anonymize.1.1-cbe1bb.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingProgressHUD-0.2.10-anonymize.1.1-e379b0.zip",
     "type": "zip",
-    "sha1": "4dc6d1c505be78b6942855d88622bc8c2c713ce1"
+    "sha1": "c970e075797bf5a4e18ea86ca4cff565d766d0e2"
   },
   "platforms": {
     "ios": "9.0"

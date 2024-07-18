@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIScanCodeManager-4.8.1.1-59fa12.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIScanCodeManager-4.8.1.1-d4744b.zip",
     "type": "zip",
-    "sha1": "bb8a1b72bfcff78b603044355516fdcfa7706463"
+    "sha1": "f0dba69c8d7ad4ba7b94892feadea1fd2ebae515"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGZLTabBarManager-3.0.0-rc.3.1-2b783a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGZLTabBarManager-3.0.0-rc.3.1-431d16.zip",
     "type": "zip",
-    "sha1": "a752a0f4df00aaf4e07436ae53ffb172af6512c6"
+    "sha1": "07ba094e361aac000ecd7e95a65bc95e250e8453"
   },
   "platforms": {
     "ios": "9.0"

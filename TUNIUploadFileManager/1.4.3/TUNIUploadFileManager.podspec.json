@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIUploadFileManager-1.4.3.1-4d5abe.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIUploadFileManager-1.4.3.1-170d23.zip",
     "type": "zip",
-    "sha1": "30bc097870c0ac43bf2387d0fb57c22c78f6c0f1"
+    "sha1": "9fb3eea8e4770fa9e591f1057a5bd295d4bdc657"
   },
   "platforms": {
     "ios": "9.0"

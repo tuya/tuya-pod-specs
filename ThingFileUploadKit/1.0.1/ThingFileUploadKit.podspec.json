@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileUploadKit-1.0.1.1-154b83.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileUploadKit-1.0.1.1-a25e22.zip",
     "type": "zip",
-    "sha1": "54abe65f6be61a0dea4902166d31d9aae9310d1d"
+    "sha1": "6fcd75ccb599d24815163d10855c42947c86fe75"
   },
   "platforms": {
     "ios": "10.0"

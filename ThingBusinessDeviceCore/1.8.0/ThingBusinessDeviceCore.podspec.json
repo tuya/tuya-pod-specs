@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceCore-1.8.0.1-70ae61.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceCore-1.8.0.1-0f539a.zip",
     "type": "zip",
-    "sha1": "d3db9baff3ff6a96bed6ab494dfa40f8ec223061"
+    "sha1": "782c36d5b72347336cf62ebe4ba5b34da5da3009"
   },
   "platforms": {
     "ios": "9.0"

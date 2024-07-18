@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMediaTools-0.1.0-anonymize2.1.1-856840.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMediaTools-0.1.0-anonymize2.1.1-a18e79.zip",
     "type": "zip",
-    "sha1": "b226b888dc1163d2afbd19bf20fc26d3b6271d79"
+    "sha1": "4ff91a7c4fab1698366177f9bb83355ad4ce0537"
   },
   "platforms": {
     "ios": "9.0"

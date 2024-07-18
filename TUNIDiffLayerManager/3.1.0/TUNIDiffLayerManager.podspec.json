@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffLayerManager-3.1.0.1-567bb6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffLayerManager-3.1.0.1-75fd99.zip",
     "type": "zip",
-    "sha1": "fee2092fbf99a56182053e8e1f54fde4c2725724"
+    "sha1": "fc76f6c84138f83079f4b1807063294630c615ef"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNISiriManager-1.0.4.1-34383f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNISiriManager-1.0.4.1-2a8be5.zip",
     "type": "zip",
-    "sha1": "b32a3646384383601421a549978a22916791080f"
+    "sha1": "3eba3287ccb042ec47050a356c6504fefb54a559"
   },
   "platforms": {
     "ios": "10.0"

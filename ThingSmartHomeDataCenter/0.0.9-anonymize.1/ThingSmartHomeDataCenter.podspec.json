@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeDataCenter-0.0.9-anonymize.1.1-67a2dd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeDataCenter-0.0.9-anonymize.1.1-a30ec6.zip",
     "type": "zip",
-    "sha1": "2db017dcb7696850ce2cc2dbe026f9af0be74a2b"
+    "sha1": "76ad1d3f17d00492d0721d5daec4f016e08aa969"
   },
   "platforms": {
     "ios": "9.0"

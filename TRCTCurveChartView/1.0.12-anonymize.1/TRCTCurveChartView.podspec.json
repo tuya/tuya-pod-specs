@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCurveChartView-1.0.12-anonymize.1.1-137693.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCurveChartView-1.0.12-anonymize.1.1-038bd6.zip",
     "type": "zip",
-    "sha1": "c0defde78362d6547dc7aa5b7829893518b5f739"
+    "sha1": "51404b3110e25482e8b001e2c5adb03d6c4f654b"
   },
   "platforms": {
     "ios": "9.0"

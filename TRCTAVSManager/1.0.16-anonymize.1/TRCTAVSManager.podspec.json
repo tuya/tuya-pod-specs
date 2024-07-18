@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAVSManager-1.0.16-anonymize.1.1-aed7ea.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAVSManager-1.0.16-anonymize.1.1-ffe57f.zip",
     "type": "zip",
-    "sha1": "10dba91c9d5a4179b9e6a61855d5a39e671dbc4b"
+    "sha1": "3f4ec85841fa4618bf27ebf0d3bde864a6f63c64"
   },
   "platforms": {
     "ios": "9.0"

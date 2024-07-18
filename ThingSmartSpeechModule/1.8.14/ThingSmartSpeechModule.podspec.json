@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSpeechModule-1.8.14.1-8b3fab.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSpeechModule-1.8.14.1-9d07de.zip",
     "type": "zip",
-    "sha1": "2da289ab59183914775b0d34059cd7ced138561a"
+    "sha1": "a117a6920311b9fdea846422abdbbbbc1663cbdd"
   },
   "platforms": {
     "ios": "9.0"

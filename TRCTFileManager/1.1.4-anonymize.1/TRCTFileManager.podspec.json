@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFileManager-1.1.4-anonymize.1.1-f1cf66.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFileManager-1.1.4-anonymize.1.1-1302f5.zip",
     "type": "zip",
-    "sha1": "c227ca3264d37663072313ff252eeb37ee56a2c6"
+    "sha1": "7bd3861e4032e2b3e380d8d5098626ce732daf21"
   },
   "platforms": {
     "ios": "9.0"

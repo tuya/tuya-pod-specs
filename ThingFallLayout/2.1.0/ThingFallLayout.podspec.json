@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFallLayout-2.1.0.1-9a1c9e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFallLayout-2.1.0.1-76909a.zip",
     "type": "zip",
-    "sha1": "81dd18de746aa502866ab5323a56e06f01fdb5a7"
+    "sha1": "59e0c27f827f48fe1f05a34cae8b56989d97c96b"
   },
   "platforms": {
     "ios": "9.0"

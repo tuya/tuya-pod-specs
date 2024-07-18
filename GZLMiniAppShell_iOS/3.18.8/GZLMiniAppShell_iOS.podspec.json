@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppShell_iOS-3.18.8.1-bd299e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppShell_iOS-3.18.8.1-00848f.zip",
     "type": "zip",
-    "sha1": "90332cc97d52888aa03b909f8e893e6440d7e200"
+    "sha1": "a432f8248f99deb8914bfc802895643e9fa18902"
   },
   "dependencies": {
     "GodzillaMiniBaseKit": [

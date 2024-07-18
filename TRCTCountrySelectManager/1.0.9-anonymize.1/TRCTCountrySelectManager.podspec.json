@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCountrySelectManager-1.0.9-anonymize.1.1-da3aa9.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCountrySelectManager-1.0.9-anonymize.1.1-6cefa9.zip",
     "type": "zip",
-    "sha1": "25db278a9abf211273925fdb94292c69d6afc21c"
+    "sha1": "5ad865f7c37dc6409d04dabb3b132ff72f54a6b2"
   },
   "platforms": {
     "ios": "9.0"

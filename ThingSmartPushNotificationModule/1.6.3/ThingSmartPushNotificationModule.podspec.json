@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPushNotificationModule-1.6.3.1-7ecbc7.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPushNotificationModule-1.6.3.1-d4c5ab.zip",
     "type": "zip",
-    "sha1": "5f2cfad51673ed616a22e827b8ff7adc44bd6a88"
+    "sha1": "846603a541f784fb069ac5f674828299cc50d932"
   },
   "platforms": {
     "ios": "9.0"

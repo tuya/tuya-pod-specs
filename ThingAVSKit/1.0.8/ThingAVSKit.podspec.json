@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAVSKit-1.0.8.1-2cb98f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAVSKit-1.0.8.1-841575.zip",
     "type": "zip",
-    "sha1": "9c1b78d43336e479dfbcc4667c4150c3225fe40a"
+    "sha1": "bb479e1fae65a520793c1898fd90344481ddd3c4"
   },
   "platforms": {
     "ios": "9.0"

@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNApi-5.85.12-v5.85.0-bizbundle.1.1-f9d6fe.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNApi-5.85.12-v5.85.0-bizbundle.1.1-ea053e.zip",
     "type": "zip",
-    "sha1": "96ec7321c325a43f223420f1c438906d5d897a1d"
+    "sha1": "5f55da1d95c9e906675a0fae2596cdb1428835ad"
   },
   "default_subspecs": "Core",
   "subspecs": [

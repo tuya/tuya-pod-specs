@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGIDManager-1.0.2-anonymize.1.1-b8f1ae.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGIDManager-1.0.2-anonymize.1.1-404211.zip",
     "type": "zip",
-    "sha1": "ed647dc72ccf8d404df1d397c6a6eedafb3bde0d"
+    "sha1": "2e1d37529eabaf9233d4bda3c8b72b55705d4fcb"
   },
   "platforms": {
     "ios": "9.0"

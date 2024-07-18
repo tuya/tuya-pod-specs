@@ -13,9 +13,9 @@
     "watchos": "2.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/MMKVCore-101.2.14.1.1-cd6501.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/MMKVCore-101.2.14.1.1-6bde40.zip",
     "type": "zip",
-    "sha1": "789c17f87dbb2899a2826f9d6283fba9fb05a50a"
+    "sha1": "c5f7a5e73b1628a33300a465a1a7ebd2332de5e9"
   },
   "compiler_flags": "-x objective-c++",
   "requires_arc": [

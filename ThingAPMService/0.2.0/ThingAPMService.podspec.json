@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMService-0.2.0.1-8d96bd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMService-0.2.0.1-11d87c.zip",
     "type": "zip",
-    "sha1": "b253bf78d3d43231b72dd284e0fa0833fec95652"
+    "sha1": "7f89b69b4df1b908691850f9b5a89a70b714d51c"
   },
   "platforms": {
     "ios": "10.0"

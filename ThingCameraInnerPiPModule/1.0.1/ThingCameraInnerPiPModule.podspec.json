@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraInnerPiPModule-1.0.1.1-4b56bb.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraInnerPiPModule-1.0.1.1-d48930.zip",
     "type": "zip",
-    "sha1": "be51916cca071877c266c5ec7cc27a64c145799e"
+    "sha1": "9a8a48174553db06b108172d6e40cf4f9e9eccb8"
   },
   "platforms": {
     "ios": "10.0"

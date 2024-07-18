@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAlertView-1.2.5-f52ff7.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAlertView-1.2.5-0e723c.zip",
     "type": "zip",
-    "sha1": "d60fe2a13c02ca1853ddc258f79af3c75469f5a8"
+    "sha1": "2470a184bbf2d00f7c2b6109a34d4a0dd5762eb4"
   },
   "platforms": {
     "ios": "9.0"

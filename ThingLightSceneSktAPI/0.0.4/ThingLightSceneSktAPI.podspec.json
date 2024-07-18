@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneSktAPI-0.0.4.1-97d7bf.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneSktAPI-0.0.4.1-511035.zip",
     "type": "zip",
-    "sha1": "c998a75ea251b58ac6c473874fece371eddbad0e"
+    "sha1": "b6c8401d08c6dae6d9e777803dffd8e82e32fd3b"
   },
   "platforms": {
     "ios": "9.0"

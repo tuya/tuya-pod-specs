@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2pFileTransSDK-1.3.0.1-ea40ce.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2pFileTransSDK-1.3.0.1-be424c.zip",
     "type": "zip",
-    "sha1": "d93e384e9bd0a7778ed984797fb788501cb510c6"
+    "sha1": "cf53b2cfe2ab1c9178a000908b1b8b284b886aa6"
   },
   "platforms": {
     "ios": "9.0"
