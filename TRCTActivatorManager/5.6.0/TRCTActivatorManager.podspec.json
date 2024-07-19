@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTActivatorManager-5.6.0.1-e55dc9.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTActivatorManager-5.6.0.1-1d8305.zip",
     "type": "zip",
-    "sha1": "015ff95ae2ce78fe5083f41d65da2a1597607cea"
+    "sha1": "1beeef57e9744c2b9aa0ee652bad2b1e8253c925"
   },
   "platforms": {
     "ios": "9.0"

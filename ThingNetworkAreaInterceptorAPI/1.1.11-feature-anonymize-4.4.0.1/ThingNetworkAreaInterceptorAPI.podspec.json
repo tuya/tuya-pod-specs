@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetworkAreaInterceptorAPI-1.1.11-feature-anonymize-4.4.0.1.1-546819.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetworkAreaInterceptorAPI-1.1.11-feature-anonymize-4.4.0.1.1-87f1c5.zip",
     "type": "zip",
-    "sha1": "ec2da068226d9e6bd5f10aa48fc84dd87c524e16"
+    "sha1": "70d757fb9bb6cca33d4006a89d78a1667edb9ed4"
   },
   "platforms": {
     "ios": "9.0"

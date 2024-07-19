@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAlertPickerComponent-0.3.3-anonymize.1.1-50f3b2.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAlertPickerComponent-0.3.3-anonymize.1.1-384e66.zip",
     "type": "zip",
-    "sha1": "63464092ea5542d7f0cf2516bee7a81d385fc272"
+    "sha1": "abb336812f06d24b6b8444e6442445263c49f59b"
   },
   "platforms": {
     "ios": "9.0"

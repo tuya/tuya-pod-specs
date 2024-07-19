@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGeofenceService-1.1.0.1-6a6f0a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGeofenceService-1.1.0.1-0b065c.zip",
     "type": "zip",
-    "sha1": "3bbb7d2bdb8b21a15f7da3cd48676dc87892a750"
+    "sha1": "2a763af2aba9b90a7d3eb2daf41ae0cfa1ade4c5"
   },
   "platforms": {
     "ios": "10.0"

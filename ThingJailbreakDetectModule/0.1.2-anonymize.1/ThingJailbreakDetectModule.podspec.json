@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.2-anonymize.1.1-0caace.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.2-anonymize.1.1-b24e5d.zip",
     "type": "zip",
-    "sha1": "98c405f4bca954689f6f887b7e2f5ca4ea5fcb72"
+    "sha1": "6758a1e905d7f4f6ca2de7ac25acf57c6bd4e20e"
   },
   "platforms": {
     "ios": "9.0"

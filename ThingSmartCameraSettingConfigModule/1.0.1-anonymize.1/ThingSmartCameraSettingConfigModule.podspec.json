@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraSettingConfigModule-1.0.1-anonymize.1.1-2b4010.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraSettingConfigModule-1.0.1-anonymize.1.1-d57d0c.zip",
     "type": "zip",
-    "sha1": "c2458a519db238016c6ac4faa7a80b9eb51ccc7d"
+    "sha1": "d2bf3eb0d6b38c2f43dc0f27483b5c8a2910aa35"
   },
   "platforms": {
     "ios": "10.0"

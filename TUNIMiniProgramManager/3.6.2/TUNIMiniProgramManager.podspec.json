@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniProgramManager-3.6.2.1-0eb253.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniProgramManager-3.6.2.1-bc79f9.zip",
     "type": "zip",
-    "sha1": "256d9cff376d72b410debda07b95e8ab437f6f7d"
+    "sha1": "58605e4f0708054b930a31c5956e90c062518222"
   },
   "platforms": {
     "ios": "9.0"

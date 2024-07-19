@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncControlModule-1.6.0.1-30741c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncControlModule-1.6.0.1-74ed0c.zip",
     "type": "zip",
-    "sha1": "8efb80bb89d809451642fbccc75560cdc77dd060"
+    "sha1": "98039ce0fa2d8997a46ea73519a239dba5c72f95"
   },
   "platforms": {
     "ios": "9.0"

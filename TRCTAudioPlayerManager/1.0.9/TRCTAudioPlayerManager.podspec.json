@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioPlayerManager-1.0.9.1-020a5f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioPlayerManager-1.0.9.1-4f3211.zip",
     "type": "zip",
-    "sha1": "f332c89b50c6e824bd9578f62aa772ede1d7abe4"
+    "sha1": "dafdba3dd64c845eeff61c1a97084680c56d6459"
   },
   "platforms": {
     "ios": "9.0"

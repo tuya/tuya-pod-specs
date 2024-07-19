@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCCameraManager-5.5.0.1-bb421d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCCameraManager-5.5.0.1-7d081f.zip",
     "type": "zip",
-    "sha1": "243777d4c9bb3ab53f65adbda9eabb382b783cd5"
+    "sha1": "f7904a6f838bbe77a8c26e1e78d04f3b17330289"
   },
   "platforms": {
     "ios": "10.0"

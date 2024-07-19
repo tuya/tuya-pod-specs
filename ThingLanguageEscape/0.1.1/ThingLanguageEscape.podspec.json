@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageEscape-0.1.1.1-654d69.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageEscape-0.1.1.1-c66b0f.zip",
     "type": "zip",
-    "sha1": "662b39bccde2469011bc470a0189af148b2a6306"
+    "sha1": "6f9a0147f6091a978fdbbdc4e4084324dc10fb52"
   },
   "platforms": {
     "ios": "10.0"

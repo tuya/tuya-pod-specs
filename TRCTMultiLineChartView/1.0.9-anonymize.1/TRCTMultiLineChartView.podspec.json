@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiLineChartView-1.0.9-anonymize.1.1-afe78f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiLineChartView-1.0.9-anonymize.1.1-3127a8.zip",
     "type": "zip",
-    "sha1": "957e38e47cc9140178fc27d3d0b9726ed382ecaf"
+    "sha1": "a9bf6bb0bf5a8d30783a890bb6753a62609c04e8"
   },
   "platforms": {
     "ios": "9.0"

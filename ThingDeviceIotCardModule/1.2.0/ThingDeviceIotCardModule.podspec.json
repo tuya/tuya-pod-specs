@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceIotCardModule-1.2.0.1-18b5b6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceIotCardModule-1.2.0.1-295e41.zip",
     "type": "zip",
-    "sha1": "78421e943a75100d0845e8d03d7bb440c7cf3d09"
+    "sha1": "865590173152adb7899b221d4b225af8461b2675"
   },
   "platforms": {
     "ios": "9.0"

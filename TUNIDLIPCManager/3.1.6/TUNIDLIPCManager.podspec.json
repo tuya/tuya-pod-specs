@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLIPCManager-3.1.6.1-2de00a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLIPCManager-3.1.6.1-3eb0dc.zip",
     "type": "zip",
-    "sha1": "fe0e48b204e1a02ce2dba854173841706cb384e5"
+    "sha1": "83c873f9357252de8a372702ae99ffe9a5fd43b9"
   },
   "platforms": {
     "ios": "9.0"

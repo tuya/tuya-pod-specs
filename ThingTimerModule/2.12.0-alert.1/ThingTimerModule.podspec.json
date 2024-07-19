@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTimerModule-2.12.0-alert.1.1-e736b1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTimerModule-2.12.0-alert.1.1-5d1c51.zip",
     "type": "zip",
-    "sha1": "eb4e9672aa2ac54fd71d80ce53d29a672d3bd5e8"
+    "sha1": "0c61cda1d3b1774ed40e8f5e1c55b11c8cf1c349"
   },
   "platforms": {
     "ios": "9.0"

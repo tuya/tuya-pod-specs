@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppInject-3.9.2.1-2437ad.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppInject-3.9.2.1-d6552f.zip",
     "type": "zip",
-    "sha1": "79e11fc7b1a0632d3c6bc924548b794d87f86489"
+    "sha1": "eb2c68de3b6b822845ea15e256c0d61d468c4329"
   },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",

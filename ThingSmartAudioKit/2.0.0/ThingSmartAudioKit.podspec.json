@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAudioKit-2.0.0.1-3fa5b7.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAudioKit-2.0.0.1-d0950e.zip",
     "type": "zip",
-    "sha1": "c55d76cb20922ae47602033b2403fed4533c1465"
+    "sha1": "59c0a30d7574a68f64a06f492e85ce75b4bd9d02"
   },
   "platforms": {
     "ios": "10.0"

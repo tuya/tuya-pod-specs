@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigrateSktAPI-1.2.0.1-23b6cf.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigrateSktAPI-1.2.0.1-d52c92.zip",
     "type": "zip",
-    "sha1": "5d3c7bc0521669773d54b564870101226d3ab744"
+    "sha1": "82490e32a19151226ba23b0c331a3154fd966585"
   },
   "platforms": {
     "ios": "9.0"

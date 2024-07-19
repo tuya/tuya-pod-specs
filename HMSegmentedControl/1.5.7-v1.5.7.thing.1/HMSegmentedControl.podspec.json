@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/HMSegmentedControl-1.5.7-v1.5.7.thing.1.1-49e001.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/HMSegmentedControl-1.5.7-v1.5.7.thing.1.1-bc082b.zip",
     "type": "zip",
-    "sha1": "199c715a5d118737db3de5626923d5b4e7abd95b"
+    "sha1": "5e5f2eaa25af3d864e04fe20be7fbcb907b855d0"
   },
   "platforms": {
     "ios": "7.0"

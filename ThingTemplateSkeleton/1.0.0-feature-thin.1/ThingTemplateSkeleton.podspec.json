@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.0-feature-thin.1.1-6cf51d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.0-feature-thin.1.1-d90be4.zip",
     "type": "zip",
-    "sha1": "3ebd6b22d79c009c58ca5c2884b52a7b71d36627"
+    "sha1": "856a2cf9a72321b3b96213f94e514c1f7821b465"
   },
   "platforms": {
     "ios": "9.0"

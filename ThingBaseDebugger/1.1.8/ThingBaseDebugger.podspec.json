@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBaseDebugger-1.1.8.1-f5aa9d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBaseDebugger-1.1.8.1-c8dba7.zip",
     "type": "zip",
-    "sha1": "d4e11b0b11da04a3b40c1b7bea857496a59985f0"
+    "sha1": "820bfa6ea87cd63be35f8ea3c1eb01b6810e3654"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLaserMap-1.9.13.1-e4be85.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLaserMap-1.9.13.1-239740.zip",
     "type": "zip",
-    "sha1": "13c0f771714aa3fd718238755242eb94da5daf36"
+    "sha1": "fbec63c42593d89083fe231f75af3f78f149c486"
   },
   "platforms": {
     "ios": "9.0"

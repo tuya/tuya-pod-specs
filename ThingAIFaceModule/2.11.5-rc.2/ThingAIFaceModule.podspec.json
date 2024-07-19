@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIFaceModule-2.11.5-rc.2.1-ff894e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIFaceModule-2.11.5-rc.2.1-76fa15.zip",
     "type": "zip",
-    "sha1": "defdbc3a114f8847d7beac5d7259e97ca0ad72b1"
+    "sha1": "3d0b95797b06a82cc7204853bffb6e2db1725f09"
   },
   "platforms": {
     "ios": "9.0"

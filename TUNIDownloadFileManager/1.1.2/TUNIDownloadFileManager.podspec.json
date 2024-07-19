@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDownloadFileManager-1.1.2.1-2b617b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDownloadFileManager-1.1.2.1-99d6a9.zip",
     "type": "zip",
-    "sha1": "061fb2a24993d8ba7c294d04101cdfa5aa15fdaa"
+    "sha1": "a71fced7c2512acad2e8f4e84186c1868d0f1ab8"
   },
   "platforms": {
     "ios": "9.0"

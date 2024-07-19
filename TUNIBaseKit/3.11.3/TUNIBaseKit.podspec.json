@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBaseKit-3.11.3.1-66f192.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBaseKit-3.11.3.1-be2e54.zip",
     "type": "zip",
-    "sha1": "fdb7b2b9b3d0f0a3c4e110fd099ca01808eb5580"
+    "sha1": "b975e2ed60f9270a2575056bc22339b81a6d7ca3"
   },
   "resource_bundles": {
     "TUNIBaseKit": [

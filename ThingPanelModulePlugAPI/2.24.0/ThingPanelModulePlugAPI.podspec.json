@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelModulePlugAPI-2.24.0.1-12729e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelModulePlugAPI-2.24.0.1-18a83e.zip",
     "type": "zip",
-    "sha1": "b71f0c42d0d2718d326afe5ccb41266f95bcb586"
+    "sha1": "6e95eafe1d767c9cf2ad6e6b6a759f4f7c88122c"
   },
   "platforms": {
     "ios": "10.0"

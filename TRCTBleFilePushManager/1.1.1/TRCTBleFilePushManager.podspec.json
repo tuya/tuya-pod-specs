@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleFilePushManager-1.1.1.1-571e65.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleFilePushManager-1.1.1.1-871cff.zip",
     "type": "zip",
-    "sha1": "79f02d71816e41467ddcdb2c8341d19747cd7f37"
+    "sha1": "6c9ee7dbb95687f1cc09bb2de01adff126434a9a"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPopupViewController-0.4.3.1-b7c84b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPopupViewController-0.4.3.1-73847b.zip",
     "type": "zip",
-    "sha1": "a953dac7f1a1f3f67e1f508470a9120a4a91e766"
+    "sha1": "6f89b3f511658f144a5f2492679b5e21be6fab63"
   },
   "platforms": {
     "ios": "9.0"

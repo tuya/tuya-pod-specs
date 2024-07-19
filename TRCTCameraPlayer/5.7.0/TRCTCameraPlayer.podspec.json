@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraPlayer-5.7.0.1-e55084.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraPlayer-5.7.0.1-042b2d.zip",
     "type": "zip",
-    "sha1": "0766a8d480c8bf1002c90eed83b0c7b0b6b71178"
+    "sha1": "817ec3280ed691d8d941a59bf7899ff7b67e3915"
   },
   "platforms": {
     "ios": "9.0"

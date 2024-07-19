@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUIConfigServices-0.1.11.1-4abc2d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUIConfigServices-0.1.11.1-578357.zip",
     "type": "zip",
-    "sha1": "be726413382eec35b414d4bedf2ae32121e0892b"
+    "sha1": "b51083305250e61e73bad654011acb523d702c85"
   },
   "platforms": {
     "ios": "8.0"

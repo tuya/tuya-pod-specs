@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTEncryptImageDownloadManager-1.1.6-anonymize.1.1-422d7b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTEncryptImageDownloadManager-1.1.6-anonymize.1.1-59a151.zip",
     "type": "zip",
-    "sha1": "a5c3099d58b13f9511caaa968664ec5eb9229579"
+    "sha1": "9279b30c5015f47ea14f8b3a4c2d23a4bc62e44a"
   },
   "platforms": {
     "ios": "9.0"

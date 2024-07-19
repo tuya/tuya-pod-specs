@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppRemoteIDE-3.14.0.1-7c79a8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppRemoteIDE-3.14.0.1-56d53a.zip",
     "type": "zip",
-    "sha1": "f95e3c5b8c89772bd1cec3194ad880d9953afcfa"
+    "sha1": "cb13cb709ddc484ef03319d35f2f59a835a348c7"
   },
   "platforms": {
     "ios": "9.0"

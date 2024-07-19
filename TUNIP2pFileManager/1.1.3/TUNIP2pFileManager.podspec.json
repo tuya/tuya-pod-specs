@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIP2pFileManager-1.1.3.1-2703f9.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIP2pFileManager-1.1.3.1-71d112.zip",
     "type": "zip",
-    "sha1": "a1d36afb3ce8542490620c4e59064c88277780e8"
+    "sha1": "abb6310ac7a5f9a54b02c1639a45a7693f85a7db"
   },
   "platforms": {
     "ios": "9.0"

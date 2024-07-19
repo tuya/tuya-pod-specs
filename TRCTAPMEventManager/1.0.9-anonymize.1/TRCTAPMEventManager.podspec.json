@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAPMEventManager-1.0.9-anonymize.1.1-076e7f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAPMEventManager-1.0.9-anonymize.1.1-042386.zip",
     "type": "zip",
-    "sha1": "1fa7d9021a65bd9c5f62e41b4d286eb8b7f01716"
+    "sha1": "09639a2584e742666730f9a0875320c926b07996"
   },
   "platforms": {
     "ios": "9.0"

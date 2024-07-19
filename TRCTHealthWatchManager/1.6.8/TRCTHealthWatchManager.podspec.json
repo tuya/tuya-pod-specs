@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthWatchManager-1.6.8.1-8105d0.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthWatchManager-1.6.8.1-946684.zip",
     "type": "zip",
-    "sha1": "5169dc18e963d0358016fe83acdaa28ad039bd01"
+    "sha1": "b5e0b773e4634b99e961ed9fbb0ab74e76af4ace"
   },
   "platforms": {
     "ios": "10.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTacticsManager-1.1.0.1-2092e5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTacticsManager-1.1.0.1-e31070.zip",
     "type": "zip",
-    "sha1": "d2b08279b24369543be3bcbba025a10f9e83ac55"
+    "sha1": "844d38e7132eab6031d310f9de6d604a420ee288"
   },
   "platforms": {
     "ios": "9.0"

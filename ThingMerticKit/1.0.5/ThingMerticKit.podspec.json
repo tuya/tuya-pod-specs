@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMerticKit-1.0.5.1-4541ba.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMerticKit-1.0.5.1-5998c1.zip",
     "type": "zip",
-    "sha1": "57081e9ef2e6468b59846ca76b531694a4064b04"
+    "sha1": "51825cd8769e903519a2762824a220be44dffc9a"
   },
   "platforms": {
     "ios": "9.0"

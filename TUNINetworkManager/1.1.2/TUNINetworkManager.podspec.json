@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINetworkManager-1.1.2.1-41c7fa.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINetworkManager-1.1.2.1-d38777.zip",
     "type": "zip",
-    "sha1": "34e1aa12f069d9db54ca05fb8ebfaef4b9694751"
+    "sha1": "ca2655af2cf27b815ff9b4f14658c4016bd0a08c"
   },
   "platforms": {
     "ios": "9.0"

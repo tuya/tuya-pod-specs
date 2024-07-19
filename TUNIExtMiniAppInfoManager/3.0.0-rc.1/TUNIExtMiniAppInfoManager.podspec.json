@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIExtMiniAppInfoManager-3.0.0-rc.1.1-3ed46c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIExtMiniAppInfoManager-3.0.0-rc.1.1-bfe154.zip",
     "type": "zip",
-    "sha1": "22f4784e18d09eab4b01f2a91d6a8bb6158f1656"
+    "sha1": "8cfc32378c611cf0a86ddef9a9452f9c878763e1"
   },
   "platforms": {
     "ios": "10.0"

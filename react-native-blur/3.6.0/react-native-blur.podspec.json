@@ -11,9 +11,9 @@
   "summary": "Component implementation for UIVisualEffectView's blur and vibrancy effect.",
   "homepage": "https://github.com/tuya",
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-blur-3.6.0.1-bbcfff.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-blur-3.6.0.1-7c424b.zip",
     "type": "zip",
-    "sha1": "9a86c34dec1fd2e4160382616cc316a9b383c7e6"
+    "sha1": "a98790ee3308103a0b24860bd3f8efe643e74216"
   },
   "dependencies": {
     "React": [

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotosAuthManager-0.1.6-anonymize.1.1-570d7b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotosAuthManager-0.1.6-anonymize.1.1-e1720f.zip",
     "type": "zip",
-    "sha1": "e55b8f389dc91bb37ab924b1e84d017a4330c079"
+    "sha1": "05c533873ec2e27d9e01abdce02407e3a3d51149"
   },
   "platforms": {
     "ios": "9.0"

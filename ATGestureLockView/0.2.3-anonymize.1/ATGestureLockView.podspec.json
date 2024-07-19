@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ATGestureLockView-0.2.3-anonymize.1.1-a5a4fa.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ATGestureLockView-0.2.3-anonymize.1.1-4f1bba.zip",
     "type": "zip",
-    "sha1": "9711a6017e2a5cbbea9f5f0b6b0c756647d73b4d"
+    "sha1": "ed3135259992ccab40710294035252482467b912"
   },
   "platforms": {
     "ios": "9.0"

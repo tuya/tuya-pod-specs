@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingConfigHub-1.2.1.1-abc43c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingConfigHub-1.2.1.1-781471.zip",
     "type": "zip",
-    "sha1": "2bcd948909d4d1693db75121da4bfc146bfe516d"
+    "sha1": "2f924fe2316751b60dfd37739cd538d2c488795f"
   },
   "platforms": {
     "ios": "11.0"

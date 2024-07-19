@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDIYHomeInterface-0.5.0.1-112198.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDIYHomeInterface-0.5.0.1-a7764a.zip",
     "type": "zip",
-    "sha1": "d75e7401bbff7afcc9ebe6bd18b8a10f4ba5966a"
+    "sha1": "df0f3d57687f6c239e00a9072b71d4ec23f830a6"
   },
   "platforms": {
     "ios": "11.0"

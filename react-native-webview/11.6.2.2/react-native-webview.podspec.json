@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-webview-11.6.2.2.1-f6f7b2.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-webview-11.6.2.2.1-8e3d15.zip",
     "type": "zip",
-    "sha1": "6a6c99a74fb425f2a66cd03bae39915e7adbccb4"
+    "sha1": "24ed41310b7c18aac545f52c24f9f3dada40ce83"
   },
   "dependencies": {
     "React": [

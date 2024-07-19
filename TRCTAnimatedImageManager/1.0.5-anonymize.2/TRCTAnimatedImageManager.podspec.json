@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAnimatedImageManager-1.0.5-anonymize.2.1-eb5987.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAnimatedImageManager-1.0.5-anonymize.2.1-a5e64c.zip",
     "type": "zip",
-    "sha1": "3429e1527635d187049faf0f2e543fd11b734cf7"
+    "sha1": "4cb6942b54a0f769a5ee666ef54a8f4d3abf68ac"
   },
   "platforms": {
     "ios": "9.0"

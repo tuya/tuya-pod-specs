@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMarketingBoothAPI-2.1.0.1-416b9f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMarketingBoothAPI-2.1.0.1-ae6749.zip",
     "type": "zip",
-    "sha1": "9e25c0eb653fa694dcb7e2ac9df155e4c6eff487"
+    "sha1": "0fb65312c71736e6dbcd928d4b9ae0be74398a0f"
   },
   "platforms": {
     "ios": "9.0"

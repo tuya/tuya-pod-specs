@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRouteGatewayManager-1.0.44-anonymize.1.1-80d68d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRouteGatewayManager-1.0.44-anonymize.1.1-06a91e.zip",
     "type": "zip",
-    "sha1": "b119ff3596bfeeb5e0df4233970caab715f122b1"
+    "sha1": "f67b3be181a525ce392e9d149ce8313904453659"
   },
   "platforms": {
     "ios": "9.0"

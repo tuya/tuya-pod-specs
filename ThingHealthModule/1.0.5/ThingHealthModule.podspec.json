@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthModule-1.0.5.1-f80fbd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthModule-1.0.5.1-b21e28.zip",
     "type": "zip",
-    "sha1": "ecd2ca2b6cef157bab4eb22c662320699c63e8dd"
+    "sha1": "cab929e652ab245285345668d9ecd7109e4aa2f7"
   },
   "platforms": {
     "ios": "8.0"

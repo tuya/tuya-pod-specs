@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMusicManager-2.0.0-rc.2.1-c0008c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMusicManager-2.0.0-rc.2.1-d0adc8.zip",
     "type": "zip",
-    "sha1": "ea8def8207c6f0bfe32151dbbe1d40b6084452d3"
+    "sha1": "90b5fd9f26e88cff7ee5ef63f71fa62c7f766809"
   },
   "platforms": {
     "ios": "9.0"

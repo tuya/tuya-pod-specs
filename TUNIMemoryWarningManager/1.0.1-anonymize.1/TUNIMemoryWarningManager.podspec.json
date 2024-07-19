@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMemoryWarningManager-1.0.1-anonymize.1.1-73061a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMemoryWarningManager-1.0.1-anonymize.1.1-2e6688.zip",
     "type": "zip",
-    "sha1": "b5e5beed4913848f5132705edc6d41864b54f76d"
+    "sha1": "6a39b2f0ca308c94ad3a23731f4d5c3e00a726c9"
   },
   "platforms": {
     "ios": "9.0"

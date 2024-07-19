@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/Folly-2018.10.22.00.1-ca3d95.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/Folly-2018.10.22.00.1-63c519.zip",
     "type": "zip",
-    "sha1": "ad34dbaf30edebc7476e7821c228d6b484bdc7ec"
+    "sha1": "2da9160451594bcdeafbeb9ef1cdbcc3c0c69df8"
   },
   "module_name": "folly",
   "dependencies": {

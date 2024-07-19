@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTimerPlugAPI-0.2.0.1-abd9f1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTimerPlugAPI-0.2.0.1-23bf5c.zip",
     "type": "zip",
-    "sha1": "eb20604c4fd6d56665fbead18e519a10016441e7"
+    "sha1": "6079794bb092ac619e5cceaea38a59d9da049aeb"
   },
   "platforms": {
     "ios": "9.0"

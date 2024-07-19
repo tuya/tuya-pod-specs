@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneScreenManager-1.0.0-anonymize.1.1-544d82.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneScreenManager-1.0.0-anonymize.1.1-1d0b34.zip",
     "type": "zip",
-    "sha1": "029e1160bf0c266a55d52f2c03039fd0402e93f6"
+    "sha1": "ffe119567c8b38d5cb0593655693540bd233e05c"
   },
   "platforms": {
     "ios": "9.0"

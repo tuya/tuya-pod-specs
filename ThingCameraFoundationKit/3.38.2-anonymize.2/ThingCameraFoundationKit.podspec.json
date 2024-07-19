@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraFoundationKit-3.38.2-anonymize.2.1-4ad79e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraFoundationKit-3.38.2-anonymize.2.1-a3337d.zip",
     "type": "zip",
-    "sha1": "c9edfcbe3a2c7ad9651770a8fa4fcca1780917c8"
+    "sha1": "a6397cb6be5c3e959b00b6834519c515f075ee1f"
   },
   "platforms": {
     "ios": "9.0"

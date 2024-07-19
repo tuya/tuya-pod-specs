@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCommonSktModule-1.0.2-anonymize.2.1-7fc105.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCommonSktModule-1.0.2-anonymize.2.1-5db447.zip",
     "type": "zip",
-    "sha1": "73302bb87eb6545f8b4b0dd92c85e266062e080a"
+    "sha1": "ee13d42c4bce61d6a3d264648a935a866be5f227"
   },
   "platforms": {
     "ios": "9.0"

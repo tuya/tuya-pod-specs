@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageManager-1.9.0-anonymize.3.1-135d0e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageManager-1.9.0-anonymize.3.1-5febb8.zip",
     "type": "zip",
-    "sha1": "392ab60fbd3d37b817ee23d27cb238265569b955"
+    "sha1": "04ed44d2d076b95bf24c20c60162ad6fbc50fefb"
   },
   "platforms": {
     "ios": "9.0"

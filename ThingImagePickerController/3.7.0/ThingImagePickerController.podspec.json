@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingImagePickerController-3.7.0.1-77456b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingImagePickerController-3.7.0.1-8bae07.zip",
     "type": "zip",
-    "sha1": "94e3b3930a245bc0c89862f9c1189e6819aa08eb"
+    "sha1": "7696a97c37709c1d3e678e66f6a6a9ecb72d61d2"
   },
   "requires_arc": true,
   "resources": "ThingImagePickerController/*.{png,bundle}",

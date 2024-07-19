@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSensorsManager-1.0.4-anonymize.1.1-53bede.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSensorsManager-1.0.4-anonymize.1.1-c17569.zip",
     "type": "zip",
-    "sha1": "d4682414c218e7b64b233cedab0e04fecd32a366"
+    "sha1": "c74cf93c9b2e0ca094996e424d2bc1f5261a7d71"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraModuleSKYEventModule-5.0.0.1-038540.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraModuleSKYEventModule-5.0.0.1-a1ae32.zip",
     "type": "zip",
-    "sha1": "40a5fd6a020d85c24191932e300134c74558c0fe"
+    "sha1": "5f919f602d91d30196b3e8d7ef5781ae4de91d93"
   },
   "platforms": {
     "ios": "9.0"

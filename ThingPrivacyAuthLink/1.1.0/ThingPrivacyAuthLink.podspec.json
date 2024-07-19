@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPrivacyAuthLink-1.1.0.1-3b49dc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPrivacyAuthLink-1.1.0.1-4599a8.zip",
     "type": "zip",
-    "sha1": "4f684e872ebd8e7d51377794064da8925a0d5d27"
+    "sha1": "97a8716e770e2bc24c45ab2a36b81884cccb79a0"
   },
   "platforms": {
     "ios": "10.0"

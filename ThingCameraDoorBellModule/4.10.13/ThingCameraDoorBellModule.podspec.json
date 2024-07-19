@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraDoorBellModule-4.10.13.1-cafa1e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraDoorBellModule-4.10.13.1-2b5188.zip",
     "type": "zip",
-    "sha1": "f84a36881b7dfbdfcde9e60a37df4d3b98e0c66e"
+    "sha1": "b97b2fde62d719aed561a3c2ce761aa04c9ed4f6"
   },
   "platforms": {
     "ios": "9.0"

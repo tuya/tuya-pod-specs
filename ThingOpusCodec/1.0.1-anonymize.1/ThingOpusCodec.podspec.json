@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpusCodec-1.0.1-anonymize.1.1-886e43.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpusCodec-1.0.1-anonymize.1.1-beab7a.zip",
     "type": "zip",
-    "sha1": "6cc80dfca472b4096e42a4296128c3ca8d458dc4"
+    "sha1": "f91c3f559c5040c93188ad20d539314aeb23ced5"
   },
   "platforms": {
     "ios": "9.0"

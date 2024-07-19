@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoCipper-1.1.0.1-007a8d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoCipper-1.1.0.1-ef2cbf.zip",
     "type": "zip",
-    "sha1": "501ed32a08e1c5d93b5a5b49f7470bed28d87c0a"
+    "sha1": "51a58d0008780f0cc9aed7bfca7dd87cdb46411c"
   },
   "platforms": {
     "ios": "9.0"

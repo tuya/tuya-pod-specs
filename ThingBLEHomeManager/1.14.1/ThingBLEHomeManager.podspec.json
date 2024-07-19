@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEHomeManager-1.14.1.1-871e64.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEHomeManager-1.14.1.1-f8ea7c.zip",
     "type": "zip",
-    "sha1": "3a28c3cc028052af047bd277fc1c27cb45fd48c6"
+    "sha1": "2fbc75c4ef6749ecfc28222b5932cf1e742439e4"
   },
   "platforms": {
     "ios": "9.0"

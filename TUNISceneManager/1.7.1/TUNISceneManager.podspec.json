@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNISceneManager-1.7.1.1-b9f77e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNISceneManager-1.7.1.1-ae60dc.zip",
     "type": "zip",
-    "sha1": "efa5197dee079ef55f0cb5ff783d07c1adda05fe"
+    "sha1": "4551e55a3ab7f7844a6f3811c919f65aba62af04"
   },
   "platforms": {
     "ios": "9.0"

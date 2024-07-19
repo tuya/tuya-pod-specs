@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelContainer-3.9.0-rc.3.1-88814a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelContainer-3.9.0-rc.3.1-a51200.zip",
     "type": "zip",
-    "sha1": "68097bb19c41261cac96b99a4716d065545a0a46"
+    "sha1": "b5415833624cb337d85c99cdbd9213b87e5bdb8c"
   },
   "platforms": {
     "ios": "11.0"

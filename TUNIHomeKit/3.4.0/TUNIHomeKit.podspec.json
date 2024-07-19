@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeKit-3.4.0.1-f639eb.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeKit-3.4.0.1-27f945.zip",
     "type": "zip",
-    "sha1": "ea9cff578c1966ac4d333f8ab5d056aba50117b8"
+    "sha1": "3ec88c000b7ba5de4f7883144f540d0bd9085374"
   },
   "resource_bundles": {
     "TUNIHomeKit": [

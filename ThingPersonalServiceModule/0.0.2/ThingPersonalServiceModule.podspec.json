@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPersonalServiceModule-0.0.2.1-e0fd63.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPersonalServiceModule-0.0.2.1-2a9f0d.zip",
     "type": "zip",
-    "sha1": "e6e030aa18d9114ebc265fa87da4e75afbe9a68b"
+    "sha1": "03b44e21bd89f0a6eac0d01b6afe09ecd085ef7a"
   },
   "platforms": {
     "ios": "11.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeacon-1.4.7.1-04779a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeacon-1.4.7.1-183013.zip",
     "type": "zip",
-    "sha1": "0069ede52a4d787e4eed03be6d63a545740cde40"
+    "sha1": "bf173a7044fea14860e69678ce458dcb86dbd23e"
   },
   "platforms": {
     "ios": "9.0"

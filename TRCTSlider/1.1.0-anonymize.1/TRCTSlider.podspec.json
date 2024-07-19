@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSlider-1.1.0-anonymize.1.1-28b26d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSlider-1.1.0-anonymize.1.1-32887d.zip",
     "type": "zip",
-    "sha1": "1c40afcda96fb73c670772b29b0e74ef54db5c36"
+    "sha1": "7f0956117b2532459b58264ad3ecb710beee2e53"
   },
   "platforms": {
     "ios": "9.0"

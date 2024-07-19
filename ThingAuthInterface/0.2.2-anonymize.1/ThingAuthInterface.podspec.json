@@ -8,7 +8,7 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAuthInterface-0.2.2-anonymize.1.1-ff2451.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAuthInterface-0.2.2-anonymize.1.1-e2caab.zip",
     "type": "zip",
     "sha1": "2296818da9b1c1c4d5475c3c2f122ed7a4c9b3c3"
   },

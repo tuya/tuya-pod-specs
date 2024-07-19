@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRNContainerManager-2.0.1.1-2001ba.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRNContainerManager-2.0.1.1-1a87dc.zip",
     "type": "zip",
-    "sha1": "0bf3625d324327f2d27795e6d477c6da06f75556"
+    "sha1": "8f70fcfe4a04ec6339ceff74d99b1e4e04db1aaa"
   },
   "platforms": {
     "ios": "11.0"

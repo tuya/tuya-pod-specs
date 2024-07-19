@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTScenePanelManager-1.8.8.1-ec838e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTScenePanelManager-1.8.8.1-87fb7c.zip",
     "type": "zip",
-    "sha1": "6999b0b4e16dc2d80d1b1ff30b7cdc6bfa394e8e"
+    "sha1": "e11816cd7e3aa831b58d70cf4a0921601564a9a4"
   },
   "platforms": {
     "ios": "10.0"

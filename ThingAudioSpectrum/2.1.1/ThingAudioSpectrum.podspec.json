@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioSpectrum-2.1.1.1-4f4748.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioSpectrum-2.1.1.1-a61713.zip",
     "type": "zip",
-    "sha1": "4692ccbfffbc8623d0dadfbdac3ac97c329049b8"
+    "sha1": "ee7b4acd7ff25ee11685936140704a0f3d09a904"
   },
   "platforms": {
     "ios": "9.0"

@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-maps-0.14.0.7.1-6b12be.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-maps-0.14.0.7.1-467307.zip",
     "type": "zip",
-    "sha1": "44fcbd48517bd223f220de94774522e3d7134826"
+    "sha1": "19704a339c977d62ac1fd81279753fc7b6f94f50"
   },
   "frameworks": [
     "UIKit",

@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-safe-area-context-3.0.7.1.1-872cef.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-safe-area-context-3.0.7.1.1-54ae1c.zip",
     "type": "zip",
-    "sha1": "b107d509600727ebc591bf7049e56122af4c7808"
+    "sha1": "4478a82ae1c4d19b5167cd7e17dc603803a9e56c"
   },
   "dependencies": {
     "React": [

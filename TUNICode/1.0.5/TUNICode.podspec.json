@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICode-1.0.5.1-b3809c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICode-1.0.5.1-2259dd.zip",
     "type": "zip",
-    "sha1": "d84462bb1038608e28dba624cb386bfb24585d8f"
+    "sha1": "b8471ebc475ea3db5d53a7b9f10ab036338c0573"
   },
   "platforms": {
     "ios": "9.0"

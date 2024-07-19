@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNotificationsAuthManager-0.1.4.1-1b9a6b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNotificationsAuthManager-0.1.4.1-ccab1b.zip",
     "type": "zip",
-    "sha1": "2ff9651710133d14848aef2e0d1e924423d2162a"
+    "sha1": "5fe73bea30f35bd76ff299bbaa244a4f5857634d"
   },
   "platforms": {
     "ios": "9.0"

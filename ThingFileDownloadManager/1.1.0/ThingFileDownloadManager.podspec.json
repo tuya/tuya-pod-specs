@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileDownloadManager-1.1.0.1-fcee49.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileDownloadManager-1.1.0.1-583a59.zip",
     "type": "zip",
-    "sha1": "4132379eae3b708ba0176e58209a8ffc82fdbc08"
+    "sha1": "1f0322948c228b16b8679924eb703f65c403a944"
   },
   "platforms": {
     "ios": "9.0"

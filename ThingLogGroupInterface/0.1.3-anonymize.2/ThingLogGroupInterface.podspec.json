@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLogGroupInterface-0.1.3-anonymize.2.1-74fffa.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLogGroupInterface-0.1.3-anonymize.2.1-1a8eea.zip",
     "type": "zip",
-    "sha1": "1c3d62a06f4f94605ee0e8505d6d2cec3fa5108f"
+    "sha1": "7d5cab565d1381d7f6d8fe56381adc74edeff0be"
   },
   "platforms": {
     "ios": "9.0"

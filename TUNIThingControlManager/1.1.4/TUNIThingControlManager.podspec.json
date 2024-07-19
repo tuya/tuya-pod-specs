@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIThingControlManager-1.1.4.1-a99a17.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIThingControlManager-1.1.4.1-355754.zip",
     "type": "zip",
-    "sha1": "b40d9373ba82ed55cc84a70e8bafa6124ab9beae"
+    "sha1": "9a0db9b40c73f2b4da23a77b5faa33bdf49f55bb"
   },
   "platforms": {
     "ios": "9.0"

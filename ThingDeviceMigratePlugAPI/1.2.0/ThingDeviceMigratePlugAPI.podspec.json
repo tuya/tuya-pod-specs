@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigratePlugAPI-1.2.0.1-966419.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigratePlugAPI-1.2.0.1-1268c8.zip",
     "type": "zip",
-    "sha1": "6d3f09c75211a1b63df980655faf7cb2f8de7aac"
+    "sha1": "754a0f6d248aac77d35b7b41286b3e86ce92e595"
   },
   "platforms": {
     "ios": "9.0"

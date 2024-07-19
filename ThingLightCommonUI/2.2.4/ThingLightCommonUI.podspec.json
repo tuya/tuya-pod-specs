@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.4.1-26cd2a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.4.1-f9f507.zip",
     "type": "zip",
-    "sha1": "c3fc29b82f7b393dd11da6b8bccb0bef32e84301"
+    "sha1": "729845703e632f922bd2ab80a542f4ebd32e6bf8"
   },
   "platforms": {
     "ios": "9.0"
