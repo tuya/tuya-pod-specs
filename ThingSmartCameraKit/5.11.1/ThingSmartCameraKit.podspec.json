@@ -1,1 +1,44 @@
-{"name": "ThingSmartCameraKit", "version": "5.11.1", "summary": "open SDK code for thing smart camera.", "description": "TODO: Add long description of the pod here.", "homepage": "https://registry.code.thing-inc.top/thingIOS/ThingSmartCameraSDK", "license": {"type": "MIT", "file": "LICENSE"}, "authors": {"Tuya": "developer@tuya.com"}, "source": {"http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1721377582-ThingSmartCameraKit-5.11.1.zip", "type": "zip"}, "platforms": {"ios": "11.0"}, "libraries": ["c++", "z", "iconv"], "frameworks": ["UIKit", "Foundation", "AVFoundation", "Photos"], "dependencies": {"ThingSmartBaseKit": [], "ThingSmartDeviceCoreKit": [], "ThingEncryptImage": [], "ThingSmartUtil": [], "ThingCameraSDK": ["4.9.0"], "ThingP2PSDK": ["3.4.80"], "ThingAudioEngineSDK": ["~> 1.4.1"], "ThingAvLoggerSDK": ["1.2.6"], "ThingSmartCameraBase": ["5.9.0"], "ThingSmartCameraM": ["5.10.2"], "ThingSmartP2pChannelKit": ["~> 5.11.0"], "ThingSmartCallChannelKit": ["~> 2.0.0"], "ThingSmartCallCounterKit": ["~> 1.0.0"], "ThingSmartAVBaseKit": ["~> 2.0.5"], "ThingSmartCameraExtSDK": ["~> 1.0.1"]}, "vendored_frameworks": ["Build/ThingSmartCameraKit.xcframework"], "source_files": ["Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/Headers/*"]}
+{
+	"name": "ThingSmartCameraKit",
+	"version": "5.11.1",
+	"summary": "open SDK code for thing smart camera.",
+	"description": "TODO: Add long description of the pod here.",
+	"homepage": "https://registry.code.thing-inc.top/thingIOS/ThingSmartCameraSDK",
+	"license": {
+		"type": "MIT",
+		"file": "LICENSE"
+	},
+	"authors": {
+		"Tuya": "developer@tuya.com"
+	},
+	"source": {
+		"http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1721377582-ThingSmartCameraKit-5.11.1.zip",
+		"type": "zip"
+	},
+	"platforms": {
+		"ios": "11.0"
+	},
+	"libraries": ["c++", "z", "iconv"],
+	"frameworks": ["UIKit", "Foundation", "AVFoundation", "Photos"],
+	"dependencies": {
+		"ThingSmartBaseKit": [],
+		"ThingSmartDeviceCoreKit": [],
+		"ThingEncryptImage": [],
+		"ThingSmartUtil": [],
+		"ThingCameraSDK": ["4.9.0"],
+		"ThingP2PSDK": ["3.4.80"],
+		"ThingAudioEngineSDK": ["1.4.1"],
+		"ThingAvLoggerSDK": ["1.2.6"],
+		"ThingSmartCameraBase": ["5.9.0"],
+		"ThingSmartCameraM": ["5.10.2"],
+		"ThingSmartP2pChannelKit": ["~> 5.11.0"],
+		"ThingSmartCallChannelKit": ["~> 2.0.0"],
+		"ThingSmartCallCounterKit": ["~> 1.0.0"],
+		"ThingSmartAVBaseKit": ["~> 2.0.5"],
+		"ThingSmartCameraExtSDK": ["~> 1.0.1"],
+	    "ThingVideoCodecSDK": ["1.4.0"],
+        "ThingFFmpegWrapper": ["4.4.2"]
+	},
+	"vendored_frameworks": ["Build/ThingSmartCameraKit.xcframework"],
+	"source_files": ["Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/Headers/*"]
+}
