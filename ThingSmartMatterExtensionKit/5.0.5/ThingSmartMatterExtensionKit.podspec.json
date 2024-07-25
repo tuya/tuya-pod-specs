@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterExtensionKit-5.0.5.1-7fdff0.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterExtensionKit-5.0.5-567739.zip",
     "type": "zip",
-    "sha1": "333a4c441539aadc68edea179c58d594f657d969"
+    "sha1": "ccdde8f19500d4b498726c34855d6b045f372437"
   },
   "platforms": {
     "ios": "10.0"

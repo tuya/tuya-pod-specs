@@ -1,0 +1,28 @@
+{
+  "name": "ThingLiveActivityInterface",
+  "version": "1.0.0",
+  "summary": "A short description of ThingLiveActivityInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLiveActivityInterface-1.0.0-fb2e0f.zip",
+    "type": "zip",
+    "sha1": "2f720fe698c8d7acce895d4f67ce55c35e8d6dfe"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLiveActivityInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
