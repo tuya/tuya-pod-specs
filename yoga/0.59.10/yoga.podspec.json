@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/yoga-0.59.10.1-4dab24.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/yoga-0.59.10-65c384.zip",
     "type": "zip",
-    "sha1": "ea44a82f1649b05e8584c6357506370249b52163"
+    "sha1": "97c387785c8e2de72cc15fe65d8fb99cad38b274"
   },
   "module_name": "yoga",
   "requires_arc": false,

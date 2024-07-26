@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNGestureHandler-1.3.0.1.1-1314b4.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNGestureHandler-1.3.0.1-0eb6aa.zip",
     "type": "zip",
-    "sha1": "14fa1bded0a8ee03dcd02328204a128178a3a906"
+    "sha1": "df7a2c08c8c10c488d59a9f6136d3773d478dd88"
   },
   "dependencies": {
     "React": [
