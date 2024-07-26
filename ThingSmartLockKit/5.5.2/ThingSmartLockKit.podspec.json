@@ -1,0 +1,41 @@
+{
+  "name": "ThingSmartLockKit",
+  "version": "5.5.2",
+  "summary": "Tuya Smart Lock iOS SDK",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLockKit-5.5.2-e24334.zip",
+    "type": "zip",
+    "sha1": "d025328d1e458b602e4a3ff8b9bc594aa952a21b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBLEKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartLockKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartLockKit.xcframework/ios-arm64/ThingSmartLockKit.framework/Headers/*"
+  ]
+}
