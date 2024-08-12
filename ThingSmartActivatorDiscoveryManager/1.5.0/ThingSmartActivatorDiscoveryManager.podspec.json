@@ -1,0 +1,62 @@
+{
+  "name": "ThingSmartActivatorDiscoveryManager",
+  "version": "1.5.0",
+  "summary": "配网自发现",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorDiscoveryManager-1.5.0-614642.zip",
+    "type": "zip",
+    "sha1": "6c81c358b54e2a234f57376779aeb0df8fe515ab"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #undef ThingLog\n  #undef ThingLogDebug\n  #undef ThingLogInfo\n  #undef ThingLogWarn\n  #undef ThingLogError\n  #define ThingLogDebug(...)         ThingSDKLog(0, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogInfo(...)         ThingSDKLog(1, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogWarn(...)         ThingSDKLog(2, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogError(...)         ThingSDKLog(3, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
+  "dependencies": {
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartActivatorCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+
+    ],
+    "ThingHomeKitAPI": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartActivatorDiscoveryManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

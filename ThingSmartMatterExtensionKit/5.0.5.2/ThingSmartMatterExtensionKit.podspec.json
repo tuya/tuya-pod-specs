@@ -1,0 +1,29 @@
+{
+  "name": "ThingSmartMatterExtensionKit",
+  "version": "5.0.5.2",
+  "summary": "A short description of ThingSmartMatterExtensionKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterExtensionKit-5.0.5-de7447.zip",
+    "type": "zip",
+    "sha1": "ccdde8f19500d4b498726c34855d6b045f372437"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartMatterExtensionKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartMatterExtensionKit.xcframework/ios-arm64/ThingSmartMatterExtensionKit.framework/Headers/*"
+  ],
+  "swift_version": "5.0"
+}
