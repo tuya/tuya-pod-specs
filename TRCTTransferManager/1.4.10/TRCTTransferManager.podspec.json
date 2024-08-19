@@ -1,0 +1,53 @@
+{
+  "name": "TRCTTransferManager",
+  "version": "1.4.10",
+  "summary": "A short description of TRCTTransferManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTransferManager-1.4.10-76ff4d.zip",
+    "type": "zip",
+    "sha1": "c294c68525fedf10d89bc8fd640e3b475c2336cd"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingPanelSweeperUtil": [
+
+    ],
+    "ThingSmartSweeperKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTTransferManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

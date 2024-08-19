@@ -1,0 +1,71 @@
+{
+  "name": "TRCTPublicManager",
+  "version": "1.8.0-fix-app-event.5",
+  "summary": "A short description of TRCTPublicManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicManager-1.8.0-fix-app-event.5-f39bff.zip",
+    "type": "zip",
+    "sha1": "a37d2aa9039e12f688657bae1e2f0460556c2ce9"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "TheAmazingAudioEngine": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingSmartLocationService": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTPublicManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

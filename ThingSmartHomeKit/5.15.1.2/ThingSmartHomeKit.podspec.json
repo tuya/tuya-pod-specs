@@ -57,9 +57,6 @@
       "ThingSmartUtil": [
         "5.12.5"
       ],
-      "ThingSmartCryption": [
-
-      ],
       "ThingMbedtls": [
         "3.5.2"
       ],
