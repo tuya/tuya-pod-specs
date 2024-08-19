@@ -1,0 +1,103 @@
+{
+  "name": "ThingSmartCameraKit",
+  "version": "5.14.8",
+  "summary": "open SDK code for thing smart camera.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraKit-5.14.8-4c5a71.zip",
+    "type": "zip",
+    "sha1": "d1b1cea26e34161790efef81f2e63681b9cd71a3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "Photos"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartMediaServices": [
+
+    ],
+    "ThingSmartCameraBase": [
+      "~> 5.12.1"
+    ],
+    "ThingSmartMediaUIKit": [
+
+    ],
+    "ThingSmartCameraM": [
+      "5.10.12.1"
+    ],
+    "ThingSmartP2pChannelKit": [
+      "5.14.1"
+    ],
+    "ThingSmartCallChannelKit": [
+      "~> 2.1.3"
+    ],
+    "ThingSmartCallCounterKit": [
+      "~> 1.0.1"
+    ],
+    "ThingSmartAVBaseKit": [
+      "~> 2.2.0"
+    ],
+    "ThingSmartCameraExtSDK": [
+      "~> 1.0.2"
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingP2PSDK": [
+      "3.5.0"
+    ],
+    "ThingAvLoggerSDK": [
+      "1.2.6"
+    ],
+    "ThingCameraSDK": [
+      "4.10.6"
+    ],
+    "ThingAudioEngineSDK": [
+      "1.4.1"
+    ],
+    "ThingVideoCodecSDK": [
+      "1.4.0"
+    ],
+    "ThingFFmpegWrapper": [
+      "4.4.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-t.0"
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCameraKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/CustomResources/Bundles/*"
+  ]
+}
