@@ -1,0 +1,56 @@
+{
+  "name": "ThingSmartSpeakExtendBizBundle",
+  "version": "5.14.1.20",
+  "summary": "A short description of ThingSmartSpeakExtendBizBundle.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSpeakExtendBizBundle-5.14.1-7c2056.zip",
+    "type": "zip",
+    "sha1": "474aa01ec2300867b7819636245c3800279e7eff"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "AFNetworking/Serialization": [
+
+    ],
+    "AFNetworking/Security": [
+
+    ],
+    "AFNetworking/Reachability": [
+
+    ],
+    "AFNetworking/NSURLSession": [
+
+    ],
+    "AFNetworking/UIKit": [
+
+    ]
+  },
+  "resource_bundles": {
+    "ThingSmartSpeakExtendBizBundle": "ThingSmartSpeakExtendBizBundle/Assets/**/*"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSpeakExtendBizBundle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
