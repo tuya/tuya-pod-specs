@@ -1,0 +1,144 @@
+{
+  "name": "ThingSmartSceneModule",
+  "version": "1.41.7",
+  "summary": "场景模块",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneModule-1.41.7-adb14e.zip",
+    "type": "zip",
+    "sha1": "5e432640f69214180b02d9f2133ecb68f773e206"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartSceneModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "prefix_header_file": "ThingSmartSceneModule/Classes/PrefixHeader.pch",
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingSmartSceneBizKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingAnimationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingCommonUIToolKit": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingSceneEditPlugAPI": [
+
+    ],
+    "ThingSceneListPlugAPI": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "ThingSmartSceneDefaultUISkin": [
+
+    ],
+    "ThingBusinessDeviceCore": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartSceneModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartSceneModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartSceneModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartSceneModule\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSceneModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
