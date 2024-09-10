@@ -1,0 +1,43 @@
+{
+  "name": "ThingSmartSocketChannelKit",
+  "version": "5.0.9",
+  "summary": "A short description of ThingSmartSocketChannelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSocketChannelKit-5.0.9-f8a3e1.zip",
+    "type": "zip",
+    "sha1": "eb1cdebc810c0294ac4948103815f1814e0b698e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <ThingSmartUtil/ThingSmartUtil.h>\n\n#undef ThingLog\n#undef ThingSDKLogDebug\n#undef ThingSDKLogInfo\n#undef ThingSDKLogWarn\n#undef ThingSDKLogError\n#define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartSocketChannelKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartSocketChannelKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartSocketChannelKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartSocketChannelKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n#import \"macros.h\"\n#import \"ThingSmartSocketChannelKit.h\"\n\n#endif",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "dependencies": {
+    "ThingSmartUtil": [
+      ">= 5.0.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "ios": {
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartSocketChannelKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartSocketChannelKit.xcframework/ios-arm64/ThingSmartSocketChannelKit.framework/Headers/*"
+  ]
+}

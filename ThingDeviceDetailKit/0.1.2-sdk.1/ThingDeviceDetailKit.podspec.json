@@ -1,0 +1,60 @@
+{
+  "name": "ThingDeviceDetailKit",
+  "version": "0.1.2-sdk.1",
+  "summary": "A short description of ThingDeviceDetailKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailKit-0.1.2-sdk.1-0d6722.zip",
+    "type": "zip",
+    "sha1": "43ef9b5512d4f529d74706922d4d47400bcaa84f"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartTimerKit": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetailKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
