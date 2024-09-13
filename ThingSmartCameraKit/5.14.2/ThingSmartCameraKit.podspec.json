@@ -49,7 +49,7 @@
       "~> 5.10.12"
     ],
     "ThingSmartP2pChannelKit": [
-      "~> 5.14.1"
+      "5.14.1"
     ],
     "ThingSmartCallChannelKit": [
       "~> 2.1.3"
