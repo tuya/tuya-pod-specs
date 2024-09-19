@@ -1,0 +1,81 @@
+{
+  "name": "ThingSmartPowerToolsOTABizBundle",
+  "version": "0.0.3.1",
+  "summary": "OTA Upgrades for Battery-Separating Power Tools",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPowerToolsOTABizBundle-0.0.3-9ebb83.zip",
+    "type": "zip",
+    "sha1": "10e34c07422320785808487986d118b4fca0b24b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+      "~> 1.23"
+    ],
+    "ThingLogMacro": [
+      "~> 0.3"
+    ],
+    "ThingFileDownloadManager": [
+      "1.1.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.11"
+    ],
+    "ThingSmartBLEKit": [
+      "~> 5.7"
+    ],
+    "ThingSmartUtil": [
+      "~> 5.12"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "~> 3.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-t.0"
+    ],
+    "ThingSmartNetworkKit": [
+      "~> 5.5"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "~> 5.3"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "~> 5.0"
+    ],
+    "ThingBluetooth": [
+      "~> 5.3"
+    ],
+    "ThingSmartBLECoreKit": [
+      "~> 5.6"
+    ],
+    "ThingSmartBeaconKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartBaseKit": [
+      "~> 5.4"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartPowerToolsOTABizBundle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
