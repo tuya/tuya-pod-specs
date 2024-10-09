@@ -15,7 +15,7 @@
     "osx": "10.8"
   },
   "source": {
-    "git": "https://github.com/tuya/tuya-ios-thirdpart/tree/master/EZAudio.git",
+    "git": "https://github.com/tuya/tuya-ios-thirdpart.git",
     "commit": "b6f7d71871a9a266ab298bd1009bd903c3582389"
   },
   "exclude_files": [
