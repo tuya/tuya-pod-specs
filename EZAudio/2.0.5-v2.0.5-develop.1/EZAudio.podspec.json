@@ -18,7 +18,7 @@
     "git": "https://github.com/tuya/tuya-ios-thirdpart.git",
     "commit": "b6f7d71871a9a266ab298bd1009bd903c3582389"
   },
-  "source_files": "EZAudio/**/*.{h,m,swift,c,plist}",
+  "source_files": "EZAudio/EZAudio/**/*.{h,m,swift,c,plist}",
   "exclude_files": [
     "EZAudio/TPCircularBuffer.{h,c}",
     "EZAudio/EZAudioiOS.h",
