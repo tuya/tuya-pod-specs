@@ -1,1 +1,75 @@
-{"name": "EZAudio", "version": "2.0.5-v2.0.5-develop.1", "summary": "\u97f3\u4e50\u706f\u97f3\u9891\u89e3\u6790\u5e93", "homepage": "https://developer.tuya.com/", "license": {"type": "MIT", "file": "LICENSE"}, "authors": {"Tuya": "developer@tuya.com"}, "platforms": {"ios": "8.0", "osx": "10.8"}, "source": {"git": "https://registry.code.tuya-inc.top/tuyaIOS/EZAudio.git", "commit": "f41cb4adc1e3547f1a18c8b8522f7d979c104f7e", "http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1728438018-"}, "exclude_files": ["EZAudio/TPCircularBuffer.{h,c}", "EZAudio/EZAudioiOS.h", "EZAudio/EZAudioOSX.h"], "ios": {"frameworks": ["AudioToolbox", "AVFoundation", "GLKit", "Accelerate"]}, "osx": {"frameworks": ["AudioToolbox", "AudioUnit", "CoreAudio", "QuartzCore", "OpenGL", "GLKit", "Accelerate"]}, "requires_arc": true, "default_subspecs": "Full", "pod_target_xcconfig": {"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64", "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"}, "user_target_xcconfig": {"EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64", "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"}, "preserve_paths": ["EZAudio.weak_deps.json"], "subspecs": [{"name": "Core", "source_files": "EZAudio/*.{h,m,c}"}, {"name": "Full", "dependencies": {"TPCircularBuffer": ["1.1"], "EZAudio/Core": []}}]}
+{
+  "name": "EZAudio",
+  "version": "2.0.5-v2.0.5-develop.1",
+  "summary": "音乐灯音频解析库",
+  "homepage": "https://github.com/tuya/tuya-ios-thirdpart/tree/master/EZAudio",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangdaxia": "huangkai@tuya.com"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.8"
+  },
+  "source": {
+    "git": "https://github.com/tuya/tuya-ios-thirdpart/tree/master/EZAudio.git",
+    "commit": "b6f7d71871a9a266ab298bd1009bd903c3582389"
+  },
+  "exclude_files": [
+    "EZAudio/TPCircularBuffer.{h,c}",
+    "EZAudio/EZAudioiOS.h",
+    "EZAudio/EZAudioOSX.h"
+  ],
+  "ios": {
+    "frameworks": [
+      "AudioToolbox",
+      "AVFoundation",
+      "GLKit",
+      "Accelerate"
+    ]
+  },
+  "osx": {
+    "frameworks": [
+      "AudioToolbox",
+      "AudioUnit",
+      "CoreAudio",
+      "QuartzCore",
+      "OpenGL",
+      "GLKit",
+      "Accelerate"
+    ]
+  },
+  "requires_arc": true,
+  "default_subspecs": "Full",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "EZAudio.weak_deps.json"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "EZAudio/*.{h,m,c}"
+    },
+    {
+      "name": "Full",
+      "dependencies": {
+        "TPCircularBuffer": [
+          "1.1"
+        ],
+        "EZAudio/Core": [
+
+        ]
+      }
+    }
+  ]
+}
