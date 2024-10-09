@@ -1,14 +1,10 @@
 {
   "name": "EZAudio",
-  "version": "2.0.5-v2.0.5-develop.1",
+  "version": "2.0.5",
   "summary": "音乐灯音频解析库",
-  "homepage": "https://github.com/tuya/tuya-ios-thirdpart/tree/master/EZAudio",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
-  },
-  "authors": {
-    "huangdaxia": "huangkai@tuya.com"
   },
   "platforms": {
     "ios": "8.0",
@@ -16,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/tuya/tuya-ios-thirdpart.git",
-    "commit": "b6f7d71871a9a266ab298bd1009bd903c3582389"
+    "commit": "25dba8042cb5c9a6935190c4f2ea17697593eb00"
   },
   "source_files": "EZAudio/EZAudio/**/*.{h,m,swift,c,plist}",
   "exclude_files": [
@@ -59,7 +55,7 @@
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "EZAudio/*.{h,m,c}"
+      "source_files": "EZAudio/**/*.{h,m,c}"
     },
     {
       "name": "Full",
