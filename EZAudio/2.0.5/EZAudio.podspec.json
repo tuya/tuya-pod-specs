@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/tuya/tuya-ios-thirdpart.git",
-    "commit": "25dba8042cb5c9a6935190c4f2ea17697593eb00"
+    "commit": "6ceee2f2c5a75e8a50ddddce9abcfee8d4ec954c"
   },
   "source_files": "EZAudio/EZAudio/**/*.{h,m,swift,c,plist}",
   "exclude_files": [
