@@ -1,0 +1,40 @@
+{
+  "name": "GZLRNCompat",
+  "version": "3.4.2",
+  "summary": "A short description of GZLRNCompat.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLRNCompat-3.4.2-63eb85.zip",
+    "type": "zip",
+    "sha1": "1e1732c5b167cbec7e6cb5746b4c0341c8c97f67"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resources": "GZLRNCompat/Assets/**/*",
+  "dependencies": {
+    "React": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingAPMService": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "GZLRNCompat.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
