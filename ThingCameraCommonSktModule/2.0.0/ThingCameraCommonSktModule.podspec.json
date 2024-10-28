@@ -1,0 +1,45 @@
+{
+  "name": "ThingCameraCommonSktModule",
+  "version": "2.0.0",
+  "summary": "A short description of ThingCameraCommonSktModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCommonSktModule-2.0.0-de9cd4.zip",
+    "type": "zip",
+    "sha1": "2026446a0f6675084f304cdd3f33ef877dbaf93f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraCommonSktModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

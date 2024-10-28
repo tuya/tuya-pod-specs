@@ -1,0 +1,50 @@
+{
+  "name": "ThingCommonUI",
+  "version": "0.4.5",
+  "summary": "A short description of ThingCommonUI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonUI-0.4.5-5defd9.zip",
+    "type": "zip",
+    "sha1": "773c0050fb25b9ba9787adb115588ae5371d6138"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingNormalUI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingNavigationController": [
+
+    ]
+  },
+  "resource_bundles": {
+    "ThingCommonUI": [
+      "ThingCommonUI/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCommonUI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

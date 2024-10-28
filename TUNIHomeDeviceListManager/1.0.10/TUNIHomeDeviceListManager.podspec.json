@@ -1,0 +1,56 @@
+{
+  "name": "TUNIHomeDeviceListManager",
+  "version": "1.0.10",
+  "summary": "A short description of TUNIHomeDeviceListManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeDeviceListManager-1.0.10-4d1724.zip",
+    "type": "zip",
+    "sha1": "46c0c78204bf4e7d75d6b350ab8a863f3511818a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIHomeDeviceListManager": [
+      "ios/TUNIHomeDeviceListManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIHomeDeviceListManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

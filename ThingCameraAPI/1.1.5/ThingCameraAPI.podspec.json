@@ -1,0 +1,25 @@
+{
+  "name": "ThingCameraAPI",
+  "version": "1.1.5",
+  "summary": "A short description of ThingCameraAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraAPI-1.1.5-c0286c.zip",
+    "type": "zip",
+    "sha1": "5276fa040adedbb788fa42e682e0aec5eac123f1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

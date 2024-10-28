@@ -1,0 +1,46 @@
+{
+  "name": "ThingModuleManager",
+  "version": "2.14.7",
+  "summary": "A Module Manager From Tuya",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleManager-2.14.7-0df957.zip",
+    "type": "zip",
+    "sha1": "edf2ec750c4cc91b63d9ac5afc0e44a2ead6ec70"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingModuleManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

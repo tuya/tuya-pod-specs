@@ -1,0 +1,25 @@
+{
+  "name": "ThingSmartIntelligenceApi",
+  "version": "0.1.3",
+  "summary": "A short description of ThingSmartIntelligenceApi.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartIntelligenceApi-0.1.3-f6bf77.zip",
+    "type": "zip",
+    "sha1": "1c71835fc5b7ba845aff74ce81fc782454b9ac46"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartIntelligenceApi.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

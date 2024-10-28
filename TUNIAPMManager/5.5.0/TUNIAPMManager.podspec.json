@@ -1,0 +1,50 @@
+{
+  "name": "TUNIAPMManager",
+  "version": "5.5.0",
+  "summary": "A short description of TUNIAPMManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPMManager-5.5.0-680f4a.zip",
+    "type": "zip",
+    "sha1": "9eddb09df10623f2dbec324d4167399e82e82145"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIAPMManager": [
+      "ios/tuniapmmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAPMService": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAPMManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

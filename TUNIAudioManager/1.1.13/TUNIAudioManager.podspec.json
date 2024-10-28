@@ -1,0 +1,38 @@
+{
+  "name": "TUNIAudioManager",
+  "version": "1.1.13",
+  "summary": "A short description of TUNIAudioManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAudioManager-1.1.13-e64a59.zip",
+    "type": "zip",
+    "sha1": "479ae0da51e3554d70d0c36f2ff1e7e2e3976442"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAudioManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

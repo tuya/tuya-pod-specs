@@ -1,0 +1,51 @@
+{
+  "name": "ThingAlertView",
+  "version": "1.4.0",
+  "summary": "A short description of ThingAlertView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAlertView-1.4.0-e26ce8.zip",
+    "type": "zip",
+    "sha1": "5f34e3bf46f3ae3f62f04cce51356f48144677e8"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingRealClass": [
+
+    ]
+  },
+  "resource_bundles": {
+    "ThingAlertView": [
+      "ThingAlertView/Assets/**/*.png"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAlertView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

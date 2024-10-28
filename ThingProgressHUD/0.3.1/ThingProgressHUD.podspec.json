@@ -1,0 +1,43 @@
+{
+  "name": "ThingProgressHUD",
+  "version": "0.3.1",
+  "summary": "A short description of ThingProgressHUD.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingProgressHUD-0.3.1-50f68b.zip",
+    "type": "zip",
+    "sha1": "c910f88d51b26eb30971337a9fbd8b317f899c76"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingProgressHUD.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

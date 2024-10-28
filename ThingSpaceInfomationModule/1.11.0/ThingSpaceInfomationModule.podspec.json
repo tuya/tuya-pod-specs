@@ -1,0 +1,67 @@
+{
+  "name": "ThingSpaceInfomationModule",
+  "version": "1.11.0",
+  "summary": "全屋数据",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpaceInfomationModule-1.11.0-67b1ee.zip",
+    "type": "zip",
+    "sha1": "2bdcc6ba8ecd3d4986058a9f2e3b1f6a314a8e80"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSpaceInfomationModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSpaceInfomationModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

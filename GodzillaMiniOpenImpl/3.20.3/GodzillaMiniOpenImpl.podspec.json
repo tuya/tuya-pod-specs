@@ -1,0 +1,41 @@
+{
+  "name": "GodzillaMiniOpenImpl",
+  "version": "3.20.3",
+  "summary": "A short description of GodzillaMiniOpenImpl.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniOpenImpl-3.20.3-b27497.zip",
+    "type": "zip",
+    "sha1": "0e780a2dd0aed8067ab79c775ea21253a2a84a11"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingAPMService": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniWidgetKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GodzillaMiniOpenImpl.xcframework"
+  ],
+  "source_files": [
+    "Build/GodzillaMiniOpenImpl.xcframework/ios-arm64/GodzillaMiniOpenImpl.framework/Headers/*"
+  ]
+}

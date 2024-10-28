@@ -1,0 +1,39 @@
+{
+  "name": "ThingHybridMediaTools",
+  "version": "0.1.0",
+  "summary": "A short description of ThingHybridMediaTools.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMediaTools-0.1.0-158e67.zip",
+    "type": "zip",
+    "sha1": "e69fa78bdf11e893926e5e5a9ccef2ceb1fa7eff"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingUIKit": [
+
+    ],
+    "ThingMediaKit": [
+
+    ],
+    "ThingHybridMediaToolsAPI": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingHybridMediaTools.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

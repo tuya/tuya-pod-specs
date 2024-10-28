@@ -1,0 +1,44 @@
+{
+  "name": "ThingNormalUI",
+  "version": "0.4.2",
+  "summary": "A short description of ThingNormalUI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNormalUI-0.4.2-27b359.zip",
+    "type": "zip",
+    "sha1": "b2bb77f32c12d57c54b3e510c000852111c6b1e6"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_contents": "#import \"ThingNormalUI.h\"",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingOEMConfig": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingRealClass": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingNormalUI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

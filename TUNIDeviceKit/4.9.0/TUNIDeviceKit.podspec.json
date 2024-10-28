@@ -1,0 +1,59 @@
+{
+  "name": "TUNIDeviceKit",
+  "version": "4.9.0",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceKit-4.9.0-97d01f.zip",
+    "type": "zip",
+    "sha1": "f0d7b35a544cd8ad2291d356e01fc7aec09f32de"
+  },
+  "resource_bundles": {
+    "TUNIDeviceKit": [
+      "ios/TUNIDeviceKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIBluetoothManager": [
+      "1.8.0"
+    ],
+    "TUNIDeviceActivationManager": [
+      "1.5.0"
+    ],
+    "TUNIDeviceControlManager": [
+      "3.0.0"
+    ],
+    "TUNIDeviceDetailManager": [
+      "1.4.0"
+    ],
+    "TUNIDeviceSceneManager": [
+      "1.1.6"
+    ],
+    "TUNIGroupControlManager": [
+      "2.1.4"
+    ],
+    "TUNIMeshManager": [
+      "1.0.4-anonymize.1"
+    ],
+    "TUNIOTAManager": [
+      "2.0.1"
+    ],
+    "TUNIThingControlManager": [
+      "1.1.4"
+    ],
+    "TUNIVirtualExperienceManager": [
+      "1.0.0-rc.8"
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

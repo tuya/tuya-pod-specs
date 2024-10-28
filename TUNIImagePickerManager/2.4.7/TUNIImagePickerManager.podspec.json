@@ -1,0 +1,75 @@
+{
+  "name": "TUNIImagePickerManager",
+  "version": "2.4.7",
+  "summary": "A short description of TUNIImagePickerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImagePickerManager-2.4.7-fefdb6.zip",
+    "type": "zip",
+    "sha1": "8e5228bbfada3c3e95c4d15c2be61fb85a696efb"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIImagePickerManager": [
+      "ios/TUNIImagePickerManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "CoreServices",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingImagePickerController": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingMediaKit": [
+
+    ],
+    "ThingSmartMediaKit": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingVideoCipper": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIImagePickerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

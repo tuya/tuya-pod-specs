@@ -1,0 +1,132 @@
+{
+  "name": "ThingSettingsModule",
+  "version": "3.53.1",
+  "summary": "组件模板",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSettingsModule-3.53.1-1b1f1f.zip",
+    "type": "zip",
+    "sha1": "95722d601a1fe02a0eb86c65b7efe6e202d9666d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSettingsModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "prefix_header_file": "ThingSettingsModule/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "StoreKit"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingInterfaceConfig": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingSettingsPlugAPI": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingSmartOutdoorPlugAPI": [
+
+    ],
+    "ThingLogGroupInterface": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartSettingsBizKit": [
+
+    ],
+    "ThingNotificationsAuthManager": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSettingsModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSettingsModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSettingsModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSettingsModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSettingsModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

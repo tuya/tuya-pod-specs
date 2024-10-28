@@ -1,0 +1,87 @@
+{
+  "name": "GZLMiniAppShell_iOS",
+  "version": "3.21.12",
+  "summary": "iOS 壳组件",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppShell_iOS-3.21.12-4c56a3.zip",
+    "type": "zip",
+    "sha1": "c6029875ebd536c1b488d1521f08435ec711fdcc"
+  },
+  "dependencies": {
+    "GodzillaMiniBaseKit": [
+      "3.2.13"
+    ],
+    "GodzillaMiniIService": [
+      "1.0.1"
+    ],
+    "GodzillaMiniOpenAPI": [
+      "3.20.1"
+    ],
+    "GodzillaMiniOpenImpl": [
+      "3.20.3"
+    ],
+    "GodzillaMiniPluginAPI": [
+      "3.21.0"
+    ],
+    "GodzillaMiniPluginImpl": [
+      "3.21.4"
+    ],
+    "GodzillaMiniWidgetKit": [
+      "3.21.2"
+    ],
+    "GZLJSEngine": [
+      "1.0.8"
+    ],
+    "GZLMiniApp_iOS": [
+      "2.6.2"
+    ],
+    "GZLMiniAppAPM_iOS": [
+      "3.9.2"
+    ],
+    "GZLMiniAppCommonUI": [
+      "3.0.0"
+    ],
+    "GZLMiniAppCore_iOS": [
+      "3.21.9"
+    ],
+    "GZLMiniAppInject": [
+      "3.9.2"
+    ],
+    "GZLMiniAppInterceptor_iOS": [
+      "3.21.0"
+    ],
+    "GZLMiniAppRemoteIDE": [
+      "3.20.0"
+    ],
+    "GZLMiniAppStorage": [
+      "3.3.0"
+    ],
+    "GZLMiniAppTab_iOS": [
+      "3.20.1"
+    ],
+    "GZLMiniAppWebView_iOS": [
+      "3.21.3"
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+      "3.10.0"
+    ],
+    "GZLRNCompatProtocol": [
+      "1.1.0"
+    ],
+    "TUNIDiffSubRegisterManager": [
+      "3.0.0"
+    ]
+  },
+  "vendored_frameworks": [
+    "GZLMiniAppShell_iOS.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

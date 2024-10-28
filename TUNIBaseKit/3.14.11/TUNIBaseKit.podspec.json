@@ -1,0 +1,110 @@
+{
+  "name": "TUNIBaseKit",
+  "version": "3.14.11",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBaseKit-3.14.11-1d99e6.zip",
+    "type": "zip",
+    "sha1": "e87af5d57d60aac3e1037a7070259bc6e262a451"
+  },
+  "resource_bundles": {
+    "TUNIBaseKit": [
+      "ios/TUNIBaseKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAccelerometerManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIAudioManager": [
+      "1.1.13"
+    ],
+    "TUNIAuthorizeManager": [
+      "1.4.0"
+    ],
+    "TUNIBaseMiniProgramManager": [
+      "2.3.2"
+    ],
+    "TUNICommonMediaManager": [
+      "1.0.0"
+    ],
+    "TUNICompassManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIDeviceMotionManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIDownloadFileManager": [
+      "1.1.6"
+    ],
+    "TUNIFileManager": [
+      "1.4.1"
+    ],
+    "TUNIGyroscopeManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIImageEncryptUploadManager": [
+      "1.0.2"
+    ],
+    "TUNIImagePickerManager": [
+      "2.4.7"
+    ],
+    "TUNIInteractionManager": [
+      "1.5.2"
+    ],
+    "TUNIKeyboardManager": [
+      "2.0.1"
+    ],
+    "TUNIMemoryWarningManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNINetworkManager": [
+      "1.1.6"
+    ],
+    "TUNIPhoneBluetoothManager": [
+      "1.1.0"
+    ],
+    "TUNIPhoneCallManager": [
+      "1.1.0-anonymize.1"
+    ],
+    "TUNIPhoneClipboardManager": [
+      "2.0.2"
+    ],
+    "TUNIPhoneManager": [
+      "1.9.3"
+    ],
+    "TUNIPhoneNetworkManager": [
+      "1.3.0-anonymize.5"
+    ],
+    "TUNIPhoneScreenManager": [
+      "1.0.0-anonymize.1"
+    ],
+    "TUNIPhoneVibrateManager": [
+      "1.0.1-anonymize.2"
+    ],
+    "TUNIRecordingManager": [
+      "1.1.3"
+    ],
+    "TUNIScanCodeManager": [
+      "4.9.0"
+    ],
+    "TUNIStorageManager": [
+      "1.1.3-anonymize.2"
+    ],
+    "TUNIUploadFileManager": [
+      "1.4.6"
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIBaseKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

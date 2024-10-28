@@ -1,0 +1,61 @@
+{
+  "name": "ThingCommonDebugger",
+  "version": "0.5.2",
+  "summary": "A short description of ThingCommonDebugger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonDebugger-0.5.2-b2ccae.zip",
+    "type": "zip",
+    "sha1": "7e36455492fc1a61671ca6e154ffb37f0a556510"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_file": "ThingCommonDebugger/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreTelephony"
+  ],
+  "libraries": "resolv",
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ],
+    "ThingBaseDebugger": [
+
+    ],
+    "ThingSocketPing": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCommonDebugger.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

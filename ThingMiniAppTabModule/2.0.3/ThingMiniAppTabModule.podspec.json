@@ -1,0 +1,50 @@
+{
+  "name": "ThingMiniAppTabModule",
+  "version": "2.0.3",
+  "summary": "A short description of ThingMiniAppTabModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMiniAppTabModule-2.0.3-dfa5c4.zip",
+    "type": "zip",
+    "sha1": "b17f9dc40ecc171f0eb699744970fda11bb6e630"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingNavigationController": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMiniAppTabModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
