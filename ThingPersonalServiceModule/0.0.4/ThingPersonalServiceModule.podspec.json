@@ -1,0 +1,64 @@
+{
+  "name": "ThingPersonalServiceModule",
+  "version": "0.0.4",
+  "summary": "A short description of ThingPersonalServiceModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPersonalServiceModule-0.0.4-d7e2ba.zip",
+    "type": "zip",
+    "sha1": "f753ad7ba68b9da45e7f1a2ca91a78ab6cc2fbb3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPersonalServiceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

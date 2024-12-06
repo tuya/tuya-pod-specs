@@ -1,0 +1,22 @@
+{
+  "name": "ThingLoginAPI",
+  "version": "1.1.0",
+  "summary": "A short description of ThingLoginAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginAPI-1.1.0-3f21f0.zip",
+    "type": "zip",
+    "sha1": "4d78e5df5a494bdbbb59d72041def16c5ce0959d"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingLoginAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
