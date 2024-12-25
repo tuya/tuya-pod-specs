@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiCameraManager-5.14.0.1-b523af.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiCameraManager-5.14.0-cc69f3.zip",
     "type": "zip",
-    "sha1": "9a7acfea1163d8f61a6afc120a0432263130c017"
+    "sha1": "5f5696533864fb4d1c343ad9deea0c5ce2c0b39c"
   },
   "platforms": {
     "ios": "9.0"

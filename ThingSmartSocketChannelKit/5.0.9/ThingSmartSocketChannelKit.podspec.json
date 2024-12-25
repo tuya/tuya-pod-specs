@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSocketChannelKit-5.0.9-f8a3e1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSocketChannelKit-5.0.9-bc601b.zip",
     "type": "zip",
-    "sha1": "eb1cdebc810c0294ac4948103815f1814e0b698e"
+    "sha1": "9c95c61479e99f192f213c660ae39afb56b7aefd"
   },
   "platforms": {
     "ios": "9.0"

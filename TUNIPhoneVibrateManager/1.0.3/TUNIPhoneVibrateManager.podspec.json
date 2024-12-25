@@ -1,0 +1,48 @@
+{
+  "name": "TUNIPhoneVibrateManager",
+  "version": "1.0.3",
+  "summary": "A short description of TUNIPhoneVibrateManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneVibrateManager-1.0.3-074aa2.zip",
+    "type": "zip",
+    "sha1": "a550d096c71ac3939d2290e2774c3911b06edbe3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "AudioToolbox",
+    "UIKit"
+  ],
+  "resource_bundles": {
+    "TUNIPhoneVibrateManager": [
+      "ios/TUNIPhoneVibrateManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneVibrateManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

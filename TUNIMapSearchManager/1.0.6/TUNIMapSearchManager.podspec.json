@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMapSearchManager-1.0.6.1-9790cc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMapSearchManager-1.0.6-e80d2f.zip",
     "type": "zip",
-    "sha1": "26ba662b5fee85499656a2876ecc916caaeafe98"
+    "sha1": "e83d4e223d8983592769f89ef35d46901d1b45b4"
   },
   "platforms": {
     "ios": "10.0"

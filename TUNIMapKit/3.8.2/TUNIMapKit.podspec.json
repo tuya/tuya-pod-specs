@@ -1,0 +1,48 @@
+{
+  "name": "TUNIMapKit",
+  "version": "3.8.2",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMapKit-3.8.2-12dd97.zip",
+    "type": "zip",
+    "sha1": "f0926b15705bed192ea95cc02de82946dea65380"
+  },
+  "resource_bundles": {
+    "TUNIMapKit": [
+      "ios/TUNIMapKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIDLMapManager": [
+      "4.2.0"
+    ],
+    "TUNIGeofenceManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNILocationManager": [
+      "2.4.0-rc.6"
+    ],
+    "TUNIMapSearchManager": [
+      "1.0.6"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIMapKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

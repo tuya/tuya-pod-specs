@@ -1,0 +1,63 @@
+{
+  "name": "ThingSmartSettingsBizKit",
+  "version": "1.0.1",
+  "summary": "A short description of ThingSmartSettingsBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSettingsBizKit-1.0.1-40449a.zip",
+    "type": "zip",
+    "sha1": "c267fbb9703176ee490e3e1218af780dadcf062a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartPrivateCloudPlugAPI": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSettingsBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

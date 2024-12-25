@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWechatManager-1.1.6.1-ee4c1f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWechatManager-1.1.6-ec3bc9.zip",
     "type": "zip",
-    "sha1": "37fc7d94f246e4f474bb6ead0aacfc4b320ff92f"
+    "sha1": "e9370a2b30bdf85e15647f54678d7eed6108fdf5"
   },
   "platforms": {
     "ios": "10.0"

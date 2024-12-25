@@ -1,0 +1,38 @@
+{
+  "name": "ThingCache",
+  "version": "1.0.3",
+  "summary": "cacheTool",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCache-1.0.3-9abb85.zip",
+    "type": "zip",
+    "sha1": "d45695d677ddbff2e42b05a9a4a0e54e7c3a64ca"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "exclude_files": [
+    "ThingCacheFramework/CacheBasic/Memory",
+    "ThingCacheFramework/CacheBusiness/MemoryCache"
+  ],
+  "frameworks": "Foundation",
+  "dependencies": {
+    "MMKV": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCache.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

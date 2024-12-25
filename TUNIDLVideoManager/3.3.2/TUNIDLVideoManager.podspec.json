@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLVideoManager-3.3.2.1-32817c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLVideoManager-3.3.2-628626.zip",
     "type": "zip",
-    "sha1": "9905f7924086c3a11fefcf6ac26dade66988b14e"
+    "sha1": "50cc1dea0bb9955f6a7b36f291eb6b90627b4108"
   },
   "platforms": {
     "ios": "9.0"

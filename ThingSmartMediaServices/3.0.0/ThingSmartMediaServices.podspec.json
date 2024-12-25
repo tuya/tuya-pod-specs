@@ -1,0 +1,24 @@
+{
+  "name": "ThingSmartMediaServices",
+  "version": "3.0.0",
+  "summary": "A short description of ThingSmartMediaServices.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMediaServices-3.0.0-3de71a.zip",
+    "type": "zip",
+    "sha1": "403d75b34ffd44b4528308f1def0a8a131619cd4"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartMediaServices.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartMediaServices.xcframework/ios-arm64/ThingSmartMediaServices.framework/Headers/*"
+  ]
+}

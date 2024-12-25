@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINGManager-1.0.11.1-fca9db.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINGManager-1.0.11-13b7dd.zip",
     "type": "zip",
-    "sha1": "4539077c2bd1e2436ff91476fcb57f81aabd86dc"
+    "sha1": "214c461eec7290ca7543095a374059e5862b91bd"
   },
   "platforms": {
     "ios": "10.0"

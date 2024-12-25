@@ -1,0 +1,77 @@
+{
+  "name": "ThingAPMLibrary",
+  "version": "2.11.2",
+  "summary": "A short description of ThingAPMLibrary.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMLibrary-2.11.2-c3e9ca.zip",
+    "type": "zip",
+    "sha1": "fab9c6996f7e509196878fc32f5c12a688f827af"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingStorageLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "WebKit"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAPMLibrary.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

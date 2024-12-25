@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOutdoorManager-1.0.6-anonymize.1.1-1b85e4.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOutdoorManager-1.0.6-anonymize.1-22ac8d.zip",
     "type": "zip",
-    "sha1": "5cc2c8f5458884c5d6807887331d4d0f78e78b8d"
+    "sha1": "f69824e2a56ee459dad7dfc95cbdd2bf9d0be634"
   },
   "platforms": {
     "ios": "9.0"

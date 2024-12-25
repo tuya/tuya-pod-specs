@@ -1,0 +1,69 @@
+{
+  "name": "TUNIDeviceKit",
+  "version": "4.11.8",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceKit-4.11.8-b21673.zip",
+    "type": "zip",
+    "sha1": "7805d7ceaab2848e1736f9d46e4dabafc99109a6"
+  },
+  "resource_bundles": {
+    "TUNIDeviceKit": [
+      "ios/TUNIDeviceKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIBluetoothManager": [
+      "1.8.3"
+    ],
+    "TUNIDeviceActivationManager": [
+      "1.5.0"
+    ],
+    "TUNIDeviceControlManager": [
+      "3.1.1"
+    ],
+    "TUNIDeviceDetailManager": [
+      "1.4.0"
+    ],
+    "TUNIDeviceSceneManager": [
+      "1.1.6"
+    ],
+    "TUNIGroupControlManager": [
+      "2.1.4"
+    ],
+    "TUNIMatterDeviceManager": [
+      "6.0.3"
+    ],
+    "TUNIMeshManager": [
+      "1.0.4-anonymize.1"
+    ],
+    "TUNIOTAManager": [
+      "2.0.1"
+    ],
+    "TUNIThingControlManager": [
+      "1.1.4"
+    ],
+    "TUNIVirtualExperienceManager": [
+      "1.0.0-rc.8"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

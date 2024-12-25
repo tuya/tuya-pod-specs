@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHueCircleView-1.0.10-anonymize.1.1-fa361b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHueCircleView-1.0.10-anonymize.1-784357.zip",
     "type": "zip",
-    "sha1": "44ae8f296257dffe469be14d055bee60c78f7f53"
+    "sha1": "64d21d3c9846ec0377a558bca946e7226101f50f"
   },
   "platforms": {
     "ios": "9.0"

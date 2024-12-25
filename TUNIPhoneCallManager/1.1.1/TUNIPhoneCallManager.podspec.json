@@ -1,0 +1,44 @@
+{
+  "name": "TUNIPhoneCallManager",
+  "version": "1.1.1",
+  "summary": "A short description of TUNIPhoneCallManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneCallManager-1.1.1-212bb2.zip",
+    "type": "zip",
+    "sha1": "372069d4ca7ce57576f9ae7d46487abceaef0ad3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPhoneCallManager": [
+      "ios/TUNIPhoneCallManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneCallManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

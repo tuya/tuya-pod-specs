@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICommonMediaManager-1.0.0-d09433.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICommonMediaManager-1.0.0-c22f31.zip",
     "type": "zip",
-    "sha1": "640985a345d46f8cb1829fc891e000a784f19c37"
+    "sha1": "86b416282accd3ec206d4c6cbbbf653158fa2c17"
   },
   "platforms": {
     "ios": "10.0"

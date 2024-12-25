@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGroupLink-1.4.0-60485f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGroupLink-1.4.0-4cf788.zip",
     "type": "zip",
-    "sha1": "b5d4ee4da70ea2debbe4f6f640413e24d76ca331"
+    "sha1": "c78fbdb71a37dc2a703b4283f345ee1bae47a8a2"
   },
   "platforms": {
     "ios": "9.0"

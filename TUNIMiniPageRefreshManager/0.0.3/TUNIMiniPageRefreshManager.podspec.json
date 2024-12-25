@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniPageRefreshManager-0.0.3.1-b15364.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniPageRefreshManager-0.0.3-3caded.zip",
     "type": "zip",
-    "sha1": "72653a79daf476270750679a15d11d88b4c62487"
+    "sha1": "19b2951010fc92256606d3f5135776c693d8b19a"
   },
   "platforms": {
     "ios": "10.0"

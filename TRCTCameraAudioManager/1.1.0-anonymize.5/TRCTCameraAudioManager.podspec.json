@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraAudioManager-1.1.0-anonymize.5.1-9324bc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraAudioManager-1.1.0-anonymize.5-f16f04.zip",
     "type": "zip",
-    "sha1": "670bcfef81eda5c6c2ac371e819f63390ef2c917"
+    "sha1": "559c0da041216c4d30f541ceca2861b5d5189d06"
   },
   "platforms": {
     "ios": "9.0"

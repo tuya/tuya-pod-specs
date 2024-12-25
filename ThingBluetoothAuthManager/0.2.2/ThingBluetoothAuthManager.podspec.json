@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothAuthManager-0.2.2.1-09b15d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothAuthManager-0.2.2-0d2558.zip",
     "type": "zip",
-    "sha1": "14f105d0858dc0050c0e9b090de4e0f6671fa611"
+    "sha1": "a73a974638ae3605912654a9de1cdf0ae6dfd294"
   },
   "platforms": {
     "ios": "9.0"

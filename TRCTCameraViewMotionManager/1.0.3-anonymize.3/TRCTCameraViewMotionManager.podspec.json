@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraViewMotionManager-1.0.3-anonymize.3.1-aef9d6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraViewMotionManager-1.0.3-anonymize.3-4050df.zip",
     "type": "zip",
-    "sha1": "5fe655702d1d6c83819e6e61c05c830a426a4849"
+    "sha1": "18628310d97c868a2b14970ceba077c2fc0274d4"
   },
   "platforms": {
     "ios": "9.0"

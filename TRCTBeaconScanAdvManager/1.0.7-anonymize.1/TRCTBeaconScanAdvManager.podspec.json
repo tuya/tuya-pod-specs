@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBeaconScanAdvManager-1.0.7-anonymize.1.1-50b2aa.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBeaconScanAdvManager-1.0.7-anonymize.1-f680c6.zip",
     "type": "zip",
-    "sha1": "139bee9d6e1ed5c03b3d406ec4c1e93f2ff0826d"
+    "sha1": "eec25d5636704255dbe23d0dd5fd712bae35af27"
   },
   "platforms": {
     "ios": "9.0"

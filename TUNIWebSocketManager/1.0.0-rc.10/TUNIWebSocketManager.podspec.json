@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWebSocketManager-1.0.0-rc.10.1-8be382.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWebSocketManager-1.0.0-rc.10-e9a517.zip",
     "type": "zip",
-    "sha1": "e046213f5def576eab2b3c796a45f91f91e4b6b0"
+    "sha1": "32af17aea9c00eccc758623c4cfd0bb593727b3b"
   },
   "platforms": {
     "ios": "10.0"

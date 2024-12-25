@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGyroscopeManager-1.0.1-anonymize.1.1-1eb9db.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGyroscopeManager-1.0.1-anonymize.1-b853b2.zip",
     "type": "zip",
-    "sha1": "7f0a86b084866cacf53acd8ef52a76f247794744"
+    "sha1": "6730c4f1a96514f8a93a0d451ddc2547efa95847"
   },
   "platforms": {
     "ios": "9.0"

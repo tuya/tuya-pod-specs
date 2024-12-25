@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPointMap-5.11.0.1-92d5c4.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPointMap-5.11.0-eb1354.zip",
     "type": "zip",
-    "sha1": "16bda886151037d946da175894e12694e976a068"
+    "sha1": "b3af3bc932cdd6f70ddb1288a4fc7ccd7b3ef622"
   },
   "platforms": {
     "ios": "9.0"

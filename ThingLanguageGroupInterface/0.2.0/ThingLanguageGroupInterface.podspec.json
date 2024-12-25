@@ -1,0 +1,25 @@
+{
+  "name": "ThingLanguageGroupInterface",
+  "version": "0.2.0",
+  "summary": "A short description of ThingLanguageGroupInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageGroupInterface-0.2.0-1343ba.zip",
+    "type": "zip",
+    "sha1": "5a467a591be7b329e2556aa531dff72e95d0efa7"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLanguageGroupInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

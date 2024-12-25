@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTZigbeeEventManager-1.1.1-anonymize.1.1-810029.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTZigbeeEventManager-1.1.1-anonymize.1-0be09a.zip",
     "type": "zip",
-    "sha1": "498dd0dcd316ddddb8575920c87e1a1e7279397d"
+    "sha1": "7cb17e86119c1d9f8f8607fa758cbccbe4a246df"
   },
   "platforms": {
     "ios": "9.0"

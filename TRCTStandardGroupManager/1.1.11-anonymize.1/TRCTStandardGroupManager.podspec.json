@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTStandardGroupManager-1.1.11-anonymize.1.1-b0da1b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTStandardGroupManager-1.1.11-anonymize.1-14e1a5.zip",
     "type": "zip",
-    "sha1": "b701d3e42be7c1c4f883e9783114f97aa3b45596"
+    "sha1": "33d368563fbed0cc3fff4b9067785fa9987cb1b2"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTImageEncryptUploadManager-2.0.11-2a9ecf.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTImageEncryptUploadManager-2.0.11-0511b1.zip",
     "type": "zip",
-    "sha1": "75b927a91ad7c1f44bbfe7b95a72992dd7b4d291"
+    "sha1": "d4fa309a79570c62bbab955dcfbe45f70490a27f"
   },
   "platforms": {
     "ios": "10.0"

@@ -1,0 +1,41 @@
+{
+  "name": "ThingSmartCameraBase",
+  "version": "5.19.1",
+  "summary": "open SDK code for thing smart camera.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraBase-5.19.1-f5497a.zip",
+    "type": "zip",
+    "sha1": "2a79c55c6204f5c066b1e42b4894cbdeb806be2b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "Photos"
+  ],
+  "dependencies": {
+    "ThingSmartMediaServices": [
+
+    ],
+    "ThingSmartAVBaseKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCameraBase.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCameraBase.xcframework/ios-arm64/ThingSmartCameraBase.framework/Headers/*"
+  ]
+}

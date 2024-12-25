@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTQQWebView-1.0.0-anonymize.1.1-db060d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTQQWebView-1.0.0-anonymize.1-b4c3e9.zip",
     "type": "zip",
-    "sha1": "6f1b2768254736da5ba87dc86dd6bdd0d922a91c"
+    "sha1": "3d830f302e158a53cb02c4732a40042401048d24"
   },
   "platforms": {
     "ios": "9.0"

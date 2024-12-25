@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOfficialGeofenceManager-1.0.2-anonymize.4.1-65a59c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOfficialGeofenceManager-1.0.2-anonymize.4-becada.zip",
     "type": "zip",
-    "sha1": "b6f065d3bd65cda0dbf39877887d35d17650f2d5"
+    "sha1": "51b138709052f21c79a88c07bee4c3e08e112bac"
   },
   "platforms": {
     "ios": "9.0"

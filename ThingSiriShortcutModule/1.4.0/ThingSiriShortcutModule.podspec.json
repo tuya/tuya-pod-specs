@@ -7,9 +7,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSiriShortcutModule-1.4.0.1-c34202.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSiriShortcutModule-1.4.0-c13daa.zip",
     "type": "zip",
-    "sha1": "693e7622f777955e82f2c799a8ae9a393110ecc7"
+    "sha1": "6528b7a2983a457311e448ae8d54d36033436f92"
   },
   "platforms": {
     "ios": "9.0"

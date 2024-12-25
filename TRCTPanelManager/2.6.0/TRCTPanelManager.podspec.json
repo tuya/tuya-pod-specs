@@ -1,0 +1,74 @@
+{
+  "name": "TRCTPanelManager",
+  "version": "2.6.0",
+  "summary": "A short description of TRCTPanelManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPanelManager-2.6.0-24296a.zip",
+    "type": "zip",
+    "sha1": "3ea54593b7c79272ff4e4dbd9f88bc5b36cf0d6e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartActivatorCoreKit": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartLocationService": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTPanelManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

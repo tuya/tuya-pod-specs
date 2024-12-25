@@ -1,0 +1,27 @@
+{
+  "name": "ThingMarketingBoothAPI",
+  "version": "2.2.0",
+  "summary": "A short description of ThingMarketingBoothAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMarketingBoothAPI-2.2.0-4fdac7.zip",
+    "type": "zip",
+    "sha1": "bfb3b7a6e49a163735fe6da5a0226bf2b1f52c7b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingMarketingBoothAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

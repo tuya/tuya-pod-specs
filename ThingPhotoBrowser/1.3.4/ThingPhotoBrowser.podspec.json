@@ -1,0 +1,39 @@
+{
+  "name": "ThingPhotoBrowser",
+  "version": "1.3.4",
+  "summary": "A simple photo browser by thing.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotoBrowser-1.3.4-c84b1c.zip",
+    "type": "zip",
+    "sha1": "b9fdac3b68cd60085b2ad9411c5d3440d2a31569"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingUIKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingPhotoBrowser.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

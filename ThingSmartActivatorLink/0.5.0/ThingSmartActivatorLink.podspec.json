@@ -1,0 +1,53 @@
+{
+  "name": "ThingSmartActivatorLink",
+  "version": "0.5.0",
+  "summary": "A short description of ThingSmartActivatorLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorLink-0.5.0-4603c9.zip",
+    "type": "zip",
+    "sha1": "123ec9eec772cb77f242111207345fbc478ae83b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartActivatorKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSmartActivatorLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

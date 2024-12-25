@@ -1,0 +1,38 @@
+{
+  "name": "ThingModuleServices",
+  "version": "4.63.3",
+  "summary": "模块对外提供的服务定义",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleServices-4.63.3-348ab3.zip",
+    "type": "zip",
+    "sha1": "2f28d345559acb86c9d334df31acccf716023c17"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingModuleServices.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

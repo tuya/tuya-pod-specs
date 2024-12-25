@@ -1,0 +1,38 @@
+{
+  "name": "GZLMiniAppCommonUI",
+  "version": "3.23.0",
+  "summary": "A short description of GZLMiniAppCommonUI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppCommonUI-3.23.0-19832e.zip",
+    "type": "zip",
+    "sha1": "bb674f1e3ae874acc4164358b27093eed805d42c"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppCommonUI.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppCommonUI.xcframework/ios-arm64/GZLMiniAppCommonUI.framework/Headers/*"
+  ]
+}

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMusicManager-1.4.0-0ef3b8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMusicManager-1.4.0-106a87.zip",
     "type": "zip",
-    "sha1": "b202fac166a8f542264b3f62c9592cff37f6b809"
+    "sha1": "0380c7aada6cfe5a018e15f1b13c0b0dbf18998b"
   },
   "platforms": {
     "ios": "10.0"

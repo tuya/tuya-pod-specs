@@ -1,0 +1,30 @@
+{
+  "name": "TUNICode",
+  "version": "1.0.15",
+  "summary": "A short description of TUNICode.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICode-1.0.15-e6c322.zip",
+    "type": "zip",
+    "sha1": "da34996ba8e34b1308516126c27ea5831214312e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNICode.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

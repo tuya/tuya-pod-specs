@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICloudStorageSignatureManager-1.0.0-anonymize.1.1-87382d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICloudStorageSignatureManager-1.0.0-anonymize.1-a574e8.zip",
     "type": "zip",
-    "sha1": "51f7555a5be82511191bdc59c569f36cdefcfac0"
+    "sha1": "601a33822140bc707342d4559c5382c5f098a2c4"
   },
   "platforms": {
     "ios": "9.0"

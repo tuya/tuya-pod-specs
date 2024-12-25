@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleTimerManager-1.2.1-anonymize.3.1-4546fb.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleTimerManager-1.2.1-anonymize.3-8d2f9f.zip",
     "type": "zip",
-    "sha1": "4a1f5f8923b09407f3bd486bb17db7257ee992a3"
+    "sha1": "b1704f3657c0cb772a7a56eb316eb141a351b510"
   },
   "platforms": {
     "ios": "9.0"

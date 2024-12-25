@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLEBeaconManager-1.3.0.1-89bc7e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLEBeaconManager-1.3.0-731890.zip",
     "type": "zip",
-    "sha1": "9fe64c98063c9d184322b654b2e096354757055f"
+    "sha1": "1db672c8246caf445a9282fa7ff7bc0ec910047b"
   },
   "platforms": {
     "ios": "9.0"

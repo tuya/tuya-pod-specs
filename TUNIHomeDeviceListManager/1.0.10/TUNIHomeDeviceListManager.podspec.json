@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeDeviceListManager-1.0.10-4d1724.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeDeviceListManager-1.0.10-5ff855.zip",
     "type": "zip",
-    "sha1": "46c0c78204bf4e7d75d6b350ab8a863f3511818a"
+    "sha1": "b76fd1cddb45cf0e42e8c573d64db3ba467f1ce5"
   },
   "platforms": {
     "ios": "11.0"

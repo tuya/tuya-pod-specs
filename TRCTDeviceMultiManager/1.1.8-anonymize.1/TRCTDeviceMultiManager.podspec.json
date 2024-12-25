@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDeviceMultiManager-1.1.8-anonymize.1.1-ef8f49.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDeviceMultiManager-1.1.8-anonymize.1-b795f2.zip",
     "type": "zip",
-    "sha1": "dfe4ffb997c41329ba33df3f180b32da05e8c988"
+    "sha1": "61115c00b82ffc7c60708791cce032055e30e60c"
   },
   "platforms": {
     "ios": "9.0"

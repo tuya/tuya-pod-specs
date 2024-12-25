@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIApDirectlyDeviceManager-1.1.0-anonymize.1.1-a7ecc1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIApDirectlyDeviceManager-1.1.0-anonymize.1-c37268.zip",
     "type": "zip",
-    "sha1": "f3567d37f19352b67ab961be972bfac007423792"
+    "sha1": "75e2cf11a3e3dc779e114f2f72e331e8cf3fffed"
   },
   "platforms": {
     "ios": "9.0"

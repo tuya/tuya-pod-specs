@@ -1,0 +1,59 @@
+{
+  "name": "TUNIDLMapManager",
+  "version": "4.2.0",
+  "summary": "A short description of TUNIDLMapManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLMapManager-4.2.0-a07ba2.zip",
+    "type": "zip",
+    "sha1": "365fb96b6a3ce32d56e9328a9fd4fbe11630b35d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDLMapManager": [
+      "ios/tunidlmapmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingMapKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "TUNIDiffSubRegisterManager": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDLMapManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

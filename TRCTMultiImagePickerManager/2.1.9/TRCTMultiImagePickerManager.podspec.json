@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiImagePickerManager-2.1.9-82c084.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiImagePickerManager-2.1.9-311e5b.zip",
     "type": "zip",
-    "sha1": "a495cce041197dcff7c78f20fe9702b80cdb55b3"
+    "sha1": "afd04e240b0c77b3ecba8d89c8cce24691167842"
   },
   "platforms": {
     "ios": "11.0"

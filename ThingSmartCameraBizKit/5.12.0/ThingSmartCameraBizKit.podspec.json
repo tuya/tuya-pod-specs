@@ -1,0 +1,80 @@
+{
+  "name": "ThingSmartCameraBizKit",
+  "version": "5.12.0",
+  "summary": "A short description of ThingSmartCameraBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraBizKit-5.12.0-d85e38.zip",
+    "type": "zip",
+    "sha1": "6cbd556204eaeea8c1a58456e2bd1441238b8efd"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingPhotoLibraryBizKit": [
+
+    ],
+    "ThingLocalNetWorkAuthManager": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingSmartPiPPlugAPI": [
+
+    ],
+    "ThingCameraAdvancedAbilityKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartCameraBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

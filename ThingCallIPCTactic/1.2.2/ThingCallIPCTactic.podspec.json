@@ -1,0 +1,92 @@
+{
+  "name": "ThingCallIPCTactic",
+  "version": "1.2.2",
+  "summary": "A short description of ThingCallIPCTactic.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallIPCTactic-1.2.2-ee8ada.zip",
+    "type": "zip",
+    "sha1": "d5d6c65302e89701480137b33afee91508e9d861"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCallIPCTactic": [
+      "ThingCallIPCTactic/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingCallModule": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingMicrophoneAuthManager": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartCallChannelKit": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCallIPCTactic.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

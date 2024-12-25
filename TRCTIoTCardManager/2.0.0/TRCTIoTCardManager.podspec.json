@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTIoTCardManager-2.0.0.1-de9d18.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTIoTCardManager-2.0.0-e20726.zip",
     "type": "zip",
-    "sha1": "577346215e1d91addb3569e64cc6d019dbd6ca96"
+    "sha1": "5997c0e8135ac3a5937cf5f34af5684192c79eb2"
   },
   "platforms": {
     "ios": "9.0"

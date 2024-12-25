@@ -1,0 +1,65 @@
+{
+  "name": "TUNIAppInfoManager",
+  "version": "1.7.2",
+  "summary": "A short description of TUNIAppInfoManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAppInfoManager-1.7.2-57ae65.zip",
+    "type": "zip",
+    "sha1": "a264097a4c59a23d6f84a2bbdaa376a93f1ed2ae"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIAppInfoManager": [
+      "ios/tuniappinfomanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSocialAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAppInfoManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

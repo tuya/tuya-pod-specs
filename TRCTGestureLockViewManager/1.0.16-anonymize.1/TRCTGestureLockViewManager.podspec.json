@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGestureLockViewManager-1.0.16-anonymize.1.1-91991c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGestureLockViewManager-1.0.16-anonymize.1-395d71.zip",
     "type": "zip",
-    "sha1": "b80e933e9d61911d56f4fa61495ce3f4768e8749"
+    "sha1": "b9c704c9c1183544a7f5430011b7b9169eaed452"
   },
   "platforms": {
     "ios": "9.0"

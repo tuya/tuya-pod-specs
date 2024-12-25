@@ -1,0 +1,62 @@
+{
+  "name": "ThingConfigHub",
+  "version": "1.3.1",
+  "summary": "A short description of ThingConfigHub.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingConfigHub-1.3.1-813adc.zip",
+    "type": "zip",
+    "sha1": "375fb7cf57fdba9c0888ef544d6c887dade236e8"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingMachRegister": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingConfigHub.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

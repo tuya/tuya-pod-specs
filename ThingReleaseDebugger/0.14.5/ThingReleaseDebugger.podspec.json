@@ -1,0 +1,96 @@
+{
+  "name": "ThingReleaseDebugger",
+  "version": "0.14.5",
+  "summary": "A short description of ThingReleaseDebugger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReleaseDebugger-0.14.5-32911f.zip",
+    "type": "zip",
+    "sha1": "3589b763bbc711b2f415a1643a2beda7d9dc1f65"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingReleaseDebugger/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ReleaseDebugger": [
+      "ThingReleaseDebugger/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingBaseDebugger": [
+
+    ],
+    "ThingCommonDebugger": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLanguageDynamicBiz": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingLocalMiniAppInterface": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingReleaseDebugger\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingReleaseDebugger\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingReleaseDebugger\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingReleaseDebugger\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingReleaseDebugger.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

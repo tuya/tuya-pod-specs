@@ -1,0 +1,25 @@
+{
+  "name": "ThingHomePageSktAPI",
+  "version": "0.8.0",
+  "summary": "App公版主页面加载组件 页面数据装载&控制",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHomePageSktAPI-0.8.0-7fc17a.zip",
+    "type": "zip",
+    "sha1": "b301006a3913f3bd208d3faf94a9ab631bd92606"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingHomePageSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRouterManager-2.0.4.1-4a6eca.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRouterManager-2.0.4-7d3766.zip",
     "type": "zip",
-    "sha1": "61856dc695d7ec204927a1fa8d9cdcd8b71981da"
+    "sha1": "eb7f04bb9835ad05cca80616dca70340826889f2"
   },
   "platforms": {
     "ios": "9.0"

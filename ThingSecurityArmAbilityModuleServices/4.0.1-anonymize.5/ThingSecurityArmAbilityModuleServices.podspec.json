@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSecurityArmAbilityModuleServices-4.0.1-anonymize.5.1-9d7a42.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSecurityArmAbilityModuleServices-4.0.1-anonymize.5-d2e1d2.zip",
     "type": "zip",
-    "sha1": "333afb83cfbcf961c4325af7d05188789b459123"
+    "sha1": "69a2fe8e8160cc3fb0f70b45275c23a5917774c1"
   },
   "platforms": {
     "ios": "10.0"

@@ -1,0 +1,29 @@
+{
+  "name": "ThingSmartMediaUIKit",
+  "version": "3.0.0",
+  "summary": "A short description of ThingSmartMediaUIKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMediaUIKit-3.0.0-fb8b78.zip",
+    "type": "zip",
+    "sha1": "3855b8ba5cee205c8aa8c5b247ece84a4145cb4b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartMediaServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartMediaUIKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartMediaUIKit.xcframework/ios-arm64/ThingSmartMediaUIKit.framework/Headers/*"
+  ]
+}

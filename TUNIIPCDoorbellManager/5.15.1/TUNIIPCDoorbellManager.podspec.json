@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCDoorbellManager-5.15.1-6fa07b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCDoorbellManager-5.15.1-5c77b1.zip",
     "type": "zip",
-    "sha1": "52dbf5ddb081355ea599bf9d70694cf99afd3e35"
+    "sha1": "9d2c269187d50a74b63e53abf02d66501757ffee"
   },
   "platforms": {
     "ios": "10.0"

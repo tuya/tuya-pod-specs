@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/DingDangSDK-0.3.8-anonymize.1-0875b2.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/DingDangSDK-0.3.8-anonymize.1-57e8f8.zip",
     "type": "zip",
-    "sha1": "46c74c0fc1d8ffb899f7497c039f34268fd403d2"
+    "sha1": "8a2787354f22f94748819e666b23810cd44beb8f"
   },
   "platforms": {
     "ios": "9.0"

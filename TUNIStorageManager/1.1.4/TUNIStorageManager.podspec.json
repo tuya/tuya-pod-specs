@@ -1,0 +1,56 @@
+{
+  "name": "TUNIStorageManager",
+  "version": "1.1.4",
+  "summary": "A short description of TUNIStorageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIStorageManager-1.1.4-39d88d.zip",
+    "type": "zip",
+    "sha1": "22ae798fd8443e01d2b19233eb65b97a4d2473db"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIStorageManager": [
+      "ios/TUNIStorageManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "MMKV": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "TUNICode": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIStorageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

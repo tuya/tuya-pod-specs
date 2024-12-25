@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAnnotationFoundation-0.5.1-571561.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAnnotationFoundation-0.5.1-378860.zip",
     "type": "zip",
-    "sha1": "633336a0e8c50dc599a779f4bf7c3c52364cab7c"
+    "sha1": "392b472200d194878c267c28061aedb48dd84999"
   },
   "platforms": {
     "ios": "9.0",

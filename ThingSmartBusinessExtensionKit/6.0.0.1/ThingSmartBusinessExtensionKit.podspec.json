@@ -1,0 +1,221 @@
+{
+  "name": "ThingSmartBusinessExtensionKit",
+  "version": "6.0.0.1",
+  "summary": "A short description of ThingSmartBusinessExtensionKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessExtensionKit-6.0.0-4ce9f0.zip",
+    "type": "zip",
+    "sha1": "4b8a93b28abcb41ae3d76172701b326d17750f00"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartBusinessExtensionKit": [
+      "ThingSmartBusinessExtensionKit/Assets/*.json"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartActivatorDiscoveryManager": [
+      "1.8.3"
+    ],
+    "ThingSmartFamilyBizKit": [
+      "1.10.2"
+    ],
+    "ThingGroupManagerKit": [
+      "1.2.1"
+    ],
+    "ThingSmartGroupLink": [
+      "1.4.0"
+    ],
+    "ThingGroupHandleSktAPI": [
+      "1.5.2"
+    ],
+    "ThingDeviceDetailKit": [
+      "0.3.0"
+    ],
+    "ThingModuleManager": [
+      "2.14.7"
+    ],
+    "ThingKVStorageService": [
+      "0.2.1"
+    ],
+    "ThingSmartMessageKit": [
+      "5.6.0"
+    ],
+    "ThingSmartUtil": [
+      "5.14.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.1"
+    ],
+    "ThingSmartBaseKit": [
+      "5.6.0"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.6.4.2"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.5.3"
+    ],
+    "ThingSmartActivatorCoreKit": [
+      "5.8.1"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.14.4"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.9"
+    ],
+    "ThingSmartPairingCoreKit": [
+      "5.5.8"
+    ],
+    "ThingBluetoothInterface": [
+      "1.19.2"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.5.1"
+    ],
+    "ThingMachRegister": [
+      "0.7.0"
+    ],
+    "ThingFoundationKit": [
+      "1.23.1"
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+      "1.7.0"
+    ],
+    "ThingHomeKitAPI": [
+      "1.1.2"
+    ],
+    "ThingSmartDeviceKit": [
+      "5.10.0"
+    ],
+    "ThingSmartShareKit": [
+      "5.2.0"
+    ],
+    "ThingOEMConfig": [
+      "1.46.5.1"
+    ],
+    "ThingEncryptImage": [
+      "4.33.0"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "libextobjc/UmbrellaHeader": [
+
+    ],
+    "libextobjc/RuntimeExtensions": [
+
+    ],
+    "libextobjc/EXTADT": [
+
+    ],
+    "libextobjc/EXTConcreteProtocol": [
+
+    ],
+    "libextobjc/EXTKeyPathCoding": [
+
+    ],
+    "libextobjc/EXTNil": [
+
+    ],
+    "libextobjc/EXTSafeCategory": [
+
+    ],
+    "libextobjc/EXTScope": [
+
+    ],
+    "libextobjc/EXTSelectorChecking": [
+
+    ],
+    "libextobjc/EXTSynthesize": [
+
+    ],
+    "libextobjc/NSInvocation+EXT": [
+
+    ],
+    "libextobjc/NSMethodSignature+EXT": [
+
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.2"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.1"
+    ],
+    "ThingBusinessTrackAPI": [
+      "1.0.2"
+    ],
+    "ThingDeviceBusinessDataKit": [
+      "1.3.0"
+    ],
+    "ThingConfigHub": [
+      "1.3.1"
+    ],
+    "ThingBlockKit": [
+      "0.3.0"
+    ],
+    "ThingSmartEventPredefined": [
+      "1.3.0"
+    ],
+    "ThingAPMService": [
+      "0.3.1"
+    ],
+    "ThingFamilyAPI": [
+      "1.4.0"
+    ],
+    "ThingSmartTimerKit": [
+      "5.0.0"
+    ],
+    "ThingLogMacro": [
+      "0.3.7"
+    ],
+    "ThingKVStorageCoreLibrary": [
+      "0.2.6"
+    ],
+    "MMKV": [
+      "~> 101.2.13.2"
+    ],
+    "MMKVCore": [
+      "~> 101.2.14.1"
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBusinessExtensionKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

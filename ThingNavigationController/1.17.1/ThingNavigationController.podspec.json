@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNavigationController-1.17.1-01517a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNavigationController-1.17.1-8b6c21.zip",
     "type": "zip",
-    "sha1": "b32f3b0780f12c7cb88798e3862c77fea3a1cc19"
+    "sha1": "3b8b7ad0fb287cdb78c08a5aa582e0de47b0b39b"
   },
   "platforms": {
     "ios": "9.0"

@@ -1,0 +1,98 @@
+{
+  "name": "ThingDeviceDetailEdit",
+  "version": "1.5.5",
+  "summary": "A short description of ThingDeviceDetailEdit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailEdit-1.5.5-2801c8.zip",
+    "type": "zip",
+    "sha1": "05c1ef7215c459d093274cf26285066d97523fb7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingDeviceDetailEdit": [
+      "ThingDeviceDetailEdit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingMediaKit": [
+
+    ],
+    "ThingInterfaceConfig": [
+
+    ],
+    "ThingDeviceEditPlugAPI": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingDeviceEditSktAPI": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetailEdit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

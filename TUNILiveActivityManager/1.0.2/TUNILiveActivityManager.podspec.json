@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILiveActivityManager-1.0.2-04ebb5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILiveActivityManager-1.0.2-3feebd.zip",
     "type": "zip",
-    "sha1": "a88faacb821f9577badac015f8ab2171b9fbbeb6"
+    "sha1": "be8853c241090644f93ea78c572b4ef6122b6db9"
   },
   "platforms": {
     "ios": "11.0"

@@ -1,0 +1,49 @@
+{
+  "name": "GZLMiniAppTab_iOS",
+  "version": "3.23.0",
+  "summary": "A short description of GZLMiniAppTab_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppTab_iOS-3.23.0-4eb006.zip",
+    "type": "zip",
+    "sha1": "2cbf8af408e4f2d960167a995eb4c2b995b5f939"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppTab_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppTab_iOS.xcframework/ios-arm64/GZLMiniAppTab_iOS.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniAppTab_iOS.xcframework/ios-arm64/GZLMiniAppTab_iOS.framework/CustomResources/Bundles/*"
+  ]
+}
