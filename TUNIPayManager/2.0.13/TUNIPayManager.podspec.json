@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPayManager-2.0.13-c67e2a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPayManager-2.0.13-95dc25.zip",
     "type": "zip",
-    "sha1": "f151e5673fc480363fe515ab2b36e95d48b46e21"
+    "sha1": "9c33e173678af123c21119af25b92a08e654f489"
   },
   "platforms": {
     "ios": "11.0"

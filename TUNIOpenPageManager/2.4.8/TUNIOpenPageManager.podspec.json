@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOpenPageManager-2.4.8-f05330.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOpenPageManager-2.4.8-c4963f.zip",
     "type": "zip",
-    "sha1": "6a638f42d6ea4a3c8e09f1e9951c4f44d9ccf6ea"
+    "sha1": "f5052087cf34c1c21d990f337ad64e88981d0c56"
   },
   "platforms": {
     "ios": "10.0"

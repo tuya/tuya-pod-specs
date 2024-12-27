@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneClipboardManager-2.0.2.1-f5298d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneClipboardManager-2.0.2-4b1dcc.zip",
     "type": "zip",
-    "sha1": "b6a07941024cde97808e48f18512cf13c163e504"
+    "sha1": "433e6ad2cf6d424da77c9d638e7137a89f5dad29"
   },
   "platforms": {
     "ios": "10.0"

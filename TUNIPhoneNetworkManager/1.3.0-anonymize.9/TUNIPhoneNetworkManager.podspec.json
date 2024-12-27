@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneNetworkManager-1.3.0-anonymize.9-46360d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneNetworkManager-1.3.0-anonymize.9-cf86dd.zip",
     "type": "zip",
-    "sha1": "29e3aa81c01291cd1034f4e27a7c89fb5e69914f"
+    "sha1": "0bf400e904a117b00f6bd0f8e50a13493f966851"
   },
   "platforms": {
     "ios": "11.0"

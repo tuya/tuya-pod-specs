@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPMManager-5.5.0-680f4a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPMManager-5.5.0-eef97b.zip",
     "type": "zip",
-    "sha1": "9eddb09df10623f2dbec324d4167399e82e82145"
+    "sha1": "229811ad8d4a4c86e019467f424124bf9039eadd"
   },
   "platforms": {
     "ios": "10.0"

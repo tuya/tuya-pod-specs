@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraManager-5.17.1-ec7d2e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraManager-5.17.1-f74e42.zip",
     "type": "zip",
-    "sha1": "80dcb18b2dc4ea2029683a42be9b017047ee7081"
+    "sha1": "2c45318b9357fc26d13ae39c96bc5b40b311f33b"
   },
   "platforms": {
     "ios": "11.0"

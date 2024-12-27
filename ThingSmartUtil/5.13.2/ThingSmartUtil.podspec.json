@@ -8,9 +8,9 @@
   },
   "homepage": "https://github.com/tuya",
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUtil-5.13.2-75a848.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUtil-5.13.2-50347e.zip",
     "type": "zip",
-    "sha1": "89c8da5471e6523484b40f4855010ac5a5d15e86"
+    "sha1": "104ca46ad67b9a2c3665e8e92e050558418921b7"
   },
   "platforms": {
     "ios": "9.0",
@@ -50,5 +50,10 @@
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
     "DEFINES_MODULE": "YES",
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "dependencies": {
+    "ThingSmartCryption": [
+      "~> 5.0"
+    ]
   }
 }

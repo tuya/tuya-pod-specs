@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImagePickerManager-2.4.7-fefdb6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImagePickerManager-2.4.7-a18b7e.zip",
     "type": "zip",
-    "sha1": "8e5228bbfada3c3e95c4d15c2be61fb85a696efb"
+    "sha1": "b5e183357d2a9cbadd408119a9bbd27a564d851f"
   },
   "platforms": {
     "ios": "10.0"

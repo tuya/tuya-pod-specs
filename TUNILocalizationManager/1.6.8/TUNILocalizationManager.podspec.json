@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocalizationManager-1.6.8-05af1d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocalizationManager-1.6.8-bde06e.zip",
     "type": "zip",
-    "sha1": "4f1db051fce81321f2d61c29814b71d0e86c269e"
+    "sha1": "61a2fa272001a27c0c4df527a522196c73f8b89e"
   },
   "platforms": {
     "ios": "11.0"
