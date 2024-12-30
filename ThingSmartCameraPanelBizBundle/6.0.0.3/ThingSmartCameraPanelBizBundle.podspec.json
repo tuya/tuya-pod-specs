@@ -1,0 +1,1732 @@
+{
+  "name": "ThingSmartCameraPanelBizBundle",
+  "version": "6.0.0.3",
+  "summary": "A short description of ThingSmartCameraPanelBizBundle.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraPanelBizBundle-6.0.0-49a9b2.zip",
+    "type": "zip",
+    "sha1": "8c66291b8bb7d7f611fb98c0513ccc98e6b88161"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartCameraPanelBizBundle": [
+      "ThingSmartCameraPanelBizBundle/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartBizCore": [
+      "5.10.2"
+    ],
+    "ThingSmartCameraBizKit": [
+      "5.12.0"
+    ],
+    "ThingSmartCameraBase": [
+      "~> 5.19"
+    ],
+    "ThingSmartCameraM": [
+      "~> 5.13"
+    ],
+    "ThingSmartCameraKit": [
+      "~> 6.0"
+    ],
+    "ThingCameraUIKit": [
+      "~> 5.0"
+    ],
+    "ThingCameraPanelModule": [
+      "5.3.48"
+    ],
+    "ThingCameraPanelDeprecated": [
+      "3.4.1"
+    ],
+    "ThingCameraDoorBellModule": [
+      "4.11.3"
+    ],
+    "ThingNavigationController": [
+      "1.17.1"
+    ],
+    "ThingHybridContainer": [
+      "1.13.2"
+    ],
+    "ThingPhotoLibraryModule": [
+      "5.5.13"
+    ],
+    "ThingSpaceInfomationModule": [
+      "1.11.1"
+    ],
+    "ThingSmartFamilyDefaultUISkin": [
+      "2.30.5"
+    ],
+    "ThingCameraDomainQueryModule": [
+      "1.0.4"
+    ],
+    "ThingKVStorageService": [
+      "~> 0.2"
+    ],
+    "ThingKVStorageCoreLibrary": [
+      "~> 0.2"
+    ],
+    "ThingCameraCommonSktModule": [
+      "2.0.0"
+    ],
+    "ThingDevicePhotoLibraryModule": [
+      "3.4.0"
+    ],
+    "ThingPrivacyAndServiceModule": [
+      "1.0.2"
+    ],
+    "ThingPrivacyAuthLink": [
+      "1.1.0"
+    ],
+    "ThingPrivacyAuthCheck": [
+      "1.3.2"
+    ],
+    "ThingPhotosAuthManager": [
+      "0.1.6-anonymize.1"
+    ],
+    "ThingMicrophoneAuthManager": [
+      "0.1.3-anonymize.2"
+    ],
+    "ThingSmartPanelLink": [
+      "1.0.0"
+    ],
+    "ThingAIFaceModule": [
+      "2.11.5-rc.2"
+    ],
+    "ThingTimerModule": [
+      "2.13.0"
+    ],
+    "ThingHelpCenterModule": [
+      "1.0.0"
+    ],
+    "ThingOTAGeneralModule": [
+      "1.1.0"
+    ],
+    "ThingSmartSceneDefaultUISkin": [
+      "1.35.1"
+    ],
+    "ThingSmartDeviceDetailLink": [
+      "1.2.1"
+    ],
+    "ThingCameraAbilityCommonModule": [
+      "2.1.2"
+    ],
+    "ThingSmartDoorLockModule": [
+      "1.0.2"
+    ],
+    "ThingCallCenterControlTactic": [
+      "1.3.0"
+    ],
+    "ThingCallIPCTactic": [
+      "1.2.2"
+    ],
+    "ThingCallModule": [
+      "1.0.1"
+    ],
+    "ThingModuleServices": [
+      "4.63.3-biz600.1"
+    ],
+    "ThingConfigHubModule": [
+      "1.1.4-anonymize.1"
+    ],
+    "ThingDomainQueryModule": [
+      "0.3.3"
+    ],
+    "ThingCameraPanelConfigModule": [
+      "1.0.2"
+    ],
+    "ThingCameraSkt": [
+      "4.7.3"
+    ],
+    "ThingCameraInnerPiPModule": [
+      "1.0.1"
+    ],
+    "ThingCameraPiPModule": [
+      "2.0.0"
+    ],
+    "ThingSmartPanelBizBundle": [
+      "~> 6.0.1.0"
+    ],
+    "ThingSmartIPCKitBizBundle": [
+      "~> 6.0.1.0"
+    ],
+    "ThingSmartHomeKitBizBundle": [
+      "~> 6.0.0.0"
+    ],
+    "ThingModuleManager": [
+      "~> 2.14"
+    ],
+    "ThingAnnotationFoundation": [
+      "~> 0.5"
+    ],
+    "ThingMachRegister": [
+      "~> 0.7"
+    ],
+    "ThingFoundationKit": [
+      "~> 1.23"
+    ],
+    "ThingSmartUtil": [
+      "~> 5.14"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "~> 3.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.1"
+    ],
+    "ThingDeviceDetailPlugAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceEditPlugAPI": [
+      "1.2.1"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.14"
+    ],
+    "ThingSmartNetworkKit": [
+      "~> 5.6"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "~> 5.5"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "~> 5.0"
+    ],
+    "ThingRoomManagerInterface": [
+      "0.1.4"
+    ],
+    "ThingDeviceInfoPlugAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceMigratePlugAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceDetectionNetworkPlugAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceNetworkSettingPlugAPI": [
+      "1.2.0"
+    ],
+    "ThingActivatorPlugAPI": [
+      "2.14.1"
+    ],
+    "ThingOTAGeneralPlugAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceTimerPlugAPI": [
+      "0.2.0"
+    ],
+    "ThingSmartTimerKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartBaseKit": [
+      "~> 5.6"
+    ],
+    "ThingSpaceInfoSktAPI": [
+      "1.7.0"
+    ],
+    "ThingAppLifeCycleSktAPI": [
+      "1.0.7-anonymize.1"
+    ],
+    "ThingAPMService": [
+      "~> 0.3"
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+      "1.3.0"
+    ],
+    "ThingDeviceShareModulePlugAPI": [
+      "1.0.0"
+    ],
+    "ThingDeviceEvaluationPlugAPI": [
+      "1.0.0"
+    ],
+    "ThingGroupHandlePlugAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceSyncPlugAPI": [
+      "1.2.0"
+    ],
+    "ThingSceneEditPlugAPI": [
+      "0.1.1"
+    ],
+    "ThingSceneListPlugAPI": [
+      "0.1.2"
+    ],
+    "ThingSceneEditSktAPI": [
+      "0.1.2"
+    ],
+    "ThingHomePageSktAPI": [
+      "0.8.0"
+    ],
+    "ThingPanelModulePlugAPI": [
+      "2.24.0"
+    ],
+    "ThingVoIPAPI": [
+      "1.0.0"
+    ],
+    "ThingSocialAPI": [
+      "1.0.4"
+    ],
+    "ThingSettingsAPI": [
+      "1.0.1"
+    ],
+    "ThingPushNotificationAPI": [
+      "1.0.0"
+    ],
+    "ThingPandoraPlayerModuleAPI": [
+      "1.0.0"
+    ],
+    "ThingOTAGeneralExternalAPI": [
+      "1.1.1"
+    ],
+    "ThingLoginAPI": [
+      "1.1.0"
+    ],
+    "ThingHomeKitAPI": [
+      "~> 1.1"
+    ],
+    "ThingHelpCenterAPI": [
+      "1.0.0"
+    ],
+    "ThingGeofenceServiceAPI": [
+      "1.1.0"
+    ],
+    "ThingFamilyAPI": [
+      "~> 1.4"
+    ],
+    "ThingDomainQueryAPI": [
+      "1.0.1"
+    ],
+    "ThingClientConfigAPI": [
+      "1.0.1"
+    ],
+    "ThingCameraAPI": [
+      "1.2.0"
+    ],
+    "ThingBusinessTrackAPI": [
+      "~> 1.0"
+    ],
+    "ThingAutoTrackAPI": [
+      "1.1.1"
+    ],
+    "ThingLightScenePlugAPI": [
+      "0.0.6"
+    ],
+    "ThingLightSceneSktAPI": [
+      "0.0.4"
+    ],
+    "ThingOEMConfig": [
+      "~> 1.46"
+    ],
+    "ThingEncryptImage": [
+      "~> 4.33"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "libextobjc/UmbrellaHeader": [
+
+    ],
+    "libextobjc/RuntimeExtensions": [
+
+    ],
+    "libextobjc/EXTADT": [
+
+    ],
+    "libextobjc/EXTConcreteProtocol": [
+
+    ],
+    "libextobjc/EXTKeyPathCoding": [
+
+    ],
+    "libextobjc/EXTNil": [
+
+    ],
+    "libextobjc/EXTSafeCategory": [
+
+    ],
+    "libextobjc/EXTScope": [
+
+    ],
+    "libextobjc/EXTSelectorChecking": [
+
+    ],
+    "libextobjc/EXTSynthesize": [
+
+    ],
+    "libextobjc/NSInvocation+EXT": [
+
+    ],
+    "libextobjc/NSMethodSignature+EXT": [
+
+    ],
+    "ThingKVStorageLibrary": [
+      "~> 1.0"
+    ],
+    "ThingStorageGroupInterface": [
+      "~> 0.2"
+    ],
+    "ThingConfigHub": [
+      "~> 1.3"
+    ],
+    "ThingBlockKit": [
+      "~> 0.3"
+    ],
+    "ThingSmartEventPredefined": [
+      "~> 1.3"
+    ],
+    "ThingSmartBusinessLibrary": [
+      "1.12.1"
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+      "1.27.0-feature-uiTheme.1"
+    ],
+    "ThingLogMacro": [
+      "~> 0.3"
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingLottie": [
+      "2.6.0"
+    ],
+    "ThingSmartActionDialog": [
+      "0.9.0"
+    ],
+    "ThingAlertView": [
+      "1.4.0"
+    ],
+    "ThingRealClass": [
+      "0.1.0-anonymize.2"
+    ],
+    "ThingProgressHUD": [
+      "0.3.1"
+    ],
+    "ThingNormalUI": [
+      "0.4.3"
+    ],
+    "ThingThemeModule": [
+      "1.1.0"
+    ],
+    "MMKV": [
+      "~> 101.2.13.2"
+    ],
+    "MMKVCore": [
+      "~> 101.2.14.1"
+    ],
+    "ThingLanguageManager": [
+      "0.2.1"
+    ],
+    "ThingLanguageGroupInterface": [
+      "0.2.0"
+    ],
+    "ThingLanguageEscape": [
+      "0.1.1"
+    ],
+    "ThingLanguageDynamicBiz": [
+      "0.2.0"
+    ],
+    "ThingTarKit": [
+      "0.2.0"
+    ],
+    "TRCTResourceManager": [
+      "5.7.0"
+    ],
+    "ThingCache": [
+      "1.0.3"
+    ],
+    "ThingSmartMediaServices": [
+      "~> 3.0"
+    ],
+    "ThingSmartAVBaseKit": [
+      "~> 2.3"
+    ],
+    "ThingAvLoggerSDK": [
+      "~> 1.2"
+    ],
+    "ThingSmartMediaUIKit": [
+      "~> 3.0"
+    ],
+    "ThingCameraSDK": [
+      "~> 4.18"
+    ],
+    "ThingP2PSDK": [
+      "~> 3.7"
+    ],
+    "ThingFFmpegWrapper": [
+      "~> 4.4"
+    ],
+    "ThingVideoCodecSDK": [
+      "~> 1.4"
+    ],
+    "ThingAudioEngineSDK": [
+      "~> 1.4"
+    ],
+    "ThingSmartP2pChannelKit": [
+      "~> 5.14"
+    ],
+    "ThingSmartCallChannelKit": [
+      "~> 2.1"
+    ],
+    "ThingSmartCallCounterKit": [
+      "~> 1.0"
+    ],
+    "ThingSmartCameraExtSDK": [
+      "~> 1.0"
+    ],
+    "ThingBusinessService": [
+      "0.5.0"
+    ],
+    "ThingDeviceDetailSktAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceEditSktAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceMigrateSktAPI": [
+      "1.2.0"
+    ],
+    "ThingGroupHandleSktAPI": [
+      "~> 1.5"
+    ],
+    "ThingPhotoLibraryBizKit": [
+      "5.0.0"
+    ],
+    "ThingLocalNetWorkAuthManager": [
+      "0.3.1"
+    ],
+    "ThingAuthorizationServices": [
+      "0.3.0"
+    ],
+    "ThingCameraSktAPI": [
+      "2.4.0"
+    ],
+    "ThingSmartPiPPlugAPI": [
+      "1.0.1"
+    ],
+    "ThingCameraAdvancedAbilityKit": [
+      "1.0.0"
+    ],
+    "ThingPhotoBrowser": [
+      "1.3.4"
+    ],
+    "ThingAnimationKit": [
+      "1.2.0"
+    ],
+    "ThingPanelModule": [
+      "2.26.0"
+    ],
+    "ThingBluetoothInterface": [
+      "~> 1.19"
+    ],
+    "ThingPanelBundleManager": [
+      "3.2.4"
+    ],
+    "ThingAlertPickerComponent": [
+      "0.3.3-anonymize.1"
+    ],
+    "ThingBleGatewayService": [
+      "0.0.5-anonymize.1"
+    ],
+    "ThingReactNativeAPI": [
+      "2.0.0"
+    ],
+    "ThingSmartDeviceKit": [
+      "~> 5.10"
+    ],
+    "ThingSmartShareKit": [
+      "~> 5.2"
+    ],
+    "ThingRNContainerAPI": [
+      "2.0.2"
+    ],
+    "ThingUrlPredefined": [
+      "0.2.126-anonymize.4"
+    ],
+    "ThingUrlPredefinedExternal": [
+      "0.4.1"
+    ],
+    "ThingSmartDoorLockModuleService": [
+      "1.1.0"
+    ],
+    "ThingCommonUI": [
+      "0.4.5"
+    ],
+    "AFNetworking/Reachability": [
+
+    ],
+    "ThingCameraUIComponents": [
+      "4.9.9"
+    ],
+    "DACircularProgress": [
+
+    ],
+    "ThingCameraUtil": [
+      "4.6.5"
+    ],
+    "ThingCameraAuthManager": [
+      "0.1.3-anonymize.1"
+    ],
+    "ThingCameraFoundationKit": [
+      "3.38.2-anonymize.2"
+    ],
+    "ThingCameraModuleSKYEventModule": [
+      "5.0.0"
+    ],
+    "ThingSmartEventPredefined_Public": [
+      "0.0.60"
+    ],
+    "GodzillaMiniOpenAPI": [
+      "3.20.1"
+    ],
+    "GodzillaMiniIService": [
+      "1.0.1"
+    ],
+    "ThingPanelContext": [
+      "1.2.1"
+    ],
+    "React": [
+      "0.59.13-rc.100"
+    ],
+    "Folly": [
+      "2018.10.22.00"
+    ],
+    "boost-for-react-native": [
+
+    ],
+    "DoubleConversion": [
+
+    ],
+    "glog": [
+
+    ],
+    "yoga": [
+      "0.59.10"
+    ],
+    "ThingNetworkAreaInterceptorAPI": [
+      "1.1.11-feature-anonymize-4.4.0.1"
+    ],
+    "ThingCallMaintainModule": [
+      "1.0.0"
+    ],
+    "dsBridge": [
+      "3.0.202.1"
+    ],
+    "ThingBaseDebugger": [
+      "1.1.9"
+    ],
+    "ThingVideoPlayer": [
+      "2.0.7"
+    ],
+    "ThingHybridMediaToolsAPI": [
+      "0.0.5-anonymize2.1"
+    ],
+    "ThingSmartLocationService": [
+      "1.1.6"
+    ],
+    "ThingPopupViewController": [
+      "0.4.3"
+    ],
+    "ThingMediaPlayerSDK": [
+      "1.5.0"
+    ],
+    "ThingSmartFamilyBizKit": [
+      "~> 1.10"
+    ],
+    "ThingSmartUIConfigServices": [
+      "1.1.0"
+    ],
+    "ThingTabPagingView": [
+      "1.0.8-anonymize.1"
+    ],
+    "HMSegmentedControl": [
+      "1.5.7-v1.5.7.thing.1"
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "ThingLocationAuthManager": [
+      "0.1.6"
+    ],
+    "ThingAuthInterface": [
+      "0.2.2-anonymize.1"
+    ],
+    "ThingBluetoothAuthManager": [
+      "0.2.2"
+    ],
+    "ThingDIYHomeInterface": [
+      "0.8.0"
+    ],
+    "ThingMapKit": [
+      "1.3.8-darkmodeError.1"
+    ],
+    "ThingSmartPrivateCloudPlugAPI": [
+      "0.1.0"
+    ],
+    "ThingCommonAnimation": [
+      "0.1.4"
+    ],
+    "ThingStatisticsKit": [
+      "0.3.0"
+    ],
+    "ThingDeviceBusinessDataKit": [
+      "~> 1.3"
+    ],
+    "ThingDeviceDetailKit": [
+      "~> 0.3"
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+      "~> 1.7"
+    ],
+    "ThingFileDownloadManager": [
+      "1.1.0"
+    ],
+    "ThingFallLayout": [
+      "2.3.0"
+    ],
+    "ThingSmartSceneBizKit": [
+      "1.38.0"
+    ],
+    "ThingSmartSceneCoreKit": [
+      "~> 5.14"
+    ],
+    "ThingSmartSecurityModuleService": [
+      "5.2.1"
+    ],
+    "ThingSecurityArmAbilityModuleServices": [
+      "4.0.1-anonymize.5"
+    ],
+    "ThingSmartSceneKit": [
+      "~> 4.0"
+    ],
+    "ThingTacticsManager": [
+      "1.1.0"
+    ],
+    "RNApi/Basic": [
+      "5.90.14"
+    ],
+    "RNApi/Core": [
+      "5.90.14"
+    ],
+    "TRCTActivatorManager": [
+      "5.6.0"
+    ],
+    "TRCTAESImageView": [
+      "1.1.3-anonymize.2"
+    ],
+    "TRCTAlexaWebAuthManager": [
+      "1.0.4-anonymize.1"
+    ],
+    "ThingAVSKit": [
+      "1.0.8"
+    ],
+    "ThingOpusCodec": [
+      "1.0.1-anonymize.1"
+    ],
+    "TRCTAnimatedImageManager": [
+      "1.0.5-anonymize.2"
+    ],
+    "TRCTAPMEventManager": [
+      "1.0.9-anonymize.1"
+    ],
+    "TRCTAPMTrackManager": [
+      "1.1.3-anonymize.1"
+    ],
+    "TRCTAudioPlayerManager": [
+      "1.0.9"
+    ],
+    "TRCTAudioSpectruManager": [
+      "5.4.0"
+    ],
+    "ThingAudioSpectrum": [
+      "2.1.1"
+    ],
+    "TRCTBeaconScanAdvManager": [
+      "1.0.7-anonymize.1"
+    ],
+    "TRCTBleExtDeviceManager": [
+      "1.0.3-anonymize.1"
+    ],
+    "TRCTBleFilePushManager": [
+      "1.1.1"
+    ],
+    "TRCTBLEManager": [
+      "1.6.4"
+    ],
+    "TRCTBleTimerManager": [
+      "1.2.1-anonymize.3"
+    ],
+    "TRCTBluetoothUtilManager": [
+      "1.1.10-anonymize.1"
+    ],
+    "TRCTBTManager": [
+      "1.0.3-anonymize.1"
+    ],
+    "TRCTCameraViewManager": [
+      "1.0.5-anonymize.4"
+    ],
+    "ThingCamCaptureKit": [
+      "1.2.0"
+    ],
+    "TRCTCameraViewMotionManager": [
+      "1.0.3-anonymize.3"
+    ],
+    "TRCTConicGradientViewManager": [
+      "1.0.4-anonymize.3"
+    ],
+    "TRCTCountrySelectManager": [
+      "1.0.9-anonymize.1"
+    ],
+    "TRCTCurveChartView": [
+      "1.0.12-anonymize.1"
+    ],
+    "TRCTDeviceMultiManager": [
+      "1.1.8-anonymize.1"
+    ],
+    "TRCTDigitalFunBitmapView": [
+      "1.0.3-anonymize.1"
+    ],
+    "TRCTEncryptImageDownloadManager": [
+      "1.1.6-anonymize.1"
+    ],
+    "TRCTFaceAliveDetectManager": [
+      "1.0.5-anonymize.2"
+    ],
+    "SSZipArchive": [
+
+    ],
+    "TRCTFileDownloadManager": [
+      "1.0.3-anonymize.1"
+    ],
+    "TRCTFileManager": [
+      "1.1.4-anonymize.1"
+    ],
+    "ThingFileUploadKit": [
+      "1.0.1"
+    ],
+    "ThingSmartDocumentManager": [
+      "1.0.2"
+    ],
+    "TRCTGestureLockViewManager": [
+      "1.0.16-anonymize.1"
+    ],
+    "ATGestureLockView": [
+      "0.2.3-anonymize.1"
+    ],
+    "TRCTGIDManager": [
+      "1.0.2-anonymize.1"
+    ],
+    "TRCTHapticsManager": [
+      "1.0.2-anonymize.2"
+    ],
+    "TRCTHomeDevManager": [
+      "1.2.5-anonymize.1"
+    ],
+    "TRCTHomeManager": [
+      "1.2.6-anonymize.1"
+    ],
+    "TRCTHueCircleView": [
+      "1.0.10-anonymize.1"
+    ],
+    "TRCTIoTCardManager": [
+      "2.0.0"
+    ],
+    "ThingDeviceIotCardPlugAPI": [
+      "1.2.0"
+    ],
+    "TRCTJSBundleLoaderManager": [
+      "1.0.0-anonymize.1"
+    ],
+    "TRCTLifecycleManager": [
+      "1.1.5-anonymize.1"
+    ],
+    "TRCTLineChartView": [
+      "1.0.9-anonymize.1"
+    ],
+    "TRCTLocalAlarmManager": [
+      "1.0.7-anonymize.2"
+    ],
+    "TRCTMeshPanelManager": [
+      "1.2.4-anonymize.1"
+    ],
+    "TRCTMqttManager": [
+      "1.1.0-anonymize.3"
+    ],
+    "TRCTMultiImagePickerManager": [
+      "2.1.9"
+    ],
+    "ThingImagePickerController": [
+      "3.7.4"
+    ],
+    "ThingVideoCipper": [
+      "1.1.0"
+    ],
+    "ThingAvatarEditKit": [
+      "0.2.7-anonymize.1"
+    ],
+    "ThingMediaKit": [
+      "3.3.2"
+    ],
+    "TRCTMultiLineChartView": [
+      "1.0.9-anonymize.1"
+    ],
+    "TRCTMusicManager": [
+      "2.1.4"
+    ],
+    "EZAudio": [
+
+    ],
+    "EZAudio/Full": [
+
+    ],
+    "TPCircularBuffer": [
+
+    ],
+    "EZAudio/Core": [
+
+    ],
+    "TRCTNavManager": [
+      "1.3.1-anonymize.1"
+    ],
+    "TRCTNewTopBar": [
+      "1.1.4"
+    ],
+    "TRCTOfficialGeofenceManager": [
+      "1.0.2-anonymize.4"
+    ],
+    "TRCTOrientationManager": [
+      "1.1.5"
+    ],
+    "TRCTOutdoorManager": [
+      "1.0.6-anonymize.1"
+    ],
+    "TRCTPanelDeviceManager": [
+      "1.2.2-anonymize.1"
+    ],
+    "TRCTPanelManager": [
+      "2.6.0"
+    ],
+    "ThingSmartActivatorCoreKit": [
+      "~> 5.8"
+    ],
+    "ThingSmartPairingCoreKit": [
+      "~> 5.5"
+    ],
+    "TRCTPBTBridgeManager": [
+      "1.1.10-anonymize.4"
+    ],
+    "TUNIAPIManagerKit": [
+      "1.11.0"
+    ],
+    "TUNICode": [
+      "1.0.15"
+    ],
+    "TRCTPicker": [
+      "2.0.6-anonymize.1"
+    ],
+    "TRCTPublicBLEBeaconManager": [
+      "1.3.0"
+    ],
+    "ThingSmartBeacon": [
+      "1.4.11"
+    ],
+    "TRCTPublicBLELockManager": [
+      "1.0.7-anonymize.1"
+    ],
+    "ThingPublicBLELockIOSKit": [
+      "1.1.10"
+    ],
+    "TRCTPublicManager": [
+      "1.21.6"
+    ],
+    "TheAmazingAudioEngine": [
+      "1.5.12"
+    ],
+    "TRCTRNStackManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TRCTRouteGatewayManager": [
+      "1.0.44-anonymize.1"
+    ],
+    "TRCTSensorsDBManager": [
+      "1.1.15-anonymize.1"
+    ],
+    "ThingStorageLibrary": [
+      "1.6.0"
+    ],
+    "FMDB/SQLCipher": [
+
+    ],
+    "SQLCipher": [
+
+    ],
+    "SQLCipher/standard": [
+
+    ],
+    "SQLCipher/common": [
+
+    ],
+    "UICKeyChainStore": [
+
+    ],
+    "TRCTSensorsManager": [
+      "1.0.6-anonymize.1"
+    ],
+    "ThingSensorsManager": [
+      "1.0.4-anonymize.1"
+    ],
+    "TRCTShareManager": [
+      "1.2.3-anonymize.2"
+    ],
+    "TRCTSlider": [
+      "1.1.0-anonymize.1"
+    ],
+    "TRCTStandardGroupManager": [
+      "1.1.11-anonymize.1"
+    ],
+    "TRCTSwitch": [
+      "1.1.0-anonymize.1"
+    ],
+    "TRCTSysUtilsManager": [
+      "1.0.3-anonymize.5"
+    ],
+    "TRCTThemeManager": [
+      "1.1.1"
+    ],
+    "TRCTThirdMusicControl": [
+      "1.0.1-anonymize.1"
+    ],
+    "TRCTTopBar": [
+      "1.2.0"
+    ],
+    "TRCTUserManager": [
+      "1.0.4-anonymize.2"
+    ],
+    "TRCTVolumeManager": [
+      "1.0.3-anonymize.2"
+    ],
+    "TRCTZigbeeEventManager": [
+      "1.1.1-anonymize.1"
+    ],
+    "RNApi/AVS": [
+      "5.90.14"
+    ],
+    "TRCTAVSManager": [
+      "1.0.16-anonymize.1"
+    ],
+    "ThingLoginWithAmzSDK": [
+      "1.0.0-fix-redeirct.1"
+    ],
+    "RNApi/Sweeper": [
+      "5.90.14"
+    ],
+    "TRCTLaserManager": [
+      "5.2.5"
+    ],
+    "ThingSmartSweeperKit": [
+      "6.0.0"
+    ],
+    "ThingP2pFileTransSDK": [
+      "1.3.1"
+    ],
+    "ThingCloudStorageSignatureTools": [
+      "1.2.1"
+    ],
+    "ThingP2PSessionKit": [
+      "1.0.1"
+    ],
+    "ThingSweeperLZ4": [
+      "0.2.1"
+    ],
+    "ThingPanelSweeperUtil": [
+      "1.0.4-feature-develop.2"
+    ],
+    "TRCTLaserMap": [
+      "1.9.18"
+    ],
+    "TRCTPointMap": [
+      "5.11.0"
+    ],
+    "ThingSweeperMiniOpenCV": [
+      "1.0.1"
+    ],
+    "OpenCV": [
+
+    ],
+    "TRCTTransferManager": [
+      "1.4.10"
+    ],
+    "TRCTTypeMapManager": [
+      "1.3.9-anonymize.1"
+    ],
+    "TRCTVisionManager": [
+      "1.1.1-anonymize.1"
+    ],
+    "TRCTVisionMap": [
+      "1.2.0"
+    ],
+    "RNApi/Scene": [
+      "5.90.14"
+    ],
+    "TRCTScenePanelManager": [
+      "1.9.1"
+    ],
+    "RNApi/OSSensor": [
+      "5.90.14"
+    ],
+    "TRCTChartsManager": [
+      "2.0.10-anonymize.6"
+    ],
+    "react-native-linear-gradient": [
+      "2.5.9"
+    ],
+    "react-native-webview": [
+      "11.6.2.2"
+    ],
+    "react-native-safe-area-context": [
+      "3.0.7.1"
+    ],
+    "lottie-react-native": [
+      "2.5.11.3"
+    ],
+    "react-native-maps": [
+      "0.14.0.7"
+    ],
+    "react-native-image-picker": [
+      "0.26.8-rc.1"
+    ],
+    "react-native-video": [
+      "3.2.5"
+    ],
+    "react-native-blur": [
+      "3.6.0"
+    ],
+    "rn-fetch-blob": [
+      "0.10.15.3"
+    ],
+    "RNSVG": [
+      "5.5.1.5"
+    ],
+    "RNGestureHandler": [
+      "1.3.0.1"
+    ],
+    "RNScreens": [
+      "2.9.0.1"
+    ],
+    "RNCMaskedView": [
+      "0.1.10.1"
+    ],
+    "RNReanimated": [
+      "1.19.0.1"
+    ],
+    "RNViewShot": [
+      "2.3.0.5"
+    ],
+    "ThingPanelContainer": [
+      "3.10.0"
+    ],
+    "TRCTKit": [
+      "2.2.0"
+    ],
+    "ThingMarketingBoothAPI": [
+      "2.2.0"
+    ],
+    "ThingDynamicContainerPlugin": [
+      "1.0.11"
+    ],
+    "GodzillaMiniBaseKit": [
+      "3.3.0"
+    ],
+    "ThingSocialModule": [
+      "5.0.4"
+    ],
+    "ThingSmartPushConfirmModule": [
+      "1.3.1"
+    ],
+    "ThingSmartBaseKitBizBundle": [
+      "~> 6.0.3.0"
+    ],
+    "TUNIBaseKit": [
+      "3.16.13"
+    ],
+    "TUNIAccelerometerManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIAudioManager": [
+      "1.1.17"
+    ],
+    "TUNIAuthorizeManager": [
+      "1.5.8"
+    ],
+    "TUNIBaseMiniProgramManager": [
+      "2.3.3"
+    ],
+    "GodzillaMiniPluginAPI": [
+      "3.23.0"
+    ],
+    "TUNIBasicManager": [
+      "1.0.7"
+    ],
+    "TUNICommonMediaManager": [
+      "1.0.0"
+    ],
+    "TUNICompassManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIDeviceMotionManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIDownloadFileManager": [
+      "1.1.11"
+    ],
+    "TUNIFileManager": [
+      "1.4.2"
+    ],
+    "TUNIGyroscopeManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNIImageEncryptUploadManager": [
+      "1.0.7"
+    ],
+    "TUNIImagePickerManager": [
+      "2.5.0"
+    ],
+    "ThingSmartMediaKit": [
+      "1.0.4"
+    ],
+    "TUNIInteractionManager": [
+      "1.5.3"
+    ],
+    "TUNIKeyboardManager": [
+      "2.0.1"
+    ],
+    "TUNIMemoryWarningManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNINetworkManager": [
+      "1.1.8"
+    ],
+    "TUNIPhoneBluetoothManager": [
+      "1.1.0"
+    ],
+    "TUNIPhoneCallManager": [
+      "1.1.1"
+    ],
+    "TUNIPhoneClipboardManager": [
+      "2.0.3"
+    ],
+    "TUNIPhoneManager": [
+      "1.10.0"
+    ],
+    "TUNIPhoneNetworkManager": [
+      "1.3.3"
+    ],
+    "TUNIPhoneScreenManager": [
+      "1.0.1"
+    ],
+    "TUNIPhoneVibrateManager": [
+      "1.0.3"
+    ],
+    "TUNIRecordingManager": [
+      "1.1.4"
+    ],
+    "TUNIScanCodeManager": [
+      "4.9.0"
+    ],
+    "TUNIStorageManager": [
+      "1.1.4"
+    ],
+    "TUNIUploadFileManager": [
+      "1.4.7"
+    ],
+    "ThingSmartBizKitBizBundle": [
+      "~> 6.0.1.0"
+    ],
+    "TUNIBizKit": [
+      "4.12.13"
+    ],
+    "TUNIAIAssistantManager": [
+      "1.3.0-rc.18"
+    ],
+    "FMDB": [
+
+    ],
+    "FMDB/standard": [
+
+    ],
+    "ThingWebsocketChannelService": [
+      "1.0.0"
+    ],
+    "Protobuf": [
+
+    ],
+    "TUNIAPIRequestManager": [
+      "1.6.1"
+    ],
+    "TUNIAPMManager": [
+      "5.5.2"
+    ],
+    "TUNIAppInfoManager": [
+      "1.7.2"
+    ],
+    "TUNIASRManager": [
+      "1.0.2"
+    ],
+    "TUniCallManager": [
+      "5.8.0-rc.2"
+    ],
+    "TUNICountrySelectManager": [
+      "1.0.0-anonymize.1"
+    ],
+    "TUNIFontManager": [
+      "1.0.2-anonymize.1"
+    ],
+    "TUNIIAPManager": [
+      "1.0.1"
+    ],
+    "TUNIImageNetworkManager": [
+      "1.1.2"
+    ],
+    "TUNILiveActivityManager": [
+      "1.0.2"
+    ],
+    "ThingLiveActivityInterface": [
+      "1.0.0"
+    ],
+    "TUNILocalDebugManager": [
+      "1.0.0-rc.12"
+    ],
+    "TUNINativeBridgeManager": [
+      "1.0.3"
+    ],
+    "TUNILocalizationManager": [
+      "1.7.0"
+    ],
+    "GZLMiniAppCore_iOS": [
+      "3.23.16"
+    ],
+    "GZLMiniAppAPM_iOS": [
+      "3.9.2"
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+      "3.23.1"
+    ],
+    "GZLJSEngine": [
+      "1.0.8"
+    ],
+    "GZLRNCompatProtocol": [
+      "1.1.0"
+    ],
+    "GZLMiniAppStorage": [
+      "3.3.0"
+    ],
+    "GZLMiniAppCommonUI": [
+      "3.23.0"
+    ],
+    "TUNILogManager": [
+      "1.0.1"
+    ],
+    "ThingLogGroupInterface": [
+      "0.1.3-anonymize.2"
+    ],
+    "TUNIMiniPageRefreshManager": [
+      "0.0.3"
+    ],
+    "TUNIMQTTManager": [
+      "1.0.4"
+    ],
+    "TUNINGManager": [
+      "1.0.11"
+    ],
+    "TUNIOnlineServiceManager": [
+      "1.0.1"
+    ],
+    "ThingSmartSettingsBizKit": [
+      "1.0.1"
+    ],
+    "TUNIOpenPageManager": [
+      "2.4.9"
+    ],
+    "TUNIPayManager": [
+      "3.0.5"
+    ],
+    "TUNIRouterManager": [
+      "2.0.4"
+    ],
+    "TUNIShareManager": [
+      "1.2.4"
+    ],
+    "TUNISiriManager": [
+      "1.0.4"
+    ],
+    "TUNIUserInfoManager": [
+      "2.1.0"
+    ],
+    "TUNIUtilsManager": [
+      "1.2.5"
+    ],
+    "TUNIWebSocketManager": [
+      "1.0.0-rc.10"
+    ],
+    "TUNIWechatManager": [
+      "1.1.6"
+    ],
+    "ThingLoginModuleBizKit": [
+      "1.3.0"
+    ],
+    "ThingLoginSktAPI": [
+      "0.1.1-anonymize.1"
+    ],
+    "ThingNetworkAreaInterceptor": [
+      "1.1.13"
+    ],
+    "ThingNetdbInterceptor": [
+      "1.2.0"
+    ],
+    "ThingSiriShortcutModule": [
+      "1.4.0"
+    ],
+    "ThingIntentKit": [
+      "1.1.5"
+    ],
+    "ThingSmartIAPKit": [
+      "1.2.2"
+    ],
+    "ThingJailbreakDetectModule": [
+      "0.1.2-anonymize.1"
+    ],
+    "ThingSmartSpeechModule": [
+      "1.8.14"
+    ],
+    "ThingSpeechKit": [
+      "1.0.12"
+    ],
+    "SocketRocket": [
+
+    ],
+    "ThingBusinessDeviceCore": [
+      "2.3.0"
+    ],
+    "ThingSmartDeviceKitBizBundle": [
+      "~> 6.0.0.0"
+    ],
+    "TUNIDeviceKit": [
+      "4.11.8"
+    ],
+    "TUNIBluetoothManager": [
+      "1.8.3"
+    ],
+    "TUNIDeviceActivationManager": [
+      "1.5.0"
+    ],
+    "TUNIDeviceControlManager": [
+      "3.1.1"
+    ],
+    "TUNIDeviceDetailManager": [
+      "1.4.0"
+    ],
+    "ThingSmartOutdoorPlugAPI": [
+      "0.6.2"
+    ],
+    "ThingSmartOutdoorKit": [
+      "~> 6.0"
+    ],
+    "ThingDeviceAccessoryManagePlugAPI": [
+      "1.2.0"
+    ],
+    "ThingDeviceLocationPlugAPI": [
+      "1.0.0"
+    ],
+    "ThingDeviceHomeKitModule": [
+      "0.2.0"
+    ],
+    "ThingMatterHomekitInterface": [
+      "0.1.3"
+    ],
+    "TUNIDeviceSceneManager": [
+      "1.1.6"
+    ],
+    "TUNIGroupControlManager": [
+      "2.1.4"
+    ],
+    "TUNIMatterDeviceManager": [
+      "6.0.3"
+    ],
+    "TUNIMeshManager": [
+      "1.0.4-anonymize.1"
+    ],
+    "TUNIOTAManager": [
+      "2.0.1"
+    ],
+    "TUNIThingControlManager": [
+      "1.1.4"
+    ],
+    "TUNIVirtualExperienceManager": [
+      "1.0.0-rc.8"
+    ],
+    "ThingGroupHandleModule": [
+      "2.10.0"
+    ],
+    "ThingGroupManagerKit": [
+      "~> 1.2"
+    ],
+    "ThingSmartPushNotificationModule": [
+      "1.6.4"
+    ],
+    "ThingNotificationsAuthManager": [
+      "0.1.4"
+    ],
+    "ThingDeviceTinyBusinessModule": [
+      "1.2.2"
+    ],
+    "ThingSmartSceneModule": [
+      "1.46.5"
+    ],
+    "ThingCommonUIToolKit": [
+      "0.1.1-anonymize.1"
+    ],
+    "ThingDeviceDetailEdit": [
+      "1.5.5"
+    ],
+    "ThingTemplateSkeleton": [
+      "1.0.0-feature-thin.1"
+    ],
+    "ThingInterfaceConfig": [
+      "1.2.0"
+    ],
+    "ThingDeviceInfo": [
+      "1.3.8"
+    ],
+    "ThingDeviceShareModule": [
+      "2.6.5"
+    ],
+    "ThingDeviceShareModuleSktAPI": [
+      "1.0.0"
+    ],
+    "ThingPageView": [
+      "2.0.0"
+    ],
+    "ThingPageMenuView": [
+      "1.6.0"
+    ],
+    "ThingActivatorModule": [
+      "5.15.5-v6.0.0-fix.3"
+    ],
+    "ThingSmartActivatorKit": [
+      "~> 5.1"
+    ],
+    "ThingSmartActivatorDiscoveryManager": [
+      "~> 1.8"
+    ],
+    "ThingSocketPing": [
+      "1.2.0"
+    ],
+    "ThingSmartActivatorBizKit": [
+      "1.0.0"
+    ],
+    "ThingSmartMapKitBizBundle": [
+      "~> 6.0.1.0"
+    ],
+    "TUNIMapKit": [
+      "3.8.2"
+    ],
+    "TUNIDLMapManager": [
+      "4.2.0"
+    ],
+    "TUNIDiffSubRegisterManager": [
+      "3.0.0"
+    ],
+    "TUNIGeofenceManager": [
+      "1.0.1-anonymize.1"
+    ],
+    "TUNILocationManager": [
+      "2.4.0-rc.6"
+    ],
+    "TUNIMapSearchManager": [
+      "1.0.6"
+    ],
+    "ThingSmartGeofenceModule": [
+      "0.3.4"
+    ],
+    "ThingSmartGeofenceService": [
+      "1.1.0"
+    ],
+    "ThingSmartMiniAppBizBundle": [
+      "~> 6.0.2.0"
+    ],
+    "ThingMiniAppCore": [
+      "3.23.31"
+    ],
+    "GZLMiniAppShell_iOS": [
+      "3.23.13"
+    ],
+    "GodzillaMiniOpenImpl": [
+      "3.20.5"
+    ],
+    "GodzillaMiniWidgetKit": [
+      "3.23.6"
+    ],
+    "GZLMiniAppInterceptor_iOS": [
+      "3.23.2"
+    ],
+    "GodzillaMiniPluginImpl": [
+      "3.23.1"
+    ],
+    "GZLMiniApp_iOS": [
+      "2.6.2"
+    ],
+    "GZLMiniAppInject": [
+      "3.23.0"
+    ],
+    "GZLMiniAppWebView_iOS": [
+      "3.23.4"
+    ],
+    "GZLMiniAppRemoteIDE": [
+      "3.23.0"
+    ],
+    "GZLMiniAppTab_iOS": [
+      "3.23.0"
+    ],
+    "ThingMiniAppTabModule": [
+      "2.0.3"
+    ],
+    "GZLMiniProgramAdapterImpl_iOS": [
+      "3.23.0"
+    ],
+    "ThingDPCContainer": [
+      "1.5.0"
+    ],
+    "TUNIMiniKit": [
+      "3.14.1"
+    ],
+    "TUNIDiffLayerManager": [
+      "3.2.0"
+    ],
+    "TUNIDLWebViewManager": [
+      "3.8.1"
+    ],
+    "TUNIExtMiniAppInfoManager": [
+      "3.0.0-rc.1"
+    ],
+    "TUNIGZLTabBarManager": [
+      "3.0.1"
+    ],
+    "TUNIMiniHighwayManager": [
+      "3.0.6"
+    ],
+    "TUNIMiniProgramManager": [
+      "3.10.2"
+    ],
+    "TUNINativeEventManager": [
+      "1.1.1"
+    ],
+    "TUNINavigationBarManager": [
+      "3.0.1"
+    ],
+    "TUNINavigatorManager": [
+      "3.2.2"
+    ],
+    "TUNIOpenExtApiManager": [
+      "3.0.0-rc.2"
+    ],
+    "TUNIScrollManager": [
+      "3.0.0-rc.3"
+    ],
+    "TUNIWidgetManager": [
+      "1.0.3"
+    ],
+    "ThingQRCodeModule": [
+      "1.14.0"
+    ],
+    "ThingReactNative": [
+      "0.3.5-anonymize.1"
+    ],
+    "ThingRNContainerManager": [
+      "2.0.1"
+    ],
+    "GZLRNCompat": [
+      "3.4.2"
+    ],
+    "TUNIIPCKit": [
+      "6.0.1"
+    ],
+    "TUNICloudStorageSignatureManager": [
+      "1.0.0-anonymize.1"
+    ],
+    "TUNIDLIPCManager": [
+      "5.16.1"
+    ],
+    "TUNIIPCCameraManager": [
+      "6.0.2"
+    ],
+    "TUNIIPCCameraSettingsManager": [
+      "1.1.1-anonymize.1"
+    ],
+    "TUNIIPCDoorbellManager": [
+      "5.15.1"
+    ],
+    "TUNIHomeKit": [
+      "3.6.0"
+    ],
+    "TUNIApDirectlyDeviceManager": [
+      "1.1.0-anonymize.1"
+    ],
+    "TUNIHomeDataManager": [
+      "1.3.2"
+    ],
+    "TUNIHomeDeviceListManager": [
+      "1.0.10"
+    ],
+    "TUNILoginManager": [
+      "1.0.3"
+    ],
+    "TUNISceneManager": [
+      "1.7.1"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartCameraPanelBizBundle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
