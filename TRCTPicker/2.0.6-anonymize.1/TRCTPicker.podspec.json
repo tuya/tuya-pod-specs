@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPicker-2.0.6-anonymize.1-c0f6ce.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPicker-2.0.6-anonymize.1-aea7da.zip",
     "type": "zip",
-    "sha1": "d68d37dc8553729d2dd0fd738a8059e02c552776"
+    "sha1": "0cc2b721bd49e7227d1a66325cfd88847be36538"
   },
   "platforms": {
     "ios": "9.0"

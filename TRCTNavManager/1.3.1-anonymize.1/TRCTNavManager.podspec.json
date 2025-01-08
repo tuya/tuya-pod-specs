@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTNavManager-1.3.1-anonymize.1-77d66c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTNavManager-1.3.1-anonymize.1-949f3c.zip",
     "type": "zip",
-    "sha1": "8f477b44c7ae96600b3acfd4aa4ea4c1f971ce13"
+    "sha1": "8034c35abac2633aff891802772f145947f534a3"
   },
   "platforms": {
     "ios": "9.0"

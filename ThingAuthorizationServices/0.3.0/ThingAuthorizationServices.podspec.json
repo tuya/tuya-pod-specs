@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAuthorizationServices-0.3.0-ec8fb5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAuthorizationServices-0.3.0-57ee1f.zip",
     "type": "zip",
-    "sha1": "a6aa4c3ce87bb34d18998e8dfe8e349f6e76e18b"
+    "sha1": "88f1402cb6042d2f01364584ac3c696da4ef803b"
   },
   "platforms": {
     "ios": "9.0"

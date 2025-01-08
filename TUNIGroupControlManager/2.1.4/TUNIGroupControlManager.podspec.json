@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGroupControlManager-2.1.4-95e07c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGroupControlManager-2.1.4-73e40f.zip",
     "type": "zip",
-    "sha1": "9e16d8deaca59208105ef3d0e9b21b6267668012"
+    "sha1": "1c4f46a1deb31298b887e624be7d29f11744a3e1"
   },
   "platforms": {
     "ios": "10.0"

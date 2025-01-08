@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioEngineSDK-1.4.5-ed984b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioEngineSDK-1.4.5-7ece79.zip",
     "type": "zip",
-    "sha1": "4053a82154a03ff15ffae3db6476833ddde090b1"
+    "sha1": "75480e2885b693d7bb0ab5a396ef4d86d1a3887a"
   },
   "platforms": {
     "ios": "9.0"

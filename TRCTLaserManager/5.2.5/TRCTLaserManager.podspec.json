@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLaserManager-5.2.5-94950e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLaserManager-5.2.5-3d77cf.zip",
     "type": "zip",
-    "sha1": "807ff60ef8aec4e939ab761ebeac61fe61768986"
+    "sha1": "8ef3045b3cd4d4307e88dc56194d2a0b5678761b"
   },
   "platforms": {
     "ios": "10.0"

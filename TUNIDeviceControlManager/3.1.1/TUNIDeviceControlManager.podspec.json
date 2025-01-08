@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceControlManager-3.1.1-f0d9cc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceControlManager-3.1.1-ab4572.zip",
     "type": "zip",
-    "sha1": "898f352282bbc2eaa1ec2becf443d526fb3ca06b"
+    "sha1": "22f369f55600c748f2824961978fbc8c2f723acd"
   },
   "platforms": {
     "ios": "10.0"

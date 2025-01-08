@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDoorBellManager-1.0.1-anonymize.1-d3942b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDoorBellManager-1.0.1-anonymize.1-ed0964.zip",
     "type": "zip",
-    "sha1": "74ad57bf0b304c2b033bff29af501e65cb1b845b"
+    "sha1": "26dc80c23abcfc22d0d32726119bcd3d76b2a98d"
   },
   "platforms": {
     "ios": "9.0"

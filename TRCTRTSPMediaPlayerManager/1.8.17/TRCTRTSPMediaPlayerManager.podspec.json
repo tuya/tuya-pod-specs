@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRTSPMediaPlayerManager-1.8.17-30bbf6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRTSPMediaPlayerManager-1.8.17-f6249f.zip",
     "type": "zip",
-    "sha1": "4d4c07435b3e82618c2dccb5a7a4b941e8d0fc1b"
+    "sha1": "6b13537bf8d434222613f70e04daaeef4adc954e"
   },
   "platforms": {
     "ios": "9.0"

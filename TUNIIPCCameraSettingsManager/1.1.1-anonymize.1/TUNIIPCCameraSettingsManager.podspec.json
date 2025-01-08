@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCCameraSettingsManager-1.1.1-anonymize.1-28157b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCCameraSettingsManager-1.1.1-anonymize.1-80f1f1.zip",
     "type": "zip",
-    "sha1": "04343de41d398657e78a5bb155f20bca0d003cfa"
+    "sha1": "b40f20dd0abd895e48dfc515448c7727c2ef6060"
   },
   "platforms": {
     "ios": "9.0"

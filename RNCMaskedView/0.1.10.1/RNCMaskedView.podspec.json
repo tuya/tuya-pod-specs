@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNCMaskedView-0.1.10.1-83472e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNCMaskedView-0.1.10.1-7e6659.zip",
     "type": "zip",
-    "sha1": "143e16fcafb5d6a9cad8bd6f67a8354ceb4f4973"
+    "sha1": "d691106f24d8a2e48ca67d21d39aa2687fb2c1b0"
   },
   "dependencies": {
     "React": [

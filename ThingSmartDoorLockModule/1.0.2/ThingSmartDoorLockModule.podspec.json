@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDoorLockModule-1.0.2.1-b6251b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDoorLockModule-1.0.2-d9f084.zip",
     "type": "zip",
-    "sha1": "edc0aca338400175786d57ee1149c810d2dae0db"
+    "sha1": "08519b9adaf3f7358abea7142c6776299d93f0ed"
   },
   "platforms": {
     "ios": "9.0"

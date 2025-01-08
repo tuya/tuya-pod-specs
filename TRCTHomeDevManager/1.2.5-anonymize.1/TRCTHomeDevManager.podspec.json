@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHomeDevManager-1.2.5-anonymize.1-4812af.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHomeDevManager-1.2.5-anonymize.1-4a81f6.zip",
     "type": "zip",
-    "sha1": "f197070820f2a2e982187e95ab1af74afb9f2753"
+    "sha1": "f82de55b5fa175510b8ae060bc0f74193766b788"
   },
   "platforms": {
     "ios": "9.0"

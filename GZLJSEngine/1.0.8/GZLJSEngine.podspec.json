@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLJSEngine-1.0.8.1-4217eb.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLJSEngine-1.0.8-1e0159.zip",
     "type": "zip",
-    "sha1": "62e829f14abf0c77390cec8157c02cb641b8d925"
+    "sha1": "9404c48503a88eff9b9db498c31ae4c06327ce94"
   },
   "platforms": {
     "ios": "9.0"

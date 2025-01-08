@@ -8,8 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMediaPlayerSDK-1.5.0-rc.1.1.zip",
-    "type": "zip"
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMediaPlayerSDK-1.5.0-rc.1-b72808.zip",
+    "type": "zip",
+    "sha1": "493d3fdc56ef5a1916c09cd8d71d2207d6651493"
   },
   "platforms": {
     "ios": "9.0"

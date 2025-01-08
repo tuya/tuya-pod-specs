@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoPlayer-2.0.7.1-c30f9b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoPlayer-2.0.7-1b75da.zip",
     "type": "zip",
-    "sha1": "89c7b0164f46c68d33afc243cfeb4e1e9b8d1dfe"
+    "sha1": "420ef0adc3b7da858750d56dbc4c2b3446e21458"
   },
   "platforms": {
     "ios": "9.0"

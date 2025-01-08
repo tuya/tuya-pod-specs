@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDomainQueryAPI-1.0.1.1-ceed0e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDomainQueryAPI-1.0.1-cadf06.zip",
     "type": "zip",
-    "sha1": "93255f4b34638d7188f254bfd3e1b753c7e564e0"
+    "sha1": "e381fcfd3aa3a71e0d89763217b0a8d5c7dc1340"
   },
   "platforms": {
     "ios": "10.0"

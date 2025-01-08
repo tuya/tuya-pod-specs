@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTVolumeManager-1.0.3-anonymize.2-4f19dd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTVolumeManager-1.0.3-anonymize.2-6211b9.zip",
     "type": "zip",
-    "sha1": "fd8a3b633571caf99803e7a535a8a1d0134e946f"
+    "sha1": "2220d9547e53f3692fa7850742ff49bbc10c1f20"
   },
   "platforms": {
     "ios": "9.0"

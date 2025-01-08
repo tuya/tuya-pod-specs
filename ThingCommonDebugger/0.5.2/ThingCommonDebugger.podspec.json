@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonDebugger-0.5.2-b2ccae.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonDebugger-0.5.2-603ed1.zip",
     "type": "zip",
-    "sha1": "7e36455492fc1a61671ca6e154ffb37f0a556510"
+    "sha1": "f53eb2d3fdfb6896503f60410d54c9487e8a4838"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOpenExtApiManager-3.0.0-rc.2-c5a505.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOpenExtApiManager-3.0.0-rc.2-230c42.zip",
     "type": "zip",
-    "sha1": "c2821b45a5a469fa6bc7718db036a4f11e5765d0"
+    "sha1": "ced366bf1008547b16549f9ef94d8e0f7f7d9173"
   },
   "platforms": {
     "ios": "9.0"

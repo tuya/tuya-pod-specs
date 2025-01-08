@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/React-0.59.13-rc.100-7a59cc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/React-0.59.13-rc.100-06decb.zip",
     "type": "zip",
-    "sha1": "2fd8106392af13f00730cf257b85c9c12a1c7f9e"
+    "sha1": "407d921bec8bac303df299fbb4f622f2d638a735"
   },
   "requires_arc": true,
   "platforms": {

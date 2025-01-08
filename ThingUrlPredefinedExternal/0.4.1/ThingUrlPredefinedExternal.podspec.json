@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUrlPredefinedExternal-0.4.1.1-36884d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUrlPredefinedExternal-0.4.1-0a0912.zip",
     "type": "zip",
-    "sha1": "a9867c9c5210c97ae3471c93887bce5ac872f9ea"
+    "sha1": "29bb0f0360ac230975ae2359c2e316e6b3443997"
   },
   "platforms": {
     "ios": "8.0"

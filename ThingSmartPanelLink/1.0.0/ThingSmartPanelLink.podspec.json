@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPanelLink-1.0.0.1-69feec.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPanelLink-1.0.0-40c5f6.zip",
     "type": "zip",
-    "sha1": "15785d1e9aaddb927047a3f508a4bcc28f56bde5"
+    "sha1": "e7cedf84d7f5c546f528f74af86cf60060b32534"
   },
   "platforms": {
     "ios": "9.0"

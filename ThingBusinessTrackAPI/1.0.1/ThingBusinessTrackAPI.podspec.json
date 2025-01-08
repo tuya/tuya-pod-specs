@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessTrackAPI-1.0.1.1-97afde.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessTrackAPI-1.0.1-0f1a5d.zip",
     "type": "zip",
-    "sha1": "c90ff17aecfb101448c916ccf21a76a79f7b3125"
+    "sha1": "6292370860fccac7ed9c9a357539b00b133c945a"
   },
   "platforms": {
     "ios": "9.0"

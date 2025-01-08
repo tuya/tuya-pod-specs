@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSweeperMiniOpenCV-1.0.1.1-5f013f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSweeperMiniOpenCV-1.0.1-9b7aa9.zip",
     "type": "zip",
-    "sha1": "a525f4fbace585be2ee81ffe45bc9262cf6a0f3d"
+    "sha1": "961f610faa79a5d8af7edea438f33106762d79df"
   },
   "platforms": {
     "ios": "9.0"

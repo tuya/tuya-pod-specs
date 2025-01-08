@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINativeEventManager-1.1.0-424969.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINativeEventManager-1.1.0-3dd54d.zip",
     "type": "zip",
-    "sha1": "f33211a05ec715a61a657b8d414cc5dcaaff35f9"
+    "sha1": "7d3e2d69f46449dce619831b7c008f23b8857496"
   },
   "platforms": {
     "ios": "10.0"

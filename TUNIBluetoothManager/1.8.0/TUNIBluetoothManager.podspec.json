@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBluetoothManager-1.8.0-9d83af.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBluetoothManager-1.8.0-d53ddd.zip",
     "type": "zip",
-    "sha1": "ce96ccfef47c2379d720775c94c628a04f52b10c"
+    "sha1": "2af112531432db1752622c535c376eab1da15cb2"
   },
   "platforms": {
     "ios": "11.0"

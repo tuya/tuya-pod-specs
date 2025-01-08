@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2PSDK-3.7.6-4d6c4b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2PSDK-3.7.6-582ea2.zip",
     "type": "zip",
-    "sha1": "b723569c3ab6e5941f3d9dbecaae7c911ded9f6b"
+    "sha1": "b8a5cd57c85bb8e2371b917c937ff81a1cd8a5fe"
   },
   "platforms": {
     "ios": "9.0"

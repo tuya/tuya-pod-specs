@@ -11,9 +11,9 @@
     "ios": "11.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMediaKit-3.3.2-2e3b7c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMediaKit-3.3.2-a2544a.zip",
     "type": "zip",
-    "sha1": "00a0f6f29c1f559b1f052e276ea1f54f0630ee43"
+    "sha1": "36267bf6108934c6c1c8d3a18dd3a9c06a66979a"
   },
   "resource_bundles": {
     "TUNIMediaKit": [

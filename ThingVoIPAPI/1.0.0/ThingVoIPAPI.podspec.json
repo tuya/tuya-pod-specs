@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVoIPAPI-1.0.0.1-440bdc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVoIPAPI-1.0.0-49dd9a.zip",
     "type": "zip",
-    "sha1": "3d0d99194f4a8a62b9acf4eb61ff269e69dccd90"
+    "sha1": "c2aa2378b9ac8af6d86e674d875a8d0e85aa6f5c"
   },
   "platforms": {
     "ios": "10.0"

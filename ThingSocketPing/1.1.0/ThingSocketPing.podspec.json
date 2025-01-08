@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocketPing-1.1.0.1-20fc0b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocketPing-1.1.0-185c28.zip",
     "type": "zip",
-    "sha1": "595debe3e9bd9d6adb56eac329e136ae7546dd8d"
+    "sha1": "4f9558687d30f6ad4aca2ffc2e793a161e84b5b9"
   },
   "platforms": {
     "ios": "9.0"

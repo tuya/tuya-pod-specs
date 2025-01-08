@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartEventPredefined_illumination-0.0.4.1-a8843c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartEventPredefined_illumination-0.0.4-77bb62.zip",
     "type": "zip",
-    "sha1": "832a00038f2ef109205ad28465faa9c5d4dc4c51"
+    "sha1": "d14eaea9d4126290ea3b92a5a81ce32dbab5e462"
   },
   "platforms": {
     "ios": "9.0",

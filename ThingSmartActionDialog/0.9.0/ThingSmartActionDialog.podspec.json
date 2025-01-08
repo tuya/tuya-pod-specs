@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActionDialog-0.9.0-78c078.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActionDialog-0.9.0-c2bc50.zip",
     "type": "zip",
-    "sha1": "df416adf38991115c4ae3ca2cffda10ec7f88d73"
+    "sha1": "983f752aad0d0c578bf07efd22269b1fb13c6c85"
   },
   "platforms": {
     "ios": "9.0"

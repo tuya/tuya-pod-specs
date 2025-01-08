@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraBizKit-5.12.0-d85e38.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraBizKit-5.12.0-7a7d67.zip",
     "type": "zip",
-    "sha1": "6cbd556204eaeea8c1a58456e2bd1441238b8efd"
+    "sha1": "7301906b38fae30282f6899fb47ac636c7f4c04f"
   },
   "platforms": {
     "ios": "11.0"

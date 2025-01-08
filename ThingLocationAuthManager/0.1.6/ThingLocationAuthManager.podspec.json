@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocationAuthManager-0.1.6.1-dc01db.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocationAuthManager-0.1.6-f061ae.zip",
     "type": "zip",
-    "sha1": "b82130113b1520a5f126690e4b44ec080568309d"
+    "sha1": "bba709f38bc397845c057ec6ba2d36a39e43426a"
   },
   "platforms": {
     "ios": "9.0"

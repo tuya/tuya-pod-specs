@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageGroupInterface-0.2.1.1-3b112d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageGroupInterface-0.2.1-de814a.zip",
     "type": "zip",
-    "sha1": "635e96387a8a6d0146313716251a656c514d59d6"
+    "sha1": "bd7cb789cbabee14f930f4361d8152c4101aef8c"
   },
   "platforms": {
     "ios": "9.0",

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingQRCodeModule-1.13.0.1-59300e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingQRCodeModule-1.13.0-465c01.zip",
     "type": "zip",
-    "sha1": "9c9718a6f68f6b96bd3fde85a50bdeba1f597772"
+    "sha1": "e1e6be83725195cb459bf42adf800988cb693f00"
   },
   "platforms": {
     "ios": "11.0"

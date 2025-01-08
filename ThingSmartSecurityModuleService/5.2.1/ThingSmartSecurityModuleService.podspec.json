@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSecurityModuleService-5.2.1.1-e676b0.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSecurityModuleService-5.2.1-d6b74e.zip",
     "type": "zip",
-    "sha1": "6d528d1db46651b71b5de49eb8c8a1695dea14d1"
+    "sha1": "5bbb5be0416ae008dc518183be58583a80c944af"
   },
   "platforms": {
     "ios": "10.0"

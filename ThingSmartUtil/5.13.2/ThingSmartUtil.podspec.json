@@ -8,9 +8,9 @@
   },
   "homepage": "https://github.com/tuya",
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUtil-5.13.2-50347e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUtil-5.13.2-958307.zip",
     "type": "zip",
-    "sha1": "104ca46ad67b9a2c3665e8e92e050558418921b7"
+    "sha1": "65e673aa68ac83f01d32048b3cbd5a9c036a91b5"
   },
   "platforms": {
     "ios": "9.0",

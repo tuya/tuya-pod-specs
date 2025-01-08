@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartTimerKit-5.0.0-3e5b9b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartTimerKit-5.0.0-03e016.zip",
     "type": "zip",
-    "sha1": "6f047501a30642ff751f7fc53a1ae095088e4ddd"
+    "sha1": "c9034d747875f8328fe958609c1f9dc38d432277"
   },
   "static_framework": true,
   "platforms": {

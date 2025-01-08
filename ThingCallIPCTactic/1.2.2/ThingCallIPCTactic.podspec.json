@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallIPCTactic-1.2.2-ee8ada.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallIPCTactic-1.2.2-397798.zip",
     "type": "zip",
-    "sha1": "d5d6c65302e89701480137b33afee91508e9d861"
+    "sha1": "45e1aba068e3cb81d8f9c032de72961fbab43c66"
   },
   "platforms": {
     "ios": "11.0"

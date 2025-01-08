@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThirdMusicControl-1.0.1-anonymize.1-eb4c27.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThirdMusicControl-1.0.1-anonymize.1-40fff2.zip",
     "type": "zip",
-    "sha1": "ab88d4a9b659b0eb196e43dcccec03d6fe7e84ca"
+    "sha1": "c7ea9a79ffbc6c749e8985592ba3389c92aad28b"
   },
   "platforms": {
     "ios": "9.0"

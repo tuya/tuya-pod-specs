@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAIAssistantManager-1.3.0-rc.18-68366f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAIAssistantManager-1.3.0-rc.18-e1ca3d.zip",
     "type": "zip",
-    "sha1": "c202cf40e40b9ec3102f12d2b1103584952c31ae"
+    "sha1": "b9df5b41b10d2d2300201de07595e7f3907db9eb"
   },
   "platforms": {
     "ios": "11.0"

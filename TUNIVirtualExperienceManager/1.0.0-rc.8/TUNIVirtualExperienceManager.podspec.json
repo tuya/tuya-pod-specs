@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIVirtualExperienceManager-1.0.0-rc.8-2c06da.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIVirtualExperienceManager-1.0.0-rc.8-193951.zip",
     "type": "zip",
-    "sha1": "a6a3b52b4ff568d7c5835bf9dcf49ff885d2fbac"
+    "sha1": "7fdfa83d8030ff4bc509d5fe722a9903479a87ec"
   },
   "platforms": {
     "ios": "10.0"

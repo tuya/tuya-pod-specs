@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpeechKit-1.0.12.1-8121be.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpeechKit-1.0.12-3c703e.zip",
     "type": "zip",
-    "sha1": "a986787382ed749b86ae6df23b408ac766a3092c"
+    "sha1": "bfc7c81fbddedac64f9865df2c9d3b32dd9f24f4"
   },
   "platforms": {
     "ios": "9.0"

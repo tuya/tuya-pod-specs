@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TheAmazingAudioEngine-1.5.12.1-bc4de8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TheAmazingAudioEngine-1.5.12-51dba9.zip",
     "type": "zip",
-    "sha1": "71d442e871dcb0323aa2d027ebb7dfb85e05f119"
+    "sha1": "d497749779fd82afef65defc3a1eb9a371c8ee48"
   },
   "deprecated": true,
   "platforms": {

@@ -7,9 +7,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginSktAPI-0.1.1-anonymize.1.1-465995.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginSktAPI-0.1.1-anonymize.1-af11db.zip",
     "type": "zip",
-    "sha1": "dc936d1950cd4a3d4dc58dbd02da406082498c81"
+    "sha1": "cc4cb6ce30999d7a263508c6202567327cf5d121"
   },
   "platforms": {
     "ios": "9.0"

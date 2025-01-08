@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainerApi-1.7.17-feature-anonymize-4.5.0.2.1-eaec00.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainerApi-1.7.17-feature-anonymize-4.5.0.2-c92427.zip",
     "type": "zip",
-    "sha1": "25f97bac1cb38cd41e4c71bf3f131ef51931564b"
+    "sha1": "522c8a7850f98946c96a92be598b71da6a4c3eed"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPandoraPlayerModuleAPI-1.0.0.1-751f88.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPandoraPlayerModuleAPI-1.0.0-45bc0b.zip",
     "type": "zip",
-    "sha1": "8311ab7e77ef2b68047d30760819364bc8b2e469"
+    "sha1": "10fe5e88599fd51b03794492708ea57fa85ef571"
   },
   "platforms": {
     "ios": "10.0"

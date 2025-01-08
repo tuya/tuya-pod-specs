@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffSubRegisterManager-3.0.0.1-605f0f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffSubRegisterManager-3.0.0-4dea30.zip",
     "type": "zip",
-    "sha1": "0b9925499990c915100fb8e1db7f0fe3d330ebed"
+    "sha1": "b7ca553cac466b7c96abff6ff29f8e887ee25591"
   },
   "platforms": {
     "ios": "9.0"

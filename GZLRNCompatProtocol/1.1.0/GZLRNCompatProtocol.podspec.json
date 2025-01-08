@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLRNCompatProtocol-1.1.0.1-f54137.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLRNCompatProtocol-1.1.0-427882.zip",
     "type": "zip",
-    "sha1": "d6cdfba2ddc351babfb67f6df8089ada6133fcba"
+    "sha1": "7cef249b93fa92f6b95f6e13134c77857b29cf88"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTConicGradientViewManager-1.0.4-anonymize.3-7a562f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTConicGradientViewManager-1.0.4-anonymize.3-7d901c.zip",
     "type": "zip",
-    "sha1": "4c2fb6457ca4c81f7497315ef02b2a7041939c99"
+    "sha1": "cb39afd6b045e731132e7d3ea0e5706de71bdc91"
   },
   "platforms": {
     "ios": "9.0"

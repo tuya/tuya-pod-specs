@@ -11,9 +11,9 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/lottie-react-native-2.5.11.3.1-bf227c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/lottie-react-native-2.5.11.3-2acf9e.zip",
     "type": "zip",
-    "sha1": "4fe0a821258e5cb02b407485b76c8cdda22fb1df"
+    "sha1": "71add5a4ee098ca872ed0310f8ed6d0735cde938"
   },
   "dependencies": {
     "React": [

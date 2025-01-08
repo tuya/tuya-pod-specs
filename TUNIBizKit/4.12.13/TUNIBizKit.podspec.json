@@ -11,9 +11,9 @@
     "ios": "11.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBizKit-4.12.13-675c93.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBizKit-4.12.13-1b71b4.zip",
     "type": "zip",
-    "sha1": "40cce285e5b54cfccfa1d9bdb4edc61b630fcda2"
+    "sha1": "65506bc442c40abc03b87d877f898aee283a0fc6"
   },
   "resource_bundles": {
     "TUNIBizKit": [

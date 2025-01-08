@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIScrollManager-3.0.0-rc.3-668ead.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIScrollManager-3.0.0-rc.3-d09d32.zip",
     "type": "zip",
-    "sha1": "3d06d37e5adab39304973c0bb1712ce7c57aa251"
+    "sha1": "522f3810001685bbb8d7db79da5c097025b9d54f"
   },
   "platforms": {
     "ios": "9.0"

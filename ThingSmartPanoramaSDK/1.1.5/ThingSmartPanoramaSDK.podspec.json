@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPanoramaSDK-1.1.5-1789c1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPanoramaSDK-1.1.5-23ab5e.zip",
     "type": "zip",
-    "sha1": "27cd52121601e0a14cfa2408bd930293478aabff"
+    "sha1": "31684fd683104c09d38e3ce1c9634dd97ccf498e"
   },
   "platforms": {
     "ios": "9.0"

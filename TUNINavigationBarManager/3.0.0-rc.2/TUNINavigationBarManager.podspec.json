@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINavigationBarManager-3.0.0-rc.2-e0bd9a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINavigationBarManager-3.0.0-rc.2-884f6c.zip",
     "type": "zip",
-    "sha1": "8a5bbbd18348f27fd499d3bceedc684bd731007f"
+    "sha1": "10f3d97225b380b39b13f0ad56b4d8b7b667e11e"
   },
   "platforms": {
     "ios": "9.0"

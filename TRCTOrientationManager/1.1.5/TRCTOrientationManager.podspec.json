@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOrientationManager-1.1.5-f88af0.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOrientationManager-1.1.5-310987.zip",
     "type": "zip",
-    "sha1": "e8a8ad4baa50244470aa88fc2314a80b73f3a0dc"
+    "sha1": "9903471365ed300de7bb84b97a9f15fab7c8e660"
   },
   "platforms": {
     "ios": "9.0"

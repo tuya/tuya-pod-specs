@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneBizKit-2.4.10-cb1a2c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneBizKit-2.4.10-250f5f.zip",
     "type": "zip",
-    "sha1": "a7e42f4f06151bc53837cb83e4fa49cf14d15ce3"
+    "sha1": "60557b7db4e33ede527edf63e836cf6b903118be"
   },
   "platforms": {
     "ios": "11.0"

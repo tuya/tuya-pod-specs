@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetooth-5.3.3-5966dd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetooth-5.3.3-653d5c.zip",
     "type": "zip",
-    "sha1": "aa075659892d63d5e43605144afb082d64b68a00"
+    "sha1": "e93b502890565648085c9cf71fe79e8efcd15c6d"
   },
   "static_framework": true,
   "platforms": {

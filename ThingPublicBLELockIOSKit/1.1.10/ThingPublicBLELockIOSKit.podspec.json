@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.1.10.1-14b2bd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.1.10-31ee33.zip",
     "type": "zip",
-    "sha1": "488791ef9574d377aa8dceaaa28d5754f933e030"
+    "sha1": "c33f56967cb50dc66478960a004cdbbe594683b8"
   },
   "platforms": {
     "ios": "9.0"

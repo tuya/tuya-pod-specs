@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallModule-1.0.1.1-3f89bd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallModule-1.0.1-998fa6.zip",
     "type": "zip",
-    "sha1": "f2cb9b2ab0c504229a5e2f64ee34717df4843852"
+    "sha1": "85f0ad52ffff23dc40bb71012780da2f5729559f"
   },
   "platforms": {
     "ios": "10.0"

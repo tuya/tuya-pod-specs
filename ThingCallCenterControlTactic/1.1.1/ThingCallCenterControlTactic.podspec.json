@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallCenterControlTactic-1.1.1-e31937.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallCenterControlTactic-1.1.1-bc0920.zip",
     "type": "zip",
-    "sha1": "69614cf90170ce3670b97c7bd3c5229655069919"
+    "sha1": "759ad9ab4204ca995eff55d98eaa43e9eb17442b"
   },
   "platforms": {
     "ios": "11.0"

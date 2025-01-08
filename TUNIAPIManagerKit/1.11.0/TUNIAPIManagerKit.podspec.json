@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPIManagerKit-1.11.0-37fdfe.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPIManagerKit-1.11.0-5d04cd.zip",
     "type": "zip",
-    "sha1": "430a67c958bb12738ac798445f7692a10896eede"
+    "sha1": "3d26bc298164daa27a1b28f8016f66e18fe779f4"
   },
   "platforms": {
     "ios": "10.0"

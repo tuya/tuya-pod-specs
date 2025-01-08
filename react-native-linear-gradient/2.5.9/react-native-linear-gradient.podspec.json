@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-linear-gradient-2.5.9.1-b23a9d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-linear-gradient-2.5.9-ad8a33.zip",
     "type": "zip",
-    "sha1": "2dc1767cecd4b8113149b534a696a285b97b2390"
+    "sha1": "bfecd6287bbb116b6b85ffc9d3642f0453e7c6ec"
   },
   "frameworks": [
     "UIKit",

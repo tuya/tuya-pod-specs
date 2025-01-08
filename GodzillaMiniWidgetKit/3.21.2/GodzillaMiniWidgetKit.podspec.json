@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniWidgetKit-3.21.2-d11962.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniWidgetKit-3.21.2-e8e633.zip",
     "type": "zip",
-    "sha1": "8c60f81d153612eec3f11ae25255970b6c3b378a"
+    "sha1": "bbf558bbd496cbb4ffae2999d32f0987034a38ab"
   },
   "platforms": {
     "ios": "10.0"

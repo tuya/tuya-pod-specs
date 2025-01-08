@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleExtDeviceManager-1.0.3-anonymize.1-cc7d3e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleExtDeviceManager-1.0.3-anonymize.1-333550.zip",
     "type": "zip",
-    "sha1": "488b82be3123f876dec4fac34f1798bd00afe20b"
+    "sha1": "34454a2fe46ead79f891050670f135a1b9a62b2a"
   },
   "platforms": {
     "ios": "9.0"

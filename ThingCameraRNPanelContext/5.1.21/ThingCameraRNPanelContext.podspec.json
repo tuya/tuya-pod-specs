@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraRNPanelContext-5.1.21-1a925c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraRNPanelContext-5.1.21-0237c7.zip",
     "type": "zip",
-    "sha1": "69ccda11738d1707a5125f6c80940f8894eea8ac"
+    "sha1": "fcc3fb3e13ed1db44da418f0410716ba0042a768"
   },
   "platforms": {
     "ios": "11.0"

@@ -1,0 +1,125 @@
+{
+  "name": "ThingSmartBusinessExtensionKitBLEExtra",
+  "version": "6.0.0.2",
+  "summary": "A short description of ThingSmartBusinessExtensionKitBLEExtra.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessExtensionKitBLEExtra-6.0.0-fce9f1.zip",
+    "type": "zip",
+    "sha1": "cac8760ded2795f1b7916f354b039033c08d2ecb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingBLEHomeManager": [
+      "1.14.1"
+    ],
+    "ThingBLEInterfaceImpl": [
+      "0.18.2"
+    ],
+    "ThingBLEMeshInterfaceImpl": [
+      "0.3.0"
+    ],
+    "ThingSmartDeviceKit": [
+      "5.10.0"
+    ],
+    "ThingSmartBaseKit": [
+      "5.6.0"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.6.4.2"
+    ],
+    "ThingSmartUtil": [
+      "5.14.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.1"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.5.3"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.14.4"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.9"
+    ],
+    "ThingSmartShareKit": [
+      "5.2.0"
+    ],
+    "ThingMachRegister": [
+      "0.7.0"
+    ],
+    "ThingModuleManager": [
+      "2.14.9"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.5.1"
+    ],
+    "ThingFoundationKit": [
+      "1.23.1"
+    ],
+    "ThingFamilyAPI": [
+      "1.4.0"
+    ],
+    "ThingBluetoothInterface": [
+      "1.19.2"
+    ],
+    "ThingSmartBLEKit": [
+      "5.9.4"
+    ],
+    "ThingBluetooth": [
+      "5.4.1"
+    ],
+    "ThingSmartBLECoreKit": [
+      "5.8.2"
+    ],
+    "ThingSmartBaseBLEKit": [
+      "1.0.0"
+    ],
+    "ThingSmartBeaconKit": [
+      "5.2.0"
+    ],
+    "ThingBlockKit": [
+      "0.3.0"
+    ],
+    "ThingSmartBLEMeshKit": [
+      "5.9.2"
+    ],
+    "ThingSmartActivatorCoreKit": [
+      "5.8.1"
+    ],
+    "ThingSmartPairingCoreKit": [
+      "5.5.8"
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBusinessExtensionKitBLEExtra.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

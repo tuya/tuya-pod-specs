@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReleaseDebugger-0.13.2-c6210f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReleaseDebugger-0.13.2-4f810f.zip",
     "type": "zip",
-    "sha1": "7448ec3621d8da1c0ce0da76ea6579c0f3f7feef"
+    "sha1": "93f1cb7d8ec7afa395bc84a27333847be5e7e15a"
   },
   "platforms": {
     "ios": "11.0"

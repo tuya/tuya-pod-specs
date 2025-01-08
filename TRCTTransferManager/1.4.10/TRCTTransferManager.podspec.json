@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTransferManager-1.4.10-c10aaa.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTransferManager-1.4.10-ecf0b2.zip",
     "type": "zip",
-    "sha1": "9be88b2c8a7a41583936115a38d2af7695044fad"
+    "sha1": "6549ce4633ed12f3ee2b2ede10e6e60dde9e8c33"
   },
   "platforms": {
     "ios": "10.0"

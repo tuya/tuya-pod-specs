@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNScreens-2.9.0.1-bd1a6f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNScreens-2.9.0.1-ef52e6.zip",
     "type": "zip",
-    "sha1": "b98a090855ca283badb01df5028e05e4f7a082f1"
+    "sha1": "344a297eadc5d7fc699d90acca0427636e03b57a"
   },
   "dependencies": {
     "React": [

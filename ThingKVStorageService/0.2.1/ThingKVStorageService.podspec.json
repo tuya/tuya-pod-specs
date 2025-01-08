@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageService-0.2.1.1-c35045.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageService-0.2.1-d30737.zip",
     "type": "zip",
-    "sha1": "d73fabd9a115d5f1569c0bf12688465cfe4c2a7a"
+    "sha1": "3ebfd8fc182f0e97b5faa07833e804a788d3c554"
   },
   "platforms": {
     "ios": "9.0"

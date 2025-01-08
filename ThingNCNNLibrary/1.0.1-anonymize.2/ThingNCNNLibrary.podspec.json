@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNCNNLibrary-1.0.1-anonymize.2.1-a1cf36.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNCNNLibrary-1.0.1-anonymize.2-b07a3f.zip",
     "type": "zip",
-    "sha1": "4447244e71d95701d1bb977ab464d577447291ef"
+    "sha1": "27d30262f14be500b5318e4dfe11ac1c2f83320f"
   },
   "platforms": {
     "ios": "9.0"

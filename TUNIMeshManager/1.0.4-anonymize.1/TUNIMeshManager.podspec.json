@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMeshManager-1.0.4-anonymize.1-9a30b3.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMeshManager-1.0.4-anonymize.1-720fb3.zip",
     "type": "zip",
-    "sha1": "7c93c4e3217b99e0910777927c8d3516d1967332"
+    "sha1": "530312cc54ccab09c0c8aa2d843303c2a4f6e344"
   },
   "platforms": {
     "ios": "9.0"

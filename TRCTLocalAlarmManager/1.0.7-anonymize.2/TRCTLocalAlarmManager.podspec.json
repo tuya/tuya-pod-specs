@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLocalAlarmManager-1.0.7-anonymize.2-0d8922.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLocalAlarmManager-1.0.7-anonymize.2-919622.zip",
     "type": "zip",
-    "sha1": "44e19eea66267e6ddcace6c2abc60b1990424193"
+    "sha1": "d152ba38e3842bdad910f4be9d18796ebf02788c"
   },
   "platforms": {
     "ios": "9.0"

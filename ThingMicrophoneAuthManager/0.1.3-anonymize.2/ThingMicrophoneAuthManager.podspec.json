@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMicrophoneAuthManager-0.1.3-anonymize.2.1-dc9f8c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMicrophoneAuthManager-0.1.3-anonymize.2-49c166.zip",
     "type": "zip",
-    "sha1": "8bdcd53f158e1ad3ecd080554eb00ecef5dc3467"
+    "sha1": "4ed207b39e7c2996991104d01c203e634b1eeb52"
   },
   "platforms": {
     "ios": "9.0"

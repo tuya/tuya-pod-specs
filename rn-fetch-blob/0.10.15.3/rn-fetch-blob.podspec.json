@@ -6,9 +6,9 @@
   "license": "none",
   "homepage": "https://github.com/tuya",
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/rn-fetch-blob-0.10.15.3.1-c79b65.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/rn-fetch-blob-0.10.15.3-89da28.zip",
     "type": "zip",
-    "sha1": "75aed65fd9bd691ff8a8abe26799d20a0fabc6ea"
+    "sha1": "847e9d1bcdc9a84a1a989df71767ba1e803e7cb4"
   },
   "authors": {
     "TuyaInc": "https://developer.tuya.com/"

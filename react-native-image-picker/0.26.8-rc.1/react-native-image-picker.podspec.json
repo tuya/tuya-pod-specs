@@ -8,9 +8,9 @@
   },
   "summary": "A React Native module that allows you to use the native UIImagePickerController UI to select a photo from the device library or directly from the camera",
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-image-picker-0.26.8-rc.1.1-23273e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-image-picker-0.26.8-rc.1-3ce056.zip",
     "type": "zip",
-    "sha1": "6b84d147e7d3d8783ca170e0dab89897f04056ff"
+    "sha1": "79dfb41c96251ab2e01331ca7c67442d237322ff"
   },
   "platforms": {
     "ios": "10.0"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReactNativeAPI-2.0.0.1-a496d8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReactNativeAPI-2.0.0-fcef2f.zip",
     "type": "zip",
-    "sha1": "e3fdf03294e388de07181799eb107f5d493fe155"
+    "sha1": "b1f31eed49e21391b7568742c21c6bbeadfa4037"
   },
   "platforms": {
     "ios": "9.0"

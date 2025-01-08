@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneCoreKit-5.12.0-6dee66.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneCoreKit-5.12.0-b20c57.zip",
     "type": "zip",
-    "sha1": "87f3929f5735a8109b6b2ec254fe8daebdf06abf"
+    "sha1": "d4fe41614f6484cb67ebd0c7d30bea4c505de7c1"
   },
   "platforms": {
     "ios": "9.0",

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIKeyboardManager-2.0.1-2ebeaa.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIKeyboardManager-2.0.1-90f148.zip",
     "type": "zip",
-    "sha1": "eef3389e1a3a54347bccfd6fb1d66d63f0a20de6"
+    "sha1": "78f72bbabefbb3915255e97c4e999141bd88f54b"
   },
   "platforms": {
     "ios": "10.0"

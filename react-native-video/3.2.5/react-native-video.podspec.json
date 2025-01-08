@@ -11,9 +11,9 @@
     "ios": "9.0"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-video-3.2.5.1-50790f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-video-3.2.5-2894d0.zip",
     "type": "zip",
-    "sha1": "56acf139ad92a16fdfacccfbbf634e52da4883eb"
+    "sha1": "4c786be140a187b822497cdd2383e2e9a2f31ac7"
   },
   "frameworks": [
     "UIKit",

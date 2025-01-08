@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNSVG-5.5.1.5-6ddecf.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNSVG-5.5.1.5-963406.zip",
     "type": "zip",
-    "sha1": "3a164fd522cbfa1231cad92f043a017581b56250"
+    "sha1": "0dec043da1b30c1fc5eacb088a01175cb13d1339"
   },
   "requires_arc": true,
   "platforms": {
