@@ -1,0 +1,95 @@
+{
+  "name": "ThingSmartBusinessExtensionKitMatterExtra",
+  "version": "5.17.0.5",
+  "summary": "A short description of ThingSmartBusinessExtensionKitMatterExtra.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessExtensionKitMatterExtra-5.17.0-417016.zip",
+    "type": "zip",
+    "sha1": "943f253f048d10896019d75413e04791218e7c1a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingSmartMatterInterface": [
+      "1.6.0"
+    ],
+    "ThingModuleManager": [
+      "2.14.9"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.5.1"
+    ],
+    "ThingMachRegister": [
+      "0.7.0"
+    ],
+    "ThingFoundationKit": [
+      "1.24.0"
+    ],
+    "ThingSmartUtil": [
+      "5.13.2"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.1"
+    ],
+    "ThingSmartMatterKit": [
+      "~> 5.17.0.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.12.2"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.6.2"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.4.0"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.9"
+    ],
+    "ThingSmartBaseKit": [
+      "5.4.0"
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+      "1.6.0"
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.2"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.1"
+    ],
+    "ThingBlockKit": [
+      "0.3.0"
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBusinessExtensionKitMatterExtra.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

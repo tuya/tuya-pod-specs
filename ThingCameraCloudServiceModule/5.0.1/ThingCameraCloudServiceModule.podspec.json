@@ -1,0 +1,36 @@
+{
+  "name": "ThingCameraCloudServiceModule",
+  "version": "5.0.1",
+  "summary": "A short description of ThingCameraCloudServiceModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraCloudServiceModule-5.0.1-94ee58.zip",
+    "type": "zip",
+    "sha1": "282d85a46d7502c2977d9161e27997fd0f03ab41"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCameraCloudServiceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
