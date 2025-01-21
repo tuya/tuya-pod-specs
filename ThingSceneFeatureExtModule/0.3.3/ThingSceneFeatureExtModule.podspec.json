@@ -1,0 +1,54 @@
+{
+  "name": "ThingSceneFeatureExtModule",
+  "version": "0.3.3",
+  "summary": "A short description of ThingSceneFeatureExtModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSceneFeatureExtModule-0.3.3-e3c3a4.zip",
+    "type": "zip",
+    "sha1": "96a05a416ae36b1d80da0fba7de5a4d488d94f1e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSceneFeatureExtModule": "ThingSceneFeatureExtModule/Assets/**/*"
+  },
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingSmartSceneBizKit": [
+
+    ],
+    "ThingSmartSceneModule": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSceneFeatureExtModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ThingPandoraPlayerModuleAPI",
+  "version": "1.0.1",
+  "summary": "A short description of ThingPandoraPlayerModuleAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPandoraPlayerModuleAPI-1.0.1-390dee.zip",
+    "type": "zip",
+    "sha1": "80f7ff627cd9fe62cfa31c0dd63521e7c35d19dd"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingPandoraPlayerModuleAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

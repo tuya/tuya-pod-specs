@@ -1,0 +1,22 @@
+{
+  "name": "ThingVoIPAPI",
+  "version": "1.0.1",
+  "summary": "A short description of ThingVoIPAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVoIPAPI-1.0.1-02e5c3.zip",
+    "type": "zip",
+    "sha1": "0a7e38ac2b1d692527f0153f53e7c7f43ab4a72d"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingVoIPAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

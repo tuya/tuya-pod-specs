@@ -1,0 +1,22 @@
+{
+  "name": "ThingClientConfigAPI",
+  "version": "1.1.0",
+  "summary": "A short description of ThingClientConfigAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingClientConfigAPI-1.1.0-be3a0e.zip",
+    "type": "zip",
+    "sha1": "cef4435f325bc3ef6158c6a01d6e039b793d7fcd"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingClientConfigAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
