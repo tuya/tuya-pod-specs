@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpenSSLSDK-1.1.1-w.1-fe6f8f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpenSSLSDK-1.1.1-w.1-9e31cf.zip",
     "type": "zip",
-    "sha1": "f2cafab60a671ac7b06b13217893ee4fe24ec384"
+    "sha1": "f1aca1b412944ce3bd51f94a17b12d211fd7dcee"
   },
   "platforms": {
     "ios": "9.0"

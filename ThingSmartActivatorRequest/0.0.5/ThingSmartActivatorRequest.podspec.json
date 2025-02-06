@@ -1,0 +1,30 @@
+{
+  "name": "ThingSmartActivatorRequest",
+  "version": "0.0.5",
+  "summary": "A short description of ThingSmartActivatorRequest.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorRequest-0.0.5-ea4209.zip",
+    "type": "zip",
+    "sha1": "ea4eaa7df52f6548953a722a956e5279cee52fc1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartActivatorDiscoveryManager": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartActivatorRequest.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
