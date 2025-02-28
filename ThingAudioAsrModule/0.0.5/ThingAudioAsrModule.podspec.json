@@ -1,0 +1,47 @@
+{
+  "name": "ThingAudioAsrModule",
+  "version": "0.0.5",
+  "summary": "A short description of ThingAudioAsrModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioAsrModule-0.0.5-9fe4a5.zip",
+    "type": "zip",
+    "sha1": "7bae4b0b7b2ae8ada3b42f2056b2d0f2df51783d"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "Protobuf": [
+
+    ],
+    "ThingAudioEngineSDK": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingAudioAsrModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingAudioAsrModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingAudioAsrModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingAudioAsrModule\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "ThingAudioAsrModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

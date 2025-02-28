@@ -1,0 +1,49 @@
+{
+  "name": "ThingWebsocketChannelModule",
+  "version": "1.0.0",
+  "summary": "A short description of ThingWebsocketChannelModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingWebsocketChannelModule-1.0.0-994b64.zip",
+    "type": "zip",
+    "sha1": "195d42808254716ad479aebc4cfe9dc2c4286fe8"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "SocketRocket": [
+
+    ],
+    "Protobuf": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingWebsocketChannelModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingWebsocketChannelModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingWebsocketChannelModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingWebsocketChannelModule\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "ThingWebsocketChannelModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
