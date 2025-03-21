@@ -1,0 +1,22 @@
+{
+  "name": "ThingSettingsAPI",
+  "version": "1.2.0",
+  "summary": "A short description of ThingSettingsAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSettingsAPI-1.2.0-5bbfb7.zip",
+    "type": "zip",
+    "sha1": "9764f7a1d5ab244d062f18ee4210d10578be1bf0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingSettingsAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
