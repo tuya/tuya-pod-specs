@@ -1,0 +1,156 @@
+{
+  "name": "ThingSmartHomeKit",
+  "version": "6.0.0.3",
+  "summary": "A short description of ThingSmartHomeKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeKit-6.0.0-6c92a5.zip",
+    "type": "zip",
+    "sha1": "bbbf6a0e4791517dcbe3930dd65cd5dc5a609efd"
+  },
+  "platforms": {
+    "ios": "11.0",
+    "watchos": "2.0"
+  },
+  "ios": {
+    "dependencies": {
+      "ThingSmartActivatorKit": [
+        "5.1.5"
+      ],
+      "ThingSmartMQTTChannelKit": [
+        "5.5.3"
+      ],
+      "ThingSmartSocketChannelKit": [
+        "5.0.9"
+      ],
+      "ThingSmartBLEKit": [
+        "5.9.5"
+      ],
+      "ThingSmartBLEMeshKit": [
+        "5.9.2"
+      ],
+      "ThingBluetooth": [
+        "5.4.1"
+      ],
+      "ThingSmartActivatorCoreKit": [
+        "5.8.1"
+      ],
+      "ThingSmartBeaconKit": [
+        "5.2.0"
+      ],
+      "ThingSmartBLECoreKit": [
+        "5.8.2"
+      ],
+      "ThingSmartPairingCoreKit": [
+        "5.5.8"
+      ],
+      "ThingSmartDeviceCoreKit": [
+        "5.14.4"
+      ],
+      "ThingSmartNetworkKit": [
+        "5.6.4.2"
+      ],
+      "ThingSmartUtil": [
+        "5.14.0"
+      ],
+      "ThingSmartCryption": [
+
+      ],
+      "ThingMbedtls": [
+        "3.5.2"
+      ],
+      "ThingOpenSSLSDK": [
+        "~> 1.1.1-w.3"
+      ],
+      "YYModel": [
+
+      ],
+      "ThingSmartBaseKit": [
+        "5.6.0"
+      ],
+      "ThingSmartDeviceKit": [
+        "5.10.0"
+      ],
+      "ThingSmartShareKit": [
+        "5.2.0"
+      ],
+      "ThingMachRegister": [
+        "0.7.0"
+      ],
+      "ThingSmartBaseBLEKit": [
+        "1.0.0"
+      ]
+    },
+    "source_files": [
+      "Build/ThingSmartHomeKit.xcframework/ios-arm64/ThingSmartHomeKit.framework/Headers/*"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "5.6.0"
+    ],
+    "ThingSmartDeviceKit": [
+      "5.10.0"
+    ],
+    "ThingSmartSceneKit": [
+      "4.0.0"
+    ],
+    "ThingSmartTimerKit": [
+      "5.0.0"
+    ],
+    "ThingSmartMessageKit": [
+      "5.6.0"
+    ],
+    "ThingSmartFeedbackKit": [
+      "5.0.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.14.4"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.6.4.2"
+    ],
+    "ThingSmartSceneCoreKit": [
+      "5.14.0"
+    ],
+    "ThingSmartShareKit": [
+      "5.2.0"
+    ],
+    "ThingSmartUtil": [
+      "5.14.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.3"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.5.3"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.9"
+    ],
+    "ThingMachRegister": [
+      "0.7.0"
+    ]
+  },
+  "watchos": {
+    "source_files": [
+      "Build/ThingSmartHomeKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartHomeKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartHomeKit.xcframework"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "name": "ThingSmartAIAssistantBizBundle",
+  "version": "6.0.0.2",
+  "summary": "A short description of ThingSmartAIAssistantBizBundle.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAIAssistantBizBundle-6.0.0-756a51.zip",
+    "type": "zip",
+    "sha1": "3e4dd6ddc5acbbe4a8faf3a28d8cbfdafc45db58"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartAIAssistantBizBundle": [
+      "ThingSmartAIAssistantBizBundle/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingWebsocketChannelModule": [
+      "1.0.0"
+    ],
+    "ThingAudioAsrModule": [
+      "0.0.5"
+    ],
+    "ThingModuleManager": [
+      "~> 2.14"
+    ],
+    "ThingKVStorageLibrary": [
+      "~> 1.0"
+    ],
+    "SocketRocket": [
+
+    ],
+    "Protobuf": [
+
+    ],
+    "ThingLogMacro": [
+      "~> 0.3"
+    ],
+    "ThingSmartBaseKit": [
+      "~> 5.6"
+    ],
+    "ThingSmartNetworkKit": [
+      "~> 5.6"
+    ],
+    "ThingSmartUtil": [
+      "~> 5.14"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "~> 3.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.3"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "~> 5.5"
+    ],
+    "ThingAnnotationFoundation": [
+      "~> 0.5"
+    ],
+    "ThingMachRegister": [
+      "~> 0.7"
+    ],
+    "ThingFoundationKit": [
+      "~> 1.24"
+    ],
+    "ThingStorageGroupInterface": [
+      "~> 0.2"
+    ],
+    "ThingWebsocketChannelService": [
+      "1.0.0"
+    ],
+    "ThingOEMConfig": [
+      "~> 1.46"
+    ],
+    "ThingEncryptImage": [
+      "~> 4.33"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "libextobjc/UmbrellaHeader": [
+
+    ],
+    "libextobjc/RuntimeExtensions": [
+
+    ],
+    "libextobjc/EXTADT": [
+
+    ],
+    "libextobjc/EXTConcreteProtocol": [
+
+    ],
+    "libextobjc/EXTKeyPathCoding": [
+
+    ],
+    "libextobjc/EXTNil": [
+
+    ],
+    "libextobjc/EXTSafeCategory": [
+
+    ],
+    "libextobjc/EXTScope": [
+
+    ],
+    "libextobjc/EXTSelectorChecking": [
+
+    ],
+    "libextobjc/EXTSynthesize": [
+
+    ],
+    "libextobjc/NSInvocation+EXT": [
+
+    ],
+    "libextobjc/NSMethodSignature+EXT": [
+
+    ],
+    "ThingAudioEngineSDK": [
+      "~> 1.4"
+    ],
+    "ThingAvLoggerSDK": [
+      "~> 1.2"
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartAIAssistantBizBundle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
