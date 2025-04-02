@@ -1,0 +1,52 @@
+{
+  "name": "TUNIInteractionManager",
+  "version": "1.6.1",
+  "summary": "A short description of TUNIInteractionManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIInteractionManager-1.6.1-3fd781.zip",
+    "type": "zip",
+    "sha1": "d1afe13381a675573aae74edfb03bca6233f2032"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIInteractionManager": [
+      "ios/tuniinteractionmanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIInteractionManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

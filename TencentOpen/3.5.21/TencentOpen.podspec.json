@@ -1,0 +1,46 @@
+{
+  "name": "TencentOpen",
+  "version": "3.5.21",
+  "summary": "The Official iOS SDK of Tencent Open API.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TencentOpen-3.5.21-9257ea.zip",
+    "type": "zip",
+    "sha1": "363605099db4198507c890e292cd7a471db36236"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "vendored_frameworks": [
+    "TencentOpen.xcframework",
+    "TYTencentOpenApi/Vendors/TencentOpenAPI.framework"
+  ],
+  "pod_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "libraries": [
+    "iconv",
+    "z",
+    "c++",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "Security",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "WebKit"
+  ],
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "TUNIMemoryWarningManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIMemoryWarningManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMemoryWarningManager-1.1.0-fdff7d.zip",
+    "type": "zip",
+    "sha1": "92fc907da12abe714ef5b064f0025c97d2291208"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMemoryWarningManager": [
+      "ios/tunimemorywarningmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMemoryWarningManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

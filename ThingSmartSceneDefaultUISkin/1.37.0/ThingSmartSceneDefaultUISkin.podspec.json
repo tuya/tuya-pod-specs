@@ -1,0 +1,113 @@
+{
+  "name": "ThingSmartSceneDefaultUISkin",
+  "version": "1.37.0",
+  "summary": "Smart scene default Skin",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneDefaultUISkin-1.37.0-270076.zip",
+    "type": "zip",
+    "sha1": "99aa2464d4c7498774c1fd0c4cba2140f0aea9eb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartSceneDefaultUISkin": [
+      "ThingSmartSceneDefaultUISkin/Assets/*"
+    ]
+  },
+  "prefix_header_file": "ThingSmartSceneDefaultUISkin/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartSceneBizKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingAnimationKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartSecurityModuleService": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingSceneListPlugAPI": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingSmartSceneKit": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSceneDefaultUISkin.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

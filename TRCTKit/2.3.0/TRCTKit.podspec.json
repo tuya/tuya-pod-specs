@@ -1,0 +1,89 @@
+{
+  "name": "TRCTKit",
+  "version": "2.3.0",
+  "summary": "A short description of TRCTKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTKit-2.3.0-df56c5.zip",
+    "type": "zip",
+    "sha1": "22d0a57c21a5ebfc8644421f05a1a94553b5fd76"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TRCTKit": [
+      "TRCTKit/Assets/**/*"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "RNApi/Core": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "TRCTKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

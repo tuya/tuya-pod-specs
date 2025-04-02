@@ -1,0 +1,30 @@
+{
+  "name": "ThingCameraAdvancedAbilityKit",
+  "version": "1.0.2",
+  "summary": "A short description of ThingCameraAdvancedAbilityKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraAdvancedAbilityKit-1.0.2-ca8a83.zip",
+    "type": "zip",
+    "sha1": "608c4660a2a780caa22539d0fdcfbbc81fd880b5"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCameraAdvancedAbilityKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

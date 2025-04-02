@@ -1,0 +1,68 @@
+{
+  "name": "ThingSiriShortcutModule",
+  "version": "1.4.1",
+  "summary": "A short description of ThingSiriShortcutModule.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSiriShortcutModule-1.4.1-0b7904.zip",
+    "type": "zip",
+    "sha1": "f48889111a0ce8a1c22d54be3307c30eef3d8f0f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSiriShortcutModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingSiriShortcutModule": [
+      "ThingSiriShortcutModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingIntentKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSiriShortcutModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "license": "none"
+}

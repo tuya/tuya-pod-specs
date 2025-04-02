@@ -1,0 +1,36 @@
+{
+  "name": "ThingSmartAVBaseKit",
+  "version": "2.3.9",
+  "summary": "A short description of ThingSmartAVBaseKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAVBaseKit-2.3.9-148116.zip",
+    "type": "zip",
+    "sha1": "38e6cdc1e8e8e653e80df64d0bce5392b2d44c78"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartAVBaseKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartAVBaseKit.xcframework/ios-arm64/ThingSmartAVBaseKit.framework/Headers/*"
+  ]
+}

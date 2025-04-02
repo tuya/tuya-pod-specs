@@ -1,0 +1,33 @@
+{
+  "name": "ThingDynamicContainerPlugin",
+  "version": "1.1.0",
+  "summary": "动态容器插件系统，服务于RN和小程序",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDynamicContainerPlugin-1.1.0-0ab794.zip",
+    "type": "zip",
+    "sha1": "520fabaed88cb9116e516b4b9bb55484b9299064"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDynamicContainerPlugin.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

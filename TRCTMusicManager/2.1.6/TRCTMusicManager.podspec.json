@@ -1,0 +1,39 @@
+{
+  "name": "TRCTMusicManager",
+  "version": "2.1.6",
+  "summary": "A short description of TRCTMusicManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMusicManager-2.1.6-daa8a5.zip",
+    "type": "zip",
+    "sha1": "cbc6030c15caee3c623c9a3f86a337ce954563af"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "EZAudio": [
+
+    ],
+    "ThingPanelContext": [
+
+    ]
+  },
+  "frameworks": "AVFoundation",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTMusicManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

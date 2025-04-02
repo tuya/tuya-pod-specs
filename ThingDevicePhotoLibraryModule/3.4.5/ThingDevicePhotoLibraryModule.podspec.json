@@ -1,0 +1,47 @@
+{
+  "name": "ThingDevicePhotoLibraryModule",
+  "version": "3.4.5",
+  "summary": "A short description of ThingDevicePhotoLibraryModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDevicePhotoLibraryModule-3.4.5-07e692.zip",
+    "type": "zip",
+    "sha1": "16382a6be8a390ce52b0ceb2a9520828d3ab6151"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPhotoLibraryModule": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartMediaUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingDevicePhotoLibraryModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

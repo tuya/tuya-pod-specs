@@ -1,0 +1,53 @@
+{
+  "name": "TUNIUserInfoManager",
+  "version": "2.1.1",
+  "summary": "A short description of TUNIUserInfoManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIUserInfoManager-2.1.1-c747bf.zip",
+    "type": "zip",
+    "sha1": "e3246614ed744152b1458d04f4424f1ee031b01e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIUserInfoManager": [
+      "ios/TUNIUserInfoManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIUserInfoManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

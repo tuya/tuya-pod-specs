@@ -1,0 +1,33 @@
+{
+  "name": "ThingLanguageEscape",
+  "version": "0.1.3",
+  "summary": "iOS 多语言审核上架多语言敏感词条脱敏库",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageEscape-0.1.3-789c90.zip",
+    "type": "zip",
+    "sha1": "7e8e61dfd52c691e4bf131b04495fb0ddae6a577"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingLanguageEscape.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ThingUrlPredefined",
+  "version": "0.3.0-removetuya.1",
+  "summary": "A short description of ThingUrlPredefined.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUrlPredefined-0.3.0-removetuya.1-2900d4.zip",
+    "type": "zip",
+    "sha1": "2d3d8ca78cefba839fe043a550bde2a2c09fd267"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingUrlPredefinedExternal": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingUrlPredefined.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

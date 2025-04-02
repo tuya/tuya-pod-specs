@@ -1,0 +1,123 @@
+{
+  "name": "ThingLightSceneBizBundle",
+  "version": "1.6.15",
+  "summary": "A short description of ThingLightSceneBizBundle.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneBizBundle-1.6.15-7e8292.zip",
+    "type": "zip",
+    "sha1": "06431e9368bb314a228b69adec759f420384c3c8"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLightCommonUI": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingSmartActionDialog": [
+
+    ],
+    "ThingLightSceneKit": [
+
+    ],
+    "ThingLightSceneBizKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLightScenePlugAPI": [
+
+    ],
+    "ThingLightSceneSktAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartHomeDataCenter": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "ThingAuthInterface": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingCommonUIToolKit": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingSmartEventPredefined_illumination": [
+
+    ],
+    "ThingSmartHouseBizKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartSceneModule": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "ThingRoomManagerDefaultUISkin": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingLightLampHomeBizKit": [
+
+    ],
+    "ThingImagePickerController": [
+
+    ]
+  },
+  "prefix_header_file": "ThingLightSceneBizBundle/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingLightSceneBizBundle/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLightSceneBizBundle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

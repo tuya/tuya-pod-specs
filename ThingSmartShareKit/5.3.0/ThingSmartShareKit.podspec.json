@@ -1,0 +1,52 @@
+{
+  "name": "ThingSmartShareKit",
+  "version": "5.3.0",
+  "summary": "A short description of ThingSmartShareKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartShareKit-5.3.0-685b9d.zip",
+    "type": "zip",
+    "sha1": "29776e9f11acfa22bf5377164e2b0029bce2a23f"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartShareKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartShareKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartShareKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartShareKit\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n  #import <YYModel/YYModel.h>\n  #import \"ThingSmartShareKit.h\"\n#endif",
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    },
+    "source_files": [
+      "Build/ThingSmartShareKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartShareKit.framework/Headers/*"
+    ]
+  },
+  "ios": {
+    "source_files": [
+      "Build/ThingSmartShareKit.xcframework/ios-arm64/ThingSmartShareKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartShareKit.xcframework"
+  ]
+}

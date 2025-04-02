@@ -1,0 +1,87 @@
+{
+  "name": "ThingDeviceIotCardModule",
+  "version": "1.3.0",
+  "summary": "A short description of ThingDeviceIotCardModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceIotCardModule-1.3.0-49a125.zip",
+    "type": "zip",
+    "sha1": "874253f0ffeb21336eac17bd5cf5978e8353b797"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingDeviceIotCardModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingDeviceIotCardPlugAPI": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingDomainQueryAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceIotCardModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

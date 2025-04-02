@@ -1,0 +1,56 @@
+{
+  "name": "ThingCameraInnerPiPModule",
+  "version": "1.0.3",
+  "summary": "A short description of ThingCameraInnerPiPModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraInnerPiPModule-1.0.3-a7eee6.zip",
+    "type": "zip",
+    "sha1": "3769ca024744ffad2b1e380f5fea2fb96d81d40c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCameraInnerPiPModule": [
+      "ThingCameraInnerPiPModule/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartPiPPlugAPI": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartMediaServices": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraInnerPiPModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ThingSmartCameraExtSDK",
+  "version": "1.0.6",
+  "summary": "A short description of ThingSmartCameraExtSDK.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraExtSDK-1.0.6-8f7d92.zip",
+    "type": "zip",
+    "sha1": "59aecdf1fccc81987f7971f2f76a3f3781e95a2a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCameraExtSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCameraExtSDK.xcframework/ios-arm64/ThingSmartCameraExtSDK.framework/Headers/*"
+  ]
+}

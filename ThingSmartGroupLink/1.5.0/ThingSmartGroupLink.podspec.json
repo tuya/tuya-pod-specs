@@ -1,0 +1,47 @@
+{
+  "name": "ThingSmartGroupLink",
+  "version": "1.5.0",
+  "summary": "A short description of ThingSmartGroupLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGroupLink-1.5.0-7a3235.zip",
+    "type": "zip",
+    "sha1": "696d3f4f6fa90ccfd2d4b14db0ec882421c0801c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingGroupHandleSktAPI": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartGroupLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

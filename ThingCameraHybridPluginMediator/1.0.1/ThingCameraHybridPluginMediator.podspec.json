@@ -1,0 +1,42 @@
+{
+  "name": "ThingCameraHybridPluginMediator",
+  "version": "1.0.1",
+  "summary": "A short description of ThingCameraHybridPluginMediator.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraHybridPluginMediator-1.0.1-18af1f.zip",
+    "type": "zip",
+    "sha1": "7e77d0addfd73296c9c358e1bac508473017cf26"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartMediaKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraHybridPluginMediator.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

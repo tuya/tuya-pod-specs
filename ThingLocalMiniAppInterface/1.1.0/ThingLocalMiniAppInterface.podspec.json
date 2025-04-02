@@ -1,0 +1,25 @@
+{
+  "name": "ThingLocalMiniAppInterface",
+  "version": "1.1.0",
+  "summary": "A short description of ThingLocalMiniAppManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocalMiniAppInterface-1.1.0-15ac6b.zip",
+    "type": "zip",
+    "sha1": "e1fe1279b6fcafb6f2b1fe56249c429050965949"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLocalMiniAppInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

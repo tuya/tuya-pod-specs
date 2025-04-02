@@ -1,0 +1,103 @@
+{
+  "name": "GZLMiniAppCore_iOS",
+  "version": "3.25.9",
+  "summary": "A short description of GZLMiniAppCore_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppCore_iOS-3.25.9-8a4b90.zip",
+    "type": "zip",
+    "sha1": "fb1325cb057f88b2ba8ff9b7d9d3c4fa521d7925"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "ios": {
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "GZLMiniAppAPM_iOS": [
+
+    ],
+    "GZLJSEngine": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GZLRNCompatProtocol": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ],
+    "GZLMiniAppCommonUI": [
+
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingDynamicContainerPlugin": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppCore_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/CustomResources/Bundles/*"
+  ]
+}

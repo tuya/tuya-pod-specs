@@ -1,0 +1,25 @@
+{
+  "name": "ThingFamilyAPI",
+  "version": "1.4.1",
+  "summary": "A short description of ThingFamilyAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFamilyAPI-1.4.1-249095.zip",
+    "type": "zip",
+    "sha1": "05fb575a156c8a24f980d522fa75f268a6f6aa4e"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingFamilyAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

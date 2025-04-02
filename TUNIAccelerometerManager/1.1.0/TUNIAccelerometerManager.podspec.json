@@ -1,0 +1,45 @@
+{
+  "name": "TUNIAccelerometerManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIAccelerometerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAccelerometerManager-1.1.0-344cbe.zip",
+    "type": "zip",
+    "sha1": "58520e16ab1ba1b100944f5ef67c1203a2a11787"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIAccelerometerManager": [
+      "ios/tuniaccelerometermanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "frameworks": "CoreMotion",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAccelerometerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

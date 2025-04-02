@@ -1,0 +1,67 @@
+{
+  "name": "ThingCameraPanelDeprecated",
+  "version": "3.4.2",
+  "summary": "A short description of ThingCameraPanelDeprecated.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelDeprecated-3.4.2-af0ab8.zip",
+    "type": "zip",
+    "sha1": "e758fd64870275778fd5d0bca8caf5d0fe302c47"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCameraPanelDeprecated": [
+      "ThingCameraPanelDeprecated/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraPanelDeprecated.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

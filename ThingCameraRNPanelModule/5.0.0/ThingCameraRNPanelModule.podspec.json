@@ -1,0 +1,65 @@
+{
+  "name": "ThingCameraRNPanelModule",
+  "version": "5.0.0",
+  "summary": "A short description of ThingCameraRNPanelModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraRNPanelModule-5.0.0-8e6771.zip",
+    "type": "zip",
+    "sha1": "dfd907c0266378d78b7b0357bbe8705a9d0e434d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ],
+    "ThingCameraModuleSKYEventModule": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingPanelContainer": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraRNPanelModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
