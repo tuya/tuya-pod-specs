@@ -1,0 +1,27 @@
+{
+  "name": "ThingAnalyticsKit",
+  "version": "0.1.0",
+  "summary": "A short description of ThingAnalyticsKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAnalyticsKit-0.1.0-8f92e5.zip",
+    "type": "zip",
+    "sha1": "f462d3d8ecc13feb35be3acc418515dc6c8a1d37"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingAPMLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAnalyticsKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
