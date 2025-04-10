@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TUNITransferManager": [
+            "0.1.1-develop.3"
+        ]
+    },
+    "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TUNISweeperKit",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "resource_bundles": {
+        "TUNISweeperKit": [
+            "ios/TUNISweeperKit/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TUNISweeperKit-0.1.14.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+    "vendored_frameworks": [
+        "TUNISweeperKit.xcframework"
+    ],
+    "version": "0.1.14"
+}
