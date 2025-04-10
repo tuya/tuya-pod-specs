@@ -1,0 +1,59 @@
+{
+  "name": "ThingNetworkAreaInterceptor",
+  "version": "1.2.0",
+  "summary": "A short description of ThingNetworkAreaInterceptor.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetworkAreaInterceptor-1.2.0-94fbd6.zip",
+    "type": "zip",
+    "sha1": "de92625b47489a418f9e4ffcf5cbae60816ec6d5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleServices": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingNetworkAreaInterceptor.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingNetworkAreaInterceptor.xcframework/ios-arm64/ThingNetworkAreaInterceptor.framework/Headers/*"
+  ]
+}
