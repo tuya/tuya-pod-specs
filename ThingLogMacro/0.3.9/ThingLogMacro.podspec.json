@@ -1,0 +1,31 @@
+{
+  "name": "ThingLogMacro",
+  "version": "0.3.9",
+  "summary": "A short description of ThingLogMacro.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLogMacro-0.3.9-d47a4c.zip",
+    "type": "zip",
+    "sha1": "ee2d755ac4409ec06b44053895ce7ea380511c66"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "3.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLogMacro.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "swift_version": "5.0"
+}

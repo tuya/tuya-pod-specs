@@ -1,0 +1,22 @@
+{
+  "name": "ThingBusinessTrackAPI",
+  "version": "1.0.3",
+  "summary": "A short description of ThingBusinessTrackAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessTrackAPI-1.0.3-e3a738.zip",
+    "type": "zip",
+    "sha1": "67d6d021c6204030fbaa8d7fc52550df22e8277a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingBusinessTrackAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

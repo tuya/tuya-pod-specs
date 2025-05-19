@@ -1,0 +1,45 @@
+{
+  "name": "ThingBluetoothInterface",
+  "version": "1.20.2",
+  "summary": "A short description of ThingBluetoothInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothInterface-1.20.2-5498ff.zip",
+    "type": "zip",
+    "sha1": "0dfc1932b1d12d5f45734cae31dea08da58901ef"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingBluetoothInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

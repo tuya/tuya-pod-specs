@@ -1,0 +1,44 @@
+{
+  "name": "ThingBLEHomeManager",
+  "version": "1.14.3",
+  "summary": "Bluetooth Home ID Manager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEHomeManager-1.14.3-5efa23.zip",
+    "type": "zip",
+    "sha1": "8b5cf4addebde0ed77a892f0f337dfd7ed08b039"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingBLEHomeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

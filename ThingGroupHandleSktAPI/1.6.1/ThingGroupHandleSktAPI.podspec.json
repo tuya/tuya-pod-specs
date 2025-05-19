@@ -1,0 +1,41 @@
+{
+  "name": "ThingGroupHandleSktAPI",
+  "version": "1.6.1",
+  "summary": "A short description of ThingGroupHandleSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupHandleSktAPI-1.6.1-37a12e.zip",
+    "type": "zip",
+    "sha1": "a76c2ad66037bf149c7310d76d71f9aafbc04c6e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingGroupHandleSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

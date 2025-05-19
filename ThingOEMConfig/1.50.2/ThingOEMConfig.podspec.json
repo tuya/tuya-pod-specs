@@ -1,0 +1,62 @@
+{
+  "name": "ThingOEMConfig",
+  "version": "1.50.2",
+  "summary": "OEM打包配置项",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOEMConfig-1.50.2-1c0da7.zip",
+    "type": "zip",
+    "sha1": "3b99e5327b6836618b0b7c61a04c51c82794e647"
+  },
+  "platforms": {
+    "ios": "11.0",
+    "watchos": "2.0"
+  },
+  "ios": {
+    "dependencies": {
+      "ThingKVStorageLibrary": [
+
+      ]
+    }
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    }
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "ThingMachRegister": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingOEMConfig.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
