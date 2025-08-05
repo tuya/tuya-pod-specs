@@ -1,0 +1,104 @@
+{
+  "name": "ThingHybridContainer",
+  "version": "1.18.2",
+  "summary": "容器",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainer-1.18.2-dc70b9.zip",
+    "type": "zip",
+    "sha1": "07a5b326f28b661e6210b9bd8e95651a92084e70"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AddressBook",
+    "AddressBookUI",
+    "WebKit",
+    "Photos"
+  ],
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "ThingHybridContainer": [
+      "ThingHybridContainer/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "dsBridge": [
+      "~> 3.0.202"
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingBaseDebugger": [
+
+    ],
+    "ThingPhotoBrowser": [
+
+    ],
+    "ThingVideoPlayer": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingHybridMediaToolsAPI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartLocationService": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>\n#import <ThingNavigationController/ThingNavigationController.h>\n#import <ThingNavigationController/UIViewController+ThingNavigation.h>\n#import <Masonry/Masonry.h>\n#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingHybridContainer\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingHybridContainer\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingHybridContainer\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingHybridContainer\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingHybridContainer.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

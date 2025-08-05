@@ -1,0 +1,108 @@
+{
+  "name": "ThingOTAGeneralModule",
+  "version": "1.1.8",
+  "summary": "A short description of ThingOTAGeneralModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOTAGeneralModule-1.1.8-72134c.zip",
+    "type": "zip",
+    "sha1": "9371ea0e24f0501096b55a3510de0d92b8332bd5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingOTAGeneralModule": [
+      "ThingOTAGeneralModule/Assets/*.png"
+    ]
+  },
+  "prefix_header_file": "ThingOTAGeneralModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingFileDownloadManager": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingPanelModulePlugAPI": [
+
+    ],
+    "ThingOTAGeneralExternalAPI": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingFallLayout": [
+
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingOTAGeneralModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingOTAGeneralModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingOTAGeneralModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingOTAGeneralModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingOTAGeneralModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

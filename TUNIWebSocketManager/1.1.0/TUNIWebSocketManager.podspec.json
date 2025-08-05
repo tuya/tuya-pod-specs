@@ -1,0 +1,50 @@
+{
+  "name": "TUNIWebSocketManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIWebSocketManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWebSocketManager-1.1.0-4e656b.zip",
+    "type": "zip",
+    "sha1": "5872fe22775ab78aab756bce58ef89eca60cc28b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIWebSocketManager": [
+      "ios/TUNIWebSocketManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIWebSocketManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

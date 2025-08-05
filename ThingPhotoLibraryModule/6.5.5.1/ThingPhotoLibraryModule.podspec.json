@@ -1,0 +1,70 @@
+{
+  "name": "ThingPhotoLibraryModule",
+  "version": "6.5.5.1",
+  "summary": "A short description of ThingPhotoLibraryModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotoLibraryModule-6.5.5.1-ecd5ac.zip",
+    "type": "zip",
+    "sha1": "cba43109323b2340db97b0ed26157709fd0f9bdf"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingPhotoLibraryModule": [
+      "ThingPhotoLibraryModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingPhotoLibraryBizKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingMediaPlayerSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPhotoLibraryModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

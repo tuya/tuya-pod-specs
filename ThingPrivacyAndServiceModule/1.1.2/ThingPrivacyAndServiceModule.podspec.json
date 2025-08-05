@@ -1,0 +1,90 @@
+{
+  "name": "ThingPrivacyAndServiceModule",
+  "version": "1.1.2",
+  "summary": "A short description of ThingPrivacyAndServiceModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPrivacyAndServiceModule-1.1.2-ddcde1.zip",
+    "type": "zip",
+    "sha1": "0dfbcec5875bf8d73afb6c05eddbcc5a1665ada4"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "SafariServices"
+  ],
+  "resource_bundles": {
+    "ThingPrivacyAndServiceModule": [
+      "ThingPrivacyAndServiceModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingAppLifeCycleSktAPI": [
+
+    ],
+    "ThingSmartPrivateCloudPlugAPI": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingFallLayout": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPrivacyAndServiceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

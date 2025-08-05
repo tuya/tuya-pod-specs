@@ -1,0 +1,56 @@
+{
+  "name": "TUNIMiniProgramManager",
+  "version": "3.13.1",
+  "summary": "A short description of TUNIMiniProgramManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniProgramManager-3.13.1-ee584e.zip",
+    "type": "zip",
+    "sha1": "731b47ed313fd2063e779c611ca232c23018bf52"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMiniProgramManager": [
+      "ios/tuniminiprogrammanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMiniProgramManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

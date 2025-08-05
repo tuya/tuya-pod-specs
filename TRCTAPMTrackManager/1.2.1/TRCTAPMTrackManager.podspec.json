@@ -1,0 +1,35 @@
+{
+  "name": "TRCTAPMTrackManager",
+  "version": "1.2.1",
+  "summary": "A short description of TRCTAPMTrackManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAPMTrackManager-1.2.1-859d21.zip",
+    "type": "zip",
+    "sha1": "e2045fc81d62ce9a803df87bf43a463f1896eba7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTAPMTrackManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

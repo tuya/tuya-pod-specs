@@ -1,0 +1,114 @@
+{
+  "name": "ThingPanelContainer",
+  "version": "3.16.2",
+  "summary": "A short description of ThingPanelContainer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelContainer-3.16.2-b52c66.zip",
+    "type": "zip",
+    "sha1": "d15aa6e39a7c8ab37e0e9ffd97148370f70cd051"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingPanelContainer": [
+      "ThingPanelContainer/Assets/**/*.png",
+      "ThingPanelContainer/Assets/*.json"
+    ]
+  },
+  "dependencies": {
+    "React": [
+      "~> 0.59.10"
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "RNApi/Core": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingBleGatewayService": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingAlertPickerComponent": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "TRCTKit": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingMarketingBoothAPI": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartLocationService": [
+
+    ],
+    "ThingRNContainerAPI": [
+
+    ],
+    "ThingDynamicContainerPlugin": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPanelContainer.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

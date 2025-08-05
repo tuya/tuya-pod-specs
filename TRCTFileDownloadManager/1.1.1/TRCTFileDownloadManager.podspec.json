@@ -1,0 +1,38 @@
+{
+  "name": "TRCTFileDownloadManager",
+  "version": "1.1.1",
+  "summary": "A short description of TRCTFileDownloadManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFileDownloadManager-1.1.1-5b1eb2.zip",
+    "type": "zip",
+    "sha1": "f8f21c04d90ae20b786c10dad34e68be21e60d86"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingFileDownloadManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTFileDownloadManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

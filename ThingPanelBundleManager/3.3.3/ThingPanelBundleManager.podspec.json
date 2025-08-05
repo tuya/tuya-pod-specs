@@ -1,0 +1,69 @@
+{
+  "name": "ThingPanelBundleManager",
+  "version": "3.3.3",
+  "summary": "A short description of ThingPanelBundleManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelBundleManager-3.3.3-01d843.zip",
+    "type": "zip",
+    "sha1": "3e910bf61164c77d72685fbeb9e68233df0de09b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingTarKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingPanelBundleManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingPanelBundleManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingPanelBundleManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingPanelBundleManager\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingPanelBundleManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

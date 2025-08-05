@@ -1,0 +1,45 @@
+{
+  "name": "TUNIDeviceMotionManager",
+  "version": "1.2.0",
+  "summary": "A short description of TUNIDeviceMotionManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceMotionManager-1.2.0-41a557.zip",
+    "type": "zip",
+    "sha1": "ff746e4dc57c69a4faa7022b66c3f5b6185083df"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDeviceMotionManager": [
+      "ios/tunidevicemotionmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "frameworks": "CoreMotion",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceMotionManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

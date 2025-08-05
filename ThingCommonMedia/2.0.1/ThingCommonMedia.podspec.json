@@ -1,0 +1,30 @@
+{
+  "name": "ThingCommonMedia",
+  "version": "2.0.1",
+  "summary": "A short description of ThingCommonMedia.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonMedia-2.0.1-d07d96.zip",
+    "type": "zip",
+    "sha1": "821d1bfbd8b3866266936ff4e493a986c2ca4c2a"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "TensorFlowLiteTaskVision": [
+      "0.4.3"
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCommonMedia.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "ThingBaseDebugger",
+  "version": "1.1.10",
+  "summary": "A short description of ThingBaseDebugger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBaseDebugger-1.1.10-a78e41.zip",
+    "type": "zip",
+    "sha1": "165708ebb88235f58292ad3eb94449f54bb012ce"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_file": "ThingBaseDebugger/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingBaseDebugger.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

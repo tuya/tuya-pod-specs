@@ -1,0 +1,61 @@
+{
+  "name": "ThingAudioEngineSDK",
+  "version": "1.7.13",
+  "summary": "ThingAudioEngineSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioEngineSDK-1.7.13-ff49d4.zip",
+    "type": "zip",
+    "sha1": "c752a9c427cb74acfc4a5ae12f6b87c14da7de17"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingAudioEngineSDK/**/Android/**/*.*",
+    "ThingAudioEngineSDK/include/**/*.*",
+    "ThingAudioEngineSDK/Utils/rapidjson/msinttypes/*.*"
+  ],
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/codec $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-engine $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-logger $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-player $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-processer  $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-recorder $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include/tyap $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/vad $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/utils $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/interface",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingAudioEngineSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAudioEngineSDK.xcframework/ios-arm64/ThingAudioEngineSDK.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "TUNIImageNetworkManager",
+  "version": "1.2.0",
+  "summary": "A short description of TUNIImageNetworkManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImageNetworkManager-1.2.0-d75a21.zip",
+    "type": "zip",
+    "sha1": "71795d94e934084d741c71508d0b6921051e64df"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIImageNetworkManager": [
+      "ios/tuniimagenetworkmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFileUploadKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIImageNetworkManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

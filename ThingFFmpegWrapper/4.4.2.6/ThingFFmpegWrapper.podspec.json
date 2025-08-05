@@ -1,0 +1,58 @@
+{
+  "name": "ThingFFmpegWrapper",
+  "version": "4.4.2.6",
+  "summary": "tuya ffmpeg wrapper .",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFFmpegWrapper-4.4.2.6-b78660.zip",
+    "type": "zip",
+    "sha1": "a9adf7f92ee209675d3d9dc93a4571705ece498f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingFFmpegWrapper/libs/Android/*",
+    "ThingFFmpegWrapper/Platforms/Android/*"
+  ],
+  "ios": {
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "OTHER_LDFLAGS": "-read_only_relocs suppress",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingFFmpegWrapper $(PODS_TARGET_SRCROOT)/ThingFFmpegWrapper/Platforms/iOS  $(PODS_TARGET_SRCROOT)/ThingFFmpegWrapper/include/ffmpeg ",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingFFmpegWrapper.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingFFmpegWrapper.xcframework/ios-arm64/ThingFFmpegWrapper.framework/Headers/*"
+  ]
+}

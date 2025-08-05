@@ -1,0 +1,77 @@
+{
+  "name": "TUNIIPCCameraManager",
+  "version": "6.7.1",
+  "summary": "A short description of TUNIIPCCameraManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCCameraManager-6.7.1-e87aa2.zip",
+    "type": "zip",
+    "sha1": "ecb7a7fe3cdaa480408d298cdf3eda8488e6471d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIIPCCameraManager": [
+      "ios/tuniipccameramanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingPhotoLibraryBizKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingCameraHybridPluginMediator": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingCameraSkt": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIIPCCameraManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

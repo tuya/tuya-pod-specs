@@ -1,0 +1,25 @@
+{
+  "name": "ThingValueAddedServicePlugAPI",
+  "version": "1.3.1",
+  "summary": "A short description of ThingValueAddedServicePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingValueAddedServicePlugAPI-1.3.1-e76c61.zip",
+    "type": "zip",
+    "sha1": "e22b5757b023b15c9f05fd6a9bc979e8b3d49d8d"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingValueAddedServicePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "license": "none"
+}

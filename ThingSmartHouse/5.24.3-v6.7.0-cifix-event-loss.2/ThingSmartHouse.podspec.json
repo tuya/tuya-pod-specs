@@ -1,0 +1,192 @@
+{
+  "name": "ThingSmartHouse",
+  "version": "5.24.3-v6.7.0-cifix-event-loss.2",
+  "summary": "A short description of ThingSmartHouse.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHouse-5.24.3-v6.7.0-cifix-event-loss.2-3af81a.zip",
+    "type": "zip",
+    "sha1": "7f52d473ea80cbf87618a842a3415bb923321f07"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resources": [
+    "ThingSmartHouse/Assets/*.{png,xib,plist,xcassets,bundle,jif}"
+  ],
+  "resource_bundles": {
+    "ThingSmartHouseUISkin": [
+      "ThingSmartHouse/Assets/ThingSmartHouseUISkin/*"
+    ]
+  },
+  "libraries": [
+    "iconv",
+    "z",
+    "c++",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AddressBook",
+    "AddressBookUI",
+    "CoreTelephony",
+    "Contacts",
+    "ContactsUI",
+    "Foundation",
+    "AudioToolbox"
+  ],
+  "prefix_header_file": "ThingSmartHouse/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingLottie": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "DACircularProgress": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartSceneKit": [
+
+    ],
+    "ThingSmartMessageKit": [
+
+    ],
+    "ThingSmartFeedbackKit": [
+
+    ],
+    "ThingAnimationKit": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingNormalUI": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSwipeView": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingAuthInterface": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSpaceInfomationModule": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingBleGatewayService": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingAppLifeCycleSktAPI": [
+
+    ],
+    "ThingMainPageLink": [
+
+    ],
+    "ThingSmartIntelligenceModule": [
+
+    ],
+    "ThingPageMenuView": [
+
+    ],
+    "ThingSmartHouseBizKit": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "ThingMerticKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartHouse.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

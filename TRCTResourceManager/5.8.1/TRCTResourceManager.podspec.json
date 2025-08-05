@@ -1,0 +1,42 @@
+{
+  "name": "TRCTResourceManager",
+  "version": "5.8.1",
+  "summary": "A short description of TRCTResourceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTResourceManager-5.8.1-bf1ea5.zip",
+    "type": "zip",
+    "sha1": "6f490d8c128202a044429fe2e5661dcbb056f830"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "resource_bundles": {
+      "ui_style_config": "resource/ui_style_config/*.json",
+      "iconfont": [
+        "resource/iconfont/*.json",
+        "resource/iconfont/*.ttf"
+      ]
+    }
+  },
+  "resources": [
+    "resource/*.json"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTResourceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

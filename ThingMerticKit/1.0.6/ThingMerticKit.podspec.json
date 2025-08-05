@@ -1,0 +1,28 @@
+{
+  "name": "ThingMerticKit",
+  "version": "1.0.6",
+  "summary": "A short description of ThingMerticKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMerticKit-1.0.6-da7a85.zip",
+    "type": "zip",
+    "sha1": "b9f95066d657a671a65e50d6ada78290d892d9c0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "MetricKit",
+  "dependencies": {
+    "SSZipArchive": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingMerticKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

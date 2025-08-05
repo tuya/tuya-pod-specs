@@ -1,0 +1,25 @@
+{
+  "name": "ThingSocialAPI",
+  "version": "1.0.5",
+  "summary": "A short description of ThingSocialAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocialAPI-1.0.5-187364.zip",
+    "type": "zip",
+    "sha1": "8d13ae1277be15f489b49054ba6409ed8f9e89a3"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSocialAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

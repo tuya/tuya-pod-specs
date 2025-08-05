@@ -1,0 +1,53 @@
+{
+  "name": "TUNIDiffLayerManager",
+  "version": "3.5.1",
+  "summary": "A short description of TUNIDiffLayerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDiffLayerManager-3.5.1-7b2483.zip",
+    "type": "zip",
+    "sha1": "870875a86a8cc9667d479ecfee69092055c0d262"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ios/tunidifflayermanager/Classes/TUNIDiffLayerManagerPrefix.pch",
+  "resource_bundles": {
+    "TUNIDiffLayerManager": [
+      "ios/tunidifflayermanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GZLMiniAppWebView_iOS": [
+
+    ],
+    "TUNIDiffSubRegisterManager": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDiffLayerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

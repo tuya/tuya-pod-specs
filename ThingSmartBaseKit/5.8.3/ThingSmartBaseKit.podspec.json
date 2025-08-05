@@ -1,0 +1,66 @@
+{
+  "name": "ThingSmartBaseKit",
+  "version": "5.8.3",
+  "summary": "A short description of ThingSmartBaseKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBaseKit-5.8.3-92da49.zip",
+    "type": "zip",
+    "sha1": "08e0dba16f6900f58ccb0819ea42e27dc170bd45"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "static_framework": true,
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #import <ThingSmartNetworkKit/ThingSmartNetworkKit.h>\n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartBaseKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartBaseKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartBaseKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartBaseKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n  #import <YYModel/YYModel.h>\n  #import \"ThingBaseNotificationUtils.h\"\n\n#endif",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartUtil": [
+      "~> 5.0"
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "ThingSmartMQTTChannelKit": [
+        "~> 5.0"
+      ]
+    },
+    "source_files": [
+      "Build/ThingSmartBaseKit.xcframework/ios-arm64/ThingSmartBaseKit.framework/Headers/*"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.security.application-groups"
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    },
+    "source_files": [
+      "Build/ThingSmartBaseKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartBaseKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartBaseKit.xcframework"
+  ]
+}

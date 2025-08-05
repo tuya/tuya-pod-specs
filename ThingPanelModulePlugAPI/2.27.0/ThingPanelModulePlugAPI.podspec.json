@@ -1,0 +1,30 @@
+{
+  "name": "ThingPanelModulePlugAPI",
+  "version": "2.27.0",
+  "summary": "A short description of ThingPanelModulePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelModulePlugAPI-2.27.0-dc67e6.zip",
+    "type": "zip",
+    "sha1": "d39a0adee8d1e9e79371d316227c5a4a1826ac4c"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingPanelModulePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

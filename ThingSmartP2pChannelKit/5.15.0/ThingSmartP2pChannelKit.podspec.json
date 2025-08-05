@@ -1,0 +1,42 @@
+{
+  "name": "ThingSmartP2pChannelKit",
+  "version": "5.15.0",
+  "summary": "A short description of ThingSmartP2pChannelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartP2pChannelKit-5.15.0-690ce7.zip",
+    "type": "zip",
+    "sha1": "3920af1dc42254570aa1b773647163033a752f29"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "ThingP2PSDK": [
+
+    ],
+    "ThingSmartAVBaseKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartP2pChannelKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartP2pChannelKit.xcframework/ios-arm64/ThingSmartP2pChannelKit.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ThingHealthBCMAPI",
+  "version": "1.0.2",
+  "summary": "A short description of ThingHealthBCMAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthBCMAPI-1.0.2-436778.zip",
+    "type": "zip",
+    "sha1": "d225a7ab7c3682f71aa699270a1b07a2605e308e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "Build/ThingHealthBCMAPI.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingHealthBCMAPI.xcframework/ios-arm64/ThingHealthBCMAPI.framework/Headers/*"
+  ]
+}

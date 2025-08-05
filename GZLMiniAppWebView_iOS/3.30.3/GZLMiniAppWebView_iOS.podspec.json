@@ -1,0 +1,46 @@
+{
+  "name": "GZLMiniAppWebView_iOS",
+  "version": "3.30.3",
+  "summary": "A short description of GZLMiniAppWebView_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppWebView_iOS-3.30.3-9ddfad.zip",
+    "type": "zip",
+    "sha1": "9ad28602b23b88f4828d6c3d3ee2c853c6ed9d9b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "ios": {
+  },
+  "frameworks": "WebKit",
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppWebView_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppWebView_iOS.xcframework/ios-arm64/GZLMiniAppWebView_iOS.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniAppWebView_iOS.xcframework/ios-arm64/GZLMiniAppWebView_iOS.framework/CustomResources/Assets/*"
+  ]
+}

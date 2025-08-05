@@ -1,0 +1,47 @@
+{
+  "name": "TUNICloudStorageSignatureManager",
+  "version": "6.4.2",
+  "summary": "A short description of TUNICloudStorageSignatureManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICloudStorageSignatureManager-6.4.2-e1fd67.zip",
+    "type": "zip",
+    "sha1": "6e2d1e363eee94488167aa76820b2d03f09ca960"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNICloudStorageSignatureManager": [
+      "ios/tunicloudstoragesignaturemanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingCloudStorageSignatureTools": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNICloudStorageSignatureManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

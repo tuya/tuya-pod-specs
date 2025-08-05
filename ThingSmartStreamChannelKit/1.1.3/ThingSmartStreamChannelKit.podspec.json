@@ -1,0 +1,50 @@
+{
+  "name": "ThingSmartStreamChannelKit",
+  "version": "1.1.3",
+  "summary": "A short description of ThingSmartStreamChannelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartStreamChannelKit-1.1.3-271dde.zip",
+    "type": "zip",
+    "sha1": "2950a18518b2f8b230453898c14b4277d4fa9a33"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <ThingSmartUtil/ThingSmartUtil.h>\n\n#undef ThingLog\n#undef ThingSDKLogDebug\n#undef ThingSDKLogInfo\n#undef ThingSDKLogWarn\n#undef ThingSDKLogError\n#define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n#import \"macros.h\"\n#import \"ThingSmartStreamChannelKit.h\"\n\n#endif",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingSmartUtil": [
+      "~> 5.17"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "~>5.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "ios": {
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartStreamChannelKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartStreamChannelKit.xcframework/ios-arm64/ThingSmartStreamChannelKit.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "ThingSmartStreamBizKit",
+  "version": "1.0.4",
+  "summary": "A short description of ThingSmartStreamBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartStreamBizKit-1.0.4-6fab5f.zip",
+    "type": "zip",
+    "sha1": "5df4fd7f78521f34285c112da131817c9b682526"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <ThingSmartUtil/ThingSmartUtil.h>\n#import <ThingSmartStreamChannelKit/ThingSmartStreamChannelKit.h>\n\n#undef ThingLog\n#undef ThingSDKLogDebug\n#undef ThingSDKLogInfo\n#undef ThingSDKLogWarn\n#undef ThingSDKLogError\n#define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartStreamBizKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartStreamBizKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartStreamBizKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartStreamBizKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n#import \"ThingSmartStreamBizKit.h\"\n\n#endif",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "dependencies": {
+    "ThingSmartStreamChannelKit": [
+      "~> 1.0"
+    ],
+    "ThingAudioEngineSDK": [
+      "~> 1.7"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartStreamBizKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartStreamBizKit.xcframework/ios-arm64/ThingSmartStreamBizKit.framework/Headers/*"
+  ]
+}

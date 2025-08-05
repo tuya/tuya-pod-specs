@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceShareModulePlugAPI",
+  "version": "1.1.0",
+  "summary": "A short description of ThingDeviceShareModulePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceShareModulePlugAPI-1.1.0-822f3b.zip",
+    "type": "zip",
+    "sha1": "cf8c3dfbbf31fe3d9e157cc7cc2303d34219606f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceShareModulePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

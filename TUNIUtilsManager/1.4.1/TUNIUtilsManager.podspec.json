@@ -1,0 +1,51 @@
+{
+  "name": "TUNIUtilsManager",
+  "version": "1.4.1",
+  "summary": "A short description of TUNIUtilsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIUtilsManager-1.4.1-65b0b5.zip",
+    "type": "zip",
+    "sha1": "7a42382effb86d37acbbe3b83483719143c129d2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIUtilsManager": [
+      "ios/tuniutilsmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "Photos",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIUtilsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

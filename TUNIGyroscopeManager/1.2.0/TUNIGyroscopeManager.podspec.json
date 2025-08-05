@@ -1,0 +1,45 @@
+{
+  "name": "TUNIGyroscopeManager",
+  "version": "1.2.0",
+  "summary": "A short description of TUNIGyroscopeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGyroscopeManager-1.2.0-ace189.zip",
+    "type": "zip",
+    "sha1": "064cffa80e5d7cc0c75be605ccc2327d73f56e63"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIGyroscopeManager": [
+      "ios/tunigyroscopemanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "frameworks": "CoreMotion",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIGyroscopeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

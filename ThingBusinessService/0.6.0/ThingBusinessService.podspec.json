@@ -1,0 +1,50 @@
+{
+  "name": "ThingBusinessService",
+  "version": "0.6.0",
+  "summary": "A short description of ThingBusinessService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessService-0.6.0-758ee5.zip",
+    "type": "zip",
+    "sha1": "ebf114c3d2d54b8a32780e38f211128174415a5a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingDeviceEditSktAPI": [
+
+    ],
+    "ThingDeviceMigrateSktAPI": [
+
+    ],
+    "ThingGroupHandleSktAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingBusinessService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

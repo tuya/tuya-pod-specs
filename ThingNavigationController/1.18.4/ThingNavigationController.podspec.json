@@ -1,0 +1,40 @@
+{
+  "name": "ThingNavigationController",
+  "version": "1.18.4",
+  "summary": "A NavigationController component from ThingInc",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNavigationController-1.18.4-e7373c.zip",
+    "type": "zip",
+    "sha1": "8d2edd9f19cf8b9fd0524fb8bb0dd8d9e0e24160"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingNavigationController/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingNavigationController.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

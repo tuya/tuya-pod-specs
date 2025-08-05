@@ -1,0 +1,106 @@
+{
+  "name": "GZLMiniProgramAdapterImpl_iOS",
+  "version": "3.30.3",
+  "summary": "A short description of TuyaSmartMiniProgram.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniProgramAdapterImpl_iOS-3.30.3-e77d93.zip",
+    "type": "zip",
+    "sha1": "72d9540ed4b3ed96e551f886cb14ad033b468e95"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GZLMiniAppTab_iOS": [
+
+    ],
+    "GZLMiniApp_iOS": [
+
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniWidgetKit": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingMarketingBoothAPI": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingDomainQueryAPI": [
+
+    ],
+    "ThingDmicContainerAbilitiesAPI": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniProgramAdapterImpl_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/CustomResources/Bundles/*"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "TUNILocalDebugManager",
+  "version": "1.1.2",
+  "summary": "A short description of TUNILocalDebugManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocalDebugManager-1.1.2-4a3d7c.zip",
+    "type": "zip",
+    "sha1": "3b88ad28c2acfc892ec75c92c03303083a266217"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNILocalDebugManager": [
+      "ios/TUNILocalDebugManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "TUNINativeBridgeManager": [
+
+    ],
+    "MMKV": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNILocalDebugManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

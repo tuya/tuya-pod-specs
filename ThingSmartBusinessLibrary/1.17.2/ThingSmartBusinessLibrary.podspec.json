@@ -1,0 +1,106 @@
+{
+  "name": "ThingSmartBusinessLibrary",
+  "version": "1.17.2",
+  "summary": "ThingSmart Business Base library",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessLibrary-1.17.2-e5bf9a.zip",
+    "type": "zip",
+    "sha1": "719fc3e4628295d029e7817cb7a3ba372e0f5e9c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSmartBusinessLibrary/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingSmartBusinessLibrary/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "frameworks": [
+    "Photos",
+    "AVFoundation",
+    "WebKit",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartActionDialog": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingNormalUI": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBusinessLibrary.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "license": "none"
+}

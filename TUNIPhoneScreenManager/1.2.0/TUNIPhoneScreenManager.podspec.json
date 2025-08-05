@@ -1,0 +1,44 @@
+{
+  "name": "TUNIPhoneScreenManager",
+  "version": "1.2.0",
+  "summary": "A short description of TUNIPhoneScreenManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneScreenManager-1.2.0-d10ec4.zip",
+    "type": "zip",
+    "sha1": "98e90feea5adb03a5821c193d8b0c2f0ece04be7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPhoneScreenManager": [
+      "ios/TUNIPhoneScreenManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneScreenManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

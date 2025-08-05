@@ -1,0 +1,22 @@
+{
+  "name": "GZLRNCompatProtocol",
+  "version": "1.1.1",
+  "summary": "A short description of GZLRNCompatProtocol.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLRNCompatProtocol-1.1.1-0bc6b6.zip",
+    "type": "zip",
+    "sha1": "51d38314febe3707a7a36e88c83e3acc7e79f0b2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "GZLRNCompatProtocol.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

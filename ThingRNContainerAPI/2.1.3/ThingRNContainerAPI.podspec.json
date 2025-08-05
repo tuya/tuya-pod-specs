@@ -1,0 +1,25 @@
+{
+  "name": "ThingRNContainerAPI",
+  "version": "2.1.3",
+  "summary": "A short description of ThingRNContainerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRNContainerAPI-2.1.3-4a96c4.zip",
+    "type": "zip",
+    "sha1": "5896225a67a8237ab8b517b259edaf4dd010bae3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingRNContainerAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

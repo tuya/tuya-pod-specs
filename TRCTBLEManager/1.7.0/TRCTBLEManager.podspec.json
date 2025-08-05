@@ -1,0 +1,41 @@
+{
+  "name": "TRCTBLEManager",
+  "version": "1.7.0",
+  "summary": "A short description of TRCTBLEManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBLEManager-1.7.0-0177a6.zip",
+    "type": "zip",
+    "sha1": "50171bfee91a83f05a69c98441794084c37bd074"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTBLEManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

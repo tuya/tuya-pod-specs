@@ -1,0 +1,22 @@
+{
+  "name": "ThingSpaceAPI",
+  "version": "0.0.2",
+  "summary": "A short description of ThingSpaceAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpaceAPI-0.0.2-c33033.zip",
+    "type": "zip",
+    "sha1": "724a2fe9689cdcd7aa79da6c9432147b4e313cdb"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingSpaceAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

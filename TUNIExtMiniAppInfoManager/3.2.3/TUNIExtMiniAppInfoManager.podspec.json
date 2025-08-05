@@ -1,0 +1,53 @@
+{
+  "name": "TUNIExtMiniAppInfoManager",
+  "version": "3.2.3",
+  "summary": "A short description of TUNIExtMiniAppInfoManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIExtMiniAppInfoManager-3.2.3-9c576f.zip",
+    "type": "zip",
+    "sha1": "e24796ad3a18bb87d2c2f6310ad65aa2cd2d6311"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIExtMiniAppInfoManager": [
+      "ios/TUNIExtMiniAppInfoManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIExtMiniAppInfoManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

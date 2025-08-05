@@ -1,0 +1,125 @@
+{
+  "name": "ThingSmartIntelligenceModule",
+  "version": "1.19.2",
+  "summary": "A short description of ThingSmartIntelligenceModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartIntelligenceModule-1.19.2-1a9d0f.zip",
+    "type": "zip",
+    "sha1": "1649d093b5d7d7a322fa8661d1991334deeefaba"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartIntelligenceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingUrlPredefinedExternal": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingMainPageLink": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingSmartHouseBizKit": [
+
+    ],
+    "ThingSmartIntelligenceApi": [
+
+    ],
+    "ThingSwipeView": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingCache": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingPaymentControl": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartIntelligenceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

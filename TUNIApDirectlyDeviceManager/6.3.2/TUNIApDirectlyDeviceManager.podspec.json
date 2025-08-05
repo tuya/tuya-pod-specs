@@ -1,0 +1,53 @@
+{
+  "name": "TUNIApDirectlyDeviceManager",
+  "version": "6.3.2",
+  "summary": "A short description of TUNIApDirectlyDeviceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIApDirectlyDeviceManager-6.3.2-ebcb57.zip",
+    "type": "zip",
+    "sha1": "387972c5cee5dc194cd7d6d313a309221706de49"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIApDirectlyDeviceManager": [
+      "ios/tuniapdirectlydevicemanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIApDirectlyDeviceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

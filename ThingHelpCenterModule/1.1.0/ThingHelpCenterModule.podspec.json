@@ -1,0 +1,54 @@
+{
+  "name": "ThingHelpCenterModule",
+  "version": "1.1.0",
+  "summary": "A short description of ThingHelpCenterModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHelpCenterModule-1.1.0-36aaa7.zip",
+    "type": "zip",
+    "sha1": "e92a4b39acf8a282bc148c40c7a18f5ad40aed47"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingDomainQueryModule": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingHelpCenterModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

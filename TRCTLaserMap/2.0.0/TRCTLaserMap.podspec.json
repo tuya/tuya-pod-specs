@@ -1,0 +1,60 @@
+{
+  "name": "TRCTLaserMap",
+  "version": "2.0.0",
+  "summary": "A short description of TRCTLaserMap.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLaserMap-2.0.0-5f4d56.zip",
+    "type": "zip",
+    "sha1": "92127a563c44aabdfb7020c72f815b5a55b11003"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "exclude_files": "ios/trctlasermap/Classes/Deprecated/*",
+  "resource_bundles": {
+    "TRCTLaserMap": [
+      "ios/trctlasermap/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingPanelSweeperUtil": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartSweeperKit": [
+
+    ],
+    "ThingSweeperLZ4": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TRCTLaserMap\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TRCTLaserMap\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TRCTLaserMap\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TRCTLaserMap\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTLaserMap.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

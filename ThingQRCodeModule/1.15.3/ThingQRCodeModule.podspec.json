@@ -1,0 +1,76 @@
+{
+  "name": "ThingQRCodeModule",
+  "version": "1.15.3",
+  "summary": "A short description of ThingQRCodeModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingQRCodeModule-1.15.3-e1a8f6.zip",
+    "type": "zip",
+    "sha1": "f48d33746b91bae48f8df0a231dafda3940ef2c3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "Foundation",
+    "CoreGraphics"
+  ],
+  "resources": [
+    "ThingQRCodeModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingMediaKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingQRCodeModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingQRCodeModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingQRCodeModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingQRCodeModule\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingQRCodeModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

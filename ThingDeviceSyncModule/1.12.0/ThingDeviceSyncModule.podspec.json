@@ -1,0 +1,100 @@
+{
+  "name": "ThingDeviceSyncModule",
+  "version": "1.12.0",
+  "summary": "双控设备关联模块",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncModule-1.12.0-699f5d.zip",
+    "type": "zip",
+    "sha1": "8ee734db89c6b9e1cebfe412ca929d8dbdf2d3c3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingDeviceSyncModule/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingDeviceSyncModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingDeviceSyncPlugAPI": [
+
+    ],
+    "ThingDeviceSyncControlModule": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ],
+    "TUNIDeviceKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceSyncModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceSyncModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceSyncModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

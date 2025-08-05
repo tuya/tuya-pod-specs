@@ -1,0 +1,22 @@
+{
+  "name": "ThingLightSceneSktAPI",
+  "version": "1.0.0",
+  "summary": "A short description of ThingLightSceneSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneSktAPI-1.0.0-eddf86.zip",
+    "type": "zip",
+    "sha1": "2b15439edf4c7cc369bdef9f41e68d9cad2cbb25"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingLightSceneSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

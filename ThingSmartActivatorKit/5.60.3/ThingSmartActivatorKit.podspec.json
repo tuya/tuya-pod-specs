@@ -1,0 +1,45 @@
+{
+  "name": "ThingSmartActivatorKit",
+  "version": "5.60.3",
+  "summary": "A short description of ThingSmartActivatorKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorKit-5.60.3-28e480.zip",
+    "type": "zip",
+    "sha1": "ab1a5e6faa8d1cb77894ee73180b0f8a3dc52c45"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartActivatorCoreKit/ThingSmartActivatorCoreKit.h>\n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartActivatorKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartActivatorKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartActivatorKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartActivatorKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n  #import <YYModel/YYModel.h>\n  #import \"ThingSmartActivatorKit.h\"\n#endif",
+  "dependencies": {
+    "ThingSmartActivatorCoreKit": [
+      "~> 5.2"
+    ],
+    "ThingSmartDeviceKit": [
+      "~> 5.0"
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.networking.wifi-info"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartActivatorKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartActivatorKit.xcframework/ios-arm64/ThingSmartActivatorKit.framework/Headers/*"
+  ]
+}

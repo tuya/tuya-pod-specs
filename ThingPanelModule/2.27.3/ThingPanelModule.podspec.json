@@ -1,0 +1,111 @@
+{
+  "name": "ThingPanelModule",
+  "version": "2.27.3",
+  "summary": "Thing面板模块",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelModule-2.27.3-8aa731.zip",
+    "type": "zip",
+    "sha1": "8e076670e40b1286162d35abbf63eae7e4c4812d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingPanelModule/Assets/**/*.{png,jsbundle}"
+  ],
+  "dependencies": {
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingAlertPickerComponent": [
+
+    ],
+    "ThingBleGatewayService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingReactNativeAPI": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingGroupHandlePlugAPI": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingPanelModulePlugAPI": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingRNContainerAPI": [
+
+    ],
+    "MMKV": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n#import <YYModel/YYModel.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>\n#import <ThingNavigationController/ThingNavigationController.h>\n#import <ThingNavigationController/ThingNavigationNaviBarProtocol.h>\n#import <ThingNavigationController/UIViewController+ThingNavigation.h>\n#import <ThingBluetoothInterface/ThingBluetoothInterface.h>\n#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingPanelModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPanelModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

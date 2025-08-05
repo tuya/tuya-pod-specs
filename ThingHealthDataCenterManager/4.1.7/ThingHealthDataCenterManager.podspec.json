@@ -1,0 +1,62 @@
+{
+  "name": "ThingHealthDataCenterManager",
+  "version": "4.1.7",
+  "summary": "A short description of ThingHealthDataCenterManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthDataCenterManager-4.1.7-7d242a.zip",
+    "type": "zip",
+    "sha1": "cd4ea75b13c273c5244870c10508a16881215e3b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingStorageLibrary": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingNCNNLibrary": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingHealthBCMAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingHealthDataCenterManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

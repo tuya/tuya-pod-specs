@@ -1,0 +1,123 @@
+{
+  "name": "ThingRoomManagerDefaultUISkin",
+  "version": "0.19.2",
+  "summary": "A short description of ThingRoomManagerDefaultUISkin.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRoomManagerDefaultUISkin-0.19.2-f3fefb.zip",
+    "type": "zip",
+    "sha1": "2316d06a51dbe28fc99ba148d7f11b8845809037"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingRoomManagerDefaultUISkin/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingRoomManagerDefaultUISkin/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingMainPageLink": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "ThingHomePageSktAPI": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingSmartFamilyBizKit": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingSmartHouseBizKit": [
+
+    ],
+    "ThingSpaceAPI": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingRoomManagerDefaultUISkin.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

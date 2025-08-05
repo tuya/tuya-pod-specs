@@ -1,0 +1,77 @@
+{
+  "name": "TRCTMultiImagePickerManager",
+  "version": "2.2.2",
+  "summary": "A short description of TRCTMultiImagePickerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiImagePickerManager-2.2.2-3d01bb.zip",
+    "type": "zip",
+    "sha1": "b2c91c964bd5799fe985f40a2e2f69823216ab33"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "Photos",
+    "CoreServices",
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingImagePickerController": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingVideoCipper": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingAvatarEditKit": [
+
+    ],
+    "ThingFileUploadKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingMediaKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTMultiImagePickerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

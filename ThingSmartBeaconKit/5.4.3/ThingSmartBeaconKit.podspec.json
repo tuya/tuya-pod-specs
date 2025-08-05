@@ -1,0 +1,54 @@
+{
+  "name": "ThingSmartBeaconKit",
+  "version": "5.4.3",
+  "summary": "A short description of ThingSmartBeaconKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeaconKit-5.4.3-524b15.zip",
+    "type": "zip",
+    "sha1": "72d4c75928d8e9cd097f06f8ead54be643ea2b7a"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n   #import <YYModel/YYModel.h>\n   #import <ThingSmartUtil/ThingSmartUtil.h>\n   #ifndef TYBLogMacro\n       #define TYBLogMacro\n       #define ThingBLogDebug(...)         ThingSDKLog(0, @\"ThingSmartBeaconKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n       #define ThingBLogInfo(...)         ThingSDKLog(1, @\"ThingSmartBeaconKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n       #define ThingBLogWarn(...)         ThingSDKLog(2, @\"ThingSmartBeaconKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n       #define ThingBLogError(...)         ThingSDKLog(3, @\"ThingSmartBeaconKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n   #endif\n#endif",
+  "frameworks": [
+    "Foundation",
+    "CoreBluetooth"
+  ],
+  "dependencies": {
+    "ThingSmartBLECoreKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.14"
+    ],
+    "ThingSmartBaseKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartBaseBLEKit": [
+      "~> 1.0"
+    ],
+    "ThingSmartUtil": [
+      "~> 5.14"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartBeaconKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartBeaconKit.xcframework/ios-arm64/ThingSmartBeaconKit.framework/Headers/*"
+  ]
+}

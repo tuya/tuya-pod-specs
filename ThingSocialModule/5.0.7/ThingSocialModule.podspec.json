@@ -1,0 +1,76 @@
+{
+  "name": "ThingSocialModule",
+  "version": "5.0.7",
+  "summary": "集成第三方登录、分享组件的统一管理中心",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocialModule-5.0.7-cba9de.zip",
+    "type": "zip",
+    "sha1": "25889410e43ce3da6310e1a591bef4f941780c51"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSocialModule": [
+      "ThingSocialModule/Assets/**/*.{png,strings}"
+    ]
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingPopupViewController": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSocialAPI": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MessageUI",
+    "Social"
+  ],
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSocialModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSocialModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSocialModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSocialModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSocialModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

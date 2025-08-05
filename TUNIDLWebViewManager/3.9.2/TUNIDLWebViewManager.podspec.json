@@ -1,0 +1,59 @@
+{
+  "name": "TUNIDLWebViewManager",
+  "version": "3.9.2",
+  "summary": "A short description of TUNIDLWebViewManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLWebViewManager-3.9.2-9a5df1.zip",
+    "type": "zip",
+    "sha1": "f99fb3ac5d16eecee4b53ca35acf1f585470dea4"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDLWebViewManager": [
+      "ios/tunidlwebviewmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIDiffSubRegisterManager": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDLWebViewManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

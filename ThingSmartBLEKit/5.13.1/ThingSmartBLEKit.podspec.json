@@ -1,0 +1,61 @@
+{
+  "name": "ThingSmartBLEKit",
+  "version": "5.13.1",
+  "summary": "A short description of ThingSmartBLEKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBLEKit-5.13.1-25ef76.zip",
+    "type": "zip",
+    "sha1": "80a0e9c96dad21479f22993459251d4d893e7890"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n\n  #import <YYModel/YYModel.h>\n  #import \"ThingSmartBLEKit.h\"\n  #import \"ThingBLEPrivateConf.h\"\n  #import \"ThingBLENotificationKeys.h\"\n  #import <ThingBluetooth/ThingBluetooth.h>\n  \n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingBLELogInfo(id, step, ...)         ThingSDKLogInfo(@\"-> %@ -> %@ -> %@\", id, step, __VA_ARGS__)\n    \n    #define ThingBleLogDebug(...)           ThingSDKLog(0, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n    #define ThingBleLogInfo(...)           ThingSDKLog(1, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n    #define ThingBleLogWarn(...)           ThingSDKLog(2, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n    #define ThingBleLogError(...)           ThingSDKLog(3, @\"ThingSmartBLEKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
+  "frameworks": [
+    "Foundation",
+    "CoreBluetooth"
+  ],
+  "dependencies": {
+    "ThingBluetooth": [
+      "~> 5.6",
+      "< 10.0"
+    ],
+    "ThingSmartUtil": [
+      "~> 5.17"
+    ],
+    "ThingSmartBLECoreKit": [
+      "~> 5.13"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.15"
+    ],
+    "ThingSmartBeaconKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartBaseKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartBaseBLEKit": [
+      "~> 1.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartBLEKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartBLEKit.xcframework/ios-arm64/ThingSmartBLEKit.framework/Headers/*"
+  ]
+}

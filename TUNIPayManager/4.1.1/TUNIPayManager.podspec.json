@@ -1,0 +1,57 @@
+{
+  "name": "TUNIPayManager",
+  "version": "4.1.1",
+  "summary": "A short description of TUNIPayManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPayManager-4.1.1-178291.zip",
+    "type": "zip",
+    "sha1": "383aca3124ebead4d422f82af7901f3e8a46ad52"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPayManager": [
+      "ios/TUNIPayManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingRealClass": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "StoreKit"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPayManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

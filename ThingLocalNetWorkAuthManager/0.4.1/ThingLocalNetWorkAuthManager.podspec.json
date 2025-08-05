@@ -1,0 +1,45 @@
+{
+  "name": "ThingLocalNetWorkAuthManager",
+  "version": "0.4.1",
+  "summary": "A short description of ThingLocalNetWorkAuthManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocalNetWorkAuthManager-0.4.1-1030b5.zip",
+    "type": "zip",
+    "sha1": "2399db591327f777e7185bbc7c308baa9cae4c6e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingLocalNetWorkAuthManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

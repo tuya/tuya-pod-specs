@@ -1,0 +1,125 @@
+{
+  "name": "ThingSmartFamilyDefaultUISkin",
+  "version": "2.33.2",
+  "summary": "涂鸦家庭模块默认皮肤",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartFamilyDefaultUISkin-2.33.2-3d4b1c.zip",
+    "type": "zip",
+    "sha1": "0b93450168b9e82a23038dc670f39ceab35596b6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartFamilyDefaultUISkin": [
+      "ThingSmartFamilyDefaultUISkin/Assets/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "MapKit"
+  ],
+  "dependencies": {
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingPopupViewController": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartFamilyBizKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingUrlPredefinedExternal": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingAuthInterface": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingMapKit": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingServerSwitchApi": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartFamilyDefaultUISkin\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartFamilyDefaultUISkin.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

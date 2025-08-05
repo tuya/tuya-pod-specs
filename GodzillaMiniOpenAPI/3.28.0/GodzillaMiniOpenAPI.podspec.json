@@ -1,0 +1,24 @@
+{
+  "name": "GodzillaMiniOpenAPI",
+  "version": "3.28.0",
+  "summary": "A short description of GodzillaMiniOpenAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniOpenAPI-3.28.0-1a3788.zip",
+    "type": "zip",
+    "sha1": "e5431e7ca511ea72d646c8b8823b66951131a4cf"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "Build/GodzillaMiniOpenAPI.xcframework"
+  ],
+  "source_files": [
+    "Build/GodzillaMiniOpenAPI.xcframework/ios-arm64/GodzillaMiniOpenAPI.framework/Headers/*"
+  ]
+}

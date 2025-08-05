@@ -1,0 +1,66 @@
+{
+  "name": "TUNIPhoneManager",
+  "version": "1.13.1",
+  "summary": "A short description of TUNIPhoneManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneManager-1.13.1-171d0a.zip",
+    "type": "zip",
+    "sha1": "55bef3a36166e955e613e2133bdfeb76c0c67059"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPhoneManager": [
+      "ios/TUNIPhoneManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

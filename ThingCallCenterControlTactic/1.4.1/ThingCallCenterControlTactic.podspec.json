@@ -1,0 +1,95 @@
+{
+  "name": "ThingCallCenterControlTactic",
+  "version": "1.4.1",
+  "summary": "A short description of ThingCallCenterControlTactic.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallCenterControlTactic-1.4.1-13ed7b.zip",
+    "type": "zip",
+    "sha1": "3db7ca8da0f450f72dce45f3713652afd4323fd5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCallCenterControlTactic": [
+      "ThingCallCenterControlTactic/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingCallModule": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingMicrophoneAuthManager": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartCallChannelKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingCallCenterControlTactic\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingCallCenterControlTactic\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingCallCenterControlTactic\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingCallCenterControlTactic\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCallCenterControlTactic.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

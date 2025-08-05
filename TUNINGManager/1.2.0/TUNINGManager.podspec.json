@@ -1,0 +1,50 @@
+{
+  "name": "TUNINGManager",
+  "version": "1.2.0",
+  "summary": "A short description of TUNINGManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINGManager-1.2.0-087c26.zip",
+    "type": "zip",
+    "sha1": "040a7e6acf045a1d97e78c15b67c23eb9b4d84e8"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNINGManager": [
+      "ios/TUNINGManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNINGManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

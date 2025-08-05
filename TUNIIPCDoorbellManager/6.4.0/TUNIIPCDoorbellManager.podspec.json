@@ -1,0 +1,47 @@
+{
+  "name": "TUNIIPCDoorbellManager",
+  "version": "6.4.0",
+  "summary": "A short description of TUNIIPCDoorbellManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCDoorbellManager-6.4.0-27e080.zip",
+    "type": "zip",
+    "sha1": "91c55e0bb12265c61a7c1317a0abd41d8f6ce813"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIIPCDoorbellManager": [
+      "ios/TUNIIPCDoorbellManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIIPCDoorbellManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

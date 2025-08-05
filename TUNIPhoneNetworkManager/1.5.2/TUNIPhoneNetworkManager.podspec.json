@@ -1,0 +1,46 @@
+{
+  "name": "TUNIPhoneNetworkManager",
+  "version": "1.5.2",
+  "summary": "A short description of TUNIPhoneNetworkManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneNetworkManager-1.5.2-3dc591.zip",
+    "type": "zip",
+    "sha1": "6c3ed1c610b0f5e5f50b4dfbeb6e5ade156c074e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPhoneNetworkManager": [
+      "ios/TUNIPhoneNetworkManager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneNetworkManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

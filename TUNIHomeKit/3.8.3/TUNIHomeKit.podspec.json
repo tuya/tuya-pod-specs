@@ -1,0 +1,51 @@
+{
+  "name": "TUNIHomeKit",
+  "version": "3.8.3",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIHomeKit-3.8.3-e38fe6.zip",
+    "type": "zip",
+    "sha1": "4574d4b3fd13aa42ee6e8d35de12efd64ceb3359"
+  },
+  "resource_bundles": {
+    "TUNIHomeKit": [
+      "ios/TUNIHomeKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIApDirectlyDeviceManager": [
+      "6.3.2"
+    ],
+    "TUNIHomeDataManager": [
+      "1.3.17"
+    ],
+    "TUNIHomeDeviceListManager": [
+      "1.1.3"
+    ],
+    "TUNILoginManager": [
+      "1.0.5"
+    ],
+    "TUNISceneManager": [
+      "1.8.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIHomeKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

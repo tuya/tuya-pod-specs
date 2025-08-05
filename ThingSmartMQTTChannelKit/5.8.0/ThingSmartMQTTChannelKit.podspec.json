@@ -1,0 +1,36 @@
+{
+  "name": "ThingSmartMQTTChannelKit",
+  "version": "5.8.0",
+  "summary": "A short description of ThingSmartMQTTChannelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMQTTChannelKit-5.8.0-c50835.zip",
+    "type": "zip",
+    "sha1": "eeb93770c890f78403c854699663ccf3a8da3e66"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "frameworks": "CoreData"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartUtil/ThingSmartUtil.h>\n  #import \"ThingSmartMQTTChannelKit.h\"\n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartMQTTChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartMQTTChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartMQTTChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartMQTTChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n  #import \"macros.h\"\n\n  #import \"MQTTSession.h\"\n  #import \"MQTTDecoder.h\"\n  #import \"MQTTSessionLegacy.h\"\n  #import \"MQTTProperties.h\"\n  #import \"MQTTMessage.h\"\n  #import \"MQTTTransport.h\"\n  #import \"MQTTCFSocketTransport.h\"\n  #import \"MQTTCoreDataPersistence.h\"\n  #import \"MQTTSSLSecurityPolicyTransport.h\"\n  #import \"MQTTLog.h\"\n\n#endif",
+  "dependencies": {
+    "ThingSmartUtil": [
+      ">= 5.0.0"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartMQTTChannelKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartMQTTChannelKit.xcframework/ios-arm64/ThingSmartMQTTChannelKit.framework/Headers/*"
+  ]
+}

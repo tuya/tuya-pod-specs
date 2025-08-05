@@ -1,0 +1,22 @@
+{
+  "name": "ThingAutoTrackAPI",
+  "version": "1.2.0",
+  "summary": "A short description of ThingAutoTrackAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAutoTrackAPI-1.2.0-35366b.zip",
+    "type": "zip",
+    "sha1": "b17083b8e914914eec645c8dc327a3a240e5a5af"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingAutoTrackAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

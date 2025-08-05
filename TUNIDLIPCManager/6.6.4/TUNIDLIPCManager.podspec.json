@@ -1,0 +1,89 @@
+{
+  "name": "TUNIDLIPCManager",
+  "version": "6.6.4",
+  "summary": "A short description of TUNIDLIPCManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLIPCManager-6.6.4-41afe7.zip",
+    "type": "zip",
+    "sha1": "675dd7658d460f7c0ff73b828a233e347e1c889b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDLIPCManager": [
+      "ios/tunidlipcmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "TUNIDiffSubRegisterManager": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingSmartMediaUIKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraModuleSKYEventModule": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDLIPCManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

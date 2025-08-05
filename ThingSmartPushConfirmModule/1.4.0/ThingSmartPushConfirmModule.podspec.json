@@ -1,0 +1,55 @@
+{
+  "name": "ThingSmartPushConfirmModule",
+  "version": "1.4.0",
+  "summary": "公版 推送功能的到达上报与补偿模块，主要提供给 extension 使用",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPushConfirmModule-1.4.0-385be7.zip",
+    "type": "zip",
+    "sha1": "76f56f7099599cdee471908d20258a9a5e690259"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartPushConfirmModule/Assets/*.caf"
+  ],
+  "frameworks": [
+    "UserNotifications"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_CODE_SIGN_ENTITLEMENTS": "aps-environment",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartPushConfirmModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartPushConfirmModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartPushConfirmModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartPushConfirmModule\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartPushConfirmModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "license": "none"
+}

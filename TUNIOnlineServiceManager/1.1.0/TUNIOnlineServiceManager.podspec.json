@@ -1,0 +1,47 @@
+{
+  "name": "TUNIOnlineServiceManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIOnlineServiceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOnlineServiceManager-1.1.0-8ce1e0.zip",
+    "type": "zip",
+    "sha1": "229a76de0b65e8a6cbb2931ceef1fb81b4945173"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIOnlineServiceManager": [
+      "ios/TUNIOnlineServiceManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartSettingsBizKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIOnlineServiceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

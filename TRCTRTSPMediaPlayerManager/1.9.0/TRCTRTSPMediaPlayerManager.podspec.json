@@ -1,0 +1,38 @@
+{
+  "name": "TRCTRTSPMediaPlayerManager",
+  "version": "1.9.0",
+  "summary": "A short description of TRCTRTSPMediaPlayerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRTSPMediaPlayerManager-1.9.0-1fea1a.zip",
+    "type": "zip",
+    "sha1": "8eb4d328766b90085b5a4a8c7bdaedd1b7cd7d0e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTRTSPMediaPlayerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

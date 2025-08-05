@@ -1,0 +1,93 @@
+{
+  "name": "ThingHealthWatchManager",
+  "version": "1.3.11",
+  "summary": "A short description of ThingHealthWatchManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthWatchManager-1.3.11-9c1f6f.zip",
+    "type": "zip",
+    "sha1": "d5d458581b7c668018aeb16897555489d2ce5531"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingHealthWatchManager": [
+      "ThingHealthWatchManager/Assets/**/*"
+    ]
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreLocation",
+    "AVFoundation",
+    "MediaPlayer"
+  ],
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingPushNotificationAPI": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysUsageDescription NSMotionUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingHealthWatchManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingHealthWatchManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingHealthWatchManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingHealthWatchManager\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingHealthWatchManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

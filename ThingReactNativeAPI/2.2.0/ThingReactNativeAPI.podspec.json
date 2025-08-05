@@ -1,0 +1,25 @@
+{
+  "name": "ThingReactNativeAPI",
+  "version": "2.2.0",
+  "summary": "A short description of ThingReactNativeAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReactNativeAPI-2.2.0-e20e8b.zip",
+    "type": "zip",
+    "sha1": "b94dddd584a31f30e481f21c7db5cbd22cd267ad"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingReactNativeAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,99 @@
+{
+  "name": "ThingDeviceDetectionNetwork",
+  "version": "1.3.2",
+  "summary": "A short description of ThingDeviceDetectionNetwork.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetectionNetwork-1.3.2-1165c1.zip",
+    "type": "zip",
+    "sha1": "dc8bb15cb2080d2cb8916e565ba02d5db205872a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingDeviceDetectionNetwork/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingDeviceDetectionNetwork": [
+      "ThingDeviceDetectionNetwork/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSocketPing": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingDeviceDetectionNetworkPlugAPI": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingFileUploadKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingDeviceLogKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceDetectionNetwork\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceDetectionNetwork\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceDetectionNetwork\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceDetectionNetwork\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetectionNetwork.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

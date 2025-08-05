@@ -1,0 +1,110 @@
+{
+  "name": "ThingSmartSceneBizKit",
+  "version": "1.42.2",
+  "summary": "A short description of ThingSmartSceneBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneBizKit-1.42.2-dca53f.zip",
+    "type": "zip",
+    "sha1": "725ea9a280705ee11b68c811e7966d34a2ef2e5f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartLocationService": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AddressBook",
+    "AddressBookUI",
+    "CoreTelephony",
+    "Contacts",
+    "ContactsUI",
+    "Foundation"
+  ],
+  "prefix_header_file": "ThingSmartSceneBizKit/Classes/PrefixHeader.pch",
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSceneBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

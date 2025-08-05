@@ -1,0 +1,62 @@
+{
+  "name": "TUNIGeofenceManager",
+  "version": "6.4.0",
+  "summary": "A short description of TUNIGeofenceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGeofenceManager-6.4.0-6e683f.zip",
+    "type": "zip",
+    "sha1": "a95a24078bc158a892eefa37579101d7a0b2c1ca"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIGeofenceManager": [
+      "ios/TUNIGeofenceManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIGeofenceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

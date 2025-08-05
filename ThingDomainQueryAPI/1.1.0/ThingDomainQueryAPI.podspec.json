@@ -1,0 +1,22 @@
+{
+  "name": "ThingDomainQueryAPI",
+  "version": "1.1.0",
+  "summary": "A short description of ThingDomainQueryAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDomainQueryAPI-1.1.0-806a04.zip",
+    "type": "zip",
+    "sha1": "1dfb5e32f42c2651e9f0265b7a08e8f300461e4d"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingDomainQueryAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

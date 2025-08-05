@@ -1,0 +1,25 @@
+{
+  "name": "ThingSmartPrivateCloudPlugAPI",
+  "version": "0.2.1",
+  "summary": "A short description of ThingSmartPrivateCloudPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPrivateCloudPlugAPI-0.2.1-d3b7e8.zip",
+    "type": "zip",
+    "sha1": "feb2498b784d38cdcef3b4d165cbe7a8e28e9e06"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartPrivateCloudPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "license": "none"
+}

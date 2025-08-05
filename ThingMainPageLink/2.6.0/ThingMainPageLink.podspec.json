@@ -1,0 +1,60 @@
+{
+  "name": "ThingMainPageLink",
+  "version": "2.6.0",
+  "summary": "A short description of ThingMainPageLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMainPageLink-2.6.0-ecc8ee.zip",
+    "type": "zip",
+    "sha1": "501ab8b65d3c670ba418f53f98fcf76828414d63"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingAppLifeCycleSktAPI": [
+
+    ],
+    "ThingSettingsPlugAPI": [
+
+    ],
+    "ThingSmartSecurityModuleService": [
+
+    ],
+    "ThingSecurityArmAbilityModuleServices": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+
+    ],
+    "ThingPanelModulePlugAPI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMainPageLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

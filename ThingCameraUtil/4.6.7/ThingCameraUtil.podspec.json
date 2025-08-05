@@ -1,0 +1,57 @@
+{
+  "name": "ThingCameraUtil",
+  "version": "4.6.7",
+  "summary": "A short description of ThingCameraUtil.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUtil-4.6.7-f79b14.zip",
+    "type": "zip",
+    "sha1": "ec5196485fcb36285655ac65f302972fc9c634bb"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingPhotosAuthManager": [
+
+    ],
+    "ThingMicrophoneAuthManager": [
+
+    ],
+    "ThingCameraAuthManager": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingCameraFoundationKit": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingCameraUtil.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

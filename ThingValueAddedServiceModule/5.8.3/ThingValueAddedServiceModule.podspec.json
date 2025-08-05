@@ -1,0 +1,107 @@
+{
+  "name": "ThingValueAddedServiceModule",
+  "version": "5.8.3",
+  "summary": "组件模板",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingValueAddedServiceModule-5.8.3-945cc0.zip",
+    "type": "zip",
+    "sha1": "c9044dc74f37ce29623925df8e7cc5b3094b6393"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingValueAddedServiceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "prefix_header_file": "ThingValueAddedServiceModule/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingValueAddedServicePlugAPI": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "ThingCache": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingValueAddedServiceModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingValueAddedServiceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

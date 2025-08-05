@@ -1,0 +1,137 @@
+{
+  "name": "ThingSmartHouseBizKit",
+  "version": "2.13.4",
+  "summary": "A short description of ThingSmartHouseBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHouseBizKit-2.13.4-10f2f0.zip",
+    "type": "zip",
+    "sha1": "e5d2a7a46b99b31886e5782423cf869fb56b2530"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartHouseBizKit/Assets/*.{png,xib,plist,xcassets,bundle,jif}"
+  ],
+  "prefix_header_file": "ThingSmartHouseBizKit/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingBusinessDeviceCore": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartSecurityModuleService": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingMainPageLink": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingActivatorPlugAPI": [
+
+    ],
+    "ThingSmartIntelligenceApi": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingHomePageSktAPI": [
+
+    ],
+    "ThingPaymentControl": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AddressBook",
+    "AddressBookUI",
+    "CoreTelephony",
+    "Contacts",
+    "ContactsUI",
+    "Foundation"
+  ],
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartHouseBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

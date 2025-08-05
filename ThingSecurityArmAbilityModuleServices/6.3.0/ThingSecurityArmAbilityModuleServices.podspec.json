@@ -1,0 +1,33 @@
+{
+  "name": "ThingSecurityArmAbilityModuleServices",
+  "version": "6.3.0",
+  "summary": "security arm ability protocols",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSecurityArmAbilityModuleServices-6.3.0-a0659f.zip",
+    "type": "zip",
+    "sha1": "7b20216b4d72e122afb681cb4a17659514a861c7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSecurityArmAbilityModuleServices.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

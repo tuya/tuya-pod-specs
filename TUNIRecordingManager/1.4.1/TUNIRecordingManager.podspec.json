@@ -1,0 +1,55 @@
+{
+  "name": "TUNIRecordingManager",
+  "version": "1.4.1",
+  "summary": "A short description of TUNIRecordingManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRecordingManager-1.4.1-050eb8.zip",
+    "type": "zip",
+    "sha1": "93037b9b32b3fab958c7c1a0b130809ebebb19dc"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIRecordingManager": [
+      "ios/TUNIRecordingManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "AVFoundation",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "EZAudio": [
+
+    ],
+    "ThingAudioFileRecorderSDK": [
+
+    ],
+    "ThingMP3CodecSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIRecordingManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

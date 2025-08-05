@@ -1,0 +1,53 @@
+{
+  "name": "ThingFoundationKit",
+  "version": "1.25.1",
+  "summary": "A FoundationKit Powered By ThingInc",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFoundationKit-1.25.1-ed82af.zip",
+    "type": "zip",
+    "sha1": "a63d82d6eb4ffcf1f2e1913bf19abbeb1b9d966e"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "Foundation",
+      "CoreGraphics",
+      "CoreTelephony"
+    ],
+    "dependencies": {
+      "ThingSmartUtil": [
+
+      ]
+    }
+  },
+  "watchos": {
+    "frameworks": [
+      "UIKit",
+      "Foundation",
+      "CoreGraphics"
+    ],
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    }
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingFoundationKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

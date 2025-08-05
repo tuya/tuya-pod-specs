@@ -1,0 +1,25 @@
+{
+  "name": "ThingGeofenceServiceAPI",
+  "version": "1.2.0",
+  "summary": "A short description of ThingGeofenceServiceAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGeofenceServiceAPI-1.2.0-5f447d.zip",
+    "type": "zip",
+    "sha1": "38752cf799a80e7a07455f915ab371d8ecfd88ea"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingGeofenceServiceAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

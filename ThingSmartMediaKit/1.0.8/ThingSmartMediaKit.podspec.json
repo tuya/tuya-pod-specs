@@ -1,0 +1,33 @@
+{
+  "name": "ThingSmartMediaKit",
+  "version": "1.0.8",
+  "summary": "A short description of ThingSmartMediaKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMediaKit-1.0.8-47a8af.zip",
+    "type": "zip",
+    "sha1": "f950f09d7fe2fa2fcbd9f4fe9669176183390839"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartAVBaseKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartMediaKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

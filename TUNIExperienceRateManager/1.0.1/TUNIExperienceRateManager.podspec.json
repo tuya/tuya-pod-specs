@@ -1,0 +1,47 @@
+{
+  "name": "TUNIExperienceRateManager",
+  "version": "1.0.1",
+  "summary": "A short description of TUNIExperienceRateManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIExperienceRateManager-1.0.1-54bc30.zip",
+    "type": "zip",
+    "sha1": "682f785bc7874afbcc9bd2641b5b8e4ad68c840f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIExperienceRateManager": [
+      "ios/TUNIExperienceRateManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIExperienceRateManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

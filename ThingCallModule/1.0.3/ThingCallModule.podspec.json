@@ -1,0 +1,68 @@
+{
+  "name": "ThingCallModule",
+  "version": "1.0.3",
+  "summary": "A short description of ThingCallModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallModule-1.0.3-fff598.zip",
+    "type": "zip",
+    "sha1": "a293e3f3a0e802bb61a8904b4e6b1f791f72aa9f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCallModule": [
+      "ThingCallModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingTacticsManager": [
+
+    ],
+    "ThingSmartAVBaseKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingCallMaintainModule": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartCallChannelKit": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCallModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

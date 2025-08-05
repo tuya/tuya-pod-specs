@@ -1,0 +1,50 @@
+{
+  "name": "TUNIMatterDeviceManager",
+  "version": "6.3.0",
+  "summary": "A short description of TUNIMatterDeviceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMatterDeviceManager-6.3.0-66a993.zip",
+    "type": "zip",
+    "sha1": "d3c5dc8a1ff63f781e633f25c416f25eb4411c5d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMatterDeviceManager": [
+      "ios/TUNIMatterDeviceManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+
+    ],
+    "ThingSmartActivatorCoreKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMatterDeviceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

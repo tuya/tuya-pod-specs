@@ -1,0 +1,184 @@
+{
+  "name": "ThingDeviceDetailModule",
+  "version": "2.26.2",
+  "summary": "A short description of ThingDeviceDetailModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailModule-2.26.2-ed5a9a.zip",
+    "type": "zip",
+    "sha1": "435b94a408b9bb7177306ae05bbc20d5c1efa82e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingDeviceDetailModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingDeviceDetailModule": [
+      "ThingDeviceDetailModule/Assets/*"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingStorageLibrary": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingNormalUI": [
+
+    ],
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingInterfaceConfig": [
+
+    ],
+    "ThingDeviceDetailPlugAPI": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingDeviceInfoPlugAPI": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingDeviceMigratePlugAPI": [
+
+    ],
+    "ThingDeviceDetectionNetworkPlugAPI": [
+
+    ],
+    "ThingDeviceNetworkSettingPlugAPI": [
+
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+
+    ],
+    "ThingGroupHandlePlugAPI": [
+
+    ],
+    "ThingDeviceIotCardPlugAPI": [
+
+    ],
+    "ThingDeviceAccessoryManagePlugAPI": [
+
+    ],
+    "ThingDeviceEvaluationPlugAPI": [
+
+    ],
+    "ThingDeviceLocationPlugAPI": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ],
+    "ThingDeviceShareModulePlugAPI": [
+
+    ],
+    "ThingDeviceEditPlugAPI": [
+
+    ],
+    "ThingDeviceSyncPlugAPI": [
+
+    ],
+    "ThingSmartOutdoorPlugAPI": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingDeviceHomeKitModule": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceDetailModule\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetailModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "ThingMediaKit",
+  "version": "3.4.1",
+  "summary": "视频和图片工具",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMediaKit-3.4.1-a3ace9.zip",
+    "type": "zip",
+    "sha1": "528c56528dc4eac6af04f6061bf377d52a430408"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingMediaKit": [
+      "ThingMediaKit/Assets/**/*"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription NSMicrophoneUsageDescription NSPhotoLibraryUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingImagePickerController": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMediaKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

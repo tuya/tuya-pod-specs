@@ -1,0 +1,47 @@
+{
+  "name": "GZLMiniAppInterceptor_iOS",
+  "version": "3.29.1",
+  "summary": "A short description of GZLMiniAppInterceptor_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppInterceptor_iOS-3.29.1-3c0040.zip",
+    "type": "zip",
+    "sha1": "4b9f4e31dfa344ceaa773882e221136503acf5ab"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ],
+    "GZLMiniAppCommonUI": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppInterceptor_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppInterceptor_iOS.xcframework/ios-arm64/GZLMiniAppInterceptor_iOS.framework/Headers/*"
+  ]
+}

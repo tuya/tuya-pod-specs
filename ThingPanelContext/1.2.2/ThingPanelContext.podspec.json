@@ -1,0 +1,56 @@
+{
+  "name": "ThingPanelContext",
+  "version": "1.2.2",
+  "summary": "Thing面板上下文信息模块",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelContext-1.2.2-ced6e1.zip",
+    "type": "zip",
+    "sha1": "749c23a52ddaeab537b2af82c56654b041071ce1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "ThingPanelContext": [
+      "ThingPanelContext/Assets/*.{mp3}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPanelContext.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

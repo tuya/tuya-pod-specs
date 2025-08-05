@@ -1,0 +1,32 @@
+{
+  "name": "ThingCameraUIKit",
+  "version": "5.0.10",
+  "summary": "A short description of ThingCameraUIKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUIKit-5.0.10-1af3f4.zip",
+    "type": "zip",
+    "sha1": "5921f8e4dbfb7f3ba46549634966d80cf54d946b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartMediaUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingCameraUIKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingCameraUIKit.xcframework/ios-arm64/ThingCameraUIKit.framework/Headers/*"
+  ]
+}

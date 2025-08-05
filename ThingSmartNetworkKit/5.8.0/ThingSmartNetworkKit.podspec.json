@@ -1,0 +1,59 @@
+{
+  "name": "ThingSmartNetworkKit",
+  "version": "5.8.0",
+  "summary": "A short description of ThingSmartNetworkKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartNetworkKit-5.8.0-b048dd.zip",
+    "type": "zip",
+    "sha1": "223fb71fb2daa46cb12113e4189d3aa45c856dae"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartNetworkKit/ThingSmartNetworkKit.h>\n  #import \"ThingSmartDomainConfigurable.h\"\n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartNetworkKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartNetworkKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartNetworkKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartNetworkKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n  #import <YYModel/YYModel.h>\n\n#endif",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "dependencies": {
+    "ThingSmartUtil": [
+      ">= 5.8"
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.security.application-groups"
+  },
+  "ios": {
+    "source_files": [
+      "Build/ThingSmartNetworkKit.xcframework/ios-arm64/ThingSmartNetworkKit.framework/Headers/*"
+    ],
+    "resources": [
+      "Build/ThingSmartNetworkKit.xcframework/ios-arm64/ThingSmartNetworkKit.framework/CustomResources/Assets/*"
+    ]
+  },
+  "watchos": {
+    "source_files": [
+      "Build/ThingSmartNetworkKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartNetworkKit.framework/Headers/*"
+    ],
+    "resources": [
+      "Build/ThingSmartNetworkKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartNetworkKit.framework/CustomResources/Assets/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartNetworkKit.xcframework"
+  ]
+}

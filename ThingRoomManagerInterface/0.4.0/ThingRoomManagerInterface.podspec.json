@@ -1,0 +1,25 @@
+{
+  "name": "ThingRoomManagerInterface",
+  "version": "0.4.0",
+  "summary": "A short description of ThingRoomManagerInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingRoomManagerInterface-0.4.0-1ff373.zip",
+    "type": "zip",
+    "sha1": "2e6df25de30c328ce54325b366f90bf932d0ac93"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingRoomManagerInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

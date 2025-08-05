@@ -1,0 +1,39 @@
+{
+  "name": "TRCTHealthCenterManager",
+  "version": "6.4.0",
+  "summary": "A short description of TRCTHealthCenterManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthCenterManager-6.4.0-51a4d6.zip",
+    "type": "zip",
+    "sha1": "10a5d11b4b41ba0184ddeb8d91f731e8cb2a5a61"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "libraries": "c++",
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingHealthDataCenterManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTHealthCenterManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

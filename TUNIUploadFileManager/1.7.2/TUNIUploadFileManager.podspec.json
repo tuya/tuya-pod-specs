@@ -1,0 +1,44 @@
+{
+  "name": "TUNIUploadFileManager",
+  "version": "1.7.2",
+  "summary": "A short description of TUNIUploadFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIUploadFileManager-1.7.2-583cb6.zip",
+    "type": "zip",
+    "sha1": "6cf2f182a365f6033abee5e74a89db700cd0a1ca"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIUploadFileManager": [
+      "ios/TUNIUploadFileManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIUploadFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "rn-fetch-blob",
+  "version": "0.10.16.0",
+  "summary": "A project committed to make file acess and data transfer easier, effiecient for React Native developers.",
+  "requires_arc": true,
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/rn-fetch-blob-0.10.16.0-801f58.zip",
+    "type": "zip",
+    "sha1": "017bbf05cc1649d2d7b1415bab3c3baaa5bfc47c"
+  },
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "AssetsLibrary"
+  ],
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "rn_fetch_blob.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

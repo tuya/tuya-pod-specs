@@ -1,0 +1,63 @@
+{
+  "name": "ThingCameraAbilityCommonModule",
+  "version": "2.1.7",
+  "summary": "A short description of ThingCameraAbilityCommonModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraAbilityCommonModule-2.1.7-d5185c.zip",
+    "type": "zip",
+    "sha1": "52f38f96c1f99c3d4fa7f881a4ca854e2a2525b3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingCameraAdvancedAbilityKit": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartMediaKit": [
+
+    ],
+    "ThingSmartCameraBase": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraAbilityCommonModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

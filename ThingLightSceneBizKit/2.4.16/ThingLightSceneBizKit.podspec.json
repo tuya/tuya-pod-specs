@@ -1,0 +1,87 @@
+{
+  "name": "ThingLightSceneBizKit",
+  "version": "2.4.16",
+  "summary": "A short description of ThingLightSceneBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneBizKit-2.4.16-ae6228.zip",
+    "type": "zip",
+    "sha1": "bc6225cbe698835d6e89b998f4a5c1befac6266b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingLightSceneBizKit/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingLightSceneKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLightSceneSktAPI": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingLightCommonUI": [
+
+    ],
+    "ThingLightLampHomeBizKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "EZAudio": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLightSceneBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

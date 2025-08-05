@@ -1,0 +1,45 @@
+{
+  "name": "TUNIMediaKit",
+  "version": "3.5.0",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMediaKit-3.5.0-09d37e.zip",
+    "type": "zip",
+    "sha1": "6cbd79df48c8763a9fee3e3b053c8c0ca743ba2c"
+  },
+  "resource_bundles": {
+    "TUNIMediaKit": [
+      "ios/TUNIMediaKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIDLCameraManager": [
+      "3.0.6"
+    ],
+    "TUNIDLVideoManager": [
+      "3.3.2"
+    ],
+    "TUNIMusicManager": [
+      "1.5.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIMediaKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

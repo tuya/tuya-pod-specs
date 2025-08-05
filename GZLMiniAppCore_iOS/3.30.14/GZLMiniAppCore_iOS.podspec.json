@@ -1,0 +1,106 @@
+{
+  "name": "GZLMiniAppCore_iOS",
+  "version": "3.30.14",
+  "summary": "A short description of GZLMiniAppCore_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppCore_iOS-3.30.14-59da41.zip",
+    "type": "zip",
+    "sha1": "0065c1feaa7729e1734e08d80a12d053c3beea9f"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "ios": {
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "GZLJSEngine": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingTarKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GZLRNCompatProtocol": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ],
+    "GZLMiniAppCommonUI": [
+
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingDynamicContainerPlugin": [
+
+    ],
+    "GodzillaMiniRatePlugin": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppCore_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/CustomResources/Bundles/*"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "TUNIAuthorizeManager",
+  "version": "1.6.0",
+  "summary": "A short description of TUNIAuthorizeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAuthorizeManager-1.6.0-d10a3e.zip",
+    "type": "zip",
+    "sha1": "13ac1915077dec54fda3aef4cedccbf375ceac45"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "AVFoundation",
+    "Photos",
+    "CoreLocation"
+  ],
+  "resource_bundles": {
+    "TUNIAuthorizeManager": [
+      "ios/tuniauthorizemanager/Assets/*",
+      "commonAssets/TTTScopeInfo.json",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAuthorizeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

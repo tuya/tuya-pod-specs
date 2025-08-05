@@ -1,0 +1,44 @@
+{
+  "name": "TUNIKeyboardManager",
+  "version": "2.2.0",
+  "summary": "A short description of TUNIKeyboardManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIKeyboardManager-2.2.0-af7739.zip",
+    "type": "zip",
+    "sha1": "b1cfaf46bfa0f2ddbb0a7b8873f286cf1f03b89c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIKeyboardManager": [
+      "ios/TUNIKeyboardManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIKeyboardManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

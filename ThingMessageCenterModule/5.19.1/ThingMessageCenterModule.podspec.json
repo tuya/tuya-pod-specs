@@ -1,0 +1,148 @@
+{
+  "name": "ThingMessageCenterModule",
+  "version": "5.19.1",
+  "summary": "消息中心模块",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMessageCenterModule-5.19.1-f04af7.zip",
+    "type": "zip",
+    "sha1": "1052cde0a6d0f7667a01d184bd7df4fe04bdf248"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingMessageCenterModule": [
+      "ThingMessageCenterModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingPhotoBrowser": [
+
+    ],
+    "ThingVideoPlayer": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingSmartMessageKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingPageMenuView": [
+
+    ],
+    "ThingPageView": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingNotificationsAuthManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartSecurityModuleService": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingLanguageDynamicBiz": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingCache": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMessageCenterModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

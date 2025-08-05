@@ -1,0 +1,69 @@
+{
+  "name": "ThingSmartDeviceKit",
+  "version": "5.12.1.2",
+  "summary": "A short description of ThingSmartDeviceKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDeviceKit-5.12.1.2-46ae34.zip",
+    "type": "zip",
+    "sha1": "5fe055143d56d600c22a51445b26900d86e339da"
+  },
+  "platforms": {
+    "ios": "11.0",
+    "watchos": "2.0"
+  },
+  "static_framework": true,
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #import <ThingSmartDeviceCoreKit/ThingSmartDeviceCoreKit.h>\n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartDeviceKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartDeviceKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartDeviceKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartDeviceKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n  #import \"ThingHomeNotificationUtils.h\"\n  #import \"ThingSmartDeviceKit.h\"\n#endif",
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.20"
+    ],
+    "ThingSmartShareKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartNetworkKit": [
+      ">=5.7.10"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingMachRegister": [
+
+    ]
+  },
+  "ios": {
+    "dependencies": {
+      "ThingSmartMQTTChannelKit": [
+        "~> 5.5"
+      ]
+    },
+    "source_files": [
+      "Build/ThingSmartDeviceKit.xcframework/ios-arm64/ThingSmartDeviceKit.framework/Headers/*"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    },
+    "source_files": [
+      "Build/ThingSmartDeviceKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartDeviceKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartDeviceKit.xcframework"
+  ]
+}

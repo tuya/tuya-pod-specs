@@ -1,0 +1,29 @@
+{
+  "name": "TensorFlowLiteTaskVision",
+  "version": "0.4.3",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TensorFlowLiteTaskVision-0.4.3-2f5d4c.zip",
+    "type": "zip",
+    "sha1": "5ebb07c877398e3b97215dd5d21efb35d60fbaae"
+  },
+  "summary": "TensorFlow Lite Task Library - Vision",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "module_name": "TensorFlowLiteTaskVision",
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64, arm64, armv7"
+  },
+  "libraries": "c++",
+  "frameworks": [
+    "CoreMedia",
+    "Accelerate"
+  ],
+  "vendored_frameworks": "Frameworks/TensorFlowLiteTaskVision.framework"
+}

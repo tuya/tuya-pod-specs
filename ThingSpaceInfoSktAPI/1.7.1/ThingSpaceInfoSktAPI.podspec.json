@@ -1,0 +1,30 @@
+{
+  "name": "ThingSpaceInfoSktAPI",
+  "version": "1.7.1",
+  "summary": "全屋数据装载接口组件",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpaceInfoSktAPI-1.7.1-d25f6c.zip",
+    "type": "zip",
+    "sha1": "4a1576bda7d0da437b95c57b32c6573dd670778c"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingMachRegister": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSpaceInfoSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

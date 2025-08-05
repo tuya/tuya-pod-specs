@@ -1,0 +1,120 @@
+{
+  "name": "ThingSmartSpeechModule",
+  "version": "1.8.16",
+  "summary": "A short description of ThingSmartSpeechModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSpeechModule-1.8.16-935fa8.zip",
+    "type": "zip",
+    "sha1": "6c8a60a1ae7d2cf54f90810a0695bd11f87a8edb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartSpeechModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "prefix_header_file": "ThingSmartSpeechModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSpeechKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingBusinessDeviceCore": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingMicrophoneAuthManager": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription",
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartSpeechModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartSpeechModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartSpeechModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartSpeechModule\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSpeechModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

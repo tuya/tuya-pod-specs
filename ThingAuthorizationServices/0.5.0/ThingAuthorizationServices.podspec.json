@@ -1,0 +1,34 @@
+{
+  "name": "ThingAuthorizationServices",
+  "version": "0.5.0",
+  "summary": "A short description of ThingAuthorizationServices.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAuthorizationServices-0.5.0-f769b4.zip",
+    "type": "zip",
+    "sha1": "5da563e8c5f266e46d5f977dc1cef63eba504d6d"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingAuthorizationServices.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

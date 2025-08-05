@@ -1,0 +1,41 @@
+{
+  "name": "TRCTAVSManager",
+  "version": "1.1.0",
+  "summary": "A short description of TRCTAVSManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAVSManager-1.1.0-9514db.zip",
+    "type": "zip",
+    "sha1": "a0c552299127e47e534b61ee4b3b89737db4fe6f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLoginWithAmzSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTAVSManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

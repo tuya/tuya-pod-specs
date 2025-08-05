@@ -1,0 +1,30 @@
+{
+  "name": "ThingCallMaintainModule",
+  "version": "1.0.1",
+  "summary": "A short description of ThingCallMaintainModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallMaintainModule-1.0.1-36ad58.zip",
+    "type": "zip",
+    "sha1": "5456370476e6708f27ec7630e68e05d65f99d2e2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartCallCounterKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCallMaintainModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

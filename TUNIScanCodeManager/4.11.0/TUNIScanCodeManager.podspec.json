@@ -1,0 +1,79 @@
+{
+  "name": "TUNIScanCodeManager",
+  "version": "4.11.0",
+  "summary": "A short description of TUNIScanCodeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIScanCodeManager-4.11.0-f90cea.zip",
+    "type": "zip",
+    "sha1": "870c4b155344fc2231c21bb7b71e7b14a1ef87eb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIScanCodeManager": [
+      "ios/TUNIScanCodeManager/Assets/**/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Photos",
+    "AVFoundation",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingMediaKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingNormalUI": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIScanCodeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

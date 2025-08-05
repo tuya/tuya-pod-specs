@@ -1,0 +1,79 @@
+{
+  "name": "ThingDeviceHomeKitModule",
+  "version": "0.2.1",
+  "summary": "A short description of ThingDeviceHomeKitModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceHomeKitModule-0.2.1-140253.zip",
+    "type": "zip",
+    "sha1": "e66598acb997dea77622723fce7692f32013605b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingDeviceHomeKitModule": [
+      "ThingDeviceHomeKitModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingProgressHUD": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingHomeKitAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingMatterHomekitInterface": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceHomeKitModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

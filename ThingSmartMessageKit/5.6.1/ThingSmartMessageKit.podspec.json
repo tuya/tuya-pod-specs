@@ -1,0 +1,47 @@
+{
+  "name": "ThingSmartMessageKit",
+  "version": "5.6.1",
+  "summary": "A short description of ThingSmartBaseKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMessageKit-5.6.1-a649d0.zip",
+    "type": "zip",
+    "sha1": "33719de175fe8b10d72788145a8bdec6ce84c6db"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "ios": {
+    "source_files": [
+      "Build/ThingSmartMessageKit.xcframework/ios-arm64/ThingSmartMessageKit.framework/Headers/*"
+    ]
+  },
+  "watchos": {
+    "source_files": [
+      "Build/ThingSmartMessageKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartMessageKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartMessageKit.xcframework"
+  ]
+}

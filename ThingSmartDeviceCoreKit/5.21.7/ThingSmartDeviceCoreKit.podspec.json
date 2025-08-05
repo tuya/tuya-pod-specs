@@ -1,0 +1,61 @@
+{
+  "name": "ThingSmartDeviceCoreKit",
+  "version": "5.21.7",
+  "summary": "A short description of ThingSmartDeviceCoreKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDeviceCoreKit-5.21.7-fb77ff.zip",
+    "type": "zip",
+    "sha1": "30ace1ae28f123d0e380fe1f225a37b12125defd"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "static_framework": true,
+  "watchos": {
+    "exclude_files": "ThingSmartDeviceCoreKit/Service/YuNetLite/**/*.{h,m}",
+    "source_files": [
+      "Build/ThingSmartDeviceCoreKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartDeviceCoreKit.framework/Headers/*"
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <YYModel/YYModel.h>\n  #import \"ThingDeviceNotificationUtils.h\"\n  #import \"ThingDeviceUtils.h\"\n  #import <ThingSmartNetworkKit/ThingSmartNetworkKit.h>\n  #import \"ThingSmartDeviceCoreKit.h\"\n  \n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n  #define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartDeviceCoreKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartDeviceCoreKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartDeviceCoreKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartDeviceCoreKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
+  "ios": {
+    "dependencies": {
+      "ThingSmartMQTTChannelKit": [
+        "~> 5.8"
+      ],
+      "ThingSmartSocketChannelKit": [
+        "~> 5.0"
+      ],
+      "ThingSmartUtil": [
+        "~> 5.15"
+      ]
+    },
+    "source_files": [
+      "Build/ThingSmartDeviceCoreKit.xcframework/ios-arm64/ThingSmartDeviceCoreKit.framework/Headers/*"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+      "~> 5.0"
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartDeviceCoreKit.xcframework"
+  ]
+}

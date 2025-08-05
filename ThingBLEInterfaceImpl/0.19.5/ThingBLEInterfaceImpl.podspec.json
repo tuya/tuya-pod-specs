@@ -1,0 +1,54 @@
+{
+  "name": "ThingBLEInterfaceImpl",
+  "version": "0.19.5",
+  "summary": "A short description of ThingBLEInterfaceImpl.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEInterfaceImpl-0.19.5-383d3e.zip",
+    "type": "zip",
+    "sha1": "10b7d1d153bfd4bebeac8f98364a3d2281f0faf7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBLEKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingBlockKit": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingBLEInterfaceImpl.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

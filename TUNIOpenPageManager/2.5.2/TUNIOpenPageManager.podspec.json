@@ -1,0 +1,74 @@
+{
+  "name": "TUNIOpenPageManager",
+  "version": "2.5.2",
+  "summary": "A short description of TUNIOpenPageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOpenPageManager-2.5.2-7e3f38.zip",
+    "type": "zip",
+    "sha1": "dad403daf7d0c1792fadf3586afb6c6d4cfd5aea"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIOpenPageManager": [
+      "ios/TUNIOpenPageManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingPanelModulePlugAPI": [
+
+    ],
+    "ThingNetworkAreaInterceptorAPI": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIOpenPageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
