@@ -1,0 +1,130 @@
+{
+  "name": "ThingSmartCameraKit",
+  "version": "6.7.5.3",
+  "summary": "open SDK code for thing smart camera.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraKit-6.7.5-7daa81.zip",
+    "type": "zip",
+    "sha1": "fa0e8b8415ad6e8925066f1224c3158468231e4d"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "Photos"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "5.8.3"
+    ],
+    "ThingSmartUtil": [
+      "5.17.1.1"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.21.7"
+    ],
+    "ThingSmartMediaServices": [
+      "3.0.1"
+    ],
+    "ThingSmartCameraBase": [
+      "6.5.3"
+    ],
+    "ThingSmartMediaUIKit": [
+      "3.0.1"
+    ],
+    "ThingSmartCameraM": [
+      "6.7.1"
+    ],
+    "ThingSmartP2pChannelKit": [
+      "5.15.0"
+    ],
+    "ThingSmartCallChannelKit": [
+      "2.2.0"
+    ],
+    "ThingSmartCallCounterKit": [
+      "1.0.3"
+    ],
+    "ThingEncryptImage": [
+      "4.33.0"
+    ],
+    "ThingSmartAVBaseKit": [
+      "2.3.9.1"
+    ],
+    "ThingSmartCameraExtSDK": [
+      "1.0.6"
+    ],
+    "ThingP2PSDK": [
+      "3.10.0"
+    ],
+    "ThingAvLoggerSDK": [
+      "1.3.0"
+    ],
+    "ThingCameraSDK": [
+      "4.24.6.1"
+    ],
+    "ThingAudioEngineSDK": [
+      "1.7.13"
+    ],
+    "ThingVideoCodecSDK": [
+      "1.7.0"
+    ],
+    "ThingFFmpegWrapper": [
+      "4.4.2.6"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.8.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.0"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.11"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCameraKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/Headers/*"
+  ]
+}
