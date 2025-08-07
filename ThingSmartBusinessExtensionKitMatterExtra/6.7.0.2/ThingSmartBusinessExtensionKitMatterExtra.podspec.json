@@ -1,0 +1,110 @@
+{
+  "name": "ThingSmartBusinessExtensionKitMatterExtra",
+  "version": "6.7.0.2",
+  "summary": "A short description of ThingSmartBusinessExtensionKitMatterExtra.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessExtensionKitMatterExtra-6.7.0-c80b3c.zip",
+    "type": "zip",
+    "sha1": "8cf09e976e1974bfae9d1ec529b4f126a14c5a9b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingSmartMatterInterface": [
+      "1.7.0"
+    ],
+    "ThingModuleManager": [
+      "2.14.10"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.6.1"
+    ],
+    "ThingMachRegister": [
+      "0.8.0"
+    ],
+    "ThingFoundationKit": [
+      "1.25.1"
+    ],
+    "ThingSmartUtil": [
+      "5.17.1.1"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartMatterKit": [
+      "~> 5.21.4.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.21.7"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.8.0"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.0"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.11"
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.3"
+    ],
+    "ThingSmartBLEKit": [
+      "5.13.1"
+    ],
+    "ThingBluetooth": [
+      "5.6.1"
+    ],
+    "ThingSmartBLECoreKit": [
+      "5.13.0"
+    ],
+    "ThingSmartBaseBLEKit": [
+      "1.0.0"
+    ],
+    "ThingSmartBeaconKit": [
+      "5.4.3"
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+      "1.7.1"
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.2"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.1"
+    ],
+    "ThingBlockKit": [
+      "0.3.0"
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBusinessExtensionKitMatterExtra.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

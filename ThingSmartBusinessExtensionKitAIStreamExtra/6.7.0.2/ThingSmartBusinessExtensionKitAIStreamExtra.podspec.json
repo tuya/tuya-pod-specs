@@ -1,0 +1,71 @@
+{
+  "name": "ThingSmartBusinessExtensionKitAIStreamExtra",
+  "version": "6.7.0.2",
+  "summary": "A short description of ThingSmartBusinessExtensionKitAIStreamExtra.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessExtensionKitAIStreamExtra-6.7.0-31939d.zip",
+    "type": "zip",
+    "sha1": "a34be74f6875b494807919c39c7e5bccdb15e46c"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "dependencies": {
+    "ThingSmartStreamChannelKit": [
+      "1.1.3"
+    ],
+    "ThingSmartStreamBizKit": [
+      "1.0.4"
+    ],
+    "ThingSmartUtil": [
+      "5.17.1.1"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.11"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.21.7"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.8.0"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.0"
+    ],
+    "ThingAudioEngineSDK": [
+      "1.7.13"
+    ],
+    "ThingAvLoggerSDK": [
+      "1.3.0"
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartBusinessExtensionKitAIStreamExtra.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

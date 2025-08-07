@@ -1,0 +1,59 @@
+{
+  "name": "ThingSmartUtil",
+  "version": "5.17.1.1",
+  "summary": "A short description of ThingSmartUtil.",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUtil-5.17.1.1-13b8a9.zip",
+    "type": "zip",
+    "sha1": "fe7faf50b7576d112f2da35148759e99cb89c9a0"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CoreTelephony",
+      "Foundation",
+      "SystemConfiguration",
+      "UIKit"
+    ],
+    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle",
+    "dependencies": {
+      "ThingMbedtls": [
+        "3.5.2"
+      ],
+      "ThingOpenSSLSDK": [
+        "~> 1.1.1-t.0"
+      ]
+    }
+  },
+  "watchos": {
+    "frameworks": "WatchKit",
+    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartUtil.xcframework",
+    "ThingSmartUtil/**/*.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "dependencies": {
+    "ThingSmartCryption": [
+      "~> 5.0"
+    ]
+  }
+}
