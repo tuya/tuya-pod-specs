@@ -52,8 +52,5 @@
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "dependencies": {
-    "ThingSmartCryption": [
-      "~> 5.0"
-    ]
   }
 }
