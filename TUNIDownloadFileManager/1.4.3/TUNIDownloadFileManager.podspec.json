@@ -1,0 +1,51 @@
+{
+  "name": "TUNIDownloadFileManager",
+  "version": "1.4.3",
+  "summary": "A short description of TUNIDownloadFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDownloadFileManager-1.4.3-011149.zip",
+    "type": "zip",
+    "sha1": "da59759de5f0ddf2b0813ec9377ba72210a9779f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "MobileCoreServices",
+    "UniformTypeIdentifiers"
+  ],
+  "resource_bundles": {
+    "TUNIDownloadFileManager": [
+      "ios/TUNIDownloadFileManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDownloadFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ThingTarKit",
+  "version": "1.0.2",
+  "summary": "untar and tar files on iOS and OS X. Also supports gzip tars.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTarKit-1.0.2-ad8e95.zip",
+    "type": "zip",
+    "sha1": "a287b6a4a5ca26ac649b9ff2a17408a830396797"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "libraries": "z",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingTarKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

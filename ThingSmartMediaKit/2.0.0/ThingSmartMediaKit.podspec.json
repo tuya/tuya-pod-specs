@@ -1,0 +1,32 @@
+{
+  "name": "ThingSmartMediaKit",
+  "version": "2.0.0",
+  "summary": "A short description of ThingSmartMediaKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMediaKit-2.0.0-f32b19.zip",
+    "type": "zip",
+    "sha1": "ab48a45bb3425f9326b9bc0c590adbdc6f5abac4"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartAVBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartMediaKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartMediaKit.xcframework/ios-arm64/ThingSmartMediaKit.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "ThingMapKit",
+  "version": "1.4.12",
+  "summary": "A short description of ThingMapKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMapKit-1.4.12-8ec8c4.zip",
+    "type": "zip",
+    "sha1": "810d14fbee0ad48b5881929a626f05d7df75d45f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingMapKit": [
+      "ThingMapKit/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMapKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

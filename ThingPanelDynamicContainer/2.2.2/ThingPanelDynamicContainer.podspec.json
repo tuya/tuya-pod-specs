@@ -1,0 +1,74 @@
+{
+  "name": "ThingPanelDynamicContainer",
+  "version": "2.2.2",
+  "summary": "A short description of ThingPanelDynamicContainer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelDynamicContainer-2.2.2-cdb51f.zip",
+    "type": "zip",
+    "sha1": "5e8266c5b29264a84967cba308bc0039efc1dab5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingPanelDynamicContainer": [
+      "ThingPanelDynamicContainer/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingPanelModulePlugAPI": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingPanelDynamicContainerAPI": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPanelDynamicContainer.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

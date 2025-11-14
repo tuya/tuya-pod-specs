@@ -1,0 +1,120 @@
+{
+  "name": "TUNIBizKit",
+  "version": "4.22.5",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBizKit-4.22.5-31de5a.zip",
+    "type": "zip",
+    "sha1": "fec6652a9e35cc04a082e34a58c98d252ec431da"
+  },
+  "resource_bundles": {
+    "TUNIBizKit": [
+      "ios/TUNIBizKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAIAssistantManager": [
+      "1.6.1"
+    ],
+    "TUNIAPIRequestManager": [
+      "1.8.1"
+    ],
+    "TUNIAPMManager": [
+      "5.8.3"
+    ],
+    "TUNIAppInfoManager": [
+      "1.10.2"
+    ],
+    "TUNIASRManager": [
+      "1.1.1"
+    ],
+    "TUniCallManager": [
+      "6.4.0"
+    ],
+    "TUNICountrySelectManager": [
+      "1.2.2"
+    ],
+    "TUNIFontManager": [
+      "1.1.0"
+    ],
+    "TUNIIAPManager": [
+      "2.0.4"
+    ],
+    "TUNIImageNetworkManager": [
+      "1.2.0"
+    ],
+    "TUNILiveActivityManager": [
+      "1.0.2"
+    ],
+    "TUNILocalDebugManager": [
+      "1.1.2"
+    ],
+    "TUNILocalizationManager": [
+      "1.8.1"
+    ],
+    "TUNILogManager": [
+      "1.1.1"
+    ],
+    "TUNIMiniPageRefreshManager": [
+      "1.2.0"
+    ],
+    "TUNIMQTTManager": [
+      "6.4.2"
+    ],
+    "TUNINGManager": [
+      "1.2.3"
+    ],
+    "TUNIOnlineServiceManager": [
+      "1.1.0"
+    ],
+    "TUNIOpenPageManager": [
+      "2.6.3"
+    ],
+    "TUNIPanelAgentManager": [
+      "1.0.3"
+    ],
+    "TUNIPayManager": [
+      "4.1.4"
+    ],
+    "TUNIRouterManager": [
+      "2.2.3"
+    ],
+    "TUNIShareManager": [
+      "1.4.0"
+    ],
+    "TUNISiriManager": [
+      "1.0.4"
+    ],
+    "TUNIUserInfoManager": [
+      "3.3.1"
+    ],
+    "TUNIUtilsManager": [
+      "1.5.1"
+    ],
+    "TUNIWebSocketManager": [
+      "1.1.0"
+    ],
+    "TUNIWechatManager": [
+      "1.1.6"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

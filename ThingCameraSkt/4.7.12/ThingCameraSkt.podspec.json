@@ -1,0 +1,62 @@
+{
+  "name": "ThingCameraSkt",
+  "version": "4.7.12",
+  "summary": "A short description of ThingCameraSkt.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraSkt-4.7.12-2f9fad.zip",
+    "type": "zip",
+    "sha1": "882410ba6221d765245c156feccf2271e1e29de9"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCameraSkt": [
+      "ThingCameraSkt/Assets/Images.xcassets"
+    ]
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingPhotoLibraryBizKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraSkt.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

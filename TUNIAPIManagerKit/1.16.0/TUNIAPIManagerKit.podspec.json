@@ -1,0 +1,63 @@
+{
+  "name": "TUNIAPIManagerKit",
+  "version": "1.16.0",
+  "summary": "A short description of TUNIAPIManagerKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPIManagerKit-1.16.0-fbcccb.zip",
+    "type": "zip",
+    "sha1": "46a2945f4da956c4548a4aff3947034fb8767c45"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNICode": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingReactNativeAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "TUNIAPIManagerKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

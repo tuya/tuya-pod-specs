@@ -1,0 +1,123 @@
+{
+  "name": "ThingDeviceShareModule",
+  "version": "2.8.0",
+  "summary": "设备/群组分享模块",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceShareModule-2.8.0-2a1308.zip",
+    "type": "zip",
+    "sha1": "0e84964e454b378dd3bea52665bd33d95355e887"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingDeviceShareModule/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingDeviceShareModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingPopupViewController": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingDeviceShareModuleSktAPI": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartMatterInterfaceAPI": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingPageView": [
+
+    ],
+    "ThingPageMenuView": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingDomainQueryAPI": [
+
+    ],
+    "ThingSocialAPI": [
+
+    ],
+    "ThingDeviceShareModulePlugAPI": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "TUNIDeviceKit": [
+
+    ],
+    "ThingServerSwitchApi": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceShareModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

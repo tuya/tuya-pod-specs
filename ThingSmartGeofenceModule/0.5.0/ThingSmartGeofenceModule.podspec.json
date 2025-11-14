@@ -1,0 +1,79 @@
+{
+  "name": "ThingSmartGeofenceModule",
+  "version": "0.5.0",
+  "summary": "处理场景地理围栏相关的业务，为了做裁剪所以独立成组件",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGeofenceModule-0.5.0-bf99dc.zip",
+    "type": "zip",
+    "sha1": "f8f7fcf1c5fb127bb9ebdbf9c64fdc94335dcff4"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSmartGeofenceModule/ThingSmartGeofenceModule.pch",
+  "resources": [
+    "ThingSmartGeofenceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingMapKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartGeofenceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

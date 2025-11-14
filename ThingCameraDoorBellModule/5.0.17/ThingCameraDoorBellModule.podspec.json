@@ -1,0 +1,101 @@
+{
+  "name": "ThingCameraDoorBellModule",
+  "version": "5.0.17",
+  "summary": "A short description of ThingCameraDoorBellModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraDoorBellModule-5.0.17-741df0.zip",
+    "type": "zip",
+    "sha1": "290516149a54d0e817de6c7a2a69618badb32b7f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCameraDoorBellModule": [
+      "ThingCameraDoorBellModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingSmartDoorLockModuleService": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingLanguageDynamicBiz": [
+
+    ],
+    "ThingCallMaintainModule": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraDoorBellModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

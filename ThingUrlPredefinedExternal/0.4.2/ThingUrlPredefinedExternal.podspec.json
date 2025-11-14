@@ -1,0 +1,33 @@
+{
+  "name": "ThingUrlPredefinedExternal",
+  "version": "0.4.2",
+  "summary": "涂鸦公开短链组件",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUrlPredefinedExternal-0.4.2-e8f43a.zip",
+    "type": "zip",
+    "sha1": "cf2ea5c1717f7bfa76a622eff1d2757a202b6177"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingUrlPredefinedExternal.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

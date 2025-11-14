@@ -1,0 +1,36 @@
+{
+  "name": "ThingIntentKit",
+  "version": "1.1.6",
+  "summary": "涂鸦科技组件模板组件",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingIntentKit-1.1.6-7abb16.zip",
+    "type": "zip",
+    "sha1": "3ae9c3cfb150c550ded222727855cf641079e50e"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resources": [
+    "ThingIntentKit/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition,lproj}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "weak_frameworks": [
+    "Intents",
+    "IntentsUI"
+  ],
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingIntentKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

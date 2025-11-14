@@ -1,0 +1,28 @@
+{
+  "name": "ThingAPMService",
+  "version": "0.5.0",
+  "summary": "A short description of ThingAPMService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMService-0.5.0-07dcd1.zip",
+    "type": "zip",
+    "sha1": "28a0772568644da01f32e4e61403ad6ed9863e1d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAPMService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

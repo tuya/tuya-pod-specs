@@ -1,0 +1,25 @@
+{
+  "name": "ThingLightScenePlugAPI",
+  "version": "1.0.1",
+  "summary": "A short description of ThingLightScenePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightScenePlugAPI-1.0.1-3c0fb3.zip",
+    "type": "zip",
+    "sha1": "13cbeacaf58d16551d903dc807d1caf57d1da93c"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLightScenePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "ThingSmartLocalAuthKit",
+  "version": "6.11.0.1",
+  "summary": "A short description of ThingSmartLocalAuthKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLocalAuthKit-6.11.0-5faff4.zip",
+    "type": "zip",
+    "sha1": "252033fa1a045fafe157c7be0f83b60dfaec961c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "5.8.6"
+    ],
+    "UICKeyChainStore": [
+
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.2"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.10.3"
+    ],
+    "ThingSmartUtil": [
+      "5.19.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.2"
+    ],
+    "ThingModuleManager": [
+      "2.15.3"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.6.1"
+    ],
+    "ThingMachRegister": [
+      "0.8.0"
+    ],
+    "ThingFoundationKit": [
+      "1.25.1"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.1"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSFaceIDUsageDescription",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartLocalAuthKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartLocalAuthKit.xcframework/ios-arm64/ThingSmartLocalAuthKit.framework/Headers/*"
+  ]
+}

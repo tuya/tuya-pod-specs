@@ -1,0 +1,29 @@
+{
+  "name": "ThingSmartBusinessApiExtensionKit",
+  "version": "6.11.0",
+  "summary": "A short description of ThingSmartBusinessApiExtensionKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessApiExtensionKit-6.11.0-3b3bd3.zip",
+    "type": "zip",
+    "sha1": "50f69d68bfca70ed45c3eb46e5579610a1ab5235"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartBusinessApiExtensionKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartBusinessApiExtensionKit.xcframework/ios-arm64/ThingSmartBusinessApiExtensionKit.framework/Headers/*"
+  ]
+}

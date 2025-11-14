@@ -1,0 +1,128 @@
+{
+  "name": "ThingSmartSceneDefaultUISkin",
+  "version": "1.47.0",
+  "summary": "Smart scene default Skin",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneDefaultUISkin-1.47.0-c4471c.zip",
+    "type": "zip",
+    "sha1": "ad845a3ade1ea0553ace1c9ad5f3c33d704cc157"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartSceneDefaultUISkin": [
+      "ThingSmartSceneDefaultUISkin/Assets/*"
+    ]
+  },
+  "prefix_header_file": "ThingSmartSceneDefaultUISkin/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartSceneBizKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingTabPagingView": [
+
+    ],
+    "ThingAnimationKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartSecurityModuleService": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingSceneListPlugAPI": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingSmartSceneKit": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingSmartFamilyBizKit": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingPanelDynamicContainerAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSceneDefaultUISkin.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

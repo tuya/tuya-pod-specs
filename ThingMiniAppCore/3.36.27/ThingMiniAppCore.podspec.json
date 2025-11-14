@@ -1,0 +1,39 @@
+{
+  "name": "ThingMiniAppCore",
+  "version": "3.36.27",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMiniAppCore-3.36.27-39f3bd.zip",
+    "type": "zip",
+    "sha1": "1d9e48263642d150b8666aa7b75cd7ac8b49f10e"
+  },
+  "resource_bundles": {
+    "ThingMiniAppCore": [
+      "ios/ThingMiniAppCore/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "GZLMiniAppShell_iOS": [
+      "3.36.5"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "ThingMiniAppCore.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

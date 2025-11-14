@@ -1,0 +1,59 @@
+{
+  "name": "GodzillaMiniPluginImpl",
+  "version": "3.34.1",
+  "summary": "A short description of GodzillaMiniPluginImpl.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniPluginImpl-3.34.1-bd2ecc.zip",
+    "type": "zip",
+    "sha1": "8fb2f535eb9c7c041a268e1e7e26fdc433bf045c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniWidgetKit": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GodzillaMiniPluginImpl.xcframework"
+  ],
+  "source_files": [
+    "Build/GodzillaMiniPluginImpl.xcframework/ios-arm64/GodzillaMiniPluginImpl.framework/Headers/*"
+  ]
+}

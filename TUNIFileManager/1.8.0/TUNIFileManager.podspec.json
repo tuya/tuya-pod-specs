@@ -1,0 +1,47 @@
+{
+  "name": "TUNIFileManager",
+  "version": "1.8.0",
+  "summary": "A short description of TUNIFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIFileManager-1.8.0-b08316.zip",
+    "type": "zip",
+    "sha1": "cf27ff8b0b67e0e760080caf2bf95f580e17ed49"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "resource_bundles": {
+    "TUNIFileManager": [
+      "ios/TUNIFileManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

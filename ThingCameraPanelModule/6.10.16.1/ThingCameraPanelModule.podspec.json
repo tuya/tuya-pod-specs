@@ -1,0 +1,166 @@
+{
+  "name": "ThingCameraPanelModule",
+  "version": "6.10.16.1",
+  "summary": "A short description of ThingCameraPanelModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelModule-6.10.16.1-bed1ab.zip",
+    "type": "zip",
+    "sha1": "47d7525622297a2f13f329f6bf13688ecb470c82"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "JavaScriptCore",
+    "MapKit",
+    "CoreGraphics",
+    "CoreLocation",
+    "AVFoundation",
+    "QuartzCore",
+    "CFNetwork",
+    "Security",
+    "AddressBook",
+    "CoreTelephony",
+    "ImageIO",
+    "MobileCoreServices",
+    "Accelerate",
+    "AudioToolbox",
+    "UserNotifications",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Photos",
+    "AssetsLibrary",
+    "MediaPlayer",
+    "CoreMedia"
+  ],
+  "resource_bundles": {
+    "ThingCameraPanelModule": [
+      "ThingCameraPanelModule/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingPhotoBrowser": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingAnimationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingPanelModule": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingSmartP2pChannelKit": [
+
+    ],
+    "ThingPhotoLibraryBizKit": [
+
+    ],
+    "ThingSmartDoorLockModuleService": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingKVStorageService": [
+
+    ],
+    "AFNetworking/Reachability": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingCameraModuleSKYEventModule": [
+
+    ],
+    "ThingCameraFoundationKit": [
+
+    ],
+    "ThingCameraAbilityCommonModule": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ],
+    "ThingCameraBizConfig": [
+
+    ],
+    "ThingCommonMediaAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingCameraPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingCameraPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingCameraPanelModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingCameraPanelModule\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraPanelModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

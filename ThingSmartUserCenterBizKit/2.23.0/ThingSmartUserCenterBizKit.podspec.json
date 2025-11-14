@@ -1,0 +1,119 @@
+{
+  "name": "ThingSmartUserCenterBizKit",
+  "version": "2.23.0",
+  "summary": "A short description of ThingSmartUserCenterBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUserCenterBizKit-2.23.0-735fa2.zip",
+    "type": "zip",
+    "sha1": "a8876c4c9d0086b5ef03e4970dd0fbb279f35f1b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSmartUserCenterBizKit/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartMessageKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingFallLayout": [
+
+    ],
+    "ThingTacticsManager": [
+
+    ],
+    "ThingInterfaceConfig": [
+
+    ],
+    "ThingSmartUserCenterPlugAPI": [
+
+    ],
+    "ThingSmartSettingsBizKit": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingSmartSecurityModuleService": [
+
+    ],
+    "ThingSmartIntelligenceModule": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingCache": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartUserCenterBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

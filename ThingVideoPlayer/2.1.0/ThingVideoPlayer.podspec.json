@@ -1,0 +1,70 @@
+{
+  "name": "ThingVideoPlayer",
+  "version": "2.1.0",
+  "summary": "A short description of ThingVideoPlayer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoPlayer-2.1.0-3740ac.zip",
+    "type": "zip",
+    "sha1": "00d9eb669a365e9f2615ac3a24105875aabe1a8f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingVideoPlayer": [
+      "ThingVideoPlayer/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "JavaScriptCore",
+    "MapKit",
+    "CoreGraphics",
+    "CoreLocation",
+    "AVFoundation",
+    "QuartzCore",
+    "CFNetwork",
+    "Security",
+    "AddressBook",
+    "CoreTelephony",
+    "ImageIO",
+    "MobileCoreServices",
+    "Accelerate",
+    "AudioToolbox",
+    "UserNotifications",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Photos",
+    "AssetsLibrary",
+    "CoreMedia"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingVideoPlayer.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

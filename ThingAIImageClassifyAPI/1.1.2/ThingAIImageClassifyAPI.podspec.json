@@ -1,0 +1,24 @@
+{
+  "name": "ThingAIImageClassifyAPI",
+  "version": "1.1.2",
+  "summary": "A short description of ThingAIImageClassifyAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIImageClassifyAPI-1.1.2-f9cf7c.zip",
+    "type": "zip",
+    "sha1": "5836692f41d7eac213c8139723d80c763efc23c3"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "Build/ThingAIImageClassifyAPI.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAIImageClassifyAPI.xcframework/ios-arm64/ThingAIImageClassifyAPI.framework/Headers/*"
+  ]
+}

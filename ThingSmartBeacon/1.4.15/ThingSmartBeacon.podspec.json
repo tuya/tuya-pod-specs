@@ -1,0 +1,71 @@
+{
+  "name": "ThingSmartBeacon",
+  "version": "1.4.15",
+  "summary": "A short description of ThingSmartBeacon.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeacon-1.4.15-df38cd.zip",
+    "type": "zip",
+    "sha1": "be0b7607c6012da4ba97cf62967106dc1e43e7b3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreLocation",
+    "AVFoundation",
+    "MediaPlayer"
+  ],
+  "resources": [
+    "ThingSmartBeacon/Assets/*"
+  ],
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBeacon.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

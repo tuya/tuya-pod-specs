@@ -1,0 +1,25 @@
+{
+  "name": "ThingWebsocketChannelService",
+  "version": "1.1.5",
+  "summary": "A short description of ThingWebsocketChannelService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingWebsocketChannelService-1.1.5-3fad75.zip",
+    "type": "zip",
+    "sha1": "81ca22358d8f5f3205be6aacbed167fdf09907bd"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingWebsocketChannelService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
