@@ -29,6 +29,13 @@ A podspec repository for Tuya iOS Mobile SDKs:
   - Generic Pairing BizBundle
   - Theme Color Configuration BizBundle
   - ShareBizBundle
-  - Mulit-Control Association UI BizBundle
+  - Mulit-Control Association UI BizBundle 
   
   For more information, please check [Tuya Smart Life App SDK ](https://developer.tuya.com/en/docs/app-development/app-sdk-smart-home?id=Kaq6lep0vc16u).
+
+## Demo
+
+To see examples of how to use the SDK and Biz Bundles, check out the following demo repositories:
+
+- **Smart Life App SDK Demo**: [tuya-home-ios-sdk-sample-swift](https://github.com/tuya/tuya-home-ios-sdk-sample-swift) - Swift sample project demonstrating SDK features
+- **Biz Bundle Demo**: [tuya-bizbundle-ios-sdk-sample-objc](https://github.com/tuya/tuya-bizbundle-ios-sdk-sample-objc) - Objective-C sample project demonstrating Biz Bundle implementations
