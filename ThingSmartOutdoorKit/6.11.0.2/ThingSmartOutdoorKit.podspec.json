@@ -1,0 +1,88 @@
+{
+  "name": "ThingSmartOutdoorKit",
+  "version": "6.11.0.2",
+  "summary": "thing smart outdoor business SDK",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartOutdoorKit-6.11.0-84d555.zip",
+    "type": "zip",
+    "sha1": "704c0c6935e705a42d5ec3675b73924a4e3a3389"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.8"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.24.6.1"
+    ],
+    "UICKeyChainStore": [
+
+    ],
+    "ThingFoundationKit": [
+      "1.25.1"
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.2"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.10.3"
+    ],
+    "ThingSmartUtil": [
+      "5.19.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.2"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.11"
+    ],
+    "ThingModuleManager": [
+      "2.15.3"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.6.1"
+    ],
+    "ThingMachRegister": [
+      "0.8.0"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.1"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartOutdoorKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
