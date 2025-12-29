@@ -1,0 +1,59 @@
+{
+  "name": "ThingHybridMall",
+  "version": "1.12.2",
+  "summary": "A short description of ThingHybridMall.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMall-1.12.2-e5a8f2.zip",
+    "type": "zip",
+    "sha1": "bb56497abd998a18488e630eae9f04e913f1773a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingHybridMall.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
