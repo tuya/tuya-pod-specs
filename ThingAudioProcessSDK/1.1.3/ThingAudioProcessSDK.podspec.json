@@ -1,0 +1,64 @@
+{
+  "name": "ThingAudioProcessSDK",
+  "version": "1.1.3",
+  "summary": "ThingAudioProcessSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioProcessSDK-1.1.3-7a4df3.zip",
+    "type": "zip",
+    "sha1": "648dde7a12760abbdf5ff8823d835a2065245112"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "exclude_files": [
+    "ThingAudioProcessSDK/**/Android/**/*.*",
+    "ThingAudioProcessSDK/include/**/*.*",
+    "ThingAudioProcessSDK/include/rapidjson/msinttypes/*.*"
+  ],
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingTensorFlowLiteC": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/include $(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/avlogger $(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/include",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingAudioProcessSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAudioProcessSDK.xcframework/ios-arm64/ThingAudioProcessSDK.framework/Headers/*"
+  ]
+}

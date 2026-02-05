@@ -1,0 +1,25 @@
+{
+  "name": "ThingGptBLEApi",
+  "version": "1.0.0",
+  "summary": "A short description of ThingGptBLEApi.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGptBLEApi-1.0.0-f0e7a9.zip",
+    "type": "zip",
+    "sha1": "4f27b3b2de34e05183b64cbc6b2544cabb13b746"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingGptBLEApi.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

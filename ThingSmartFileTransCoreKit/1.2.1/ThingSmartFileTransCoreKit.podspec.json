@@ -1,0 +1,55 @@
+{
+  "name": "ThingSmartFileTransCoreKit",
+  "version": "1.2.1",
+  "summary": "A short description of ThingSmartFileServer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartFileTransCoreKit-1.2.1-4cc834.zip",
+    "type": "zip",
+    "sha1": "62499d59ced09051fca4979ff30ae44bb548f59b"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CoreTelephony",
+      "Foundation",
+      "SystemConfiguration",
+      "UIKit"
+    ],
+    "dependencies": {
+      "ThingSmartUtil": [
+        "~> 5.0"
+      ],
+      "ThingLibevent": [
+        "~> 1.1"
+      ]
+    }
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import \"ThingSmartFileTransCoreKit.h\"\n#endif",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/ThingSmartFileTransCoreKit/libevent/include /Users/fengxiao/jk_short_ws/209b9539/src/libevent/include ${PODS_ROOT}/../../../libevent/include",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "OTHER_LDFLAGS": "-all_load",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartFileTransCoreKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartFileTransCoreKit.xcframework/ios-arm64/ThingSmartFileTransCoreKit.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ThingSbcKit",
+  "version": "0.0.2",
+  "summary": "A short description of ThingSbcKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSbcKit-0.0.2-9a237d.zip",
+    "type": "zip",
+    "sha1": "47a53e0ea3f37e03760b8e0bb14deda6dda3aa84"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "vendored_libraries": "ThingSbcKit/Classes/sbc/libsbc.a",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSbcKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

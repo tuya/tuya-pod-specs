@@ -1,0 +1,55 @@
+{
+  "name": "ThingLibevent",
+  "version": "1.1.0",
+  "summary": "A short description of ThingSmartFileServer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLibevent-1.1.0-9509a8.zip",
+    "type": "zip",
+    "sha1": "b9333f94cef4900d9f89169e821798b5620ddd3d"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CoreTelephony",
+      "Foundation",
+      "SystemConfiguration",
+      "UIKit"
+    ],
+    "vendored_libraries": [
+      "Build/ios/VendorsLibrary/libevent_mbedtls.a",
+      "Build/ios/VendorsLibrary/libevent_extra.a",
+      "Build/ios/VendorsLibrary/libevent.a",
+      "Build/ios/VendorsLibrary/libevent_core.a",
+      "Build/ios/VendorsLibrary/libevent_pthreads.a"
+    ],
+    "dependencies": {
+      "ThingSmartUtil": [
+        "~> 5.0"
+      ]
+    }
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import \"ThingLibevent.h\"\n#endif",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/ThingLibevent/libevent/include /Users/fengxiao/jk_short_ws/c9704ed2/src/libevent/include ${PODS_ROOT}/../../../libevent/include",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "OTHER_LDFLAGS": "-all_load"
+  },
+  "vendored_frameworks": [
+    "Build/ThingLibevent.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingLibevent.xcframework/ios-arm64/ThingLibevent.framework/Headers/*"
+  ]
+}

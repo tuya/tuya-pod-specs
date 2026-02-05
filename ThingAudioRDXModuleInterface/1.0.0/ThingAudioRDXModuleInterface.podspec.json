@@ -1,0 +1,22 @@
+{
+  "name": "ThingAudioRDXModuleInterface",
+  "version": "1.0.0",
+  "summary": "A short description of ThingAudioRDXModuleInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioRDXModuleInterface-1.0.0-95cc05.zip",
+    "type": "zip",
+    "sha1": "6553679052f865a3aee24122ef8a0b9aac22a9be"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingAudioRDXModuleInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

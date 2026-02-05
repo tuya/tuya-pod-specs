@@ -1,0 +1,93 @@
+{
+  "name": "ThingAudioRecordModule",
+  "version": "1.2.16",
+  "summary": "A short description of ThingAudioRecordModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioRecordModule-1.2.16-9c3564.zip",
+    "type": "zip",
+    "sha1": "dc5b7e387da18ee48d492a6918511ddb89bbcc6e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingGptBLEApi": [
+
+    ],
+    "ThingOggPackerSDK": [
+
+    ],
+    "ThingOpusCodec": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "ThingAudioRecordInterface": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingAudioEngineSDK": [
+
+    ],
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartFileTransferKit": [
+
+    ],
+    "ThingSbcKit": [
+
+    ],
+    "ThingAudioRDXModuleInterface": [
+
+    ],
+    "ThingAudioProcessSDK": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingSmartStreamChannelKit": [
+
+    ],
+    "ThingMP3CodecSDK": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingAIModelManagerIOS": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAudioRecordModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
