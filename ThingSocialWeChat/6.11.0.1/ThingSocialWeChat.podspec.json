@@ -1,0 +1,194 @@
+{
+  "name": "ThingSocialWeChat",
+  "version": "6.11.0.1",
+  "summary": "A short description of ThingSocialWeChat.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocialWeChat-6.11.0-0576ca.zip",
+    "type": "zip",
+    "sha1": "b8ba2227c3d8f12b431016edf24c32c22c8eb5f2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSocialModule": [
+      "5.0.7"
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.8"
+    ],
+    "ThingOEMConfig": [
+      "1.57.5"
+    ],
+    "WechatOpenSDK": [
+
+    ],
+    "ThingModuleManager": [
+      "2.15.3"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.6.1"
+    ],
+    "ThingMachRegister": [
+      "0.8.0"
+    ],
+    "ThingFoundationKit": [
+      "1.25.1"
+    ],
+    "ThingSmartUtil": [
+      "5.19.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.5.2"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartNetworkKit": [
+      "5.10.3"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.2"
+    ],
+    "ThingEncryptImage": [
+      "4.33.0"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "libextobjc/UmbrellaHeader": [
+
+    ],
+    "libextobjc/RuntimeExtensions": [
+
+    ],
+    "libextobjc/EXTADT": [
+
+    ],
+    "libextobjc/EXTConcreteProtocol": [
+
+    ],
+    "libextobjc/EXTKeyPathCoding": [
+
+    ],
+    "libextobjc/EXTNil": [
+
+    ],
+    "libextobjc/EXTSafeCategory": [
+
+    ],
+    "libextobjc/EXTScope": [
+
+    ],
+    "libextobjc/EXTSelectorChecking": [
+
+    ],
+    "libextobjc/EXTSynthesize": [
+
+    ],
+    "libextobjc/NSInvocation+EXT": [
+
+    ],
+    "libextobjc/NSMethodSignature+EXT": [
+
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.2"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.1"
+    ],
+    "ThingUIKit": [
+      "1.31.1"
+    ],
+    "Masonry": [
+
+    ],
+    "ThingLogMacro": [
+      "0.3.9"
+    ],
+    "ThingSmartBusinessLibrary": [
+      "1.20.0"
+    ],
+    "ThingBlockKit": [
+      "0.3.0"
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingNavigationController": [
+      "1.18.10"
+    ],
+    "ThingLottie": [
+      "2.6.0"
+    ],
+    "ThingSmartActionDialog": [
+      "0.9.9"
+    ],
+    "ThingAlertView": [
+      "1.4.5"
+    ],
+    "ThingRealClass": [
+      "0.2.1"
+    ],
+    "ThingProgressHUD": [
+      "0.4.1"
+    ],
+    "ThingNormalUI": [
+      "0.4.4"
+    ],
+    "ThingPopupViewController": [
+      "0.4.3"
+    ],
+    "ThingSocialAPI": [
+      "1.0.5"
+    ]
+  },
+  "resource_bundles": {
+    "ThingSocialWeChat": [
+      "ThingSocialWeChat/Assets/*.png"
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSocialWeChat\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSocialWeChat\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSocialWeChat\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSocialWeChat\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSocialWeChat.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
