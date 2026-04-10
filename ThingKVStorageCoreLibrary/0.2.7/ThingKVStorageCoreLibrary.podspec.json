@@ -1,0 +1,33 @@
+{
+  "name": "ThingKVStorageCoreLibrary",
+  "version": "0.2.7",
+  "summary": "A short description of ThingKVStorageCoreLibrary.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageCoreLibrary-0.2.7-d75a45.zip",
+    "type": "zip",
+    "sha1": "4410d74672b59a73de4dd7248898974f670dcda3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "MMKV": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingKVStorageCoreLibrary.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

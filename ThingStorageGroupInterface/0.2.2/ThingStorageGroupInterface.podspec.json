@@ -1,0 +1,23 @@
+{
+  "name": "ThingStorageGroupInterface",
+  "version": "0.2.2",
+  "summary": "A short description of ThingStorageGroupInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageGroupInterface-0.2.2-55ae66.zip",
+    "type": "zip",
+    "sha1": "37d2670824f9c34caeb09cb4ce78b7a0af73f0bc"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "vendored_frameworks": [
+    "ThingStorageGroupInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

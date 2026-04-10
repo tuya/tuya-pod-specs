@@ -1,0 +1,36 @@
+{
+  "name": "ThingKVStorageService",
+  "version": "0.2.2",
+  "summary": "A short description of ThingKVStorageService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageService-0.2.2-bdf417.zip",
+    "type": "zip",
+    "sha1": "fc84785e7dcb72f3418ff91605b77e9801da69ac"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingKVStorageCoreLibrary": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingKVStorageService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

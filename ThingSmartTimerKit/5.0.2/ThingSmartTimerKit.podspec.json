@@ -1,0 +1,50 @@
+{
+  "name": "ThingSmartTimerKit",
+  "version": "5.0.2",
+  "summary": "A short description of ThingSmartTimerKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartTimerKit-5.0.2-6abd14.zip",
+    "type": "zip",
+    "sha1": "d04a2bfb6eb3dd9d27ac05350b63a267ea2477f1"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "~> 5.0"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.0"
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "ios": {
+    "source_files": [
+      "Build/ThingSmartTimerKit.xcframework/ios-arm64/ThingSmartTimerKit.framework/Headers/*"
+    ]
+  },
+  "watchos": {
+    "source_files": [
+      "Build/ThingSmartTimerKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartTimerKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartTimerKit.xcframework"
+  ]
+}
