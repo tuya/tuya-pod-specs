@@ -1,0 +1,93 @@
+{
+  "name": "ThingSmartBizCore",
+  "version": "5.13.0",
+  "summary": "A short description of TuyaSmartBizCore.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBizCore-5.13.0-88ffd2.zip",
+    "type": "zip",
+    "sha1": "80cfd1adca9777b745277e3e83271cd2ce9b2147"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartBizCore/Assets/**/*.json",
+    "ThingSmartBizCore/Assets/ThingSmartBizCore.bundle"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingThemeModule": [
+
+    ],
+    "ThingKVStorageCoreLibrary": [
+
+    ],
+    "ThingKVStorageService": [
+
+    ],
+    "ThingLanguageManager": [
+
+    ],
+    "ThingLanguageEscape": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingLanguageDynamicBiz": [
+
+    ],
+    "TRCTResourceManager": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingCache": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBizCore.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
