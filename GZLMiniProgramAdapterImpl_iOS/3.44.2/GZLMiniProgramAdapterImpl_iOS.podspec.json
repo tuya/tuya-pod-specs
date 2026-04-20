@@ -1,0 +1,109 @@
+{
+  "name": "GZLMiniProgramAdapterImpl_iOS",
+  "version": "3.44.2",
+  "summary": "A short description of TuyaSmartMiniProgram.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniProgramAdapterImpl_iOS-3.44.2-7f32fa.zip",
+    "type": "zip",
+    "sha1": "2a269764a63dee2ba1f2f03c011ee5ea041faeee"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "GZLMiniApp_iOS": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ],
+    "GZLMiniAppTab_iOS": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniWidgetKit": [
+
+    ],
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingDomainQueryAPI": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingAIRecomModuleAPI": [
+
+    ],
+    "ThingMarketingBoothAPI": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingDmicContainerAbilitiesAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniProgramAdapterImpl_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/CustomResources/Bundles/*"
+  ]
+}

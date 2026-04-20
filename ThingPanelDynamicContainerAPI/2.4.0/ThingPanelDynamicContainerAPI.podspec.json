@@ -1,0 +1,25 @@
+{
+  "name": "ThingPanelDynamicContainerAPI",
+  "version": "2.4.0",
+  "summary": "A short description of ThingPanelDynamicContainerAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelDynamicContainerAPI-2.4.0-0beec5.zip",
+    "type": "zip",
+    "sha1": "6a800cc0a61e5a2c7377a704843d6ae2810c0006"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingPanelDynamicContainerAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

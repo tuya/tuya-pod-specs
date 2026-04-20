@@ -1,0 +1,89 @@
+{
+  "name": "ThingDeviceTinyBusinessModule",
+  "version": "1.2.5",
+  "summary": "A short description of ThingDeviceTinyBusinessModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTinyBusinessModule-1.2.5-2fb9fe.zip",
+    "type": "zip",
+    "sha1": "a2513a06c559263bc7b5fabe1a01953fec9d3478"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingActivatorPlugAPI": [
+
+    ],
+    "ThingLoginAPI": [
+
+    ],
+    "ThingHelpCenterAPI": [
+
+    ],
+    "ThingAlertView": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceTinyBusinessModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ThingActivatorPlugAPI",
+  "version": "2.21.0",
+  "summary": "A short description of ThingActivatorPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingActivatorPlugAPI-2.21.0-f7406c.zip",
+    "type": "zip",
+    "sha1": "79614804828e6b32d516489f77f3d43bffee7eab"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingActivatorPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

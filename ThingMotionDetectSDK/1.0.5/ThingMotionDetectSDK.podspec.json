@@ -1,0 +1,57 @@
+{
+  "name": "ThingMotionDetectSDK",
+  "version": "1.0.5",
+  "summary": "ThingMotionDetectSDK framework for motion detection in video streams.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMotionDetectSDK-1.0.5-117ed9.zip",
+    "type": "zip",
+    "sha1": "15014147a62c4d94e4052ec6c1e6892bc5801e82"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": "ThingMotionDetectSDK/**/Android/**/*.*",
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingMotionDetectSDK ",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingMotionDetectSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingMotionDetectSDK.xcframework/ios-arm64/ThingMotionDetectSDK.framework/Headers/*"
+  ]
+}

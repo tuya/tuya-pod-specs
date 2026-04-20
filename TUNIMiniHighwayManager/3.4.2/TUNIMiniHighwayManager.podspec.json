@@ -1,0 +1,62 @@
+{
+  "name": "TUNIMiniHighwayManager",
+  "version": "3.4.2",
+  "summary": "A short description of TUNIMiniHighwayManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniHighwayManager-3.4.2-392e63.zip",
+    "type": "zip",
+    "sha1": "71239dc0342c83e87e98a0aa0206f7332f277280"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMiniHighwayManager": [
+      "ios/tuniminihighwaymanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingDmicContainerAbilitiesAPI": [
+
+    ],
+    "TUNINativeBridgeManager": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMiniHighwayManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

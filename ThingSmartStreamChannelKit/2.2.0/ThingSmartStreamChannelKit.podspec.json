@@ -1,0 +1,56 @@
+{
+  "name": "ThingSmartStreamChannelKit",
+  "version": "2.2.0",
+  "summary": "A short description of ThingSmartStreamChannelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartStreamChannelKit-2.2.0-32ecea.zip",
+    "type": "zip",
+    "sha1": "2030ee757c90c618099a4e39e467c8086cf83973"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <ThingSmartUtil/ThingSmartUtil.h>\n\n#undef ThingLog\n#undef ThingSDKLogDebug\n#undef ThingSDKLogInfo\n#undef ThingSDKLogWarn\n#undef ThingSDKLogError\n#define ThingSDKLogDebug(...)         ThingSDKLog(0, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogInfo(...)         ThingSDKLog(1, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogWarn(...)         ThingSDKLog(2, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#define ThingSDKLogError(...)         ThingSDKLog(3, @\"ThingSmartStreamChannelKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n\n#import \"ThingStreamVersionDefines.h\"\n#import \"ThingSmartStreamChannelKit.h\"\n\n#endif",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Network"
+  ],
+  "dependencies": {
+    "ThingSmartUtil": [
+      "~> 5.21"
+    ],
+    "ThingSmartNetworkKit": [
+      "~> 5.10"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "~> 5.0"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/mbedtls/ $(PODS_TARGET_SRCROOT)/ai-stream/steam-sdk/include $(PODS_TARGET_SRCROOT)/ai-stream/steam-sdk/src $(PODS_TARGET_SRCROOT)/ai-stream/Core/include $(PODS_TARGET_SRCROOT)/ai-stream/third/kissfft"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/mbedtls/ $(PODS_TARGET_SRCROOT)/ai-stream/steam-sdk/include $(PODS_TARGET_SRCROOT)/ai-stream/steam-sdk/src $(PODS_TARGET_SRCROOT)/ai-stream/Core/include $(PODS_TARGET_SRCROOT)/ai-stream/third/kissfft",
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) STM_ENABLE_TLS=1 STM_ENABLE_DTLS=1"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartStreamChannelKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartStreamChannelKit.xcframework/ios-arm64/ThingSmartStreamChannelKit.framework/Headers/*"
+  ]
+}

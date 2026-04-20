@@ -1,0 +1,50 @@
+{
+  "name": "TUNIP2pFileManager",
+  "version": "7.0.0",
+  "summary": "A short description of TUNIP2pFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIP2pFileManager-7.0.0-149cd5.zip",
+    "type": "zip",
+    "sha1": "dd15d6d6df62eccac91b6fa4d73c126d817a88e2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "TUNINativeBridgeManager": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingP2PSessionKit": [
+
+    ]
+  },
+  "resource_bundles": {
+    "TUNIP2pFileManager": [
+      "ios/tunip2pfilemanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIP2pFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

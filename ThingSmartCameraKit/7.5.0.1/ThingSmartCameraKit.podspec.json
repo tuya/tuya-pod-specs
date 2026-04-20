@@ -1,0 +1,139 @@
+{
+  "name": "ThingSmartCameraKit",
+  "version": "7.5.0.1",
+  "summary": "open SDK code for thing smart camera.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraKit-7.5.0-ddba95.zip",
+    "type": "zip",
+    "sha1": "9a4666c521364576c38f3b9c232a404abb5c3970"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "Photos"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+      "5.8.10"
+    ],
+    "ThingSmartUtil": [
+      "5.21.3"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.27.2"
+    ],
+    "ThingSmartMediaServices": [
+      "3.0.1"
+    ],
+    "ThingSmartCameraBase": [
+      "7.5.1"
+    ],
+    "ThingSmartMediaUIKit": [
+      "3.0.2"
+    ],
+    "ThingSmartCameraM": [
+      "7.5.1"
+    ],
+    "ThingSmartP2pChannelKit": [
+      "6.12.1"
+    ],
+    "ThingSmartCallChannelKit": [
+      "2.3.2"
+    ],
+    "ThingSmartCallCounterKit": [
+      "1.0.3"
+    ],
+    "ThingEncryptImage": [
+      "4.34.0"
+    ],
+    "ThingSmartAVBaseKit": [
+      "2.4.5"
+    ],
+    "ThingSmartMediaKit": [
+      "2.0.0"
+    ],
+    "ThingP2PSDK": [
+      "3.13.1"
+    ],
+    "ThingAvLoggerSDK": [
+      "1.3.0"
+    ],
+    "ThingCameraSDK": [
+      "7.5.2"
+    ],
+    "ThingAudioEngineSDK": [
+      "1.13.0"
+    ],
+    "ThingVideoCodecSDK": [
+      "1.9.2"
+    ],
+    "ThingFFmpegWrapper": [
+      "4.4.2.10"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingMbedtls": [
+      "3.6.5"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.11.5"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.3"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.12"
+    ],
+    "ThingTensorFlowLiteC": [
+      "2.17.40"
+    ],
+    "ThingMP3CodecSDK": [
+      "1.1.3"
+    ],
+    "ThingMotionDetectSDK": [
+      "1.0.5"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCameraKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCameraKit.xcframework/ios-arm64/ThingSmartCameraKit.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ThingMachRegister",
+  "version": "0.8.1",
+  "summary": "Hot registration.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMachRegister-0.8.1-56a3ff.zip",
+    "type": "zip",
+    "sha1": "63aee9ef95dc290a9d7ae9cfbbc5fbae9ecc6fe1"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "static_framework": true,
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMachRegister.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

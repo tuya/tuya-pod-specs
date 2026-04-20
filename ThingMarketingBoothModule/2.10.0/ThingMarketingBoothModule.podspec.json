@@ -1,0 +1,101 @@
+{
+  "name": "ThingMarketingBoothModule",
+  "version": "2.10.0",
+  "summary": "A short description of ThingMarketingBoothModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMarketingBoothModule-2.10.0-60b035.zip",
+    "type": "zip",
+    "sha1": "0a80ef854a7999a3b523fb71bcf35de9417be106"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingMarketingBoothModule": [
+      "ThingMarketingBoothModule/Assets/*.{png,gif}"
+    ]
+  },
+  "dependencies": {
+    "MMKV": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingHomePageSktAPI": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingAIRecomModuleAPI": [
+
+    ],
+    "ThingMarketingBoothAPI": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingMarketingBoothModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingMarketingBoothModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingMarketingBoothModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingMarketingBoothModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingMarketingBoothModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "ThingAVSKit",
+  "version": "1.0.10",
+  "summary": "A short description of ThingAVSKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAVSKit-1.0.10-78f8b0.zip",
+    "type": "zip",
+    "sha1": "12931b37403b38d2b82f727e720120a842a79246"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "ThingAVSKit": [
+      "ThingAVSKit/Assets/*"
+    ]
+  },
+  "prefix_header_file": "ThingAVSKit/Classes/ThingAVSKitPrefix.pch",
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOpusCodec": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingAVSKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

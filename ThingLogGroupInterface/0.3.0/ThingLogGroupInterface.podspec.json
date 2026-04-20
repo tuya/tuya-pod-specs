@@ -1,0 +1,22 @@
+{
+  "name": "ThingLogGroupInterface",
+  "version": "0.3.0",
+  "summary": "A short description of ThingLogGroupInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLogGroupInterface-0.3.0-ee1899.zip",
+    "type": "zip",
+    "sha1": "5c859999153e18364fbaf2f43d827122b9b4d37a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingLogGroupInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

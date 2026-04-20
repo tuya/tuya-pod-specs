@@ -1,0 +1,50 @@
+{
+  "name": "ThingAIModelManagerIOS",
+  "version": "2.2.1",
+  "summary": "A short description of ThingAIModelManagerIOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIModelManagerIOS-2.2.1-9c2f21.zip",
+    "type": "zip",
+    "sha1": "30fb3208d339a1ffc2cef50ee1f11bffc7682aa3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingOnAppAIBaseKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingTarKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingAIModelManagerIOS.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAIModelManagerIOS.xcframework/ios-arm64/ThingAIModelManagerIOS.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ThingDIYHomeInterface",
+  "version": "1.10.1",
+  "summary": "A short description of ThingDIYHomeInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDIYHomeInterface-1.10.1-ee6f12.zip",
+    "type": "zip",
+    "sha1": "a135240618049030e189f6e642385f9b53254989"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingMachRegister": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDIYHomeInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

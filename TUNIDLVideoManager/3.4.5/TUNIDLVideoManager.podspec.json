@@ -1,0 +1,63 @@
+{
+  "name": "TUNIDLVideoManager",
+  "version": "3.4.5",
+  "summary": "A short description of TUNIDLVideoManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLVideoManager-3.4.5-6063b2.zip",
+    "type": "zip",
+    "sha1": "95c7d79c630c068fc3dce15e5bc0c67e56cc5ac1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDLVideoManager": [
+      "ios/tunidlvideomanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "prefix_header_file": "ios/tunidlvideomanager/Classes/TUNIDLVideoManagerPrefix.pch",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "TUNIDiffSubRegisterManager": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDLVideoManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

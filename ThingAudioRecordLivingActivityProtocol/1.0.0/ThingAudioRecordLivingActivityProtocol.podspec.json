@@ -1,0 +1,27 @@
+{
+  "name": "ThingAudioRecordLivingActivityProtocol",
+  "version": "1.0.0",
+  "summary": "A short description of ThingAudioRecordLivingActivityProtocol.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioRecordLivingActivityProtocol-1.0.0-937fda.zip",
+    "type": "zip",
+    "sha1": "663c2f79cb59da42ec33e645cedba20fe5de0067"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAudioRecordLivingActivityProtocol.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

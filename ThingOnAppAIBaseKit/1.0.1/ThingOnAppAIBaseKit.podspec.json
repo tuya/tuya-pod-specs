@@ -1,0 +1,30 @@
+{
+  "name": "ThingOnAppAIBaseKit",
+  "version": "1.0.1",
+  "summary": "A short description of ThingOnAppAIBaseKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOnAppAIBaseKit-1.0.1-9a7748.zip",
+    "type": "zip",
+    "sha1": "4ac20cdb3613fb5ca6d9dcd47c6104c333efa06c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingOnAppAIBaseKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingOnAppAIBaseKit.xcframework/ios-arm64/ThingOnAppAIBaseKit.framework/Headers/*"
+  ]
+}

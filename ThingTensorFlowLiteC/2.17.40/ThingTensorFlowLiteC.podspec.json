@@ -1,0 +1,48 @@
+{
+  "name": "ThingTensorFlowLiteC",
+  "version": "2.17.40",
+  "summary": "C++ middleware for TensorFlowLiteC, API compatible.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTensorFlowLiteC-2.17.40-6c2778.zip",
+    "type": "zip",
+    "sha1": "cd3d23a27049575dce21f06af552dd2b3d38575d"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "static_framework": false,
+  "header_mappings_dir": "ThingTensorFlowLiteC/Source",
+  "libraries": [
+    "c++",
+    "z"
+  ],
+  "frameworks": [
+    "Foundation",
+    "Accelerate",
+    "Metal",
+    "MetalKit"
+  ],
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}/ThingTensorFlowLiteC/Source\"",
+    "GCC_PREPROCESSOR_DEFINITIONS": "__STDC_CONSTANT_MACROS TFLITE_GPU_BINARY_RELEASE=1 $(inherited)",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "GCC_PREPROCESSOR_DEFINITIONS": "TFLITE_GPU_BINARY_RELEASE=1 $(inherited)"
+  },
+  "vendored_frameworks": [
+    "Build/ThingTensorFlowLiteC.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingTensorFlowLiteC.xcframework/ios-arm64/ThingTensorFlowLiteC.framework/Headers/*"
+  ]
+}

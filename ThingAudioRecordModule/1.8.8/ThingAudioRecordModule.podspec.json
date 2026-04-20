@@ -1,0 +1,126 @@
+{
+  "name": "ThingAudioRecordModule",
+  "version": "1.8.8",
+  "summary": "A short description of ThingAudioRecordModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioRecordModule-1.8.8-3efe3e.zip",
+    "type": "zip",
+    "sha1": "1369962205d57796526f0c3d40dcdd4f3cfd41f9"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resources": [
+    "ThingAudioRecordModule/Assets/*.{png,json}"
+  ],
+  "dependencies": {
+    "ThingGptBLEApi": [
+
+    ],
+    "ThingOggPackerSDK": [
+
+    ],
+    "ThingOpusCodec": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "ThingAudioRecordInterface": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingAudioEngineSDK": [
+
+    ],
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartFileTransCoreKit": [
+
+    ],
+    "ThingSmartFileTransferKit": [
+
+    ],
+    "ThingSbcKit": [
+
+    ],
+    "ThingAudioRDXModuleInterface": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingAudioProcessSDK": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingSmartStreamChannelKit": [
+
+    ],
+    "ThingMP3CodecSDK": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingAIModelManagerIOS": [
+
+    ],
+    "ThingAudioCodecSDK": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "ThingAudioRecordLivingActivityProtocol": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAudioRecordModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

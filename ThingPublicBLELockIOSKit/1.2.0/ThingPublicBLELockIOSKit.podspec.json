@@ -1,0 +1,76 @@
+{
+  "name": "ThingPublicBLELockIOSKit",
+  "version": "1.2.0",
+  "summary": "A short description of ThingPublicBLELockIOSKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.2.0-ed402b.zip",
+    "type": "zip",
+    "sha1": "14507c2921618327e20aa2ddebfbb8e1aa79d429"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingPublicBLELockIOSKit/Classes/ThingPublicBLELockIOSKitPrefix.pch",
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartPrivateCloudPlugAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationTemporaryUsageDescriptionDictionary",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingPublicBLELockIOSKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

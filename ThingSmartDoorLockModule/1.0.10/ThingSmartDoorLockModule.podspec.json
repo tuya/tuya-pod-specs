@@ -1,0 +1,92 @@
+{
+  "name": "ThingSmartDoorLockModule",
+  "version": "1.0.10",
+  "summary": "A short description of ThingSmartDoorLockModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDoorLockModule-1.0.10-673ab2.zip",
+    "type": "zip",
+    "sha1": "31fb1dfb1b912eb82b5f5a6ca14083746a60907c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartDoorLockModuleService": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ],
+    "ThingPhotoLibraryBizKit": [
+
+    ],
+    "ThingCameraFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartHouseBizKit": [
+
+    ],
+    "ThingSmartBLEKit": [
+
+    ]
+  },
+  "resources": [
+    "ThingSmartDoorLockModule/Assets/*.{png,xib,plist,bundle}"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartDoorLockModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
