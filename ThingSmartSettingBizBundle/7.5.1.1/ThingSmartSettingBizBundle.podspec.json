@@ -1,0 +1,62 @@
+{
+  "name": "ThingSmartSettingBizBundle",
+  "version": "7.5.1.1",
+  "summary": "A short description of ThingSmartSettingBizBundle.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSettingBizBundle-7.5.1-16be92.zip",
+    "type": "zip",
+    "sha1": "e138ba852aab1f3153c5a674e6ec6751e2d62dd9"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartSettingBizBundle": [
+      "ThingSmartSettingBizBundle/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+      "~> 0.6"
+    ],
+    "ThingSettingsAPI": [
+      "~> 1.3"
+    ],
+    "ThingKVStorageLibrary": [
+      "~> 1.0"
+    ],
+    "ThingModuleManager": [
+      "~> 2.15"
+    ],
+    "ThingMachRegister": [
+      "~> 0.8"
+    ],
+    "ThingFoundationKit": [
+      "~> 1.25"
+    ],
+    "ThingSmartUtil": [
+      "~> 5.21"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "~> 3.6"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingStorageGroupInterface": [
+      "~> 0.2"
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartSettingBizBundle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
