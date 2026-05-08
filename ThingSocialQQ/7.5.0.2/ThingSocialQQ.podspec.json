@@ -1,0 +1,196 @@
+{
+  "name": "ThingSocialQQ",
+  "version": "7.5.0.2",
+  "summary": "A short description of ThingSocialQQ.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocialQQ-7.5.0-f603dc.zip",
+    "type": "zip",
+    "sha1": "46fde0ad93e3ffb4ff8c7841bacc1db64e15fa3c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSocialModule": [
+      "5.0.7"
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.12"
+    ],
+    "ThingOEMConfig": [
+      "1.60.4.2"
+    ],
+    "TencentOpen": [
+      "3.5.21"
+    ],
+    "ThingLogMacro": [
+      "0.3.9"
+    ],
+    "ThingModuleManager": [
+      "2.15.6"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.6.1"
+    ],
+    "ThingMachRegister": [
+      "0.8.1"
+    ],
+    "ThingFoundationKit": [
+      "1.25.1"
+    ],
+    "ThingSmartUtil": [
+      "5.21.3"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.6.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartNetworkKit": [
+      "5.11.5"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.3"
+    ],
+    "ThingEncryptImage": [
+      "4.34.0"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "libextobjc/UmbrellaHeader": [
+
+    ],
+    "libextobjc/RuntimeExtensions": [
+
+    ],
+    "libextobjc/EXTADT": [
+
+    ],
+    "libextobjc/EXTConcreteProtocol": [
+
+    ],
+    "libextobjc/EXTKeyPathCoding": [
+
+    ],
+    "libextobjc/EXTNil": [
+
+    ],
+    "libextobjc/EXTSafeCategory": [
+
+    ],
+    "libextobjc/EXTScope": [
+
+    ],
+    "libextobjc/EXTSelectorChecking": [
+
+    ],
+    "libextobjc/EXTSynthesize": [
+
+    ],
+    "libextobjc/NSInvocation+EXT": [
+
+    ],
+    "libextobjc/NSMethodSignature+EXT": [
+
+    ],
+    "ThingSettingsAPI": [
+      "1.3.0"
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.3"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.2"
+    ],
+    "ThingUIKit": [
+      "1.31.3"
+    ],
+    "Masonry": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+      "1.22.4"
+    ],
+    "ThingBlockKit": [
+      "0.3.0"
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingNavigationController": [
+      "1.18.10"
+    ],
+    "ThingLottie": [
+      "2.6.0"
+    ],
+    "ThingSmartActionDialog": [
+      "0.9.10"
+    ],
+    "ThingAlertView": [
+      "1.5.1"
+    ],
+    "ThingRealClass": [
+      "0.2.2"
+    ],
+    "ThingProgressHUD": [
+      "0.4.2"
+    ],
+    "ThingNormalUI": [
+      "0.4.5"
+    ],
+    "ThingPopupViewController": [
+      "0.4.3"
+    ],
+    "ThingSocialAPI": [
+      "1.0.5"
+    ]
+  },
+  "resource_bundles": {
+    "ThingSocialQQ": [
+      "ThingSocialQQ/Assets/*.png"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSocialQQ.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
