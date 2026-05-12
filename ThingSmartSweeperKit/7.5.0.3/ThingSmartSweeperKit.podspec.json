@@ -1,0 +1,83 @@
+{
+  "name": "ThingSmartSweeperKit",
+  "version": "7.5.0.3",
+  "summary": "A short description of ThingSmartSweeperKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSweeperKit-7.5.0-1156d6.zip",
+    "type": "zip",
+    "sha1": "d72a287c4836e7083ba04917f201b030ae6558fa"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "ThingSmartUtil": [
+      "5.21.3"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.3"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.27.2.1"
+    ],
+    "ThingP2pFileTransSDK": [
+      "1.6.0"
+    ],
+    "ThingSmartP2pChannelKit": [
+      "6.12.1"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingCloudStorageSignatureTools": [
+      "1.2.1"
+    ],
+    "ThingP2PSessionKit": [
+      "2.0.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.6.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.11.5"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.12"
+    ],
+    "ThingP2PSDK": [
+      "3.13.1"
+    ],
+    "ThingAvLoggerSDK": [
+      "1.3.0"
+    ],
+    "ThingSmartAVBaseKit": [
+      "2.4.5"
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.12"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartSweeperKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartSweeperKit.xcframework/ios-arm64/ThingSmartSweeperKit.framework/Headers/*"
+  ]
+}

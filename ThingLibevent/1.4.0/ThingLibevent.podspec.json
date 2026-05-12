@@ -1,0 +1,59 @@
+{
+  "name": "ThingLibevent",
+  "version": "1.4.0",
+  "summary": "A short description of ThingSmartFileServer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLibevent-1.4.0-9eab24.zip",
+    "type": "zip",
+    "sha1": "6d8f5f6b0e2d43bc9268e6c72b0c09a98c22be88"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CoreTelephony",
+      "Foundation",
+      "SystemConfiguration",
+      "UIKit"
+    ],
+    "vendored_frameworks": [
+      "Build/VendorsXCFramework/libevent_extra.xcframework",
+      "Build/VendorsXCFramework/libevent_pthreads.xcframework",
+      "Build/VendorsXCFramework/libevent_mbedtls.xcframework",
+      "Build/VendorsXCFramework/libevent_core.xcframework",
+      "Build/VendorsXCFramework/libevent.xcframework"
+    ],
+    "dependencies": {
+      "ThingSmartUtil": [
+        "~> 5.0"
+      ]
+    }
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import \"ThingLibevent.h\"\n#endif",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/ThingLibevent/libevent/include /Users/app/jk_short_ws/1dff9f7f/src/libevent/include ${PODS_ROOT}/../../../libevent/include",
+    "OTHER_LDFLAGS": "-all_load"
+  },
+  "vendored_frameworks": [
+    "Build/VendorsXCFramework/libevent_extra.xcframework",
+    "Build/VendorsXCFramework/libevent_pthreads.xcframework",
+    "Build/VendorsXCFramework/libevent_mbedtls.xcframework",
+    "Build/VendorsXCFramework/libevent_core.xcframework",
+    "Build/VendorsXCFramework/libevent.xcframework",
+    "Build/ThingLibevent.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingLibevent.xcframework/ios-arm64/ThingLibevent.framework/Headers/*"
+  ]
+}
