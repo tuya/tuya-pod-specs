@@ -1,0 +1,55 @@
+{
+  "name": "TUNIAPIManagerKit",
+  "version": "1.20.1",
+  "summary": "A short description of TUNIAPIManagerKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPIManagerKit-1.20.1-0b6813.zip",
+    "type": "zip",
+    "sha1": "5615055e4aa4d03c175cc2769073432ab20c1653"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNICode": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingReactNativeAPI": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "TUNIAPIManagerKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
