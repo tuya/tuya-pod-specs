@@ -1,0 +1,73 @@
+{
+  "name": "ThingSmartCameraM",
+  "version": "7.5.2",
+  "summary": "open SDK code for thing smart camera.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartCameraM-7.5.2-8b228a.zip",
+    "type": "zip",
+    "sha1": "55ce4aaba55399984d9bae4833d946f80e3fd365"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "static_framework": true,
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "Photos",
+    "GLKit"
+  ],
+  "dependencies": {
+    "ThingCameraSDK": [
+
+    ],
+    "ThingSmartCameraBase": [
+
+    ],
+    "ThingSmartAVBaseKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartP2pChannelKit": [
+
+    ],
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingSmartMediaUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartCameraM.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartCameraM.xcframework/ios-arm64/ThingSmartCameraM.framework/Headers/*"
+  ]
+}
