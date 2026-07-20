@@ -1,0 +1,63 @@
+{
+  "name": "ThingSmartBeacon",
+  "version": "1.4.20",
+  "summary": "A short description of ThingSmartBeacon.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBeacon-1.4.20-8ea5e8.zip",
+    "type": "zip",
+    "sha1": "c7b49318b461c42f641c5d646ba683f9c4f54dde"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreLocation",
+    "AVFoundation",
+    "MediaPlayer"
+  ],
+  "resources": [
+    "ThingSmartBeacon/Assets/*"
+  ],
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBeacon.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

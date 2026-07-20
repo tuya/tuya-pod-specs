@@ -1,0 +1,54 @@
+{
+  "name": "TUNIDeviceActivationManager",
+  "version": "1.6.1",
+  "summary": "A short description of TUNIDeviceActivationManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceActivationManager-1.6.1-2da075.zip",
+    "type": "zip",
+    "sha1": "37756ab565d4780c6ee00e10e8ce0eb7391f8426"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDeviceActivationManager": [
+      "ios/tunideviceactivationmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartActivatorCoreKit": [
+
+    ],
+    "ThingActivatorPlugAPI": [
+
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceActivationManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

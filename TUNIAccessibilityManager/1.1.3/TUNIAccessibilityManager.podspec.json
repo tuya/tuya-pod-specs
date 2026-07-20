@@ -1,0 +1,44 @@
+{
+  "name": "TUNIAccessibilityManager",
+  "version": "1.1.3",
+  "summary": "A short description of TUNIAccessibilityManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAccessibilityManager-1.1.3-bead18.zip",
+    "type": "zip",
+    "sha1": "9396c821ec1f49ae25c6ff7ccc9d456e6a302213"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIAccessibilityManager": [
+      "ios/TUNIAccessibilityManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAccessibilityManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

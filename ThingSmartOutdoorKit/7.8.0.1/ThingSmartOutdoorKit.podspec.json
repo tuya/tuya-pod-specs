@@ -1,0 +1,82 @@
+{
+  "name": "ThingSmartOutdoorKit",
+  "version": "7.8.0.1",
+  "summary": "thing smart outdoor business SDK",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartOutdoorKit-7.8.0-14a639.zip",
+    "type": "zip",
+    "sha1": "fc6f935c6506d5fe7668949d3288d6220534d20e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.12"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.29.0.1"
+    ],
+    "UICKeyChainStore": [
+
+    ],
+    "ThingFoundationKit": [
+      "1.25.3"
+    ],
+    "ThingKVStorageLibrary": [
+      "1.0.3"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.12.2"
+    ],
+    "ThingSmartUtil": [
+      "5.23.2"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.6.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.3"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.12"
+    ],
+    "ThingModuleManager": [
+      "2.16.4"
+    ],
+    "ThingAnnotationFoundation": [
+      "0.6.1"
+    ],
+    "ThingMachRegister": [
+      "0.8.1"
+    ],
+    "ThingStorageGroupInterface": [
+      "0.2.2"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartOutdoorKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

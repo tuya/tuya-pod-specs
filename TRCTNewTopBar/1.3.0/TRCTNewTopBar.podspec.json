@@ -1,0 +1,38 @@
+{
+  "name": "TRCTNewTopBar",
+  "version": "1.3.0",
+  "summary": "A short description of TRCTNewTopBar.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTNewTopBar-1.3.0-f27b27.zip",
+    "type": "zip",
+    "sha1": "ce383dd395b8d02c45cbf2c55047ae6cd74462f1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTNewTopBar.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

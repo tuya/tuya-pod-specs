@@ -1,0 +1,27 @@
+{
+  "name": "ThingDmicContainerAbilitiesAPI",
+  "version": "1.3.2",
+  "summary": "跨端容器拓展能力集API",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDmicContainerAbilitiesAPI-1.3.2-edb1c5.zip",
+    "type": "zip",
+    "sha1": "9fcaea70a79ecdd72860c59bd422b9e6c11cba94"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingDmicContainerAbilitiesAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

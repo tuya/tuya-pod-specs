@@ -1,0 +1,39 @@
+{
+  "name": "TUNICloudStorageSignatureManager",
+  "version": "7.2.2",
+  "summary": "A short description of TUNICloudStorageSignatureManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICloudStorageSignatureManager-7.2.2-f84572.zip",
+    "type": "zip",
+    "sha1": "4275c518eab64c2561512290005014c1f5ea6a97"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNICloudStorageSignatureManager": [
+      "ios/tunicloudstoragesignaturemanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingCloudStorageSignatureTools": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNICloudStorageSignatureManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

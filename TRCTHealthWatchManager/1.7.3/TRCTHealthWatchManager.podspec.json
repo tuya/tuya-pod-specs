@@ -1,0 +1,41 @@
+{
+  "name": "TRCTHealthWatchManager",
+  "version": "1.7.3",
+  "summary": "A short description of TRCTHealthWatchManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthWatchManager-1.7.3-84cb59.zip",
+    "type": "zip",
+    "sha1": "7d8d0f8bdea0b04c2a01fb15ba6a7822319089d7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingHealthWatchManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTHealthWatchManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

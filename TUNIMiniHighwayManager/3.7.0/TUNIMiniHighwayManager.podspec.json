@@ -1,0 +1,54 @@
+{
+  "name": "TUNIMiniHighwayManager",
+  "version": "3.7.0",
+  "summary": "A short description of TUNIMiniHighwayManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniHighwayManager-3.7.0-bc6bab.zip",
+    "type": "zip",
+    "sha1": "80b55ac40feb20406a532808ca42e0bcc9ee15f2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMiniHighwayManager": [
+      "ios/tuniminihighwaymanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingDmicContainerAbilitiesAPI": [
+
+    ],
+    "TUNINativeBridgeManager": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIMiniHighwayManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

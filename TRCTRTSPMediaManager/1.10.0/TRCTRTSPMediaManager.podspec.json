@@ -1,0 +1,63 @@
+{
+  "name": "TRCTRTSPMediaManager",
+  "version": "1.10.0",
+  "summary": "A short description of TRCTRTSPMediaManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRTSPMediaManager-1.10.0-1255ce.zip",
+    "type": "zip",
+    "sha1": "1009e9e57d1837c4f1f9f02ba00cbc1bd81a1d84"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingMediaPlayerSDK": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingPhotoLibraryBizKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingPhotoLibraryModule": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTRTSPMediaManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

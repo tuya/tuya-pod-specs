@@ -1,0 +1,39 @@
+{
+  "name": "TUNIRemoteRebootManager",
+  "version": "1.0.6",
+  "summary": "A short description of TUNIRemoteRebootManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRemoteRebootManager-1.0.6-bef9d0.zip",
+    "type": "zip",
+    "sha1": "d6fed9e28255e2e6d0bcb0888332b6d1c091c8e6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIRemoteRebootManager": [
+      "ios/TUNIRemoteRebootManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIRemoteRebootManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

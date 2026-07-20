@@ -1,0 +1,48 @@
+{
+  "name": "TUNIMeshManager",
+  "version": "1.1.1",
+  "summary": "A short description of TUNIMeshManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMeshManager-1.1.1-9b588d.zip",
+    "type": "zip",
+    "sha1": "8a27b9f89c894e1837e416a7380a67ec7a062a5f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMeshManager": [
+      "ios/tunimeshmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIMeshManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

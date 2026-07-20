@@ -1,0 +1,68 @@
+{
+  "name": "GodzillaMiniWidgetKit",
+  "version": "3.46.0",
+  "summary": "A short description of GodzillaMiniWidgetKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaMiniWidgetKit-3.46.0-1cb061.zip",
+    "type": "zip",
+    "sha1": "5a9433edad68eb8fa3e745b587f6a4d190e50f6f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "GZLMiniAppInterceptor_iOS": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GodzillaMiniWidgetKit.xcframework"
+  ],
+  "source_files": [
+    "Build/GodzillaMiniWidgetKit.xcframework/ios-arm64/GodzillaMiniWidgetKit.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GodzillaMiniWidgetKit.xcframework/ios-arm64/GodzillaMiniWidgetKit.framework/CustomResources/Bundles/*"
+  ]
+}

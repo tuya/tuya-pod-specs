@@ -1,0 +1,48 @@
+{
+  "name": "ThingSmartSpeakExtendBizBundle",
+  "version": "7.8.0.1",
+  "summary": "A short description of ThingSmartSpeakExtendBizBundle.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSpeakExtendBizBundle-7.8.0-0ef880.zip",
+    "type": "zip",
+    "sha1": "3b0ecab2454592a9866e0048a106d53c92dc07c2"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "AFNetworking/Serialization": [
+
+    ],
+    "AFNetworking/Security": [
+
+    ],
+    "AFNetworking/Reachability": [
+
+    ],
+    "AFNetworking/NSURLSession": [
+
+    ],
+    "AFNetworking/UIKit": [
+
+    ]
+  },
+  "resource_bundles": {
+    "ThingSmartSpeakExtendBizBundle": "ThingSmartSpeakExtendBizBundle/Assets/**/*"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSpeakExtendBizBundle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

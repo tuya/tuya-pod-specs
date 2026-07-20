@@ -1,0 +1,39 @@
+{
+  "name": "TUNIAIStreamKit",
+  "version": "2.2.14",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAIStreamKit-2.2.14-efa2f1.zip",
+    "type": "zip",
+    "sha1": "bae61e0a0df79239c6041a19e422eed8115fe5e3"
+  },
+  "resource_bundles": {
+    "TUNIAIStreamKit": [
+      "ios/TUNIAIStreamKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAIStreamManager": [
+      "2.2.10"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIAIStreamKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

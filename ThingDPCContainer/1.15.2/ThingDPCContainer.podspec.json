@@ -1,0 +1,64 @@
+{
+  "name": "ThingDPCContainer",
+  "version": "1.15.2",
+  "summary": "DPC: DataSource + Provider + Container",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDPCContainer-1.15.2-9a2e66.zip",
+    "type": "zip",
+    "sha1": "7d52d7a0ed40581593e510b2ab539bb1a55cca2d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingMachRegister": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDPCContainer.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

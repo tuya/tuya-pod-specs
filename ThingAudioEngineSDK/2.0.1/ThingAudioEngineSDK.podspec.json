@@ -1,0 +1,67 @@
+{
+  "name": "ThingAudioEngineSDK",
+  "version": "2.0.1",
+  "summary": "ThingAudioEngineSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioEngineSDK-2.0.1-c72b64.zip",
+    "type": "zip",
+    "sha1": "1bf29b2fa055da8c98dc60f7229b75c9310d5819"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "exclude_files": [
+    "ThingAudioEngineSDK/**/Android/**/*.*",
+    "ThingAudioEngineSDK/include/tensorflow/**/*.*",
+    "ThingAudioEngineSDK/include/tyap/*.*",
+    "ThingAudioEngineSDK/Utils/rapidjson/msinttypes/*.*"
+  ],
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingInferenceSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/codec $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include/webrtc $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include/webrtc/third_party/abseil-cpp $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-engine $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-logger $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-player $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-processer $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-recorder $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include/tyap $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/vad $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/utils $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/interface $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-inference $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/quality-detector $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/quality-detector/pesq",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++20"
+  },
+  "vendored_frameworks": [
+    "Build/ThingAudioEngineSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAudioEngineSDK.xcframework/ios-arm64/ThingAudioEngineSDK.framework/Headers/*"
+  ]
+}

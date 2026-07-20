@@ -1,0 +1,48 @@
+{
+  "name": "ThingBLEInterfaceImpl",
+  "version": "0.22.3",
+  "summary": "A short description of ThingBLEInterfaceImpl.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEInterfaceImpl-0.22.3-f39a32.zip",
+    "type": "zip",
+    "sha1": "73995749076730550c28a0a2978230622a77c91b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBLEKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingBlockKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingBLEInterfaceImpl.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "TUNIDeviceDetailManager",
+  "version": "7.7.1",
+  "summary": "A short description of TUNIDeviceDetailManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceDetailManager-7.7.1-c19cfb.zip",
+    "type": "zip",
+    "sha1": "f22277a30b81e0f0fc588b8d74b2c911c6dd2d59"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDeviceDetailManager": [
+      "ios/tunidevicedetailmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingSmartTimerKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingDeviceEditPlugAPI": [
+
+    ],
+    "ThingDeviceInfoPlugAPI": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingDeviceTimerPlugAPI": [
+
+    ],
+    "ThingDeviceDetailPlugAPI": [
+
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+
+    ],
+    "ThingDeviceShareModulePlugAPI": [
+
+    ],
+    "ThingSmartOutdoorPlugAPI": [
+
+    ],
+    "ThingDeviceDetectionNetworkPlugAPI": [
+
+    ],
+    "ThingDeviceNetworkSettingPlugAPI": [
+
+    ],
+    "ThingGroupHandlePlugAPI": [
+
+    ],
+    "ThingHelpCenterAPI": [
+
+    ],
+    "ThingLoginAPI": [
+
+    ],
+    "ThingHomeKitAPI": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingDeviceIotCardPlugAPI": [
+
+    ],
+    "ThingDeviceSyncPlugAPI": [
+
+    ],
+    "ThingDeviceAccessoryManagePlugAPI": [
+
+    ],
+    "ThingDeviceMigratePlugAPI": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingDeviceLocationPlugAPI": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ],
+    "ThingDeviceHomeKitModule": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceDetailManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

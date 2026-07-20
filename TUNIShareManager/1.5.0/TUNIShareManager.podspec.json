@@ -1,0 +1,51 @@
+{
+  "name": "TUNIShareManager",
+  "version": "1.5.0",
+  "summary": "A short description of TUNIShareManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIShareManager-1.5.0-fed156.zip",
+    "type": "zip",
+    "sha1": "965398a32bfefd5b7ff9d00a01271ff1cab43ecd"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIShareManager": [
+      "ios/tunisharemanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingHomePageSktAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIShareManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

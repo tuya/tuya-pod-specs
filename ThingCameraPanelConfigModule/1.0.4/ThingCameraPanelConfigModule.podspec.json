@@ -1,0 +1,45 @@
+{
+  "name": "ThingCameraPanelConfigModule",
+  "version": "1.0.4",
+  "summary": "A short description of ThingCameraPanelConfigModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelConfigModule-1.0.4-866b73.zip",
+    "type": "zip",
+    "sha1": "fc2c5db4a91f92198446a8949b5a8be8d75e5bb9"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraPanelConfigModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

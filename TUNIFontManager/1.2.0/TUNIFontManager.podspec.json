@@ -1,0 +1,39 @@
+{
+  "name": "TUNIFontManager",
+  "version": "1.2.0",
+  "summary": "A short description of TUNIFontManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIFontManager-1.2.0-280d3c.zip",
+    "type": "zip",
+    "sha1": "13c4e4f36f6d8b0f425b27df4b2f702afa9b3d45"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIFontManager": [
+      "ios/tunifontmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIFontManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

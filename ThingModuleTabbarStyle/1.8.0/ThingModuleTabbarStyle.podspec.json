@@ -1,0 +1,60 @@
+{
+  "name": "ThingModuleTabbarStyle",
+  "version": "1.8.0",
+  "summary": "ThingModuleTabbar自定义样式",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleTabbarStyle-1.8.0-e55640.zip",
+    "type": "zip",
+    "sha1": "5431fb09568b5a688908ad87883b13aa9ba7573e"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingSmartFamilyBizKit": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingModuleTabbarStyle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

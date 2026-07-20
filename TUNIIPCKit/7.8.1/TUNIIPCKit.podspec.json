@@ -1,0 +1,54 @@
+{
+  "name": "TUNIIPCKit",
+  "version": "7.8.1",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCKit-7.8.1-ae62ae.zip",
+    "type": "zip",
+    "sha1": "cce782026d16e19f97ea4f9cb75873518fecd0c4"
+  },
+  "resource_bundles": {
+    "TUNIIPCKit": [
+      "ios/TUNIIPCKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNICloudStorageSignatureManager": [
+      "7.2.2"
+    ],
+    "TUNIDLIPCManager": [
+      "7.8.0"
+    ],
+    "TUNIIPCAppVersionManager": [
+      "7.1.1"
+    ],
+    "TUNIIPCCameraManager": [
+      "7.8.2"
+    ],
+    "TUNIIPCCameraSettingsManager": [
+      "6.10.6"
+    ],
+    "TUNIIPCDoorbellManager": [
+      "6.4.2"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIIPCKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

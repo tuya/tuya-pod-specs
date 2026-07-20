@@ -1,0 +1,64 @@
+{
+  "name": "ThingAudioProcessSDK",
+  "version": "1.3.1",
+  "summary": "ThingAudioProcessSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioProcessSDK-1.3.1-407332.zip",
+    "type": "zip",
+    "sha1": "7fb86bfcff1cedbee52f9a2bbddf05ea38ddd2fd"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "exclude_files": [
+    "ThingAudioProcessSDK/**/Android/**/*.*",
+    "ThingAudioProcessSDK/include/rapidjson/msinttypes/*.*"
+  ],
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingInferenceSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/include $(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/include/webrtc $(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/include/webrtc/third_party/abseil-cpp $(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/avlogger $(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK/thing_inference $(PODS_TARGET_SRCROOT)/ThingAudioProcessSDK",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingAudioProcessSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAudioProcessSDK.xcframework/ios-arm64/ThingAudioProcessSDK.framework/Headers/*"
+  ]
+}

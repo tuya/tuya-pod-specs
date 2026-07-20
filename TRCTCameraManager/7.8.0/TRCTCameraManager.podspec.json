@@ -1,0 +1,69 @@
+{
+  "name": "TRCTCameraManager",
+  "version": "7.8.0",
+  "summary": "A short description of TRCTCameraManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraManager-7.8.0-ebb86b.zip",
+    "type": "zip",
+    "sha1": "f44fa227fcf68a455d301844b15fab5447171d33"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartPanoramaSDK": [
+
+    ],
+    "ThingCameraFoundationKit": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCameraManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

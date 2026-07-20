@@ -1,0 +1,84 @@
+{
+  "name": "ThingDeviceTinyBusinessModule",
+  "version": "1.2.7",
+  "summary": "A short description of ThingDeviceTinyBusinessModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTinyBusinessModule-1.2.7-d57866.zip",
+    "type": "zip",
+    "sha1": "19d81c9a4e24f7dc8a6e26c8b0a73034a6248597"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingActivatorPlugAPI": [
+
+    ],
+    "ThingLoginAPI": [
+
+    ],
+    "ThingHelpCenterAPI": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingSmartDoorLockModuleService": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceTinyBusinessModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

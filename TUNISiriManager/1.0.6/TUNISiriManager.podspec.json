@@ -1,0 +1,42 @@
+{
+  "name": "TUNISiriManager",
+  "version": "1.0.6",
+  "summary": "A short description of TUNISiriManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNISiriManager-1.0.6-a2d389.zip",
+    "type": "zip",
+    "sha1": "6b979e777e991134cf87021551a11e88d5be404c"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "TUNISiriManager": [
+      "ios/TUNISiriManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNISiriManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

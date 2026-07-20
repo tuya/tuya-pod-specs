@@ -1,0 +1,41 @@
+{
+  "name": "ThingInferenceSDK",
+  "version": "1.1.0",
+  "summary": "Thing Inference SDK (plugin-based)",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingInferenceSDK-1.1.0-44da30.zip",
+    "type": "zip",
+    "sha1": "90951d36c3402fc069ed11a4f4411dd53b4635fd"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "exclude_files": "ThingInferenceSDK/Source/Platform/Android/**/*",
+  "dependencies": {
+    "ThingOnAppAILoggerSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "ENABLE_BITCODE": "NO",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingInferenceSDK/Include $(PODS_TARGET_SRCROOT)/ThingInferenceSDK/Source $(PODS_TARGET_SRCROOT)/ThingInferenceSDK/ThingOnAppAILog $(PODS_TARGET_SRCROOT)/ThingInferenceSDK/ThirdParty",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingInferenceSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingInferenceSDK.xcframework/ios-arm64/ThingInferenceSDK.framework/Headers/*"
+  ]
+}

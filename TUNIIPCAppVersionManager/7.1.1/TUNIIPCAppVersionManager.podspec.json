@@ -1,0 +1,36 @@
+{
+  "name": "TUNIIPCAppVersionManager",
+  "version": "7.1.1",
+  "summary": "A short description of TUNIIPCAppVersionManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCAppVersionManager-7.1.1-831d08.zip",
+    "type": "zip",
+    "sha1": "9e4acb631dfd9cf92d36af1fb592b05cab710869"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIIPCAppVersionManager": [
+      "ios/TUNIIPCAppVersionManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIIPCAppVersionManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ThingAIRecomModuleAPI",
+  "version": "1.5.0",
+  "summary": "ThingAIRecomModule 对外提供的服务定义",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIRecomModuleAPI-1.5.0-a7577c.zip",
+    "type": "zip",
+    "sha1": "9db2f7909c18bff51c060f24287a7ed456e977f2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAIRecomModuleAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "TUNIUtilsManager",
+  "version": "1.7.2",
+  "summary": "A short description of TUNIUtilsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIUtilsManager-1.7.2-cafa41.zip",
+    "type": "zip",
+    "sha1": "7f37cc57d03cc4e624e4990b74d2072b2b5c2630"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIUtilsManager": [
+      "ios/tuniutilsmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "Photos",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIUtilsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

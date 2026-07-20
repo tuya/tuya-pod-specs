@@ -1,0 +1,22 @@
+{
+  "name": "ThingSmartDoorLockModuleService",
+  "version": "1.1.5",
+  "summary": "A short description of ThingSmartDoorLockModuleService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDoorLockModuleService-1.1.5-f14a79.zip",
+    "type": "zip",
+    "sha1": "177bf14d42cda239245fd6af4c521dcb87639ff2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "vendored_frameworks": [
+    "ThingSmartDoorLockModuleService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

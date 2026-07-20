@@ -1,0 +1,39 @@
+{
+  "name": "TUNIOnlineServiceManager",
+  "version": "1.2.1",
+  "summary": "A short description of TUNIOnlineServiceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOnlineServiceManager-1.2.1-fc05c9.zip",
+    "type": "zip",
+    "sha1": "62b7fdd9b6de7b8612f057b425099e3f4f79ccb6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIOnlineServiceManager": [
+      "ios/TUNIOnlineServiceManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartSettingsBizKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIOnlineServiceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "TUNIDLMapManager",
+  "version": "7.8.0",
+  "summary": "A short description of TUNIDLMapManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLMapManager-7.8.0-c9be73.zip",
+    "type": "zip",
+    "sha1": "b310273c5b3b858057b3abda8e9ff5c0f5379a10"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDLMapManager": [
+      "ios/tunidlmapmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingMapKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ],
+    "TUNIDiffSubRegisterManager": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingHomePageSktAPI": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TUNIDLMapManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TUNIDLMapManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TUNIDLMapManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TUNIDLMapManager\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "TUNIDLMapManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

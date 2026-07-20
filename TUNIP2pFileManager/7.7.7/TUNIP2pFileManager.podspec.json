@@ -1,0 +1,42 @@
+{
+  "name": "TUNIP2pFileManager",
+  "version": "7.7.7",
+  "summary": "A short description of TUNIP2pFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIP2pFileManager-7.7.7-ddf013.zip",
+    "type": "zip",
+    "sha1": "4164e8a042dcc1751f39df7744189cf854ef1ec6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "TUNINativeBridgeManager": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingP2PSessionKit": [
+
+    ]
+  },
+  "resource_bundles": {
+    "TUNIP2pFileManager": [
+      "ios/tunip2pfilemanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIP2pFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

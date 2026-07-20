@@ -1,0 +1,41 @@
+{
+  "name": "TUNIAPIRequestManager",
+  "version": "1.11.0",
+  "summary": "A short description of TUNIAPIRequestManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAPIRequestManager-1.11.0-365d8f.zip",
+    "type": "zip",
+    "sha1": "71a4debb422f54b782ef83fe6b091af5a530770f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIAPIRequestManager": [
+      "ios/tuniapirequestmanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIAPIRequestManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

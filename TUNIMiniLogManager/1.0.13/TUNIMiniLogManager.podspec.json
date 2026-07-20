@@ -1,0 +1,62 @@
+{
+  "name": "TUNIMiniLogManager",
+  "version": "1.0.13",
+  "summary": "A short description of TUNIMiniLogManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniLogManager-1.0.13-9927cc.zip",
+    "type": "zip",
+    "sha1": "68381fb1786ce18725361ceda20ff2d34d310ed2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMiniLogManager": [
+      "ios/TUNIMiniLogManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaLogManager": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMiniLogManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

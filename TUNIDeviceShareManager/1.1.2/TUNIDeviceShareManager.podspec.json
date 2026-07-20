@@ -1,0 +1,42 @@
+{
+  "name": "TUNIDeviceShareManager",
+  "version": "1.1.2",
+  "summary": "A short description of TUNIDeviceShareManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceShareManager-1.1.2-7765e4.zip",
+    "type": "zip",
+    "sha1": "02588b1ecad48864e8d6d2e7edd303a02560e94a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDeviceShareManager": [
+      "ios/TUNIDeviceShareManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ],
+    "TUNINativeBridgeManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceShareManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

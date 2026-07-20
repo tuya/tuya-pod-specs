@@ -1,0 +1,164 @@
+{
+  "name": "ThingSmartLockKit",
+  "version": "7.8.0.1",
+  "summary": "Tuya Smart Lock iOS SDK",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLockKit-7.8.0-778bb1.zip",
+    "type": "zip",
+    "sha1": "5a56d5fa154dfda276b1125e1d5a899594d7e2a7"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingSmartBLEKit": [
+      "5.17.0"
+    ],
+    "ThingFoundationKit": [
+      "1.25.3"
+    ],
+    "ThingSmartCameraKit": [
+      "~> 7.8.1.0"
+    ],
+    "ThingCameraUIKit": [
+      "5.1.1"
+    ],
+    "ThingSmartDeviceKit": [
+      "5.16.0"
+    ],
+    "ThingBluetooth": [
+      "5.7.0"
+    ],
+    "ThingSmartUtil": [
+      "5.23.2"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.6.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartBLECoreKit": [
+      "5.16.0"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseBLEKit": [
+      "1.0.3"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.29.0.1"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.12.2"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.3"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.12"
+    ],
+    "ThingSmartBeaconKit": [
+      "5.4.4"
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.12"
+    ],
+    "ThingSmartMediaServices": [
+      "3.0.1"
+    ],
+    "ThingSmartCameraBase": [
+      "7.6.4"
+    ],
+    "ThingSmartAVBaseKit": [
+      "2.4.5"
+    ],
+    "ThingAvLoggerSDK": [
+      "1.3.0"
+    ],
+    "ThingSmartMediaUIKit": [
+      "3.0.4"
+    ],
+    "ThingSmartCameraM": [
+      "7.6.4"
+    ],
+    "ThingCameraSDK": [
+      "7.8.10"
+    ],
+    "ThingP2PSDK": [
+      "3.15.0"
+    ],
+    "ThingFFmpegWrapper": [
+      "4.4.2.10"
+    ],
+    "ThingVideoCodecSDK": [
+      "1.9.2"
+    ],
+    "ThingAudioEngineSDK": [
+      "2.0.1"
+    ],
+    "ThingInferenceSDK": [
+      "1.1.0"
+    ],
+    "ThingOnAppAILoggerSDK": [
+      "0.0.1"
+    ],
+    "ThingMP3CodecSDK": [
+      "1.1.4"
+    ],
+    "ThingMotionDetectSDK": [
+      "1.0.5"
+    ],
+    "ThingSmartP2pChannelKit": [
+      "6.12.1"
+    ],
+    "ThingSmartCallChannelKit": [
+      "2.3.3"
+    ],
+    "ThingSmartCallCounterKit": [
+      "1.0.3"
+    ],
+    "ThingEncryptImage": [
+      "4.35.0"
+    ],
+    "libwebp": [
+
+    ],
+    "libwebp/sharpyuv": [
+
+    ],
+    "libwebp/webp": [
+
+    ],
+    "libwebp/demux": [
+
+    ],
+    "libwebp/mux": [
+
+    ],
+    "ThingSmartMediaKit": [
+      "2.0.0"
+    ],
+    "ThingSmartShareKit": [
+      "5.4.0"
+    ],
+    "ThingMachRegister": [
+      "0.8.1"
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartLockKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartLockKit.xcframework/ios-arm64/ThingSmartLockKit.framework/Headers/*"
+  ]
+}

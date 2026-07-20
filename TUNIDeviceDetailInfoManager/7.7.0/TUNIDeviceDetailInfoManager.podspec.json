@@ -1,0 +1,51 @@
+{
+  "name": "TUNIDeviceDetailInfoManager",
+  "version": "7.7.0",
+  "summary": "A short description of TUNIDeviceDetailInfoManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceDetailInfoManager-7.7.0-a5b24a.zip",
+    "type": "zip",
+    "sha1": "d8ad28485c73a5df3a83e556e49febba974fb06d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDeviceDetailInfoManager": [
+      "ios/TUNIDeviceDetailInfoManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "TUNICode": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ],
+    "TUNINativeBridgeManager": [
+
+    ],
+    "ThingConfigHub": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceDetailInfoManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

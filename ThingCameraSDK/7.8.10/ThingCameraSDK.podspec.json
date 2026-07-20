@@ -1,0 +1,96 @@
+{
+  "name": "ThingCameraSDK",
+  "version": "7.8.10",
+  "summary": "open SDK code for tuya smart camera.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraSDK-7.8.10-25cb0a.zip",
+    "type": "zip",
+    "sha1": "4d88ec3f5365832471b31a6d004f0bd8218bbe14"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "exclude_files": [
+    "ThingCameraSDK/**/Android/*.*",
+    "ThingCameraSDK/DataStatistic/{ThingMediaCodecStatistic}.*",
+    "ThingCameraSDK/Mp4Recorder/{ThingMediaFormatWrapper,ThingMediaMuxerWrapper,ThingMediaMuxerWriter,ThingMp4RecorderCAPI}.*",
+    "ThingCameraSDK/Utils/rapidjson/msinttypes/*.*",
+    "ThingCameraSDK/TFLite/*.*",
+    "ThingCameraSDK/PTL/*.*"
+  ],
+  "ios": {
+  },
+  "dependencies": {
+    "ThingP2PSDK": [
+
+    ],
+    "ThingFFmpegWrapper": [
+
+    ],
+    "ThingVideoCodecSDK": [
+
+    ],
+    "ThingAudioEngineSDK": [
+
+    ],
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingMP3CodecSDK": [
+
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-t.0"
+    ],
+    "ThingMotionDetectSDK": [
+
+    ],
+    "ThingInferenceSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox",
+    "MobileCoreServices",
+    "Metal"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "OTHER_CFLAGS[config=Release]": "-DLINUX -DNDEBUG",
+    "OTHER_LDFLAGS": "-read_only_relocs suppress",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX __STDC_CONSTANT_MACROS $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingCameraSDK $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ThirdPartLibrary/ffmpeg $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ThirdPartLibrary/libyuv/libyuv $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ThirdPartLibrary/libyuv $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ThirdPartLibrary/libcurl $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ThirdPartLibrary/tuyap2p $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ThirdPartLibrary/ppcs $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ThirdPartLibrary/openH264 $(PODS_TARGET_SRCROOT)/ThingCameraSDK/ModelInference",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "OTHER_LDFLAGS[sdk=iphoneos*]": "$(inherited) -weak_framework MetalFX"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "OTHER_LDFLAGS[sdk=iphoneos*]": "$(inherited) -weak_framework MetalFX"
+  },
+  "vendored_frameworks": [
+    "Build/ThingCameraSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingCameraSDK.xcframework/ios-arm64/ThingCameraSDK.framework/Headers/*"
+  ]
+}

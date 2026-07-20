@@ -1,0 +1,45 @@
+{
+  "name": "TUNIWearKit",
+  "version": "3.1.3",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWearKit-3.1.3-159201.zip",
+    "type": "zip",
+    "sha1": "b20928c472fec728b1a8ba4b7f594b4082cf30cd"
+  },
+  "resource_bundles": {
+    "TUNIWearKit": [
+      "ios/TUNIWearKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUniAudioDetectManager": [
+      "7.8.1"
+    ],
+    "TUNIQQMusicManager": [
+      "1.1.13"
+    ],
+    "TUNIWatchManager": [
+      "1.3.9"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIWearKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

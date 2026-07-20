@@ -1,0 +1,22 @@
+{
+  "name": "ThingDeviceOpRecInterface",
+  "version": "0.0.1",
+  "summary": "A short description of ThingDeviceOpRecInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceOpRecInterface-0.0.1-3a315e.zip",
+    "type": "zip",
+    "sha1": "ac022aafa7f1fb191e527bb1f5305505a8205e40"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "vendored_frameworks": [
+    "ThingDeviceOpRecInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

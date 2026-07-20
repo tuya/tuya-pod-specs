@@ -1,0 +1,29 @@
+{
+  "name": "GZLMiniProgramAdapterAPI_iOS",
+  "version": "3.47.1",
+  "summary": "小程序公版对接接口",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniProgramAdapterAPI_iOS-3.47.1-dbc36c.zip",
+    "type": "zip",
+    "sha1": "46f6923d71fc01831dd2dfae73a4d2105c4afa60"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "GodzillaMiniIService": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniProgramAdapterAPI_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniProgramAdapterAPI_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterAPI_iOS.framework/Headers/*"
+  ]
+}

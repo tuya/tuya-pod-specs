@@ -1,0 +1,57 @@
+{
+  "name": "TUNIGroupControlManager",
+  "version": "7.1.7",
+  "summary": "A short description of TUNIGroupControlManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIGroupControlManager-7.1.7-459694.zip",
+    "type": "zip",
+    "sha1": "6ee419a2721c4544e39b399716f17e3450d51fcb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIGroupControlManager": [
+      "ios/tunigroupcontrolmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingGroupHandlePlugAPI": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingDeviceOpRecInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIGroupControlManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

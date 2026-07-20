@@ -1,0 +1,36 @@
+{
+  "name": "ThingAudioRecordInterface",
+  "version": "1.11.1",
+  "summary": "A short description of ThingAudioRecordInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioRecordInterface-1.11.1-db323b.zip",
+    "type": "zip",
+    "sha1": "abdb15f648e43c1a5c6779ff947cc61e6f64af3b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "frameworks": "CryptoKit",
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAudioRecordInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "swift_version": "5.0"
+}

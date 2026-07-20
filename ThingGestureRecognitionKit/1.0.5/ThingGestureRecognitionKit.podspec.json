@@ -1,0 +1,32 @@
+{
+  "name": "ThingGestureRecognitionKit",
+  "version": "1.0.5",
+  "summary": "A short description of ThingGestureRecognitionKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGestureRecognitionKit-1.0.5-5f8766.zip",
+    "type": "zip",
+    "sha1": "805245c7a061e86f134d7701385f674535e7912a"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/ThingGestureRecognitionKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingGestureRecognitionKit.xcframework/ios-arm64/ThingGestureRecognitionKit.framework/Headers/*"
+  ]
+}

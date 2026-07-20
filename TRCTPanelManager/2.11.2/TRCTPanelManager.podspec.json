@@ -1,0 +1,69 @@
+{
+  "name": "TRCTPanelManager",
+  "version": "2.11.2",
+  "summary": "A short description of TRCTPanelManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPanelManager-2.11.2-62f29a.zip",
+    "type": "zip",
+    "sha1": "cc54af84055a65a95c9c9d555136b162422f37dc"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartActivatorCoreKit": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartLocationService": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingDeviceOpRecInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTPanelManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

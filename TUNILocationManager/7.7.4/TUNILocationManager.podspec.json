@@ -1,0 +1,53 @@
+{
+  "name": "TUNILocationManager",
+  "version": "7.7.4",
+  "summary": "A short description of TUNILocationManager.",
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationTemporaryUsageDescriptionDictionary NSLocationUsageDescription"
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocationManager-7.7.4-1c2b3a.zip",
+    "type": "zip",
+    "sha1": "5f39456b501c7728cddd9c558b7603837a03e2e9"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNILocationManager": [
+      "ios/TUNILocationManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "CoreLocation",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingMapKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TUNILocationManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TUNILocationManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TUNILocationManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TUNILocationManager\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "TUNILocationManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

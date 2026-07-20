@@ -1,0 +1,42 @@
+{
+  "name": "TUNIIPCCameraSettingsManager",
+  "version": "6.10.6",
+  "summary": "A short description of TUNIIPCCameraSettingsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIPCCameraSettingsManager-6.10.6-22a99d.zip",
+    "type": "zip",
+    "sha1": "b266d25454d28c2d1a8dec7271eab7b85eafdbbc"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIIPCCameraSettingsManager": [
+      "ios/tuniipccamerasettingsmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIIPCCameraSettingsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TUNIThingControlManager",
+  "version": "6.4.2",
+  "summary": "A short description of TUNIThingControlManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIThingControlManager-6.4.2-73a078.zip",
+    "type": "zip",
+    "sha1": "a65e31f9823d9b18a25ce9fe283413a96e26b72d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIThingControlManager": [
+      "ios/tunithingcontrolmanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIThingControlManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
