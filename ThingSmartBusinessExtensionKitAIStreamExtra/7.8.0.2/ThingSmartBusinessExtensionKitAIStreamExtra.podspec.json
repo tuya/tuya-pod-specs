@@ -1,0 +1,75 @@
+{
+  "name": "ThingSmartBusinessExtensionKitAIStreamExtra",
+  "version": "7.8.0.2",
+  "summary": "A short description of ThingSmartBusinessExtensionKitAIStreamExtra.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessExtensionKitAIStreamExtra-7.8.0-b090e2.zip",
+    "type": "zip",
+    "sha1": "b5efe8dc576db64d137d9161659e4462224b8056"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "dependencies": {
+    "ThingSmartStreamChannelKit": [
+      "2.5.4"
+    ],
+    "ThingSmartStreamBizKit": [
+      "2.3.1"
+    ],
+    "ThingSmartUtil": [
+      "5.23.2"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.6.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.12.2"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.29.0.1"
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.3"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.12"
+    ],
+    "ThingAudioEngineSDK": [
+      "2.0.1"
+    ],
+    "ThingAvLoggerSDK": [
+      "1.3.0"
+    ],
+    "ThingInferenceSDK": [
+      "1.1.0"
+    ],
+    "ThingOnAppAILoggerSDK": [
+      "0.0.1"
+    ],
+    "ThingMP3CodecSDK": [
+      "1.1.4"
+    ],
+    "ThingOpusCodec": [
+      "1.0.6"
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartBusinessExtensionKitAIStreamExtra.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

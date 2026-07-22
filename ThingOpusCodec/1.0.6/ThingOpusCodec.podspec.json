@@ -1,0 +1,30 @@
+{
+  "name": "ThingOpusCodec",
+  "version": "1.0.6",
+  "summary": "A short description of ThingOpusCodec.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpusCodec-1.0.6-2c70eb.zip",
+    "type": "zip",
+    "sha1": "f3a442e6d377f950787533289a6e2d4060b50192"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "Build/ThingOpusCodec.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingOpusCodec.xcframework/ios-arm64/ThingOpusCodec.framework/Headers/*"
+  ]
+}
