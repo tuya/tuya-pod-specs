@@ -1,0 +1,84 @@
+{
+  "name": "TUNIMiniKit",
+  "version": "3.31.3",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMiniKit-3.31.3-fa2cc3.zip",
+    "type": "zip",
+    "sha1": "73764bd808c87b5ad955f2477ce07b9c5ac27c03"
+  },
+  "resource_bundles": {
+    "TUNIMiniKit": [
+      "ios/TUNIMiniKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIBackgroundFetchManager": [
+      "1.0.4"
+    ],
+    "TUNIDiffLayerManager": [
+      "3.7.2"
+    ],
+    "TUNIDLWebViewManager": [
+      "3.11.1"
+    ],
+    "TUNIExperienceRateManager": [
+      "1.0.1"
+    ],
+    "TUNIExtMiniAppInfoManager": [
+      "3.2.3"
+    ],
+    "TUNIGZLTabBarManager": [
+      "3.2.0"
+    ],
+    "TUNIMiniHighwayManager": [
+      "3.4.3"
+    ],
+    "TUNIMiniLogManager": [
+      "1.0.13"
+    ],
+    "TUNIMiniProgramManager": [
+      "3.18.1"
+    ],
+    "TUNINativeEventManager": [
+      "1.4.0"
+    ],
+    "TUNINavigationBarManager": [
+      "3.2.1"
+    ],
+    "TUNINavigatorManager": [
+      "3.5.1"
+    ],
+    "TUNIOpenExtApiManager": [
+      "3.2.0"
+    ],
+    "TUNIRequestCacheManager": [
+      "1.1.2"
+    ],
+    "TUNIScrollManager": [
+      "3.3.0"
+    ],
+    "TUNIWidgetManager": [
+      "1.2.1"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIMiniKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

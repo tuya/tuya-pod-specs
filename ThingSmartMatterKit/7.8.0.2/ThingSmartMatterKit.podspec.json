@@ -1,0 +1,87 @@
+{
+  "name": "ThingSmartMatterKit",
+  "version": "7.8.0.2",
+  "summary": "A short description of ThingSmartMatterKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMatterKit-7.8.0-9c1edc.zip",
+    "type": "zip",
+    "sha1": "4721b744741eca0d1079149154c93cc595bad12b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "prefix_header_contents": "#ifdef __OBJC__\n  #import <YYModel/YYModel.h>\n  #import \"ThingSmartMatterKit.h\"\n  #import \"NSError+ThingMatter.h\"\n  #import \"ThingSmartMatterDevice.h\"\n  #import \"ThingMatterDeviceConnectManage.h\"\n  #import \"ThingMatterAttributeReaderHelper.h\"\n  \n  #undef ThingLog\n  #undef ThingSDKLogDebug\n  #undef ThingSDKLogInfo\n  #undef ThingSDKLogWarn\n  #undef ThingSDKLogError\n\n  #define ThingLog(...)           ThingSDKLog(1, @\"ThingSmartMatterKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogDebug(...)           ThingSDKLog(0, @\"ThingSmartMatterKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogInfo(...)           ThingSDKLog(1, @\"ThingSmartMatterKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogWarn(...)           ThingSDKLog(2, @\"ThingSmartMatterKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingSDKLogError(...)           ThingSDKLog(3, @\"ThingSmartMatterKit\", @\"\", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
+  "vendored_frameworks": [
+    "Build/VendorsFramework/ThingMatterSupport.framework",
+    "Build/VendorsFramework/Water.framework",
+    "Build/ThingSmartMatterKit.xcframework"
+  ],
+  "dependencies": {
+    "ThingSmartUtil": [
+      "5.23.2"
+    ],
+    "ThingSmartDeviceCoreKit": [
+      "5.29.0.1"
+    ],
+    "ThingSmartBaseKit": [
+      "5.8.12.1"
+    ],
+    "ThingSmartBLEKit": [
+      "5.17.0"
+    ],
+    "ThingSmartCryption": [
+
+    ],
+    "ThingMbedtls": [
+      "3.6.5"
+    ],
+    "ThingOpenSSLSDK": [
+      "~> 1.1.1-w.4"
+    ],
+    "ThingSmartNetworkKit": [
+      "5.12.2"
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+      "5.8.3"
+    ],
+    "ThingSmartSocketChannelKit": [
+      "5.0.12"
+    ],
+    "ThingBluetooth": [
+      "5.7.0"
+    ],
+    "ThingSmartBLECoreKit": [
+      "5.16.0"
+    ],
+    "ThingSmartBaseBLEKit": [
+      "1.0.3"
+    ],
+    "ThingSmartBeaconKit": [
+      "5.4.4"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "OTHER_LDFLAGS": "-ObjC",
+    "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.matter.allow-setup-payload"
+  },
+  "source_files": [
+    "Build/ThingSmartMatterKit.xcframework/ios-arm64/ThingSmartMatterKit.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/ThingSmartMatterKit.xcframework/ios-arm64/ThingSmartMatterKit.framework/CustomResources/Assets/*"
+  ]
+}
