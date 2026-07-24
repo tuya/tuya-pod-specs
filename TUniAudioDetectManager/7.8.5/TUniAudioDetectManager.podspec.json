@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUniAudioDetectManager-7.8.5-f9ea85.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUniAudioDetectManager-7.8.5-57eebd.zip",
     "type": "zip",
-    "sha1": "a24e0077fff00e27eff14bd4797eea9c7b74acc7"
+    "sha1": "3f04ec8ad243d04604dac065ee0d7f309ada1e3d"
   },
   "platforms": {
     "ios": "11.0"
