@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGIDManager-1.1.2-199fea.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGIDManager-1.1.2-8c8595.zip",
     "type": "zip",
-    "sha1": "249103afe7c2ad381109d858a306c5a5c007f630"
+    "sha1": "7b7254a2a8f640f6fa9d562c0295d003c45f0cfd"
   },
   "platforms": {
     "ios": "11.0"
@@ -22,14 +22,6 @@
     "ThingBusinessService": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTGIDManager.xcframework"

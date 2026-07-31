@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTResourceManager-5.8.2-94e868.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTResourceManager-5.8.2-8d0fe2.zip",
     "type": "zip",
-    "sha1": "8f441b3ff7e0fd8189e31805f0222db3de0e38b6"
+    "sha1": "551782aa2e5ceadc16f1d181f08b35471f3a5942"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,14 +27,6 @@
   "resources": [
     "resource/*.json"
   ],
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "vendored_frameworks": [
     "TRCTResourceManager.xcframework"
   ],

@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceAccessoryManagePlugAPI-1.2.0.1-cbf946.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceAccessoryManagePlugAPI-1.2.0-1a14e1.zip",
     "type": "zip",
-    "sha1": "e66930e5ca64418175c03f40cb34edfe3a7808cb"
+    "sha1": "da3a978c0293bdf06e798129eb4ac6c693735ac3"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingDeviceAccessoryManagePlugAPI.xcframework"

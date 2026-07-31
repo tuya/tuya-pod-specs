@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailModule-2.26.9-fa32e5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailModule-2.26.9-41c12c.zip",
     "type": "zip",
-    "sha1": "93c77941ab8c288d79507c748f28c7b264ea52ac"
+    "sha1": "4710abd38d9153de18c1335cfffbf241434fea1a"
   },
   "platforms": {
     "ios": "11.0"
@@ -22,9 +22,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "DEFINES_MODULE": "YES",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "DEFINES_MODULE": "YES"
   },
   "dependencies": {
     "YYModel": [
@@ -170,10 +168,6 @@
     ]
   },
   "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceDetailModule\", ##__VA_ARGS__)",
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "preserve_paths": [
 
   ],

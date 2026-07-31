@@ -8,21 +8,13 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartEventPredefined_illumination-0.0.4-77bb62.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartEventPredefined_illumination-0.0.4-81dec7.zip",
     "type": "zip",
-    "sha1": "d14eaea9d4126290ea3b92a5a81ce32dbab5e462"
+    "sha1": "a9a628ede86927c3261a599d06a7a4d558a072a2"
   },
   "platforms": {
     "ios": "9.0",
     "watchos": "2.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingSmartEventPredefined_illumination.xcframework"

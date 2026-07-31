@@ -8,21 +8,15 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSwipeView-1.2.2-abdc71.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSwipeView-1.2.2-0ba5e1.zip",
     "type": "zip",
-    "sha1": "bd7d5ebefd6cff7d5bc563423e7a573109689bd2"
+    "sha1": "02bd64cfe073fa09182138ee98a9540eecfe9205"
   },
   "platforms": {
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
-    "DEFINES_MODULE": "YES",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "DEFINES_MODULE": "YES"
   },
   "preserve_paths": [
     "weak_deps.json"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAnimationKit-1.2.0-74686e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAnimationKit-1.2.0-d0fcaa.zip",
     "type": "zip",
-    "sha1": "10f2630365a4b61d098780c5b8c4ee1b19f034ab"
+    "sha1": "938f19c1b7265d75b64133ae6e20a852468cf566"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingAnimationKit.xcframework"

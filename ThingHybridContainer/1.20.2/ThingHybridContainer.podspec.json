@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainer-1.20.2-ff1d3c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainer-1.20.2-7502f0.zip",
     "type": "zip",
-    "sha1": "5c694803f3bd33ee1bb223959e8de4d0ef9f8610"
+    "sha1": "83bb22a4f26420780f78acbb9f97f75805556870"
   },
   "platforms": {
     "ios": "11.0"
@@ -24,9 +24,7 @@
     "Photos"
   ],
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription"
   },
   "resource_bundles": {
     "ThingHybridContainer": [
@@ -90,10 +88,6 @@
     ]
   },
   "prefix_header_contents": "#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>\n#import <ThingNavigationController/ThingNavigationController.h>\n#import <ThingNavigationController/UIViewController+ThingNavigation.h>\n#import <Masonry/Masonry.h>\n#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingHybridContainer\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingHybridContainer\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingHybridContainer\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingHybridContainer\", ##__VA_ARGS__)",
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "preserve_paths": [
 
   ],

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocketPing-1.2.0-1145ea.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocketPing-1.2.0-cce068.zip",
     "type": "zip",
-    "sha1": "019660527d47a12947a6b3b4de2e89a61d52ffb1"
+    "sha1": "e7c40b1527da984c6a4c3fc833b97631597b49d9"
   },
   "platforms": {
     "ios": "9.0"
@@ -20,14 +20,6 @@
     "ThingSmartBaseKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingSocketPing.xcframework"

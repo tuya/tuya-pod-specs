@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMiniAppTabModule-2.5.0-ddc14f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMiniAppTabModule-2.5.0-e440f7.zip",
     "type": "zip",
-    "sha1": "a8ec9cdaaabbec5a78dcdbb0540285ad14c519ac"
+    "sha1": "74490cfa6b50edecdba9d1105c8f9da31af478df"
   },
   "platforms": {
     "ios": "11.0"
@@ -40,14 +40,6 @@
     "GodzillaMiniBaseKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

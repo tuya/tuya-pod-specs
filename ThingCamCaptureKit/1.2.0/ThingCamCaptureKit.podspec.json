@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCamCaptureKit-1.2.0-9f7443.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCamCaptureKit-1.2.0-42b311.zip",
     "type": "zip",
-    "sha1": "baabbc84debd33250c5be2123ef280857efbf672"
+    "sha1": "4314d7fa7a38831db97fc57d8f6d16de2801907a"
   },
   "platforms": {
     "ios": "10.0"
@@ -21,13 +21,7 @@
     "CoreMedia"
   ],
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
   },
   "vendored_frameworks": [
     "ThingCamCaptureKit.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.0-feature-thin.1-00e72e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.0-feature-thin.1-936989.zip",
     "type": "zip",
-    "sha1": "ae92106d14c2094f2b45f2b4577f30143de2d953"
+    "sha1": "a0e862e6ab922f4fc64147c1e8f90184d61a709b"
   },
   "platforms": {
     "ios": "9.0"
@@ -39,14 +39,6 @@
     ]
   },
   "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "vendored_frameworks": [
     "ThingTemplateSkeleton.xcframework"
   ],

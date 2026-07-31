@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOutdoorManager-1.0.6-anonymize.1-aea13a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOutdoorManager-1.0.6-anonymize.1-9392b1.zip",
     "type": "zip",
-    "sha1": "b45b12711f3db1fc941770968dd35d0c3b68bc8b"
+    "sha1": "15b82b4aec946d23b18a1ae23b7bbd7466290232"
   },
   "platforms": {
     "ios": "9.0"
@@ -34,14 +34,6 @@
     "ThingLogMacro": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTOutdoorManager.xcframework"

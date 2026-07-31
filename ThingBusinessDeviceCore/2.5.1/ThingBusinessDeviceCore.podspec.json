@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceCore-2.5.1-40a3ef.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceCore-2.5.1-661156.zip",
     "type": "zip",
-    "sha1": "8b1048c86a698aa7920522aa2af9dd3d3e4bbaca"
+    "sha1": "fb2d7bd4b0c002455ba8c6ecf67e78b1e6646737"
   },
   "platforms": {
     "ios": "11.0"
@@ -43,14 +43,6 @@
     "ThingDeviceOpRecInterface": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

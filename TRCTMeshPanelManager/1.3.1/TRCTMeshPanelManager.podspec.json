@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMeshPanelManager-1.3.1-a0d7bd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMeshPanelManager-1.3.1-336352.zip",
     "type": "zip",
-    "sha1": "be6d927683c07b537b5d5d15f3652042a0c03c75"
+    "sha1": "6b69c43bd9818b1b8f41e8544b89775172a3bf52"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingBluetoothInterface": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTMeshPanelManager.xcframework"

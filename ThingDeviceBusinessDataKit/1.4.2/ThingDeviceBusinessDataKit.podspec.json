@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceBusinessDataKit-1.4.2-43ee4a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceBusinessDataKit-1.4.2-d4984d.zip",
     "type": "zip",
-    "sha1": "837f19ee22dda085bd9dd64d47db48d7740407ab"
+    "sha1": "95cc609e55da4c3cc74df3070e6b81600821feb4"
   },
   "platforms": {
     "ios": "10.0"
@@ -34,14 +34,6 @@
     "ThingBluetoothInterface": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

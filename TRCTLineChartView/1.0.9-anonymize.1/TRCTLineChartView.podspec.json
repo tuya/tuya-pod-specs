@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLineChartView-1.0.9-anonymize.1-39cafe.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLineChartView-1.0.9-anonymize.1-d86b3c.zip",
     "type": "zip",
-    "sha1": "e237052a28ef33608d2b74c3c4cbac18420deb93"
+    "sha1": "7f52494e992914d9dc1e08489029b9a1115c017c"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,14 +22,6 @@
     "ThingUIKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTLineChartView.xcframework"

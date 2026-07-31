@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICode-1.1.22-11fcd4.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICode-1.1.22-be875c.zip",
     "type": "zip",
-    "sha1": "ff7d7a4fbb13813254787f74d66c952d78d2f97f"
+    "sha1": "0f4b390b47c1092090aa5a36705c21d829cc6188"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TUNICode.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageManager-0.2.1-ca6139.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageManager-0.2.1-0da080.zip",
     "type": "zip",
-    "sha1": "28496e4fb78f407e7bdf7c662de7d1949b59b0c3"
+    "sha1": "3f44373cbde77c4467fd6783a452bf089addc9f9"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingKVStorageLibrary": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

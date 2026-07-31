@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageLibrary-1.0.3-8589e2.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingKVStorageLibrary-1.0.3-51fe39.zip",
     "type": "zip",
-    "sha1": "14a4da871b5ae64639e0a22b6981b5b103ce8cc7"
+    "sha1": "35edc5a03b68cab0f710a9feda2d0b5c1df691d5"
   },
   "platforms": {
     "ios": "11.0"
@@ -22,14 +22,6 @@
     "ThingStorageGroupInterface": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
     "weak_deps.json"

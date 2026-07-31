@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSensorsManager-1.0.4-anonymize.1-ec3d54.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSensorsManager-1.0.4-anonymize.1-d6e87f.zip",
     "type": "zip",
-    "sha1": "5b5ee156a9c8b1fc4ede05ead687333eb2870654"
+    "sha1": "b061e02bd05e42ad1951398177140fe9ffc883cb"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingSensorsManager.xcframework"

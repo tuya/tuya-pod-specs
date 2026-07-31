@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTimerPlugAPI-0.2.0.1-23bf5c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTimerPlugAPI-0.2.0-a67781.zip",
     "type": "zip",
-    "sha1": "6079794bb092ac619e5cceaea38a59d9da049aeb"
+    "sha1": "d029cfa4f92d97ab6a555127b4d2e5a53361a8a4"
   },
   "platforms": {
     "ios": "9.0"
@@ -19,14 +19,6 @@
     "ThingSmartTimerKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingDeviceTimerPlugAPI.xcframework"

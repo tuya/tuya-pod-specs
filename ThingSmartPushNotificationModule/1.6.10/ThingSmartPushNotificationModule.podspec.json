@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPushNotificationModule-1.6.10-a0f70b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPushNotificationModule-1.6.10-d31ce8.zip",
     "type": "zip",
-    "sha1": "1714609095c28471e9955b78cdaa8f1f135f0d15"
+    "sha1": "d7185604b452678ede83bcf1de993c353fb2c3f4"
   },
   "platforms": {
     "ios": "11.0"
@@ -48,13 +48,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "THING_CODE_SIGN_ENTITLEMENTS": "aps-environment",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_CODE_SIGN_ENTITLEMENTS": "aps-environment"
   },
   "preserve_paths": [
 

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTConicGradientViewManager-1.0.4-anonymize.3-7d901c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTConicGradientViewManager-1.0.4-anonymize.3-2c75a8.zip",
     "type": "zip",
-    "sha1": "cb39afd6b045e731132e7d3ea0e5706de71bdc91"
+    "sha1": "ef4f4e3ea25b9ad7197dd7158278d2b455a631fe"
   },
   "platforms": {
     "ios": "9.0"
@@ -19,14 +19,6 @@
     "ThingPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTConicGradientViewManager.xcframework"

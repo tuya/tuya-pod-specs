@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTopBar-1.4.0-b0b488.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTopBar-1.4.0-e28652.zip",
     "type": "zip",
-    "sha1": "88355feff8ffce305b10086156c00b22f6f2f9ff"
+    "sha1": "593255338dc825c064c76ac1257fc00d43e00e09"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingSmartBusinessLibrary": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTTopBar.xcframework"

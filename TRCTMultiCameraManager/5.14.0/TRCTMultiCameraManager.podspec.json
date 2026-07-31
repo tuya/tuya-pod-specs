@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiCameraManager-5.14.0-63689d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiCameraManager-5.14.0-59e7e0.zip",
     "type": "zip",
-    "sha1": "e8b6fe47f76e6fac9d7e335eff749f234e2a5f4f"
+    "sha1": "c715e4f8fbbcca10a6c300701564822bdf94cb95"
   },
   "platforms": {
     "ios": "9.0"
@@ -55,14 +55,6 @@
     "ThingSmartPanoramaSDK": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTMultiCameraManager.xcframework"

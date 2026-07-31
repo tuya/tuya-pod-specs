@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAlexaWebAuthManager-1.0.4-anonymize.1-ba02e5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAlexaWebAuthManager-1.0.4-anonymize.1-959270.zip",
     "type": "zip",
-    "sha1": "926ab432c762053f87018df8e29155bbffb8400d"
+    "sha1": "5d397f875f60c228e926899219f9cc9f2e903b40"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,14 +22,6 @@
     "ThingAVSKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTAlexaWebAuthManager.xcframework"

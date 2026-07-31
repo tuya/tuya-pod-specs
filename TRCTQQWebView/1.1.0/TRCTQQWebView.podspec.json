@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTQQWebView-1.1.0-3fe964.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTQQWebView-1.1.0-ff7eca.zip",
     "type": "zip",
-    "sha1": "ef5828a0813a4229e539b9e0ce13faaf35e69e10"
+    "sha1": "97e0ee62472da24abfe1a844c519688c3cc22daf"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "Masonry": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTQQWebView.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCountrySelectManager-1.0.9-anonymize.1-44744f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCountrySelectManager-1.0.9-anonymize.1-dc72ef.zip",
     "type": "zip",
-    "sha1": "a2407127857038927d314bdc9163adf1e2024d67"
+    "sha1": "0959e6eb7de01b3d95220512edbdce7906f66afa"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,14 +22,6 @@
     "ThingSmartBusinessLibrary": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTCountrySelectManager.xcframework"

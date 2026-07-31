@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFallLayout-2.3.0-2fe42b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFallLayout-2.3.0-d56ca2.zip",
     "type": "zip",
-    "sha1": "62de2edae004ce4dc2a69300f8fdd7c5d105b302"
+    "sha1": "b4f5eea23528c28c765f8f44a34487c8d1b766f8"
   },
   "platforms": {
     "ios": "9.0"
@@ -19,14 +19,6 @@
     "Masonry": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFeedBackModule-1.1.6-anonymize.1-99ea9c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFeedBackModule-1.1.6-anonymize.1-0012fc.zip",
     "type": "zip",
-    "sha1": "aa0ce1e35fcf1a611ace9e2323a11aa6db3378a4"
+    "sha1": "bb185a2e3e58e25c923c1dac2e74e8a469cb68ff"
   },
   "platforms": {
     "ios": "9.0"
@@ -41,14 +41,6 @@
     "YYModel": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingFeedBackModule.xcframework"

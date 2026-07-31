@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigratePlugAPI-1.2.0.1-1268c8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigratePlugAPI-1.2.0-b881d9.zip",
     "type": "zip",
-    "sha1": "754a0f6d248aac77d35b7b41286b3e86ce92e595"
+    "sha1": "ce08637d8c75613ca2290e3c6f788df276552f9e"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingDeviceMigratePlugAPI.xcframework"

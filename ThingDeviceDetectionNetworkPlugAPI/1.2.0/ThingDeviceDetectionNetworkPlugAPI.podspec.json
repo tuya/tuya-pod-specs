@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetectionNetworkPlugAPI-1.2.0.1-f07d62.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetectionNetworkPlugAPI-1.2.0-6c56a9.zip",
     "type": "zip",
-    "sha1": "ae1fd482def95c9e03381a2d9ee550073f50abf5"
+    "sha1": "b6a5af840aa5667631a45f5ba583df49687f1eb4"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingDeviceDetectionNetworkPlugAPI.xcframework"

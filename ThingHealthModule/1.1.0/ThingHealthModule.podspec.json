@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthModule-1.1.0-d20d87.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthModule-1.1.0-5ecdab.zip",
     "type": "zip",
-    "sha1": "4807e60f932107b82d6c91fa8cfc7a533964822f"
+    "sha1": "4d0a10ed0e73fa6133137ea78727bac3f4e7d379"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,13 +22,7 @@
   ],
   "pod_target_xcconfig": {
     "THING_PRIVACY_USAGE_DESCRIPTION": "NSHealthShareUsageDescription NSHealthUpdateUsageDescription ",
-    "THING_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.healthkit",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.healthkit"
   },
   "preserve_paths": [
 

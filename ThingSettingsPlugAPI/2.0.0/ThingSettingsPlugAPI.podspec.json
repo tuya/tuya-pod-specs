@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSettingsPlugAPI-2.0.0-2b2dff.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSettingsPlugAPI-2.0.0-a57401.zip",
     "type": "zip",
-    "sha1": "fa60a30dcb245d4e456cd448712d3e3058231331"
+    "sha1": "b10a899f0d3bc9ab26d3344127f14b494e9385ea"
   },
   "platforms": {
     "ios": "11.0"
@@ -19,14 +19,6 @@
     "ThingSmartUserCenterPlugAPI": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

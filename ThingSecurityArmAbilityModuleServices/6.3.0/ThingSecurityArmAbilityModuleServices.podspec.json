@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSecurityArmAbilityModuleServices-6.3.0-a0659f.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSecurityArmAbilityModuleServices-6.3.0-8c635d.zip",
     "type": "zip",
-    "sha1": "7b20216b4d72e122afb681cb4a17659514a861c7"
+    "sha1": "41d4b602ef82839f9e71eb39b64571e4a4430161"
   },
   "platforms": {
     "ios": "11.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

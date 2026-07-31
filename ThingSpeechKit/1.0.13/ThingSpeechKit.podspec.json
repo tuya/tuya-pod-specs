@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpeechKit-1.0.13-3f0a6a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpeechKit-1.0.13-b83bb9.zip",
     "type": "zip",
-    "sha1": "2d2f218c9f13d6ed1b8e03ae9135532bf12b0f52"
+    "sha1": "f1d5df145f14b214f528f24072b1e8d2ceea034b"
   },
   "platforms": {
     "ios": "12.0"
@@ -54,14 +54,6 @@
     "ThingSmartUtil": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
     "weak_deps.json"

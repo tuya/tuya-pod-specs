@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailSktAPI-1.2.0.1-ac4535.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailSktAPI-1.2.0-63935e.zip",
     "type": "zip",
-    "sha1": "d891dc55688252d27dfc3a8df75d5c92912d0dab"
+    "sha1": "9302b0f78be3f231307fb335a4ce936fd96e5aa7"
   },
   "platforms": {
     "ios": "9.0"
@@ -19,14 +19,6 @@
     "ThingSmartDeviceCoreKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingDeviceDetailSktAPI.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPanelLink-1.0.0-40c5f6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPanelLink-1.0.0-42789a.zip",
     "type": "zip",
-    "sha1": "e7cedf84d7f5c546f528f74af86cf60060b32534"
+    "sha1": "687015d22e880820f4bf0a62136cd250b285ed8a"
   },
   "platforms": {
     "ios": "9.0"
@@ -31,14 +31,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingSmartPanelLink.xcframework"

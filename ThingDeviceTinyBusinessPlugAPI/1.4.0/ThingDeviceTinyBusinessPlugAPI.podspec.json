@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTinyBusinessPlugAPI-1.4.0-0dbd36.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTinyBusinessPlugAPI-1.4.0-3b3717.zip",
     "type": "zip",
-    "sha1": "ddbbf90edfb2fec4b0608f1475c801ba567caf4f"
+    "sha1": "d0fb712356403e0d2cfba8b63dedd461d2106a42"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

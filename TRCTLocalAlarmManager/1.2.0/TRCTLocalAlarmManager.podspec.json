@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLocalAlarmManager-1.2.0-8c7bcc.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLocalAlarmManager-1.2.0-57cdc9.zip",
     "type": "zip",
-    "sha1": "428debb61cfc65e8be7382397405d50ae0970135"
+    "sha1": "16d0961e5ce5eb9c2ec4084b43b0128fd647a4dd"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTLocalAlarmManager.xcframework"

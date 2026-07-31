@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSlider-1.1.0-anonymize.1-ecb200.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSlider-1.1.0-anonymize.1-b5c21f.zip",
     "type": "zip",
-    "sha1": "0014544d1cf9af6d1f5f6fbba5a30f30eda769f4"
+    "sha1": "d91531ffa8d07d0121a403bae8362711609caf10"
   },
   "platforms": {
     "ios": "9.0"
@@ -25,14 +25,6 @@
     "ThingSmartBusinessLibrary": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTSlider.xcframework"

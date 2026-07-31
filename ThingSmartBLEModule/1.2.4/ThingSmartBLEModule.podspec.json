@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBLEModule-1.2.4-8b7969.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBLEModule-1.2.4-93a212.zip",
     "type": "zip",
-    "sha1": "47bf12cb9ba52bd41f7c8b95f0ac5e3dbe88f293"
+    "sha1": "e17d27bef9fa572fb080ab0557098d3e7109498c"
   },
   "platforms": {
     "ios": "11.0"
@@ -34,14 +34,6 @@
     "ThingConfigHub": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

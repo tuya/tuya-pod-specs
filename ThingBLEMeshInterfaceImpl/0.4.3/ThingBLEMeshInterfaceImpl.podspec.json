@@ -8,17 +8,15 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEMeshInterfaceImpl-0.4.3-225b5a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEMeshInterfaceImpl-0.4.3-3ceb02.zip",
     "type": "zip",
-    "sha1": "aac2eb3da74ca63e4b7d0acd85fdabd86da95f65"
+    "sha1": "16d75987dbe286f218b43564c8ae0854ca896bbb"
   },
   "platforms": {
     "ios": "11.0"
   },
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
   },
   "dependencies": {
     "ThingBluetoothInterface": [
@@ -39,10 +37,6 @@
     "ThingSmartUtil": [
 
     ]
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

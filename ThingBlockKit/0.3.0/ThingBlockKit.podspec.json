@@ -8,23 +8,15 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBlockKit-0.3.0.1-756102.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBlockKit-0.3.0-8624a0.zip",
     "type": "zip",
-    "sha1": "70be02665ec1470ec82824b92f926c1791b95b2c"
+    "sha1": "2b722aa862b467656679cce0f5a41117db6449cb"
   },
   "platforms": {
     "ios": "8.0"
   },
   "module_name": "BlocksKit",
   "header_dir": "BlocksKit",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "preserve_paths": [
 
   ],

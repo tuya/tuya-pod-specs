@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMusicManager-2.2.1-743811.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMusicManager-2.2.1-5c5220.zip",
     "type": "zip",
-    "sha1": "f6b427c3cbc01a8dd65f3eafdec04ab88d1cc4df"
+    "sha1": "1e443033784e737dbf28d73882d17a705b33c7d7"
   },
   "platforms": {
     "ios": "11.0"
@@ -24,14 +24,6 @@
     ]
   },
   "frameworks": "AVFoundation",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "vendored_frameworks": [
     "TRCTMusicManager.xcframework"
   ],

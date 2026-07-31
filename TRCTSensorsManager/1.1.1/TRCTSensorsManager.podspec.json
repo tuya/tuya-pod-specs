@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSensorsManager-1.1.1-60ce07.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSensorsManager-1.1.1-ae0c04.zip",
     "type": "zip",
-    "sha1": "f08c79b4f9d56d314918583aa2c807d13c5e78a2"
+    "sha1": "6d20d73f79c6f2189c18fb9a058c3fdfb1d13fe9"
   },
   "platforms": {
     "ios": "11.0"
@@ -22,14 +22,6 @@
     "ThingSensorsManager": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTSensorsManager.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.2-anonymize.1-aba6a3.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.2-anonymize.1-3b449a.zip",
     "type": "zip",
-    "sha1": "8b6307130794bb7850e1fcbd74121c7f3c810932"
+    "sha1": "38ec8a1ebecf029547a084882fd52e1ce40ed8b8"
   },
   "platforms": {
     "ios": "9.0"
@@ -45,14 +45,6 @@
     ]
   },
   "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "vendored_frameworks": [
     "ThingJailbreakDetectModule.xcframework"
   ],

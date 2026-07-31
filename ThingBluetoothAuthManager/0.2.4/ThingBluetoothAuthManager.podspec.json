@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothAuthManager-0.2.4-32a366.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothAuthManager-0.2.4-0fa712.zip",
     "type": "zip",
-    "sha1": "8781f19753fefab9febeec186e2dfb3a4b87cb29"
+    "sha1": "3aa2716cf3240fd34f5d802cd77112ba5d3edf72"
   },
   "platforms": {
     "ios": "11.0"
@@ -34,14 +34,6 @@
       "ENABLE_BITCODE": "YES",
       "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
     }
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingBluetoothAuthManager.xcframework"

@@ -8,23 +8,15 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTarKit-1.1.1-438a93.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTarKit-1.1.1-9a66f3.zip",
     "type": "zip",
-    "sha1": "b75db71697893579b3be6f74c22cbf4947edbee4"
+    "sha1": "f8ff5eada9bbf60e2d6c47198e0c38426e7337a2"
   },
   "platforms": {
     "ios": "6.0"
   },
   "requires_arc": true,
   "libraries": "z",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "vendored_frameworks": [
     "ThingTarKit.xcframework"
   ],

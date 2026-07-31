@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSwitch-1.1.0-anonymize.1-aa7714.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSwitch-1.1.0-anonymize.1-6aa82a.zip",
     "type": "zip",
-    "sha1": "ec7583606883a2a24a374baa9bf761062ccf31c3"
+    "sha1": "8317702ec7119c3067905a1ec7e4ae2a24134783"
   },
   "platforms": {
     "ios": "9.0"
@@ -19,14 +19,6 @@
     "ThingPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTSwitch.xcframework"

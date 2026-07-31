@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelBundleManager-3.7.0-35a141.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelBundleManager-3.7.0-a724b4.zip",
     "type": "zip",
-    "sha1": "dbc3c9d42015e7260a6a91b2bd5a09c46c0bb58c"
+    "sha1": "9f99a9c0c3d4c83381e9dbd2c64e54dd60a4e702"
   },
   "platforms": {
     "ios": "11.0"
@@ -51,14 +51,6 @@
     ]
   },
   "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingPanelBundleManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingPanelBundleManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingPanelBundleManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingPanelBundleManager\", ##__VA_ARGS__)",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "preserve_paths": [
     "weak_deps.json"
   ],

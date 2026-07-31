@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageDynamicBiz-0.2.0-58b9ae.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageDynamicBiz-0.2.0-808f53.zip",
     "type": "zip",
-    "sha1": "4365b89cc73908e12890602a2eb9adfacf27c09b"
+    "sha1": "a0275f942b7471ba641f67c702d6d98dd248b7e6"
   },
   "platforms": {
     "ios": "9.0"
@@ -40,14 +40,6 @@
     "ThingLanguageGroupInterface": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

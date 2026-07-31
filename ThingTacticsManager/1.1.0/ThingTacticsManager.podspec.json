@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTacticsManager-1.1.0-4528b3.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTacticsManager-1.1.0-f50cb7.zip",
     "type": "zip",
-    "sha1": "b4022eeb11075189dc84167019236acca5a86fb2"
+    "sha1": "b6edde2af39ff6ff945ed7422863cbebb326deda"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingTacticsManager.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBTManager-1.1.1-c7be8a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBTManager-1.1.1-1e6ba4.zip",
     "type": "zip",
-    "sha1": "989daa9674b5a5a333b34e0c8bec145932e90bd5"
+    "sha1": "8463bdfbd0cc687999d925625e6719e09ec518a1"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTBTManager.xcframework"

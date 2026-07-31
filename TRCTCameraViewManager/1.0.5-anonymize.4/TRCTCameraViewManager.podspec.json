@@ -8,17 +8,15 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraViewManager-1.0.5-anonymize.4-0ea477.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraViewManager-1.0.5-anonymize.4-4db407.zip",
     "type": "zip",
-    "sha1": "6e16604f59faeed7e6dc86c34bb8e11cc8cb4df7"
+    "sha1": "e906c27b1985b51eadbc04c2e653f543afb6b020"
   },
   "platforms": {
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
   },
   "dependencies": {
     "ThingPanelContext": [
@@ -27,10 +25,6 @@
     "ThingCamCaptureKit": [
 
     ]
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTCameraViewManager.xcframework"

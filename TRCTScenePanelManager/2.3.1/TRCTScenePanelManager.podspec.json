@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTScenePanelManager-2.3.1-e445b5.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTScenePanelManager-2.3.1-3dd5a4.zip",
     "type": "zip",
-    "sha1": "355018441b4fe67551eca2c5927ff3d697cde79c"
+    "sha1": "c2f948efea19cf8cdff3164fc75becb04a621aec"
   },
   "platforms": {
     "ios": "11.0"
@@ -34,14 +34,6 @@
     "ThingUrlPredefined": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTScenePanelManager.xcframework"

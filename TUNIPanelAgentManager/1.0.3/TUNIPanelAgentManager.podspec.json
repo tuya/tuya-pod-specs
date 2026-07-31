@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPanelAgentManager-1.0.3-6bb704.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPanelAgentManager-1.0.3-01df40.zip",
     "type": "zip",
-    "sha1": "bc8441db1fc779c4726707e023252fb8ead66007"
+    "sha1": "d245adfd79ef5216eacdd326e0fff43f0492b0c3"
   },
   "platforms": {
     "ios": "11.0"
@@ -34,14 +34,6 @@
     "YYModel": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TUNIPanelAgentManager.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.2.0-ed402b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPublicBLELockIOSKit-1.2.0-c2c209.zip",
     "type": "zip",
-    "sha1": "14507c2921618327e20aa2ddebfbb8e1aa79d429"
+    "sha1": "c916417c2bdb337be633d83b09d93b580a147e8b"
   },
   "platforms": {
     "ios": "11.0"
@@ -61,13 +61,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationTemporaryUsageDescriptionDictionary",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationTemporaryUsageDescriptionDictionary"
   },
   "vendored_frameworks": [
     "ThingPublicBLELockIOSKit.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGestureLockViewManager-1.1.1-39044c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGestureLockViewManager-1.1.1-0787b4.zip",
     "type": "zip",
-    "sha1": "fcf1830a8804cead30d2f2f1eee36bd53107c9c2"
+    "sha1": "674b2599ef2a3966c6199536346a76239d69d8d2"
   },
   "platforms": {
     "ios": "11.0"
@@ -22,14 +22,6 @@
     "ATGestureLockView": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTGestureLockViewManager.xcframework"

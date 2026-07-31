@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThingCameraPlayer-1.2.3-anonymize.3-ab963d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThingCameraPlayer-1.2.3-anonymize.3-61059a.zip",
     "type": "zip",
-    "sha1": "e51254a0632b8f6dd4777418115c17931c8ad343"
+    "sha1": "2a7b75cfa4de783ae6513c90954bd9d01019e3a7"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingCameraRNPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTThingCameraPlayer.xcframework"

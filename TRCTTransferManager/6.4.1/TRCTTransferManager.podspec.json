@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTransferManager-6.4.1-a64b27.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTransferManager-6.4.1-a38419.zip",
     "type": "zip",
-    "sha1": "bd650120f38015f5113318dfb274e21630d8fcbf"
+    "sha1": "6d10c6e1840654c5c9a252fe3831534a3abbc909"
   },
   "platforms": {
     "ios": "11.0"
@@ -37,14 +37,6 @@
     "YYModel": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTTransferManager.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPBTBridgeManager-1.7.0-45b9c6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPBTBridgeManager-1.7.0-36a393.zip",
     "type": "zip",
-    "sha1": "da4a478f869a45f19f825e3a7083d134fe167e9e"
+    "sha1": "d4559e4771f866c264ef160aec386f8c6873b474"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingUIKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTPBTBridgeManager.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoCipper-1.1.0-56043d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoCipper-1.1.0-68f5f0.zip",
     "type": "zip",
-    "sha1": "e7ba8930c2d7d91dd88d4b98d36d153cd657f6e0"
+    "sha1": "795cd9060c1efbed0078e58ab809a48ecff81571"
   },
   "platforms": {
     "ios": "9.0"
@@ -40,14 +40,6 @@
     "ThingProgressHUD": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingVideoCipper.xcframework"

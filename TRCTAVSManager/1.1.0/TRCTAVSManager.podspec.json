@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAVSManager-1.1.0-9514db.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAVSManager-1.1.0-a646f5.zip",
     "type": "zip",
-    "sha1": "a0c552299127e47e534b61ee4b3b89737db4fe6f"
+    "sha1": "64c0acd31d0f931411057fcbacbd06b47c0c27bf"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingLoginWithAmzSDK": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTAVSManager.xcframework"

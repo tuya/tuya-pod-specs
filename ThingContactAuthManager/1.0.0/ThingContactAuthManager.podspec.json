@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingContactAuthManager-1.0.0-95d58b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingContactAuthManager-1.0.0-27e99d.zip",
     "type": "zip",
-    "sha1": "7b12e852c9f7d7895b505e830f798964a68b0b5e"
+    "sha1": "305f194dc23b01d6f7f008e68a8e417248c26921"
   },
   "platforms": {
     "ios": "11.0"
@@ -24,13 +24,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSContactsUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSContactsUsageDescription"
   },
   "vendored_frameworks": [
     "ThingContactAuthManager.xcframework"

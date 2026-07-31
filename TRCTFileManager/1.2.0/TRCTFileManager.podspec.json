@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFileManager-1.2.0-eab15e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFileManager-1.2.0-989b31.zip",
     "type": "zip",
-    "sha1": "ab2a27a9750cf17761342088f160ea3dd68d3206"
+    "sha1": "71e7c40fd561a02cdf8f834566aef5aa05145a43"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingSmartDocumentManager": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTFileManager.xcframework"

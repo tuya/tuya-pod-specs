@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiLineChartView-1.1.0-8d8014.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiLineChartView-1.1.0-b68320.zip",
     "type": "zip",
-    "sha1": "245251db168a58a8aab77f953713920b5a1b3116"
+    "sha1": "445b9d4d5894fee2f1c5b0809f526769405bcf6f"
   },
   "platforms": {
     "ios": "11.0"
@@ -22,14 +22,6 @@
     "ThingUIKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTMultiLineChartView.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthManager-1.3.1-anonymize.1-744c1b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHealthManager-1.3.1-anonymize.1-6c4945.zip",
     "type": "zip",
-    "sha1": "99b6a1b7e56cc6a228b56948622ca8d1ce008560"
+    "sha1": "7efe8cc6a8e843eedc744fa299f643f5249238ca"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingSmartUtil": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTHealthManager.xcframework"

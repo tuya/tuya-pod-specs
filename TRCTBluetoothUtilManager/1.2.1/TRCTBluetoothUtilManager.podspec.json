@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBluetoothUtilManager-1.2.1-4bc90c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBluetoothUtilManager-1.2.1-3472e4.zip",
     "type": "zip",
-    "sha1": "44391d0a593c0ac2ab5a74de4bd9914c32905b59"
+    "sha1": "475c9ad3345d32cba4b13d3a77d204192e611bf8"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingModuleManager": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTBluetoothUtilManager.xcframework"

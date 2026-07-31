@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleTimerManager-1.2.1-anonymize.3-819ab8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleTimerManager-1.2.1-anonymize.3-2d6011.zip",
     "type": "zip",
-    "sha1": "3f4327bf7c3973ef9c0f0d83bf816a98b302b806"
+    "sha1": "f6d4055148a3d4573a0dd8e3f6b371d6ce330315"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,14 +22,6 @@
     "ThingTimerModule": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTBleTimerManager.xcframework"

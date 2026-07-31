@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTabPagingView-1.0.8-anonymize.1-58b4f3.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTabPagingView-1.0.8-anonymize.1-b8f4f0.zip",
     "type": "zip",
-    "sha1": "2f957de567e4e2bb677d4ef751e38b0604849e26"
+    "sha1": "73e745c5ab59e839d22717ca1604e3060308e0da"
   },
   "platforms": {
     "ios": "9.0"
@@ -30,14 +30,6 @@
     ]
   },
   "prefix_header_contents": "#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "vendored_frameworks": [
     "ThingTabPagingView.xcframework"
   ],

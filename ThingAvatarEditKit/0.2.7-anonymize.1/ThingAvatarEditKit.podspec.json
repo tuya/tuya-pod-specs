@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.7-anonymize.1-fe56ef.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.7-anonymize.1-f3a371.zip",
     "type": "zip",
-    "sha1": "88fedc811d20b6aaac9f76f42cfb7ba012194c27"
+    "sha1": "9c182aaa444390d76634768b604fa5ff9cffc641"
   },
   "platforms": {
     "ios": "9.0"
@@ -41,14 +41,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingAvatarEditKit.xcframework"

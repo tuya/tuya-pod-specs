@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTChartsManager-3.1.0-e04764.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTChartsManager-3.1.0-c0fbca.zip",
     "type": "zip",
-    "sha1": "7d5ca2268492b3576f739c30d39b706291df13ce"
+    "sha1": "10c6f81a000fa0664acf1ab6eed78f8e8f09a4f2"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingModuleServices": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTChartsManager.xcframework"

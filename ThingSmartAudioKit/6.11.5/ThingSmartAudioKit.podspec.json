@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAudioKit-6.11.5-0a9ce6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAudioKit-6.11.5-19c876.zip",
     "type": "zip",
-    "sha1": "05a8721c44dcc50728c7d305e74d5c5df77eb8ca"
+    "sha1": "1bdb7afb9e1feac26d0262271df31c803920cea7"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingLogMacro": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
     "weak_deps.json"

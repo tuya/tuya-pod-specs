@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ATGestureLockView-0.2.3-anonymize.1-88dbda.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ATGestureLockView-0.2.3-anonymize.1-4860bd.zip",
     "type": "zip",
-    "sha1": "e40420f2fe148c8dcbd9cd397abb5fc1ca0e7d9f"
+    "sha1": "b49cf3babed242933fb580d302e72144456eaa0f"
   },
   "platforms": {
     "ios": "9.0"
@@ -30,14 +30,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ATGestureLockView.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetPoolModule-1.6.4-fe33c3.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetPoolModule-1.6.4-b1da98.zip",
     "type": "zip",
-    "sha1": "1d26aa9cab81e8b88740137409db7414169b2c1a"
+    "sha1": "63cb45ee88cb9d45fd8b4f164ed2d9890f2c9199"
   },
   "platforms": {
     "ios": "11.0"
@@ -71,14 +71,6 @@
     "ThingDeviceDetailKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

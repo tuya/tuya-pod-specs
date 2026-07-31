@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioPlayerManager-1.1.2-120239.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioPlayerManager-1.1.2-71179c.zip",
     "type": "zip",
-    "sha1": "2dece05f3b345d330c2f966b1335b6366fabd268"
+    "sha1": "e18008019e982981aaf7968867688ee3ef154947"
   },
   "platforms": {
     "ios": "11.0"
@@ -19,14 +19,6 @@
     "ThingPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTAudioPlayerManager.xcframework"

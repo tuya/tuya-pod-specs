@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBleGatewayService-0.0.5-anonymize.1-af53cd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBleGatewayService-0.0.5-anonymize.1-39024c.zip",
     "type": "zip",
-    "sha1": "06591d748d9dc1af00cfef90a8fb8bfdfcced127"
+    "sha1": "5ea5a07e7353d599b0c5a88a6be844ef88af76c0"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingBluetoothInterface": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingBleGatewayService.xcframework"

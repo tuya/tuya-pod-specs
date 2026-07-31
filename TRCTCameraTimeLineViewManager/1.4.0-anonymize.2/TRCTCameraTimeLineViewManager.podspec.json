@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraTimeLineViewManager-1.4.0-anonymize.2-de87ee.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraTimeLineViewManager-1.4.0-anonymize.2-28d644.zip",
     "type": "zip",
-    "sha1": "c036dca07e461113edc25a68d146dc28bd9c1893"
+    "sha1": "853cfa4438faf012fd8a1a8e6fc9e78bdfffec15"
   },
   "platforms": {
     "ios": "9.0"
@@ -25,14 +25,6 @@
     "ThingCameraRNPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTCameraTimeLineViewManager.xcframework"

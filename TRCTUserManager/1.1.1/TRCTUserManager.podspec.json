@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTUserManager-1.1.1-15801a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTUserManager-1.1.1-9fddaf.zip",
     "type": "zip",
-    "sha1": "aaf9d23720935e31b74ad9908e45fa2295fc38e5"
+    "sha1": "236756fa95c333e0fd61d6c1a5ba3460d1aca6e1"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingModuleServices": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTUserManager.xcframework"

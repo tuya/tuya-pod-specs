@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUrlPredefined-0.3.3-ad1b6d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUrlPredefined-0.3.3-2d89d9.zip",
     "type": "zip",
-    "sha1": "0c597247edb9df9c317c019bc71ef5b930a39785"
+    "sha1": "6e10cf27ecab05b7ebb083a3a81ada22ceddeb4b"
   },
   "platforms": {
     "ios": "11.0"
@@ -19,14 +19,6 @@
     "ThingUrlPredefinedExternal": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingUrlPredefined.xcframework"

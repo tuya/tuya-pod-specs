@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncControlModule-1.6.0.1-74ed0c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncControlModule-1.6.0-2768fc.zip",
     "type": "zip",
-    "sha1": "98039ce0fa2d8997a46ea73519a239dba5c72f95"
+    "sha1": "ad6583dd474c176e563cf73634950dc79df605db"
   },
   "platforms": {
     "ios": "9.0"
@@ -46,14 +46,6 @@
     "ThingOEMConfig": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingDeviceSyncControlModule.xcframework"

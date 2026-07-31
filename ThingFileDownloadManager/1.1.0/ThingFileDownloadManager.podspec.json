@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileDownloadManager-1.1.0-3ff1d6.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileDownloadManager-1.1.0-f4becd.zip",
     "type": "zip",
-    "sha1": "09c39fdfea71c156486f3e7009f7336e35570d1b"
+    "sha1": "f3420f139f9164e19ea70c7c26e6e04e6312cbe8"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingFileDownloadManager.xcframework"

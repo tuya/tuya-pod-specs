@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDigitalFunBitmapView-1.0.3-anonymize.1-16c339.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDigitalFunBitmapView-1.0.3-anonymize.1-35d681.zip",
     "type": "zip",
-    "sha1": "521edc0f1f26ee04bda338f7a478d7c93745ef45"
+    "sha1": "2ec3f8b99e5c137461d3ae0af9bcf68bfacf67c4"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,14 +22,6 @@
     "ThingUIKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTDigitalFunBitmapView.xcframework"

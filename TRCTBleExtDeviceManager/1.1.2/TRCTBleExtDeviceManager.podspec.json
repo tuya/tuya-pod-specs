@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleExtDeviceManager-1.1.2-5b197b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleExtDeviceManager-1.1.2-0b1ee7.zip",
     "type": "zip",
-    "sha1": "203143871d2342e4501d679a7d5fce940c75d759"
+    "sha1": "c4c21629bd897c40ad152ef9cb06022bf9e260d5"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingModuleServices": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTBleExtDeviceManager.xcframework"

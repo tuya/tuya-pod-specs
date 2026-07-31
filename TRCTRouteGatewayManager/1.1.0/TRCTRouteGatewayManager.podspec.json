@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRouteGatewayManager-1.1.0-12b93d.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRouteGatewayManager-1.1.0-f90349.zip",
     "type": "zip",
-    "sha1": "a206c049eed943c34d11140c4b989985cbabf037"
+    "sha1": "af802c925669509c40444a4aee15613deb4ca50f"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingBusinessService": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTRouteGatewayManager.xcframework"

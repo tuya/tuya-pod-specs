@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraModuleSKYEventModule-5.0.3-dd533c.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraModuleSKYEventModule-5.0.3-f73869.zip",
     "type": "zip",
-    "sha1": "adf75d5286d180a70648e6af6c204b23c1ebe93d"
+    "sha1": "389ff6a28f883fa48c7f11ecfbd35e7d7939cf66"
   },
   "platforms": {
     "ios": "11.0"
@@ -44,14 +44,6 @@
     "ThingSmartBaseKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingCameraModuleSKYEventModule.xcframework"

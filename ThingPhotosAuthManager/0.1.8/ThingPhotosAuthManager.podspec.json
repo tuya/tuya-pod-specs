@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotosAuthManager-0.1.8-d1ead4.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotosAuthManager-0.1.8-5257e8.zip",
     "type": "zip",
-    "sha1": "ee63090fac604b8966be320334d1ca558eea2a48"
+    "sha1": "d90b740defe504208f01933e293d27a3793faf6f"
   },
   "platforms": {
     "ios": "11.0"
@@ -24,13 +24,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription"
   },
   "vendored_frameworks": [
     "ThingPhotosAuthManager.xcframework"

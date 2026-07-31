@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMicrophoneAuthManager-0.1.5-90dcb0.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMicrophoneAuthManager-0.1.5-5f2626.zip",
     "type": "zip",
-    "sha1": "5f271c85e89d1c7d553907128eee63f4aed283d2"
+    "sha1": "feb805dfb418883fee670481ac393bc10b9e503b"
   },
   "platforms": {
     "ios": "11.0"
@@ -24,13 +24,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription"
   },
   "vendored_frameworks": [
     "ThingMicrophoneAuthManager.xcframework"

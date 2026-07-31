@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTShareManager-1.2.3-anonymize.2-e8982b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTShareManager-1.2.3-anonymize.2-2abc13.zip",
     "type": "zip",
-    "sha1": "f55d665ec98ca8cb90b89894bf29b1e1148efefa"
+    "sha1": "5984fdf18d9f4d89551856efc57fac6782f3ce24"
   },
   "platforms": {
     "ios": "9.0"
@@ -19,14 +19,6 @@
     "ThingPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTShareManager.xcframework"

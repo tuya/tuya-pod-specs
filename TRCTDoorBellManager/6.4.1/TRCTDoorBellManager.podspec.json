@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDoorBellManager-6.4.1-783de8.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDoorBellManager-6.4.1-fcd938.zip",
     "type": "zip",
-    "sha1": "b577266b0a66e831531b537ba66cd007f077127d"
+    "sha1": "d5143aa581665dad78f47088b3b5ba5bea772fe8"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTDoorBellManager.xcframework"

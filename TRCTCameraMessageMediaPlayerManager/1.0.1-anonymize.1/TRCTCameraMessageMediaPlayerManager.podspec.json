@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageMediaPlayerManager-1.0.1-anonymize.1-ee828a.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageMediaPlayerManager-1.0.1-anonymize.1-f6771c.zip",
     "type": "zip",
-    "sha1": "13594b77c955fa386800b3fdc9d344ad45b0952a"
+    "sha1": "9839e87350ef913b42646d4d9d6adebe588282b7"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingCameraRNPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTCameraMessageMediaPlayerManager.xcframework"

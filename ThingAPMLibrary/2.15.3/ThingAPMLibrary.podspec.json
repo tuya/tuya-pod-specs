@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMLibrary-2.15.3-f22ddd.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMLibrary-2.15.3-160137.zip",
     "type": "zip",
-    "sha1": "29f008fbd571cc8b16aab0000aad12ad81e36705"
+    "sha1": "3697a5cdfa2551059c86497e6826bab52fbe48e0"
   },
   "platforms": {
     "ios": "11.0"
@@ -59,14 +59,6 @@
     "CoreGraphics",
     "WebKit"
   ],
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
   "preserve_paths": [
 
   ],

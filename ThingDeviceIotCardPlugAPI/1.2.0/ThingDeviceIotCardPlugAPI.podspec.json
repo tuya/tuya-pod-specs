@@ -8,20 +8,12 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceIotCardPlugAPI-1.2.0.1-43447b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceIotCardPlugAPI-1.2.0-323136.zip",
     "type": "zip",
-    "sha1": "df05e4235f907ea8e4545010fc2dc98166d0321d"
+    "sha1": "b502ba634efc7110f1edfa89048abe85a2d98c48"
   },
   "platforms": {
     "ios": "9.0"
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingDeviceIotCardPlugAPI.xcframework"

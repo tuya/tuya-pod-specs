@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.14-f2233e.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.14-bcc4c2.zip",
     "type": "zip",
-    "sha1": "a96de320709e45b0d7b02178907b617a2cb1fe5f"
+    "sha1": "47855ce53d576768b846ff90a9e187ca3a1d3a3b"
   },
   "platforms": {
     "ios": "11.0"
@@ -43,14 +43,6 @@
     "ThingLightCommonUI": [
       "ThingLightCommonUI/Assets/*.xcassets"
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

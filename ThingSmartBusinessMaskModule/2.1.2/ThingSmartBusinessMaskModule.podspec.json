@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessMaskModule-2.1.2-91e8c1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBusinessMaskModule-2.1.2-36a6ea.zip",
     "type": "zip",
-    "sha1": "7a3719671500425c3d8346802aa65628051fb085"
+    "sha1": "6e326d96f1b7ec4fb94804b26d7d3e9bb4c7ea40"
   },
   "platforms": {
     "ios": "11.0"
@@ -51,14 +51,6 @@
     "ThingCameraSktAPI": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

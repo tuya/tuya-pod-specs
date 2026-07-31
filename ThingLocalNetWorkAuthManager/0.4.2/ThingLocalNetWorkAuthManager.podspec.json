@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocalNetWorkAuthManager-0.4.2-a66891.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocalNetWorkAuthManager-0.4.2-21f96b.zip",
     "type": "zip",
-    "sha1": "29b2f9483ce816fe2d6c4f3bb8f99ec1b09a4270"
+    "sha1": "4279dc8a8831613c250f205be00fbc3d2cec1223"
   },
   "platforms": {
     "ios": "11.0"
@@ -27,13 +27,7 @@
     ]
   },
   "pod_target_xcconfig": {
-    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription"
   },
   "preserve_paths": [
     "weak_deps.json"

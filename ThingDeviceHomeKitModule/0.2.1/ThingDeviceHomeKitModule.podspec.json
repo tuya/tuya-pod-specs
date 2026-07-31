@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceHomeKitModule-0.2.1-140253.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceHomeKitModule-0.2.1-d61fd6.zip",
     "type": "zip",
-    "sha1": "e66598acb997dea77622723fce7692f32013605b"
+    "sha1": "372a3e5178e002eaf80bc88743bdbc23780c7c08"
   },
   "platforms": {
     "ios": "11.0"
@@ -60,14 +60,6 @@
     "ThingMatterHomekitInterface": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

@@ -7,9 +7,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSiriShortcutModule-1.4.2-2cb922.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSiriShortcutModule-1.4.2-b8db42.zip",
     "type": "zip",
-    "sha1": "12ecdd8c971142e8042205de86eb1313e2c4731a"
+    "sha1": "e33380c08e06428e0b901f8fd2789c04a75b0904"
   },
   "platforms": {
     "ios": "11.0"
@@ -51,14 +51,6 @@
     "ThingUIKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingSiriShortcutModule.xcframework"

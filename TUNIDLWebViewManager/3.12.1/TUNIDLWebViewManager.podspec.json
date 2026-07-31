@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLWebViewManager-3.12.1-a2dbbf.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDLWebViewManager-3.12.1-5f5693.zip",
     "type": "zip",
-    "sha1": "cbf038e58fd8d105be801938376a25e046538274"
+    "sha1": "9f27f30181e380e59974f4c2b81b04b9694b0c1e"
   },
   "platforms": {
     "ios": "11.0"
@@ -46,14 +46,6 @@
     "Masonry": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TUNIDLWebViewManager.xcframework"

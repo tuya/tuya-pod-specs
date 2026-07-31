@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNotificationsAuthManager-0.1.6-d5471b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNotificationsAuthManager-0.1.6-411bae.zip",
     "type": "zip",
-    "sha1": "da7404cf0bfacfeead9b93787174b360e20916dc"
+    "sha1": "747eb756fdec9bfda671da690e4c57538c6acfa7"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingOEMConfig": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

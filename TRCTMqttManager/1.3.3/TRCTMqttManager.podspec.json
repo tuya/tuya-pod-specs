@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMqttManager-1.3.3-f58aec.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMqttManager-1.3.3-0cecbd.zip",
     "type": "zip",
-    "sha1": "61026117f632cb9352ce9112e0b80742b3960a19"
+    "sha1": "9c8dd47adbe78238f92fcd36131c78e526160a97"
   },
   "platforms": {
     "ios": "11.0"
@@ -25,14 +25,6 @@
     "ThingPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTMqttManager.xcframework"

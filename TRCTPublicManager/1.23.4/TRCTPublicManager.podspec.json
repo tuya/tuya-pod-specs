@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicManager-1.23.4-4e1048.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicManager-1.23.4-5363fe.zip",
     "type": "zip",
-    "sha1": "4cefe4310ad033026135cb135470357f92c6905e"
+    "sha1": "f817de4e3aad48856cc7277859d43f9e46062de3"
   },
   "platforms": {
     "ios": "11.0"
@@ -55,14 +55,6 @@
     "ThingAuthorizationServices": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTPublicManager.xcframework"

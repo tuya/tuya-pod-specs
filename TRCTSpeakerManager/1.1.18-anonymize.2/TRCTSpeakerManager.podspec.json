@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSpeakerManager-1.1.18-anonymize.2-e31c7b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSpeakerManager-1.1.18-anonymize.2-975d76.zip",
     "type": "zip",
-    "sha1": "baa354dffd80a872f1ca626785d82cb5e8ad079d"
+    "sha1": "3dcf4a024c45eb4cc0d41481cfd981d147e0dadb"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTSpeakerManager.xcframework"

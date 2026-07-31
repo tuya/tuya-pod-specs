@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThemeManager-1.2.0-a86325.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThemeManager-1.2.0-640b07.zip",
     "type": "zip",
-    "sha1": "5ebbaaeae8520e058340b089fd0fae26df7cfa8e"
+    "sha1": "7ecc04b1f6457f51a66e5bacc063eb2165bc4c42"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingFoundationKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTThemeManager.xcframework"

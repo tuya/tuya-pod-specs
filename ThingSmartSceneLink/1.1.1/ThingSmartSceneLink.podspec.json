@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneLink-1.1.1-58ccca.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneLink-1.1.1-c17190.zip",
     "type": "zip",
-    "sha1": "aa0441e369c9e7358f089a92fedc0a9b76ebe686"
+    "sha1": "d61a2e232a94e70708e244e82743cb7daf7d6b3d"
   },
   "platforms": {
     "ios": "9.0"
@@ -34,14 +34,6 @@
     "ThingModuleServices": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingSmartSceneLink.xcframework"

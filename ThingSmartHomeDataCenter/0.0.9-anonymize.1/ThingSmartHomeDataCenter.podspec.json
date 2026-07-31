@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeDataCenter-0.0.9-anonymize.1-e5f707.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeDataCenter-0.0.9-anonymize.1-bf8068.zip",
     "type": "zip",
-    "sha1": "0da5b79a186b532070bf3fe50adb15e555add775"
+    "sha1": "b8bbfc238916cddf0af5a5ea822b0083e0834f3b"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,14 +28,6 @@
     "ThingOEMConfig": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "ThingSmartHomeDataCenter.xcframework"

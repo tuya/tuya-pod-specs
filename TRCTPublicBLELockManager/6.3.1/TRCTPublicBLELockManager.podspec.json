@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLELockManager-6.3.1-5c7d9b.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLELockManager-6.3.1-f3c563.zip",
     "type": "zip",
-    "sha1": "a727f6f81c0ebba3f7e42ae83265422db90e8594"
+    "sha1": "2b780e8b2d4c661f0d6d1c8cbad460495171e889"
   },
   "platforms": {
     "ios": "11.0"
@@ -20,14 +20,6 @@
     "ThingPublicBLELockIOSKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTPublicBLELockManager.xcframework"

@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGroupLink-1.5.0-7a3235.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGroupLink-1.5.0-e259ef.zip",
     "type": "zip",
-    "sha1": "696d3f4f6fa90ccfd2d4b14db0ec882421c0801c"
+    "sha1": "795ba6554e64a9539db335b25ab6793b820474a1"
   },
   "platforms": {
     "ios": "11.0"
@@ -28,14 +28,6 @@
     "ThingSmartDeviceKit": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [
 

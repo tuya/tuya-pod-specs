@@ -8,9 +8,9 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThirdMusicControl-1.0.1-anonymize.1-40fff2.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThirdMusicControl-1.0.1-anonymize.1-07abcc.zip",
     "type": "zip",
-    "sha1": "c7ea9a79ffbc6c749e8985592ba3389c92aad28b"
+    "sha1": "5a466f3e1d092ce6323425a0c7b4363088f35c3c"
   },
   "platforms": {
     "ios": "9.0"
@@ -19,14 +19,6 @@
     "ThingPanelContext": [
 
     ]
-  },
-  "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
-  },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
-    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
     "TRCTThirdMusicControl.xcframework"
