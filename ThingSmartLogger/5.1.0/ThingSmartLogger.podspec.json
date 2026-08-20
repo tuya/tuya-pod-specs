@@ -1,0 +1,28 @@
+{
+  "name": "ThingSmartLogger",
+  "version": "5.1.0",
+  "summary": "A short description of ThingSmartLogger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLogger-5.1.0-f9d6e6.zip",
+    "type": "zip",
+    "sha1": "6b744b50965d7752c28fa79a531631bbe811c0a4"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingSmartLogger.xcframework",
+    "ThingLogLibrary/Frameworks/mars.framework"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "cocoapods_version": ">= 1.10"
+}
