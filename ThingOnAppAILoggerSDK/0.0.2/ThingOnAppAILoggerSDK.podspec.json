@@ -1,0 +1,51 @@
+{
+  "name": "ThingOnAppAILoggerSDK",
+  "version": "0.0.2",
+  "summary": "ThingOnAppAILoggerSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOnAppAILoggerSDK-0.0.2-c86e44.zip",
+    "type": "zip",
+    "sha1": "c4082c8be73fcaa2b05d0dbd1bff8ccda998e2a2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingOnAppAILoggerSDK/**/Android/**/*.*",
+    "ThingOnAppAILoggerSDK/include/**/*.*"
+  ],
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingOnAppAILoggerSDK/Utils $(PODS_TARGET_SRCROOT)/ThingOnAppAILoggerSDK/CAPI $(PODS_TARGET_SRCROOT)/ThingOnAppAILoggerSDK/onappai-logger $(PODS_TARGET_SRCROOT)/ThingOnAppAILoggerSDK/include/sdplog",
+    "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": [
+    "Build/ThingOnAppAILoggerSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingOnAppAILoggerSDK.xcframework/ios-arm64/ThingOnAppAILoggerSDK.framework/Headers/*"
+  ]
+}
