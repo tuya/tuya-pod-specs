@@ -1,0 +1,129 @@
+{
+  "name": "ThingAudioRecordModule",
+  "version": "1.12.22",
+  "summary": "A short description of ThingAudioRecordModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioRecordModule-1.12.22-5e5ad1.zip",
+    "type": "zip",
+    "sha1": "dbe7ef6d06b47406c0388da95e748f83319f4661"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resources": [
+    "ThingAudioRecordModule/Assets/*.{png,json}"
+  ],
+  "dependencies": {
+    "ThingGptBLEApi": [
+
+    ],
+    "ThingOggPackerSDK": [
+
+    ],
+    "ThingOpusCodec": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "ThingAudioRecordInterface": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingAudioEngineSDK": [
+
+    ],
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartFileTransCoreKit": [
+
+    ],
+    "ThingSmartFileTransferKit": [
+
+    ],
+    "ThingSbcKit": [
+
+    ],
+    "ThingAudioRDXModuleInterface": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingAudioProcessSDK": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingSmartStreamChannelKit": [
+
+    ],
+    "ThingMP3CodecSDK": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingAIModelManagerIOS": [
+
+    ],
+    "ThingAudioCodecSDK": [
+
+    ],
+    "ThingAudioFileProcessSDK": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "ThingAudioRecordLivingActivityProtocol": [
+
+    ],
+    "ThingDynamicContainerPlugin": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAudioRecordModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
