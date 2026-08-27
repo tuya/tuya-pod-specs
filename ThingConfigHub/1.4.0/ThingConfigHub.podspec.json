@@ -1,0 +1,54 @@
+{
+  "name": "ThingConfigHub",
+  "version": "1.4.0",
+  "summary": "A short description of ThingConfigHub.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingConfigHub-1.4.0-ec6a89.zip",
+    "type": "zip",
+    "sha1": "f26a87c45445ebf063f9465c052c9acd3a4a9813"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingMachRegister": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingConfigHub.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
