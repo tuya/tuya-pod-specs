@@ -42,7 +42,7 @@
   "pod_target_xcconfig": {
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
     "DEFINES_MODULE": "YES",
-    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/ThingLibevent/libevent/include /Users/fengxiao/jk_short_ws/c9704ed2/src/libevent/include ${PODS_ROOT}/../../../libevent/include",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/ThingLibevent/libevent/include ${PODS_ROOT}/../../../libevent/include",
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "OTHER_LDFLAGS": "-all_load"
   },

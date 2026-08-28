@@ -42,7 +42,7 @@
   "pod_target_xcconfig": {
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
     "DEFINES_MODULE": "YES",
-    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/ThingLibevent/libevent/include /Users/app/jk_short_ws/1dff9f7f/src/libevent/include ${PODS_ROOT}/../../../libevent/include",
+    "HEADER_SEARCH_PATHS": "${PODS_ROOT}/ThingLibevent/libevent/include ${PODS_ROOT}/../../../libevent/include",
     "OTHER_LDFLAGS": "-all_load"
   },
   "vendored_frameworks": [
