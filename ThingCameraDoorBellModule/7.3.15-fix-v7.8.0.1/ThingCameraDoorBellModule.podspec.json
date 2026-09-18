@@ -1,0 +1,102 @@
+{
+  "name": "ThingCameraDoorBellModule",
+  "version": "7.3.15-fix-v7.8.0.1",
+  "summary": "A short description of ThingCameraDoorBellModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraDoorBellModule-7.3.15-fix-v7.8.0.1-bb1eeb.zip",
+    "type": "zip",
+    "sha1": "588a2ab3398182226c7af0d990c3b679f767e040"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "ThingCameraDoorBellModule": [
+      "ThingCameraDoorBellModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingSmartDoorLockModuleService": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingLanguageDynamicBiz": [
+
+    ],
+    "ThingCallMaintainModule": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "ThingAIModelManagerIOS": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ],
+    "ThingGestureRecognitionKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingCameraDoorBellModule\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraDoorBellModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
