@@ -1,0 +1,36 @@
+{
+  "name": "TUNIPhoneClipboardManager",
+  "version": "2.3.1",
+  "summary": "A short description of TUNIPhoneClipboardManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneClipboardManager-2.3.1-4725b9.zip",
+    "type": "zip",
+    "sha1": "49c3662ce80905134c449eaf3d923b1b2ac900b1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPhoneClipboardManager": [
+      "ios/TUNIPhoneClipboardManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneClipboardManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

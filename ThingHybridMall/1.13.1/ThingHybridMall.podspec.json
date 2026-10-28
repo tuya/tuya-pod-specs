@@ -1,0 +1,51 @@
+{
+  "name": "ThingHybridMall",
+  "version": "1.13.1",
+  "summary": "A short description of ThingHybridMall.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridMall-1.13.1-bceb66.zip",
+    "type": "zip",
+    "sha1": "f6e581513715002228bbdb0d4f0c10cc2c84095d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingHybridMall.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

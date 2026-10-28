@@ -1,0 +1,43 @@
+{
+  "name": "TRCTFaceAliveDetectManager",
+  "version": "1.2.3",
+  "summary": "A short description of TRCTFaceAliveDetectManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFaceAliveDetectManager-1.2.3-a62fc4.zip",
+    "type": "zip",
+    "sha1": "8f6618482e6d62ed5c4e5e2b42adbf0ba60329db"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingCamCaptureKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "SSZipArchive": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TRCTFaceAliveDetectManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TRCTFaceAliveDetectManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TRCTFaceAliveDetectManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TRCTFaceAliveDetectManager\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "TRCTFaceAliveDetectManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

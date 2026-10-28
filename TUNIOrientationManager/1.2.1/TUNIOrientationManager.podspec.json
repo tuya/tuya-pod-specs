@@ -1,0 +1,36 @@
+{
+  "name": "TUNIOrientationManager",
+  "version": "1.2.1",
+  "summary": "A short description of TUNIOrientationManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOrientationManager-1.2.1-40a029.zip",
+    "type": "zip",
+    "sha1": "a3f6ac55f6dec5b8affa1e9d96b46307c7ebc998"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIOrientationManager": [
+      "ios/TUNIOrientationManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIOrientationManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

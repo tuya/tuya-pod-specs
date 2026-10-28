@@ -1,0 +1,33 @@
+{
+  "name": "ThingAuthInterface",
+  "version": "0.2.3",
+  "summary": "A short description of ThingAuthInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAuthInterface-0.2.3-0120d4.zip",
+    "type": "zip",
+    "sha1": "5a5357250d856d6f60185d1f0974d19a71185965"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBluetoothAuthManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAuthInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

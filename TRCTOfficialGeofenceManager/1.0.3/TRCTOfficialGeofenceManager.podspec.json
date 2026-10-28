@@ -1,0 +1,42 @@
+{
+  "name": "TRCTOfficialGeofenceManager",
+  "version": "1.0.3",
+  "summary": "A short description of TRCTOfficialGeofenceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOfficialGeofenceManager-1.0.3-9630b4.zip",
+    "type": "zip",
+    "sha1": "6858a7f3e5de10a46acd29e9c387c6709ee5aeb1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTOfficialGeofenceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

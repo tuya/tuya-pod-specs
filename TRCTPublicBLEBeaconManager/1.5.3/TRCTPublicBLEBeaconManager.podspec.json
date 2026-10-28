@@ -1,0 +1,45 @@
+{
+  "name": "TRCTPublicBLEBeaconManager",
+  "version": "1.5.3",
+  "summary": "A short description of TRCTPublicBLEBeaconManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLEBeaconManager-1.5.3-167752.zip",
+    "type": "zip",
+    "sha1": "4d540acbcb10404cdf30ad5ea068e0c1211950ee"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartBeacon": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTPublicBLEBeaconManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

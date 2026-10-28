@@ -1,0 +1,48 @@
+{
+  "name": "TUNIBackgroundFetchManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIBackgroundFetchManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIBackgroundFetchManager-1.1.0-cf1ccf.zip",
+    "type": "zip",
+    "sha1": "ecb3aa3072b23fb856584280f49f1d5e6ae90464"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIBackgroundFetchManager": [
+      "ios/TUNIBackgroundFetchManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingDmicContainerAbilitiesAPI": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIBackgroundFetchManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

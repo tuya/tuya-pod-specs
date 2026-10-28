@@ -1,0 +1,39 @@
+{
+  "name": "ThingSmartAudioKit",
+  "version": "6.11.6",
+  "summary": "A short description of ThingSmartAudioKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartAudioKit-6.11.6-74d2c8.zip",
+    "type": "zip",
+    "sha1": "cf47335989ad57824c8d8a0fadb8895820e332c9"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSmartAudioKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

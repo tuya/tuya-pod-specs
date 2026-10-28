@@ -1,0 +1,33 @@
+{
+  "name": "ThingStorageLibrary",
+  "version": "1.7.1",
+  "summary": "A short description of ThingStorageLibrary.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingStorageLibrary-1.7.1-61e5bd.zip",
+    "type": "zip",
+    "sha1": "4175036eaf8ba60189a8b89531e2e7286cda9e6f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "FMDB/SQLCipher": [
+
+    ],
+    "UICKeyChainStore": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingStorageLibrary.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

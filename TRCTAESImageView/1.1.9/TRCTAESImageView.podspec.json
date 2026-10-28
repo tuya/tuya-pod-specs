@@ -1,0 +1,33 @@
+{
+  "name": "TRCTAESImageView",
+  "version": "1.1.9",
+  "summary": "A short description of TRCTAESImageView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAESImageView-1.1.9-47d4f7.zip",
+    "type": "zip",
+    "sha1": "13e4631cc192d2332befca2753952fa724212d63"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTAESImageView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

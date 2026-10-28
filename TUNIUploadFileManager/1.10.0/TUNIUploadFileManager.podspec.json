@@ -1,0 +1,36 @@
+{
+  "name": "TUNIUploadFileManager",
+  "version": "1.10.0",
+  "summary": "A short description of TUNIUploadFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIUploadFileManager-1.10.0-244edb.zip",
+    "type": "zip",
+    "sha1": "c3cd1aa3e106f1d31ee3900c9d91041efb6f12e7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIUploadFileManager": [
+      "ios/TUNIUploadFileManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIUploadFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

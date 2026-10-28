@@ -1,0 +1,65 @@
+{
+  "name": "ThingSpeechKit",
+  "version": "1.0.14",
+  "summary": "A short description of ThingSpeechKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpeechKit-1.0.14-b1d6a7.zip",
+    "type": "zip",
+    "sha1": "d50966bc557e1e0bd2785128c2b41bdce3fb9659"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "libraries": [
+    "icucore",
+    "c++",
+    "z"
+  ],
+  "resources": [
+    "ThingSpeechKit/Assets/**/*.{mp3}"
+  ],
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingAudioEngineSDK": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "SocketRocket": [
+
+    ],
+    "Protobuf": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSpeechKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

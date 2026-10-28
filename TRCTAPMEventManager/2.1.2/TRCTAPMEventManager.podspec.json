@@ -1,0 +1,27 @@
+{
+  "name": "TRCTAPMEventManager",
+  "version": "2.1.2",
+  "summary": "A short description of TRCTAPMEventManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAPMEventManager-2.1.2-7757b0.zip",
+    "type": "zip",
+    "sha1": "d2c4a0583ea9359313cb555e62de730c191cb38b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTAPMEventManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

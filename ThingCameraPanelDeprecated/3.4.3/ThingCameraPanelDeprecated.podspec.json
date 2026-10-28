@@ -1,0 +1,59 @@
+{
+  "name": "ThingCameraPanelDeprecated",
+  "version": "3.4.3",
+  "summary": "A short description of ThingCameraPanelDeprecated.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraPanelDeprecated-3.4.3-60ea02.zip",
+    "type": "zip",
+    "sha1": "e6d98634265ddf5c85b5508a97fd844cfcab9ffb"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "ThingCameraPanelDeprecated": [
+      "ThingCameraPanelDeprecated/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraPanelDeprecated.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

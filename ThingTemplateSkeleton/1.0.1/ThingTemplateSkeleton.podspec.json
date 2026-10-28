@@ -1,0 +1,46 @@
+{
+  "name": "ThingTemplateSkeleton",
+  "version": "1.0.1",
+  "summary": "A short description of ThingTemplateSkeleton.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTemplateSkeleton-1.0.1-dbc0d9.zip",
+    "type": "zip",
+    "sha1": "04fd4e87febd020a5237428da8be65ba7a6708b0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "libextobjc": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
+  "vendored_frameworks": [
+    "ThingTemplateSkeleton.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

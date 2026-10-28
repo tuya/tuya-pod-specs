@@ -1,0 +1,30 @@
+{
+  "name": "ThingDeviceTimerPlugAPI",
+  "version": "0.2.1",
+  "summary": "A short description of ThingDeviceTimerPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTimerPlugAPI-0.2.1-398bb4.zip",
+    "type": "zip",
+    "sha1": "831a96ab12f871e07d75059341cf8d9068ef6de8"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartTimerKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceTimerPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

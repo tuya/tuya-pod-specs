@@ -1,0 +1,44 @@
+{
+  "name": "TUNIInteractionManager",
+  "version": "2.0.0",
+  "summary": "A short description of TUNIInteractionManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIInteractionManager-2.0.0-5a1810.zip",
+    "type": "zip",
+    "sha1": "20f3e19b13e5335a21b4ed4af0ab61f8224369fd"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIInteractionManager": [
+      "ios/tuniinteractionmanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIInteractionManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

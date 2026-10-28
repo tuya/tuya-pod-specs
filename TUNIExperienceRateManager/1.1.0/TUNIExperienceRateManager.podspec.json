@@ -1,0 +1,39 @@
+{
+  "name": "TUNIExperienceRateManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIExperienceRateManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIExperienceRateManager-1.1.0-a5ec73.zip",
+    "type": "zip",
+    "sha1": "9ae78ca77a265cfac7b9c2e6fc371da997e0bca5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIExperienceRateManager": [
+      "ios/TUNIExperienceRateManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIExperienceRateManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

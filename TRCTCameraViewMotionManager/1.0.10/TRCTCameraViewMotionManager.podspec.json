@@ -1,0 +1,33 @@
+{
+  "name": "TRCTCameraViewMotionManager",
+  "version": "1.0.10",
+  "summary": "A short description of TRCTCameraViewMotionManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraViewMotionManager-1.0.10-deadd3.zip",
+    "type": "zip",
+    "sha1": "39f2358d216a9ee0ab91b7819a61d4febe451874"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingCamCaptureKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
+  },
+  "vendored_frameworks": [
+    "TRCTCameraViewMotionManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

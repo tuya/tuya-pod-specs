@@ -1,0 +1,37 @@
+{
+  "name": "ThingInterfaceConfig",
+  "version": "1.2.1",
+  "summary": "A short description of ThingInterfaceConfig.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingInterfaceConfig-1.2.1-d353a1.zip",
+    "type": "zip",
+    "sha1": "b05ff530139cee63717dc627e6388b21bc74eb50"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingTacticsManager": [
+
+    ],
+    "ThingFallLayout": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingInterfaceConfig\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingInterfaceConfig\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingInterfaceConfig\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingInterfaceConfig\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "ThingInterfaceConfig.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

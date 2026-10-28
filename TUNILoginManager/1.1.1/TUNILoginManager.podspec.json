@@ -1,0 +1,45 @@
+{
+  "name": "TUNILoginManager",
+  "version": "1.1.1",
+  "summary": "A short description of TUNILoginManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILoginManager-1.1.1-2356e4.zip",
+    "type": "zip",
+    "sha1": "556cebeccbecd2df43d1254d8d4163d3e121bdca"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNILoginManager": [
+      "ios/TUNILoginManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNILoginManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

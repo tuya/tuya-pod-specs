@@ -1,0 +1,22 @@
+{
+  "name": "ThingTacticsManager",
+  "version": "1.1.1",
+  "summary": "A short description of ThingTacticsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTacticsManager-1.1.1-d9888b.zip",
+    "type": "zip",
+    "sha1": "915dcaa8811aced9a106974b16cf93b48e21658a"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingTacticsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

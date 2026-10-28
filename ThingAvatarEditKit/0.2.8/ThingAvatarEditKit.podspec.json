@@ -1,0 +1,49 @@
+{
+  "name": "ThingAvatarEditKit",
+  "version": "0.2.8",
+  "summary": "A short description of ThingAvatarEditKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAvatarEditKit-0.2.8-7a7233.zip",
+    "type": "zip",
+    "sha1": "b6bce1f0853e74382722e35856fc0c90b78d9d51"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCropViewControllerBundle": [
+      "ThingAvatarEditKit/Assets/**/*.{png,lproj}"
+    ]
+  },
+  "frameworks": [
+    "Photos",
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAvatarEditKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

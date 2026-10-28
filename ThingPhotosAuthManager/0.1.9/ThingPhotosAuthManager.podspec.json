@@ -1,0 +1,33 @@
+{
+  "name": "ThingPhotosAuthManager",
+  "version": "0.1.9",
+  "summary": "A short description of ThingPhotosAuthManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotosAuthManager-0.1.9-f7549c.zip",
+    "type": "zip",
+    "sha1": "86e5ae7536ada98931f130c8abb2ec4e530806ed"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription"
+  },
+  "vendored_frameworks": [
+    "ThingPhotosAuthManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

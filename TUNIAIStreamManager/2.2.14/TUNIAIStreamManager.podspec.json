@@ -1,0 +1,51 @@
+{
+  "name": "TUNIAIStreamManager",
+  "version": "2.2.14",
+  "summary": "A short description of TUNIAIStreamManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAIStreamManager-2.2.14-f9b2ca.zip",
+    "type": "zip",
+    "sha1": "508e57f9641532862f78b6cc96f3d7808e86d2a9"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "TUNIAIStreamManager": [
+      "ios/TUNIAIStreamManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "SQLCipher": [
+
+    ],
+    "ThingSmartStreamChannelKit": [
+
+    ],
+    "ThingSmartStreamBizKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIAIStreamManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "TRCTCameraPlayer",
+  "version": "6.4.2",
+  "summary": "A short description of TRCTCameraPlayer.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraPlayer-6.4.2-ba7b3a.zip",
+    "type": "zip",
+    "sha1": "1c8e1a4fda03627767d6e49b96b5bf800c42ebd5"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCameraPlayer.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "ThingSiriShortcutModule",
+  "version": "1.4.3",
+  "summary": "A short description of ThingSiriShortcutModule.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSiriShortcutModule-1.4.3-be5d24.zip",
+    "type": "zip",
+    "sha1": "81cbe4683754e0df9da56788a27b3ff51d585ff6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSiriShortcutModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingSiriShortcutModule": [
+      "ThingSiriShortcutModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingIntentKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSiriShortcutModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "license": "none"
+}

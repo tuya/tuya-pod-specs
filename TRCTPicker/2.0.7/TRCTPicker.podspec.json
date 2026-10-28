@@ -1,0 +1,27 @@
+{
+  "name": "TRCTPicker",
+  "version": "2.0.7",
+  "summary": "A short description of TRCTPicker.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPicker-2.0.7-656de5.zip",
+    "type": "zip",
+    "sha1": "0055f98c0efb7aae5af997ff12d1300abf468467"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTPicker.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

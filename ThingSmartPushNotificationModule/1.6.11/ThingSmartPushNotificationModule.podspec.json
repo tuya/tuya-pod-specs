@@ -1,0 +1,60 @@
+{
+  "name": "ThingSmartPushNotificationModule",
+  "version": "1.6.11",
+  "summary": "公版的推送业务模块",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPushNotificationModule-1.6.11-d33c58.zip",
+    "type": "zip",
+    "sha1": "a19e1023f7888499bc0a885647a6db97d5836aae"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartPushNotificationModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingNotificationsAuthManager": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_CODE_SIGN_ENTITLEMENTS": "aps-environment"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartPushNotificationModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

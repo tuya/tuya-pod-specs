@@ -1,0 +1,39 @@
+{
+  "name": "ThingLanguageManager",
+  "version": "0.2.2",
+  "summary": "A short description of ThingLanguageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageManager-0.2.2-6a3661.zip",
+    "type": "zip",
+    "sha1": "176911ed1664b905e3d99de9c754826c66a4148b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLanguageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

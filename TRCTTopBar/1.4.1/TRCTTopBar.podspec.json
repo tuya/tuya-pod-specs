@@ -1,0 +1,36 @@
+{
+  "name": "TRCTTopBar",
+  "version": "1.4.1",
+  "summary": "A short description of TRCTTopBar.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTopBar-1.4.1-0e5ea3.zip",
+    "type": "zip",
+    "sha1": "030d299443a663ccbda1fb1cc393066613793165"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTTopBar.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

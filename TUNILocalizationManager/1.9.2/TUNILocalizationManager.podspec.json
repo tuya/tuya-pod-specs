@@ -1,0 +1,50 @@
+{
+  "name": "TUNILocalizationManager",
+  "version": "1.9.2",
+  "summary": "A short description of TUNILocalizationManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNILocalizationManager-1.9.2-23d2e8.zip",
+    "type": "zip",
+    "sha1": "c0a05c1bd50de664f3f841227c7d84c47ee36fdb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNILocalizationManager": [
+      "ios/tunilocalizationmanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "GZLMiniAppCore_iOS": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNILocalizationManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

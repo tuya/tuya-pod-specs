@@ -1,0 +1,27 @@
+{
+  "name": "ThingCmarkGfm",
+  "version": "0.0.3",
+  "summary": "A short description of ThingCmarkGfm.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCmarkGfm-0.0.3-338547.zip",
+    "type": "zip",
+    "sha1": "fbff6cb4e14785bf373771dd0b3f4afbfa184b8f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingCmarkGfm.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingCmarkGfm.xcframework/ios-arm64/ThingCmarkGfm.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "ThingDeviceSyncControlModule",
+  "version": "1.6.1",
+  "summary": "A short description of ThingDeviceSyncControlModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncControlModule-1.6.1-a7bb53.zip",
+    "type": "zip",
+    "sha1": "d9465d817c35d7730e64a667ef2e4f7507b95820"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceSyncControlModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

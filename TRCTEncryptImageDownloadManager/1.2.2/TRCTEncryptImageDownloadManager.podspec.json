@@ -1,0 +1,34 @@
+{
+  "name": "TRCTEncryptImageDownloadManager",
+  "version": "1.2.2",
+  "summary": "A short description of TRCTEncryptImageDownloadManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTEncryptImageDownloadManager-1.2.2-f95301.zip",
+    "type": "zip",
+    "sha1": "4a431d0fc27dce7f5da476f0454894419f13b121"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": "Photos",
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTEncryptImageDownloadManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

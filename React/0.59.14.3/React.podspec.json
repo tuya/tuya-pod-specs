@@ -1,0 +1,110 @@
+{
+  "name": "React",
+  "version": "0.59.14.3",
+  "summary": "A framework for building native apps using React",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/React-0.59.14.3-b5eed2.zip",
+    "type": "zip",
+    "sha1": "9e3c53c156606c04a15218c63ada47b94035a44c"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+    "package.json",
+    "LICENSE",
+    "LICENSE-docs",
+    "Libraries/Blob/*.js"
+  ],
+  "dependencies": {
+    "Folly": [
+
+    ],
+    "DoubleConversion": [
+
+    ],
+    "glog": [
+
+    ],
+    "boost-for-react-native": [
+      "1.63.0"
+    ],
+    "yoga": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingReactNativeAPI": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingNetworkAreaInterceptorAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "exclude_files": [
+    "**/__tests__/*",
+    "IntegrationTests/*",
+    "ReactCommon/yoga/*",
+    "React/Fabric/**/*",
+    "ReactCommon/cxxreact/SampleCxxModule.*"
+  ],
+  "ios": {
+    "exclude_files": "React/**/RCTTVView*.*"
+  },
+  "tvos": {
+    "exclude_files": [
+      "React/Modules/RCTClipboard*",
+      "React/Views/RCTDatePicker*",
+      "React/Views/RCTPicker*",
+      "React/Views/RCTRefreshControl*",
+      "React/Views/RCTSlider*",
+      "React/Views/RCTSwitch*",
+      "React/Views/RCTWebView*"
+    ]
+  },
+  "header_dir": "React",
+  "frameworks": [
+    "JavaScriptCore",
+    "UIKit",
+    "AVFoundation",
+    "CoreLocation",
+    "CoreText",
+    "MapKit",
+    "WebKit",
+    "ImageIO",
+    "MobileCoreServices",
+    "Accelerate",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "UserNotifications",
+    "AudioToolbox",
+    "Security",
+    "CFNetwork"
+  ],
+  "libraries": [
+    "stdc++",
+    "c++",
+    "z"
+  ],
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++14",
+    "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\" \"$(PODS_TARGET_SRCROOT)/ReactCommon/jsiexecutor\" \"$(PODS_ROOT)/boost-for-react-native\" \"$(PODS_ROOT)/DoubleConversion\" \"$(PODS_ROOT)/Folly\""
+  },
+  "vendored_frameworks": [
+    "React.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "ThingBusinessDeviceCore",
+  "version": "2.5.2",
+  "summary": "A short description of ThingBusinessDeviceCore.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessDeviceCore-2.5.2-d3bd74.zip",
+    "type": "zip",
+    "sha1": "6d044f5bb0dd16702b502729b0f37136f2ca7cf2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingDeviceOpRecInterface": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingBusinessDeviceCore.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "TUNIIAPManager",
+  "version": "2.1.0",
+  "summary": "A short description of TUNIIAPManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIIAPManager-2.1.0-fcb04f.zip",
+    "type": "zip",
+    "sha1": "165c9cfb30806a6bc298ac12e01858174bea830d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIIAPManager": [
+      "ios/TUNIIAPManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIIAPManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

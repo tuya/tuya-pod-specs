@@ -1,0 +1,47 @@
+{
+  "name": "TUNIRouterManager",
+  "version": "2.3.1",
+  "summary": "A short description of TUNIRouterManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRouterManager-2.3.1-209826.zip",
+    "type": "zip",
+    "sha1": "4d996a1de97f99c955377d4404e703656b247fd6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIRouterManager": [
+      "ios/tuniroutermanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingDeviceTimerPlugAPI": [
+
+    ],
+    "ThingDeviceDetailPlugAPI": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIRouterManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

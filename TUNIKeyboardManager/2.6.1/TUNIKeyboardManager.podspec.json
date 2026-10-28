@@ -1,0 +1,36 @@
+{
+  "name": "TUNIKeyboardManager",
+  "version": "2.6.1",
+  "summary": "A short description of TUNIKeyboardManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIKeyboardManager-2.6.1-ef1c33.zip",
+    "type": "zip",
+    "sha1": "73c8d8480d5f995155ef9dd2991e8478cbb305ec"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIKeyboardManager": [
+      "ios/TUNIKeyboardManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIKeyboardManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ThingAudioSpectrum",
+  "version": "2.1.2",
+  "summary": "A short description of ThingAudioSpectrum.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioSpectrum-2.1.2-476eaa.zip",
+    "type": "zip",
+    "sha1": "aa98ef755c0c619394596cd86bd7bdf338f62f3c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAudioSpectrum.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

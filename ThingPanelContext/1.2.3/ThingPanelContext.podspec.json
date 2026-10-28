@@ -1,0 +1,48 @@
+{
+  "name": "ThingPanelContext",
+  "version": "1.2.3",
+  "summary": "Thing面板上下文信息模块",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPanelContext-1.2.3-19b994.zip",
+    "type": "zip",
+    "sha1": "9484119b01fed0af5406e886fae4f72344a1e4e0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingPanelContext": [
+      "ThingPanelContext/Assets/*.{mp3}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPanelContext.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

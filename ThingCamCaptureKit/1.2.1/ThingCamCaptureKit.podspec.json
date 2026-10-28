@@ -1,0 +1,30 @@
+{
+  "name": "ThingCamCaptureKit",
+  "version": "1.2.1",
+  "summary": "A short description of ThingCamCaptureKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCamCaptureKit-1.2.1-dfe926.zip",
+    "type": "zip",
+    "sha1": "956af98c5f54c03321b2a23c2e20378b496309ba"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "CoreMedia"
+  ],
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
+  },
+  "vendored_frameworks": [
+    "ThingCamCaptureKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ThingNotificationsAuthManager",
+  "version": "0.1.7",
+  "summary": "A short description of ThingNotificationsAuthManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNotificationsAuthManager-0.1.7-e743c2.zip",
+    "type": "zip",
+    "sha1": "8879c5530c26d6c689ebcdf1294ee55fc7edfee0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingNotificationsAuthManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

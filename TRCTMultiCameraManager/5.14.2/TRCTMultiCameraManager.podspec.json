@@ -1,0 +1,63 @@
+{
+  "name": "TRCTMultiCameraManager",
+  "version": "5.14.2",
+  "summary": "A short description of TRCTMultiCameraManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiCameraManager-5.14.2-04a692.zip",
+    "type": "zip",
+    "sha1": "abf522c9724f93d7ebf05cf19207f9f023d1e9ec"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartPanoramaSDK": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTMultiCameraManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

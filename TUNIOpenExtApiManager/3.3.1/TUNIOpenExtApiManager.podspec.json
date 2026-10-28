@@ -1,0 +1,42 @@
+{
+  "name": "TUNIOpenExtApiManager",
+  "version": "3.3.1",
+  "summary": "A short description of TUNIOpenExtApiManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOpenExtApiManager-3.3.1-a8071d.zip",
+    "type": "zip",
+    "sha1": "6934af40698d7214a7a999e17fb0f313f7a35583"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIOpenExtApiManager": [
+      "ios/tuniopenextapimanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIOpenExtApiManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

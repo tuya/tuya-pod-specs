@@ -1,0 +1,33 @@
+{
+  "name": "TRCTIoTCardManager",
+  "version": "2.1.1",
+  "summary": "A short description of TRCTIoTCardManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTIoTCardManager-2.1.1-2a0198.zip",
+    "type": "zip",
+    "sha1": "d13660455fa0792adafc068d926f406098ebcacb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingDeviceIotCardPlugAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTIoTCardManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

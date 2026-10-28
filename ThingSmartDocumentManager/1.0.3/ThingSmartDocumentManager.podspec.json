@@ -1,0 +1,33 @@
+{
+  "name": "ThingSmartDocumentManager",
+  "version": "1.0.3",
+  "summary": "A short description of ThingSmartDocumentManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDocumentManager-1.0.3-e2a056.zip",
+    "type": "zip",
+    "sha1": "90a996486694b4c95f42e294c8bcb14e768c7786"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreLocation",
+    "AVFoundation",
+    "MediaPlayer"
+  ],
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartDocumentManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

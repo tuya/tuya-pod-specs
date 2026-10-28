@@ -1,0 +1,42 @@
+{
+  "name": "TRCTOutdoorManager",
+  "version": "1.0.10",
+  "summary": "A short description of TRCTOutdoorManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOutdoorManager-1.0.10-31b576.zip",
+    "type": "zip",
+    "sha1": "632097ae8446c717004be70a6987417189ff7a04"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTOutdoorManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

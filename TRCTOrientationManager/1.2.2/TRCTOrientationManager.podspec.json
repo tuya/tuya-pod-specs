@@ -1,0 +1,30 @@
+{
+  "name": "TRCTOrientationManager",
+  "version": "1.2.2",
+  "summary": "A short description of TRCTOrientationManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTOrientationManager-1.2.2-bbbb01.zip",
+    "type": "zip",
+    "sha1": "2d0432bbbbefe224be400cf1f62f5ae1270a946f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTOrientationManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

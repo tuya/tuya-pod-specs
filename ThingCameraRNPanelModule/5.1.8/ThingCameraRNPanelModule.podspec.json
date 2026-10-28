@@ -1,0 +1,57 @@
+{
+  "name": "ThingCameraRNPanelModule",
+  "version": "5.1.8",
+  "summary": "A short description of ThingCameraRNPanelModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraRNPanelModule-5.1.8-2cf112.zip",
+    "type": "zip",
+    "sha1": "9be2c5f6557d97ad0231f020183000cba1383dfd"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ],
+    "ThingCameraModuleSKYEventModule": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingPanelContainer": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraRNPanelModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "ThingCameraModuleSKYEventModule",
+  "version": "5.0.5",
+  "summary": "A short description of ThingCameraModuleSKYEventModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraModuleSKYEventModule-5.0.5-f6ad74.zip",
+    "type": "zip",
+    "sha1": "150e9eedd164f433bd0e8fbfbd33d9c785bbd24a"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "frameworks": "Foundation",
+  "dependencies": {
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingSmartP2pChannelKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCameraModuleSKYEventModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

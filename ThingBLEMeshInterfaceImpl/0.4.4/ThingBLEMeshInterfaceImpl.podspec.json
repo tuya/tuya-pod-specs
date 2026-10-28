@@ -1,0 +1,51 @@
+{
+  "name": "ThingBLEMeshInterfaceImpl",
+  "version": "0.4.4",
+  "summary": "A short description of ThingBLEMeshInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBLEMeshInterfaceImpl-0.4.4-f20cc9.zip",
+    "type": "zip",
+    "sha1": "349849d35dab871f17a4be7ed2d62b34a95fbb09"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
+  },
+  "dependencies": {
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBLEMeshKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingBLEMeshInterfaceImpl.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

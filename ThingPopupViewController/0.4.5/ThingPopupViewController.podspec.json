@@ -1,0 +1,40 @@
+{
+  "name": "ThingPopupViewController",
+  "version": "0.4.5",
+  "summary": "A short description of ThingPopupViewController.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPopupViewController-0.4.5-9afe3e.zip",
+    "type": "zip",
+    "sha1": "0d4db3e019f61b0468771497418dec175f5913c6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingPopupViewController.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

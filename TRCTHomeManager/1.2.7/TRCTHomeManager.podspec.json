@@ -1,0 +1,27 @@
+{
+  "name": "TRCTHomeManager",
+  "version": "1.2.7",
+  "summary": "A short description of TRCTHomeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHomeManager-1.2.7-7dfc74.zip",
+    "type": "zip",
+    "sha1": "54fc5fc2efa6a28c8b1fdd8aeefa903419a8daa5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTHomeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceAccessoryManagePlugAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingDeviceAccessoryManagePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceAccessoryManagePlugAPI-1.2.1-a667b1.zip",
+    "type": "zip",
+    "sha1": "7bb4903ef4a56cb3568e01111adbff6c601c59d7"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceAccessoryManagePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

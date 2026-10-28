@@ -1,0 +1,39 @@
+{
+  "name": "TUNIFileManager",
+  "version": "2.0.1",
+  "summary": "A short description of TUNIFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIFileManager-2.0.1-8a56a4.zip",
+    "type": "zip",
+    "sha1": "6d6c2cc36c3a7aaf2f536a70280ca72f47d611a2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "resource_bundles": {
+    "TUNIFileManager": [
+      "ios/TUNIFileManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "ThingSmartFamilyBizKit",
+  "version": "1.14.3",
+  "summary": "涂鸦组件模板",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartFamilyBizKit-1.14.3-127f0d.zip",
+    "type": "zip",
+    "sha1": "8f5f26ae15073a711d18e387d933c440b50910a5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSmartFamilyBizKit/Classes/PrefixHeader.pch",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingSpatialModuleAPI": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartFamilyBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

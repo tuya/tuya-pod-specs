@@ -1,0 +1,65 @@
+{
+  "name": "ThingVideoCodecSDK",
+  "version": "1.9.5",
+  "summary": "open SDK code for tuya video codec.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoCodecSDK-1.9.5-ab1e5f.zip",
+    "type": "zip",
+    "sha1": "8fe83c6621f94e64fb80c753386a41c0fc5a863f"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingVideoCodecSDK/**/Android/**/*.*",
+    "ThingVideoCodecSDK/Utils/rapidjson/msinttypes/*.*"
+  ],
+  "ios": {
+  },
+  "dependencies": {
+    "ThingFFmpegWrapper": [
+
+    ],
+    "ThingAvLoggerSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "OTHER_LDFLAGS": "-read_only_relocs suppress",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingVideoCodecSDK/Include/ffmpeg $(PODS_TARGET_SRCROOT)/ThingVideoCodecSDK/Include/openH264 $(PODS_TARGET_SRCROOT)/ThingVideoCodecSDK/Include/libyuv",
+    "ENABLE_BITCODE": "NO",
+    "STRIP_INSTALLED_PRODUCT": "YES"
+  },
+  "user_target_xcconfig": {
+    "STRIP_INSTALLED_PRODUCT": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingVideoCodecSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingVideoCodecSDK.xcframework/ios-arm64/ThingVideoCodecSDK.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ThingDeviceDetailSktAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingDeviceDetailSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailSktAPI-1.2.1-39c9fa.zip",
+    "type": "zip",
+    "sha1": "f64f0f9740d2960e44039150a203b24ec72cd203"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetailSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

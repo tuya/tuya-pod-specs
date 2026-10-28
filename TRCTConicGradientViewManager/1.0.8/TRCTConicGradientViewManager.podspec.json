@@ -1,0 +1,27 @@
+{
+  "name": "TRCTConicGradientViewManager",
+  "version": "1.0.8",
+  "summary": "A short description of TRCTConicGradientViewManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTConicGradientViewManager-1.0.8-d076b7.zip",
+    "type": "zip",
+    "sha1": "6c9ad3b47852efbf92280e04b95118f4a93a8dc8"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTConicGradientViewManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

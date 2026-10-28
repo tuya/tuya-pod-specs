@@ -1,0 +1,45 @@
+{
+  "name": "TRCTTransferManager",
+  "version": "6.4.3",
+  "summary": "A short description of TRCTTransferManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTTransferManager-6.4.3-5c2d1e.zip",
+    "type": "zip",
+    "sha1": "d42334e861a131bf6019e55e5d5c1a652288f595"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingPanelSweeperUtil": [
+
+    ],
+    "ThingSmartSweeperKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTTransferManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

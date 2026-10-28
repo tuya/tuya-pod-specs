@@ -1,0 +1,26 @@
+{
+  "name": "ThingSmartEventPredefined_Public",
+  "version": "0.0.61",
+  "summary": "A short description of ThingSmartEventPredefined_Public.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartEventPredefined_Public-0.0.61-fb58a8.zip",
+    "type": "zip",
+    "sha1": "dcc2a0e6a604a91b54f03ba8da0e01238a6f68fe"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSmartEventPredefined_Public.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "ThingCallIPCTactic",
+  "version": "7.11.13",
+  "summary": "A short description of ThingCallIPCTactic.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCallIPCTactic-7.11.13-982495.zip",
+    "type": "zip",
+    "sha1": "566cb79e2998e3440b79e4f8b6b67495ed793ee3"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "ThingCallIPCTactic": [
+      "ThingCallIPCTactic/Assets/*"
+    ]
+  },
+  "frameworks": "Photos",
+  "dependencies": {
+    "ThingCallModule": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingMicrophoneAuthManager": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "ThingPanelModulePlugAPI": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingLanguageDynamicBiz": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartCallChannelKit": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingSmartCallCounterKit": [
+
+    ],
+    "ThingAIModelManagerIOS": [
+
+    ],
+    "ThingGestureRecognitionKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingCameraAPI": [
+
+    ],
+    "ThingOnAppAIBaseKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCallIPCTactic.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

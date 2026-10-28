@@ -1,0 +1,27 @@
+{
+  "name": "TRCTSysUtilsManager",
+  "version": "1.0.4",
+  "summary": "A short description of TRCTSysUtilsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSysUtilsManager-1.0.4-508ae9.zip",
+    "type": "zip",
+    "sha1": "056234f57b5b386e939fe46fa00c9a040e2eb9fc"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTSysUtilsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,126 @@
+{
+  "name": "ThingSmartUserCenterBizKit",
+  "version": "2.25.4",
+  "summary": "A short description of ThingSmartUserCenterBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUserCenterBizKit-2.25.4-a36644.zip",
+    "type": "zip",
+    "sha1": "edc63ea6bf3ba243f7802e84aab20a6c5247c72e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSmartUserCenterBizKit/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "Network"
+  ],
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartMessageKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingSmartUIConfigServices": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingFallLayout": [
+
+    ],
+    "ThingTacticsManager": [
+
+    ],
+    "ThingInterfaceConfig": [
+
+    ],
+    "ThingSmartUserCenterPlugAPI": [
+
+    ],
+    "ThingSmartSettingsBizKit": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "ThingSmartSecurityModuleService": [
+
+    ],
+    "ThingSmartIntelligenceModule": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingCache": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartUserCenterBizKit\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartUserCenterBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

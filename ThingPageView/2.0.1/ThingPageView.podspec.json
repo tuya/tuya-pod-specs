@@ -1,0 +1,30 @@
+{
+  "name": "ThingPageView",
+  "version": "2.0.1",
+  "summary": "A short description of ThingPageView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPageView-2.0.1-14a129.zip",
+    "type": "zip",
+    "sha1": "983bd2c8da2bf9700f6676c5f2f577f6ef854c63"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPageView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

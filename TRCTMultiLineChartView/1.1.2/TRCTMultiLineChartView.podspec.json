@@ -1,0 +1,30 @@
+{
+  "name": "TRCTMultiLineChartView",
+  "version": "1.1.2",
+  "summary": "A short description of TRCTMultiLineChartView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMultiLineChartView-1.1.2-6d6b2f.zip",
+    "type": "zip",
+    "sha1": "5fc3d9049a524aaef78ac76b4d3f7b95fcccfcc0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTMultiLineChartView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

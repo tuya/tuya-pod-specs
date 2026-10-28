@@ -1,0 +1,52 @@
+{
+  "name": "ThingJailbreakDetectModule",
+  "version": "0.1.3",
+  "summary": "A short description of ThingJailbreakDetectModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingJailbreakDetectModule-0.1.3-da577b.zip",
+    "type": "zip",
+    "sha1": "6dfcadeb085998b0204436c8b8621775aef322f5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingJailbreakDetectModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingJailbreakDetectModule": [
+      "ThingJailbreakDetectModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingBaseDebugger": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingJailbreakDetectModule\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "ThingJailbreakDetectModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

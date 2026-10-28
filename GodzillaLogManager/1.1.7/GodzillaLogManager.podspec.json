@@ -1,0 +1,39 @@
+{
+  "name": "GodzillaLogManager",
+  "version": "1.1.7",
+  "summary": "GodzillaLogManager",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GodzillaLogManager-1.1.7-c2650f.zip",
+    "type": "zip",
+    "sha1": "c3e679222688368efa85c7c9f20c8dff96967aee"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GodzillaLogManager.xcframework"
+  ],
+  "source_files": [
+    "Build/GodzillaLogManager.xcframework/ios-arm64/GodzillaLogManager.framework/Headers/*"
+  ]
+}

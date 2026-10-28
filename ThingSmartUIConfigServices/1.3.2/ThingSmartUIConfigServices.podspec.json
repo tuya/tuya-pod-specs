@@ -1,0 +1,29 @@
+{
+  "name": "ThingSmartUIConfigServices",
+  "version": "1.3.2",
+  "summary": "UI配置服务",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartUIConfigServices-1.3.2-8a7b11.zip",
+    "type": "zip",
+    "sha1": "0b5df07afc76ccefcefa2395e23e0fc43a46e27d"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartUIConfigServices.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

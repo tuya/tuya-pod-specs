@@ -1,0 +1,54 @@
+{
+  "name": "TUNIImageEncryptUploadManager",
+  "version": "2.8.6",
+  "summary": "A short description of TUNIImageEncryptUploadManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImageEncryptUploadManager-2.8.6-b15280.zip",
+    "type": "zip",
+    "sha1": "e40adc70239864ef6a972ba28d15397c49d554c2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIImageEncryptUploadManager": [
+      "ios/TUNIImageEncryptUploadManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIImageEncryptUploadManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

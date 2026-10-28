@@ -1,0 +1,45 @@
+{
+  "name": "ThingSmartDeviceDetailLink",
+  "version": "1.2.2",
+  "summary": "A short description of ThingSmartDeviceDetailLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartDeviceDetailLink-1.2.2-33e761.zip",
+    "type": "zip",
+    "sha1": "abe387bb9ac2c732a0a920c4e3a4c291b40ab06b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartDeviceDetailLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

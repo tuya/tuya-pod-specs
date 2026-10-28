@@ -1,0 +1,52 @@
+{
+  "name": "ThingAudioCodecSDK",
+  "version": "1.1.2",
+  "summary": "open SDK code for tuya audio codec.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioCodecSDK-1.1.2-d909f6.zip",
+    "type": "zip",
+    "sha1": "c2c3f88c5cc041f29e33ff1f86a48e5ea3750502"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "exclude_files": "ThingAudioCodecSDK/**/Android/**/*.*",
+  "dependencies": {
+    "ThingFFmpegWrapper": [
+
+    ],
+    "ThingAvLoggerSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioCodecSDK/Include/ffmpeg $(PODS_ROOT)/ThingFFmpegWrapper/ThingFFmpegWrapper",
+    "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": [
+    "Build/ThingAudioCodecSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAudioCodecSDK.xcframework/ios-arm64/ThingAudioCodecSDK.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

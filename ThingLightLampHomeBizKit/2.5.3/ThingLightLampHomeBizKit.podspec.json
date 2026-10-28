@@ -1,0 +1,63 @@
+{
+  "name": "ThingLightLampHomeBizKit",
+  "version": "2.5.3",
+  "summary": "A short description of ThingLightLampHomeBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightLampHomeBizKit-2.5.3-3e3e51.zip",
+    "type": "zip",
+    "sha1": "d0af2e9c1c01b66c04026b17c701ee3ae40bae8a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLightSceneKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartHouseBizKit": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingBusinessDeviceCore": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLightLampHomeBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "ThingMiniAppTabModule",
+  "version": "2.5.3",
+  "summary": "A short description of ThingMiniAppTabModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMiniAppTabModule-2.5.3-039608.zip",
+    "type": "zip",
+    "sha1": "accc29f9b2151081e0046f73bb7d27dbb91c0aea"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSpatialModuleAPI": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingPanelDynamicContainerAPI": [
+
+    ],
+    "ThingDynamicContainerPlugin": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMiniAppTabModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

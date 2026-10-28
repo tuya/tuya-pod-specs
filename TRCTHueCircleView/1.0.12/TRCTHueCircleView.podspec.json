@@ -1,0 +1,33 @@
+{
+  "name": "TRCTHueCircleView",
+  "version": "1.0.12",
+  "summary": "A short description of TRCTHueCircleView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTHueCircleView-1.0.12-f70ccb.zip",
+    "type": "zip",
+    "sha1": "3a764cd164acafb3aad06df81320844b2e61fe39"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTHueCircleView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

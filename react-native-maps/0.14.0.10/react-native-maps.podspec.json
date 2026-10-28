@@ -1,0 +1,34 @@
+{
+  "name": "react-native-maps",
+  "version": "0.14.0.10",
+  "summary": "React Native Mapview component for iOS + Android",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-maps-0.14.0.10-975cb0.zip",
+    "type": "zip",
+    "sha1": "cd09272658d8207908977d9ac47acc107d21c18f"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "react_native_maps.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

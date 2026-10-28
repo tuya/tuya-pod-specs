@@ -1,0 +1,32 @@
+{
+  "name": "ThingNCNNLibrary",
+  "version": "1.0.3",
+  "summary": "A short description of ThingNCNNLibrary.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNCNNLibrary-1.0.3-78fb96.zip",
+    "type": "zip",
+    "sha1": "c8b3e44ae9f8d2b10b479b13b92612d11f0093d2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_libraries": "ThingNCNNLibrary/Vendors/libncnn_weight_model_static.a",
+  "vendored_frameworks": [
+    "ThingNCNNLibrary.xcframework",
+    "ThingNCNNLibrary/Vendors/ncnn.framework",
+    "ThingNCNNLibrary/Vendors/openmp.framework"
+  ],
+  "libraries": "c++",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "cocoapods_version": ">= 1.10"
+}

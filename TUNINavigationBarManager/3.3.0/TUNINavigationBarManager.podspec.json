@@ -1,0 +1,46 @@
+{
+  "name": "TUNINavigationBarManager",
+  "version": "3.3.0",
+  "summary": "A short description of TUNINavigationBarManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINavigationBarManager-3.3.0-08cd87.zip",
+    "type": "zip",
+    "sha1": "276d301b501e6d868ff28782622c9081267cdd6d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNINavigationBarManager": [
+      "ios/TUNINavigationBarManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": [
+    "WebKit",
+    "JavaScriptCore"
+  ],
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNINavigationBarManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

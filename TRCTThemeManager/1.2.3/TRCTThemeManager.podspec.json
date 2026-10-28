@@ -1,0 +1,36 @@
+{
+  "name": "TRCTThemeManager",
+  "version": "1.2.3",
+  "summary": "A short description of TRCTThemeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThemeManager-1.2.3-47f016.zip",
+    "type": "zip",
+    "sha1": "e3ba9da5d574ec15afd03db604ba4cb3b4435e51"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTThemeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

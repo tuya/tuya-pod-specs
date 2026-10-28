@@ -1,0 +1,36 @@
+{
+  "name": "TRCTRouteGatewayManager",
+  "version": "1.1.3",
+  "summary": "A short description of TRCTRouteGatewayManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRouteGatewayManager-1.1.3-a91295.zip",
+    "type": "zip",
+    "sha1": "1a704d2854cbb440b305b44c3254a86de5aefe03"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBusinessService": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTRouteGatewayManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

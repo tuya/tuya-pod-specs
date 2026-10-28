@@ -1,0 +1,51 @@
+{
+  "name": "TUNIDeviceSceneManager",
+  "version": "1.8.5",
+  "summary": "A short description of TUNIDeviceSceneManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceSceneManager-1.8.5-5040a1.zip",
+    "type": "zip",
+    "sha1": "e845a70104c4d36a045227a6cd7bfbb139b03d42"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDeviceSceneManager": [
+      "ios/TUNIDeviceSceneManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceSceneManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

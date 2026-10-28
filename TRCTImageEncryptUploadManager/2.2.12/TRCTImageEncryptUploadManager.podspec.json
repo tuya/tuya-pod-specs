@@ -1,0 +1,48 @@
+{
+  "name": "TRCTImageEncryptUploadManager",
+  "version": "2.2.12",
+  "summary": "A short description of TRCTImageEncryptUploadManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTImageEncryptUploadManager-2.2.12-319f8f.zip",
+    "type": "zip",
+    "sha1": "dc5a78734299c540aa45828ccb4f8df079444b73"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingP2PAlbumBizKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTImageEncryptUploadManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,68 @@
+{
+  "name": "ThingCameraRNPanelContext",
+  "version": "5.2.16",
+  "summary": "A short description of ThingCameraRNPanelContext.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraRNPanelContext-5.2.16-c62ea1.zip",
+    "type": "zip",
+    "sha1": "6c59584c57e511877144955f467766f5f3ea27a8"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "ThingCameraRNPanelContext": [
+      "ThingCameraRNPanelContext/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingCameraUtil": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingCameraFoundationKit": [
+
+    ],
+    "ThingCameraSktAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraRNPanelContext.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

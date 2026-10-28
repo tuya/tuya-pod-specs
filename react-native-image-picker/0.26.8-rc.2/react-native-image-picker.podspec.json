@@ -1,0 +1,40 @@
+{
+  "name": "react-native-image-picker",
+  "version": "0.26.8-rc.2",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "summary": "A React Native module that allows you to use the native UIImagePickerController UI to select a photo from the device library or directly from the camera",
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-image-picker-0.26.8-rc.2-ea391a.zip",
+    "type": "zip",
+    "sha1": "c29ab2d1f764b725edac56e315318be638730e5c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AssetsLibrary",
+    "Photos",
+    "MobileCoreServices"
+  ],
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "react_native_image_picker.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

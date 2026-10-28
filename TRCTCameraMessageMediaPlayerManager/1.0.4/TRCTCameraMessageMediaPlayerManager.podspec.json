@@ -1,0 +1,36 @@
+{
+  "name": "TRCTCameraMessageMediaPlayerManager",
+  "version": "1.0.4",
+  "summary": "A short description of TRCTCameraMessageMediaPlayerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageMediaPlayerManager-1.0.4-f7b3a9.zip",
+    "type": "zip",
+    "sha1": "796b9a996cca8fe25c2c0e3e73b0aa8e4b731c1a"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCameraMessageMediaPlayerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

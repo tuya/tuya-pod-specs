@@ -1,0 +1,56 @@
+{
+  "name": "ThingCustomConfig",
+  "version": "1.0.9",
+  "summary": "A short description of ThingCustomConfig.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCustomConfig-1.0.9-25ea04.zip",
+    "type": "zip",
+    "sha1": "f38cb5645fb7222f1df9b6390ef28d176a41ed52"
+  },
+  "platforms": {
+    "ios": "11.0",
+    "watchos": "2.0"
+  },
+  "ios": {
+    "dependencies": {
+      "ThingKVStorageLibrary": [
+
+      ]
+    }
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    }
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingLocalized": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "ThingCustomConfig.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

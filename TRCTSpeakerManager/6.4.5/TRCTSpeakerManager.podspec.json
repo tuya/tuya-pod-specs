@@ -1,0 +1,36 @@
+{
+  "name": "TRCTSpeakerManager",
+  "version": "6.4.5",
+  "summary": "A short description of TRCTSpeakerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSpeakerManager-6.4.5-96f57d.zip",
+    "type": "zip",
+    "sha1": "25c1185be9163886bf3f65c3e538854aadaa3940"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "DingDangSDK": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTSpeakerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

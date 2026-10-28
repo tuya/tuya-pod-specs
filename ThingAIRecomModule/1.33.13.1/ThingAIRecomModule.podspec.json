@@ -1,0 +1,180 @@
+{
+  "name": "ThingAIRecomModule",
+  "version": "1.33.13.1",
+  "summary": "AI Recommend Module",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIRecomModule-1.33.13.1-57140a.zip",
+    "type": "zip",
+    "sha1": "483c88964a78ee72ae20e46f435904c18e557e3a"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "resources": [
+    "ThingAIRecomModule/Assets/*.{png,xib,plist,xcassets,bundle,jif}"
+  ],
+  "prefix_header_file": "ThingAIRecomModule/PrefixHeader.pch",
+  "frameworks": [
+    "QuickLook",
+    "PhotosUI",
+    "CoreLocation"
+  ],
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "libextobjc": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "IQKeyboardManagerSwift": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingCommonUI": [
+
+    ],
+    "ThingCache": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingSmartHouseBizKit": [
+
+    ],
+    "ThingMapKit": [
+
+    ],
+    "ThingSmartFamilyBizKit": [
+
+    ],
+    "ThingSwipeView": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingAppLifeCycleSktAPI": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingSmartLocationService": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GodzillaMiniWidgetKit": [
+
+    ],
+    "ThingDmicContainerAbilitiesAPI": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingUrlPredefinedExternal": [
+
+    ],
+    "ThingPaymentControl": [
+
+    ],
+    "ThingSmartStreamChannelKit": [
+
+    ],
+    "ThingAudioEngineSDK": [
+
+    ],
+    "ThingAudioProcessSDK": [
+
+    ],
+    "ThingSmartStreamBizKit": [
+
+    ],
+    "ThingModuleTabbarStyle": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingMarkDownKit": [
+
+    ],
+    "ThingMediaKit": [
+
+    ],
+    "ThingSettingsAPI": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingAIToolKit": [
+
+    ],
+    "ThingPluginScriptInterface": [
+
+    ],
+    "ThingLogGroupInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAIRecomModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

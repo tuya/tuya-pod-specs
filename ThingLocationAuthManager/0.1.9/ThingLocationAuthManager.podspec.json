@@ -1,0 +1,33 @@
+{
+  "name": "ThingLocationAuthManager",
+  "version": "0.1.9",
+  "summary": "A short description of ThingLocationAuthManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLocationAuthManager-0.1.9-b0773b.zip",
+    "type": "zip",
+    "sha1": "09e06cdf92412cc48fd651ef6cd2684c394e6ed7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationTemporaryUsageDescriptionDictionary NSLocationUsageDescription"
+  },
+  "vendored_frameworks": [
+    "ThingLocationAuthManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

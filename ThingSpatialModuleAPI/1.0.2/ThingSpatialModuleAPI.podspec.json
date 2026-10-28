@@ -1,0 +1,22 @@
+{
+  "name": "ThingSpatialModuleAPI",
+  "version": "1.0.2",
+  "summary": "A short description of ThingSpatialModuleAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSpatialModuleAPI-1.0.2-e8c3b0.zip",
+    "type": "zip",
+    "sha1": "a455ce2cb3a2eee16eaa44318b8b45c7ee944829"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingSpatialModuleAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

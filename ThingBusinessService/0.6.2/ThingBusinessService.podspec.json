@@ -1,0 +1,42 @@
+{
+  "name": "ThingBusinessService",
+  "version": "0.6.2",
+  "summary": "A short description of ThingBusinessService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessService-0.6.2-a92e7b.zip",
+    "type": "zip",
+    "sha1": "ef05963da9b36b3eff2652ac01e3bc3106abd457"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingDeviceEditSktAPI": [
+
+    ],
+    "ThingDeviceMigrateSktAPI": [
+
+    ],
+    "ThingGroupHandleSktAPI": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingBusinessService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

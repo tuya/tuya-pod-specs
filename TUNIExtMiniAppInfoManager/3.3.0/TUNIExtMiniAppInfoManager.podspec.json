@@ -1,0 +1,45 @@
+{
+  "name": "TUNIExtMiniAppInfoManager",
+  "version": "3.3.0",
+  "summary": "A short description of TUNIExtMiniAppInfoManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIExtMiniAppInfoManager-3.3.0-265452.zip",
+    "type": "zip",
+    "sha1": "472823fd3ad78d67d4ca7892a0026e3b51f3eeb7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIExtMiniAppInfoManager": [
+      "ios/TUNIExtMiniAppInfoManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniPluginAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIExtMiniAppInfoManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

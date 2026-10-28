@@ -1,0 +1,33 @@
+{
+  "name": "TRCTCurveChartView",
+  "version": "1.0.14",
+  "summary": "A short description of TRCTCurveChartView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCurveChartView-1.0.14-db7b0b.zip",
+    "type": "zip",
+    "sha1": "7ef3f444dc4c8a9658743a60c4bba250a7241165"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCurveChartView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "TUNIPanelAgentManager",
+  "version": "1.2.1",
+  "summary": "A short description of TUNIPanelAgentManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPanelAgentManager-1.2.1-50885a.zip",
+    "type": "zip",
+    "sha1": "072d7ebafb705311b4bd7e1dc644e9b3c5d7be70"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPanelAgentManager": [
+      "ios/TUNIPanelAgentManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingMarketingBoothAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIPanelAgentManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

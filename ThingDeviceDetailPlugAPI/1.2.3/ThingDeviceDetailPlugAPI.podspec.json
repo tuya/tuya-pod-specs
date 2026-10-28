@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceDetailPlugAPI",
+  "version": "1.2.3",
+  "summary": "A short description of ThingDeviceDetailPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailPlugAPI-1.2.3-844788.zip",
+    "type": "zip",
+    "sha1": "5d6c0676f65cb1e3946335d05af8576baaa5f61a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetailPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

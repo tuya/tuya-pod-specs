@@ -1,0 +1,27 @@
+{
+  "name": "TRCTAudioPlayerManager",
+  "version": "1.1.3",
+  "summary": "A short description of TRCTAudioPlayerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioPlayerManager-1.1.3-671c4d.zip",
+    "type": "zip",
+    "sha1": "d58e3777b4595b33caba5b422cb7b06fd2da82f2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTAudioPlayerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

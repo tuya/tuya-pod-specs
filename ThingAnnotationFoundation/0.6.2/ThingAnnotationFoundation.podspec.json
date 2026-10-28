@@ -1,0 +1,31 @@
+{
+  "name": "ThingAnnotationFoundation",
+  "version": "0.6.2",
+  "summary": "A short description of ThingAnnotationFoundation.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAnnotationFoundation-0.6.2-3b244a.zip",
+    "type": "zip",
+    "sha1": "1c1fe356e0245fb383add6eb622ac11c7e5d7e46"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "dependencies": {
+    "ThingMachRegister": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAnnotationFoundation.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

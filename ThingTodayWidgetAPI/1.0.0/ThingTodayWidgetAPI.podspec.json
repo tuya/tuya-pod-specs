@@ -1,0 +1,22 @@
+{
+  "name": "ThingTodayWidgetAPI",
+  "version": "1.0.0",
+  "summary": "A short description of ThingTodayWidgetAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTodayWidgetAPI-1.0.0-fe3c7f.zip",
+    "type": "zip",
+    "sha1": "4bcb791ae3fb5cd4d757faf79515580475ea71fa"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "vendored_frameworks": [
+    "ThingTodayWidgetAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

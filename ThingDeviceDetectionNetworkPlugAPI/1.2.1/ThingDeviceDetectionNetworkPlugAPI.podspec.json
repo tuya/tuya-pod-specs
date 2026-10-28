@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceDetectionNetworkPlugAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingDeviceDetectionNetworkPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetectionNetworkPlugAPI-1.2.1-2a6153.zip",
+    "type": "zip",
+    "sha1": "6f3fc95da82c40df490650ff38bfb04c5c16155c"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetectionNetworkPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ThingP2PAlbumBizKit",
+  "version": "2.1.16",
+  "summary": "A short description of ThingP2PAlbumBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingP2PAlbumBizKit-2.1.16-25fbcc.zip",
+    "type": "zip",
+    "sha1": "a0d571ea33dca69493793a566431adf0936e1adb"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartP2pChannelKit": [
+
+    ],
+    "ThingP2pFileTransSDK": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingP2PAlbumBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

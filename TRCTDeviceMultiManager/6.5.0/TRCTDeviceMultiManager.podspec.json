@@ -1,0 +1,33 @@
+{
+  "name": "TRCTDeviceMultiManager",
+  "version": "6.5.0",
+  "summary": "A short description of TRCTDeviceMultiManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDeviceMultiManager-6.5.0-abe0df.zip",
+    "type": "zip",
+    "sha1": "8c3e8f7deba4abe0899ee9f10b848e3dc21fc242"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBusinessService": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTDeviceMultiManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "TRCTShareManager",
+  "version": "6.5.0",
+  "summary": "A short description of TRCTShareManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTShareManager-6.5.0-29755c.zip",
+    "type": "zip",
+    "sha1": "690002e59d5af7d6ddf8a6d5b0bd97b74b7c6a23"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTShareManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

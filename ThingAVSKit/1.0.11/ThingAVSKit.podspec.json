@@ -1,0 +1,57 @@
+{
+  "name": "ThingAVSKit",
+  "version": "1.0.11",
+  "summary": "A short description of ThingAVSKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAVSKit-1.0.11-39b645.zip",
+    "type": "zip",
+    "sha1": "5e75a4bcb6482c4109607c70a2de61b599a40c66"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "ThingAVSKit": [
+      "ThingAVSKit/Assets/*"
+    ]
+  },
+  "prefix_header_file": "ThingAVSKit/Classes/ThingAVSKitPrefix.pch",
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOpusCodec": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingAVSKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,69 @@
+{
+  "name": "ThingAPMLibrary",
+  "version": "2.15.4",
+  "summary": "A short description of ThingAPMLibrary.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAPMLibrary-2.15.4-32ffc5.zip",
+    "type": "zip",
+    "sha1": "f74aaccbd47079e5ab2a85e2605c1f12eea1e83f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingStorageLibrary": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "WebKit"
+  ],
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAPMLibrary.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

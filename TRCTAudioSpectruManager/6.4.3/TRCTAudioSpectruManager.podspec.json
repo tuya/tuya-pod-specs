@@ -1,0 +1,36 @@
+{
+  "name": "TRCTAudioSpectruManager",
+  "version": "6.4.3",
+  "summary": "A short description of TRCTAudioSpectruManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAudioSpectruManager-6.4.3-b225ba.zip",
+    "type": "zip",
+    "sha1": "2df10982dd5790022d916535a474eaf7bc773293"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAudioSpectrum": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTAudioSpectruManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

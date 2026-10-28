@@ -1,0 +1,27 @@
+{
+  "name": "TRCTZigbeeEventManager",
+  "version": "1.2.1",
+  "summary": "A short description of TRCTZigbeeEventManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTZigbeeEventManager-1.2.1-03e83b.zip",
+    "type": "zip",
+    "sha1": "9d4576788b5ea0db415fb2767391b611674ca781"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTZigbeeEventManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

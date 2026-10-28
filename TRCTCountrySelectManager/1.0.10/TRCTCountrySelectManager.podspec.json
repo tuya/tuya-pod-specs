@@ -1,0 +1,30 @@
+{
+  "name": "TRCTCountrySelectManager",
+  "version": "1.0.10",
+  "summary": "A short description of TRCTCountrySelectManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCountrySelectManager-1.0.10-81fe99.zip",
+    "type": "zip",
+    "sha1": "0a00ac6fce588e835f641fcfebf1b611a4c4dda8"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCountrySelectManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

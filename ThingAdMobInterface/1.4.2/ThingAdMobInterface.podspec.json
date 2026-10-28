@@ -1,0 +1,22 @@
+{
+  "name": "ThingAdMobInterface",
+  "version": "1.4.2",
+  "summary": "A short description of ThingAdMobInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAdMobInterface-1.4.2-c6f0a0.zip",
+    "type": "zip",
+    "sha1": "edddacf5d2bede410ff67f6c367a4b658c1e5cf6"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingAdMobInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

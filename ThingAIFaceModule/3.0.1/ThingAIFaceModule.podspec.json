@@ -1,0 +1,70 @@
+{
+  "name": "ThingAIFaceModule",
+  "version": "3.0.1",
+  "summary": "AI Face Module",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAIFaceModule-3.0.1-08447e.zip",
+    "type": "zip",
+    "sha1": "cfba4a29c606432de9e703325be921b9851372e3"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingAIFaceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingHybridContainer": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAIFaceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

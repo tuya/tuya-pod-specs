@@ -1,0 +1,63 @@
+{
+  "name": "ThingHealthDataCenterManager",
+  "version": "7.9.6",
+  "summary": "A short description of ThingHealthDataCenterManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthDataCenterManager-7.9.6-3b92ed.zip",
+    "type": "zip",
+    "sha1": "f950b372a42f1112c81932e36edf58c7c3528e46"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingStorageLibrary": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingNCNNLibrary": [
+
+    ],
+    "ThingSpaceInfoSktAPI": [
+
+    ],
+    "ThingHealthBCMAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingHealthDataCenterManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

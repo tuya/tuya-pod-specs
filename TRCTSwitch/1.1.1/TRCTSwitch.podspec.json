@@ -1,0 +1,27 @@
+{
+  "name": "TRCTSwitch",
+  "version": "1.1.1",
+  "summary": "A short description of TRCTSwitch.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSwitch-1.1.1-62570c.zip",
+    "type": "zip",
+    "sha1": "d4e2cafebbdd5e7b85661c946836af64e28c7381"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTSwitch.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

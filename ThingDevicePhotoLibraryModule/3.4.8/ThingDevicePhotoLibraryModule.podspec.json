@@ -1,0 +1,39 @@
+{
+  "name": "ThingDevicePhotoLibraryModule",
+  "version": "3.4.8",
+  "summary": "A short description of ThingDevicePhotoLibraryModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDevicePhotoLibraryModule-3.4.8-73af33.zip",
+    "type": "zip",
+    "sha1": "2f86b25af0ee698ec2f673bbd1284a2b46377fb3"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPhotoLibraryModule": [
+
+    ],
+    "ThingSmartCameraBizKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartMediaUIKit": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingDevicePhotoLibraryModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

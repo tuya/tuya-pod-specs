@@ -1,0 +1,54 @@
+{
+  "name": "ThingLightCommonUI",
+  "version": "2.2.15",
+  "summary": "ui only for light project.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightCommonUI-2.2.15-f8cf69.zip",
+    "type": "zip",
+    "sha1": "2afeab91b1ae54b2a0b4e1dd10111ca660dff7e4"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingLightCommonUI/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "FLAnimatedImage": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingLottie": [
+
+    ]
+  },
+  "resources": [
+    "ThingLightCommonUI/Assets/*.{png,xib,plist,bundle}"
+  ],
+  "resource_bundles": {
+    "ThingLightCommonUI": [
+      "ThingLightCommonUI/Assets/*.xcassets"
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLightCommonUI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

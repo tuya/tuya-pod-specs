@@ -1,0 +1,63 @@
+{
+  "name": "TUNIDeviceControlManager",
+  "version": "7.11.2",
+  "summary": "A short description of TUNIDeviceControlManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceControlManager-7.11.2-c25004.zip",
+    "type": "zip",
+    "sha1": "ec1aa5a9fc561bf5e27ec950f07b2691330e3c56"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "weak_frameworks": "CoreNFC",
+  "resource_bundles": {
+    "TUNIDeviceControlManager": [
+      "ios/tunidevicecontrolmanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSettingsAPI": [
+
+    ],
+    "ThingDeviceOpRecInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceControlManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

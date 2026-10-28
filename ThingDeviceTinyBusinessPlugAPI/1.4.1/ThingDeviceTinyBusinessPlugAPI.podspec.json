@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceTinyBusinessPlugAPI",
+  "version": "1.4.1",
+  "summary": "A short description of ThingDeviceTinyBusinessPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceTinyBusinessPlugAPI-1.4.1-e7af05.zip",
+    "type": "zip",
+    "sha1": "2f830d4878f0af0b89bb248126e05a38b7c30d54"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceTinyBusinessPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

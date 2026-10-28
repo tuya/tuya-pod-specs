@@ -1,0 +1,25 @@
+{
+  "name": "ThingHybridContainerApi",
+  "version": "1.7.18",
+  "summary": "容器",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHybridContainerApi-1.7.18-968d0f.zip",
+    "type": "zip",
+    "sha1": "d7e46ddedd9fc53e25a0940e679646ce1d117603"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingHybridContainerApi.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

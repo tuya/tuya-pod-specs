@@ -1,0 +1,48 @@
+{
+  "name": "ThingVideoCipper",
+  "version": "1.1.1",
+  "summary": "A short description of ThingVideoCipper.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingVideoCipper-1.1.1-75b64f.zip",
+    "type": "zip",
+    "sha1": "0f18c8f330a37be6164c05274823817fa34e2f79"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "ThingVideoCipper": [
+      "ThingVideoCipper/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingVideoCipper.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

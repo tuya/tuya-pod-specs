@@ -1,0 +1,33 @@
+{
+  "name": "ThingBusinessHomeKitLink",
+  "version": "1.1.1",
+  "summary": "A short description of ThingBusinessHomeKitLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBusinessHomeKitLink-1.1.1-e20c26.zip",
+    "type": "zip",
+    "sha1": "cc14336d89c404efc1be0ec5e89b4366c899537a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingBusinessHomeKitLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

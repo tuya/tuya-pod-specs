@@ -1,0 +1,26 @@
+{
+  "name": "ThingPluginScriptInterface",
+  "version": "1.1.2",
+  "summary": "跨端容器插件接口调用定义",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPluginScriptInterface-1.1.2-664c94.zip",
+    "type": "zip",
+    "sha1": "42c7f9d8c1a78e9db655c879af691ab2c2452a4b"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "vendored_frameworks": [
+    "Build/ThingPluginScriptInterface.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingPluginScriptInterface.xcframework/ios-arm64/ThingPluginScriptInterface.framework/Headers/*"
+  ]
+}

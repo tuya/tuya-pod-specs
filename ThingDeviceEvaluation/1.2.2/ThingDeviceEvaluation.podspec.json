@@ -1,0 +1,75 @@
+{
+  "name": "ThingDeviceEvaluation",
+  "version": "1.2.2",
+  "summary": "A short description of ThingDeviceEvaluation.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceEvaluation-1.2.2-d0475e.zip",
+    "type": "zip",
+    "sha1": "31d0ecd287a91f84c5a7ba59b1a9958647b434c9"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingDeviceEvaluation": [
+      "ThingDeviceEvaluation/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingAutoTrackAPI": [
+
+    ],
+    "ThingDeviceEvaluationPlugAPI": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingDeviceDetailSktAPI": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceEvaluation\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceEvaluation\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceEvaluation\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceEvaluation\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceEvaluation.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

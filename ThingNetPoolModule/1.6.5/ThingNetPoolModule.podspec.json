@@ -1,0 +1,82 @@
+{
+  "name": "ThingNetPoolModule",
+  "version": "1.6.5",
+  "summary": "A short description of ThingNetPoolModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingNetPoolModule-1.6.5-75ead9.zip",
+    "type": "zip",
+    "sha1": "62d1ad92dd4a91ade1a55ea813a934574f601a47"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingNetPoolModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingNetPoolModule": [
+      "ThingNetPoolModule/Assets/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingUrlPredefinedExternal": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingDeviceNetworkSettingPlugAPI": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingNetPoolModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

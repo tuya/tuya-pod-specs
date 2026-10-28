@@ -1,0 +1,27 @@
+{
+  "name": "ThingUrlPredefined",
+  "version": "0.3.4",
+  "summary": "A short description of ThingUrlPredefined.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingUrlPredefined-0.3.4-c8ac60.zip",
+    "type": "zip",
+    "sha1": "3b4e11d00e31b8b5524fffadc571b4827d395d60"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingUrlPredefinedExternal": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingUrlPredefined.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

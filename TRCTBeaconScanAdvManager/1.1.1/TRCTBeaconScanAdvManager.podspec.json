@@ -1,0 +1,30 @@
+{
+  "name": "TRCTBeaconScanAdvManager",
+  "version": "1.1.1",
+  "summary": "A short description of TRCTBeaconScanAdvManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBeaconScanAdvManager-1.1.1-ff7e3b.zip",
+    "type": "zip",
+    "sha1": "b071a6815df7ebb8b8343d594228fff36124290c"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTBeaconScanAdvManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

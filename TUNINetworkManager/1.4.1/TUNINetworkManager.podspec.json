@@ -1,0 +1,36 @@
+{
+  "name": "TUNINetworkManager",
+  "version": "1.4.1",
+  "summary": "A short description of TUNINetworkManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNINetworkManager-1.4.1-ea621d.zip",
+    "type": "zip",
+    "sha1": "f48e7b3c24c5f9eabf07f86a6ed53b7023833c02"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNINetworkManager": [
+      "ios/TUNINetworkManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNINetworkManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

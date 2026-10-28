@@ -1,0 +1,37 @@
+{
+  "name": "ThingModuleManager",
+  "version": "2.18.0",
+  "summary": "A Module Manager From Tuya",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleManager-2.18.0-285d6a.zip",
+    "type": "zip",
+    "sha1": "df87cf8df11720ee64456e8013dffb40723225a7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingModuleManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

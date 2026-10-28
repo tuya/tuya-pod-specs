@@ -1,0 +1,88 @@
+{
+  "name": "ThingReleaseDebugger",
+  "version": "1.0.1",
+  "summary": "A short description of ThingReleaseDebugger.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingReleaseDebugger-1.0.1-681fef.zip",
+    "type": "zip",
+    "sha1": "c290504d87688414b00ea458171b5832258c1b73"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingReleaseDebugger/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ReleaseDebugger": [
+      "ThingReleaseDebugger/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingBaseDebugger": [
+
+    ],
+    "ThingCommonDebugger": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingLanguageDynamicBiz": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingLocalMiniAppInterface": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingReleaseDebugger\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingReleaseDebugger\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingReleaseDebugger\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingReleaseDebugger\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingReleaseDebugger.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

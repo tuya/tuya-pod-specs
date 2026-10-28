@@ -1,0 +1,59 @@
+{
+  "name": "ThingSmartIAPKit",
+  "version": "2.1.0",
+  "summary": "A short description of ThingSmartIAPKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartIAPKit-2.1.0-f9c8b2.zip",
+    "type": "zip",
+    "sha1": "ab7bd401d682e7d11a64aa7687709e6ffa48f49a"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "StoreKit"
+  ],
+  "dependencies": {
+    "UICKeyChainStore": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingJailbreakDetectModule": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartIAPKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartIAPKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartIAPKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartIAPKit\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "ThingSmartIAPKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

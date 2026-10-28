@@ -1,0 +1,36 @@
+{
+  "name": "TUNICommonMediaManager",
+  "version": "1.0.10",
+  "summary": "A short description of TUNICommonMediaManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNICommonMediaManager-1.0.10-c98692.zip",
+    "type": "zip",
+    "sha1": "f718e43c92f1db53047f5b9445079bb227253156"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNICommonMediaManager": [
+      "ios/TUNICommonMediaManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNICommonMediaManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

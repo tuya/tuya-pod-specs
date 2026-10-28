@@ -1,0 +1,33 @@
+{
+  "name": "TRCTUserManager",
+  "version": "1.1.2",
+  "summary": "A short description of TRCTUserManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTUserManager-1.1.2-7fce33.zip",
+    "type": "zip",
+    "sha1": "a8b832cd837035e5b0fa0bc1305beede5ca90713"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTUserManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

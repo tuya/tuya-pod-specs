@@ -1,0 +1,30 @@
+{
+  "name": "ThingLoginSktAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingLoginSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLoginSktAPI-1.2.1-1ba75c.zip",
+    "type": "zip",
+    "sha1": "9a2f581bfc5542bf711e2a82ded4d04a57bb0076"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartUtil": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingLoginSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "license": "none"
+}

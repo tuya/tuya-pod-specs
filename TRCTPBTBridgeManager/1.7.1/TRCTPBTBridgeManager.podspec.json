@@ -1,0 +1,36 @@
+{
+  "name": "TRCTPBTBridgeManager",
+  "version": "1.7.1",
+  "summary": "A short description of TRCTPBTBridgeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPBTBridgeManager-1.7.1-83e51e.zip",
+    "type": "zip",
+    "sha1": "232529bca0502c1853ee6d46a3f1bb89cbfe98f0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTPBTBridgeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

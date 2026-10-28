@@ -1,0 +1,36 @@
+{
+  "name": "ThingSmartHomeDataCenter",
+  "version": "0.0.10",
+  "summary": "A short description of ThingSmartHomeDataCenter.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartHomeDataCenter-0.0.10-f9dc28.zip",
+    "type": "zip",
+    "sha1": "2231e940170975072d99ee2bc7e32473839002d0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartHomeDataCenter.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

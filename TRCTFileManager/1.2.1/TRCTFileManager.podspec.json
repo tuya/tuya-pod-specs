@@ -1,0 +1,33 @@
+{
+  "name": "TRCTFileManager",
+  "version": "1.2.1",
+  "summary": "A short description of TRCTFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTFileManager-1.2.1-382358.zip",
+    "type": "zip",
+    "sha1": "85d688530721ce3f6b8246c80e836c1c95819356"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingFileUploadKit": [
+
+    ],
+    "ThingSmartDocumentManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

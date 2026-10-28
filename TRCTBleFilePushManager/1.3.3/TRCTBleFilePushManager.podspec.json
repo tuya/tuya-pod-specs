@@ -1,0 +1,36 @@
+{
+  "name": "TRCTBleFilePushManager",
+  "version": "1.3.3",
+  "summary": "A short description of TRCTBleFilePushManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleFilePushManager-1.3.3-15e67a.zip",
+    "type": "zip",
+    "sha1": "4b0452a08aff176b81155ce9ee793588d66dc95f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingFileDownloadManager": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTBleFilePushManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

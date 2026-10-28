@@ -1,0 +1,27 @@
+{
+  "name": "TRCTRNStackManager",
+  "version": "1.1.4",
+  "summary": "A short description of TRCTRNStackManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTRNStackManager-1.1.4-73484e.zip",
+    "type": "zip",
+    "sha1": "2ece85d959c7e42916bd8eae0683559d6ab7d3ab"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTRNStackManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

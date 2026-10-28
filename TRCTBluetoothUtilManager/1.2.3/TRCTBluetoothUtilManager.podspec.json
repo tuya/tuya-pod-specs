@@ -1,0 +1,33 @@
+{
+  "name": "TRCTBluetoothUtilManager",
+  "version": "1.2.3",
+  "summary": "A short description of TRCTBluetoothUtilManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBluetoothUtilManager-1.2.3-aeab94.zip",
+    "type": "zip",
+    "sha1": "ad8fedb2270a6e1e5a4ad3d66ecdba5bdcf328d6"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTBluetoothUtilManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

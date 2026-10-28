@@ -1,0 +1,30 @@
+{
+  "name": "TRCTBleTimerManager",
+  "version": "6.5.0",
+  "summary": "A short description of TRCTBleTimerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleTimerManager-6.5.0-677a13.zip",
+    "type": "zip",
+    "sha1": "283e5996164bdd4004cdc18593ac15fdb047472a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingTimerModule": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTBleTimerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ThingFileDownloadManager",
+  "version": "1.1.1",
+  "summary": "A short description of ThingFileDownloadManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileDownloadManager-1.1.1-63d286.zip",
+    "type": "zip",
+    "sha1": "070319a97aa68ee1cd5bd5bff6a470fcdbc29b87"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingFileDownloadManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

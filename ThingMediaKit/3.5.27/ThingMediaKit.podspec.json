@@ -1,0 +1,68 @@
+{
+  "name": "ThingMediaKit",
+  "version": "3.5.27",
+  "summary": "视频和图片工具",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMediaKit-3.5.27-b1d409.zip",
+    "type": "zip",
+    "sha1": "18cd1de6119101a4f9e3faf39de8dfa421026ffd"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingMediaKit": [
+      "ThingMediaKit/Assets/**/*"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription NSMicrophoneUsageDescription NSPhotoLibraryUsageDescription"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingImagePickerController": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAIImageClassifyAPI": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingMediaKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

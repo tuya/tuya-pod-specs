@@ -1,0 +1,28 @@
+{
+  "name": "ThingSocketPing",
+  "version": "1.2.1",
+  "summary": "A short description of ThingSocketPing.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSocketPing-1.2.1-b2effa.zip",
+    "type": "zip",
+    "sha1": "ebebd5d0225fe4b564b6c1506892ac592f9f1da7"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "prefix_header_file": "ThingSocketPing/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSocketPing.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

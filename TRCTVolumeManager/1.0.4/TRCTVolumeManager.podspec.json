@@ -1,0 +1,27 @@
+{
+  "name": "TRCTVolumeManager",
+  "version": "1.0.4",
+  "summary": "A short description of TRCTVolumeManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTVolumeManager-1.0.4-1a370c.zip",
+    "type": "zip",
+    "sha1": "6b183e1b9f312409358b03b8b181b76f68c2ffdc"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTVolumeManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "ThingModuleTabbarStyle",
+  "version": "1.9.1",
+  "summary": "ThingModuleTabbar自定义样式",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModuleTabbarStyle-1.9.1-9fc036.zip",
+    "type": "zip",
+    "sha1": "ada22f89ec46852996d6019d8a4750c0ae726985"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingSmartFamilyBizKit": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingModuleTabbarStyle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

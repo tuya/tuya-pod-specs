@@ -1,0 +1,39 @@
+{
+  "name": "TRCTCameraMessageManager",
+  "version": "7.6.5",
+  "summary": "A short description of TRCTCameraMessageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraMessageManager-7.6.5-c4a466.zip",
+    "type": "zip",
+    "sha1": "5076fcbc9d6601c5fbb0ecac78bb0e459093554d"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCameraMessageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

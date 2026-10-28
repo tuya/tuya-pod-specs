@@ -1,0 +1,37 @@
+{
+  "name": "ThingMediaPipeKit",
+  "version": "1.0.1",
+  "summary": "Public API for Thing MediaPipe graphs",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMediaPipeKit-1.0.1-746596.zip",
+    "type": "zip",
+    "sha1": "9881f297397dae7db80376379087fbf788c64573"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingMediaPipeKit/Include"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit",
+    "CoreVideo",
+    "CoreMedia",
+    "Accelerate"
+  ],
+  "libraries": "c++",
+  "vendored_frameworks": [
+    "Build/ThingMediaPipeKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingMediaPipeKit.xcframework/ios-arm64/ThingMediaPipeKit.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

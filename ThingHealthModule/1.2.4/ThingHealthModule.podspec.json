@@ -1,0 +1,34 @@
+{
+  "name": "ThingHealthModule",
+  "version": "1.2.4",
+  "summary": "健康数据同步",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingHealthModule-1.2.4-50262b.zip",
+    "type": "zip",
+    "sha1": "c2d8638032c7a32c455826f6654d6177a8c764c7"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "HealthKit"
+  ],
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSHealthShareUsageDescription NSHealthUpdateUsageDescription ",
+    "THING_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.healthkit"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingHealthModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

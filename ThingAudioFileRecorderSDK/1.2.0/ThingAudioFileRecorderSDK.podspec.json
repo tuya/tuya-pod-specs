@@ -1,0 +1,67 @@
+{
+  "name": "ThingAudioFileRecorderSDK",
+  "version": "1.2.0",
+  "summary": "ThingAudioFileRecorderSDK framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioFileRecorderSDK-1.2.0-bfe273.zip",
+    "type": "zip",
+    "sha1": "ba9e949ba44e6e9770d87dadbfc398f2fceaa694"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "exclude_files": [
+    "ThingAudioFileRecorderSDK/**/Android/**/*.*",
+    "ThingAudioFileRecorderSDK/Source/rapidjson/msinttypes/*.*"
+  ],
+  "ios": {
+    "vendored_libraries": [
+      "ThingAudioFileRecorderSDK/Libs/iOS/*.a"
+    ]
+  },
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingMP3CodecSDK": [
+
+    ],
+    "ThingAudioProcessSDK": [
+
+    ]
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioFileRecorderSDK/Include ",
+    "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": [
+    "Build/ThingAudioFileRecorderSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingAudioFileRecorderSDK.xcframework/ios-arm64/ThingAudioFileRecorderSDK.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

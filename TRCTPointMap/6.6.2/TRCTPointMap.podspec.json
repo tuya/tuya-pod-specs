@@ -1,0 +1,34 @@
+{
+  "name": "TRCTPointMap",
+  "version": "6.6.2",
+  "summary": "A short description of TRCTPointMap.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPointMap-6.6.2-0109ff.zip",
+    "type": "zip",
+    "sha1": "f2abae318586b7c6eb2896c58e9bc7629fc6e3ea"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingPanelSweeperUtil": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TRCTPointMap\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TRCTPointMap\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TRCTPointMap\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TRCTPointMap\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "TRCTPointMap.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

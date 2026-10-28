@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceSyncPlugAPI",
+  "version": "1.2.2",
+  "summary": "A short description of ThingDeviceSyncPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceSyncPlugAPI-1.2.2-31fa34.zip",
+    "type": "zip",
+    "sha1": "0cb70d2dba47f53e339e4bc7f4f8be99a21cf650"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceSyncPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

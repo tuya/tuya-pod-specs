@@ -1,0 +1,68 @@
+{
+  "name": "ThingSplashModule",
+  "version": "1.6.1",
+  "summary": "A short description of ThingSplashModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSplashModule-1.6.1-5613b8.zip",
+    "type": "zip",
+    "sha1": "52d6bdcf3c3cfe9d20cf8e847e3be3f8efd85cf7"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSplashModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

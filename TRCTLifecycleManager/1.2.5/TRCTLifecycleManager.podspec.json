@@ -1,0 +1,30 @@
+{
+  "name": "TRCTLifecycleManager",
+  "version": "1.2.5",
+  "summary": "A short description of TRCTLifecycleManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLifecycleManager-1.2.5-29e325.zip",
+    "type": "zip",
+    "sha1": "2ce2d18376210b676a3adad848712700b1cd1fc5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTLifecycleManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

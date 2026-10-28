@@ -1,0 +1,36 @@
+{
+  "name": "ThingBleGatewayService",
+  "version": "0.0.6",
+  "summary": "A short description of ThingBleGatewayService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBleGatewayService-0.0.6-d8be4a.zip",
+    "type": "zip",
+    "sha1": "ad1cd5439cba7c460a56331f67532ab1d29c1225"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingBusinessService": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingBleGatewayService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "TRCTBleExtDeviceManager",
+  "version": "1.1.3",
+  "summary": "A short description of TRCTBleExtDeviceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBleExtDeviceManager-1.1.3-02668f.zip",
+    "type": "zip",
+    "sha1": "484208043e866b8bdf34b12caa150c0491b6f24e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTBleExtDeviceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

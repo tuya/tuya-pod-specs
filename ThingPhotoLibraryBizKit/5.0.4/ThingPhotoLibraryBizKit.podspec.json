@@ -1,0 +1,36 @@
+{
+  "name": "ThingPhotoLibraryBizKit",
+  "version": "5.0.4",
+  "summary": "A short description of ThingPhotoLibraryBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingPhotoLibraryBizKit-5.0.4-9edf87.zip",
+    "type": "zip",
+    "sha1": "4104e4ebd6245e493fd444199708a51e421b6438"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingSmartCameraM": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingPhotoLibraryBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "TRCTBTManager",
+  "version": "1.1.7",
+  "summary": "A short description of TRCTBTManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTBTManager-1.1.7-7be724.zip",
+    "type": "zip",
+    "sha1": "ea251a40a18840d71befdc0d7f3d2c386add3b49"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTBTManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

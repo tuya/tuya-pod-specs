@@ -1,0 +1,48 @@
+{
+  "name": "TUNIStorageManager",
+  "version": "1.5.1",
+  "summary": "A short description of TUNIStorageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIStorageManager-1.5.1-56ea84.zip",
+    "type": "zip",
+    "sha1": "53b399d7dbfd12ab46ef09cb5a1bc89da4eda431"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIStorageManager": [
+      "ios/TUNIStorageManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "MMKV": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "TUNICode": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIStorageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

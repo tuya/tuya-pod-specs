@@ -1,0 +1,51 @@
+{
+  "name": "ThingSmartFisheyeVRKit",
+  "version": "1.0.3",
+  "summary": "Fisheye VR preview kit for Thing smart door lock / IPC.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartFisheyeVRKit-1.0.3-55546a.zip",
+    "type": "zip",
+    "sha1": "738612f63727096e84ac6e539be7f9c8e8fb38d2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "android/**/*",
+    "core/tests/**/*"
+  ],
+  "frameworks": [
+    "UIKit",
+    "OpenGLES",
+    "CoreVideo",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreImage",
+    "Accelerate",
+    "QuartzCore",
+    "AVFoundation",
+    "Foundation"
+  ],
+  "libraries": "c++",
+  "dependencies": {
+    "ThingSmartMediaServices": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/core/include",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": [
+    "Build/ThingSmartFisheyeVRKit.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingSmartFisheyeVRKit.xcframework/ios-arm64/ThingSmartFisheyeVRKit.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

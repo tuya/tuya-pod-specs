@@ -1,0 +1,47 @@
+{
+  "name": "ThingDomainQueryModule",
+  "version": "0.3.4",
+  "summary": "A short description of ThingDomainQueryModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDomainQueryModule-0.3.4-fe8b75.zip",
+    "type": "zip",
+    "sha1": "ce0a3c85b011a5fdd2f2eea94f076f21b1749139"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingDomainQueryModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDomainQueryModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDomainQueryModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDomainQueryModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDomainQueryModule\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDomainQueryModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

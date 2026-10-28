@@ -1,0 +1,51 @@
+{
+  "name": "ThingLanguageDynamicBiz",
+  "version": "0.2.1",
+  "summary": "A short description of ThingLanguageDynamicBiz.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLanguageDynamicBiz-0.2.1-8610b2.zip",
+    "type": "zip",
+    "sha1": "42b5ec56e88f8645fcb93365aab865822887da85"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingTarKit": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingLanguageGroupInterface": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLanguageDynamicBiz.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

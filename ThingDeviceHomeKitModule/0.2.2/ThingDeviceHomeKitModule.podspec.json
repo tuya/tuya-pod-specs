@@ -1,0 +1,71 @@
+{
+  "name": "ThingDeviceHomeKitModule",
+  "version": "0.2.2",
+  "summary": "A short description of ThingDeviceHomeKitModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceHomeKitModule-0.2.2-bf357b.zip",
+    "type": "zip",
+    "sha1": "1ae5abcb2ef1367783ce2a82c36322ea8c1243b5"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingDeviceHomeKitModule": [
+      "ThingDeviceHomeKitModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingProgressHUD": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingHomeKitAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingMatterHomekitInterface": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceHomeKitModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

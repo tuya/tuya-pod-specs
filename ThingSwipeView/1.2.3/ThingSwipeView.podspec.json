@@ -1,0 +1,28 @@
+{
+  "name": "ThingSwipeView",
+  "version": "1.2.3",
+  "summary": "A short description of ThingSwipeView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSwipeView-1.2.3-f0f89b.zip",
+    "type": "zip",
+    "sha1": "57f7338f09ca1b63185c6d9e7a7486c951609518"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSwipeView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

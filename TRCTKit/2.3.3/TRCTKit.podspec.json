@@ -1,0 +1,81 @@
+{
+  "name": "TRCTKit",
+  "version": "2.3.3",
+  "summary": "A short description of TRCTKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTKit-2.3.3-065b88.zip",
+    "type": "zip",
+    "sha1": "1193da24d06882bce4a8295727fb54dbb22cbdba"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "TRCTKit": [
+      "TRCTKit/Assets/**/*"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingPanelBundleManager": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "RNApi/Core": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "TRCTKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "TRCTPublicBLELockManager",
+  "version": "6.3.4",
+  "summary": "A short description of TRCTPublicBLELockManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTPublicBLELockManager-6.3.4-a0438a.zip",
+    "type": "zip",
+    "sha1": "a293e691fceb0caf3888c9c3d684bbad944c69dd"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ios/trctpublicblelockmanager/Classes/TRCTPublicPrefixHeader.pch",
+  "dependencies": {
+    "ThingPublicBLELockIOSKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTPublicBLELockManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

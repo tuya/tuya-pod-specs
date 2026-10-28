@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceMigratePlugAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingDeviceMigratePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigratePlugAPI-1.2.1-3c9277.zip",
+    "type": "zip",
+    "sha1": "a68a6006374ef053dc8573c8bb1784049dc842f2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceMigratePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

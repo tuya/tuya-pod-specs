@@ -1,0 +1,37 @@
+{
+  "name": "ThingTabPagingView",
+  "version": "1.1.4",
+  "summary": "ThingTabPagingView for thing",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingTabPagingView-1.1.4-aefb70.zip",
+    "type": "zip",
+    "sha1": "54f534e45bf0279f9e3c2ee56fce3dd76775c390"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "HMSegmentedControl": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingFoundationKit/ThingFoundationKit.h>\n#import <ThingUIKit/ThingUIKit.h>",
+  "vendored_frameworks": [
+    "ThingTabPagingView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

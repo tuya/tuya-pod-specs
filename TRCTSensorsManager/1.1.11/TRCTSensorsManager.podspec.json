@@ -1,0 +1,30 @@
+{
+  "name": "TRCTSensorsManager",
+  "version": "1.1.11",
+  "summary": "A short description of TRCTSensorsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSensorsManager-1.1.11-99e723.zip",
+    "type": "zip",
+    "sha1": "8251282893208306110d6a59b51f8e141a7e2159"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSensorsManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTSensorsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

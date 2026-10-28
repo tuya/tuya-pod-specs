@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceIotCardPlugAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingDeviceIotCardPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceIotCardPlugAPI-1.2.1-3dc21f.zip",
+    "type": "zip",
+    "sha1": "e215ab905eba37d7ec42be01d065ef0dd94d6cbc"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceIotCardPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

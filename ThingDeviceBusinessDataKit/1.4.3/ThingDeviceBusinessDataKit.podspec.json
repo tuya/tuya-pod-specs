@@ -1,0 +1,45 @@
+{
+  "name": "ThingDeviceBusinessDataKit",
+  "version": "1.4.3",
+  "summary": "A short description of ThingDeviceBusinessDataKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceBusinessDataKit-1.4.3-a3fef9.zip",
+    "type": "zip",
+    "sha1": "0e8ad6c4d49610151ba388a6bf960e8fe713b2a9"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartShareKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceBusinessDataKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

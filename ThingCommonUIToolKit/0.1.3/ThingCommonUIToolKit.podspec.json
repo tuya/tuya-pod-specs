@@ -1,0 +1,27 @@
+{
+  "name": "ThingCommonUIToolKit",
+  "version": "0.1.3",
+  "summary": "A short description of ThingCommonUIToolKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCommonUIToolKit-0.1.3-ef18b6.zip",
+    "type": "zip",
+    "sha1": "f2037a01a20b3fe7b7f3e4cfeb5940e7d244df60"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingCommonUI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingCommonUIToolKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

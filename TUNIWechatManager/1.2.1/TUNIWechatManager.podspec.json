@@ -1,0 +1,48 @@
+{
+  "name": "TUNIWechatManager",
+  "version": "1.2.1",
+  "summary": "A short description of TUNIWechatManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIWechatManager-1.2.1-bed6f8.zip",
+    "type": "zip",
+    "sha1": "8f7bae911966ddbd7d519de43c82dcd7c07dd032"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "TUNIWechatManager": [
+      "ios/TUNIWechatManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLoginModuleBizKit": [
+
+    ],
+    "ThingSmartSettingsBizKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSocialAPI": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIWechatManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

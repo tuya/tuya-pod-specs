@@ -1,0 +1,30 @@
+{
+  "name": "ThingSmartSecurityModuleService",
+  "version": "5.2.4",
+  "summary": "A short description of ThingSmartSecurityModuleService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSecurityModuleService-5.2.4-76a85d.zip",
+    "type": "zip",
+    "sha1": "a5bbf90c18f3529d5cfb39410971bc3573c493dd"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSecurityArmAbilityModuleServices": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartSecurityModuleService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

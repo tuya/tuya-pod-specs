@@ -1,0 +1,33 @@
+{
+  "name": "TRCTDoorBellManager",
+  "version": "6.4.4",
+  "summary": "A short description of TRCTDoorBellManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTDoorBellManager-6.4.4-853c23.zip",
+    "type": "zip",
+    "sha1": "419bfe24acd2cea7fcdb7ed1aa80bcf3505bd9be"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartCameraKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTDoorBellManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

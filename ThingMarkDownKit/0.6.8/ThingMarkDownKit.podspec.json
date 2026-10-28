@@ -1,0 +1,40 @@
+{
+  "name": "ThingMarkDownKit",
+  "version": "0.6.8",
+  "summary": "A short description of ThingMarkDownKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingMarkDownKit-0.6.8-8d08c5.zip",
+    "type": "zip",
+    "sha1": "fa804c3f0a92414140a29d5a2412874c67b7059c"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "resources": [
+    "ThingMarkDownKit/Classes/Resources/DownView.bundle"
+  ],
+  "dependencies": {
+    "ThingCmarkGfm": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ThingMarkDownKit/Classes/AST/Styling/Helpers\" \"$(PODS_TARGET_SRCROOT)/ThingMarkDownKit/Classes/Vendor/iosMath/render\" \"$(PODS_TARGET_SRCROOT)/ThingMarkDownKit/Classes/Vendor/iosMath/render/internal\" \"$(PODS_TARGET_SRCROOT)/ThingMarkDownKit/Classes/Vendor/iosMath/lib\""
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1"
+  ],
+  "vendored_frameworks": [
+    "ThingMarkDownKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "swift_version": "5.1"
+}

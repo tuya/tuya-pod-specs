@@ -1,0 +1,43 @@
+{
+  "name": "TUNIDownloadFileManager",
+  "version": "1.5.1",
+  "summary": "A short description of TUNIDownloadFileManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDownloadFileManager-1.5.1-ca5eb7.zip",
+    "type": "zip",
+    "sha1": "ee337d03b69c789bcaef6d9da82331993a9f960b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": [
+    "MobileCoreServices",
+    "UniformTypeIdentifiers"
+  ],
+  "resource_bundles": {
+    "TUNIDownloadFileManager": [
+      "ios/TUNIDownloadFileManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIDownloadFileManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

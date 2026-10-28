@@ -1,0 +1,84 @@
+{
+  "name": "TUNIDeviceKit",
+  "version": "7.11.2",
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIDeviceKit-7.11.2-538ade.zip",
+    "type": "zip",
+    "sha1": "53d59ab7cc24d6d0a1864621299361300b564883"
+  },
+  "resource_bundles": {
+    "TUNIDeviceKit": [
+      "ios/TUNIDeviceKit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAssociationControlManager": [
+      "7.8.0"
+    ],
+    "TUNIBluetoothManager": [
+      "7.8.0-rc.3"
+    ],
+    "TUNIDeviceActivationManager": [
+      "1.6.2"
+    ],
+    "TUNIDeviceControlManager": [
+      "7.11.2"
+    ],
+    "TUNIDeviceDetailInfoManager": [
+      "7.8.3"
+    ],
+    "TUNIDeviceDetailManager": [
+      "7.8.0"
+    ],
+    "TUNIDeviceNetworkManager": [
+      "1.1.0"
+    ],
+    "TUNIDeviceSceneManager": [
+      "1.8.5"
+    ],
+    "TUNIDeviceShareManager": [
+      "1.2.1"
+    ],
+    "TUNIGroupControlManager": [
+      "7.1.8"
+    ],
+    "TUNIMatterDeviceManager": [
+      "6.3.2"
+    ],
+    "TUNIMeshManager": [
+      "1.1.2"
+    ],
+    "TUNIOTAManager": [
+      "6.5.1"
+    ],
+    "TUNIRemoteRebootManager": [
+      "1.1.1"
+    ],
+    "TUNIThingControlManager": [
+      "6.4.3"
+    ],
+    "TUNIVirtualExperienceManager": [
+      "1.1.2"
+    ]
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

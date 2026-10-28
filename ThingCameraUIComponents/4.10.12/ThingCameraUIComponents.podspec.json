@@ -1,0 +1,70 @@
+{
+  "name": "ThingCameraUIComponents",
+  "version": "4.10.12",
+  "summary": "A short description of ThingCameraUIComponents.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCameraUIComponents-4.10.12-dca4b1.zip",
+    "type": "zip",
+    "sha1": "3bde035d650ef50804c3a4048479ccef1435e5bb"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resource_bundles": {
+    "ThingCameraUIComponents": [
+      "ThingCameraUIComponents/Assets/**/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "DACircularProgress": [
+
+    ],
+    "ThingCameraUIKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartCameraBase": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingCameraUIComponents.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

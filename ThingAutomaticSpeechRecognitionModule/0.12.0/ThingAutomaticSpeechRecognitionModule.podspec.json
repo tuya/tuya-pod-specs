@@ -1,0 +1,58 @@
+{
+  "name": "ThingAutomaticSpeechRecognitionModule",
+  "version": "0.12.0",
+  "summary": "A short description of ThingAutomaticSpeechRecognitionModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAutomaticSpeechRecognitionModule-0.12.0-756774.zip",
+    "type": "zip",
+    "sha1": "dd023a8334d8017587cad98cba05037bd64dea1e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  },
+  "dependencies": {
+    "Protobuf": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingSmartStreamChannelKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingAudioRecordInterface": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingAutomaticSpeechRecognitionModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

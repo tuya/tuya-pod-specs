@@ -1,0 +1,30 @@
+{
+  "name": "ThingGroupHandlePlugAPI",
+  "version": "1.2.2",
+  "summary": "A short description of ThingGroupHandlePlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingGroupHandlePlugAPI-1.2.2-6c6ea4.zip",
+    "type": "zip",
+    "sha1": "e9be606c0af6cc20b38af522152848a95e822ea9"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingGroupHandlePlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

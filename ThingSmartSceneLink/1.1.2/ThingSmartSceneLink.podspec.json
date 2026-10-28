@@ -1,0 +1,42 @@
+{
+  "name": "ThingSmartSceneLink",
+  "version": "1.1.2",
+  "summary": "A short description of ThingSmartSceneLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartSceneLink-1.1.2-e72548.zip",
+    "type": "zip",
+    "sha1": "42f1dd31ab209716acdd68cc9a408b1a72d0da84"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingBusinessService": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartSceneKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartSceneLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

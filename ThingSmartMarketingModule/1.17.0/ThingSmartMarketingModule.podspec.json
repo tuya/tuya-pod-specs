@@ -1,0 +1,130 @@
+{
+  "name": "ThingSmartMarketingModule",
+  "version": "1.17.0",
+  "summary": "A short description of ThingSmartMarketingModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartMarketingModule-1.17.0-de703b.zip",
+    "type": "zip",
+    "sha1": "4e0344cd8d9edaf904c0df078661bfd17aa31a5e"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "resources": [
+    "ThingSmartMarketingModule/Assets/*.{png,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingBlockKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ],
+    "ThingUrlPredefinedExternal": [
+
+    ],
+    "ThingSwipeView": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingMessageCenterModule": [
+
+    ],
+    "ThingSmartMQTTChannelKit": [
+
+    ],
+    "GodzillaMiniIService": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingMachRegister": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingSmartMarketingAPI": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingDPCContainer": [
+
+    ],
+    "ThingDIYHomeInterface": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingDmicContainerAbilitiesAPI": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingAdMobInterface": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n#import <ThingSmartMarketingAPI/ThingSmartMarketingAPI.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartMarketingModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartMarketingModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartMarketingModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartMarketingModule\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartMarketingModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

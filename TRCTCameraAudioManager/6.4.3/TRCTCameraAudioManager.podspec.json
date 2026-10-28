@@ -1,0 +1,30 @@
+{
+  "name": "TRCTCameraAudioManager",
+  "version": "6.4.3",
+  "summary": "A short description of TRCTCameraAudioManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraAudioManager-6.4.3-1c50e6.zip",
+    "type": "zip",
+    "sha1": "9d7482675cdb28dde734e3849f94410389bae288"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartAudioKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCameraAudioManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

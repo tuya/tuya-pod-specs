@@ -1,0 +1,31 @@
+{
+  "name": "ThingFileUploadKit",
+  "version": "1.0.3",
+  "summary": "A short description of ThingFileUploadKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingFileUploadKit-1.0.3-776d5b.zip",
+    "type": "zip",
+    "sha1": "10041566843940c2d1b2bff20c0675c140fb7961"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": "Foundation",
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingFileUploadKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

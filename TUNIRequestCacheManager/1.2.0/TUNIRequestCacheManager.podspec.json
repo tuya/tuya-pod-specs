@@ -1,0 +1,42 @@
+{
+  "name": "TUNIRequestCacheManager",
+  "version": "1.2.0",
+  "summary": "A short description of TUNIRequestCacheManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIRequestCacheManager-1.2.0-2af40c.zip",
+    "type": "zip",
+    "sha1": "2bda9c960853617d4831190708a613debdd31289"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIRequestCacheManager": [
+      "ios/TUNIRequestCacheManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIRequestCacheManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

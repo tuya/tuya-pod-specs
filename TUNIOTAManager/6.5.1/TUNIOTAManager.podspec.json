@@ -1,0 +1,44 @@
+{
+  "name": "TUNIOTAManager",
+  "version": "6.5.1",
+  "summary": "A short description of TUNIOTAManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIOTAManager-6.5.1-df730b.zip",
+    "type": "zip",
+    "sha1": "6dcb9a9fa250177ae44a45c9733c4205653179ba"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIOTAManager": [
+      "ios/tuniotamanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIOTAManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

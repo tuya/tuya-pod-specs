@@ -1,0 +1,44 @@
+{
+  "name": "ThingModelManagerSDK",
+  "version": "1.0.0",
+  "summary": "C++ 侧模型获取门面，下载与解密桥回宿主 ThingAIModelManagerIOS。",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingModelManagerSDK-1.0.0-3c8762.zip",
+    "type": "zip",
+    "sha1": "fb88fa789d0722b87ba699d40c5657b48a173030"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "exclude_files": [
+    "ThingModelManagerSDK/Platforms/Android/**/*.*",
+    "ThingModelManagerSDK/Platforms/Desktop/**/*.*"
+  ],
+  "libraries": "c++",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "ThingOnAppAILoggerSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) THING_MODEL_MANAGER_VERSION=\\\"0.0.2\\\" THING_MODEL_WITH_LOG_SDK=1 THING_MODEL_MANAGER_BUILDING_LIBRARY=1",
+    "GCC_SYMBOLS_PRIVATE_EXTERN": "YES",
+    "GCC_INLINES_ARE_PRIVATE_EXTERN": "YES",
+    "HEADER_SEARCH_PATHS": "$(inherited) $(PODS_TARGET_SRCROOT)/ThingModelManagerSDK/CAPI $(PODS_TARGET_SRCROOT)/ThingModelManagerSDK/onappai-model $(PODS_TARGET_SRCROOT)/ThingModelManagerSDK/Platforms/iOS"
+  },
+  "vendored_frameworks": [
+    "Build/ThingModelManagerSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingModelManagerSDK.xcframework/ios-arm64/ThingModelManagerSDK.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

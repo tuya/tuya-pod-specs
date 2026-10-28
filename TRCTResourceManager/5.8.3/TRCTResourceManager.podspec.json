@@ -1,0 +1,34 @@
+{
+  "name": "TRCTResourceManager",
+  "version": "5.8.3",
+  "summary": "A short description of TRCTResourceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTResourceManager-5.8.3-f42821.zip",
+    "type": "zip",
+    "sha1": "3669d634a635731077a6b9fc3953900ed467e57c"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "ios": {
+    "resource_bundles": {
+      "ui_style_config": "resource/ui_style_config/*.json",
+      "iconfont": [
+        "resource/iconfont/*.json",
+        "resource/iconfont/*.ttf"
+      ]
+    }
+  },
+  "resources": [
+    "resource/*.json"
+  ],
+  "vendored_frameworks": [
+    "TRCTResourceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "react-native-video",
+  "version": "3.2.7",
+  "summary": "A <Video /> element for react-native",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-video-3.2.7-fff725.zip",
+    "type": "zip",
+    "sha1": "c5ed63ed27c1a6fc225547bdec2ac9a56481d46e"
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AVKit",
+    "MediaAccessibility",
+    "CoreMedia"
+  ],
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingAudioSpectrum": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "react_native_video.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

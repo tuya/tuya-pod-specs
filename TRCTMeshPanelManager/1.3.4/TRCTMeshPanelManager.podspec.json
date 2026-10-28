@@ -1,0 +1,36 @@
+{
+  "name": "TRCTMeshPanelManager",
+  "version": "1.3.4",
+  "summary": "A short description of TRCTMeshPanelManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTMeshPanelManager-1.3.4-404447.zip",
+    "type": "zip",
+    "sha1": "6eac6d5db67dc6c723a4e80b4b95a63090b9fd26"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTMeshPanelManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

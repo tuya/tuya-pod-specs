@@ -1,0 +1,30 @@
+{
+  "name": "TRCTGestureLockViewManager",
+  "version": "1.1.2",
+  "summary": "A short description of TRCTGestureLockViewManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTGestureLockViewManager-1.1.2-f3ec41.zip",
+    "type": "zip",
+    "sha1": "c326ea8ad3186ecc13b05b995fc054681468f07f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ATGestureLockView": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTGestureLockViewManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

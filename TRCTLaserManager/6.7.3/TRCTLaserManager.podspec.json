@@ -1,0 +1,43 @@
+{
+  "name": "TRCTLaserManager",
+  "version": "6.7.3",
+  "summary": "A short description of TRCTLaserManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLaserManager-6.7.3-747f66.zip",
+    "type": "zip",
+    "sha1": "01ec5fc9814312a507466c403021d721f618ee7d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingSmartSweeperKit": [
+
+    ],
+    "ThingSweeperLZ4": [
+
+    ],
+    "ThingPanelSweeperUtil": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TRCTLaserManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TRCTLaserManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TRCTLaserManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TRCTLaserManager\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "TRCTLaserManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

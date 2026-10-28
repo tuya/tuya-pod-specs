@@ -1,0 +1,45 @@
+{
+  "name": "ThingSmartBLEModule",
+  "version": "1.2.5",
+  "summary": "A short description of ThingSmartBLEModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartBLEModule-1.2.5-391b8d.zip",
+    "type": "zip",
+    "sha1": "e3ca4023228318bd0d2551bd07d9bc962a958bfe"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingTacticsManager": [
+
+    ],
+    "ThingConfigHub": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartBLEModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

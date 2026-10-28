@@ -1,0 +1,33 @@
+{
+  "name": "TRCTSlider",
+  "version": "1.1.2",
+  "summary": "A short description of TRCTSlider.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSlider-1.1.2-938b10.zip",
+    "type": "zip",
+    "sha1": "cac8a1839d172d317432b801af6beed1ff968a3b"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTSlider.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

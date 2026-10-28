@@ -1,0 +1,38 @@
+{
+  "name": "ATGestureLockView",
+  "version": "0.2.4",
+  "summary": "A short description of ATGestureLockView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ATGestureLockView-0.2.4-f33d1b.zip",
+    "type": "zip",
+    "sha1": "6ac91ba36ca4704e6728d7151c1dd807fdd48319"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "ATGestureLockView": [
+      "ATGestureLockView/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ThingBlockKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ATGestureLockView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

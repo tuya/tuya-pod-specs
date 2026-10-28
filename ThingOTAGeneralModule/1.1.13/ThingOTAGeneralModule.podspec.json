@@ -1,0 +1,106 @@
+{
+  "name": "ThingOTAGeneralModule",
+  "version": "1.1.13",
+  "summary": "A short description of ThingOTAGeneralModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOTAGeneralModule-1.1.13-b16808.zip",
+    "type": "zip",
+    "sha1": "729d400bbd542fc7c593532491d525f9bc074cfc"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingOTAGeneralModule": [
+      "ThingOTAGeneralModule/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "NetworkExtension",
+    "SystemConfiguration",
+    "CoreLocation"
+  ],
+  "prefix_header_file": "ThingOTAGeneralModule/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingKVStorageLibrary": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingFileDownloadManager": [
+
+    ],
+    "ThingOTAGeneralPlugAPI": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingConfigHub": [
+
+    ],
+    "ThingPanelModulePlugAPI": [
+
+    ],
+    "ThingOTAGeneralExternalAPI": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingFamilyAPI": [
+
+    ],
+    "ThingFallLayout": [
+
+    ],
+    "ThingDeviceTinyBusinessPlugAPI": [
+
+    ],
+    "ThingDeviceDetailKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingOTAGeneralModule\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingOTAGeneralModule\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingOTAGeneralModule\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingOTAGeneralModule\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingOTAGeneralModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

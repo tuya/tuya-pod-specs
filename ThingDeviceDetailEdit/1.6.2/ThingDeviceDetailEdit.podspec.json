@@ -1,0 +1,96 @@
+{
+  "name": "ThingDeviceDetailEdit",
+  "version": "1.6.2",
+  "summary": "A short description of ThingDeviceDetailEdit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceDetailEdit-1.6.2-5dc8c9.zip",
+    "type": "zip",
+    "sha1": "6b17024a1bad44d06a1461240d61e131e379a968"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingDeviceDetailEdit": [
+      "ThingDeviceDetailEdit/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingTemplateSkeleton": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartEventPredefined_Public": [
+
+    ],
+    "ThingSmartEventPredefined": [
+
+    ],
+    "ThingMediaKit": [
+
+    ],
+    "ThingInterfaceConfig": [
+
+    ],
+    "ThingDeviceEditPlugAPI": [
+
+    ],
+    "ThingDeviceBusinessDataKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingRoomManagerInterface": [
+
+    ],
+    "ThingStatisticsKit": [
+
+    ],
+    "ThingBusinessTrackAPI": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingDeviceEditSktAPI": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingDeviceDetailEdit\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceDetailEdit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

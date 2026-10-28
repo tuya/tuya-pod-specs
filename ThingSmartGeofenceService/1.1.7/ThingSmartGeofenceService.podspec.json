@@ -1,0 +1,45 @@
+{
+  "name": "ThingSmartGeofenceService",
+  "version": "1.1.7",
+  "summary": "A short description of ThingSmartGeofenceService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartGeofenceService-1.1.7-115083.zip",
+    "type": "zip",
+    "sha1": "36380a055e5135a8c81203f22a99d8bee9c0ee32"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingLocationAuthManager": [
+
+    ],
+    "ThingPublicBLELockIOSKit": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSmartGeofenceService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

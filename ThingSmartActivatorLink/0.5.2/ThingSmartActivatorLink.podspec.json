@@ -1,0 +1,45 @@
+{
+  "name": "ThingSmartActivatorLink",
+  "version": "0.5.2",
+  "summary": "A short description of ThingSmartActivatorLink.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActivatorLink-0.5.2-74da6d.zip",
+    "type": "zip",
+    "sha1": "768f43eb5b73bd864d6146e80a5f9d6877d9542d"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartActivatorKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSmartActivatorLink.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "TRCTThirdMusicControl",
+  "version": "1.0.3",
+  "summary": "A short description of TRCTThirdMusicControl.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTThirdMusicControl-1.0.3-3f7782.zip",
+    "type": "zip",
+    "sha1": "adae52a891037ecd50e0dee191d146ca93ecb684"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTThirdMusicControl.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

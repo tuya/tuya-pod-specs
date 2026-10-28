@@ -1,0 +1,36 @@
+{
+  "name": "TRCTSensorsDBManager",
+  "version": "6.7.3",
+  "summary": "A short description of TRCTSensorsDBManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTSensorsDBManager-6.7.3-edd1e9.zip",
+    "type": "zip",
+    "sha1": "3b5651696c74a11a4203d5a806272a13f01edcb0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingStorageLibrary": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTSensorsDBManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "ThingCloudStorageSignatureTools",
+  "version": "1.2.2",
+  "summary": "ThingCloudStorageSignatureTools framework.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingCloudStorageSignatureTools-1.2.2-a7185d.zip",
+    "type": "zip",
+    "sha1": "190790312a5896a2195a74634af4741b6a67b03b"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingCloudStorageSignatureTools/**/Android/*.*",
+    "ThingCloudStorageSignatureTools/Include/**/*.*"
+  ],
+  "vendored_libraries": [
+    "ThingCloudStorageSignatureTools/Libs/iOS/*.a"
+  ],
+  "ios": {
+    "dependencies": {
+      "ThingOpenSSLSDK": [
+        "~> 1.1.1-t.0"
+      ]
+    }
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation",
+    "CoreAudio",
+    "CoreMedia",
+    "CoreVideo",
+    "VideoToolbox",
+    "AudioToolbox"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingCloudStorageSignatureTools/src $(PODS_TARGET_SRCROOT)/ThingCloudStorageSignatureTools/include",
+    "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": [
+    "Build/ThingCloudStorageSignatureTools.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingCloudStorageSignatureTools.xcframework/ios-arm64/ThingCloudStorageSignatureTools.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

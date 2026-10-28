@@ -1,0 +1,54 @@
+{
+  "name": "ThingAlertPickerComponent",
+  "version": "0.3.4",
+  "summary": "A short description of ThingAlertPickerComponent.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAlertPickerComponent-0.3.4-274053.zip",
+    "type": "zip",
+    "sha1": "22e62fb2d9406665bf03444884c02b083ddbc986"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartBusinessLibrary": [
+
+    ],
+    "ThingAnimationKit": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "JavaScriptCore",
+    "MapKit",
+    "CoreGraphics",
+    "CoreLocation",
+    "AVFoundation",
+    "QuartzCore",
+    "CFNetwork",
+    "Security",
+    "AddressBook",
+    "CoreTelephony",
+    "ImageIO",
+    "MobileCoreServices",
+    "Accelerate",
+    "AudioToolbox",
+    "UserNotifications",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Photos",
+    "AssetsLibrary",
+    "MediaPlayer"
+  ],
+  "vendored_frameworks": [
+    "ThingAlertPickerComponent.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

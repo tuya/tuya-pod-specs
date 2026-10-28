@@ -1,0 +1,79 @@
+{
+  "name": "ThingLightSceneBizKit",
+  "version": "2.4.20",
+  "summary": "A short description of ThingLightSceneBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingLightSceneBizKit-2.4.20-5cfa22.zip",
+    "type": "zip",
+    "sha1": "4e05658ae83bca413b2d3fb0b637124a4ca1669e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingLightSceneBizKit/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingFoundationKit": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingLightSceneKit": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAnnotationFoundation": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingLightSceneSktAPI": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingLightCommonUI": [
+
+    ],
+    "ThingLightLampHomeBizKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "EZAudio": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingLightSceneBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

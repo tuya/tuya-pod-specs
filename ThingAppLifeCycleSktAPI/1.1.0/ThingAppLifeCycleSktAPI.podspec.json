@@ -1,0 +1,26 @@
+{
+  "name": "ThingAppLifeCycleSktAPI",
+  "version": "1.1.0",
+  "summary": "App生命周期监听整理回调",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAppLifeCycleSktAPI-1.1.0-019284.zip",
+    "type": "zip",
+    "sha1": "ae0bfd5e7e52d8af9f373c0be19786799b3aeedd"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "vendored_frameworks": [
+    "ThingAppLifeCycleSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

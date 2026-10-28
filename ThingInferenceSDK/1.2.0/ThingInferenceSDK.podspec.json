@@ -1,0 +1,37 @@
+{
+  "name": "ThingInferenceSDK",
+  "version": "1.2.0",
+  "summary": "Thing Inference SDK (plugin-based)",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingInferenceSDK-1.2.0-f913cc.zip",
+    "type": "zip",
+    "sha1": "2a9d9df3ad1396e02698948b5f78680b45f5c640"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "exclude_files": "ThingInferenceSDK/Source/Platform/Android/**/*",
+  "dependencies": {
+    "ThingOnAppAILoggerSDK": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++17",
+    "CLANG_CXX_LIBRARY": "libc++",
+    "ENABLE_BITCODE": "NO",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingInferenceSDK/Include $(PODS_TARGET_SRCROOT)/ThingInferenceSDK/Source $(PODS_TARGET_SRCROOT)/ThingInferenceSDK/ThingOnAppAILog $(PODS_TARGET_SRCROOT)/ThingInferenceSDK/ThirdParty",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "vendored_frameworks": [
+    "Build/ThingInferenceSDK.xcframework"
+  ],
+  "source_files": [
+    "Build/ThingInferenceSDK.xcframework/ios-arm64/ThingInferenceSDK.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ]
+}

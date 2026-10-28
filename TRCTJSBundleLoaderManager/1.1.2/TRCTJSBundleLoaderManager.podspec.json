@@ -1,0 +1,33 @@
+{
+  "name": "TRCTJSBundleLoaderManager",
+  "version": "1.1.2",
+  "summary": "A short description of TRCTJSBundleLoaderManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTJSBundleLoaderManager-1.1.2-d0e604.zip",
+    "type": "zip",
+    "sha1": "d0e57bdc832833b7e70265a401dadd1d8d119e98"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingTarKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTJSBundleLoaderManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

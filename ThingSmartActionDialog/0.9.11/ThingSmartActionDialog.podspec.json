@@ -1,0 +1,50 @@
+{
+  "name": "ThingSmartActionDialog",
+  "version": "0.9.11",
+  "summary": "A short description of ThingSmartActionDialog.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartActionDialog-0.9.11-38cb58.zip",
+    "type": "zip",
+    "sha1": "21d7023e9ba497f4e118b6d6c4334ee8b16b4c7f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartActionDialog/Assets/*.{bundle}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartActionDialog\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartActionDialog\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartActionDialog\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartActionDialog\", ##__VA_ARGS__)",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingSmartActionDialog.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

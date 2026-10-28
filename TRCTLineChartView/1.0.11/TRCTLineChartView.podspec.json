@@ -1,0 +1,30 @@
+{
+  "name": "TRCTLineChartView",
+  "version": "1.0.11",
+  "summary": "A short description of TRCTLineChartView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTLineChartView-1.0.11-1d72f7.zip",
+    "type": "zip",
+    "sha1": "1b4afdb33837bb8466f99658c91a97adb9195fa9"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingUIKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTLineChartView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

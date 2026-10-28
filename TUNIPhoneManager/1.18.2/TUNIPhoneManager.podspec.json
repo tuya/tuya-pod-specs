@@ -1,0 +1,61 @@
+{
+  "name": "TUNIPhoneManager",
+  "version": "1.18.2",
+  "summary": "A short description of TUNIPhoneManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIPhoneManager-1.18.2-ad88da.zip",
+    "type": "zip",
+    "sha1": "2258b8ac6205ffc9670363620b580f9220e93da1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIPhoneManager": [
+      "ios/TUNIPhoneManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingSmartUtil": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIPhoneManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "TencentOpen",
+  "version": "3.5.22",
+  "summary": "The Official iOS SDK of Tencent Open API.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TencentOpen-3.5.22-32d18e.zip",
+    "type": "zip",
+    "sha1": "c6ac5b94a164163c6134981e05ebd4880ca43abb"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "vendored_frameworks": [
+    "TencentOpen.xcframework",
+    "TYTencentOpenApi/Vendors/TencentOpenAPI.framework"
+  ],
+  "pod_target_xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)"
+  },
+  "libraries": [
+    "iconv",
+    "z",
+    "c++",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "Security",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "WebKit"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

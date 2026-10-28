@@ -1,0 +1,42 @@
+{
+  "name": "ThingAudioFileProcessSDK",
+  "version": "1.1.0",
+  "summary": "Audio file splitting, decoding, amplitude and MP3 transcode utilities.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAudioFileProcessSDK-1.1.0-9ebf90.zip",
+    "type": "zip",
+    "sha1": "5d548fb485ffdb17f365dca7c90806b82ae9fc4c"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingAvLoggerSDK": [
+
+    ],
+    "ThingMP3CodecSDK": [
+
+    ],
+    "ThingAudioCodecSDK": [
+
+    ],
+    "ThingAudioProcessSDK": [
+
+    ]
+  },
+  "frameworks": "Foundation",
+  "libraries": "c++",
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++14",
+    "HEADER_SEARCH_PATHS": "$(inherited) \"${PODS_TARGET_SRCROOT}/ThingAudioFileProcessSDK/Include/avlog\" \"${PODS_TARGET_SRCROOT}/ThingAudioFileProcessSDK/Source\" \"${PODS_TARGET_SRCROOT}/ThingAudioFileProcessSDK/Source/FileSplitter\" \"${PODS_TARGET_SRCROOT}/ThingAudioFileProcessSDK/Source/FileMerge\" \"${PODS_TARGET_SRCROOT}/ThingAudioFileProcessSDK/Source/FileMp3Encoder\" \"${PODS_TARGET_SRCROOT}/ThingAudioFileProcessSDK/Source/FilePcmDecoder\" \"${PODS_TARGET_SRCROOT}/ThingAudioFileProcessSDK/Source/FileAmplitude\""
+  },
+  "vendored_frameworks": [
+    "ThingAudioFileProcessSDK.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

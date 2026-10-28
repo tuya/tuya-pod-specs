@@ -1,0 +1,33 @@
+{
+  "name": "TRCTChartsManager",
+  "version": "3.1.3",
+  "summary": "A short description of TRCTChartsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTChartsManager-3.1.3-e27c11.zip",
+    "type": "zip",
+    "sha1": "ae0fad71a3c12c3b1326e5b1e764c59458e24b7f"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingModuleServices": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTChartsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

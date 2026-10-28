@@ -1,0 +1,39 @@
+{
+  "name": "TUNIMapSearchManager",
+  "version": "7.10.0",
+  "summary": "A short description of TUNIMapSearchManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIMapSearchManager-7.10.0-1fbca9.zip",
+    "type": "zip",
+    "sha1": "52c969060500a5276d23613ddf054f17d4b47d24"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMapSearchManager": [
+      "ios/TUNIMapSearchManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingMapKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIMapSearchManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

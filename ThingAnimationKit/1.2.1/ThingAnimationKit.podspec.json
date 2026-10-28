@@ -1,0 +1,36 @@
+{
+  "name": "ThingAnimationKit",
+  "version": "1.2.1",
+  "summary": "A short description of ThingAnimationKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingAnimationKit-1.2.1-7f3a11.zip",
+    "type": "zip",
+    "sha1": "086f18c16a69c3751be62e4f1864a2c7ecae91ae"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingAnimationKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ThingDeviceMigrateSktAPI",
+  "version": "1.2.1",
+  "summary": "A short description of ThingDeviceMigrateSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingDeviceMigrateSktAPI-1.2.1-92bbc0.zip",
+    "type": "zip",
+    "sha1": "5fdd1008a0a88672a3b9f9bd635394bb7b0ec87e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingDeviceMigrateSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

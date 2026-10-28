@@ -1,0 +1,33 @@
+{
+  "name": "react-native-webview",
+  "version": "11.6.2.3",
+  "summary": "React Native WebView component for iOS, Android, macOS, and Windows",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "homepage": "https://github.com/tuya",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-webview-11.6.2.3-00f612.zip",
+    "type": "zip",
+    "sha1": "d467aaed71f18ee7bb90067384d69e9c22ec3918"
+  },
+  "dependencies": {
+    "React": [
+
+    ],
+    "ThingNetworkAreaInterceptorAPI": [
+
+    ],
+    "ThingModuleManager": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "react_native_webview.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

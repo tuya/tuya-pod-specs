@@ -1,0 +1,48 @@
+{
+  "name": "ThingSmartPanoramaSDK",
+  "version": "1.1.6",
+  "summary": "A short description of ThingSmartPanoramaSDK.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartPanoramaSDK-1.1.6-6f0ae4.zip",
+    "type": "zip",
+    "sha1": "5e4c18d3b1bba948b23733837f35f37eeb0069da"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingSmartPanoramaSDK/**/Android/*.*",
+    "ThingSmartPanoramaSDK/CAPI/*.*"
+  ],
+  "ios": {
+    "vendored_libraries": "ThingSmartPanoramaSDK/libs/iOS/*.a"
+  },
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "OTHER_LDFLAGS": "-read_only_relocs suppress",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX __STDC_CONSTANT_MACROS $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/inc $(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/jpeg $(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/jpeg/include",
+    "ENABLE_BITCODE": "NO"
+  },
+  "vendored_frameworks": [
+    "ThingSmartPanoramaSDK.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

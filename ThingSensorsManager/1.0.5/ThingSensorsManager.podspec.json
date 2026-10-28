@@ -1,0 +1,22 @@
+{
+  "name": "ThingSensorsManager",
+  "version": "1.0.5",
+  "summary": "A short description of ThingSensorsManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSensorsManager-1.0.5-3a801d.zip",
+    "type": "zip",
+    "sha1": "ae021cd95cf9c8c3d89692e0342820924fcaa5b9"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingSensorsManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

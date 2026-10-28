@@ -1,0 +1,39 @@
+{
+  "name": "ThingBluetoothInterface",
+  "version": "1.23.6",
+  "summary": "A short description of ThingBluetoothInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBluetoothInterface-1.23.6-478031.zip",
+    "type": "zip",
+    "sha1": "958d8cca7dda08474e46f335c3dbe37f528d179e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "ThingSmartUtil": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingBluetoothInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "ThingSmartLocationService",
+  "version": "1.3.2",
+  "summary": "A short description of ThingSmartLocationService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingSmartLocationService-1.3.2-7ebaab.zip",
+    "type": "zip",
+    "sha1": "e7546b9fd3b4858edbd0bd528fc1461e7d7fc380"
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription",
+    "DEFINES_MODULE": "YES"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingSmartLocationService/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingOEMConfig": [
+
+    ],
+    "ThingLogMacro": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingPopupViewController": [
+
+    ],
+    "ThingSmartDeviceCoreKit": [
+
+    ]
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingSmartLocationService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

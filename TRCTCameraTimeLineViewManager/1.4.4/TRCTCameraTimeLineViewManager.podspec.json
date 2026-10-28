@@ -1,0 +1,33 @@
+{
+  "name": "TRCTCameraTimeLineViewManager",
+  "version": "1.4.4",
+  "summary": "A short description of TRCTCameraTimeLineViewManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTCameraTimeLineViewManager-1.4.4-8d6168.zip",
+    "type": "zip",
+    "sha1": "1046a89e45375a9c0f6cfc7f340ffb559354368f"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingCameraUIComponents": [
+
+    ],
+    "ThingCameraRNPanelContext": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTCameraTimeLineViewManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

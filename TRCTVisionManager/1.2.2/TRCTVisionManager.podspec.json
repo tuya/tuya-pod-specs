@@ -1,0 +1,34 @@
+{
+  "name": "TRCTVisionManager",
+  "version": "1.2.2",
+  "summary": "A short description of TRCTVisionManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTVisionManager-1.2.2-da1f88.zip",
+    "type": "zip",
+    "sha1": "c76e5176fd5fc623d5f773a62e6088fd009569c2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingPanelSweeperUtil": [
+
+    ],
+    "ThingLogMacro": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TRCTVisionManager\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TRCTVisionManager\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TRCTVisionManager\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TRCTVisionManager\", ##__VA_ARGS__)",
+  "vendored_frameworks": [
+    "TRCTVisionManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

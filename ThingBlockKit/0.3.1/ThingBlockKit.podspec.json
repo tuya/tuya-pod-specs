@@ -1,0 +1,27 @@
+{
+  "name": "ThingBlockKit",
+  "version": "0.3.1",
+  "summary": "A short description of ThingBlockKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingBlockKit-0.3.1-4501a9.zip",
+    "type": "zip",
+    "sha1": "d4cd7373f66fbcfc8565c02b2049c8e719d0d26e"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "module_name": "BlocksKit",
+  "header_dir": "BlocksKit",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "BlocksKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

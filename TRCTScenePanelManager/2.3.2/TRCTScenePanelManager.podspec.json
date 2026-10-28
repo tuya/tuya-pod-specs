@@ -1,0 +1,42 @@
+{
+  "name": "TRCTScenePanelManager",
+  "version": "2.3.2",
+  "summary": "A short description of TRCTScenePanelManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTScenePanelManager-2.3.2-e770b4.zip",
+    "type": "zip",
+    "sha1": "17285c9f621a475cf45a36c27e5d0be89025697e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartSceneCoreKit": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingUrlPredefined": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTScenePanelManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

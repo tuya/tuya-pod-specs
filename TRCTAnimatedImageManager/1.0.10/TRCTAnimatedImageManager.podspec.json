@@ -1,0 +1,30 @@
+{
+  "name": "TRCTAnimatedImageManager",
+  "version": "1.0.10",
+  "summary": "A short description of TRCTAnimatedImageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAnimatedImageManager-1.0.10-058cfd.zip",
+    "type": "zip",
+    "sha1": "66e83df97a4e1725806f6ecba0af084bf3f219b8"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTAnimatedImageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

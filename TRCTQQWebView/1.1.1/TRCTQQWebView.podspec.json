@@ -1,0 +1,33 @@
+{
+  "name": "TRCTQQWebView",
+  "version": "1.1.1",
+  "summary": "A short description of TRCTQQWebView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTQQWebView-1.1.1-a73bde.zip",
+    "type": "zip",
+    "sha1": "49818a90c72c31c5408093b3cc0bf797ace0f0cd"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "DingDangSDK": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTQQWebView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

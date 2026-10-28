@@ -1,0 +1,39 @@
+{
+  "name": "TRCTStandardGroupManager",
+  "version": "6.5.0",
+  "summary": "A short description of TRCTStandardGroupManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTStandardGroupManager-6.5.0-4a3716.zip",
+    "type": "zip",
+    "sha1": "35e2a1f1b9ad27c44068266f9e1634d4bc788549"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [
+
+    ],
+    "ThingPanelContext": [
+
+    ],
+    "ThingBluetoothInterface": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingBusinessService": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTStandardGroupManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "ThingThemeModule",
+  "version": "1.2.1",
+  "summary": "A short description of ThingThemeModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingThemeModule-1.2.1-03964e.zip",
+    "type": "zip",
+    "sha1": "27193f62b1641fa3f1ecd83ca03993185988d068"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingOEMConfig": [
+
+    ],
+    "ThingUIKit": [
+
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingNavigationController": [
+
+    ]
+  },
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingThemeModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

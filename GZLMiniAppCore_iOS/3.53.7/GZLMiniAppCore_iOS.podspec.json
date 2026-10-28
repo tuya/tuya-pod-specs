@@ -1,0 +1,114 @@
+{
+  "name": "GZLMiniAppCore_iOS",
+  "version": "3.53.7",
+  "summary": "A short description of GZLMiniAppCore_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/GZLMiniAppCore_iOS-3.53.7-889750.zip",
+    "type": "zip",
+    "sha1": "3f4557d642dd3f5df672527a3d71191a2bf7b42d"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "ios": {
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "GZLMiniProgramAdapterAPI_iOS": [
+
+    ],
+    "ThingDynamicContainerPlugin": [
+
+    ],
+    "GodzillaMiniRatePlugin": [
+
+    ],
+    "GodzillaMiniBaseKit": [
+
+    ],
+    "GodzillaMiniOpenAPI": [
+
+    ],
+    "GZLMiniAppCommonUI": [
+
+    ],
+    "GodzillaLogManager": [
+
+    ],
+    "GZLMiniAppStorage": [
+
+    ],
+    "GZLJSEngine": [
+
+    ],
+    "GZLCore": [
+
+    ],
+    "ThingStorageGroupInterface": [
+
+    ],
+    "ThingNavigationController": [
+
+    ],
+    "ThingSmartNetworkKit": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "TUNIAPIManagerKit": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "ThingRealClass": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingLottie": [
+
+    ],
+    "ThingTarKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "Build/GZLMiniAppCore_iOS.xcframework"
+  ],
+  "source_files": [
+    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/Headers/*.{h,hh,hpp,ipp,tpp,hxx,def,inl,inc}"
+  ],
+  "resources": [
+    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64/GZLMiniAppCore_iOS.framework/CustomResources/Bundles/*"
+  ]
+}

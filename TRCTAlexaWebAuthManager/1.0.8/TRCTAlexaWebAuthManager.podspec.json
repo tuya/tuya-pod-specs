@@ -1,0 +1,30 @@
+{
+  "name": "TRCTAlexaWebAuthManager",
+  "version": "1.0.8",
+  "summary": "A short description of TRCTAlexaWebAuthManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TRCTAlexaWebAuthManager-1.0.8-fca51f.zip",
+    "type": "zip",
+    "sha1": "4f1af3621d89044223e05f0b487481b1094f5a0c"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [
+
+    ],
+    "ThingAVSKit": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TRCTAlexaWebAuthManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
