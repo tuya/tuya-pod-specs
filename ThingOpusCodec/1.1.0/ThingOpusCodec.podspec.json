@@ -1,0 +1,26 @@
+{
+  "name": "ThingOpusCodec",
+  "version": "1.1.0",
+  "summary": "A short description of ThingOpusCodec.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingOpusCodec-1.1.0-4b986d.zip",
+    "type": "zip",
+    "sha1": "0fb62bc1fde520c0b58b9d80259a0e9d011c355e"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_libraries": "ThingOpusCodec/Classes/opus/*.a",
+  "preserve_paths": [
+
+  ],
+  "vendored_frameworks": [
+    "ThingOpusCodec.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
