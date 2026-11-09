@@ -1,0 +1,66 @@
+{
+  "name": "TUNIAIAssistantManager",
+  "version": "1.6.4",
+  "summary": "A short description of TUNIAIAssistantManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIAIAssistantManager-1.6.4-5df367.zip",
+    "type": "zip",
+    "sha1": "701c6a4ccf110507622be30549847aaf4e32b92a"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIAIAssistantManager": [
+      "ios/TUNIAIAssistantManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "ThingSmartBaseKit": [
+
+    ],
+    "ThingWebsocketChannelService": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingBusinessService": [
+
+    ],
+    "ThingSmartDeviceKit": [
+
+    ],
+    "ThingProtobuf": [
+      "= 3.19.1.1"
+    ],
+    "ThingModuleServices": [
+
+    ],
+    "ThingAPMService": [
+
+    ],
+    "TUNICode": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIAIAssistantManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

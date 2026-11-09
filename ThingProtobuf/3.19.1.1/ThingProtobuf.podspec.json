@@ -1,0 +1,25 @@
+{
+  "name": "ThingProtobuf",
+  "version": "3.19.1.1",
+  "summary": "Namespaced Protocol Buffers Objective-C runtime for Tuya components.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/ThingProtobuf-3.19.1.1-90f78f.zip",
+    "type": "zip",
+    "sha1": "d2437f27faae9b3310242d8efb712fea4ebca89c"
+  },
+  "requires_arc": false,
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.9",
+    "watchos": "2.0"
+  },
+  "vendored_frameworks": [
+    "ThingProtobuf.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
