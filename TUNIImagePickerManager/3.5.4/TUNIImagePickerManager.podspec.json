@@ -1,0 +1,67 @@
+{
+  "name": "TUNIImagePickerManager",
+  "version": "3.5.4",
+  "summary": "A short description of TUNIImagePickerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TUNIImagePickerManager-3.5.4-f178cd.zip",
+    "type": "zip",
+    "sha1": "4e7e1171608efa2ccfc7adbb039f3674156fe49e"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIImagePickerManager": [
+      "ios/TUNIImagePickerManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "CoreServices",
+  "dependencies": {
+    "TUNIAPIManagerKit": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "ThingImagePickerController": [
+
+    ],
+    "ThingEncryptImage": [
+
+    ],
+    "ThingFoundationKit": [
+
+    ],
+    "ThingAlertView": [
+
+    ],
+    "ThingMediaKit": [
+
+    ],
+    "ThingSmartMediaKit": [
+
+    ],
+    "ThingAuthorizationServices": [
+
+    ],
+    "ThingModuleManager": [
+
+    ],
+    "ThingProgressHUD": [
+
+    ],
+    "ThingVideoCipper": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TUNIImagePickerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

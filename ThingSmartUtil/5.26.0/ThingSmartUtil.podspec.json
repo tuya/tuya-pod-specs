@@ -50,6 +50,8 @@
     "DEFINES_MODULE": "YES"
   },
   "dependencies": {
-    
+    "ThingSmartCryption": [
+      "~> 5.0"
+    ]
   }
 }
